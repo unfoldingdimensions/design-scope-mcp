@@ -16,13 +16,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "library"))
 
 import style_index  # noqa: E402
 
-FAILS = []
-
-
-def check(name, ok, detail=""):
-    print(f"{'PASS' if ok else 'FAIL'}  {name}" + (f"  [{detail}]" if detail else ""))
-    if not ok:
-        FAILS.append(name)
+from _harness import check, finish  # noqa: E402
 
 
 def test_hex_to_hsl():
@@ -107,8 +101,4 @@ if __name__ == "__main__":
     test_hex_to_hsl()
     test_hue_family_boundaries()
     test_build_vectors_fixture()
-    print()
-    if FAILS:
-        print(f"FAILED: {len(FAILS)} check(s): {FAILS}")
-        sys.exit(1)
-    print("ALL PASS")
+    finish()

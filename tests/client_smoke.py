@@ -15,17 +15,11 @@ from pathlib import Path
 from mcp import ClientSession, StdioServerParameters
 from mcp.client.stdio import stdio_client
 
+from _harness import FAILS, check, finish  # noqa: E402
+
 REPO = Path(__file__).resolve().parent.parent
 SERVER = [sys.executable, str(REPO / "library" / "mcp_server.py")]
 DOGFOOD = str(REPO / "docs" / "dogfood-app")
-
-FAILS = []
-
-
-def check(name, ok, detail=""):
-    print(f"{'PASS' if ok else 'FAIL'}  {name}" + (f"  [{detail}]" if detail else ""))
-    if not ok:
-        FAILS.append(name)
 
 
 async def call(s, tool, **kwargs):
@@ -54,11 +48,22 @@ async def smoke_transport():
             check("card_get annotation layer", r4.get("annotation")
                   and r4["annotation"].get("design_intent"))
 
-            # analysis tools
+            # analysis tools — compare.py/theme.py ship with the design-scope
+            # skill, NOT with this repo, so on a clean clone these two tools
+            # correctly return a structured error. Assert that contract instead
+            # of failing the whole smoke run for a dependency we don't ship.
             r5 = await call(s, "card_compare", slug="stripe", project_dir=DOGFOOD)
-            check("card_compare borrow list", "colors_lacking" in r5)
+            if "error" in r5 and "skill scripts not found" in r5["error"]:
+                print("SKIP  card_compare — skill scripts absent (set DESIGN_SCOPE_SKILL_SCRIPTS)")
+                check("card_compare degrades with a hint", bool(r5.get("hint")))
+            else:
+                check("card_compare borrow list", "colors_lacking" in r5)
             r6 = await call(s, "theme_borrow", slug="anthropic", target_dir=DOGFOOD)
-            check("theme_borrow remap+guard", r6["roles"].get("bg") and r6["notes"])
+            if "error" in r6 and "skill scripts not found" in r6["error"]:
+                print("SKIP  theme_borrow — skill scripts absent (set DESIGN_SCOPE_SKILL_SCRIPTS)")
+                check("theme_borrow degrades with a hint", bool(r6.get("hint")))
+            else:
+                check("theme_borrow remap+guard", r6["roles"].get("bg") and r6["notes"])
 
             # history
             r7 = await call(s, "recommend_history", project_dir=DOGFOOD)
@@ -143,8 +148,4 @@ if __name__ == "__main__":
         queue_mock()
     else:
         asyncio.run(smoke_transport())
-    print()
-    if FAILS:
-        print(f"SMOKE FAILED: {len(FAILS)} check(s): {FAILS}")
-        sys.exit(1)
-    print("SMOKE PASS")
+    finish()

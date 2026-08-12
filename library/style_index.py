@@ -32,6 +32,8 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
+from _console import utf8_stdout
+
 LIB = Path(__file__).resolve().parent
 LIBRARY = Path(os.environ.get("DESIGN_SCOPE_LIBRARY", str(LIB))).resolve()
 CARDS = LIBRARY / "cards"
@@ -266,6 +268,7 @@ def write_summary(index: dict) -> None:
 
 
 def main():
+    utf8_stdout()
     ap = argparse.ArgumentParser()
     ap.add_argument("--summary", action="store_true", help="print the summary table")
     args = ap.parse_args()

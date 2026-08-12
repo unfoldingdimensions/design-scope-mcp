@@ -47,7 +47,12 @@ pip install -r requirements.txt
 playwright install chromium
 ```
 
-Python 3.11+. Tested on Windows and Linux.
+Python 3.11+. Tested on Windows and Linux (CI runs both).
+
+**Capture also needs Node.js.** `capture.py` shells out to `npx -y dembrandt`
+for design-token extraction. Searching, filtering, comparing and theme borrowing
+need no Node — only capturing new cards or regenerating media does. Without it a
+capture still produces screenshots, but `fingerprint.json` will be empty.
 
 ## Quickstart
 
@@ -103,11 +108,17 @@ Register with Claude Code: `claude mcp add design-scope -- python "<path-to-repo
 | `style_search` | `query`, `top_n` | ranked cards — natural language: `"funky"`, `"editorial but not brutalist"`, `"warm minimal"` |
 | `style_filter` | vector fields, `archetype`, `max_results` | structured filter (hue/brightness/saturation/corners/flatness/type_mood) |
 | `card_get` | `slug` | full card: fingerprint + semantic + annotation + behaviors + absolute asset paths |
-| `card_compare` | `slug`, `project_dir` | borrow candidates vs the project's fingerprint |
-| `theme_borrow` | `slug`, `target_dir` | token remap + contrast-guarded CSS (WCAG AA) |
+| `card_compare` ⚠️ | `slug`, `project_dir` | borrow candidates vs the project's fingerprint |
+| `theme_borrow` ⚠️ | `slug`, `target_dir` | token remap + contrast-guarded CSS (WCAG AA) |
 | `capture` | `url`, `name`, `category`, `slug`, `fast`, `why` | **job_id** (async, never blocks) |
 | `capture_status` | `job_id` | queued / running / done / failed |
 | `recommend_history` | `project_dir` | the design-scope iteration chain (manifest.json) |
+
+⚠️ **`card_compare` and `theme_borrow` need scripts this repo does not ship.**
+They import `compare.py` / `theme.py`, which come with the design-scope *skill*,
+not with the library. Install the skill or point `DESIGN_SCOPE_SKILL_SCRIPTS` at
+them; without it both tools return a structured error and the other seven work
+normally. See [docs/OSS.md](docs/OSS.md).
 
 Errors are returned as structured JSON (`{"error": ..., "hint": ...}`) — MCP
 has no error types.
@@ -152,10 +163,12 @@ python tests/client_smoke.py --queue          # in-process capture queue mock (n
 python tests/test_style_search.py             # search layer unit tests
 python tests/test_semantic_pass.py            # classifier + vocabulary guard
 python tests/test_style_index.py              # vectors/hue boundaries (temp fixture)
+python tests/test_behavior_pass.py            # hover-diff regression guard
 python tests/test_vocabulary_consistency.py   # producers ⊆ search vocabulary
 ```
 
-The unit suites also run in CI on every push.
+The unit suites and the queue mock run in CI on every push, on both
+ubuntu-latest and windows-latest. Shared plumbing lives in `tests/_harness.py`.
 
 ## Data provenance
 

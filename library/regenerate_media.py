@@ -24,6 +24,8 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
+from _console import utf8_stdout
+
 LIB = Path(__file__).resolve().parent
 LIBRARY = Path(os.environ.get("DESIGN_SCOPE_LIBRARY", str(LIB))).resolve()
 CARDS = LIBRARY / "cards"
@@ -33,6 +35,7 @@ MEDIA_MARKER = "screenshot-desktop.png"  # present → media layer exists
 
 
 def main():
+    utf8_stdout()
     ap = argparse.ArgumentParser()
     ap.add_argument("--all", action="store_true", help="recapture even cards with media (--redo)")
     ap.add_argument("--only", default="", help="comma-separated slugs")
@@ -100,6 +103,20 @@ def main():
                     results.append({"slug": slug, "ok": False, "error": str(e)[:200]})
         finally:
             browser.close()
+
+    # recaptured cards carry fresh semantic.json — the style vectors are built
+    # from it, so rebuild the index the search tools read (the MCP capture path
+    # already does this; regenerating media left the index stale).
+    if any(r.get("ok") and not r.get("skipped") for r in results):
+        try:
+            from style_index import build_vectors, write_summary
+            si = build_vectors()
+            (LIBRARY / "style-index.json").write_text(
+                json.dumps(si, indent=2, ensure_ascii=False), encoding="utf-8")
+            write_summary(si)
+            print(f"style-index rebuilt: {len(si['cards'])} cards")
+        except Exception as e:  # noqa: BLE001
+            print(f"style-index rebuild skipped: {str(e)[:120]}")
 
     ok = sum(1 for r in results if r.get("ok"))
     skipped = sum(1 for r in results if r.get("skipped"))

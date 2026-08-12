@@ -10,15 +10,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "library"))
 
+from _harness import check, finish  # noqa: E402
 from semantic_pass import _classify_intent  # noqa: E402
-
-FAILS = []
-
-
-def check(name, ok, detail=""):
-    print(f"{'PASS' if ok else 'FAIL'}  {name}" + (f"  [{detail}]" if detail else ""))
-    if not ok:
-        FAILS.append(name)
 
 
 def classify(named=None, **over):
@@ -98,8 +91,4 @@ if __name__ == "__main__":
     test_type_mood()
     test_vibe_no_brand_tokens()
     test_vocabulary_guard()
-    print()
-    if FAILS:
-        print(f"FAILED: {len(FAILS)} check(s): {FAILS}")
-        sys.exit(1)
-    print("ALL PASS")
+    finish()

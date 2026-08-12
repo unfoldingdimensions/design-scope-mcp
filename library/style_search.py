@@ -16,12 +16,16 @@ Exit 0 always; prints ranked cards (slug, archetypes, palette, paths).
 """
 import argparse
 import json
+import os
 import re
 import sys
 from pathlib import Path
 
-LIB = Path(__file__).resolve().parent.parent
-INDEX = LIB / "library" / "style-index.json"
+from _console import utf8_stdout
+
+LIB = Path(__file__).resolve().parent
+LIBRARY = Path(os.environ.get("DESIGN_SCOPE_LIBRARY", str(LIB))).resolve()
+INDEX = LIBRARY / "style-index.json"
 
 # query term → list of "kind:value" attribute specs (a term may match several:
 # "soft" is both a saturation and a corners value; "warm" is a hue-family alias)
@@ -85,25 +89,52 @@ def parse_query(q: str) -> tuple[list[str], list[str]]:
     return clean(include), clean(exclude)
 
 
+# Archetype names are rule-set labels, not words the annotation pass writes:
+# of the 10 archetypes only "minimalist" appears in the tag vocabulary at all.
+# So an archetype query carries one bit per card and every hit ties (all 53
+# "funky" hits scored an identical 3, making top_n alphabetical). These are the
+# annotation tags each archetype actually co-occurs with — every term below is
+# present in the shipped index, none are invented — and each hit adds evidence
+# so the ranking comes from real per-card data.
+ARCHETYPE_KIN = {
+    "funky": ("vibrant", "gradient", "illustration", "bold", "geometric", "accent color"),
+    "playful": ("illustration", "vibrant", "rounded corners", "gradient", "bold"),
+    "editorial": ("typography", "serif", "serif typography", "white space", "hero", "grid layout"),
+    "brutalist": ("high contrast", "high-contrast", "monochrome", "grid", "bold", "structured"),
+    "minimalist": ("minimal", "white space", "whitespace", "clean layout", "spacious", "simple"),
+    "glassmorphic": ("gradient", "soft", "card", "rounded corners"),
+    "dark-minimal": ("dark", "dark mode", "monochrome", "high contrast", "minimal"),
+    "warm-minimal": ("white space", "spacious", "soft", "minimal", "accent color"),
+    "premium": ("sleek", "professional", "spacious", "contrast", "serif"),
+    "retro": ("illustration", "geometric", "accent", "bold"),
+}
+
+
+def _word_in(term: str, text: str) -> bool:
+    """Word-boundary match. Substring matching made 'ai' hit 106/201 cards
+    (detail, chain, airbnb, plaid); a design query must not match mid-word."""
+    return bool(term) and re.search(rf"\b{re.escape(term)}\b", text) is not None
+
+
 def is_excluded(card: dict, term: str) -> bool:
     """True if an exclusion term matches the card (archetype/vector/tag/why).
 
     Shared with the MCP server (mcp_server.py imports this).
     """
-    specs = ATTR_INDEX.get(term, [])
-    if specs:
-        for spec in specs:
-            kind, val = spec.split(":", 1)
-            if kind == "archetype" and val in card.get("archetypes", []):
+    for spec in ATTR_INDEX.get(term, []):
+        kind, val = spec.split(":", 1)
+        if kind == "archetype":
+            if val in card.get("archetypes", []):
                 return True
-            if kind == "tag" and val in card.get("tags", []):
+        elif kind == "tag":
+            if val in card.get("tags", []):
                 return True
-            if card.get("vector", {}).get(kind) == val:
-                return True
-    elif term and (term in card.get("why", "").lower()
-                   or term in " ".join(card.get("tags", []))):
-        return True
-    return False
+        elif card.get("vector", {}).get(kind) == val:
+            return True
+    # annotation evidence excludes too — a card tagged 'brutalist' is brutalist
+    # even when the archetype rule set didn't fire for it
+    return _word_in(term, f"{card.get('why', '').lower()} "
+                          f"{' '.join(card.get('tags', []))}")
 
 
 def score(card: dict, terms: list[str]) -> int:
@@ -111,26 +142,63 @@ def score(card: dict, terms: list[str]) -> int:
     vec = card.get("vector", {})
     arch = card.get("archetypes", [])
     tags = card.get("tags", [])
+    tag_text = " ".join(tags)
     why = card.get("why", "").lower()
     for t in terms:
-        specs = ATTR_INDEX.get(t)
-        if not specs:
-            # free-text: search why + tags + slug
-            if t in why or t in " ".join(tags) or t in card.get("slug", ""):
-                total += 1
-            continue
-        for spec in specs:
+        credited_tag = False
+        for spec in ATTR_INDEX.get(t, []):
             kind, val = spec.split(":", 1)
-            if kind == "archetype" and val in arch:
-                total += 3
-            elif kind == "tag" and val in tags:
-                total += 2
+            if kind == "archetype":
+                if val in arch:
+                    total += 3
+            elif kind == "tag":
+                if val in tags:
+                    total += 2
+                    credited_tag = True
             elif vec.get(kind) == val:
                 total += 2
+        # The annotation layer is ALWAYS scored, not only when ATTR_INDEX has
+        # no entry for the term. The old `continue` here meant 169 of the 177
+        # cards tagged "minimalist" scored zero for the query "minimalist".
+        # It is also what breaks score ties: archetype-only scoring gave every
+        # one of the 53 "funky" hits an identical 3, making top_n alphabetical.
+        if not credited_tag and _word_in(t, tag_text):
+            total += 2
+        if _word_in(t, why):
+            total += 1
+        if _word_in(t, card.get("slug", "")):
+            total += 1
+        # archetype queries have no per-card signal of their own — let the
+        # annotation tags they co-occur with supply the ranking. Two hits
+        # minimum: one shared tag like "bold" is coincidence, not evidence
+        # (crediting single hits matched all 201 cards for "minimalist").
+        kin_hits = sum(1 for kin in ARCHETYPE_KIN.get(t, ()) if kin in tags)
+        if kin_hits >= 2:
+            total += kin_hits
     return total
 
 
+def search(index: dict, query: str, top_n: int = 8) -> list[tuple[int, str, dict]]:
+    """Rank cards for a query. The single implementation — the CLI and the MCP
+    server both call this so a scoring fix lands in one place.
+
+    Returns [(score, slug, card), ...] best first; [] for an empty query.
+    """
+    include, exclude = parse_query(query)
+    if not include:
+        return []
+    scored = []
+    for slug, card in index["cards"].items():
+        s = score(card, include)
+        if s <= 0 or any(is_excluded(card, t) for t in exclude):
+            continue
+        scored.append((s, slug, card))
+    scored.sort(key=lambda x: (-x[0], x[1]))  # slug tie-break keeps it stable
+    return scored[:top_n] if top_n else scored
+
+
 def main():
+    utf8_stdout()
     ap = argparse.ArgumentParser()
     ap.add_argument("query", nargs="+", help='e.g. "funky" or "editorial but not brutalist"')
     ap.add_argument("--top", type=int, default=8)
@@ -142,23 +210,12 @@ def main():
         sys.exit(1)
     index = json.loads(INDEX.read_text(encoding="utf-8"))
 
-    include, exclude = parse_query(" ".join(args.query))
-    if not include:
+    query = " ".join(args.query)
+    if not parse_query(query)[0]:
         print("no meaningful query terms (try: funky / editorial / dark minimal serif)")
         sys.exit(0)
 
-    scored = []
-    for slug, card in index["cards"].items():
-        s = score(card, include)
-        if s <= 0:
-            continue
-        # exclusions: drop if any excluded term matches (shared helper)
-        if any(is_excluded(card, t) for t in exclude):
-            continue
-        scored.append((s, slug, card))
-    scored.sort(key=lambda x: -x[0])
-
-    results = scored[: args.top]
+    results = search(index, query, args.top)
     if args.json:
         print(json.dumps([{"slug": s, "score": sc, "archetypes": c["archetypes"],
                            "tags": c["tags"], "vector": c["vector"],

@@ -27,6 +27,8 @@ from behavior_pass import behavior_pass
 from capture import motion_pass
 from semantic_pass import semantic_pass
 
+from _console import utf8_stdout
+
 LIB = Path(__file__).resolve().parent
 LIBRARY = Path(os.environ.get("DESIGN_SCOPE_LIBRARY", str(LIB))).resolve()
 CARDS = LIBRARY / "cards"
@@ -43,6 +45,7 @@ def needs_backfill(slug: str) -> tuple[bool, bool, bool]:
 
 
 def main():
+    utf8_stdout()
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=None)
     ap.add_argument("--only", default="", help="comma-separated slugs")

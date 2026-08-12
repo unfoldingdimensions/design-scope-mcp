@@ -21,6 +21,8 @@ from mcp.server.fastmcp import FastMCP
 from playwright.sync_api import sync_playwright
 
 LIB = Path(__file__).resolve().parent
+if str(LIB) not in sys.path:  # once, at import — NOT per tool call
+    sys.path.insert(0, str(LIB))
 GLOBAL_LIBRARY = Path(os.environ.get("DESIGN_SCOPE_LIBRARY", str(LIB))).resolve()
 INDEX = GLOBAL_LIBRARY / "index.json"
 STYLE_INDEX = GLOBAL_LIBRARY / "style-index.json"
@@ -86,20 +88,12 @@ def style_search(query: str, top_n: int = 8) -> str:
     top_n = max(1, min(50, top_n))
     if not STYLE_INDEX.exists():
         return _err("style index missing", "run: python library/style_index.py")
-    sys.path.insert(0, str(LIB))
     import style_search as ss
     index = json.loads(STYLE_INDEX.read_text(encoding="utf-8"))
-    include, exclude = ss.parse_query(query)
-    if not include:
+    if not ss.parse_query(query)[0]:
         return _err("no meaningful query terms", "try: funky / editorial / dark minimal serif")
-    scored = []
-    for slug, card in index["cards"].items():
-        s = ss.score(card, include)
-        if s > 0 and not any(ss.is_excluded(card, t) for t in exclude):
-            scored.append((s, slug, card))
-    scored.sort(key=lambda x: -x[0])
     results = []
-    for sc, slug, c in scored[:top_n]:
+    for sc, slug, c in ss.search(index, query, top_n):
         results.append({"slug": slug, "score": sc, "archetypes": c["archetypes"],
                         "vector": c["vector"], "palette": c["palette"][:4],
                         "why": c["why"][:200],
@@ -162,7 +156,8 @@ def card_compare(slug: str, project_dir: str) -> str:
     if not SKILL_SCRIPTS.is_dir():
         return _err("design-scope skill scripts not found",
                     "set DESIGN_SCOPE_SKILL_SCRIPTS or install the design-scope skill")
-    sys.path.insert(0, str(SKILL_SCRIPTS))
+    if str(SKILL_SCRIPTS) not in sys.path:
+        sys.path.insert(0, str(SKILL_SCRIPTS))
     import compare as cmp
     try:
         return json.dumps(cmp.compare_card(slug, project_dir), ensure_ascii=False, default=str)
@@ -178,7 +173,8 @@ def theme_borrow(slug: str, target_dir: str = ".") -> str:
     if not SKILL_SCRIPTS.is_dir():
         return _err("design-scope skill scripts not found",
                     "set DESIGN_SCOPE_SKILL_SCRIPTS or install the design-scope skill")
-    sys.path.insert(0, str(SKILL_SCRIPTS))
+    if str(SKILL_SCRIPTS) not in sys.path:
+        sys.path.insert(0, str(SKILL_SCRIPTS))
     import theme as th
     try:
         return json.dumps(th.borrow_theme(slug, target_dir), ensure_ascii=False, default=str)
@@ -188,28 +184,43 @@ def theme_borrow(slug: str, target_dir: str = ".") -> str:
 
 # ── capture job queue (single worker; capture() never blocks) ──────────────
 
+_TERMINAL = ("done", "failed")
+
+
 def _prune_jobs(max_keep: int = 100) -> None:
-    """Bounded job registry: completed jobs are kept for polling, then dropped
-    (insertion order = queue order, so trimming the front keeps the newest)."""
-    if len(_jobs) > max_keep:
-        for jid in list(_jobs.keys())[:-max_keep]:
-            del _jobs[jid]
+    """Bounded job registry: finished jobs are kept for polling, then dropped
+    (insertion order = queue order, so trimming the front keeps the newest).
+
+    Only TERMINAL jobs are evictable. Pruning by position alone could delete a
+    still-queued job; the worker then does _jobs[job_id] outside its try block,
+    raising KeyError, exiting `while True`, and killing the daemon thread — so
+    capture would silently stop working for the life of the process.
+    """
+    if len(_jobs) <= max_keep:
+        return
+    evictable = [jid for jid, j in _jobs.items() if j.get("status") in _TERMINAL]
+    for jid in evictable[: max(0, len(_jobs) - max_keep)]:
+        del _jobs[jid]
 
 
 def _capture_worker():
     while True:
         job_id, kwargs = _job_queue.get()
-        job = _jobs[job_id]
+        job = _jobs.get(job_id)
+        if job is None:  # evicted while queued — never index blindly here
+            _job_queue.task_done()
+            continue
         job["status"] = "running"
         try:
-            sys.path.insert(0, str(LIB))
-            from capture import (capture_one, load_index, save_index, slugify,
-                                 build_index_entry)
+            from capture import (capture_one, card_exists, load_index,
+                                 save_index, slugify, build_index_entry)
             slug = slugify(kwargs["name"]) if not kwargs.get("slug") else kwargs["slug"]
             if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", slug):
                 raise ValueError("slug must match ^[a-z0-9]+(-[a-z0-9]+)*$")
             index = load_index()
-            if slug in index["cards"]:
+            # same completion rule as the CLI (capture.card_exists): a bare
+            # card dir from a failed attempt must not block the retry
+            if slug in index["cards"] or card_exists(slug):
                 job.update({"status": "failed",
                             "error": f"slug '{slug}' already exists in the library",
                             "hint": "pass a different slug or run capture.py --redo"})
@@ -248,7 +259,6 @@ def _rebuild_style_index(card_dir: Path) -> None:
     if not (card_dir / "card.md").exists() and not (card_dir / "fingerprint.json").exists():
         return
     try:
-        sys.path.insert(0, str(LIB))
         from style_index import build_vectors, write_summary
         si = build_vectors()
         (GLOBAL_LIBRARY / "style-index.json").write_text(
@@ -306,10 +316,14 @@ def recommend_history(project_dir: str) -> str:
     }, ensure_ascii=False)
 
 
-if __name__ == "__main__":
-    problems = _validate()
-    if problems:
-        raise SystemExit("design-scope MCP: " + "; ".join(problems))
-    mcp.run()  # stdio
+# Validate at import, not under __main__: `uvicorn mcp_server:app` never runs
+# the __main__ block, so the HTTP server used to start happily with a missing
+# index and fail per-request instead of loudly at boot.
+_problems = _validate()
+if _problems:
+    raise SystemExit("design-scope MCP: " + "; ".join(_problems))
 
 app = mcp.streamable_http_app()  # uvicorn mcp_server:app
+
+if __name__ == "__main__":
+    mcp.run()  # stdio

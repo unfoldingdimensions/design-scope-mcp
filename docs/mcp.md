@@ -15,7 +15,9 @@ cd library && uvicorn mcp_server:app --host 127.0.0.1 --port 8232
 ```
 
 Startup validation fails loudly if `index.json` or `style-index.json` are
-missing, with the exact fix command.
+missing, with the exact fix command. It runs at import, so it covers the HTTP
+transport too — `uvicorn mcp_server:app` refuses to boot rather than serving a
+library that isn't there.
 
 ## Register with clients
 
@@ -41,8 +43,13 @@ server entry.
 | `style_search` | `query`, `top_n` | ranked cards — natural language: `"funky"`, `"editorial but not brutalist"`, `"warm minimal"` |
 | `style_filter` | vector fields, `archetype`, `max_results` | structured filter (hue/brightness/saturation/corners/flatness/type_mood) |
 | `card_get` | `slug` | full card: fingerprint + semantic + **annotation** + behaviors + absolute asset paths |
-| `card_compare` | `slug`, `project_dir` | borrow candidates vs the project's fingerprint |
-| `theme_borrow` | `slug`, `target_dir` | token remap + contrast-guarded CSS (WCAG AA) |
+| `card_compare` ⚠️ | `slug`, `project_dir` | borrow candidates vs the project's fingerprint |
+| `theme_borrow` ⚠️ | `slug`, `target_dir` | token remap + contrast-guarded CSS (WCAG AA) |
+
+⚠️ These two import `compare.py`/`theme.py`, which ship with the design-scope
+skill and **not** with this repo — set `DESIGN_SCOPE_SKILL_SCRIPTS` or install
+the skill. Without them both return a structured error; the other seven tools
+are unaffected.
 | `capture` | `url`, `name`, `category`, `slug`, `fast`, `why` | **job_id** (async, never blocks) |
 | `capture_status` | `job_id` | queued / running / done / failed |
 | `recommend_history` | `project_dir` | the design-scope iteration chain (manifest.json) |
@@ -69,7 +76,7 @@ MCP has no error types — every failure returns structured JSON:
 
 - `DESIGN_SCOPE_LIBRARY` — override the library path (default: this repo's
   `library/`). Honored by every module: the server, capture, backfill,
-  gallery, style_index, annotate, regenerate_media.
+  gallery, style_index, style_search, annotate, regenerate_media.
 - `DESIGN_SCOPE_SKILL_SCRIPTS` — where `compare.py`/`theme.py` live (default:
   the Hermes-profile design-scope skill scripts). `card_compare`/`theme_borrow`
   return a structured error when the directory is absent.
@@ -83,6 +90,7 @@ python tests/client_smoke.py --queue    # in-process queue mock (no network)
 python tests/test_style_search.py       # search layer unit tests
 python tests/test_semantic_pass.py      # classifier vocabulary guard
 python tests/test_style_index.py        # vector/hue boundaries (temp fixture)
+python tests/test_behavior_pass.py      # hover-diff regression guard
 python tests/test_vocabulary_consistency.py  # producers ⊆ search vocabulary
 ```
 

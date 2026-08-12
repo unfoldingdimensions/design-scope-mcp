@@ -2,3 +2,5 @@ mcp>=1.0
 playwright>=1.40
 pillow>=10.0
 requests>=2.31
+# only needed for the HTTP transport: uvicorn mcp_server:app
+uvicorn>=0.27

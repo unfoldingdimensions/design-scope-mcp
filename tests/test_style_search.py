@@ -11,15 +11,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "library"))
 
+from _harness import check, finish  # noqa: E402
 from style_search import ATTR_INDEX, parse_query, score, is_excluded  # noqa: E402
-
-FAILS = []
-
-
-def check(name, ok, detail=""):
-    print(f"{'PASS' if ok else 'FAIL'}  {name}" + (f"  [{detail}]" if detail else ""))
-    if not ok:
-        FAILS.append(name)
 
 
 def card(slug="x", archetypes=(), tags=(), vector=None, why=""):
@@ -92,8 +85,4 @@ if __name__ == "__main__":
     test_archetype_terms()
     test_is_excluded()
     test_attr_index_no_duplicate_keys()
-    print()
-    if FAILS:
-        print(f"FAILED: {len(FAILS)} check(s): {FAILS}")
-        sys.exit(1)
-    print("ALL PASS")
+    finish()

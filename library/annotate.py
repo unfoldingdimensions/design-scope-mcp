@@ -34,6 +34,8 @@ from pathlib import Path
 import requests
 from PIL import Image
 
+from _console import utf8_stdout
+
 LIB = Path(__file__).resolve().parent
 LIBRARY = Path(os.environ.get("DESIGN_SCOPE_LIBRARY", str(LIB))).resolve()
 CARDS = LIBRARY / "cards"
@@ -226,6 +228,7 @@ def annotate_card(key: str, card_dir: Path, sleep_s: float) -> dict:
 
 
 def main():
+    utf8_stdout()
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", default="", help="comma-separated slugs to annotate")
     ap.add_argument("--limit", type=int, default=0, help="max cards this run (0 = all)")
