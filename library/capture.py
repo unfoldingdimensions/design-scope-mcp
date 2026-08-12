@@ -31,6 +31,8 @@ from pathlib import Path
 
 from playwright.sync_api import sync_playwright
 
+from _console import utf8_stdout
+
 ROOT = Path(__file__).resolve().parent.parent
 LIBRARY = Path(os.environ.get("DESIGN_SCOPE_LIBRARY", str(ROOT / "library"))).resolve()
 CARDS = LIBRARY / "cards"
@@ -40,6 +42,11 @@ DESKTOP_VIEWPORT = {"width": 1440, "height": 900}
 MOBILE_VIEWPORT = {"width": 390, "height": 844}
 NAV_TIMEOUT_MS = 45000
 SCREENSHOT_WAIT_S = 3.0  # let fonts/animations settle
+# shared UA literals — single source of truth (behavior_pass/semantic_pass import)
+CHROME_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+             "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
+IPHONE_UA = ("Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) "
+             "AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1")
 
 
 def slugify(name: str) -> str:
@@ -50,6 +57,18 @@ def slugify(name: str) -> str:
 def load_seed(path: Path):
     data = json.loads(path.read_text(encoding="utf-8"))
     return data.get("sites", data if isinstance(data, list) else [])
+
+
+def card_exists(slug: str) -> bool:
+    """True only when the card was actually written.
+
+    capture_one() creates card_dir (via card_dir/"tmp") before it can fail, so
+    a bare directory means the LAST ATTEMPT FAILED. Treating directory presence
+    as "already captured" turned every failure into a permanent skip that then
+    reported ok=True. card.md is written last, so it is the completion marker.
+    Shared with the MCP capture worker so both paths dedupe identically.
+    """
+    return (CARDS / slug / "card.md").exists()
 
 
 def load_index() -> dict:
@@ -69,7 +88,14 @@ def safe_url(url: str) -> str:
 def full_page_screenshot(page, out_path: Path, wait_s: float = SCREENSHOT_WAIT_S):
     page.wait_for_timeout(wait_s * 1000)
     page.screenshot(path=str(out_path), full_page=True)
-    return out_path.exists() and out_path.stat().st_size > 5000
+    if out_path.exists() and out_path.stat().st_size > 5000:
+        return True
+    # Too small to be a real page. Remove it — leaving the file behind recorded
+    # files.desktop = null in index.json while screenshot-desktop.png existed on
+    # disk, and regenerate_media keys off that filename, so the card was stuck
+    # with a broken thumbnail that no rebuild would ever replace.
+    out_path.unlink(missing_ok=True)
+    return False
 
 
 def dembrandt_tokens(url: str, slug: str, workdir: Path, timeout_s: int = 240) -> Path | None:
@@ -207,8 +233,7 @@ def motion_pass(card_dir: Path, url: str, browser, timeout_s: int = 120) -> dict
     try:
         ctx = browser.new_context(
             viewport=DESKTOP_VIEWPORT,
-            user_agent=("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                        "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"),
+            user_agent=CHROME_UA,
             record_video_dir=str(video_dir),
             record_video_size={"width": 1280, "height": 800},
         )
@@ -308,9 +333,7 @@ def capture_one(site: dict, slug: str, card_dir: Path, browser, opts) -> dict:
               "error": None, "screenshots": {}, "fingerprint": None, "captured_at": captured_at}
 
     try:
-        ctx = browser.new_context(viewport=DESKTOP_VIEWPORT, user_agent=(
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-            "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"))
+        ctx = browser.new_context(viewport=DESKTOP_VIEWPORT, user_agent=CHROME_UA)
         page = ctx.new_page()
         page.set_default_timeout(NAV_TIMEOUT_MS)
         resp = page.goto(url, wait_until="load", timeout=NAV_TIMEOUT_MS)
@@ -326,9 +349,7 @@ def capture_one(site: dict, slug: str, card_dir: Path, browser, opts) -> dict:
         ctx.close()
 
         # mobile pass
-        mctx = browser.new_context(viewport=MOBILE_VIEWPORT, user_agent=(
-            "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 "
-            "(KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1"))
+        mctx = browser.new_context(viewport=MOBILE_VIEWPORT, user_agent=IPHONE_UA)
         mpage = mctx.new_page()
         mpage.set_default_timeout(NAV_TIMEOUT_MS)
         try:
@@ -434,6 +455,7 @@ def build_index_entry(site: dict, slug: str, res: dict) -> dict:
 
 
 def main():
+    utf8_stdout()
     ap = argparse.ArgumentParser()
     ap.add_argument("seed", nargs="?", default=None, help="seed JSON path (omit with --url)")
     ap.add_argument("--url", default=None, help="single-URL capture mode")
@@ -487,10 +509,12 @@ def main():
         for i, site in enumerate(sites, 1):
             slug = slugify(site.get("id", site["name"]))
             card_dir = CARDS / slug
-            if card_dir.exists() and not args.redo:
-                print(f"[{i}/{len(sites)}] {slug} — already exists, skipping (--redo to recapture)")
+            if card_exists(slug) and not args.redo:
+                print(f"[{i}/{len(sites)}] {slug} — already captured, skipping (--redo to recapture)")
                 results.append({"slug": slug, "ok": True, "skipped": True})
                 continue
+            if card_dir.exists():
+                print(f"[{i}/{len(sites)}] {slug} — previous attempt left no card.md, retrying")
             print(f"[{i}/{len(sites)}] {slug} ({site['url']}) …", flush=True)
             t0 = time.time()
             res = capture_one(site, slug, card_dir, browser, args)

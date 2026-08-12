@@ -22,26 +22,29 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-NAV_TIMEOUT_MS = 45000
+from capture import CHROME_UA, NAV_TIMEOUT_MS
 
 # JS: hover-diff probe — snap computed styles of the Nth element matching a
-# selector (index pinned so before/after hit the SAME element that was hovered)
+# selector (index pinned so before/after hit the SAME element that was hovered).
+#
+# No scrollIntoView here: it used to run after the snap but BEFORE the "after"
+# screenshot, sliding the element out from under the mouse so the capture could
+# show the un-hovered state. The probe only reads; the caller does the scrolling.
+#
+# 'outline' is deliberately not probed — the computed value embeds currentColor,
+# so it changes whenever 'color' does. It was the single most-reported "hover
+# behavior" in the library (252 occurrences) while carrying no signal of its own.
 HOVER_PROBE_JS = """(arg) => {
   const { selector, index } = JSON.parse(arg);
   const els = document.querySelectorAll(selector);
   const el = els[index] || els[0];
   if (!el) return null;
   const props = ['color','backgroundColor','borderColor','boxShadow','transform',
-    'opacity','filter','outline','textDecoration','backgroundImage','scale'];
-  const snap = () => {
-    const cs = getComputedStyle(el);
-    const out = {};
-    props.forEach(p => { const v = cs[p]; if (v && v !== 'none' && v !== 'normal' && v !== 'auto') out[p] = v; });
-    return out;
-  };
-  const before = snap();
-  el.scrollIntoView({block:'center'});
-  return JSON.stringify(before);
+    'opacity','filter','textDecoration','backgroundImage','scale'];
+  const cs = getComputedStyle(el);
+  const out = {};
+  props.forEach(p => { const v = cs[p]; if (v && v !== 'none' && v !== 'normal' && v !== 'auto') out[p] = v; });
+  return JSON.stringify(out);
 }"""
 
 # JS: scroll-trigger probe — does any element change computed style at scroll?
@@ -88,6 +91,18 @@ STATES_PROBE_JS = """() => {
 }"""
 
 
+def diff_states(before: dict, after: dict) -> dict:
+    """Computed-style diff for one element, default state vs hovered.
+
+    Iterates the UNION of both snapshots. The probe omits 'none' values, so a
+    hover that ADDS a box-shadow or transform yields a key present only in
+    `after`; iterating `before` alone silently dropped it.
+    """
+    return {k: {"before": before.get(k), "after": after.get(k)}
+            for k in sorted(set(before) | set(after))
+            if before.get(k) != after.get(k)}
+
+
 def _js(page, script: str, arg=None) -> str | None:
     try:
         if arg is None:
@@ -110,8 +125,7 @@ def behavior_pass(card_dir: Path, url: str, browser) -> dict:
     try:
         ctx = browser.new_context(
             viewport={"width": 1440, "height": 900},
-            user_agent=("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                        "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"),
+            user_agent=CHROME_UA,
         )
         page = ctx.new_page()
         page.set_default_timeout(NAV_TIMEOUT_MS)
@@ -198,8 +212,7 @@ def behavior_pass(card_dir: Path, url: str, browser) -> dict:
                     except Exception:  # noqa: BLE001
                         b_png.unlink(missing_ok=True)  # keep pairs consistent
                         raise
-                    diffs = {k: {"before": before.get(k), "after": after.get(k)}
-                             for k in before if before.get(k) != after.get(k)}
+                    diffs = diff_states(before, after)
                     if diffs:
                         report["hover_diffs"].append({"selector": sel, "index": n, "diffs": diffs,
                                                       "before_png": b_png.name, "after_png": a_png.name})

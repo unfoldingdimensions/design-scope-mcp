@@ -21,7 +21,7 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
-NAV_TIMEOUT_MS = 45000
+from capture import CHROME_UA, NAV_TIMEOUT_MS
 
 # JS: walk all stylesheets, extract CSS custom property declarations from
 # theme-ish blocks, z-index rules, and @media rules — all in one pass.
@@ -238,8 +238,7 @@ def semantic_pass(card_dir: Path, url: str, browser) -> dict:
     try:
         ctx = browser.new_context(
             viewport={"width": 1440, "height": 900},
-            user_agent=("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                        "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"),
+            user_agent=CHROME_UA,
         )
         page = ctx.new_page()
         page.set_default_timeout(NAV_TIMEOUT_MS)
