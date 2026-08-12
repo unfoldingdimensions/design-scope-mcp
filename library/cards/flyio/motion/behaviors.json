@@ -52,7 +52,9 @@
     }
   ],
   "scroll_probe": [],
-  "interaction_model": {
+  "interaction_model": "scroll-driven",
+  "states": [],
+  "interaction_signals": {
     "clickables": 97,
     "tabs": 0,
     "accordions": 0,
@@ -61,6 +63,5 @@
     "scrollSnap": 6,
     "smoothScroll": null,
     "marquees": 0
-  },
-  "states": []
+  }
 }

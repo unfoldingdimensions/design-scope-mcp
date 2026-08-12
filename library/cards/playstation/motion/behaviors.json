@@ -3,16 +3,7 @@
   "captured": "2026-08-10T16:23:37+00:00",
   "hover_diffs": [],
   "scroll_probe": [],
-  "interaction_model": {
-    "clickables": 300,
-    "tabs": 110,
-    "accordions": 12,
-    "carousels": 183,
-    "observers": 2,
-    "scrollSnap": 0,
-    "smoothScroll": null,
-    "marquees": 2
-  },
+  "interaction_model": "scroll-driven",
   "states": [
     {
       "idx": 0,
@@ -78,5 +69,15 @@
       "ariaSelected": null,
       "ariaExpanded": null
     }
-  ]
+  ],
+  "interaction_signals": {
+    "clickables": 300,
+    "tabs": 110,
+    "accordions": 12,
+    "carousels": 183,
+    "observers": 2,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 2
+  }
 }

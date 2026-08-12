@@ -66,7 +66,9 @@
       }
     }
   ],
-  "interaction_model": {
+  "interaction_model": "click-driven",
+  "states": [],
+  "interaction_signals": {
     "clickables": 173,
     "tabs": 0,
     "accordions": 3,
@@ -75,6 +77,5 @@
     "scrollSnap": 0,
     "smoothScroll": null,
     "marquees": 0
-  },
-  "states": []
+  }
 }

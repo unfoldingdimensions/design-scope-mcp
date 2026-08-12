@@ -84,16 +84,7 @@
     }
   ],
   "scroll_probe": [],
-  "interaction_model": {
-    "clickables": 148,
-    "tabs": 111,
-    "accordions": 0,
-    "carousels": 0,
-    "observers": 0,
-    "scrollSnap": 0,
-    "smoothScroll": "smooth-scroll-lib",
-    "marquees": 1
-  },
+  "interaction_model": "scroll-driven",
   "states": [
     {
       "idx": 0,
@@ -159,5 +150,15 @@
       "ariaSelected": null,
       "ariaExpanded": null
     }
-  ]
+  ],
+  "interaction_signals": {
+    "clickables": 148,
+    "tabs": 111,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": "smooth-scroll-lib",
+    "marquees": 1
+  }
 }
