@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "target": "<project>/docs/dogfood-app",
+  "name": "Pulse (dogfood)",
+  "created_at": "2026-08-09T14:46:46+00:00",
+  "current_iteration": 2,
+  "adopted_recs": [
+    "R2"
+  ],
+  "pending_recs": [
+    "R1",
+    "R3"
+  ],
+  "iterations": {
+    "001": {
+      "slug": "baseline",
+      "recs": [],
+      "changed": "baseline snapshot of Pulse landing (faithful mirror)",
+      "refs": []
+    },
+    "002": {
+      "slug": "rec2-color",
+      "recs": [
+        "R2"
+      ],
+      "changed": "warm-neutral token system (anthropic ref), teal statement accent, dark theme toggle, focus-visible rings, ease-out motion",
+      "refs": [
+        "anthropic",
+        "monzo"
+      ]
+    }
+  },
+  "updated_at": "2026-08-09T14:48:54+00:00",
+  "recommended_recs": [
+    "R1",
+    "R2",
+    "R3"
+  ]
+}

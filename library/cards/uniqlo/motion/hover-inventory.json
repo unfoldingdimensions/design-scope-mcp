@@ -1,0 +1,25 @@
+{
+  "url": "https://www.uniqlo.com",
+  "hovers": [
+    {
+      "selector": "a[href]",
+      "file": "hover-01.png",
+      "box": {
+        "x": 132,
+        "y": 10,
+        "width": 75,
+        "height": 44
+      }
+    },
+    {
+      "selector": ".card",
+      "file": "hover-02.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 44
+      }
+    }
+  ]
+}

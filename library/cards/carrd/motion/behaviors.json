@@ -1,0 +1,38 @@
+{
+  "url": "https://carrd.co",
+  "captured": "2026-08-10T09:18:33+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgba(255, 255, 255, 0.4)",
+          "after": "rgb(255, 255, 255)"
+        },
+        "borderColor": {
+          "before": "rgba(255, 255, 255, 0.4)",
+          "after": "rgb(255, 255, 255)"
+        },
+        "outline": {
+          "before": "rgba(255, 255, 255, 0.4) none 0px",
+          "after": "rgb(255, 255, 255) none 0px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 39,
+    "tabs": 0,
+    "accordions": 0,
+    "carousels": 1,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": []
+}

@@ -1,0 +1,384 @@
+{
+  "url": "https://www.carvana.com",
+  "captured": "2026-08-10T14:18:40+00:00",
+  "named_tokens": {
+    "light": {
+      "--background-critical": "var(--reference-red-500)",
+      "--background-critical-active": "var(--reference-red-700)",
+      "--background-critical-hover": "var(--reference-red-600)",
+      "--background-critical-subtle": "var(--reference-red-100)",
+      "--background-default": "var(--reference-other-white)",
+      "--background-default-active": "var(--reference-blue-700)",
+      "--background-default-hover": "var(--reference-slate-200)",
+      "--background-disabled": "var(--reference-slate-200)",
+      "--background-disabled-subtle": "var(--reference-gray-100)",
+      "--background-informational": "var(--reference-indigo-600)",
+      "--background-informational-subtle": "var(--reference-indigo-100)",
+      "--background-medium": "var(--reference-blue-600)",
+      "--background-muted-hint": "var(--reference-gray-50)",
+      "--background-muted-medium": "var(--reference-slate-400)",
+      "--background-muted-strong": "var(--reference-slate-800)",
+      "--background-muted-subtle": "var(--reference-slate-200)",
+      "--background-muted-weak": "var(--reference-slate-300)",
+      "--background-primary": "var(--reference-blue-500)",
+      "--background-primary-active": "var(--reference-blue-700)",
+      "--background-primary-hover": "var(--reference-blue-600)",
+      "--background-primary-subtle": "var(--reference-blue-100)",
+      "--background-primary-weak": "var(--reference-blue-200)",
+      "--background-skeleton": "var(--reference-slate-200)",
+      "--background-strong": "var(--reference-blue-700)",
+      "--background-strong-active": "var(--reference-blue-500)",
+      "--background-strong-hover": "var(--reference-blue-600)",
+      "--background-success": "var(--reference-green-500)",
+      "--background-success-subtle": "var(--reference-green-100)",
+      "--background-warning": "var(--reference-yellow-400)",
+      "--background-warning-subtle": "var(--reference-orange-100)",
+      "--background-weak": "var(--reference-gray-100)",
+      "--background-weak-active": "var(--reference-blue-700)",
+      "--background-weak-hover": "var(--reference-slate-200)",
+      "--background-weak-transparent": "#e1e4e84d",
+      "--border-critical": "var(--reference-red-500)",
+      "--border-default": "var(--reference-slate-400)",
+      "--border-disabled": "var(--reference-slate-300)",
+      "--border-informational": "var(--reference-indigo-600)",
+      "--border-inverse": "var(--reference-other-white)",
+      "--border-inverse-transparent": "#ffffff4d",
+      "--border-primary": "var(--reference-blue-500)",
+      "--border-primary-subtle": "var(--reference-blue-100)",
+      "--border-skeleton": "var(--reference-slate-200)",
+      "--border-strong": "var(--reference-blue-700)",
+      "--border-strong-transparent": "#0d375e4d",
+      "--border-subtle": "var(--reference-slate-200)",
+      "--border-success": "var(--reference-green-500)",
+      "--border-warning": "var(--reference-yellow-500)",
+      "--border-weak": "var(--reference-slate-300)",
+      "--brand-primary": "var(--reference-blue-400)",
+      "--brand-secondary": "var(--reference-blue-700)",
+      "--brand-tertiary": "var(--reference-yellow-400)",
+      "--canvas-brand": "var(--reference-blue-400)",
+      "--canvas-default": "var(--reference-other-white)",
+      "--canvas-muted": "var(--reference-gray-100)",
+      "--canvas-overlay": "#1e293b99",
+      "--canvas-overlay-strong": "#000000e5",
+      "--canvas-primary": "var(--reference-blue-500)",
+      "--decorative-1": "var(--reference-cyan-100)",
+      "--decorative-1-strong": "var(--reference-cyan-500)",
+      "--decorative-2": "var(--reference-yellow-100)",
+      "--decorative-2-strong": "var(--reference-yellow-400)",
+      "--decorative-3": "var(--reference-pink-100)",
+      "--decorative-3-strong": "var(--reference-pink-500)",
+      "--decorative-4": "var(--reference-violet-100)",
+      "--decorative-4-strong": "var(--reference-violet-500)",
+      "--decorative-black": "var(--reference-other-black)",
+      "--decorative-ev": "var(--reference-lime-300)",
+      "--decorative-ev-subtle": "var(--reference-lime-150)",
+      "--decorative-pre-order": "var(--reference-blue-600)",
+      "--decorative-white": "var(--reference-other-white)",
+      "--icon-critical": "var(--reference-red-500)",
+      "--icon-critical-active": "var(--reference-red-700)",
+      "--icon-critical-hover": "var(--reference-red-600)",
+      "--icon-default": "var(--reference-slate-600)",
+      "--icon-disabled": "var(--reference-slate-400)",
+      "--icon-disabled-subtle": "var(--reference-slate-300)",
+      "--icon-informational": "var(--reference-indigo-600)",
+      "--icon-inverse": "var(--reference-other-white)",
+      "--icon-inverse-active": "var(--reference-blue-200)",
+      "--icon-inverse-hover": "var(--reference-slate-300)",
+      "--icon-inverse-visited": "var(--reference-grape-200)",
+      "--icon-primary": "var(--reference-blue-500)",
+      "--icon-primary-active": "var(--reference-blue-700)",
+      "--icon-primary-hover": "var(--reference-blue-600)",
+      "--icon-primary-subtle": "var(--reference-blue-100)",
+      "--icon-primary-visited": "var(--reference-grape-600)",
+      "--icon-strong": "var(--reference-blue-700)",
+      "--icon-strong-active": "var(--reference-blue-500)",
+      "--icon-strong-hover": "var(--reference-blue-600)",
+      "--icon-success": "var(--reference-green-500)",
+      "--icon-warning": "var(--reference-yellow-500)",
+      "--icon-weak": "var(--reference-slate-500)",
+      "--text-critical": "var(--reference-red-600)",
+      "--text-critical-active": "var(--reference-red-800)",
+      "--text-critical-hover": "var(--reference-red-700)",
+      "--text-default": "var(--reference-slate-600)",
+      "--text-disabled": "var(--reference-slate-400)",
+      "--text-disabled-subtle": "var(--reference-slate-300)",
+      "--text-informational": "var(--reference-indigo-600)",
+      "--text-inverse": "var(--reference-other-white)",
+      "--text-inverse-active": "var(--reference-blue-200)",
+      "--text-inverse-hover": "var(--reference-slate-300)",
+      "--text-inverse-subtle": "var(--reference-slate-100)",
+      "--text-inverse-visited": "var(--reference-grape-200)",
+      "--text-primary": "var(--reference-blue-500)",
+      "--text-primary-active": "var(--reference-blue-700)",
+      "--text-primary-hover": "var(--reference-blue-600)",
+      "--text-primary-subtle": "var(--reference-blue-100)",
+      "--text-primary-visited": "var(--reference-grape-600)",
+      "--text-strong": "var(--reference-blue-800)",
+      "--text-strong-active": "var(--reference-blue-500)",
+      "--text-strong-hover": "var(--reference-blue-600)",
+      "--text-success": "var(--reference-green-500)",
+      "--text-warning": "var(--reference-orange-600)",
+      "--text-weak": "var(--reference-slate-500)",
+      "--border-radius-none": "0rem",
+      "--border-radius-sm": "0.25rem",
+      "--border-radius-md": "0.5rem",
+      "--border-radius-lg": "0.75rem",
+      "--border-radius-xl": "1rem",
+      "--border-radius-2xl": "1.5rem",
+      "--border-radius-round": "6249.9375rem",
+      "--spacing-none": "0rem",
+      "--spacing-xs": "0.125rem",
+      "--spacing-sm": "0.25rem",
+      "--spacing-md": "0.5rem",
+      "--spacing-lg": "0.75rem",
+      "--spacing-xl": "1rem",
+      "--spacing-2xl": "1.5rem",
+      "--spacing-3xl": "2rem",
+      "--spacing-4xl": "2.5rem",
+      "--spacing-5xl": "3rem",
+      "--spacing-6xl": "3.5rem",
+      "--spacing-7xl": "4rem",
+      "--spacing-8xl": "5rem",
+      "--spacing-9xl": "7.5rem"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {
+      "--background-weak-transparent": "#e1e4e84d",
+      "--border-inverse-transparent": "#ffffff4d",
+      "--border-strong-transparent": "#0d375e4d",
+      "--canvas-overlay": "#1e293b99",
+      "--canvas-overlay-strong": "#000000e5"
+    },
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "generous corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "generous",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "header": 10
+  },
+  "z_index_rows": [
+    {
+      "role": "header",
+      "selector": "#core-header-ui",
+      "value": "10"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "768px",
+      "selector": ".md0RsciCNQygatzN8epz",
+      "change": "flex-wrap: nowrap"
+    },
+    {
+      "at": "768px",
+      "selector": ".md0RsciCNQygatzN8epz .jEwqEBeF5RPuNS00Qt9F",
+      "change": "width: auto"
+    },
+    {
+      "at": "768px",
+      "selector": ".md0RsciCNQygatzN8epz .jEwqEBeF5RPuNS00Qt9F > a, .md0RsciCNQygatzN8epz .jEwqEBeF",
+      "change": "width: auto"
+    },
+    {
+      "at": "768px",
+      "selector": ".md0RsciCNQygatzN8epz .ELuvqVjmu9iSLSByJwxQ",
+      "change": "order: 3"
+    },
+    {
+      "at": "768px",
+      "selector": ".md0RsciCNQygatzN8epz .GgGlvlPPWz_fN6UwBpjq",
+      "change": "display: none"
+    },
+    {
+      "at": "414px",
+      "selector": ".t87CFilO95VDki9K5bUd ._GflwG_syAFuHeJ087j9",
+      "change": "display: none"
+    },
+    {
+      "at": "768px",
+      "selector": ".hide-mobile",
+      "change": "display: inline"
+    },
+    {
+      "at": "768px",
+      "selector": ".bdCIaA_T2jN1fSahioVK",
+      "change": "justify-content: flex-start"
+    },
+    {
+      "at": "768px",
+      "selector": ".bdCIaA_T2jN1fSahioVK",
+      "change": "width: 100%"
+    },
+    {
+      "at": "768px",
+      "selector": "._yuF107EpcaoMEqNPUhw p",
+      "change": "text-align: center"
+    },
+    {
+      "at": "768px",
+      "selector": "._yuF107EpcaoMEqNPUhw",
+      "change": "justify-content: center"
+    },
+    {
+      "at": "768px",
+      "selector": ".wUsZaz5oBVR18FUbLqDe",
+      "change": "width: 100%"
+    },
+    {
+      "at": "768px",
+      "selector": ".wUsZaz5oBVR18FUbLqDe.fuXogFD8c4zqBGRoJ8SA .BYcSFZz2SBp8Uv2HsFF9",
+      "change": "align-items: flex-start"
+    },
+    {
+      "at": "768px",
+      "selector": ".wUsZaz5oBVR18FUbLqDe.fuXogFD8c4zqBGRoJ8SA .BYcSFZz2SBp8Uv2HsFF9 .x6zhaWuUN8lrXb",
+      "change": "align-items: flex-start"
+    },
+    {
+      "at": "768px",
+      "selector": ".wUsZaz5oBVR18FUbLqDe.fuXogFD8c4zqBGRoJ8SA .BYcSFZz2SBp8Uv2HsFF9 .x6zhaWuUN8lrXb",
+      "change": "max-width: fit-content"
+    },
+    {
+      "at": "768px",
+      "selector": ".wUsZaz5oBVR18FUbLqDe.fuXogFD8c4zqBGRoJ8SA .BYcSFZz2SBp8Uv2HsFF9 .x6zhaWuUN8lrXb",
+      "change": "padding-top: var(--spacing-xs, 2px)"
+    },
+    {
+      "at": "768px",
+      "selector": ".wUsZaz5oBVR18FUbLqDe.fuXogFD8c4zqBGRoJ8SA .BYcSFZz2SBp8Uv2HsFF9 .x6zhaWuUN8lrXb",
+      "change": "justify-content: flex-start"
+    },
+    {
+      "at": "768px",
+      "selector": ".wUsZaz5oBVR18FUbLqDe.fuXogFD8c4zqBGRoJ8SA .BYcSFZz2SBp8Uv2HsFF9 .x6zhaWuUN8lrXb",
+      "change": "align-items: center"
+    },
+    {
+      "at": "768px",
+      "selector": ".wUsZaz5oBVR18FUbLqDe.fuXogFD8c4zqBGRoJ8SA .BYcSFZz2SBp8Uv2HsFF9 .x6zhaWuUN8lrXb",
+      "change": "max-width: 700px"
+    },
+    {
+      "at": "768px",
+      "selector": ".wUsZaz5oBVR18FUbLqDe.fuXogFD8c4zqBGRoJ8SA._xqXsJGM1KLI0SS4y0wl .x6zhaWuUN8lrXbs",
+      "change": "justify-content: center"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": "[data-mfe=\"footer\"] .Link-module_primary__ZL8-0__v5_1_4:hover",
+      "change": "color: var(--text-primary-hover)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": "[data-mfe=\"footer\"] .Link-module_secondary__snsSy__v5_1_4:hover",
+      "change": "color: var(--text-primary-hover)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": "[data-mfe=\"footer\"] .Link-module_inverse__ByCG6__v5_1_4:hover",
+      "change": "color: var(--text-inverse-hover)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": "[data-mfe=\"footer\"] .LinkButton-module_default__Kw9wu__v4_1_2:hover",
+      "change": "color: var(--text-primary-hover)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": "[data-mfe=\"footer\"] .LinkButton-module_inverse__b-Md4__v4_1_2:hover",
+      "change": "color: var(--text-inverse-hover)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": "[data-mfe=\"footer\"] .LinkButton-module_destructive__d7JQN__v4_1_2:hover",
+      "change": "color: var(--text-critical-hover)"
+    },
+    {
+      "at": "1440px",
+      "selector": "[data-mfe=\"footer\"] .uKFYdZmUUu_uiQm4W1Ac",
+      "change": "padding-bottom: var(--spacing-7xl)"
+    },
+    {
+      "at": "1280px",
+      "selector": "[data-mfe=\"footer\"] ._BPowepDyZGf1R0gl4A6",
+      "change": "display: grid"
+    },
+    {
+      "at": "1280px",
+      "selector": "[data-mfe=\"footer\"] ._BPowepDyZGf1R0gl4A6",
+      "change": "grid-template-columns: 2fr repeat(4, 1fr)"
+    },
+    {
+      "at": "768px",
+      "selector": "[data-mfe=\"footer\"] .L5hgd0bXkW3mQ1hzQw02",
+      "change": "grid-template-columns: repeat(3, 1fr)"
+    },
+    {
+      "at": "1024px",
+      "selector": "[data-mfe=\"footer\"] .L5hgd0bXkW3mQ1hzQw02",
+      "change": "grid-template-columns: repeat(4, 1fr)"
+    },
+    {
+      "at": "1280px",
+      "selector": "[data-mfe=\"footer\"] .L5hgd0bXkW3mQ1hzQw02",
+      "change": "grid-template-columns: repeat(4, 1fr)"
+    },
+    {
+      "at": "1280px",
+      "selector": "[data-mfe=\"footer\"] .L5hgd0bXkW3mQ1hzQw02",
+      "change": "grid-column-start: 2"
+    },
+    {
+      "at": "1280px",
+      "selector": "[data-mfe=\"footer\"] .L5hgd0bXkW3mQ1hzQw02",
+      "change": "grid-column-end: -1"
+    },
+    {
+      "at": "768px",
+      "selector": "[data-mfe=\"footer\"] .fTKYLDGEEa8vR3OVYU3G",
+      "change": "flex-direction: column"
+    },
+    {
+      "at": "768px",
+      "selector": "[data-mfe=\"footer\"] .tYtGCro8tBY60bBfLkp8 > .vF8JDD258VRjEoW1RD1V",
+      "change": "grid-column-start: auto"
+    },
+    {
+      "at": "768px",
+      "selector": "[data-mfe=\"footer\"] .tYtGCro8tBY60bBfLkp8 > .vF8JDD258VRjEoW1RD1V",
+      "change": "grid-column-end: auto"
+    },
+    {
+      "at": "768px",
+      "selector": "[data-mfe=\"footer\"] .M9cjWbetieKhmX8bpaDn",
+      "change": "flex-direction: row"
+    },
+    {
+      "at": "768px",
+      "selector": "[data-mfe=\"footer\"] .M9cjWbetieKhmX8bpaDn",
+      "change": "justify-content: space-between"
+    },
+    {
+      "at": "768px",
+      "selector": "[data-mfe=\"footer\"] .M9cjWbetieKhmX8bpaDn",
+      "change": "align-items: center"
+    }
+  ]
+}

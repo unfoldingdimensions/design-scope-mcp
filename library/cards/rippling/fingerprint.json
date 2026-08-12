@@ -1,0 +1,1597 @@
+{
+  "url": "https://www.rippling.com/",
+  "extractedAt": "2026-08-09T12:13:49.660Z",
+  "meta": {
+    "snapshotId": "84f1cd9b-7f4d-4dcb-9fef-fdeb6cdcc3cb",
+    "httpStatus": 200,
+    "dembrandtVersion": "0.27.1",
+    "schemaVersion": "1.5.0",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "fontsReady": true,
+    "flags": {
+      "mobile": true
+    }
+  },
+  "siteName": "Rippling",
+  "logo": {
+    "source": "svg",
+    "context": "header",
+    "inline": true,
+    "url": "https://www.rippling.com/",
+    "color": "#000000",
+    "ariaLabel": null,
+    "markup": "<svg class=\"sava-site-logo-primary fill-content-label-l0-active\" height=\"18\" width=\"127\" xmlns=\"http://www.w3.org/2000/svg\" style=\"color: rgb(0, 0, 0);\"><path d=\"M2.878 4.99C2.878 3.01 1.875 1.374 0 0h4.358a6.26 6.26 0 012.467 4.99 6.26 6.26 0 01-2.467 4.99c1.415.59 2.22 2.03 2.22 4.091v3.927H2.632v-3.927c0-1.963-.937-3.337-2.631-4.09 1.875-1.375 2.878-3.01 2.878-4.99zm8.552 0c0-1.98-1.003-3.616-2.878-4.99h4.359a6.26 6.26 0 012.466 4.99 6.26 6.26 0 01-2.466 4.99c1.414.59 2.22 2.03 2.22 4.091v3.927h-3.947v-3.927c0-1.963-.938-3.337-2.632-4.09 1.875-1.375 2.878-3.01 2.878-4.99zm8.554 0c0-1.98-1.003-3.616-2.878-4.99h4.358a6.26 6.26 0 012.467 4.99 6.26 6.26 0 01-2.467 4.99c1.415.59 2.22 2.03 2.22 4.091v3.927h-3.947v-3.927c0-1.963-.937-3.337-2.631-4.09 1.875-1.375 2.878-3.01 2.878-4.99zM35.952 14.728H32.96V3.272h7.352c3.536 0 5.279 1.31 5.279 3.453 0 1.456-.855 2.552-2.45 3.109 1.644.245 2.384 1.112 2.384 2.667v2.225h-3.026v-2.094c0-1.31-.658-1.833-2.385-1.833h-4.16v3.929zm4.194-9.787h-4.194v4.19h4.161c1.513 0 2.45-.835 2.45-2.144 0-1.293-.87-2.046-2.417-2.046zM50.787 3.272h-2.993v11.456h2.993V3.272zM59.964 10.995h-3.651v3.731h-2.994V3.272h6.71c3.536 0 5.395 1.473 5.395 3.83 0 2.437-1.891 3.893-5.46 3.893zm-.066-6.054h-3.585v4.385h3.552c1.546 0 2.5-.785 2.5-2.208 0-1.391-.954-2.177-2.467-2.177zM73.845 10.995h-3.651v3.731H67.2V3.272h6.71c3.536 0 5.395 1.473 5.395 3.83 0 2.437-1.892 3.893-5.46 3.893zm-.066-6.054h-3.585v4.385h3.552c1.546 0 2.5-.785 2.5-2.208 0-1.391-.954-2.177-2.467-2.177zM84.074 3.272v9.752h7.467v1.704h-10.46V3.272h2.993zM96.407 3.272h-2.993v11.456h2.993V3.272zM100.914 7.101v7.627H98.94V3.272h2.239l8.157 7.625V3.272h1.974v11.456h-2.237L100.914 7.1zM121.08 4.614c-2.846 0-4.704 1.8-4.704 4.483 0 2.65 1.776 4.287 4.539 4.287h.197c.938 0 1.99-.197 2.961-.507V9.784h-4.835V8.148H127v5.383c-1.611.835-4.046 1.49-6.019 1.49h-.263c-4.54 0-7.467-2.39-7.467-5.859 0-3.436 3.01-6.184 7.631-6.184h.263c1.925 0 4.128.605 5.757 1.554l-.856 1.39c-1.463-.801-3.207-1.308-4.769-1.308h-.197z\"></path></svg>",
+    "dataUri": "data:image/svg+xml;utf8,%3Csvg%20class%3D%22sava-site-logo-primary%20fill-content-label-l0-active%22%20height%3D%2218%22%20width%3D%22127%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%20rgb(0%2C%200%2C%200)%3B%22%3E%3Cpath%20d%3D%22M2.878%204.99C2.878%203.01%201.875%201.374%200%200h4.358a6.26%206.26%200%20012.467%204.99%206.26%206.26%200%2001-2.467%204.99c1.415.59%202.22%202.03%202.22%204.091v3.927H2.632v-3.927c0-1.963-.937-3.337-2.631-4.09%201.875-1.375%202.878-3.01%202.878-4.99zm8.552%200c0-1.98-1.003-3.616-2.878-4.99h4.359a6.26%206.26%200%20012.466%204.99%206.26%206.26%200%2001-2.466%204.99c1.414.59%202.22%202.03%202.22%204.091v3.927h-3.947v-3.927c0-1.963-.938-3.337-2.632-4.09%201.875-1.375%202.878-3.01%202.878-4.99zm8.554%200c0-1.98-1.003-3.616-2.878-4.99h4.358a6.26%206.26%200%20012.467%204.99%206.26%206.26%200%2001-2.467%204.99c1.415.59%202.22%202.03%202.22%204.091v3.927h-3.947v-3.927c0-1.963-.937-3.337-2.631-4.09%201.875-1.375%202.878-3.01%202.878-4.99zM35.952%2014.728H32.96V3.272h7.352c3.536%200%205.279%201.31%205.279%203.453%200%201.456-.855%202.552-2.45%203.109%201.644.245%202.384%201.112%202.384%202.667v2.225h-3.026v-2.094c0-1.31-.658-1.833-2.385-1.833h-4.16v3.929zm4.194-9.787h-4.194v4.19h4.161c1.513%200%202.45-.835%202.45-2.144%200-1.293-.87-2.046-2.417-2.046zM50.787%203.272h-2.993v11.456h2.993V3.272zM59.964%2010.995h-3.651v3.731h-2.994V3.272h6.71c3.536%200%205.395%201.473%205.395%203.83%200%202.437-1.891%203.893-5.46%203.893zm-.066-6.054h-3.585v4.385h3.552c1.546%200%202.5-.785%202.5-2.208%200-1.391-.954-2.177-2.467-2.177zM73.845%2010.995h-3.651v3.731H67.2V3.272h6.71c3.536%200%205.395%201.473%205.395%203.83%200%202.437-1.892%203.893-5.46%203.893zm-.066-6.054h-3.585v4.385h3.552c1.546%200%202.5-.785%202.5-2.208%200-1.391-.954-2.177-2.467-2.177zM84.074%203.272v9.752h7.467v1.704h-10.46V3.272h2.993zM96.407%203.272h-2.993v11.456h2.993V3.272zM100.914%207.101v7.627H98.94V3.272h2.239l8.157%207.625V3.272h1.974v11.456h-2.237L100.914%207.1zM121.08%204.614c-2.846%200-4.704%201.8-4.704%204.483%200%202.65%201.776%204.287%204.539%204.287h.197c.938%200%201.99-.197%202.961-.507V9.784h-4.835V8.148H127v5.383c-1.611.835-4.046%201.49-6.019%201.49h-.263c-4.54%200-7.467-2.39-7.467-5.859%200-3.436%203.01-6.184%207.631-6.184h.263c1.925%200%204.128.605%205.757%201.554l-.856%201.39c-1.463-.801-3.207-1.308-4.769-1.308h-.197z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E",
+    "svgColors": [],
+    "width": 127,
+    "height": 18,
+    "rect": {
+      "x": 300,
+      "y": 95,
+      "width": 127,
+      "height": 18
+    },
+    "natural": {
+      "width": null,
+      "height": null
+    },
+    "type": "wordmark",
+    "reversed": false,
+    "background": null,
+    "safeZone": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "position": {
+      "top": 95,
+      "left": 300
+    }
+  },
+  "logoInstances": [
+    {
+      "source": "svg",
+      "context": "header",
+      "inline": true,
+      "url": "https://www.rippling.com/",
+      "color": "#000000",
+      "ariaLabel": null,
+      "markup": "<svg class=\"sava-site-logo-primary fill-content-label-l0-active\" height=\"18\" width=\"127\" xmlns=\"http://www.w3.org/2000/svg\" style=\"color: rgb(0, 0, 0);\"><path d=\"M2.878 4.99C2.878 3.01 1.875 1.374 0 0h4.358a6.26 6.26 0 012.467 4.99 6.26 6.26 0 01-2.467 4.99c1.415.59 2.22 2.03 2.22 4.091v3.927H2.632v-3.927c0-1.963-.937-3.337-2.631-4.09 1.875-1.375 2.878-3.01 2.878-4.99zm8.552 0c0-1.98-1.003-3.616-2.878-4.99h4.359a6.26 6.26 0 012.466 4.99 6.26 6.26 0 01-2.466 4.99c1.414.59 2.22 2.03 2.22 4.091v3.927h-3.947v-3.927c0-1.963-.938-3.337-2.632-4.09 1.875-1.375 2.878-3.01 2.878-4.99zm8.554 0c0-1.98-1.003-3.616-2.878-4.99h4.358a6.26 6.26 0 012.467 4.99 6.26 6.26 0 01-2.467 4.99c1.415.59 2.22 2.03 2.22 4.091v3.927h-3.947v-3.927c0-1.963-.937-3.337-2.631-4.09 1.875-1.375 2.878-3.01 2.878-4.99zM35.952 14.728H32.96V3.272h7.352c3.536 0 5.279 1.31 5.279 3.453 0 1.456-.855 2.552-2.45 3.109 1.644.245 2.384 1.112 2.384 2.667v2.225h-3.026v-2.094c0-1.31-.658-1.833-2.385-1.833h-4.16v3.929zm4.194-9.787h-4.194v4.19h4.161c1.513 0 2.45-.835 2.45-2.144 0-1.293-.87-2.046-2.417-2.046zM50.787 3.272h-2.993v11.456h2.993V3.272zM59.964 10.995h-3.651v3.731h-2.994V3.272h6.71c3.536 0 5.395 1.473 5.395 3.83 0 2.437-1.891 3.893-5.46 3.893zm-.066-6.054h-3.585v4.385h3.552c1.546 0 2.5-.785 2.5-2.208 0-1.391-.954-2.177-2.467-2.177zM73.845 10.995h-3.651v3.731H67.2V3.272h6.71c3.536 0 5.395 1.473 5.395 3.83 0 2.437-1.892 3.893-5.46 3.893zm-.066-6.054h-3.585v4.385h3.552c1.546 0 2.5-.785 2.5-2.208 0-1.391-.954-2.177-2.467-2.177zM84.074 3.272v9.752h7.467v1.704h-10.46V3.272h2.993zM96.407 3.272h-2.993v11.456h2.993V3.272zM100.914 7.101v7.627H98.94V3.272h2.239l8.157 7.625V3.272h1.974v11.456h-2.237L100.914 7.1zM121.08 4.614c-2.846 0-4.704 1.8-4.704 4.483 0 2.65 1.776 4.287 4.539 4.287h.197c.938 0 1.99-.197 2.961-.507V9.784h-4.835V8.148H127v5.383c-1.611.835-4.046 1.49-6.019 1.49h-.263c-4.54 0-7.467-2.39-7.467-5.859 0-3.436 3.01-6.184 7.631-6.184h.263c1.925 0 4.128.605 5.757 1.554l-.856 1.39c-1.463-.801-3.207-1.308-4.769-1.308h-.197z\"></path></svg>",
+      "dataUri": "data:image/svg+xml;utf8,%3Csvg%20class%3D%22sava-site-logo-primary%20fill-content-label-l0-active%22%20height%3D%2218%22%20width%3D%22127%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%20rgb(0%2C%200%2C%200)%3B%22%3E%3Cpath%20d%3D%22M2.878%204.99C2.878%203.01%201.875%201.374%200%200h4.358a6.26%206.26%200%20012.467%204.99%206.26%206.26%200%2001-2.467%204.99c1.415.59%202.22%202.03%202.22%204.091v3.927H2.632v-3.927c0-1.963-.937-3.337-2.631-4.09%201.875-1.375%202.878-3.01%202.878-4.99zm8.552%200c0-1.98-1.003-3.616-2.878-4.99h4.359a6.26%206.26%200%20012.466%204.99%206.26%206.26%200%2001-2.466%204.99c1.414.59%202.22%202.03%202.22%204.091v3.927h-3.947v-3.927c0-1.963-.938-3.337-2.632-4.09%201.875-1.375%202.878-3.01%202.878-4.99zm8.554%200c0-1.98-1.003-3.616-2.878-4.99h4.358a6.26%206.26%200%20012.467%204.99%206.26%206.26%200%2001-2.467%204.99c1.415.59%202.22%202.03%202.22%204.091v3.927h-3.947v-3.927c0-1.963-.937-3.337-2.631-4.09%201.875-1.375%202.878-3.01%202.878-4.99zM35.952%2014.728H32.96V3.272h7.352c3.536%200%205.279%201.31%205.279%203.453%200%201.456-.855%202.552-2.45%203.109%201.644.245%202.384%201.112%202.384%202.667v2.225h-3.026v-2.094c0-1.31-.658-1.833-2.385-1.833h-4.16v3.929zm4.194-9.787h-4.194v4.19h4.161c1.513%200%202.45-.835%202.45-2.144%200-1.293-.87-2.046-2.417-2.046zM50.787%203.272h-2.993v11.456h2.993V3.272zM59.964%2010.995h-3.651v3.731h-2.994V3.272h6.71c3.536%200%205.395%201.473%205.395%203.83%200%202.437-1.891%203.893-5.46%203.893zm-.066-6.054h-3.585v4.385h3.552c1.546%200%202.5-.785%202.5-2.208%200-1.391-.954-2.177-2.467-2.177zM73.845%2010.995h-3.651v3.731H67.2V3.272h6.71c3.536%200%205.395%201.473%205.395%203.83%200%202.437-1.892%203.893-5.46%203.893zm-.066-6.054h-3.585v4.385h3.552c1.546%200%202.5-.785%202.5-2.208%200-1.391-.954-2.177-2.467-2.177zM84.074%203.272v9.752h7.467v1.704h-10.46V3.272h2.993zM96.407%203.272h-2.993v11.456h2.993V3.272zM100.914%207.101v7.627H98.94V3.272h2.239l8.157%207.625V3.272h1.974v11.456h-2.237L100.914%207.1zM121.08%204.614c-2.846%200-4.704%201.8-4.704%204.483%200%202.65%201.776%204.287%204.539%204.287h.197c.938%200%201.99-.197%202.961-.507V9.784h-4.835V8.148H127v5.383c-1.611.835-4.046%201.49-6.019%201.49h-.263c-4.54%200-7.467-2.39-7.467-5.859%200-3.436%203.01-6.184%207.631-6.184h.263c1.925%200%204.128.605%205.757%201.554l-.856%201.39c-1.463-.801-3.207-1.308-4.769-1.308h-.197z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E",
+      "svgColors": [],
+      "width": 127,
+      "height": 18,
+      "rect": {
+        "x": 300,
+        "y": 95,
+        "width": 127,
+        "height": 18
+      },
+      "natural": {
+        "width": null,
+        "height": null
+      },
+      "type": "wordmark",
+      "reversed": false,
+      "background": null,
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 95,
+        "left": 300
+      }
+    }
+  ],
+  "favicons": [
+    {
+      "type": "apple-touch-icon",
+      "url": "https://rippling.com/favicons/apple-touch-icon.png",
+      "sizes": "180x180"
+    },
+    {
+      "type": "icon",
+      "url": "https://rippling.com/favicons/favicon-32x32.png",
+      "sizes": "32x32"
+    },
+    {
+      "type": "icon",
+      "url": "https://rippling.com/favicons/favicon-96x96.png",
+      "sizes": "96x96"
+    },
+    {
+      "type": "icon",
+      "url": "https://rippling.com/favicons/favicon-16x16.png",
+      "sizes": "16x16"
+    },
+    {
+      "type": "icon",
+      "url": "https://rippling.com/favicons/favicon.svg",
+      "sizes": null
+    },
+    {
+      "type": "og:image",
+      "url": "https://images.ctfassets.net/k0itp0ir7ty4/3kY0HlA6r398ZS1hLhq2Pf/5da93caeafeaef92645161efe8759827/SEO_-_General_blank.png",
+      "sizes": null
+    },
+    {
+      "type": "twitter:image",
+      "url": "https://images.ctfassets.net/k0itp0ir7ty4/3kY0HlA6r398ZS1hLhq2Pf/5da93caeafeaef92645161efe8759827/SEO_-_General_blank.png",
+      "sizes": null
+    }
+  ],
+  "colors": {
+    "semantic": {
+      "primary": "rgb(255, 168, 29)",
+      "background": "rgb(255, 255, 255)",
+      "text": "rgb(0, 0, 0)",
+      "accent": "rgb(74, 0, 57)"
+    },
+    "palette": [
+      {
+        "color": "rgb(229, 231, 235)",
+        "normalized": "#e5e7eb",
+        "count": 4566,
+        "confidence": "high",
+        "sources": [
+          "sr-only",
+          "@container",
+          "max-w-[1320px]"
+        ],
+        "lch": "lch(91.58% 2.18 266.35)",
+        "oklch": "oklch(92.76% 0.006 264.53)",
+        "role": "neutral",
+        "onColor": "#000000",
+        "hover": "#c3c4c8"
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 4294,
+        "confidence": "high",
+        "sources": [
+          "opt-top-banner-content",
+          "opt-line-draw",
+          "opt-top-banner-close"
+        ],
+        "lch": "lch(0% 0 0)",
+        "oklch": "oklch(0% 0 0)",
+        "role": "surface",
+        "onColor": "#ffffff",
+        "hover": "#000000"
+      },
+      {
+        "color": "rgb(206, 193, 184)",
+        "normalized": "#cec1b8",
+        "count": 10,
+        "confidence": "medium",
+        "sources": [
+          "sava-link-default"
+        ],
+        "lch": "lch(78.97% 7.25 60.22)",
+        "oklch": "oklch(81.91% 0.019 57.16)",
+        "role": "neutral",
+        "onColor": "#000000",
+        "hover": "#afa49c",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(255, 168, 29)",
+        "normalized": "#ffa81d",
+        "count": 7,
+        "confidence": "high",
+        "sources": [
+          "sava-link-primary",
+          "rounded-sm",
+          "sava-link-secondary"
+        ],
+        "lch": "lch(76.31% 79.8 70.78)",
+        "oklch": "oklch(79.86% 0.166 70.93)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#d98f19",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(159, 30, 122)",
+        "normalized": "#9f1e7a",
+        "count": 7,
+        "confidence": "high",
+        "sources": [
+          "box-content"
+        ],
+        "lch": "lch(37.53% 60.48 340.95)",
+        "oklch": "oklch(48.43% 0.186 342.8)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#bf2492"
+      },
+      {
+        "color": "rgb(56, 56, 56)",
+        "normalized": "#383838",
+        "count": 6,
+        "confidence": "medium",
+        "sources": [
+          "si"
+        ],
+        "lch": "lch(23.52% 0.01 53.35)",
+        "oklch": "oklch(34.07% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#ffffff",
+        "hover": "#434343"
+      },
+      {
+        "color": "rgb(74, 0, 57)",
+        "normalized": "#4a0039",
+        "count": 3,
+        "confidence": "high",
+        "sources": [
+          "mx-auto"
+        ],
+        "lch": "lch(14.24% 39.02 338.6)",
+        "oklch": "oklch(27.58% 0.119 340.61)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#590044"
+      },
+      {
+        "color": "rgb(151, 131, 117)",
+        "normalized": "#978375",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      },
+      {
+        "color": "rgb(122, 0, 93)",
+        "normalized": "#7a005d",
+        "count": 2,
+        "confidence": "high",
+        "sources": [
+          "box-content"
+        ],
+        "lch": "lch(26.72% 54.46 340.08)",
+        "oklch": "oklch(38.91% 0.168 342.03)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#920070",
+        "source": "mobile"
+      }
+    ],
+    "cssVariables": {
+      "--tw-ring-color": {
+        "value": "#2780ce80",
+        "hex": "#2780ce",
+        "lch": "lch(51.46% 48.76 264.28 / 0.5019607843137255)",
+        "oklch": "oklch(58.74% 0.145 249.63 / 0.5019607843137255)"
+      }
+    },
+    "detected": [
+      {
+        "color": "rgb(229, 231, 235)",
+        "normalized": "#e5e7eb",
+        "count": 4566,
+        "usageFrac": 0.49469122426868906,
+        "confidence": "high",
+        "sources": [
+          "sr-only",
+          "@container",
+          "max-w-[1320px]",
+          "header:mr-2xl",
+          "sava-link-default"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 4294,
+        "usageFrac": 0.46522210184182017,
+        "confidence": "high",
+        "sources": [
+          "opt-top-banner-content",
+          "opt-line-draw",
+          "opt-top-banner-close",
+          "sr-only",
+          "@container"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 305,
+        "usageFrac": 0.03304442036836403,
+        "confidence": "high",
+        "sources": [
+          "py-lg",
+          "group",
+          "[object",
+          "sava-link-default",
+          "relative"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(242, 238, 235)",
+        "normalized": "#f2eeeb",
+        "count": 17,
+        "usageFrac": 0.0018418201516793066,
+        "confidence": "high",
+        "sources": [
+          "mx-auto",
+          "overflow-hidden"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(206, 193, 184)",
+        "normalized": "#cec1b8",
+        "count": 10,
+        "usageFrac": 0.0010834236186348862,
+        "confidence": "medium",
+        "sources": [
+          "sava-link-default"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 168, 29)",
+        "normalized": "#ffa81d",
+        "count": 7,
+        "usageFrac": 0.0007583965330444204,
+        "confidence": "high",
+        "sources": [
+          "sava-link-primary",
+          "rounded-sm",
+          "sava-link-secondary",
+          "btn"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(159, 30, 122)",
+        "normalized": "#9f1e7a",
+        "count": 7,
+        "usageFrac": 0.0007583965330444204,
+        "confidence": "high",
+        "sources": [
+          "box-content"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(225, 216, 210)",
+        "normalized": "#e1d8d2",
+        "count": 6,
+        "usageFrac": 0.0006500541711809318,
+        "confidence": "high",
+        "sources": [
+          "sava-link-default",
+          "box-content"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(56, 56, 56)",
+        "normalized": "#383838",
+        "count": 6,
+        "usageFrac": 0.0006500541711809318,
+        "confidence": "medium",
+        "sources": [
+          "si"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(122, 0, 93)",
+        "normalized": "#7a005d",
+        "count": 5,
+        "usageFrac": 0.0005417118093174431,
+        "confidence": "high",
+        "sources": [
+          "box-content"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(74, 0, 57)",
+        "normalized": "#4a0039",
+        "count": 3,
+        "usageFrac": 0.0003250270855904659,
+        "confidence": "high",
+        "sources": [
+          "mx-auto"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(64, 37, 48)",
+        "normalized": "#402530",
+        "count": 2,
+        "usageFrac": 0.00021668472372697725,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(234, 184, 242)",
+        "normalized": "#eab8f2",
+        "count": 1,
+        "usageFrac": 0.00010834236186348862,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(28, 28, 28)",
+        "normalized": "#1c1c1c",
+        "count": 1,
+        "usageFrac": 0.00010834236186348862,
+        "confidence": "low",
+        "sources": [
+          "footer_top"
+        ],
+        "isToken": false
+      }
+    ],
+    "_raw": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 4294
+      },
+      {
+        "color": "rgb(229, 231, 235)",
+        "normalized": "#e5e7eb",
+        "count": 4566
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 305
+      }
+    ]
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "heading-1",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247, ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "48px (3.00rem)",
+        "weight": 500,
+        "lineHeight": "1.08",
+        "spacing": "-1.5px",
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247, ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "48px (3.00rem)",
+        "weight": 500,
+        "lineHeight": "1.08",
+        "spacing": "-1.5px",
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247",
+        "size": "48px (3.00rem)",
+        "weight": 500,
+        "lineHeight": "1.04",
+        "spacing": "-1px",
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247, ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "42px (2.63rem)",
+        "weight": 500,
+        "lineHeight": "1.14",
+        "spacing": "-1.5px",
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247, ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "30px (1.88rem)",
+        "weight": 500,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247, ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "30px (1.88rem)",
+        "weight": 500,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-4",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247, ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "24px (1.50rem)",
+        "weight": 500,
+        "lineHeight": "1.25",
+        "spacing": "0.25px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247, ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "24px (1.50rem)",
+        "weight": 500,
+        "lineHeight": "1.25",
+        "spacing": "0.25px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247, ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "18px (1.13rem)",
+        "weight": 400,
+        "lineHeight": "1.44",
+        "spacing": "0.25px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247, ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "18px (1.13rem)",
+        "weight": 500,
+        "lineHeight": "1.44",
+        "spacing": "0.25px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247, ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "18px (1.13rem)",
+        "weight": 400,
+        "lineHeight": "1.44",
+        "spacing": "0.25px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Arial",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 700,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247, ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247, ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247, ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "2.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247, ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Times New Roman",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247",
+        "size": "15px (0.94rem)",
+        "weight": 500,
+        "lineHeight": "1.47",
+        "spacing": "0.25px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247",
+        "size": "15px (0.94rem)",
+        "weight": 500,
+        "lineHeight": "1.47",
+        "spacing": "0.25px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247, ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "15px (0.94rem)",
+        "weight": 500,
+        "lineHeight": "1.47",
+        "spacing": "0.25px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247, ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "15px (0.94rem)",
+        "weight": 400,
+        "lineHeight": "1.47",
+        "spacing": "0.25px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247, ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "15px (0.94rem)",
+        "weight": 400,
+        "lineHeight": "1.47",
+        "spacing": "0.25px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247, ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "15px (0.94rem)",
+        "weight": 400,
+        "lineHeight": "1.47",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247, ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "15px (0.94rem)",
+        "weight": 400,
+        "lineHeight": "1.47",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247",
+        "size": "15px (0.94rem)",
+        "weight": 500,
+        "lineHeight": null,
+        "spacing": "0.038px",
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247, san-serif",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "1.33",
+        "spacing": "0.25px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247, san-serif",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "1.33",
+        "spacing": "0.25px",
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "__basel_e55247",
+        "fallbacks": "__basel_Fallback_e55247",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null
+      }
+    ],
+    "sources": {
+      "googleFonts": [],
+      "adobeFonts": false,
+      "variableFonts": false,
+      "selfHostedFonts": [
+        "144157ce1c4a6cd3-s.p.woff2",
+        "21535fb4c018afa3-s.p.woff2",
+        "34c86d365ef45ea3-s.p.woff2",
+        "4fa94e4cfd3c8f89-s.p.woff2",
+        "61c4fc9417abf277-s.p.woff2",
+        "9be3fc79c2625d33-s.p.woff2",
+        "Inter-Regular.f1f0c35b32.woff2",
+        "Inter-SemiBold.fcb100c760.woff2",
+        "Inter-roman.var.b2129c009c.woff2",
+        "a5cc9c025b5b153f-s.p.woff2",
+        "b352c2e27eef0c71-s.p.woff2",
+        "b6ec394d2a68302a-s.p.woff2",
+        "e1f56b5cb68f699f-s.p.woff2"
+      ],
+      "customFonts": [
+        "144157ce1c4a6cd3-s.p.woff2",
+        "21535fb4c018afa3-s.p.woff2",
+        "34c86d365ef45ea3-s.p.woff2",
+        "4fa94e4cfd3c8f89-s.p.woff2",
+        "61c4fc9417abf277-s.p.woff2",
+        "9be3fc79c2625d33-s.p.woff2",
+        "Inter-Regular.f1f0c35b32.woff2",
+        "Inter-SemiBold.fcb100c760.woff2",
+        "Inter-roman.var.b2129c009c.woff2",
+        "a5cc9c025b5b153f-s.p.woff2",
+        "b352c2e27eef0c71-s.p.woff2",
+        "b6ec394d2a68302a-s.p.woff2",
+        "e1f56b5cb68f699f-s.p.woff2"
+      ]
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "2px",
+        "display": "2px",
+        "rem": "0.13rem",
+        "count": 3,
+        "numericValue": 2
+      },
+      {
+        "px": "4px",
+        "display": "4px",
+        "rem": "0.25rem",
+        "count": 29,
+        "numericValue": 4
+      },
+      {
+        "px": "8px",
+        "display": "8px",
+        "rem": "0.50rem",
+        "count": 94,
+        "numericValue": 8
+      },
+      {
+        "px": "12px",
+        "display": "12px",
+        "rem": "0.75rem",
+        "count": 31,
+        "numericValue": 12
+      },
+      {
+        "px": "16px",
+        "display": "16px",
+        "rem": "1.00rem",
+        "count": 38,
+        "numericValue": 16
+      },
+      {
+        "px": "20px",
+        "display": "20px",
+        "rem": "1.25rem",
+        "count": 1,
+        "numericValue": 20
+      },
+      {
+        "px": "22px",
+        "display": "22px",
+        "rem": "1.38rem",
+        "count": 1,
+        "numericValue": 22
+      },
+      {
+        "px": "24px",
+        "display": "24px",
+        "rem": "1.50rem",
+        "count": 42,
+        "numericValue": 24
+      },
+      {
+        "px": "32px",
+        "display": "32px",
+        "rem": "2.00rem",
+        "count": 62,
+        "numericValue": 32
+      },
+      {
+        "px": "40px",
+        "display": "40px",
+        "rem": "2.50rem",
+        "count": 5,
+        "numericValue": 40
+      },
+      {
+        "px": "42px",
+        "display": "42px",
+        "rem": "2.63rem",
+        "count": 1,
+        "numericValue": 42
+      },
+      {
+        "px": "48px",
+        "display": "48px",
+        "rem": "3.00rem",
+        "count": 6,
+        "numericValue": 48
+      },
+      {
+        "px": "52px",
+        "display": "52px",
+        "rem": "3.25rem",
+        "count": 1,
+        "numericValue": 52
+      },
+      {
+        "px": "56px",
+        "display": "56px",
+        "rem": "3.50rem",
+        "count": 1,
+        "numericValue": 56
+      },
+      {
+        "px": "60px",
+        "display": "60px",
+        "rem": "3.75rem",
+        "count": 1,
+        "numericValue": 60
+      },
+      {
+        "px": "64px",
+        "display": "64px",
+        "rem": "4.00rem",
+        "count": 6,
+        "numericValue": 64
+      },
+      {
+        "px": "80px",
+        "display": "80px",
+        "rem": "5.00rem",
+        "count": 3,
+        "numericValue": 80
+      },
+      {
+        "px": "90px",
+        "display": "90px",
+        "rem": "5.63rem",
+        "count": 1,
+        "numericValue": 90
+      },
+      {
+        "px": "120px",
+        "display": "120px",
+        "rem": "7.50rem",
+        "count": 14,
+        "numericValue": 120
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "0px 8px 8px 0px",
+        "count": 14,
+        "elements": [
+          "image",
+          "img"
+        ],
+        "confidence": "high",
+        "numericValue": 0
+      },
+      {
+        "value": "0px 0px 48px 48px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "1px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 1
+      },
+      {
+        "value": "4px",
+        "count": 25,
+        "elements": [
+          "modal",
+          "input",
+          "div",
+          "button",
+          "span"
+        ],
+        "confidence": "high",
+        "numericValue": 4
+      },
+      {
+        "value": "5px",
+        "count": 1,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low",
+        "numericValue": 5
+      },
+      {
+        "value": "8px",
+        "count": 18,
+        "elements": [
+          "modal",
+          "button",
+          "div",
+          "a"
+        ],
+        "confidence": "high",
+        "numericValue": 8
+      },
+      {
+        "value": "8px 8px 0px 0px",
+        "count": 11,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high",
+        "numericValue": 8
+      },
+      {
+        "value": "12px",
+        "count": 31,
+        "elements": [
+          "div",
+          "card",
+          "img"
+        ],
+        "confidence": "high",
+        "numericValue": 12
+      },
+      {
+        "value": "9999px",
+        "count": 2,
+        "elements": [
+          "svg"
+        ],
+        "confidence": "low",
+        "numericValue": 9999
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "1px 0px 0px",
+        "style": "solid",
+        "color": "rgb(206, 193, 184)",
+        "count": 6,
+        "elements": [
+          "a"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "solid",
+        "color": "rgb(229, 231, 235)",
+        "count": 4,
+        "elements": [
+          "li",
+          "a"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 0px 0px 1px",
+        "style": "solid",
+        "color": "rgb(225, 216, 210)",
+        "count": 4,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(199, 197, 197)",
+        "count": 2,
+        "elements": [
+          "input",
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgba(255, 255, 255, 0.3)",
+        "count": 2,
+        "elements": [
+          "input",
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "2px",
+        "style": "solid",
+        "color": "rgb(255, 168, 29)",
+        "count": 2,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(253, 183, 28)",
+        "count": 1,
+        "elements": [
+          "modal"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 0px 1px",
+        "style": "solid",
+        "color": "rgb(229, 231, 235)",
+        "count": 1,
+        "elements": [
+          "a"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(215, 205, 198)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid",
+        "color": "rgba(255, 255, 255, 0.2)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid",
+        "color": "rgba(255, 255, 255, 0.15)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "2px",
+        "style": "inset",
+        "color": "rgb(0, 0, 0)",
+        "count": 1,
+        "elements": [
+          "iframe"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [
+    {
+      "shadow": "rgba(0, 0, 0, 0.2) 0px 4px 8px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(40, 22, 29, 0.08) 2px 8px 12px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.08) 2px 8px 12px -8px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(27, 16, 20, 0.6) 0px 96px 160px 48px",
+      "count": 1,
+      "confidence": "low"
+    }
+  ],
+  "gradients": [],
+  "motion": {
+    "durations": [
+      {
+        "value": "0.001s",
+        "ms": 1,
+        "count": 2800
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease",
+        "type": "ease",
+        "count": 2795
+      },
+      {
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "type": "custom",
+        "count": 5
+      }
+    ],
+    "animations": [],
+    "contexts": {
+      "hero": {
+        "count": 11,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "color",
+          "background-color",
+          "border-color",
+          "text-decoration-color"
+        ]
+      },
+      "card": {
+        "count": 17,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "link": {
+        "count": 8,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "color",
+          "background-color",
+          "border-color",
+          "text-decoration-color"
+        ]
+      },
+      "button": {
+        "count": 8,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "color",
+          "background-color",
+          "border-color",
+          "text-decoration-color"
+        ]
+      },
+      "nav": {
+        "count": 1,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "input": {
+        "count": 1,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      }
+    },
+    "interactiveDeltas": [
+      {
+        "tag": "a",
+        "text": "",
+        "pattern": "fade-out",
+        "delta": {
+          "transform": "",
+          "opacity": {
+            "from": "1",
+            "to": ""
+          },
+          "background": {
+            "from": "rgba(0, 0, 0, 0)",
+            "to": ""
+          },
+          "color": {
+            "from": "rgb(0, 0, 0)",
+            "to": ""
+          }
+        }
+      },
+      {
+        "tag": "button",
+        "text": "Products",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgba(0, 0, 0, 0.7)",
+            "to": "rgb(0, 0, 0)"
+          }
+        }
+      },
+      {
+        "tag": "button",
+        "text": "Platform",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgba(0, 0, 0, 0.7)",
+            "to": "rgb(0, 0, 0)"
+          }
+        }
+      }
+    ]
+  },
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(255, 168, 29)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "16px 24px",
+            "borderRadius": "4px",
+            "border": "0px solid rgb(229, 231, 235)",
+            "fontSize": "15px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "15px",
+        "text": "Create free account",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(255, 255, 255, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "16px 24px",
+            "borderRadius": "4px",
+            "border": "2px solid rgb(255, 168, 29)",
+            "fontSize": "15px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "15px",
+        "text": "Learn more",
+        "confidence": "medium"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(225, 216, 210)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "8px 20px 8px 8px",
+            "borderRadius": "8px",
+            "border": "0px solid rgb(229, 231, 235)",
+            "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(40, 22, 29, 0.08) 2px 8px 12px 0px",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "text": "Play video1:00",
+        "confidence": "medium"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(255, 255, 255, 0)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "16px 24px",
+            "borderRadius": "4px",
+            "border": "2px solid rgb(255, 168, 29)",
+            "fontSize": "15px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "15px",
+        "text": "Watch tour video",
+        "confidence": "medium"
+      }
+    ],
+    "inputs": {
+      "text": [
+        {
+          "specificType": "email",
+          "states": {
+            "default": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "border": "0px solid rgb(229, 231, 235)",
+              "borderRadius": "0px",
+              "padding": "0px 199.453px 0px 0px",
+              "boxShadow": "none",
+              "outline": "rgba(0, 0, 0, 0) solid 2px"
+            },
+            "focus": {
+              "borderColor": "rgb(64, 37, 48)",
+              "color": "hsl(var(--twc-status-error-text-l1)/var(--twc-status-error-text-l1-opacity,var(--tw-text-opacity)))",
+              "border": "1px solid rgb(102, 60, 78)",
+              "outline": "none",
+              "backgroundColor": "hsl(var(--twc-component-input-surface-l0-hover)/.3)",
+              "boxShadow": "var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)"
+            }
+          }
+        },
+        {
+          "specificType": "email",
+          "states": {
+            "default": {
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgba(0, 0, 0, 0.7)",
+              "border": "0px none rgba(0, 0, 0, 0.7)",
+              "borderRadius": "4px",
+              "padding": "12px 16px",
+              "boxShadow": "none",
+              "outline": "rgba(0, 0, 0, 0.7) none 3px"
+            },
+            "focus": {
+              "borderColor": "rgb(64, 37, 48)",
+              "border": "1px solid rgb(102, 60, 78)",
+              "color": "hsl(var(--twc-component-input-label-l1-active)/var(--twc-component-input-label-l1-active-opacity,var(--tw-text-opacity)))",
+              "outline": "none",
+              "backgroundColor": "hsl(var(--twc-component-input-surface-l0-hover)/.3)"
+            }
+          }
+        }
+      ],
+      "checkbox": [],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgba(0, 0, 0, 0.7)",
+        "textDecoration": "none",
+        "fontWeight": "500",
+        "states": {
+          "default": {
+            "color": "rgba(0, 0, 0, 0.7)",
+            "textDecoration": "underline"
+          },
+          "hover": {
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "underline"
+          }
+        }
+      },
+      {
+        "color": "rgba(255, 255, 255, 0.7)",
+        "textDecoration": "none",
+        "fontWeight": "500",
+        "states": {
+          "default": {
+            "color": "rgba(255, 255, 255, 0.7)",
+            "textDecoration": "underline"
+          },
+          "hover": {
+            "color": "hsl(var(--twc-content-label-l2-active)/var(--twc-content-label-l2-active-opacity,var(--tw-text-opacity)))",
+            "textDecoration": "underline"
+          }
+        }
+      }
+    ],
+    "badges": {
+      "all": [],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": []
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "1px"
+    },
+    {
+      "px": "375px"
+    },
+    {
+      "px": "420px"
+    },
+    {
+      "px": "428px"
+    },
+    {
+      "px": "441px"
+    },
+    {
+      "px": "480px"
+    },
+    {
+      "px": "481px"
+    },
+    {
+      "px": "560px"
+    },
+    {
+      "px": "620px"
+    },
+    {
+      "px": "767px"
+    },
+    {
+      "px": "768px"
+    },
+    {
+      "px": "860px"
+    },
+    {
+      "px": "950px"
+    },
+    {
+      "px": "959px"
+    },
+    {
+      "px": "960px"
+    },
+    {
+      "px": "1023px"
+    },
+    {
+      "px": "1024px"
+    },
+    {
+      "px": "1025px"
+    },
+    {
+      "px": "1100px"
+    },
+    {
+      "px": "1123px"
+    },
+    {
+      "px": "1124px"
+    },
+    {
+      "px": "1199px"
+    },
+    {
+      "px": "1200px"
+    },
+    {
+      "px": "1229px"
+    },
+    {
+      "px": "1280px"
+    },
+    {
+      "px": "1300px"
+    },
+    {
+      "px": "1330px"
+    },
+    {
+      "px": "1340px"
+    },
+    {
+      "px": "1376px"
+    },
+    {
+      "px": "1400px"
+    },
+    {
+      "px": "1439px"
+    },
+    {
+      "px": "1440px"
+    },
+    {
+      "px": "1920px"
+    }
+  ],
+  "iconSystem": [
+    {
+      "name": "SVG Icons",
+      "type": "svg"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Tailwind CSS",
+      "confidence": "high",
+      "evidence": "arbitrary values (e.g., top-[117px]), responsive/state modifiers"
+    },
+    {
+      "name": "Headless UI",
+      "confidence": "high",
+      "evidence": "7 headless components with Tailwind"
+    }
+  ]
+}

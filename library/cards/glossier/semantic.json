@@ -1,0 +1,326 @@
+{
+  "url": "https://www.glossier.com",
+  "captured": "2026-08-10T07:06:20+00:00",
+  "named_tokens": {
+    "light": {
+      "--header-height": "2.5rem",
+      "--kl-reviews-color-light-gray": "#e9e9eb",
+      "--rc-color": "#040404",
+      "--rc-active-bg": "#efefef",
+      "--rc-active-color": "#000000"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {
+      "--kl-reviews-color-light-gray": "#e9e9eb",
+      "--rc-active-bg": "#efefef",
+      "--rc-active-color": "#000000",
+      "--rc-color": "#040404"
+    },
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "sharp corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "sharp",
+    "type_mood": [
+      "mono accents"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "modal": 2147483647,
+    "banner": 2147483645,
+    "overlay": 14,
+    "nav": 13,
+    "header": 13,
+    "tooltip": 10
+  },
+  "z_index_rows": [
+    {
+      "role": "overlay",
+      "selector": ".asym-hero__overlay",
+      "value": "2"
+    },
+    {
+      "role": "modal",
+      "selector": ".bag__overlay.modal-overlay",
+      "value": "14"
+    },
+    {
+      "role": "overlay",
+      "selector": ".bag-overlay",
+      "value": "14"
+    },
+    {
+      "role": "nav",
+      "selector": ".swatch--unavailable::after",
+      "value": "1"
+    },
+    {
+      "role": "nav",
+      "selector": ".swatch--unavailable::before",
+      "value": "1"
+    },
+    {
+      "role": "modal",
+      "selector": ".country-selector--modal .country-selector__icon",
+      "value": "2"
+    },
+    {
+      "role": "header",
+      "selector": ".header",
+      "value": "13"
+    },
+    {
+      "role": "nav",
+      "selector": ".nav",
+      "value": "11"
+    },
+    {
+      "role": "nav",
+      "selector": ".nav--search",
+      "value": "13"
+    },
+    {
+      "role": "nav",
+      "selector": ".nav__overlay",
+      "value": "5"
+    },
+    {
+      "role": "overlay",
+      "selector": ".promo-highlight__overlay-link",
+      "value": "1"
+    },
+    {
+      "role": "overlay",
+      "selector": ".two-column__image-overlay",
+      "value": "1"
+    },
+    {
+      "role": "overlay",
+      "selector": ".ugc__link-overlay",
+      "value": "1"
+    },
+    {
+      "role": "modal",
+      "selector": "#welcomeMatModal",
+      "value": "110000"
+    },
+    {
+      "role": "modal",
+      "selector": "#welcomeMatModalOverlay",
+      "value": "100000"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "1024px",
+      "selector": ".btn",
+      "change": "padding-top: 0.375rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".btn",
+      "change": "padding-right: 0.75rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".btn",
+      "change": "padding-bottom: 0.5rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".btn",
+      "change": "padding-left: 0.75rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".btn",
+      "change": "min-height: 2.75rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".btn--mobile-full",
+      "change": "width: 100%"
+    },
+    {
+      "at": "1024px",
+      "selector": ".btn-icon",
+      "change": "min-height: 2.5rem"
+    },
+    {
+      "at": "1024px",
+      "selector": "#chat-button",
+      "change": "margin-top: 0px"
+    },
+    {
+      "at": "1024px",
+      "selector": "#chat-button",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "1024px",
+      "selector": "#chat-button",
+      "change": "margin-bottom: 0px"
+    },
+    {
+      "at": "1024px",
+      "selector": "#chat-button",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "1024px",
+      "selector": "#chat-button",
+      "change": "right: 12px"
+    },
+    {
+      "at": "767px",
+      "selector": ".cf, .group",
+      "change": "zoom: 1"
+    },
+    {
+      "at": "767px",
+      "selector": ".desktop-and-tablet, .hide-phone, .tablet-only",
+      "change": "display: none"
+    },
+    {
+      "at": "767px",
+      "selector": "table",
+      "change": "text-align: right"
+    },
+    {
+      "at": "767px",
+      "selector": "thead",
+      "change": "border-top-width: 0px"
+    },
+    {
+      "at": "767px",
+      "selector": "thead",
+      "change": "border-right-width: 0px"
+    },
+    {
+      "at": "767px",
+      "selector": "thead",
+      "change": "border-bottom-width: 0px"
+    },
+    {
+      "at": "767px",
+      "selector": "thead",
+      "change": "border-left-width: 0px"
+    },
+    {
+      "at": "767px",
+      "selector": "thead",
+      "change": "border-top-style: none"
+    },
+    {
+      "at": "767px",
+      "selector": "thead",
+      "change": "border-right-style: none"
+    },
+    {
+      "at": "767px",
+      "selector": "td.top",
+      "change": "padding-top: 2.8125rem"
+    },
+    {
+      "at": "767px",
+      "selector": "td::before",
+      "change": "content: attr(data-label)"
+    },
+    {
+      "at": "767px",
+      "selector": "td::before",
+      "change": "font-weight: 400"
+    },
+    {
+      "at": "480px",
+      "selector": ".hide-small-phone",
+      "change": "display: none"
+    },
+    {
+      "at": "480px",
+      "selector": ".comparison__list-item",
+      "change": "margin-right: 0.75rem"
+    },
+    {
+      "at": "480px",
+      "selector": ".comparison__list-item",
+      "change": "max-width: none"
+    },
+    {
+      "at": "374px",
+      "selector": ".hide-smallest-phone",
+      "change": "display: none"
+    },
+    {
+      "at": "374px",
+      "selector": ".increment",
+      "change": "width: 75%"
+    },
+    {
+      "at": "768px",
+      "selector": ".btn--add-to-bag, .btn--notify",
+      "change": "min-width: 7.9375rem"
+    },
+    {
+      "at": "768px",
+      "selector": "#chat-button",
+      "change": "right: 20px"
+    },
+    {
+      "at": "768px",
+      "selector": "#chat-button",
+      "change": "bottom: 20px"
+    },
+    {
+      "at": "768px",
+      "selector": "#chat-button",
+      "change": "width: 80px"
+    },
+    {
+      "at": "768px",
+      "selector": "#chat-button",
+      "change": "height: 74px"
+    },
+    {
+      "at": "768px",
+      "selector": ".ir--product",
+      "change": "padding-bottom: 125.063%"
+    },
+    {
+      "at": "768px",
+      "selector": ".ir--product-card",
+      "change": "padding-bottom: 124.227%"
+    },
+    {
+      "at": "768px",
+      "selector": ".ir--product-card-top-banner",
+      "change": "padding-bottom: 41.2104%"
+    },
+    {
+      "at": "768px",
+      "selector": ".ir--home-hero-image, .ir--video",
+      "change": "padding-bottom: 143.165%"
+    },
+    {
+      "at": "768px",
+      "selector": ".phone-only",
+      "change": "display: none"
+    },
+    {
+      "at": "768px",
+      "selector": "tfoot tr:first-child, tfoot tr:last-child",
+      "change": "border-top-width: 1px"
+    }
+  ]
+}

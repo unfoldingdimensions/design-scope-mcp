@@ -1,0 +1,187 @@
+{
+  "url": "https://www.backmarket.com",
+  "captured": "2026-08-10T13:52:14+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(17, 15, 21)",
+          "after": "rgb(58, 60, 65)"
+        },
+        "borderColor": {
+          "before": "rgb(17, 15, 21)",
+          "after": "rgb(58, 60, 65)"
+        },
+        "outline": {
+          "before": "rgb(17, 15, 21) none 3px",
+          "after": "rgb(58, 60, 65) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgb(17, 15, 21)",
+          "after": "rgb(58, 60, 65)"
+        },
+        "borderColor": {
+          "before": "rgb(17, 15, 21)",
+          "after": "rgb(58, 60, 65)"
+        },
+        "outline": {
+          "before": "rgb(17, 15, 21) none 3px",
+          "after": "rgb(58, 60, 65) none 3px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 3,
+      "diffs": {
+        "color": {
+          "before": "rgb(17, 15, 21)",
+          "after": "rgb(58, 60, 65)"
+        },
+        "borderColor": {
+          "before": "rgb(17, 15, 21)",
+          "after": "rgb(58, 60, 65)"
+        },
+        "outline": {
+          "before": "rgb(17, 15, 21) none 3px",
+          "after": "rgb(58, 60, 65) none 3px"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(17, 15, 21, 0.06)"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": "button",
+      "index": 5,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(239, 241, 246, 0)",
+          "after": "rgba(239, 241, 246, 0.06)"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    },
+    {
+      "selector": "button",
+      "index": 6,
+      "diffs": {
+        "color": {
+          "before": "rgb(17, 15, 21)",
+          "after": "rgb(58, 60, 65)"
+        },
+        "borderColor": {
+          "before": "rgb(17, 15, 21)",
+          "after": "rgb(58, 60, 65)"
+        },
+        "outline": {
+          "before": "rgb(17, 15, 21) none 3px",
+          "after": "rgb(58, 60, 65) none 3px"
+        }
+      },
+      "before_png": "hover-before-06.png",
+      "after_png": "hover-after-06.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 317,
+    "tabs": 20,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 50,
+    "scrollSnap": 73,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "button",
+      "classes": "flex w-72 hyphens-auto cursor-pointer flex-col items-center justify-center gap-4",
+      "text": "Price drop",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "button",
+      "classes": "flex w-72 hyphens-auto cursor-pointer flex-col items-center justify-center gap-4",
+      "text": "MacBook",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "button",
+      "classes": "flex w-72 hyphens-auto cursor-pointer flex-col items-center justify-center gap-4",
+      "text": "iPhone",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "button",
+      "classes": "flex w-72 hyphens-auto cursor-pointer flex-col items-center justify-center gap-4",
+      "text": "Smartwatches",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "button",
+      "classes": "flex w-72 hyphens-auto cursor-pointer flex-col items-center justify-center gap-4",
+      "text": "iPad",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "button",
+      "classes": "flex w-72 hyphens-auto cursor-pointer flex-col items-center justify-center gap-4",
+      "text": "Android smartphones",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "button",
+      "classes": "flex w-72 hyphens-auto cursor-pointer flex-col items-center justify-center gap-4",
+      "text": "Windows laptops",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "button",
+      "classes": "flex w-72 hyphens-auto cursor-pointer flex-col items-center justify-center gap-4",
+      "text": "Retro tech",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    }
+  ]
+}

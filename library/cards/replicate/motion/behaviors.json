@@ -1,0 +1,147 @@
+{
+  "url": "https://replicate.com",
+  "captured": "2026-08-10T07:56:55+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(100, 100, 100)",
+          "after": "rgb(32, 32, 32)"
+        },
+        "borderColor": {
+          "before": "rgb(100, 100, 100)",
+          "after": "rgb(32, 32, 32)"
+        },
+        "outline": {
+          "before": "rgb(100, 100, 100) none 3px",
+          "after": "rgb(32, 32, 32) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(0, 0, 0, 0.06)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "borderColor": {
+          "before": "rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgb(32, 32, 32)",
+          "after": "rgb(206, 206, 206) rgb(206, 206, 206) rgb(32, 32, 32)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "color": {
+          "before": "rgb(100, 100, 100)",
+          "after": "rgb(32, 32, 32)"
+        },
+        "borderColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgb(206, 206, 206)"
+        },
+        "outline": {
+          "before": "rgb(100, 100, 100) none 3px",
+          "after": "rgb(32, 32, 32) none 3px"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 168,
+    "tabs": 10,
+    "accordions": 0,
+    "carousels": 49,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 49
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "div",
+      "classes": "r8-tabs r8-tabs--bordered r8-tabs--sm px-4",
+      "text": "NodePythonHTTP",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "button",
+      "classes": "r8-tabs__tab",
+      "text": "Node",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "span",
+      "classes": "r8-tabs__tab-text",
+      "text": "Node",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "button",
+      "classes": "r8-tabs__tab",
+      "text": "Python",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "span",
+      "classes": "r8-tabs__tab-text",
+      "text": "Python",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "button",
+      "classes": "r8-tabs__tab",
+      "text": "HTTP",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "span",
+      "classes": "r8-tabs__tab-text",
+      "text": "HTTP",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "div",
+      "classes": "r8-tabs__content",
+      "text": "import Replicate from \"replicate\";const replicate = new Repl",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

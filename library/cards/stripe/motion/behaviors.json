@@ -1,0 +1,171 @@
+{
+  "url": "https://stripe.com",
+  "captured": "2026-08-09T16:10:05+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(83, 58, 253)",
+          "after": "rgb(46, 43, 140)"
+        },
+        "borderColor": {
+          "before": "rgb(83, 58, 253)",
+          "after": "rgb(46, 43, 140)"
+        },
+        "opacity": {
+          "before": "1",
+          "after": "0.6"
+        },
+        "outline": {
+          "before": "rgb(83, 58, 253) none 3px",
+          "after": "rgb(46, 43, 140) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgb(100, 116, 141)",
+          "after": "rgb(6, 27, 49)"
+        },
+        "borderColor": {
+          "before": "rgb(100, 116, 141)",
+          "after": "rgb(6, 27, 49)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "color": {
+          "before": "rgb(100, 116, 141)",
+          "after": "rgb(6, 27, 49)"
+        },
+        "borderColor": {
+          "before": "rgb(100, 116, 141)",
+          "after": "rgb(6, 27, 49)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "color": {
+          "before": "rgb(100, 116, 141)",
+          "after": "rgb(6, 27, 49)"
+        },
+        "borderColor": {
+          "before": "rgb(100, 116, 141)",
+          "after": "rgb(6, 27, 49)"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": "button",
+      "index": 5,
+      "diffs": {
+        "color": {
+          "before": "rgb(100, 116, 141)",
+          "after": "rgb(6, 27, 49)"
+        },
+        "borderColor": {
+          "before": "rgb(100, 116, 141)",
+          "after": "rgb(6, 27, 49)"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 208,
+    "tabs": 80,
+    "accordions": 0,
+    "carousels": 162,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 2
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "span",
+      "classes": "hero-section__eyebrow-value tabular-nums--tight",
+      "text": "1.69532694%1.69532694%",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "div",
+      "classes": "tabular-nums--tight",
+      "text": "US$5.46",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "div",
+      "classes": "tabular-nums--tight",
+      "text": "€26.89",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "div",
+      "classes": "tabular-nums--tight",
+      "text": "JP¥5,000",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "div",
+      "classes": "tabular-nums--tight",
+      "text": "US$5.46",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "div",
+      "classes": "payments-graphic__terminal-transaction-details-value tabular-nums--tight",
+      "text": "US$5.50",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "span",
+      "classes": "tabular-nums--tight",
+      "text": "10%",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "div",
+      "classes": "payments-graphic__terminal-transaction-details-value tabular-nums--tight",
+      "text": "-US$0.55",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

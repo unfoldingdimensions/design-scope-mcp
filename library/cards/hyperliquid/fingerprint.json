@@ -1,0 +1,817 @@
+{
+  "url": "https://hyperfoundation.org/",
+  "extractedAt": "2026-08-09T12:37:59.037Z",
+  "meta": {
+    "snapshotId": "5cfb844a-1efd-4d8f-8c53-fd2e0f167f6d",
+    "httpStatus": 200,
+    "dembrandtVersion": "0.27.1",
+    "schemaVersion": "1.5.0",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "fontsReady": true,
+    "flags": {
+      "mobile": true
+    }
+  },
+  "siteName": null,
+  "logo": {
+    "source": "img",
+    "context": "header",
+    "url": "https://hyperfoundation.org/landing/logo.svg",
+    "width": 179,
+    "height": 28,
+    "rect": {
+      "x": 376,
+      "y": 34,
+      "width": 179,
+      "height": 28
+    },
+    "natural": {
+      "width": 179,
+      "height": 28
+    },
+    "alt": "",
+    "type": "wordmark",
+    "reversed": false,
+    "background": "#ffffff",
+    "safeZone": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "position": {
+      "top": 34,
+      "left": 376
+    }
+  },
+  "logoInstances": [
+    {
+      "source": "img",
+      "context": "header",
+      "url": "https://hyperfoundation.org/landing/logo.svg",
+      "width": 179,
+      "height": 28,
+      "rect": {
+        "x": 376,
+        "y": 34,
+        "width": 179,
+        "height": 28
+      },
+      "natural": {
+        "width": 179,
+        "height": 28
+      },
+      "alt": "",
+      "type": "wordmark",
+      "reversed": false,
+      "background": "#ffffff",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 34,
+        "left": 376
+      }
+    }
+  ],
+  "favicons": [
+    {
+      "type": "apple-touch-icon",
+      "url": "https://hyperliquid.xyz/apple-touch-icon.png",
+      "sizes": "180x180"
+    },
+    {
+      "type": "icon",
+      "url": "https://hyperliquid.xyz/favicon-32x32.png",
+      "sizes": "32x32"
+    },
+    {
+      "type": "icon",
+      "url": "https://hyperliquid.xyz/favicon-16x16.png",
+      "sizes": "16x16"
+    }
+  ],
+  "colors": {
+    "semantic": {
+      "background": "rgb(4, 6, 12)",
+      "text": "rgba(255, 255, 255, 0.92)",
+      "primary": "rgb(151, 252, 228)"
+    },
+    "palette": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 308,
+        "confidence": "high",
+        "sources": [
+          "logo",
+          "css-zbma5l"
+        ],
+        "lch": "lch(100% 0.03 53.35)",
+        "oklch": "oklch(100% 0 89.88)",
+        "role": "surface",
+        "onColor": "#000000",
+        "hover": "#d9d9d9"
+      },
+      {
+        "color": "rgb(7, 39, 35)",
+        "normalized": "#072723",
+        "count": 10,
+        "confidence": "high",
+        "sources": [
+          "logo",
+          "css-ma53y"
+        ],
+        "lch": "lch(13.25% 13.07 184.19)",
+        "oklch": "oklch(24.82% 0.038 183.49)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#082f2a",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(151, 252, 228)",
+        "normalized": "#97fce4",
+        "count": 10,
+        "confidence": "medium",
+        "sources": [],
+        "lch": "lch(92.3% 35.08 177.13)",
+        "oklch": "oklch(92.24% 0.101 176.97)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#80d6c2",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(35, 82, 76)",
+        "normalized": "#23524c",
+        "count": 4,
+        "confidence": "low",
+        "sources": [],
+        "lch": "lch(31.49% 18.1 185.1)",
+        "oklch": "oklch(40.39% 0.052 184.3)",
+        "role": "supporting",
+        "onColor": "#ffffff",
+        "hover": "#2a625b",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(16, 16, 16)",
+        "normalized": "#101010",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      }
+    ],
+    "cssVariables": {
+      "--wcm-color-fg-2": {
+        "value": "rgb(121,134,134)",
+        "hex": "#798686",
+        "lch": "lch(54.85% 5.2 199.05)",
+        "oklch": "oklch(60.94% 0.015 196.76)"
+      },
+      "--wcm-color-fg-3": {
+        "value": "rgb(158,169,169)",
+        "hex": "#9ea9a9",
+        "lch": "lch(68.35% 4.24 199.17)",
+        "oklch": "oklch(72.61% 0.012 196.88)"
+      },
+      "--privy-color-foreground-4": {
+        "value": "hsl(0,0%,25%)",
+        "hex": "#404040",
+        "lch": "lch(27.09% 0.01 53.35)",
+        "oklch": "oklch(37.15% 0 89.88)"
+      },
+      "--wcm-background-color": {
+        "value": "#3396FF",
+        "hex": "#3396ff",
+        "lch": "lch(60.48% 61.35 269.48)",
+        "oklch": "oklch(66.9% 0.18 253.36)"
+      },
+      "--privy-color-warn": {
+        "value": "hsl(36,100%,65%)",
+        "hex": "#ffb84d",
+        "lch": "lch(80.22% 65.62 72.75)",
+        "oklch": "oklch(83.05% 0.145 74.18)"
+      },
+      "--privy-color-accent-light": {
+        "value": "hsl(172,47%,51%)",
+        "hex": "#47bdad",
+        "lch": "lch(69.76% 37.36 183.38)",
+        "oklch": "oklch(72.8% 0.108 182.74)"
+      },
+      "--privy-color-foreground-3": {
+        "value": "hsl(0,0%,45%)",
+        "hex": "#737373",
+        "lch": "lch(48.44% 0.02 53.35)",
+        "oklch": "oklch(55.55% 0 89.88)"
+      },
+      "--privy-color-accent": {
+        "value": "hsl(172,47%,36%)",
+        "hex": "#31877b",
+        "lch": "lch(50.98% 29.1 183.05)",
+        "oklch": "oklch(56.85% 0.084 182.44)"
+      },
+      "--privy-color-background": {
+        "value": "hsl(0,0%,0%)",
+        "hex": "#000000",
+        "lch": "lch(0% 0 0)",
+        "oklch": "oklch(0% 0 0)"
+      },
+      "--privy-color-foreground-2": {
+        "value": "hsl(0,0%,75%)",
+        "hex": "#bfbfbf",
+        "lch": "lch(77.34% 0.02 53.35)",
+        "oklch": "oklch(80.47% 0 89.88)"
+      }
+    },
+    "detected": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 308,
+        "usageFrac": 0.7567567567567568,
+        "confidence": "high",
+        "sources": [
+          "css-zbma5l"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(51, 153, 140)",
+        "normalized": "#33998c",
+        "count": 39,
+        "usageFrac": 0.09582309582309582,
+        "confidence": "high",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(15, 57, 51)",
+        "normalized": "#0f3933",
+        "count": 19,
+        "usageFrac": 0.04668304668304668,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(7, 39, 35)",
+        "normalized": "#072723",
+        "count": 10,
+        "usageFrac": 0.02457002457002457,
+        "confidence": "medium",
+        "sources": [
+          "css-ma53y"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(151, 252, 228)",
+        "normalized": "#97fce4",
+        "count": 10,
+        "usageFrac": 0.02457002457002457,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(25, 56, 51)",
+        "normalized": "#193833",
+        "count": 8,
+        "usageFrac": 0.019656019656019656,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(35, 82, 76)",
+        "normalized": "#23524c",
+        "count": 4,
+        "usageFrac": 0.009828009828009828,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(219, 251, 246)",
+        "normalized": "#dbfbf6",
+        "count": 2,
+        "usageFrac": 0.004914004914004914,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(7, 39, 36)",
+        "normalized": "#072724",
+        "count": 2,
+        "usageFrac": 0.004914004914004914,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(4, 6, 12)",
+        "normalized": "#04060c",
+        "count": 1,
+        "usageFrac": 0.002457002457002457,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(2, 35, 30)",
+        "normalized": "#02231e",
+        "count": 1,
+        "usageFrac": 0.002457002457002457,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(245, 254, 253)",
+        "normalized": "#f5fefd",
+        "count": 1,
+        "usageFrac": 0.002457002457002457,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(237, 255, 252)",
+        "normalized": "#edfffc",
+        "count": 1,
+        "usageFrac": 0.002457002457002457,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(176, 197, 193)",
+        "normalized": "#b0c5c1",
+        "count": 1,
+        "usageFrac": 0.002457002457002457,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      }
+    ],
+    "_raw": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 308
+      },
+      {
+        "color": "rgb(7, 39, 35)",
+        "normalized": "#072723",
+        "count": 10
+      },
+      {
+        "color": "rgb(151, 252, 228)",
+        "normalized": "#97fce4",
+        "count": 10
+      },
+      {
+        "color": "rgb(25, 56, 51)",
+        "normalized": "#193833",
+        "count": 8
+      },
+      {
+        "color": "rgb(15, 57, 51)",
+        "normalized": "#0f3933",
+        "count": 19
+      },
+      {
+        "color": "rgb(51, 153, 140)",
+        "normalized": "#33998c",
+        "count": 39
+      },
+      {
+        "color": "rgb(35, 82, 76)",
+        "normalized": "#23524c",
+        "count": 4
+      }
+    ]
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "display",
+        "family": "Teodor",
+        "fallbacks": "Georgia, Garamond",
+        "size": "60px (3.75rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": "-3%",
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "link",
+        "family": "Inter",
+        "fallbacks": "system-ui, Segoe UI, Roboto, Ubuntu, Helvetica Neue",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "body",
+        "family": "Inter",
+        "fallbacks": "system-ui, Segoe UI, Roboto, Ubuntu, Helvetica Neue",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "link",
+        "family": "Inter",
+        "fallbacks": "system-ui, Segoe UI, Roboto, Ubuntu, Helvetica Neue",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      }
+    ],
+    "sources": {
+      "googleFonts": [],
+      "adobeFonts": false,
+      "variableFonts": false,
+      "openTypeFeatures": [
+        "kern"
+      ],
+      "selfHostedFonts": [
+        "Teodor-Light.ttf",
+        "Teodor-Light.woff",
+        "Teodor-Light.woff2",
+        "Teodor-LightItalic.ttf",
+        "Teodor-LightItalic.woff",
+        "Teodor-LightItalic.woff2",
+        "inter-latin-400-normal.9698cc7dbf147ed363b6.woff2"
+      ],
+      "customFonts": [
+        "Teodor-Light.ttf",
+        "Teodor-Light.woff",
+        "Teodor-Light.woff2",
+        "Teodor-LightItalic.ttf",
+        "Teodor-LightItalic.woff",
+        "Teodor-LightItalic.woff2",
+        "inter-latin-400-normal.9698cc7dbf147ed363b6.woff2"
+      ]
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "8px",
+        "display": "8px",
+        "rem": "0.50rem",
+        "count": 4,
+        "numericValue": 8
+      },
+      {
+        "px": "9px",
+        "display": "9px",
+        "rem": "0.56rem",
+        "count": 8,
+        "numericValue": 9
+      },
+      {
+        "px": "14px",
+        "display": "14px",
+        "rem": "0.88rem",
+        "count": 2,
+        "numericValue": 14
+      },
+      {
+        "px": "20px",
+        "display": "20px",
+        "rem": "1.25rem",
+        "count": 4,
+        "numericValue": 20
+      },
+      {
+        "px": "24px",
+        "display": "24px",
+        "rem": "1.50rem",
+        "count": 1,
+        "numericValue": 24
+      },
+      {
+        "px": "32px",
+        "display": "32px",
+        "rem": "2.00rem",
+        "count": 3,
+        "numericValue": 32
+      },
+      {
+        "px": "37px",
+        "display": "37px",
+        "rem": "2.31rem",
+        "count": 2,
+        "numericValue": 37
+      },
+      {
+        "px": "40px",
+        "display": "40px",
+        "rem": "2.50rem",
+        "count": 3,
+        "numericValue": 40
+      },
+      {
+        "px": "60px",
+        "display": "60px",
+        "rem": "3.75rem",
+        "count": 1,
+        "numericValue": 60
+      },
+      {
+        "px": "90px",
+        "display": "90px",
+        "rem": "5.63rem",
+        "count": 1,
+        "numericValue": 90
+      },
+      {
+        "px": "150px",
+        "display": "150px",
+        "rem": "9.38rem",
+        "count": 1,
+        "numericValue": 150
+      },
+      {
+        "px": "160px",
+        "display": "160px",
+        "rem": "10.00rem",
+        "count": 2,
+        "numericValue": 160
+      },
+      {
+        "px": "180px",
+        "display": "180px",
+        "rem": "11.25rem",
+        "count": 1,
+        "numericValue": 180
+      },
+      {
+        "px": "250px",
+        "display": "250px",
+        "rem": "15.63rem",
+        "count": 1,
+        "numericValue": 250
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "12px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 12
+      },
+      {
+        "value": "14px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 14
+      },
+      {
+        "value": "37px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 37
+      },
+      {
+        "value": "60px",
+        "count": 5,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 60
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(151, 252, 228)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(35, 82, 76)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [
+    {
+      "shadow": "rgb(151, 252, 215) 0px 0px 20px 5px",
+      "count": 1,
+      "confidence": "low"
+    }
+  ],
+  "gradients": [],
+  "motion": {
+    "durations": [
+      {
+        "value": "0.001s",
+        "ms": 1,
+        "count": 436
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease",
+        "type": "ease",
+        "count": 419
+      },
+      {
+        "value": "ease-out",
+        "type": "ease-out",
+        "count": 26
+      },
+      {
+        "value": "ease-in-out",
+        "type": "ease-in-out",
+        "count": 8
+      }
+    ],
+    "animations": [
+      {
+        "name": "animation-1pr2sp7",
+        "duration": "0.001s",
+        "easing": "linear",
+        "count": 4,
+        "contexts": [
+          "other"
+        ]
+      },
+      {
+        "name": "animation-m6kcno",
+        "duration": "0.001s",
+        "easing": "ease-in",
+        "count": 1,
+        "contexts": [
+          "other"
+        ]
+      }
+    ],
+    "contexts": {
+      "link": {
+        "count": 12,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease-in-out",
+        "easingType": "ease-in-out",
+        "props": [
+          "color"
+        ]
+      }
+    },
+    "interactiveDeltas": [
+      {
+        "tag": "a",
+        "text": "Stats",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(7, 39, 35)",
+            "to": "rgb(52, 154, 141)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Docs",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(7, 39, 35)",
+            "to": "rgb(52, 154, 141)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Ecosystem",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(7, 39, 35)",
+            "to": "rgb(52, 154, 141)"
+          }
+        }
+      }
+    ]
+  },
+  "components": {
+    "buttons": [],
+    "inputs": {
+      "text": [],
+      "checkbox": [],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgba(255, 255, 255, 0.92)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgba(255, 255, 255, 0.92)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "rgb(25, 56, 51)"
+          }
+        }
+      },
+      {
+        "color": "rgb(7, 39, 35)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(7, 39, 35)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "rgb(25, 56, 51)"
+          }
+        }
+      }
+    ],
+    "badges": {
+      "all": [],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": []
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "320px"
+    },
+    {
+      "px": "768px"
+    },
+    {
+      "px": "1200px"
+    },
+    {
+      "px": "1500px"
+    },
+    {
+      "px": "1600px"
+    }
+  ],
+  "iconSystem": [],
+  "frameworks": []
+}

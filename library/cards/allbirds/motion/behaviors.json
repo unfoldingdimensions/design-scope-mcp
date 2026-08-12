@@ -1,0 +1,42 @@
+{
+  "url": "https://www.allbirds.com",
+  "captured": "2026-08-10T04:53:26+00:00",
+  "hover_diffs": [],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 291,
+    "tabs": 4,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "button",
+      "classes": "text-light-charcoal relative z-[2] flex flex-1 items-center justify-center pt-4 ",
+      "text": "Men",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "button",
+      "classes": "text-black relative z-[2] flex flex-1 items-center justify-center pt-4 pb-1 tran",
+      "text": "Women",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "button",
+      "classes": "relative z-[2] flex flex-1 items-center justify-center pt-4 pb-1 transition-colo",
+      "text": "Sale",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    }
+  ]
+}

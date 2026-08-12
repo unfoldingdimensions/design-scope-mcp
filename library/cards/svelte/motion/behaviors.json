@@ -1,0 +1,54 @@
+{
+  "url": "https://svelte.dev",
+  "captured": "2026-08-10T07:29:23+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgb(242, 242, 242)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "borderColor": {
+          "before": "rgb(242, 242, 242) rgb(235, 235, 235) rgb(235, 235, 235) rgb(242, 242, 242)",
+          "after": "rgb(235, 235, 235) rgb(219, 219, 219) rgb(219, 219, 219) rgb(235, 235, 235)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "borderColor": {
+          "before": "rgb(242, 242, 242) rgb(235, 235, 235) rgb(235, 235, 235) rgb(242, 242, 242)",
+          "after": "rgb(235, 235, 235) rgb(219, 219, 219) rgb(219, 219, 219) rgb(235, 235, 235)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 129,
+    "tabs": 0,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": []
+}

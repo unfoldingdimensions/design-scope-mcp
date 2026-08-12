@@ -1,0 +1,353 @@
+{
+  "url": "https://www.aljazeera.com",
+  "captured": "2026-08-10T14:35:30+00:00",
+  "named_tokens": {
+    "light": {
+      "--primary-text-color": "$black",
+      "--original-color": "#011f75",
+      "--main-grey-color": "#595959",
+      "--primary-color": "#32a2ef",
+      "--primary-dark-color": "#118add",
+      "--primary-light-color": "#9fc9e6",
+      "--secondary-color": "#fec300",
+      "--hyperlink-color": "#145587",
+      "--font-family": "\"Al-Jazeera\",\"Helvetica Neue\",\"Helvetica\",\"Arial\",sans-serif",
+      "--font-family-article-body": "\"Al-Jazeera\",\"Helvetica Neue\",\"Helvetica\",\"Arial\",sans-serif",
+      "--ticker-color": "#d71c45",
+      "--header-logo-aspect-ratio": "1",
+      "--leading-base": "1",
+      "--leading-headline": "1.5",
+      "--leading-multilines": "1.5",
+      "--article-body-font-size-d": "1.375rem",
+      "--article-body-font-size-m": "1.25rem",
+      "--article-source-font-size": "1.25rem",
+      "--article-body-font-weight": "400",
+      "--swiper-theme-color": "#007aff",
+      "--swiper-navigation-size": "44px"
+    },
+    "dark": {
+      "--primary-text-color": "$medium-grey-300"
+    }
+  },
+  "semantic_colors": {
+    "light": {
+      "--hyperlink-color": "#145587",
+      "--main-grey-color": "#595959",
+      "--original-color": "#011f75",
+      "--primary-color": "#32a2ef",
+      "--primary-dark-color": "#118add",
+      "--primary-light-color": "#9fc9e6",
+      "--secondary-color": "#fec300",
+      "--swiper-theme-color": "#007aff",
+      "--ticker-color": "#d71c45"
+    },
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "rounded corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "rounded",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "modal": 2147483647,
+    "banner": 2147483645,
+    "header": 99999,
+    "notification": 99999,
+    "menu": 999,
+    "tooltip": 100,
+    "overlay": 100,
+    "toast": 99,
+    "nav": 9,
+    "sidebar": 0
+  },
+  "z_index_rows": [
+    {
+      "role": "header",
+      "selector": ".amp .container--header",
+      "value": "99"
+    },
+    {
+      "role": "header",
+      "selector": ".amp .site-header",
+      "value": "12"
+    },
+    {
+      "role": "menu",
+      "selector": "#menu-sidebar .site-header",
+      "value": "11"
+    },
+    {
+      "role": "modal",
+      "selector": ".user-accounts-modal__overlay",
+      "value": "1000000"
+    },
+    {
+      "role": "modal",
+      "selector": ".user-accounts-modal__overlay::after",
+      "value": "-1"
+    },
+    {
+      "role": "toast",
+      "selector": ".toast-popup",
+      "value": "99"
+    },
+    {
+      "role": "toast",
+      "selector": ".toast-popup.account-page",
+      "value": "unset"
+    },
+    {
+      "role": "tooltip",
+      "selector": ".tooltip",
+      "value": "100"
+    },
+    {
+      "role": "overlay",
+      "selector": ".search-bar--overlay",
+      "value": "1"
+    },
+    {
+      "role": "overlay",
+      "selector": ".search-bar--overlay",
+      "value": "100"
+    },
+    {
+      "role": "menu",
+      "selector": ".menu.header-menu, .menu.header-menu--dark",
+      "value": "10"
+    },
+    {
+      "role": "menu",
+      "selector": ".menu.header-menu .submenu_wrapper",
+      "value": "999"
+    },
+    {
+      "role": "header",
+      "selector": ".container--header",
+      "value": "10"
+    },
+    {
+      "role": "header",
+      "selector": ".container--header header::after",
+      "value": "11"
+    },
+    {
+      "role": "header",
+      "selector": ".headroom-wrapper:has(.header-is-sponsored)",
+      "value": "99999"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "992px",
+      "selector": ".error-element__title",
+      "change": "font-size: 3.125rem"
+    },
+    {
+      "at": "992px",
+      "selector": ".error-element__subtitle",
+      "change": "font-size: 1.375rem"
+    },
+    {
+      "at": "992px",
+      "selector": "[dir=\"ltr\"] :is(.video-experience-container, .episode-video-list-container) .fea",
+      "change": "left: 10px"
+    },
+    {
+      "at": "992px",
+      "selector": "[dir=\"rtl\"] :is(.video-experience-container, .episode-video-list-container) .fea",
+      "change": "right: 10px"
+    },
+    {
+      "at": "992px",
+      "selector": ":is(.video-experience-container, .episode-video-list-container) .featured-video-",
+      "change": "bottom: 10px"
+    },
+    {
+      "at": "992px",
+      "selector": ".post-icon__container",
+      "change": "height: 30px"
+    },
+    {
+      "at": "992px",
+      "selector": ".post-icon__container",
+      "change": "padding-left: 10px"
+    },
+    {
+      "at": "992px",
+      "selector": ".post-icon__container",
+      "change": "padding-right: 10px"
+    },
+    {
+      "at": "992px",
+      "selector": ".post-icon__container",
+      "change": "padding-top: 8px"
+    },
+    {
+      "at": "992px",
+      "selector": ".post-icon__container",
+      "change": "padding-bottom: 8px"
+    },
+    {
+      "at": "992px",
+      "selector": "[dir=\"ltr\"] .post-icon__container",
+      "change": "left: 20px"
+    },
+    {
+      "at": "992px",
+      "selector": "[dir=\"rtl\"] .post-icon__container",
+      "change": "right: 20px"
+    },
+    {
+      "at": "992px",
+      "selector": "[dir=\"ltr\"] .post-icon--large, [dir=\"ltr\"] .post-icon--medium",
+      "change": "left: 20px"
+    },
+    {
+      "at": "992px",
+      "selector": "[dir=\"rtl\"] .post-icon--large, [dir=\"rtl\"] .post-icon--medium",
+      "change": "right: 20px"
+    },
+    {
+      "at": "(-ms-high-contrast:none), screen and (-m",
+      "selector": ".gc__meta",
+      "change": "float: right"
+    },
+    {
+      "at": "(-ms-high-contrast:none), screen and (-m",
+      "selector": ".gc__meta",
+      "change": "margin-right: 20px"
+    },
+    {
+      "at": "992px",
+      "selector": ".gc__meta .gc__meta__icon",
+      "change": "width: 32px"
+    },
+    {
+      "at": "992px",
+      "selector": ".gc__meta .gc__meta__icon",
+      "change": "height: 32px"
+    },
+    {
+      "at": "991px",
+      "selector": ".article-card--episode .gc__meta__icon",
+      "change": "width: 8px"
+    },
+    {
+      "at": "991px",
+      "selector": "html.theme-aja .fte-featured-articles-list__item:nth-last-child(-n+8) .fte-artic",
+      "change": "margin-top: 0px"
+    },
+    {
+      "at": "991px",
+      "selector": "html.theme-aja .fte-featured-articles-list__item:nth-last-child(-n+8) .fte-artic",
+      "change": "font-size: 0.875rem"
+    },
+    {
+      "at": "991px",
+      "selector": "html.theme-aja .fte-featured-articles-list__item:nth-last-child(-n+8) .fte-artic",
+      "change": "line-height: 1.7"
+    },
+    {
+      "at": "992px",
+      "selector": ".article-card--video-experience .program__page__source",
+      "change": "margin-bottom: 10px"
+    },
+    {
+      "at": "992px",
+      "selector": ".article-card--side-by-side .video-program-source__from-label, .article-card--si",
+      "change": "font-size: 0.875rem"
+    },
+    {
+      "at": "992px",
+      "selector": ".article-featured-image",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "992px",
+      "selector": ".article-featured-image",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "992px",
+      "selector": ".article-featured-image figcaption",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "992px",
+      "selector": ".article-featured-image figcaption",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "991px",
+      "selector": ".article-featured-image .responsive-image",
+      "change": "border-top-left-radius: 0px"
+    },
+    {
+      "at": "991px",
+      "selector": ".article-featured-image .responsive-image",
+      "change": "border-top-right-radius: 0px"
+    },
+    {
+      "at": "991px",
+      "selector": ".article-featured-image .responsive-image",
+      "change": "border-bottom-right-radius: 0px"
+    },
+    {
+      "at": "991px",
+      "selector": ".article-featured-image .responsive-image",
+      "change": "border-bottom-left-radius: 0px"
+    },
+    {
+      "at": "992px",
+      "selector": ".aj-video-player.article__featured-video, .article__featured-video",
+      "change": "width: 100%"
+    },
+    {
+      "at": "992px",
+      "selector": ".aj-video-player.article__featured-video, .article__featured-video",
+      "change": "margin-top: 30px"
+    },
+    {
+      "at": "992px",
+      "selector": ".aj-video-player.article__featured-video, .article__featured-video",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "992px",
+      "selector": ".aj-video-player.article__featured-video, .article__featured-video",
+      "change": "margin-bottom: 20px"
+    },
+    {
+      "at": "992px",
+      "selector": ".aj-video-player.article__featured-video, .article__featured-video",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "991px",
+      "selector": ".compact-featured-area__media .aj-video-player.article__featured-video",
+      "change": "margin-top: 20px"
+    },
+    {
+      "at": "991px",
+      "selector": ".compact-featured-area__media .aj-video-player.article__featured-video",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "991px",
+      "selector": ".compact-featured-area__media .aj-video-player.article__featured-video",
+      "change": "margin-bottom: 0px"
+    }
+  ]
+}

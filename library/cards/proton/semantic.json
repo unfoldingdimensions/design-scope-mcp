@@ -1,0 +1,279 @@
+{
+  "url": "https://proton.me",
+  "captured": "2026-08-10T11:58:57+00:00",
+  "named_tokens": {
+    "light": {
+      "--react-pdf-annotation-layer": "1",
+      "--annotation-unfocused-field-background": "url(\"data:image/svg+xml;charset=UTF-8,<svg width='1px' height='1px' xmlns='http://www.w3.org/2000/svg'><rect width='100%' height='100%' style='fill:rgba(0, 54, 255, 0.13);'/></svg>\")",
+      "--input-focus-border-color": "Highlight",
+      "--input-focus-outline": "1px solid Canvas",
+      "--input-unfocused-border-color": "transparent",
+      "--input-disabled-border-color": "transparent",
+      "--input-hover-border-color": "black",
+      "--link-outline": "none",
+      "--react-pdf-text-layer": "1",
+      "--highlight-bg-color": "#b400aa",
+      "--highlight-selected-bg-color": "#006400"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {
+      "--highlight-bg-color": "#b400aa",
+      "--highlight-selected-bg-color": "#006400"
+    },
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "generous corners",
+      "elevated (soft shadows)"
+    ],
+    "flat": false,
+    "corner_style": "generous",
+    "type_mood": [
+      "serif-led"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "dropdown": 60,
+    "modal": 50,
+    "menu": 40,
+    "notification": 30,
+    "tooltip": 10
+  },
+  "z_index_rows": [
+    {
+      "role": "dropdown",
+      "selector": ".z-dropdown",
+      "value": "60"
+    },
+    {
+      "role": "menu",
+      "selector": ".z-menu",
+      "value": "40"
+    },
+    {
+      "role": "modal",
+      "selector": ".z-modal",
+      "value": "50"
+    },
+    {
+      "role": "notification",
+      "selector": ".z-notification",
+      "value": "30"
+    },
+    {
+      "role": "tooltip",
+      "selector": ".z-tooltip",
+      "value": "10"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "(width >= 120em)",
+      "selector": "html",
+      "change": "font-size: 1.125rem"
+    },
+    {
+      "at": "(width >= 48em)",
+      "selector": ".container",
+      "change": "padding-inline-start: 2rem"
+    },
+    {
+      "at": "(width >= 48em)",
+      "selector": ".container",
+      "change": "padding-inline-end: 2rem"
+    },
+    {
+      "at": "(width >= 80em)",
+      "selector": ".container",
+      "change": "padding-inline-start: 4rem"
+    },
+    {
+      "at": "(width >= 80em)",
+      "selector": ".container",
+      "change": "padding-inline-end: 4rem"
+    },
+    {
+      "at": "(width >= 40em)",
+      "selector": ".container-grid",
+      "change": "column-gap: 3rem"
+    },
+    {
+      "at": "(width >= 48em)",
+      "selector": ".container-grid",
+      "change": "row-gap: 1.5rem"
+    },
+    {
+      "at": "(width >= 64em)",
+      "selector": ".container-grid",
+      "change": "row-gap: 2.5rem"
+    },
+    {
+      "at": "(width >= 80em)",
+      "selector": ".container-grid",
+      "change": "row-gap: 3rem"
+    },
+    {
+      "at": "(width >= 48em)",
+      "selector": ".max-xl\\:container",
+      "change": "padding-inline-start: 2rem"
+    },
+    {
+      "at": "(width >= 48em)",
+      "selector": ".max-xl\\:container",
+      "change": "padding-inline-end: 2rem"
+    },
+    {
+      "at": "(width >= 48em)",
+      "selector": ".max-xl\\:container",
+      "change": "padding-inline-start: 2rem"
+    },
+    {
+      "at": "(width >= 48em)",
+      "selector": ".max-xl\\:container",
+      "change": "padding-inline-end: 2rem"
+    },
+    {
+      "at": "(width >= 80em)",
+      "selector": ".max-xl\\:container",
+      "change": "padding-inline-start: 4rem"
+    },
+    {
+      "at": "(width >= 80em)",
+      "selector": ".max-xl\\:container",
+      "change": "padding-inline-end: 4rem"
+    },
+    {
+      "at": "not all and (width >= 80em)",
+      "selector": ".max-xl\\:container",
+      "change": "max-width: 120rem"
+    },
+    {
+      "at": "not all and (width >= 80em)",
+      "selector": ".max-xl\\:container",
+      "change": "margin-inline-start: auto"
+    },
+    {
+      "at": "not all and (width >= 80em)",
+      "selector": ".max-xl\\:container",
+      "change": "margin-inline-end: auto"
+    },
+    {
+      "at": "not all and (width >= 80em)",
+      "selector": ".max-xl\\:container",
+      "change": "padding-inline-start: 1rem"
+    },
+    {
+      "at": "not all and (width >= 80em)",
+      "selector": ".max-xl\\:container",
+      "change": "padding-inline-end: 1rem"
+    },
+    {
+      "at": "(width >= 48em)",
+      "selector": ".lg\\:container",
+      "change": "padding-inline-start: 2rem"
+    },
+    {
+      "at": "(width >= 48em)",
+      "selector": ".lg\\:container",
+      "change": "padding-inline-end: 2rem"
+    },
+    {
+      "at": "(width >= 80em)",
+      "selector": ".lg\\:container",
+      "change": "padding-inline-start: 4rem"
+    },
+    {
+      "at": "(width >= 80em)",
+      "selector": ".lg\\:container",
+      "change": "padding-inline-end: 4rem"
+    },
+    {
+      "at": "(width >= 64em)",
+      "selector": ".lg\\:container",
+      "change": "max-width: 120rem"
+    },
+    {
+      "at": "(width >= 64em)",
+      "selector": ".lg\\:container",
+      "change": "margin-inline-start: auto"
+    },
+    {
+      "at": "(width >= 64em)",
+      "selector": ".lg\\:container",
+      "change": "margin-inline-end: auto"
+    },
+    {
+      "at": "(width >= 64em)",
+      "selector": ".lg\\:container",
+      "change": "padding-inline-start: 1rem"
+    },
+    {
+      "at": "(width >= 64em)",
+      "selector": ".lg\\:container",
+      "change": "padding-inline-end: 1rem"
+    },
+    {
+      "at": "(width >= 40em)",
+      "selector": ".xl\\:container-grid",
+      "change": "column-gap: 3rem"
+    },
+    {
+      "at": "(width >= 48em)",
+      "selector": ".xl\\:container-grid",
+      "change": "row-gap: 1.5rem"
+    },
+    {
+      "at": "(width >= 64em)",
+      "selector": ".xl\\:container-grid",
+      "change": "row-gap: 2.5rem"
+    },
+    {
+      "at": "(width >= 80em)",
+      "selector": ".xl\\:container-grid",
+      "change": "row-gap: 3rem"
+    },
+    {
+      "at": "(width >= 80em)",
+      "selector": ".xl\\:container-grid",
+      "change": "row-gap: 2rem"
+    },
+    {
+      "at": "(width >= 80em)",
+      "selector": ".xl\\:container-grid",
+      "change": "column-gap: 1rem"
+    },
+    {
+      "at": "(width >= 80em)",
+      "selector": ".xl\\:container-grid",
+      "change": "display: grid"
+    },
+    {
+      "at": "(prefers-reduced-motion: no-preference)",
+      "selector": ".motion-safe\\:transition-colors",
+      "change": "transition-property: color, background-color, border-color, text-decoration-color"
+    },
+    {
+      "at": "(prefers-reduced-motion: no-preference)",
+      "selector": ".motion-safe\\:transition-colors",
+      "change": "transition-duration: 0.15s"
+    },
+    {
+      "at": "(prefers-reduced-motion: no-preference)",
+      "selector": ".motion-safe\\:transition-colors",
+      "change": "transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)"
+    },
+    {
+      "at": "(prefers-reduced-motion: no-preference)",
+      "selector": ".motion-safe\\:transition-opacity",
+      "change": "transition-property: opacity"
+    }
+  ]
+}

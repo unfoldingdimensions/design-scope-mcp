@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- design-scope final variant component: Input -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Input — component</title>
+<link rel="stylesheet" href="../assets/tokens.css">
+<style>
+  body { font-family: var(--font, system-ui); background: var(--bg); color: var(--text);
+         padding: 32px; margin: 0; }
+  .demo-grid { display: grid; gap: 24px; max-width: 720px; }
+  .demo-section h2 { font-size: 15px; font-weight: 600; color: var(--text-muted); margin: 0 0 12px; }
+  .demo-row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  .demo-block { background: var(--surface); border: 1px solid var(--border);
+                 border-radius: var(--radius, 8px); padding: 20px; }
+  .note { font-size: 12px; color: var(--text-muted); font-family: var(--mono, monospace); }
+  
+  .field { display: flex; flex-direction: column; gap: 6px; }
+  .label { font-size: 13px; font-weight: 600; color: var(--text); }
+  .field input { font-family: var(--font); font-size: 14px; color: var(--text);
+    background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-control, 6px);
+    padding: 10px 12px; transition: border-color .15s var(--ease, ease), box-shadow .15s var(--ease, ease); }
+  .field input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent); }
+  .field input.has-error { border-color: var(--danger, #dc2626); }
+  .error-msg { font-size: 12px; color: var(--danger, #dc2626); }
+  .field input:disabled { opacity: .5; cursor: not-allowed; }
+
+</style>
+</head>
+<body>
+<div class="demo-grid">
+  <div class="note">Component: Input · tokens: assets/tokens.css · self-contained</div>
+  <div class="demo-section"><h2>Input — all states</h2>
+  <div class="demo-block">
+    <label class="field"><span class="label">Email</span>
+      <input type="email" placeholder="you@example.com">
+    </label>
+    <label class="field" style="margin-top:14px"><span class="label">With error</span>
+      <input type="text" value="not-an-email" class="has-error">
+      <span class="error-msg">Enter a valid email address.</span>
+    </label>
+    <label class="field" style="margin-top:14px"><span class="label">Disabled</span>
+      <input type="text" value="Read only" disabled>
+    </label>
+  </div>
+  <div class="note">States: default · focus · error · disabled. Labels always visible — placeholder is not a label.</div>
+</div>
+
+</div>
+<script src="../assets/theme.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+{
+  "url": "https://www.lonelyplanet.com",
+  "captured": "2026-08-10T15:21:17+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "oklch(0.26 0.0103 229.34)",
+          "after": "oklch(0.44 0.1928 261.11)"
+        },
+        "borderColor": {
+          "before": "oklch(0.26 0.0103 229.34)",
+          "after": "oklch(0.44 0.1928 261.11)"
+        },
+        "outline": {
+          "before": "oklch(0.26 0.0103 229.34) none 3px",
+          "after": "oklch(0.44 0.1928 261.11) none 3px"
+        },
+        "textDecoration": {
+          "before": "1px",
+          "after": "underline 1px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "oklch(0.26 0.0103 229.34)",
+          "after": "oklch(0.44 0.1928 261.11)"
+        },
+        "borderColor": {
+          "before": "oklch(0.5 0 0)",
+          "after": "oklch(0.44 0.1928 261.11)"
+        },
+        "outline": {
+          "before": "oklch(0.26 0.0103 229.34) none 3px",
+          "after": "oklch(0.44 0.1928 261.11) none 3px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 1040,
+    "tabs": 0,
+    "accordions": 13,
+    "carousels": 10,
+    "observers": 3,
+    "scrollSnap": 5,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "button",
+      "classes": "bg-tertiary text-secondary mr-2 -rotate-1 cursor-not-allowed p-4 transition-colo",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "button",
+      "classes": "bg-contrast text-contrast hover:bg-action-hover hover:text-action-hover -rotate-",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "button",
+      "classes": "bg-tertiary text-secondary mr-2 -rotate-1 cursor-not-allowed p-4 transition-colo",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "button",
+      "classes": "bg-contrast text-contrast hover:bg-action-hover hover:text-action-hover -rotate-",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "button",
+      "classes": "bg-tertiary text-secondary mr-2 -rotate-1 cursor-not-allowed p-4 transition-colo",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "button",
+      "classes": "bg-contrast text-contrast hover:bg-action-hover hover:text-action-hover -rotate-",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "button",
+      "classes": "bg-tertiary text-secondary mr-2 -rotate-1 cursor-not-allowed p-4 transition-colo",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "button",
+      "classes": "hover:bg-action-hover hover:text-action-hover -rotate-1 p-4 transition-colors cu",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

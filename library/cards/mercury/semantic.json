@@ -1,0 +1,238 @@
+{
+  "url": "https://mercury.com",
+  "captured": "2026-08-10T07:04:52+00:00",
+  "named_tokens": {
+    "light": {
+      "--wipeOut-duration": ".15s",
+      "--tab-fade-duration": ".3s",
+      "--media-tab-fade-duration": ".5s",
+      "--testimonial-overlay-gradient-angle": "180deg",
+      "--testimonial-overlay-gradient": "var(--testimonial-overlay-gradient-angle),#0000 0%,#0000 6.67%,#00000005 13.33%,#0000000d 20%,#00000014 26.67%,#00000021 33.33%,#00000030 40%,#00000040 46.67%,#0000004f 53.33%,#0000005e 60%,#0000006e 66.67%,#0000007a 73.33%,#00000082 80%,#0000008a 86.67%,#0000008f 93.33%,#0000008f 100%"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "soft corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "soft",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {},
+  "z_index_rows": [],
+  "responsive": [
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".markdown > *",
+      "change": "grid-column-start: 3"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".markdown > *",
+      "change": "grid-column-end: span 8"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".markdown :is(h2)",
+      "change": "font-size: var(--text-xl)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".markdown :is(h2)",
+      "change": "font-size: var(--text-2xl)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".markdown :is(h2)",
+      "change": "letter-spacing: var(--tracking-1\\.5\\%)"
+    },
+    {
+      "at": "(min-width: 96rem)",
+      "selector": ".markdown :is(h2)",
+      "change": "font-size: var(--text-3xl)"
+    },
+    {
+      "at": "(min-width: 96rem)",
+      "selector": ".markdown :is(h2)",
+      "change": "line-height: var(--leading-115\\%)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".markdown h3",
+      "change": "font-size: var(--text-lg)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".markdown h3",
+      "change": "line-height: var(--leading-120\\%)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".markdown h3",
+      "change": "letter-spacing: var(--tracking-2\\%)"
+    },
+    {
+      "at": "(min-width: 96rem)",
+      "selector": ".markdown h3",
+      "change": "font-size: var(--text-xl)"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".markdown h4",
+      "change": "font-size: var(--text-base)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".markdown h4",
+      "change": "font-size: var(--text-md)"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".markdown p",
+      "change": "font-size: var(--text-base)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".markdown p",
+      "change": "font-size: var(--text-md)"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".markdown :is(ul, ol)",
+      "change": "font-size: var(--text-base)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".markdown :is(ul, ol)",
+      "change": "font-size: var(--text-md)"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".markdown thead",
+      "change": "font-size: var(--text-base)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".markdown thead",
+      "change": "font-size: var(--text-md)"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".markdown tbody",
+      "change": "font-size: var(--text-base)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".markdown tbody",
+      "change": "font-size: var(--text-md)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".modal-container",
+      "change": "font-size: var(--text-xs)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".modal-container",
+      "change": "letter-spacing: var(--tracking-2\\%)"
+    },
+    {
+      "at": "(min-width: 40rem)",
+      "selector": ".column-content",
+      "change": "flex-direction: row"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".column-content",
+      "change": "justify-content: space-between"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".button:hover",
+      "change": "background-color: var(--surface-emphasized-hover)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".text-title",
+      "change": "font-size: var(--text-xs)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".text-title",
+      "change": "letter-spacing: var(--tracking-2\\%)"
+    },
+    {
+      "at": "(min-width: 40rem)",
+      "selector": ".paragraph",
+      "change": "text-align: left"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".notice-link:hover",
+      "change": "color: var(--text-subdued-inverted)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".notice-link:hover",
+      "change": "text-decoration-color: var(--border-default-inverted)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".notice-link:hover",
+      "change": "transition-duration: 0.3s"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".notice-link:hover",
+      "change": "transition-timing-function: var(--ease-out)"
+    },
+    {
+      "at": "not all and (min-width: 40rem)",
+      "selector": ".complete-options-form",
+      "change": "padding-top: var(--spacing-12)"
+    },
+    {
+      "at": "not all and (min-width: 40rem)",
+      "selector": ".complete-options-form",
+      "change": "justify-content: center"
+    },
+    {
+      "at": "(min-width: 40rem)",
+      "selector": ".complete-options-form",
+      "change": "padding-left: var(--spacing-12)"
+    },
+    {
+      "at": "(min-width: 40rem)",
+      "selector": ".complete-options-container > fieldset > .text-title",
+      "change": "float: left"
+    },
+    {
+      "at": "(min-width: 40rem)",
+      "selector": ".complete-options-container > fieldset > .text-title",
+      "change": "text-align: left"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".complete-options-form > .button:hover",
+      "change": "background-color: var(--surface-primary-hover)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".accept-or-reject-all-button-row > .button:nth-of-type(3):hover",
+      "change": "background-color: var(--surface-emphasized-hover)"
+    }
+  ]
+}

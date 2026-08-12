@@ -1,0 +1,263 @@
+{
+  "url": "https://www.coinbase.com",
+  "captured": "2026-08-10T07:05:19+00:00",
+  "named_tokens": {
+    "light": {
+      "--cds-font-fallback": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Helvetica\", \"Arial\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+      "--cds-font-display": "CoinbaseDisplay, var(--cds-font-fallback)",
+      "--cds-font-sans": "CoinbaseSans, var(--cds-font-fallback)",
+      "--cds-font-text": "CoinbaseText, var(--cds-font-fallback)",
+      "--cds-font-mono": "CoinbaseMono, var(--cds-font-fallback)",
+      "--cds-font-condensed": "CoinbaseCondensed, var(--cds-font-fallback)"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "rounded corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "rounded",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "modal": 2147483647,
+    "banner": 2147483645
+  },
+  "z_index_rows": [
+    {
+      "role": "modal",
+      "selector": "#onetrust-consent-sdk .ot-general-modal",
+      "value": "2147483647"
+    },
+    {
+      "role": "banner",
+      "selector": "#onetrust-banner-sdk.otFloatingRounded",
+      "value": "2147483645"
+    },
+    {
+      "role": "banner",
+      "selector": "#onetrust-banner-sdk.otFlat",
+      "value": "2147483645"
+    },
+    {
+      "role": "banner",
+      "selector": "#onetrust-banner-sdk.otFlat",
+      "value": "2147483645"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "1280px",
+      "selector": ".d1-fs-d",
+      "change": "font-size: 96px"
+    },
+    {
+      "at": "1280px",
+      "selector": ".d2-fs-d",
+      "change": "font-size: 80px"
+    },
+    {
+      "at": "1280px",
+      "selector": ".d3-fs-d",
+      "change": "font-size: 64px"
+    },
+    {
+      "at": "1280px",
+      "selector": ".d4-fs-d",
+      "change": "font-size: 52px"
+    },
+    {
+      "at": "1280px",
+      "selector": ".t1-fs-d",
+      "change": "font-size: 44px"
+    },
+    {
+      "at": "1280px",
+      "selector": ".t2-fs-d",
+      "change": "font-size: 40px"
+    },
+    {
+      "at": "1280px",
+      "selector": ".t3-fs-d",
+      "change": "font-size: 36px"
+    },
+    {
+      "at": "1280px",
+      "selector": ".t4-fs-d",
+      "change": "font-size: 32px"
+    },
+    {
+      "at": "1280px",
+      "selector": ".t5-fs-d",
+      "change": "font-size: 28px"
+    },
+    {
+      "at": "1280px",
+      "selector": ".d1-lh-d",
+      "change": "line-height: 96px"
+    },
+    {
+      "at": "1280px",
+      "selector": ".d2-lh-d",
+      "change": "line-height: 80px"
+    },
+    {
+      "at": "1280px",
+      "selector": ".d3-lh-d",
+      "change": "line-height: 64px"
+    },
+    {
+      "at": "768px",
+      "selector": ".d1-fs-t",
+      "change": "font-size: 80px"
+    },
+    {
+      "at": "768px",
+      "selector": ".d2-fs-t",
+      "change": "font-size: 64px"
+    },
+    {
+      "at": "768px",
+      "selector": ".d3-fs-t",
+      "change": "font-size: 52px"
+    },
+    {
+      "at": "768px",
+      "selector": ".d4-fs-t",
+      "change": "font-size: 44px"
+    },
+    {
+      "at": "768px",
+      "selector": ".t1-fs-t",
+      "change": "font-size: 40px"
+    },
+    {
+      "at": "768px",
+      "selector": ".t2-fs-t",
+      "change": "font-size: 36px"
+    },
+    {
+      "at": "768px",
+      "selector": ".t3-fs-t",
+      "change": "font-size: 32px"
+    },
+    {
+      "at": "768px",
+      "selector": ".t4-fs-t",
+      "change": "font-size: 28px"
+    },
+    {
+      "at": "768px",
+      "selector": ".t5-fs-t",
+      "change": "font-size: 24px"
+    },
+    {
+      "at": "768px",
+      "selector": ".d1-lh-t",
+      "change": "line-height: 80px"
+    },
+    {
+      "at": "768px",
+      "selector": ".d2-lh-t",
+      "change": "line-height: 64px"
+    },
+    {
+      "at": "768px",
+      "selector": ".d3-lh-t",
+      "change": "line-height: 52px"
+    },
+    {
+      "at": "767px",
+      "selector": ".d1-fs-m",
+      "change": "font-size: 64px"
+    },
+    {
+      "at": "767px",
+      "selector": ".d2-fs-m",
+      "change": "font-size: 52px"
+    },
+    {
+      "at": "767px",
+      "selector": ".d3-fs-m",
+      "change": "font-size: 44px"
+    },
+    {
+      "at": "767px",
+      "selector": ".d4-fs-m",
+      "change": "font-size: 40px"
+    },
+    {
+      "at": "767px",
+      "selector": ".t1-fs-m",
+      "change": "font-size: 36px"
+    },
+    {
+      "at": "767px",
+      "selector": ".t2-fs-m",
+      "change": "font-size: 32px"
+    },
+    {
+      "at": "767px",
+      "selector": ".t3-fs-m",
+      "change": "font-size: 28px"
+    },
+    {
+      "at": "767px",
+      "selector": ".t4-fs-m",
+      "change": "font-size: 24px"
+    },
+    {
+      "at": "767px",
+      "selector": ".t5-fs-m",
+      "change": "font-size: 20px"
+    },
+    {
+      "at": "767px",
+      "selector": ".d1-lh-m",
+      "change": "line-height: 64px"
+    },
+    {
+      "at": "767px",
+      "selector": ".d2-lh-m",
+      "change": "line-height: 52px"
+    },
+    {
+      "at": "767px",
+      "selector": ".d3-lh-m",
+      "change": "line-height: 44px"
+    },
+    {
+      "at": "767px",
+      "selector": ".hdMpWl",
+      "change": "object-fit: var(--object-fit-phone,var(--object-fit-base))"
+    },
+    {
+      "at": "768px",
+      "selector": ".hdMpWl",
+      "change": "object-fit: var(--object-fit-tablet,var(--object-fit-base))"
+    },
+    {
+      "at": "1280px",
+      "selector": ".hdMpWl",
+      "change": "object-fit: var(--object-fit-desktop,var(--object-fit-base))"
+    },
+    {
+      "at": "1280px",
+      "selector": ".cstIrx",
+      "change": "max-width: 600px"
+    }
+  ]
+}

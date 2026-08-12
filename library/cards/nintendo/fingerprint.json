@@ -1,0 +1,803 @@
+{
+  "url": "https://www.nintendo.com/region-selector/",
+  "extractedAt": "2026-08-09T12:58:10.562Z",
+  "meta": {
+    "snapshotId": "2be3b31f-5382-4740-9d2d-29dc46ccb555",
+    "httpStatus": 200,
+    "dembrandtVersion": "0.27.1",
+    "schemaVersion": "1.5.0",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "fontsReady": true,
+    "flags": {
+      "mobile": true
+    }
+  },
+  "siteName": "Nintendo Co., Ltd.",
+  "logo": {
+    "source": "img",
+    "context": "header",
+    "url": "https://www.nintendo.com/region-selector/assets/img/section-hero-logo.svg",
+    "width": 262,
+    "height": 65,
+    "rect": {
+      "x": 830,
+      "y": 95,
+      "width": 261,
+      "height": 65
+    },
+    "natural": {
+      "width": 262,
+      "height": 65
+    },
+    "alt": "Welcome to Nintendo's official sites.",
+    "type": "wordmark",
+    "reversed": true,
+    "background": "#e60012",
+    "safeZone": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "position": {
+      "top": 95,
+      "left": 829.5
+    }
+  },
+  "logoInstances": [
+    {
+      "source": "img",
+      "context": "header",
+      "url": "https://www.nintendo.com/region-selector/assets/img/section-hero-logo.svg",
+      "width": 262,
+      "height": 65,
+      "rect": {
+        "x": 830,
+        "y": 95,
+        "width": 261,
+        "height": 65
+      },
+      "natural": {
+        "width": 262,
+        "height": 65
+      },
+      "alt": "Welcome to Nintendo's official sites.",
+      "type": "wordmark",
+      "reversed": true,
+      "background": "#e60012",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 95,
+        "left": 829.5
+      }
+    }
+  ],
+  "favicons": [
+    {
+      "type": "shortcut icon",
+      "url": "https://www.nintendo.com/jp/favicon.ico",
+      "sizes": null
+    },
+    {
+      "type": "og:image",
+      "url": "https://www.nintendo.com/jp/img/og_nintendo.png",
+      "sizes": null
+    }
+  ],
+  "colors": {
+    "semantic": {
+      "background": "rgb(255, 255, 255)",
+      "text": "rgb(0, 0, 0)"
+    },
+    "palette": [
+      {
+        "color": "rgb(60, 60, 60)",
+        "normalized": "#3c3c3c",
+        "count": 357,
+        "confidence": "high",
+        "sources": [
+          "section-hero",
+          "section-hero-logo",
+          "regionnav-wp"
+        ],
+        "lch": "lch(25.32% 0.01 53.35)",
+        "oklch": "oklch(35.62% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#ffffff",
+        "hover": "#484848"
+      },
+      {
+        "color": "rgb(118, 118, 118)",
+        "normalized": "#767676",
+        "count": 100,
+        "confidence": "high",
+        "sources": [
+          "text-privacy",
+          "bolder"
+        ],
+        "lch": "lch(49.64% 0.02 53.35)",
+        "oklch": "oklch(56.58% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#000000",
+        "hover": "#646464"
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 4,
+        "confidence": "low",
+        "sources": [],
+        "lch": "lch(0% 0 0)",
+        "oklch": "oklch(0% 0 0)",
+        "role": "surface",
+        "onColor": "#ffffff",
+        "hover": "#000000"
+      },
+      {
+        "color": "rgb(230, 230, 230)",
+        "normalized": "#e6e6e6",
+        "count": 4,
+        "confidence": "medium",
+        "sources": [
+          "category-item-header",
+          "footer"
+        ],
+        "lch": "lch(91.29% 0.03 53.35)",
+        "oklch": "oklch(92.49% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#000000",
+        "hover": "#c4c4c4"
+      },
+      {
+        "color": "rgb(230, 0, 18)",
+        "normalized": "#e60012",
+        "count": 1,
+        "confidence": "low",
+        "sources": [
+          "section-hero"
+        ],
+        "lch": "lch(49.06% 95.43 38.34)",
+        "oklch": "oklch(58.14% 0.238 27.86)",
+        "role": "supporting",
+        "onColor": "#ffffff",
+        "hover": "#ff0016"
+      },
+      {
+        "color": "#ffffff",
+        "normalized": "#ffffff",
+        "count": 10,
+        "confidence": "high",
+        "sources": [
+          "logo"
+        ],
+        "lch": "lch(100% 0.03 53.35)",
+        "oklch": "oklch(100% 0 89.88)"
+      }
+    ],
+    "cssVariables": {},
+    "detected": [
+      {
+        "color": "rgb(60, 60, 60)",
+        "normalized": "#3c3c3c",
+        "count": 357,
+        "usageFrac": 0.7628205128205128,
+        "confidence": "high",
+        "sources": [
+          "section-hero",
+          "section-hero-logo",
+          "regionnav-wp",
+          "regionnav-items",
+          "regionnav-item"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(118, 118, 118)",
+        "normalized": "#767676",
+        "count": 100,
+        "usageFrac": 0.21367521367521367,
+        "confidence": "high",
+        "sources": [
+          "text-privacy",
+          "bolder"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 4,
+        "usageFrac": 0.008547008547008548,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(230, 230, 230)",
+        "normalized": "#e6e6e6",
+        "count": 4,
+        "usageFrac": 0.008547008547008548,
+        "confidence": "medium",
+        "sources": [
+          "category-item-header",
+          "footer"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 2,
+        "usageFrac": 0.004273504273504274,
+        "confidence": "medium",
+        "sources": [
+          "section-hero-title"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(230, 0, 18)",
+        "normalized": "#e60012",
+        "count": 1,
+        "usageFrac": 0.002136752136752137,
+        "confidence": "low",
+        "sources": [
+          "section-hero"
+        ],
+        "isToken": false
+      }
+    ],
+    "_raw": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 4
+      },
+      {
+        "color": "rgb(60, 60, 60)",
+        "normalized": "#3c3c3c",
+        "count": 357
+      },
+      {
+        "color": "rgb(118, 118, 118)",
+        "normalized": "#767676",
+        "count": 100
+      },
+      {
+        "color": "rgb(230, 230, 230)",
+        "normalized": "#e6e6e6",
+        "count": 4
+      }
+    ]
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "heading-2",
+        "family": "Inter",
+        "fallbacks": "Noto Sans JP, Noto Sans SC, Noto Sans KR, Noto Sans Thai, Noto Sans",
+        "size": "27px (1.69rem)",
+        "weight": 500,
+        "lineHeight": "1.40",
+        "spacing": "0.7px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Inter",
+        "fallbacks": "Noto Sans JP, Noto Sans SC, Noto Sans KR, Noto Sans Thai, Noto Sans",
+        "size": "21px (1.31rem)",
+        "weight": 500,
+        "lineHeight": "1.19",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Inter",
+        "fallbacks": "Noto Sans JP, Noto Sans SC, Noto Sans KR, Noto Sans Thai, Noto Sans",
+        "size": "18px (1.13rem)",
+        "weight": 600,
+        "lineHeight": "1.39",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Inter",
+        "fallbacks": "Noto Sans JP, Noto Sans SC, Noto Sans KR, Noto Sans Thai, Noto Sans",
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Inter",
+        "fallbacks": "Noto Sans JP, Noto Sans SC, Noto Sans KR, Noto Sans Thai, Noto Sans",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Inter",
+        "fallbacks": "Noto Sans JP, Noto Sans SC, Noto Sans KR, Noto Sans Thai, Noto Sans",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.64",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Inter",
+        "fallbacks": "Noto Sans JP, Noto Sans SC, Noto Sans KR, Noto Sans Thai, Noto Sans",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.36",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Inter",
+        "fallbacks": "Noto Sans JP, Noto Sans SC, Noto Sans KR, Noto Sans Thai, Noto Sans",
+        "size": "11px (0.69rem)",
+        "weight": 500,
+        "lineHeight": "1.55",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Inter",
+        "fallbacks": "Noto Sans JP, Noto Sans SC, Noto Sans KR, Noto Sans Thai, Noto Sans",
+        "size": "11px (0.69rem)",
+        "weight": 700,
+        "lineHeight": "1.55",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Inter",
+        "fallbacks": "Noto Sans JP, Noto Sans SC, Noto Sans KR, Noto Sans Thai, Noto Sans",
+        "size": "11px (0.69rem)",
+        "weight": 500,
+        "lineHeight": "1.55",
+        "spacing": null,
+        "transform": null
+      }
+    ],
+    "sources": {
+      "googleFonts": [
+        "Noto Sans",
+        "Inter",
+        "Noto Sans JP",
+        "Noto Sans SC",
+        "Noto Sans KR",
+        "Noto Sans Thai",
+        "Noto Sans Arabic"
+      ],
+      "adobeFonts": false,
+      "variableFonts": true,
+      "selfHostedFonts": [
+        "YakuHanJPs-Bold.woff",
+        "YakuHanJPs-Regular.woff"
+      ],
+      "customFonts": [
+        "YakuHanJPs-Bold.woff",
+        "YakuHanJPs-Regular.woff"
+      ]
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "5px",
+        "display": "5px",
+        "rem": "0.31rem",
+        "count": 46,
+        "numericValue": 5
+      },
+      {
+        "px": "8px",
+        "display": "8px",
+        "rem": "0.50rem",
+        "count": 3,
+        "numericValue": 8
+      },
+      {
+        "px": "33px",
+        "display": "33px",
+        "rem": "2.06rem",
+        "count": 4,
+        "numericValue": 33
+      },
+      {
+        "px": "35px",
+        "display": "35px",
+        "rem": "2.19rem",
+        "count": 1,
+        "numericValue": 35
+      },
+      {
+        "px": "36px",
+        "display": "36px",
+        "rem": "2.25rem",
+        "count": 3,
+        "numericValue": 36
+      },
+      {
+        "px": "39px",
+        "display": "39px",
+        "rem": "2.44rem",
+        "count": 1,
+        "numericValue": 39
+      },
+      {
+        "px": "40px",
+        "display": "40px",
+        "rem": "2.50rem",
+        "count": 2,
+        "numericValue": 40
+      },
+      {
+        "px": "47px",
+        "display": "47px",
+        "rem": "2.94rem",
+        "count": 3,
+        "numericValue": 47
+      },
+      {
+        "px": "56px",
+        "display": "56px",
+        "rem": "3.50rem",
+        "count": 1,
+        "numericValue": 56
+      },
+      {
+        "px": "58px",
+        "display": "58px",
+        "rem": "3.63rem",
+        "count": 1,
+        "numericValue": 58
+      },
+      {
+        "px": "80px",
+        "display": "80px",
+        "rem": "5.00rem",
+        "count": 1,
+        "numericValue": 80
+      },
+      {
+        "px": "95px",
+        "display": "95px",
+        "rem": "5.94rem",
+        "count": 1,
+        "numericValue": 95
+      },
+      {
+        "px": "100px",
+        "display": "100px",
+        "rem": "6.25rem",
+        "count": 2,
+        "numericValue": 100
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": []
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "4px 0px 1px",
+        "style": "solid none",
+        "color": "rgb(230, 230, 230)",
+        "count": 3,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(230, 230, 230)",
+        "count": 1,
+        "elements": [
+          "footer"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [],
+  "gradients": [
+    {
+      "gradient": "linear-gradient(rgb(180, 180, 180) 1px, rgba(0, 0, 0, 0) 1px)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(180, 180, 180)",
+        "rgba(0, 0, 0, 0)"
+      ],
+      "count": 4
+    }
+  ],
+  "motion": {
+    "durations": [
+      {
+        "value": "0.001s",
+        "ms": 1,
+        "count": 231
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease",
+        "type": "ease",
+        "count": 133
+      },
+      {
+        "value": "linear",
+        "type": "linear",
+        "count": 98
+      }
+    ],
+    "animations": [],
+    "contexts": {
+      "hero": {
+        "count": 3,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "nav": {
+        "count": 11,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "link": {
+        "count": 50,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "linear",
+        "easingType": "linear",
+        "props": [
+          "color"
+        ]
+      },
+      "card": {
+        "count": 9,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "color"
+        ]
+      }
+    },
+    "interactiveDeltas": [
+      {
+        "tag": "a",
+        "text": "The Americas",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(60, 60, 60)",
+            "to": "rgb(230, 0, 18)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Asia Pacific",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(60, 60, 60)",
+            "to": "rgb(230, 0, 18)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Europe, Middle East, and Afric",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(60, 60, 60)",
+            "to": "rgb(230, 0, 18)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Argentina\n                    ",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(60, 60, 60)",
+            "to": "rgb(230, 0, 18)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Brasil\n                    Por",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(60, 60, 60)",
+            "to": "rgb(230, 0, 18)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Canada\n                    Eng",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(60, 60, 60)",
+            "to": "rgb(230, 0, 18)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Canada\n                    Fra",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(60, 60, 60)",
+            "to": "rgb(230, 0, 18)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Chile\n                    Espa",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(60, 60, 60)",
+            "to": "rgb(230, 0, 18)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Colombia\n                    E",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(60, 60, 60)",
+            "to": "rgb(230, 0, 18)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "México\n                    Esp",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(60, 60, 60)",
+            "to": "rgb(230, 0, 18)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Perú\n                    Españ",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(60, 60, 60)",
+            "to": "rgb(230, 0, 18)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "United States\n                ",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(60, 60, 60)",
+            "to": "rgb(230, 0, 18)"
+          }
+        }
+      }
+    ]
+  },
+  "components": {
+    "buttons": [],
+    "inputs": {
+      "text": [],
+      "checkbox": [],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgb(60, 60, 60)",
+        "textDecoration": "none",
+        "fontWeight": "600",
+        "states": {
+          "default": {
+            "color": "rgb(60, 60, 60)",
+            "textDecoration": "none"
+          },
+          "hover": {}
+        }
+      },
+      {
+        "color": "rgb(118, 118, 118)",
+        "textDecoration": "underline",
+        "fontWeight": "500",
+        "states": {
+          "default": {
+            "color": "rgb(118, 118, 118)",
+            "textDecoration": "underline"
+          },
+          "hover": {}
+        }
+      }
+    ],
+    "badges": {
+      "all": [],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": []
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "98px"
+    },
+    {
+      "px": "759px"
+    },
+    {
+      "px": "760px"
+    },
+    {
+      "px": "980px"
+    },
+    {
+      "px": "1440px"
+    }
+  ],
+  "iconSystem": [],
+  "frameworks": []
+}

@@ -1,0 +1,302 @@
+{
+  "url": "https://miro.com",
+  "captured": "2026-08-10T07:04:27+00:00",
+  "named_tokens": {
+    "light": {
+      "--radius": ".625rem",
+      "--background": "#fff",
+      "--foreground": "#0a0a0a",
+      "--card": "#fff",
+      "--card-foreground": "#0a0a0a",
+      "--popover": "#fff",
+      "--popover-foreground": "#0a0a0a",
+      "--primary-foreground": "#fafafa",
+      "--secondary-foreground": "#171717",
+      "--muted": "#f5f5f5",
+      "--muted-foreground": "#737373",
+      "--accent": "#f5f5f5",
+      "--accent-foreground": "#171717",
+      "--destructive": "#e40014",
+      "--border": "#e5e5e5",
+      "--input": "#e5e5e5",
+      "--ring": "#a1a1a1",
+      "--chart-1": "#f05100",
+      "--chart-2": "#009588",
+      "--chart-3": "#104e64",
+      "--chart-4": "#fcbb00",
+      "--chart-5": "#f99c00",
+      "--sidebar": "#fafafa",
+      "--sidebar-foreground": "#0a0a0a",
+      "--sidebar-primary": "#171717",
+      "--sidebar-primary-foreground": "#fafafa",
+      "--sidebar-accent": "#f5f5f5",
+      "--sidebar-accent-foreground": "#171717",
+      "--sidebar-border": "#e5e5e5",
+      "--sidebar-ring": "#a1a1a1"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {
+      "--accent": "#f5f5f5",
+      "--accent-foreground": "#171717",
+      "--background": "#fff",
+      "--border": "#e5e5e5",
+      "--card": "#fff",
+      "--card-foreground": "#0a0a0a",
+      "--destructive": "#e40014",
+      "--foreground": "#0a0a0a",
+      "--input": "#e5e5e5",
+      "--muted": "#f5f5f5",
+      "--muted-foreground": "#737373",
+      "--popover": "#fff",
+      "--popover-foreground": "#0a0a0a",
+      "--primary-foreground": "#fafafa",
+      "--ring": "#a1a1a1",
+      "--secondary-foreground": "#171717",
+      "--sidebar": "#fafafa",
+      "--sidebar-accent": "#f5f5f5",
+      "--sidebar-accent-foreground": "#171717",
+      "--sidebar-border": "#e5e5e5",
+      "--sidebar-foreground": "#0a0a0a",
+      "--sidebar-primary": "#171717",
+      "--sidebar-primary-foreground": "#fafafa",
+      "--sidebar-ring": "#a1a1a1"
+    },
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "soft"
+    ],
+    "rhythm": [
+      "soft corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "soft",
+    "type_mood": [
+      "serif-led"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "modal": 2147483647,
+    "banner": 2147483645
+  },
+  "z_index_rows": [
+    {
+      "role": "modal",
+      "selector": "#onetrust-consent-sdk .ot-general-modal",
+      "value": "2147483647"
+    },
+    {
+      "role": "banner",
+      "selector": "#onetrust-banner-sdk.otFlat",
+      "value": "2147483645"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "810px",
+      "selector": ".framer-cYMPK.framer-1w3ur0b",
+      "change": "width: 810px"
+    },
+    {
+      "at": "810px",
+      "selector": ".framer-cYMPK .framer-7f9hms, .framer-cYMPK .framer-zyte38-container",
+      "change": "order: 0"
+    },
+    {
+      "at": "810px",
+      "selector": ".framer-cYMPK .framer-16b8l7c, .framer-cYMPK .framer-1uw7usk-container",
+      "change": "order: 1"
+    },
+    {
+      "at": "810px",
+      "selector": ".framer-cYMPK .framer-opzfya-container",
+      "change": "aspect-ratio: 1.77471 / 1"
+    },
+    {
+      "at": "810px",
+      "selector": ".framer-cYMPK .framer-opzfya-container",
+      "change": "height: var(--framer-aspect-ratio-supported,113px)"
+    },
+    {
+      "at": "810px",
+      "selector": ".framer-cYMPK .framer-opzfya-container",
+      "change": "width: 100%"
+    },
+    {
+      "at": "810px",
+      "selector": ".framer-cYMPK .framer-ublvte",
+      "change": "order: 2"
+    },
+    {
+      "at": "810px",
+      "selector": ".framer-cYMPK .framer-1rbls2q-container",
+      "change": "aspect-ratio: 1.62069 / 1"
+    },
+    {
+      "at": "810px",
+      "selector": ".framer-cYMPK .framer-1rbls2q-container",
+      "change": "height: var(--framer-aspect-ratio-supported,123px)"
+    },
+    {
+      "at": "810px",
+      "selector": ".framer-cYMPK .framer-1rbls2q-container",
+      "change": "flex-grow: 1"
+    },
+    {
+      "at": "810px",
+      "selector": ".framer-cYMPK .framer-1rbls2q-container",
+      "change": "flex-shrink: 0"
+    },
+    {
+      "at": "810px",
+      "selector": ".framer-cYMPK .framer-1rbls2q-container",
+      "change": "flex-basis: 0px"
+    },
+    {
+      "at": "809px",
+      "selector": ".framer-cYMPK.framer-1w3ur0b",
+      "change": "width: 390px"
+    },
+    {
+      "at": "809px",
+      "selector": ".framer-cYMPK .framer-xscop",
+      "change": "padding-top: 0px"
+    },
+    {
+      "at": "809px",
+      "selector": ".framer-cYMPK .framer-xscop",
+      "change": "padding-right: 16px"
+    },
+    {
+      "at": "809px",
+      "selector": ".framer-cYMPK .framer-xscop",
+      "change": "padding-bottom: 0px"
+    },
+    {
+      "at": "809px",
+      "selector": ".framer-cYMPK .framer-xscop",
+      "change": "padding-left: 16px"
+    },
+    {
+      "at": "809px",
+      "selector": ".framer-cYMPK .framer-opzfya-container",
+      "change": "aspect-ratio: 2 / 1"
+    },
+    {
+      "at": "809px",
+      "selector": ".framer-cYMPK .framer-opzfya-container",
+      "change": "height: var(--framer-aspect-ratio-supported,100px)"
+    },
+    {
+      "at": "809px",
+      "selector": ".framer-cYMPK .framer-opzfya-container",
+      "change": "width: 100%"
+    },
+    {
+      "at": "809px",
+      "selector": ".framer-cYMPK .framer-1rbls2q-container",
+      "change": "aspect-ratio: 1.50165 / 1"
+    },
+    {
+      "at": "809px",
+      "selector": ".framer-cYMPK .framer-1rbls2q-container",
+      "change": "height: var(--framer-aspect-ratio-supported,133px)"
+    },
+    {
+      "at": "809px",
+      "selector": ".framer-cYMPK .framer-1rbls2q-container",
+      "change": "flex-grow: 1"
+    },
+    {
+      "at": "809px",
+      "selector": ".framer-cYMPK .framer-1rbls2q-container",
+      "change": "flex-shrink: 0"
+    },
+    {
+      "at": "1920px",
+      "selector": ".framer-cYMPK.framer-1w3ur0b",
+      "change": "width: 1920px"
+    },
+    {
+      "at": "1920px",
+      "selector": ".framer-cYMPK .framer-1qt1s2z",
+      "change": "min-height: 98vh"
+    },
+    {
+      "at": "1920px",
+      "selector": ".framer-cYMPK .framer-wmlhz7",
+      "change": "top: 3485px"
+    },
+    {
+      "at": "1200px",
+      "selector": ".framer-cYMPK.framer-1w3ur0b",
+      "change": "width: 1200px"
+    },
+    {
+      "at": "1200px",
+      "selector": ".framer-cYMPK .framer-o9r8jj",
+      "change": "padding-top: 120px"
+    },
+    {
+      "at": "1200px",
+      "selector": ".framer-cYMPK .framer-o9r8jj",
+      "change": "padding-right: 0px"
+    },
+    {
+      "at": "1200px",
+      "selector": ".framer-cYMPK .framer-o9r8jj",
+      "change": "padding-bottom: 40px"
+    },
+    {
+      "at": "1200px",
+      "selector": ".framer-cYMPK .framer-o9r8jj",
+      "change": "padding-left: 0px"
+    },
+    {
+      "at": "576px",
+      "selector": ".tw\\:container",
+      "change": "max-width: 576px"
+    },
+    {
+      "at": "768px",
+      "selector": ".tw\\:container",
+      "change": "max-width: 768px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".tw\\:container",
+      "change": "max-width: 1024px"
+    },
+    {
+      "at": "1366px",
+      "selector": ".tw\\:container",
+      "change": "max-width: 1366px"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".tw\\:group-hover\\:-translate-y-1:is(:where(.tw\\:group):hover *)",
+      "change": "translate: var(--tw-translate-x)var(--tw-translate-y)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".tw\\:group-hover\\:scale-102:is(:where(.tw\\:group):hover *)",
+      "change": "scale: var(--tw-scale-x)var(--tw-scale-y)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".tw\\:group-hover\\:scale-110:is(:where(.tw\\:group):hover *)",
+      "change": "scale: var(--tw-scale-x)var(--tw-scale-y)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".tw\\:group-hover\\:scale-\\[1\\.02\\]:is(:where(.tw\\:group):hover *)",
+      "change": "scale: 1.02"
+    }
+  ]
+}

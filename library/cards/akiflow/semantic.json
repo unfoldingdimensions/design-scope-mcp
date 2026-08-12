@@ -1,0 +1,271 @@
+{
+  "url": "https://akiflow.com",
+  "captured": "2026-08-10T11:40:45+00:00",
+  "named_tokens": {
+    "light": {
+      "--fallback-color-white": "#FFFFFF",
+      "--fallback-color-black": "#050505",
+      "--fallback-color-purple-100": "#F3E3FF",
+      "--fallback-color-purple-500": "#9000FF",
+      "--fallback-color-purple-700": "#550097",
+      "--fallback-color-grey-100": "#F1F5F9",
+      "--fallback-color-grey-200": "#EAF0F6",
+      "--fallback-color-grey-300": "#DFE7F0",
+      "--fallback-color-grey-700": "#5E687B",
+      "--fallback-color-grey-800": "#323B4A",
+      "--fallback-color-grey-900": "#212833"
+    },
+    "dark": {
+      "--fallback-color-white": "#1B1B1B",
+      "--fallback-color-black": "#FFFFFF",
+      "--fallback-color-purple-100": "#430376",
+      "--fallback-color-purple-500": "#B05CFF",
+      "--fallback-color-purple-700": "#D8A8FF",
+      "--fallback-color-grey-100": "#2D2D30",
+      "--fallback-color-grey-200": "#3A3A3D",
+      "--fallback-color-grey-300": "#49494C",
+      "--fallback-color-grey-700": "#B4B6B8",
+      "--fallback-color-grey-800": "#D3D6D8",
+      "--fallback-color-grey-900": "#E9ECEE"
+    }
+  },
+  "semantic_colors": {
+    "light": {
+      "--fallback-color-black": "#050505",
+      "--fallback-color-white": "#FFFFFF"
+    },
+    "dark": {
+      "--fallback-color-black": "#FFFFFF",
+      "--fallback-color-white": "#1B1B1B"
+    },
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "airy line-height",
+      "soft corners",
+      "elevated (soft shadows)"
+    ],
+    "flat": false,
+    "corner_style": "soft",
+    "type_mood": [
+      "serif-led"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "overlay": 2147483647
+  },
+  "z_index_rows": [
+    {
+      "role": "overlay",
+      "selector": ".consent-banner-overlay",
+      "value": "2147483647"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "1140px",
+      "selector": ".framer-Vk5nS.framer-15sdp3a",
+      "change": "width: 1140px"
+    },
+    {
+      "at": "1140px",
+      "selector": ".framer-Vk5nS .framer-14rars0-container, .framer-Vk5nS .framer-hrj6j7-container",
+      "change": "opacity: 0.4"
+    },
+    {
+      "at": "1140px",
+      "selector": ".framer-Vk5nS .framer-1jdd0ig-container",
+      "change": "opacity: 0.2"
+    },
+    {
+      "at": "1140px",
+      "selector": ".framer-Vk5nS .framer-g4p707",
+      "change": "row-gap: 40px"
+    },
+    {
+      "at": "1140px",
+      "selector": ".framer-Vk5nS .framer-g4p707",
+      "change": "column-gap: 40px"
+    },
+    {
+      "at": "1140px",
+      "selector": ".framer-Vk5nS .framer-y4bg4w, .framer-Vk5nS .framer-5ln0cc, .framer-Vk5nS .frame",
+      "change": "order: 0"
+    },
+    {
+      "at": "1140px",
+      "selector": ".framer-Vk5nS .framer-96ml80, .framer-Vk5nS .framer-3yivxb, .framer-Vk5nS .frame",
+      "change": "order: 1"
+    },
+    {
+      "at": "1140px",
+      "selector": ".framer-Vk5nS .framer-1pwd2pc",
+      "change": "padding-top: 200px"
+    },
+    {
+      "at": "1140px",
+      "selector": ".framer-Vk5nS .framer-1pwd2pc",
+      "change": "padding-right: 24px"
+    },
+    {
+      "at": "1140px",
+      "selector": ".framer-Vk5nS .framer-1pwd2pc",
+      "change": "padding-bottom: 160px"
+    },
+    {
+      "at": "1140px",
+      "selector": ".framer-Vk5nS .framer-1pwd2pc",
+      "change": "padding-left: 24px"
+    },
+    {
+      "at": "1140px",
+      "selector": ".framer-Vk5nS .framer-dbnnl4",
+      "change": "bottom: unset"
+    },
+    {
+      "at": "940px",
+      "selector": ".framer-Vk5nS.framer-15sdp3a",
+      "change": "width: 940px"
+    },
+    {
+      "at": "940px",
+      "selector": ".framer-Vk5nS.framer-15sdp3a",
+      "change": "padding-top: 64px"
+    },
+    {
+      "at": "940px",
+      "selector": ".framer-Vk5nS.framer-15sdp3a",
+      "change": "padding-right: 0px"
+    },
+    {
+      "at": "940px",
+      "selector": ".framer-Vk5nS.framer-15sdp3a",
+      "change": "padding-bottom: 0px"
+    },
+    {
+      "at": "940px",
+      "selector": ".framer-Vk5nS.framer-15sdp3a",
+      "change": "padding-left: 0px"
+    },
+    {
+      "at": "940px",
+      "selector": ".framer-Vk5nS .framer-1diwftr, .framer-Vk5nS .framer-diwas1, .framer-Vk5nS .fram",
+      "change": "order: 0"
+    },
+    {
+      "at": "940px",
+      "selector": ".framer-Vk5nS .framer-lkgd9d, .framer-Vk5nS .framer-lkoypx, .framer-Vk5nS .frame",
+      "change": "order: 2"
+    },
+    {
+      "at": "940px",
+      "selector": ".framer-Vk5nS .framer-8wkjra-container",
+      "change": "order: 1"
+    },
+    {
+      "at": "940px",
+      "selector": ".framer-Vk5nS .framer-8wkjra-container",
+      "change": "position: fixed"
+    },
+    {
+      "at": "940px",
+      "selector": ".framer-Vk5nS .framer-8wkjra-container",
+      "change": "top: 0px"
+    },
+    {
+      "at": "940px",
+      "selector": ".framer-Vk5nS .framer-8wkjra-container",
+      "change": "left: 0px"
+    },
+    {
+      "at": "940px",
+      "selector": ".framer-Vk5nS .framer-52caln-container",
+      "change": "order: 3"
+    },
+    {
+      "at": "939px",
+      "selector": ".framer-Vk5nS.framer-15sdp3a",
+      "change": "width: 390px"
+    },
+    {
+      "at": "939px",
+      "selector": ".framer-Vk5nS.framer-15sdp3a",
+      "change": "padding-top: 64px"
+    },
+    {
+      "at": "939px",
+      "selector": ".framer-Vk5nS.framer-15sdp3a",
+      "change": "padding-right: 0px"
+    },
+    {
+      "at": "939px",
+      "selector": ".framer-Vk5nS.framer-15sdp3a",
+      "change": "padding-bottom: 0px"
+    },
+    {
+      "at": "939px",
+      "selector": ".framer-Vk5nS.framer-15sdp3a",
+      "change": "padding-left: 0px"
+    },
+    {
+      "at": "939px",
+      "selector": ".framer-Vk5nS .framer-1diwftr",
+      "change": "order: 0"
+    },
+    {
+      "at": "939px",
+      "selector": ".framer-Vk5nS .framer-1diwftr",
+      "change": "height: 63.981vh"
+    },
+    {
+      "at": "939px",
+      "selector": ".framer-Vk5nS .framer-1diwftr",
+      "change": "top: 0px"
+    },
+    {
+      "at": "939px",
+      "selector": ".framer-Vk5nS .framer-lkgd9d, .framer-Vk5nS .framer-wk6o62-container, .framer-Vk",
+      "change": "order: 2"
+    },
+    {
+      "at": "939px",
+      "selector": ".framer-Vk5nS .framer-8wkjra-container",
+      "change": "order: 1"
+    },
+    {
+      "at": "939px",
+      "selector": ".framer-Vk5nS .framer-8wkjra-container",
+      "change": "position: fixed"
+    },
+    {
+      "at": "939px",
+      "selector": ".framer-Vk5nS .framer-8wkjra-container",
+      "change": "top: 0px"
+    },
+    {
+      "at": "600px",
+      "selector": ".blog-post [data-framer-name=\"Headings\"], .blog-post [data-framer-name=\"Article ",
+      "change": "padding-left: 16px"
+    },
+    {
+      "at": "600px",
+      "selector": ".blog-post [data-framer-name=\"Headings\"], .blog-post [data-framer-name=\"Article ",
+      "change": "padding-right: 16px"
+    },
+    {
+      "at": "600px",
+      "selector": ".blog-post [data-framer-name=\"Article content\"] ol, .blog-post [data-framer-name",
+      "change": "margin-left: 16px"
+    },
+    {
+      "at": "600px",
+      "selector": ".blog-post [data-framer-name=\"Article content\"] ol, .blog-post [data-framer-name",
+      "change": "margin-right: 16px"
+    }
+  ]
+}

@@ -1,0 +1,1470 @@
+{
+  "url": "https://vercel.com/",
+  "extractedAt": "2026-08-09T10:32:16.453Z",
+  "meta": {
+    "snapshotId": "379b7399-db7b-4960-b1fa-ea63698e16cc",
+    "httpStatus": 200,
+    "dembrandtVersion": "0.27.1",
+    "schemaVersion": "1.5.0",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "fontsReady": true,
+    "flags": {
+      "mobile": true
+    }
+  },
+  "siteName": "Vercel",
+  "logo": null,
+  "logoInstances": [],
+  "favicons": [
+    {
+      "type": "icon shortcut",
+      "url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/favicon.ico",
+      "sizes": null
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-57x57.png",
+      "sizes": "57x57"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-60x60.png",
+      "sizes": "60x60"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-72x72.png",
+      "sizes": "72x72"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-76x76.png",
+      "sizes": "76x76"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-114x114.png",
+      "sizes": "114x114"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-120x120.png",
+      "sizes": "120x120"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-144x144.png",
+      "sizes": "144x144"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-152x152.png",
+      "sizes": "152x152"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-180x180.png",
+      "sizes": "180x180"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-256x256.png",
+      "sizes": "256x256"
+    },
+    {
+      "type": "og:image",
+      "url": "https://lishhsx6kmthaacj.public.blob.vercel-storage.com/og-home-not-x.png",
+      "sizes": null
+    },
+    {
+      "type": "twitter:image",
+      "url": "https://lishhsx6kmthaacj.public.blob.vercel-storage.com/og-home-x.png",
+      "sizes": null
+    },
+    {
+      "type": "pwa",
+      "url": "https://py8fhxnkzwtsqdo9.public.blob.vercel-storage.com/front/favicon/vercel/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "type": "pwa",
+      "url": "https://py8fhxnkzwtsqdo9.public.blob.vercel-storage.com/front/favicon/vercel/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ],
+  "manifest": {
+    "themeColor": "#000000",
+    "backgroundColor": "#000000",
+    "name": "Vercel",
+    "shortName": "Vercel",
+    "darkThemeColor": "#FAFAFA"
+  },
+  "colors": {
+    "semantic": {
+      "background": "rgb(250, 250, 250)",
+      "text": "rgb(23, 23, 23)",
+      "primary": "rgb(0, 112, 243)"
+    },
+    "palette": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 15,
+        "confidence": "high",
+        "sources": [
+          "outline-none",
+          "flex"
+        ],
+        "lch": "lch(100% 0.03 53.35)",
+        "oklch": "oklch(100% 0 89.88)",
+        "role": "surface",
+        "onColor": "#000000",
+        "hover": "#d9d9d9"
+      },
+      {
+        "color": "rgb(23, 23, 23)",
+        "normalized": "#171717",
+        "count": 258,
+        "confidence": "high",
+        "sources": [
+          "peer",
+          "mx-auto",
+          "cursor-pointer"
+        ],
+        "lch": "lch(7.74% 0.01 53.34)",
+        "oklch": "oklch(20.46% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#ffffff",
+        "hover": "#1c1c1c"
+      },
+      {
+        "color": "rgb(77, 77, 77)",
+        "normalized": "#4d4d4d",
+        "count": 203,
+        "confidence": "high",
+        "sources": [
+          "group",
+          "cursor-pointer",
+          "h-full"
+        ],
+        "lch": "lch(32.75% 0.01 53.35)",
+        "oklch": "oklch(42.02% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#ffffff",
+        "hover": "#5c5c5c"
+      },
+      {
+        "color": "rgb(143, 143, 143)",
+        "normalized": "#8f8f8f",
+        "count": 16,
+        "confidence": "medium",
+        "sources": [],
+        "lch": "lch(59.4% 0.02 53.35)",
+        "oklch": "oklch(65% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#000000",
+        "hover": "#7a7a7a"
+      },
+      {
+        "color": "rgb(0, 112, 243)",
+        "normalized": "#0070f3",
+        "count": 2,
+        "confidence": "medium",
+        "sources": [],
+        "lch": "lch(48.32% 75.65 280.69)",
+        "oklch": "oklch(57.31% 0.214 258.25)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#005fcf",
+        "variantOf": "primary"
+      },
+      {
+        "color": "#000000",
+        "normalized": "#000000",
+        "count": 10,
+        "confidence": "high",
+        "sources": [
+          "manifest:theme_color",
+          "manifest:background_color"
+        ]
+      },
+      {
+        "color": "rgb(16, 16, 16)",
+        "normalized": "#101010",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      }
+    ],
+    "cssVariables": {
+      "--ship-text": {
+        "value": "#ff5b4f",
+        "hex": "#ff5b4f",
+        "lch": "lch(61.85% 75.76 34.02)",
+        "oklch": "oklch(68.79% 0.201 27.76)"
+      },
+      "--preview-text": {
+        "value": "#de1d8d",
+        "hex": "#de1d8d",
+        "lch": "lch(50.39% 75.07 351.93)",
+        "oklch": "oklch(59.93% 0.235 352.55)"
+      },
+      "--geist-console-text-color-purple": {
+        "value": "#7928ca",
+        "hex": "#7928ca",
+        "lch": "lch(36.66% 89.83 309.12)",
+        "oklch": "oklch(49.07% 0.228 300.45)"
+      },
+      "--geist-console-text-color-pink": {
+        "value": "#eb367f",
+        "hex": "#eb367f",
+        "lch": "lch(54.47% 71.42 3.33)",
+        "oklch": "oklch(63.1% 0.22 2.01)"
+      }
+    },
+    "detected": [
+      {
+        "color": "rgb(235, 235, 235)",
+        "normalized": "#ebebeb",
+        "count": 504,
+        "usageFrac": 0.4917073170731707,
+        "confidence": "high",
+        "sources": [
+          "peer",
+          "mx-auto",
+          "cursor-pointer",
+          "[object",
+          "sr-only"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(23, 23, 23)",
+        "normalized": "#171717",
+        "count": 258,
+        "usageFrac": 0.25170731707317073,
+        "confidence": "high",
+        "sources": [
+          "peer",
+          "mx-auto",
+          "cursor-pointer",
+          "[object",
+          "sr-only"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(77, 77, 77)",
+        "normalized": "#4d4d4d",
+        "count": 203,
+        "usageFrac": 0.1980487804878049,
+        "confidence": "high",
+        "sources": [
+          "group",
+          "cursor-pointer",
+          "h-full",
+          "flex"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(143, 143, 143)",
+        "normalized": "#8f8f8f",
+        "count": 16,
+        "usageFrac": 0.015609756097560976,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 15,
+        "usageFrac": 0.014634146341463415,
+        "confidence": "high",
+        "sources": [
+          "outline-none",
+          "flex"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(201, 201, 201)",
+        "normalized": "#c9c9c9",
+        "count": 12,
+        "usageFrac": 0.011707317073170732,
+        "confidence": "medium",
+        "sources": [
+          "pointer-events-none"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(250, 250, 250)",
+        "normalized": "#fafafa",
+        "count": 6,
+        "usageFrac": 0.005853658536585366,
+        "confidence": "medium",
+        "sources": [
+          "peer",
+          "cursor-pointer"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(168, 168, 168)",
+        "normalized": "#a8a8a8",
+        "count": 6,
+        "usageFrac": 0.005853658536585366,
+        "confidence": "medium",
+        "sources": [
+          "text-gray-600"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(41, 122, 58)",
+        "normalized": "#297a3a",
+        "count": 3,
+        "usageFrac": 0.002926829268292683,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(0, 112, 243)",
+        "normalized": "#0070f3",
+        "count": 2,
+        "usageFrac": 0.001951219512195122,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": true
+      }
+    ],
+    "_raw": [
+      {
+        "color": "rgb(23, 23, 23)",
+        "normalized": "#171717",
+        "count": 258
+      },
+      {
+        "color": "rgb(235, 235, 235)",
+        "normalized": "#ebebeb",
+        "count": 504
+      },
+      {
+        "color": "rgb(77, 77, 77)",
+        "normalized": "#4d4d4d",
+        "count": 203
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 15
+      },
+      {
+        "color": "rgb(201, 201, 201)",
+        "normalized": "#c9c9c9",
+        "count": 12
+      },
+      {
+        "color": "rgb(143, 143, 143)",
+        "normalized": "#8f8f8f",
+        "count": 16
+      }
+    ]
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "display",
+        "family": "GeistSans",
+        "fallbacks": "GeistSans Fallback",
+        "size": "64px (4.00rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": "-3.84px",
+        "transform": null,
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "heading-2",
+        "family": "GeistSans",
+        "fallbacks": "GeistSans Fallback",
+        "size": "56px (3.50rem)",
+        "weight": 450,
+        "lineHeight": "1.00",
+        "spacing": "-3.36px",
+        "transform": null,
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "body",
+        "family": "GeistSans",
+        "fallbacks": "GeistSans Fallback",
+        "size": "24px (1.50rem)",
+        "weight": 450,
+        "lineHeight": "1.33",
+        "spacing": "-0.96px",
+        "transform": null,
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "body",
+        "family": "GeistSans",
+        "fallbacks": "GeistSans Fallback",
+        "size": "24px (1.50rem)",
+        "weight": 450,
+        "lineHeight": "1.10",
+        "spacing": "-1.2px",
+        "transform": null,
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "link",
+        "family": "GeistSans",
+        "fallbacks": "GeistSans Fallback",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "body",
+        "family": "GeistSans",
+        "fallbacks": "GeistSans Fallback",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "text",
+        "family": "Geist Mono",
+        "fallbacks": "ui-monospace, SFMono-Regular, Menlo, Monaco, Liberation Mono, DejaVu Sans Mono, Courier New, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "link",
+        "family": "GeistSans",
+        "fallbacks": "GeistSans Fallback",
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "body",
+        "family": "GeistSans",
+        "fallbacks": "GeistSans Fallback",
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "body",
+        "family": "GeistSans",
+        "fallbacks": "GeistSans Fallback",
+        "size": "16px (1.00rem)",
+        "weight": 450,
+        "lineHeight": "1.50",
+        "spacing": "-0.32px",
+        "transform": null,
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "ui",
+        "family": "GeistSans",
+        "fallbacks": "GeistSans Fallback",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "ui",
+        "family": "GeistSans",
+        "fallbacks": "GeistSans Fallback",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "body",
+        "family": "GeistSans",
+        "fallbacks": "GeistSans Fallback",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "link",
+        "family": "GeistSans",
+        "fallbacks": "GeistSans Fallback",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "link",
+        "family": "GeistSans",
+        "fallbacks": "GeistSans Fallback",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "body",
+        "family": "GeistSans",
+        "fallbacks": "GeistSans Fallback",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "ui",
+        "family": "GeistSans",
+        "fallbacks": "GeistSans Fallback",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "text",
+        "family": "Geist Mono",
+        "fallbacks": "ui-monospace, SFMono-Regular, Menlo, Monaco, Liberation Mono, DejaVu Sans Mono, Courier New, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": "uppercase",
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "ui",
+        "family": "Geist Mono",
+        "fallbacks": "ui-monospace, SFMono-Regular, Menlo, Monaco, Liberation Mono, DejaVu Sans Mono, Courier New, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "text",
+        "family": "Geist Mono",
+        "fallbacks": "ui-monospace, SFMono-Regular, Menlo, Monaco, Liberation Mono, DejaVu Sans Mono, Courier New, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "heading-2",
+        "family": "GeistSans",
+        "fallbacks": "GeistSans Fallback",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "link",
+        "family": "Geist Mono",
+        "fallbacks": "ui-monospace, SFMono-Regular, Menlo, Monaco, Liberation Mono, DejaVu Sans Mono, Courier New, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "ui",
+        "family": "Geist Mono",
+        "fallbacks": "ui-monospace, SFMono-Regular, Menlo, Monaco, Liberation Mono, DejaVu Sans Mono, Courier New, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "13px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "1.54",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "caption",
+        "family": "Geist Mono",
+        "fallbacks": "ui-monospace, SFMono-Regular, Menlo, Monaco, Liberation Mono, DejaVu Sans Mono, Courier New, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "caption",
+        "family": "GeistSans",
+        "fallbacks": "GeistSans Fallback",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "caption",
+        "family": "Geist Mono",
+        "fallbacks": "ui-monospace, SFMono-Regular, Menlo, Monaco, Liberation Mono, DejaVu Sans Mono, Courier New, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "12px (0.75rem)",
+        "weight": 500,
+        "lineHeight": "1.67",
+        "spacing": null,
+        "transform": "uppercase",
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "caption",
+        "family": "Geist Mono",
+        "fallbacks": "ui-monospace, SFMono-Regular, Menlo, Monaco, Liberation Mono, DejaVu Sans Mono, Courier New, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "11px (0.69rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": "uppercase",
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      },
+      {
+        "context": "caption",
+        "family": "GeistSans",
+        "fallbacks": "GeistSans Fallback",
+        "size": "11px (0.69rem)",
+        "weight": 500,
+        "lineHeight": "1.82",
+        "spacing": "0.2px",
+        "transform": "capitalize",
+        "fontFeatures": "\"calt\" 0, \"rlig\", \"ss11\""
+      }
+    ],
+    "sources": {
+      "googleFonts": [],
+      "adobeFonts": false,
+      "variableFonts": false,
+      "openTypeFeatures": [
+        "rlig",
+        "ss11"
+      ],
+      "selfHostedFonts": [
+        "797e433ab948586e.p.1v5bejj26fx9h.woff2",
+        "GeistPixel_Circle.p.2p5mi6n8co77s.woff2",
+        "GeistPixel_Grid.p.0c5uz3kz61pux.woff2",
+        "GeistPixel_Line.p.3lxddzyuwzx1_.woff2",
+        "GeistPixel_Square.p.3ig4wtfmw09gh.woff2",
+        "GeistPixel_Triangle.p.0s2yyo-clipe_.woff2",
+        "Geist_Variable-s.p.2v-cf9syxr5ni.woff2"
+      ],
+      "customFonts": [
+        "797e433ab948586e.p.1v5bejj26fx9h.woff2",
+        "GeistPixel_Circle.p.2p5mi6n8co77s.woff2",
+        "GeistPixel_Grid.p.0c5uz3kz61pux.woff2",
+        "GeistPixel_Line.p.3lxddzyuwzx1_.woff2",
+        "GeistPixel_Square.p.3ig4wtfmw09gh.woff2",
+        "GeistPixel_Triangle.p.0s2yyo-clipe_.woff2",
+        "Geist_Variable-s.p.2v-cf9syxr5ni.woff2"
+      ]
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "1px",
+        "display": "1px",
+        "rem": "0.06rem",
+        "count": 2,
+        "numericValue": 1
+      },
+      {
+        "px": "2px",
+        "display": "2px",
+        "rem": "0.13rem",
+        "count": 339,
+        "numericValue": 2
+      },
+      {
+        "px": "4px",
+        "display": "4px",
+        "rem": "0.25rem",
+        "count": 6,
+        "numericValue": 4
+      },
+      {
+        "px": "5px",
+        "display": "5px",
+        "rem": "0.31rem",
+        "count": 6,
+        "numericValue": 5
+      },
+      {
+        "px": "6px",
+        "display": "6px",
+        "rem": "0.38rem",
+        "count": 78,
+        "numericValue": 6
+      },
+      {
+        "px": "8px",
+        "display": "8px",
+        "rem": "0.50rem",
+        "count": 10,
+        "numericValue": 8
+      },
+      {
+        "px": "12px",
+        "display": "12px",
+        "rem": "0.75rem",
+        "count": 30,
+        "numericValue": 12
+      },
+      {
+        "px": "14px",
+        "display": "14px",
+        "rem": "0.88rem",
+        "count": 2,
+        "numericValue": 14
+      },
+      {
+        "px": "16px",
+        "display": "16px",
+        "rem": "1.00rem",
+        "count": 6,
+        "numericValue": 16
+      },
+      {
+        "px": "20px",
+        "display": "20px",
+        "rem": "1.25rem",
+        "count": 7,
+        "numericValue": 20
+      },
+      {
+        "px": "24px",
+        "display": "24px",
+        "rem": "1.50rem",
+        "count": 7,
+        "numericValue": 24
+      },
+      {
+        "px": "32px",
+        "display": "32px",
+        "rem": "2.00rem",
+        "count": 4,
+        "numericValue": 32
+      },
+      {
+        "px": "40px",
+        "display": "40px",
+        "rem": "2.50rem",
+        "count": 6,
+        "numericValue": 40
+      },
+      {
+        "px": "80px",
+        "display": "80px",
+        "rem": "5.00rem",
+        "count": 1,
+        "numericValue": 80
+      },
+      {
+        "px": "208px",
+        "display": "208px",
+        "rem": "13.00rem",
+        "count": 2,
+        "numericValue": 208
+      },
+      {
+        "px": "276px",
+        "display": "276px",
+        "rem": "17.25rem",
+        "count": 2,
+        "numericValue": 276
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "0px 0px 0px 1px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "0px 8px 8px 0px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "4px",
+        "count": 3,
+        "elements": [
+          "menuitem"
+        ],
+        "confidence": "low",
+        "numericValue": 4
+      },
+      {
+        "value": "6px",
+        "count": 50,
+        "elements": [
+          "a",
+          "link",
+          "button",
+          "Open menu",
+          "summary"
+        ],
+        "confidence": "high",
+        "numericValue": 6
+      },
+      {
+        "value": "8px",
+        "count": 4,
+        "elements": [
+          "menu",
+          "link"
+        ],
+        "confidence": "medium",
+        "numericValue": 8
+      },
+      {
+        "value": "3.35544e+07px",
+        "count": 27,
+        "elements": [
+          "img",
+          "link",
+          "div",
+          "button",
+          "Copy command"
+        ],
+        "confidence": "high",
+        "numericValue": 33554400
+      },
+      {
+        "value": "3.35544e+07px 6px 6px 3.35544e+07px",
+        "count": 1,
+        "elements": [
+          "Install with"
+        ],
+        "confidence": "low",
+        "numericValue": 33554400
+      },
+      {
+        "value": "100%",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 100
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgba(0, 0, 0, 0.08)",
+        "count": 1,
+        "elements": [
+          "menu"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid",
+        "color": "rgba(0, 0, 0, 0.08)",
+        "count": 1,
+        "elements": [
+          "hr"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(235, 235, 235) 0px 0px 0px 1px",
+      "count": 7,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgb(250, 250, 250) 0px 0px 0px 1px",
+      "count": 5,
+      "confidence": "medium"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 0px 0px",
+      "count": 2,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(255, 255, 255) 0px 0px 0px 2px, rgb(0, 114, 245) 0px 0px 0px 4px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.04) 0px 2px 2px 0px, rgba(0, 0, 0, 0.04) 0px 8px 16px -4px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px inset",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 2px 2px 0px, rgb(250, 250, 250) 0px 0px 0px 1px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.02) 0px 1px 1px 0px, rgba(0, 0, 0, 0.04) 0px 4px 8px 0px, rgb(250, 250, 250) 0px 0px 0px 1px, rgb(255, 255, 255) 0px 0px 0px 1px",
+      "count": 1,
+      "confidence": "low"
+    }
+  ],
+  "gradients": [
+    {
+      "gradient": "linear-gradient(to top in oklab, rgb(250, 250, 250) 0%, rgba(0, 0, 0, 0) 100%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(250, 250, 250)",
+        "rgba(0, 0, 0, 0)"
+      ],
+      "count": 3
+    },
+    {
+      "gradient": "radial-gradient(circle at 0% 0%, rgb(250, 250, 250) 0%, rgba(0, 0, 0, 0) 30%)",
+      "type": "radial",
+      "stopColors": [
+        "rgb(250, 250, 250)",
+        "rgba(0, 0, 0, 0)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "radial-gradient(circle at 100% 0%, rgb(250, 250, 250) 0%, rgba(0, 0, 0, 0) 30%)",
+      "type": "radial",
+      "stopColors": [
+        "rgb(250, 250, 250)",
+        "rgba(0, 0, 0, 0)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "radial-gradient(circle at 100% 100%, rgb(250, 250, 250) 0%, rgba(0, 0, 0, 0) 30%)",
+      "type": "radial",
+      "stopColors": [
+        "rgb(250, 250, 250)",
+        "rgba(0, 0, 0, 0)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(rgb(0, 255, 149) 0%, rgb(255, 208, 0) 25%, rgb(255, 23, 68) 50%, rgb(149, 0, 255) 75%, rgb(0, 229, 255) 100%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(0, 255, 149)",
+        "rgb(255, 208, 0)",
+        "rgb(255, 23, 68)",
+        "rgb(149, 0, 255)",
+        "rgb(0, 229, 255)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(90deg, rgb(255, 220, 48) 0%, rgb(56, 162, 255) 100%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(255, 220, 48)",
+        "rgb(56, 162, 255)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(to right bottom, rgba(0, 0, 0, 0) 0%, lab(100 0 0) 100%)",
+      "type": "linear",
+      "stopColors": [
+        "rgba(0, 0, 0, 0)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(to right in oklab, rgba(0, 0, 0, 0) 0%, rgb(255, 255, 255) 100%)",
+      "type": "linear",
+      "stopColors": [
+        "rgba(0, 0, 0, 0)",
+        "rgb(255, 255, 255)"
+      ],
+      "count": 1
+    }
+  ],
+  "motion": {
+    "durations": [
+      {
+        "value": "0.001s",
+        "ms": 1,
+        "count": 871
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease",
+        "type": "ease",
+        "count": 711
+      },
+      {
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "type": "custom",
+        "count": 141
+      },
+      {
+        "value": "cubic-bezier(0, 0, 0.2, 1)",
+        "type": "ease-out",
+        "count": 12
+      },
+      {
+        "value": "linear",
+        "type": "linear",
+        "count": 2
+      },
+      {
+        "value": "cubic-bezier(0.32, 0.72, 0, 1)",
+        "type": "custom",
+        "count": 2
+      },
+      {
+        "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "type": "custom",
+        "count": 2
+      },
+      {
+        "value": "cubic-bezier(0.3, 0.57, 0.07, 0.95)",
+        "type": "custom",
+        "count": 1
+      }
+    ],
+    "animations": [
+      {
+        "name": "fade-in",
+        "duration": "0.001s",
+        "easing": "ease-out",
+        "count": 2,
+        "contexts": [
+          "other"
+        ]
+      }
+    ],
+    "contexts": {
+      "link": {
+        "count": 163,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "easingType": "custom",
+        "props": [
+          "color",
+          "background-color",
+          "border-color",
+          "outline-color"
+        ]
+      },
+      "nav": {
+        "count": 12,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "color",
+          "background-color",
+          "border-color",
+          "outline-color"
+        ]
+      },
+      "card": {
+        "count": 94,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "color",
+          "background-color",
+          "border-color",
+          "outline-color"
+        ]
+      },
+      "button": {
+        "count": 5,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "color",
+          "background-color",
+          "opacity"
+        ]
+      },
+      "modal": {
+        "count": 1,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "hero": {
+        "count": 7,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "easingType": "custom",
+        "props": [
+          "opacity"
+        ]
+      },
+      "media": {
+        "count": 21,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      }
+    },
+    "interactiveDeltas": [
+      {
+        "tag": "button",
+        "text": "Products",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(77, 77, 77)",
+            "to": "rgb(23, 23, 23)"
+          }
+        }
+      }
+    ]
+  },
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(0, 114, 245)",
+            "padding": "0px 4px",
+            "borderRadius": "6px",
+            "border": "0px solid rgb(235, 235, 235)",
+            "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(255, 255, 255) 0px 0px 0px 2px, rgb(0, 114, 245) 0px 0px 0px 4px",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "text": "Skip to content",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(23, 23, 23)",
+            "padding": "0px 6px",
+            "borderRadius": "6px",
+            "border": "0px solid rgb(235, 235, 235)",
+            "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(235, 235, 235) 0px 0px 0px 1px",
+            "fontSize": "14px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "14px",
+        "text": "Get a Demo",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(23, 23, 23)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "0px 6px",
+            "borderRadius": "6px",
+            "border": "0px solid rgb(235, 235, 235)",
+            "fontSize": "14px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "14px",
+        "text": "Sign Up",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(23, 23, 23)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "0px 12px",
+            "borderRadius": "3.35544e+07px",
+            "border": "0px solid rgb(235, 235, 235)",
+            "fontSize": "16px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "16px",
+        "text": "Deploy now",
+        "confidence": "medium"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(23, 23, 23)",
+            "padding": "0px 12px",
+            "borderRadius": "3.35544e+07px",
+            "border": "0px solid rgb(235, 235, 235)",
+            "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(235, 235, 235) 0px 0px 0px 1px",
+            "fontSize": "16px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "16px",
+        "text": "Talk to sales",
+        "confidence": "medium"
+      }
+    ],
+    "inputs": {
+      "text": [],
+      "checkbox": [],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgb(0, 114, 245)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(0, 114, 245)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "textDecoration": "underline"
+          }
+        }
+      },
+      {
+        "color": "rgb(23, 23, 23)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(23, 23, 23)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "textDecoration": "underline"
+          }
+        }
+      },
+      {
+        "color": "rgb(77, 77, 77)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(77, 77, 77)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "textDecoration": "underline"
+          }
+        }
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none",
+        "fontWeight": "500",
+        "states": {
+          "default": {
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "textDecoration": "underline"
+          }
+        }
+      }
+    ],
+    "badges": {
+      "all": [],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": []
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "370px"
+    },
+    {
+      "px": "383px"
+    },
+    {
+      "px": "400px"
+    },
+    {
+      "px": "450px"
+    },
+    {
+      "px": "470px"
+    },
+    {
+      "px": "480px"
+    },
+    {
+      "px": "500px"
+    },
+    {
+      "px": "600px"
+    },
+    {
+      "px": "601px"
+    },
+    {
+      "px": "640px"
+    },
+    {
+      "px": "670px"
+    },
+    {
+      "px": "690px"
+    },
+    {
+      "px": "768px"
+    },
+    {
+      "px": "769px"
+    },
+    {
+      "px": "960px"
+    },
+    {
+      "px": "961px"
+    },
+    {
+      "px": "1024px"
+    },
+    {
+      "px": "1036px"
+    },
+    {
+      "px": "1080px"
+    },
+    {
+      "px": "1108px"
+    },
+    {
+      "px": "1200px"
+    },
+    {
+      "px": "2300px"
+    }
+  ],
+  "iconSystem": [],
+  "frameworks": [
+    {
+      "name": "Tailwind CSS",
+      "confidence": "high",
+      "evidence": "arbitrary values (e.g., top-[117px]), responsive/state modifiers"
+    },
+    {
+      "name": "Headless UI",
+      "confidence": "high",
+      "evidence": "4 headless components with Tailwind"
+    }
+  ]
+}

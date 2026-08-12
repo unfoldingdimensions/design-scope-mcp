@@ -1,0 +1,154 @@
+{
+  "url": "https://mercury.com",
+  "captured": "2026-08-09T17:03:05+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(237, 237, 243)",
+          "after": "rgb(195, 195, 204)"
+        },
+        "borderColor": {
+          "before": "rgb(237, 237, 243)",
+          "after": "rgb(195, 195, 204)"
+        },
+        "outline": {
+          "before": "rgb(237, 237, 243) none 3px",
+          "after": "rgb(195, 195, 204) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(156, 180, 232, 0.28)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(156, 180, 232, 0.28)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(156, 180, 232, 0.28)"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "nav.center",
+      "diffs": {
+        "boxShadow": "none → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(86, 86, 118, 0.1) 0px 0px 6px 0px",
+        "background": "rgba(0, 0, 0, 0) → rgb(23, 23, 33)",
+        "backdropFilter": "none → blur(10px)"
+      }
+    },
+    {
+      "selector": "div.relative",
+      "diffs": {
+        "background": "color(srgb 0.0901961 0.0901961 0.129412 / 0.01) → rgb(23, 23, 33)"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 207,
+    "tabs": 25,
+    "accordions": 28,
+    "carousels": 0,
+    "observers": 35,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "div",
+      "classes": "group/content col-span-full col-start-1 row-start-1 data-[state=inactive]:pointe",
+      "text": "SaaSUnlike most financial institutions, Mercury is built on ",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "div",
+      "classes": "col-span-full col-start-1 row-start-1 -m-gap-lg transition-transform duration-0 ",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "div",
+      "classes": "pointer-events-none col-start-1 row-start-1 flex flex-col gap-stack-gap-lg relat",
+      "text": "SaaSUnlike most financial institutions, Mercury is built on ",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "div",
+      "classes": "group/content col-span-full col-start-1 row-start-1 data-[state=inactive]:pointe",
+      "text": "EcommerceBuilding an ecommerce brand with millions of custom",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "div",
+      "classes": "col-span-full col-start-1 row-start-1 -m-gap-lg transition-transform duration-0 ",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "div",
+      "classes": "pointer-events-none col-start-1 row-start-1 flex flex-col gap-stack-gap-lg relat",
+      "text": "EcommerceBuilding an ecommerce brand with millions of custom",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "div",
+      "classes": "group/content col-span-full col-start-1 row-start-1 data-[state=inactive]:pointe",
+      "text": "AgencyWe love Mercury’s interface. Built-in permissions mean",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "div",
+      "classes": "col-span-full col-start-1 row-start-1 -m-gap-lg transition-transform duration-0 ",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

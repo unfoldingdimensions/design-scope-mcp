@@ -1,0 +1,45 @@
+{
+  "url": "https://todoist.com",
+  "hovers": [
+    {
+      "selector": "a[href]",
+      "file": "hover-01.png",
+      "box": {
+        "x": 64,
+        "y": 18,
+        "width": 128,
+        "height": 35
+      }
+    },
+    {
+      "selector": "button",
+      "file": "hover-02.png",
+      "box": {
+        "x": 816,
+        "y": 17,
+        "width": 121,
+        "height": 39
+      }
+    },
+    {
+      "selector": "button",
+      "file": "hover-03.png",
+      "box": {
+        "x": 939,
+        "y": 17,
+        "width": 129,
+        "height": 39
+      }
+    },
+    {
+      "selector": "nav a",
+      "file": "hover-04.png",
+      "box": {
+        "x": 64,
+        "y": 18,
+        "width": 128,
+        "height": 35
+      }
+    }
+  ]
+}

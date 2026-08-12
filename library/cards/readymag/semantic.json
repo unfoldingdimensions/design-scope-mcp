@@ -1,0 +1,92 @@
+{
+  "url": "https://readymag.com",
+  "captured": "2026-08-10T09:15:32+00:00",
+  "named_tokens": {
+    "light": {},
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "rounded corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "rounded",
+    "type_mood": [
+      "serif-led"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {},
+  "z_index_rows": [],
+  "responsive": [
+    {
+      "at": "478px",
+      "selector": "#CybotCookiebotDialogBodyButtonsWrapper",
+      "change": "flex-wrap: wrap"
+    },
+    {
+      "at": "478px",
+      "selector": "#CybotCookiebotDialogBodyButtonsWrapper",
+      "change": "row-gap: 2px"
+    },
+    {
+      "at": "478px",
+      "selector": "#CybotCookiebotDialogBodyContent",
+      "change": "padding-top: 0px"
+    },
+    {
+      "at": "478px",
+      "selector": "#CybotCookiebotDialogBodyContent",
+      "change": "padding-right: 1.125em"
+    },
+    {
+      "at": "478px",
+      "selector": "#CybotCookiebotDialogBodyContent",
+      "change": "padding-bottom: 20px"
+    },
+    {
+      "at": "478px",
+      "selector": "#CybotCookiebotDialogBodyContent",
+      "change": "padding-left: 0px"
+    },
+    {
+      "at": "478px",
+      "selector": "#CybotCookiebotDialog",
+      "change": "width: calc(100% - 22px)"
+    },
+    {
+      "at": "478px",
+      "selector": "#CybotCookiebotDialog",
+      "change": "left: 12px"
+    },
+    {
+      "at": "478px",
+      "selector": "#CybotCookiebotDialog",
+      "change": "border-top-left-radius: 12px"
+    },
+    {
+      "at": "478px",
+      "selector": "#CybotCookiebotDialog",
+      "change": "border-top-right-radius: 12px"
+    },
+    {
+      "at": "478px",
+      "selector": "#CybotCookiebotDialog",
+      "change": "border-bottom-right-radius: 12px"
+    },
+    {
+      "at": "478px",
+      "selector": "#CybotCookiebotDialog",
+      "change": "border-bottom-left-radius: 12px"
+    }
+  ]
+}

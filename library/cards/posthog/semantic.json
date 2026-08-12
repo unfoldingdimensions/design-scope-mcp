@@ -1,0 +1,260 @@
+{
+  "url": "https://posthog.com",
+  "captured": "2026-08-10T10:35:44+00:00",
+  "named_tokens": {
+    "light": {
+      "--viewport-padding": "25px",
+      "--squeak-primary-color": "0,0,0",
+      "--squeak-default-avatar-fill": "255,255,255",
+      "--squeak-button-color": "245,78,0",
+      "--swiper-pagination-color": "#f54e00",
+      "--swiper-pagination-bullet-inactive-color": "#000",
+      "--swiper-theme-color": "#007aff"
+    },
+    "dark": {
+      "--squeak-primary-color": "255,255,255",
+      "--squeak-default-avatar-fill": "0,0,0",
+      "--swiper-pagination-color": "#f7a501",
+      "--swiper-pagination-bullet-inactive-color": "#fff"
+    }
+  },
+  "semantic_colors": {
+    "light": {
+      "--swiper-pagination-bullet-inactive-color": "#000",
+      "--swiper-pagination-color": "#f54e00",
+      "--swiper-theme-color": "#007aff"
+    },
+    "dark": {
+      "--swiper-pagination-bullet-inactive-color": "#fff",
+      "--swiper-pagination-color": "#f7a501"
+    },
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "generous corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "generous",
+    "type_mood": [
+      "mono accents"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "sidebar": 30
+  },
+  "z_index_rows": [
+    {
+      "role": "sidebar",
+      "selector": ".quest-sidebar",
+      "value": "30"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "(forced-colors: active)",
+      "selector": "[type=\"checkbox\"]:checked",
+      "change": "appearance: auto"
+    },
+    {
+      "at": "(forced-colors: active)",
+      "selector": "[type=\"radio\"]:checked",
+      "change": "appearance: auto"
+    },
+    {
+      "at": "(forced-colors: active)",
+      "selector": "[type=\"checkbox\"]:indeterminate",
+      "change": "appearance: auto"
+    },
+    {
+      "at": "425px",
+      "selector": ".\\!container",
+      "change": "max-width: 425px"
+    },
+    {
+      "at": "425px",
+      "selector": ".container",
+      "change": "max-width: 425px"
+    },
+    {
+      "at": "482px",
+      "selector": ".\\!container",
+      "change": "max-width: 482px"
+    },
+    {
+      "at": "482px",
+      "selector": ".container",
+      "change": "max-width: 482px"
+    },
+    {
+      "at": "640px",
+      "selector": ".\\!container",
+      "change": "max-width: 640px"
+    },
+    {
+      "at": "640px",
+      "selector": ".container",
+      "change": "max-width: 640px"
+    },
+    {
+      "at": "768px",
+      "selector": ".\\!container",
+      "change": "max-width: 768px"
+    },
+    {
+      "at": "768px",
+      "selector": ".container",
+      "change": "max-width: 768px"
+    },
+    {
+      "at": "900px",
+      "selector": ".\\!container",
+      "change": "max-width: 900px"
+    },
+    {
+      "at": "900px",
+      "selector": ".container",
+      "change": "max-width: 900px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".\\!container",
+      "change": "max-width: 1024px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".container",
+      "change": "max-width: 1024px"
+    },
+    {
+      "at": "1160px",
+      "selector": ".\\!container",
+      "change": "max-width: 1160px"
+    },
+    {
+      "at": "1160px",
+      "selector": ".container",
+      "change": "max-width: 1160px"
+    },
+    {
+      "at": "1280px",
+      "selector": ".\\!container",
+      "change": "max-width: 1280px"
+    },
+    {
+      "at": "1280px",
+      "selector": ".container",
+      "change": "max-width: 1280px"
+    },
+    {
+      "at": "1536px",
+      "selector": ".\\!container",
+      "change": "max-width: 1536px"
+    },
+    {
+      "at": "1536px",
+      "selector": ".container",
+      "change": "max-width: 1536px"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".app-scrollbar",
+      "change": "animation-duration: 1ms"
+    },
+    {
+      "at": "(forced-colors: active)",
+      "selector": ".app-scrollbar-thumb",
+      "change": "background-color: canvastext"
+    },
+    {
+      "at": "(forced-colors: active)",
+      "selector": "*",
+      "change": "scrollbar-color: auto"
+    },
+    {
+      "at": "(forced-colors: active)",
+      "selector": "*",
+      "change": "scrollbar-width: auto"
+    },
+    {
+      "at": "(forced-colors: active)",
+      "selector": "::-webkit-scrollbar, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-thumb, ::-w",
+      "change": "all: revert"
+    },
+    {
+      "at": "800px",
+      "selector": ".article-content img.blog-post-img-large",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "800px",
+      "selector": ".article-content img.blog-post-img-large",
+      "change": "max-width: 100%"
+    },
+    {
+      "at": "1280px",
+      "selector": ".article-content .jumpTo::before",
+      "change": "display: none"
+    },
+    {
+      "at": "900px",
+      "selector": ".slick-slide",
+      "change": "padding-top: 1.5rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".slick-slide",
+      "change": "padding-top: 2rem"
+    },
+    {
+      "at": "1280px",
+      "selector": ".slick-slide",
+      "change": "padding-top: 2.5rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".company-submenu-item-container",
+      "change": "row-gap: 0px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".company-submenu-item-container",
+      "change": "column-gap: 0px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".company-submenu-item-container",
+      "change": "grid-template-columns: repeat(5, minmax(0px, 1fr))"
+    },
+    {
+      "at": "1024px",
+      "selector": ".company-submenu-item-container > li",
+      "change": "padding-bottom: 3rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".company-submenu-item-container > li:nth-child(2n+1)",
+      "change": "grid-column-start: span 3"
+    },
+    {
+      "at": "1024px",
+      "selector": ".company-submenu-item-container > li:nth-child(2n+1)",
+      "change": "grid-column-end: span 3"
+    },
+    {
+      "at": "1024px",
+      "selector": ".company-submenu-item-container > li:nth-child(2n)",
+      "change": "grid-column-start: span 2"
+    },
+    {
+      "at": "1024px",
+      "selector": ".company-submenu-item-container > li:nth-child(2n)",
+      "change": "grid-column-end: span 2"
+    }
+  ]
+}

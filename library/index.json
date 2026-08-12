@@ -1,0 +1,4768 @@
+{
+  "version": 1,
+  "cards": {
+    "stripe": {
+      "id": "stripe",
+      "name": "Stripe",
+      "url": "https://stripe.com",
+      "category": "fintech",
+      "why": "",
+      "slug": "stripe",
+      "captured_at": "2026-08-09T15:39:33+00:00",
+      "files": {
+        "card": "cards/stripe/card.md",
+        "desktop": "cards/stripe/screenshot-desktop.png",
+        "mobile": "cards/stripe/screenshot-mobile.png",
+        "fingerprint": "cards/stripe/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 37,
+        "fonts": [
+          "SourceCodePro",
+          "sohne-var"
+        ],
+        "components": 4
+      }
+    },
+    "linear": {
+      "id": "linear",
+      "name": "Linear",
+      "url": "https://linear.app",
+      "category": "saas",
+      "why": "",
+      "slug": "linear",
+      "captured_at": "2026-08-09T15:30:19+00:00",
+      "files": {
+        "card": "cards/linear/card.md",
+        "desktop": "cards/linear/screenshot-desktop.png",
+        "mobile": "cards/linear/screenshot-mobile.png",
+        "fingerprint": "cards/linear/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 10,
+        "fonts": [
+          "Berkeley Mono",
+          "Inter Variable"
+        ],
+        "components": 4
+      }
+    },
+    "vercel": {
+      "id": "vercel",
+      "name": "Vercel",
+      "url": "https://vercel.com",
+      "category": "devtools",
+      "why": "Reference for monochrome minimalism, bold type hierarchy, sharp geometry",
+      "slug": "vercel",
+      "captured_at": "2026-08-09T10:31:47+00:00",
+      "files": {
+        "card": "cards/vercel/card.md",
+        "desktop": "cards/vercel/screenshot-desktop.png",
+        "mobile": "cards/vercel/screenshot-mobile.png",
+        "fingerprint": "cards/vercel/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 7,
+        "fonts": [
+          "Geist Mono",
+          "GeistSans"
+        ],
+        "components": 4
+      }
+    },
+    "figma": {
+      "id": "figma",
+      "name": "Figma",
+      "url": "https://www.figma.com",
+      "category": "design-tools",
+      "why": "Reference for playful-but-clear product marketing, community-led design",
+      "slug": "figma",
+      "captured_at": "2026-08-09T10:32:16+00:00",
+      "files": {
+        "card": "cards/figma/card.md",
+        "desktop": "cards/figma/screenshot-desktop.png",
+        "mobile": "cards/figma/screenshot-mobile.png",
+        "fingerprint": "cards/figma/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 7,
+        "fonts": [
+          "figmaMono",
+          "figmaSans"
+        ],
+        "components": 4
+      }
+    },
+    "notion": {
+      "id": "notion",
+      "name": "Notion",
+      "url": "https://www.notion.so",
+      "category": "saas",
+      "why": "Reference for warm-minimal workspace UI, content-first layout, neutral palettes",
+      "slug": "notion",
+      "captured_at": "2026-08-09T10:32:51+00:00",
+      "files": {
+        "card": "cards/notion/card.md",
+        "desktop": "cards/notion/screenshot-desktop.png",
+        "mobile": "cards/notion/screenshot-mobile.png",
+        "fingerprint": "cards/notion/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 12,
+        "fonts": [
+          "NotionInter"
+        ],
+        "components": 4
+      }
+    },
+    "apple": {
+      "id": "apple",
+      "name": "Apple",
+      "url": "https://www.apple.com",
+      "category": "consumer",
+      "why": "Reference for premium product photography, generous whitespace, strict type discipline",
+      "slug": "apple",
+      "captured_at": "2026-08-09T10:33:21+00:00",
+      "files": {
+        "card": "cards/apple/card.md",
+        "desktop": "cards/apple/screenshot-desktop.png",
+        "mobile": "cards/apple/screenshot-mobile.png",
+        "fingerprint": "cards/apple/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 5,
+        "fonts": [
+          "SF Pro Display",
+          "SF Pro Text"
+        ],
+        "components": 4
+      }
+    },
+    "spotify": {
+      "id": "spotify",
+      "name": "Spotify",
+      "url": "https://www.spotify.com",
+      "category": "media",
+      "why": "Reference for bold duotone branding, dark immersive surfaces, motion cues",
+      "slug": "spotify",
+      "captured_at": "2026-08-09T10:33:47+00:00",
+      "files": {
+        "card": "cards/spotify/card.md",
+        "desktop": "cards/spotify/screenshot-desktop.png",
+        "mobile": "cards/spotify/screenshot-mobile.png",
+        "fingerprint": "cards/spotify/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 10,
+        "fonts": [
+          "SpotifyMixUI",
+          "SpotifyMixUITitle"
+        ],
+        "components": 4
+      }
+    },
+    "airbnb": {
+      "id": "airbnb",
+      "name": "Airbnb",
+      "url": "https://www.airbnb.com",
+      "category": "consumer",
+      "why": "Reference for hospitality warmth, photography-led search, rounded friendly tokens",
+      "slug": "airbnb",
+      "captured_at": "2026-08-09T10:34:31+00:00",
+      "files": {
+        "card": "cards/airbnb/card.md",
+        "desktop": "cards/airbnb/screenshot-desktop.png",
+        "mobile": "cards/airbnb/screenshot-mobile.png",
+        "fingerprint": "cards/airbnb/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "Airbnb Cereal VF"
+        ],
+        "components": 4
+      }
+    },
+    "supabase": {
+      "id": "supabase",
+      "name": "Supabase",
+      "url": "https://supabase.com",
+      "category": "devtools",
+      "why": "Reference for dark green-tinged dev aesthetic, developer docs hierarchy",
+      "slug": "supabase",
+      "captured_at": "2026-08-09T10:35:10+00:00",
+      "files": {
+        "card": "cards/supabase/card.md",
+        "desktop": "cards/supabase/screenshot-desktop.png",
+        "mobile": "cards/supabase/screenshot-mobile.png",
+        "fingerprint": "cards/supabase/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 14,
+        "fonts": [
+          "Inter",
+          "Manrope",
+          "Source Code Pro"
+        ],
+        "components": 4
+      }
+    },
+    "framer": {
+      "id": "framer",
+      "name": "Framer",
+      "url": "https://www.framer.com",
+      "category": "design-tools",
+      "why": "",
+      "slug": "framer",
+      "captured_at": "2026-08-09T15:52:19+00:00",
+      "files": {
+        "card": "cards/framer/card.md",
+        "desktop": "cards/framer/screenshot-desktop.png",
+        "mobile": "cards/framer/screenshot-mobile.png",
+        "fingerprint": "cards/framer/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "GT Walsheim Medium",
+          "Input Mono Bold",
+          "Input Mono Regular",
+          "Inter"
+        ],
+        "components": 4
+      }
+    },
+    "webflow": {
+      "id": "webflow",
+      "name": "Webflow",
+      "url": "https://webflow.com",
+      "category": "design-tools",
+      "why": "Reference for clean SaaS marketing, interactive product demos, clear CTAs",
+      "slug": "webflow",
+      "captured_at": "2026-08-09T10:36:26+00:00",
+      "files": {
+        "card": "cards/webflow/card.md",
+        "desktop": "cards/webflow/screenshot-desktop.png",
+        "mobile": "cards/webflow/screenshot-mobile.png",
+        "fingerprint": "cards/webflow/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 4,
+        "fonts": [
+          "-apple-system",
+          "WF Visual Sans Variable",
+          "WFVisualSans-Mono"
+        ],
+        "components": 4
+      }
+    },
+    "raycast": {
+      "id": "raycast",
+      "name": "Raycast",
+      "url": "https://www.raycast.com",
+      "category": "devtools",
+      "why": "Reference for dark utility-UI refinement, tight spacing, crisp mono accents",
+      "slug": "raycast",
+      "captured_at": "2026-08-09T10:37:09+00:00",
+      "files": {
+        "card": "cards/raycast/card.md",
+        "desktop": "cards/raycast/screenshot-desktop.png",
+        "mobile": "cards/raycast/screenshot-mobile.png",
+        "fingerprint": "cards/raycast/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 15,
+        "fonts": [
+          "GeistMono",
+          "Inter",
+          "SF Pro Text"
+        ],
+        "components": 4
+      }
+    },
+    "arc": {
+      "id": "arc",
+      "name": "Arc (The Browser Company)",
+      "url": "https://arc.net",
+      "category": "consumer",
+      "why": "Reference for bold editorial web design, personality, motion-forward storytelling",
+      "slug": "arc",
+      "captured_at": "2026-08-09T10:40:00+00:00",
+      "files": {
+        "card": "cards/arc/card.md",
+        "desktop": "cards/arc/screenshot-desktop.png",
+        "mobile": "cards/arc/screenshot-mobile.png",
+        "fingerprint": "cards/arc/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 13,
+        "fonts": [
+          "-apple-system",
+          "ABC Oracle",
+          "Exposure VAR",
+          "InterVariable"
+        ],
+        "components": 4
+      }
+    },
+    "superhuman": {
+      "id": "superhuman",
+      "name": "Superhuman",
+      "url": "https://superhuman.com",
+      "category": "saas",
+      "why": "Reference for premium dark landing, speed/performance messaging, luxury feel",
+      "slug": "superhuman",
+      "captured_at": "2026-08-09T10:40:36+00:00",
+      "files": {
+        "card": "cards/superhuman/card.md",
+        "desktop": "cards/superhuman/screenshot-desktop.png",
+        "mobile": "cards/superhuman/screenshot-mobile.png",
+        "fingerprint": "cards/superhuman/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "Super Sans VF"
+        ],
+        "components": 4
+      }
+    },
+    "miro": {
+      "id": "miro",
+      "name": "Miro",
+      "url": "https://miro.com",
+      "category": "saas",
+      "why": "Reference for collaboration-product marketing, playful color, team-oriented layout",
+      "slug": "miro",
+      "captured_at": "2026-08-09T10:41:15+00:00",
+      "files": {
+        "card": "cards/miro/card.md",
+        "desktop": "cards/miro/screenshot-desktop.png",
+        "mobile": "cards/miro/screenshot-mobile.png",
+        "fingerprint": "cards/miro/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 14,
+        "fonts": [
+          "Inter",
+          "Nanum Pen Script",
+          "Noto Sans",
+          "Open Sans"
+        ],
+        "components": 4
+      }
+    },
+    "loom": {
+      "id": "loom",
+      "name": "Loom",
+      "url": "https://www.loom.com",
+      "category": "saas",
+      "why": "Reference for video-product UI, approachable illustration style, clear feature layout",
+      "slug": "loom",
+      "captured_at": "2026-08-09T10:42:26+00:00",
+      "files": {
+        "card": "cards/loom/card.md",
+        "desktop": "cards/loom/screenshot-desktop.png",
+        "mobile": "cards/loom/screenshot-mobile.png",
+        "fingerprint": "cards/loom/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 18,
+        "fonts": [
+          "Charlie Display",
+          "Charlie Text"
+        ],
+        "components": 4
+      }
+    },
+    "retool": {
+      "id": "retool",
+      "name": "Retool",
+      "url": "https://retool.com",
+      "category": "devtools",
+      "why": "Reference for developer-tool marketing, dense technical clarity, dark+light mix",
+      "slug": "retool",
+      "captured_at": "2026-08-09T10:43:03+00:00",
+      "files": {
+        "card": "cards/retool/card.md",
+        "desktop": "cards/retool/screenshot-desktop.png",
+        "mobile": "cards/retool/screenshot-mobile.png",
+        "fingerprint": "cards/retool/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 9,
+        "fonts": [
+          "pxGroteskFont",
+          "saansFont",
+          "ui-monospace",
+          "ui-sans-serif"
+        ],
+        "components": 4
+      }
+    },
+    "resend": {
+      "id": "resend",
+      "name": "Resend",
+      "url": "https://resend.com",
+      "category": "devtools",
+      "why": "Reference for minimal dark dev landing, sharp type, restrained accent color",
+      "slug": "resend",
+      "captured_at": "2026-08-09T10:43:52+00:00",
+      "files": {
+        "card": "cards/resend/card.md",
+        "desktop": "cards/resend/screenshot-desktop.png",
+        "mobile": "cards/resend/screenshot-mobile.png",
+        "fingerprint": "cards/resend/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 14,
+        "fonts": [
+          "-apple-system",
+          "Helvetica",
+          "aBCFavorit",
+          "commitMono"
+        ],
+        "components": 4
+      }
+    },
+    "mercury": {
+      "id": "mercury",
+      "name": "Mercury",
+      "url": "https://mercury.com",
+      "category": "fintech",
+      "why": "Reference for premium fintech branding, elegant serif display, dark sophistication",
+      "slug": "mercury",
+      "captured_at": "2026-08-09T10:45:05+00:00",
+      "files": {
+        "card": "cards/mercury/card.md",
+        "desktop": "cards/mercury/screenshot-desktop.png",
+        "mobile": "cards/mercury/screenshot-mobile.png",
+        "fingerprint": "cards/mercury/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 11,
+        "fonts": [
+          "arcadia",
+          "arcadiaDisplay",
+          "ui-sans-serif"
+        ],
+        "components": 4
+      }
+    },
+    "ramp": {
+      "id": "ramp",
+      "name": "Ramp",
+      "url": "https://ramp.com",
+      "category": "fintech",
+      "why": "Reference for modern fintech marketing, data-forward hero, clean grids",
+      "slug": "ramp",
+      "captured_at": "2026-08-09T10:45:37+00:00",
+      "files": {
+        "card": "cards/ramp/card.md",
+        "desktop": "cards/ramp/screenshot-desktop.png",
+        "mobile": "cards/ramp/screenshot-mobile.png",
+        "fingerprint": "cards/ramp/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 5,
+        "fonts": [
+          "Material Icons",
+          "Material Icons Outlined",
+          "lausanne"
+        ],
+        "components": 4
+      }
+    },
+    "brex": {
+      "id": "brex",
+      "name": "Brex",
+      "url": "https://www.brex.com",
+      "category": "fintech",
+      "why": "Reference for corporate fintech trust design, restrained palette, bold statements",
+      "slug": "brex",
+      "captured_at": "2026-08-09T10:46:38+00:00",
+      "files": {
+        "card": "cards/brex/card.md",
+        "desktop": "cards/brex/screenshot-desktop.png",
+        "mobile": "cards/brex/screenshot-mobile.png",
+        "fingerprint": "cards/brex/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 9,
+        "fonts": [
+          "flecha",
+          "inter"
+        ],
+        "components": 4
+      }
+    },
+    "monzo": {
+      "id": "monzo",
+      "name": "Monzo",
+      "url": "https://monzo.com",
+      "category": "fintech",
+      "why": "Reference for consumer-banking warmth, coral brand accent, friendly finance",
+      "slug": "monzo",
+      "captured_at": "2026-08-09T10:47:18+00:00",
+      "files": {
+        "card": "cards/monzo/card.md",
+        "desktop": "cards/monzo/screenshot-desktop.png",
+        "mobile": "cards/monzo/screenshot-mobile.png",
+        "fingerprint": "cards/monzo/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 5,
+        "fonts": [
+          "MonzoSansDisplay",
+          "MonzoSansText"
+        ],
+        "components": 4
+      }
+    },
+    "revolut": {
+      "id": "revolut",
+      "name": "Revolut",
+      "url": "https://www.revolut.com",
+      "category": "fintech",
+      "why": "Reference for global fintech scale, dark fintech aesthetic, app-first marketing",
+      "slug": "revolut",
+      "captured_at": "2026-08-09T10:47:43+00:00",
+      "files": {
+        "card": "cards/revolut/card.md",
+        "desktop": "cards/revolut/screenshot-desktop.png",
+        "mobile": "cards/revolut/screenshot-mobile.png",
+        "fingerprint": "cards/revolut/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 7,
+        "fonts": [
+          "Aeonik Pro",
+          "Arial",
+          "Inter"
+        ],
+        "components": 4
+      }
+    },
+    "wise": {
+      "id": "wise",
+      "name": "Wise",
+      "url": "https://wise.com",
+      "category": "fintech",
+      "why": "Reference for clarity-first fintech, honest transparency messaging, teal brand",
+      "slug": "wise",
+      "captured_at": "2026-08-09T10:48:24+00:00",
+      "files": {
+        "card": "cards/wise/card.md",
+        "desktop": "cards/wise/screenshot-desktop.png",
+        "mobile": "cards/wise/screenshot-mobile.png",
+        "fingerprint": "cards/wise/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 11,
+        "fonts": [
+          "Inter",
+          "Wise Sans"
+        ],
+        "components": 4
+      }
+    },
+    "coinbase": {
+      "id": "coinbase",
+      "name": "Coinbase",
+      "url": "https://www.coinbase.com",
+      "category": "fintech",
+      "why": "Reference for crypto trust design, blue brand system, market-data UI",
+      "slug": "coinbase",
+      "captured_at": "2026-08-09T10:49:26+00:00",
+      "files": {
+        "card": "cards/coinbase/card.md",
+        "desktop": "cards/coinbase/screenshot-desktop.png",
+        "mobile": "cards/coinbase/screenshot-mobile.png",
+        "fingerprint": "cards/coinbase/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 10,
+        "fonts": [
+          "CoinbaseDisplay",
+          "CoinbaseIcons",
+          "CoinbaseSans",
+          "CoinbaseText"
+        ],
+        "components": 4
+      }
+    },
+    "openai": {
+      "id": "openai",
+      "name": "OpenAI",
+      "url": "https://openai.com",
+      "category": "ai",
+      "why": "Reference for AI-lab minimalism, restrained dark landing, product showcases",
+      "slug": "openai",
+      "captured_at": "2026-08-09T10:49:59+00:00",
+      "files": {
+        "card": "cards/openai/card.md",
+        "desktop": "cards/openai/screenshot-desktop.png",
+        "mobile": "cards/openai/screenshot-mobile.png",
+        "fingerprint": "cards/openai/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 3,
+        "fonts": [
+          "OpenAI Sans"
+        ],
+        "components": 4
+      }
+    },
+    "anthropic": {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com",
+      "category": "ai",
+      "why": "Reference for warm-beige editorial AI brand, serif+grotesk mix, calm authority",
+      "slug": "anthropic",
+      "captured_at": "2026-08-09T10:50:47+00:00",
+      "files": {
+        "card": "cards/anthropic/card.md",
+        "desktop": "cards/anthropic/screenshot-desktop.png",
+        "mobile": "cards/anthropic/screenshot-mobile.png",
+        "fingerprint": "cards/anthropic/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 10,
+        "fonts": [
+          "Anthropic Mono",
+          "Anthropic Sans",
+          "Anthropic Serif"
+        ],
+        "components": 4
+      }
+    },
+    "perplexity": {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "url": "https://www.perplexity.ai",
+      "category": "ai",
+      "why": "Reference for AI-search UI, clean answer surfaces, turquoise accent",
+      "slug": "perplexity",
+      "captured_at": "2026-08-09T10:51:17+00:00",
+      "files": {
+        "card": "cards/perplexity/card.md",
+        "desktop": "cards/perplexity/screenshot-desktop.png",
+        "mobile": "cards/perplexity/screenshot-mobile.png",
+        "fingerprint": "cards/perplexity/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 7,
+        "fonts": [
+          "pplxSans"
+        ],
+        "components": 4
+      }
+    },
+    "runway": {
+      "id": "runway",
+      "name": "Runway",
+      "url": "https://runwayml.com",
+      "category": "ai",
+      "why": "Reference for generative-AI aesthetic, dark cinematic landing, motion products",
+      "slug": "runway",
+      "captured_at": "2026-08-09T10:51:53+00:00",
+      "files": {
+        "card": "cards/runway/card.md",
+        "desktop": "cards/runway/screenshot-desktop.png",
+        "mobile": "cards/runway/screenshot-mobile.png",
+        "fingerprint": "cards/runway/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 11,
+        "fonts": [
+          "abcNormal"
+        ],
+        "components": 4
+      }
+    },
+    "elevenlabs": {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "url": "https://elevenlabs.io",
+      "category": "ai",
+      "why": "Reference for AI-audio brand, dark futuristic landing, bold gradients",
+      "slug": "elevenlabs",
+      "captured_at": "2026-08-09T10:52:30+00:00",
+      "files": {
+        "card": "cards/elevenlabs/card.md",
+        "desktop": "cards/elevenlabs/screenshot-desktop.png",
+        "mobile": "cards/elevenlabs/screenshot-mobile.png",
+        "fingerprint": "cards/elevenlabs/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 6,
+        "fonts": [
+          "Geist Mono",
+          "Inter",
+          "Waldenburg",
+          "ui-monospace"
+        ],
+        "components": 4
+      }
+    },
+    "duolingo": {
+      "id": "duolingo",
+      "name": "Duolingo",
+      "url": "https://www.duolingo.com",
+      "category": "education",
+      "why": "Reference for gamified education, mascot-led brand, bright playful palette",
+      "slug": "duolingo",
+      "captured_at": "2026-08-09T10:52:53+00:00",
+      "files": {
+        "card": "cards/duolingo/card.md",
+        "desktop": "cards/duolingo/screenshot-desktop.png",
+        "mobile": "cards/duolingo/screenshot-mobile.png",
+        "fingerprint": "cards/duolingo/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "duolingo-sans",
+          "feather"
+        ],
+        "components": 4
+      }
+    },
+    "headspace": {
+      "id": "headspace",
+      "name": "Headspace",
+      "url": "https://www.headspace.com",
+      "category": "wellness",
+      "why": "Reference for calm wellness brand, soft gradients, friendly illustration",
+      "slug": "headspace",
+      "captured_at": "2026-08-09T10:53:38+00:00",
+      "files": {
+        "card": "cards/headspace/card.md",
+        "desktop": "cards/headspace/screenshot-desktop.png",
+        "mobile": "cards/headspace/screenshot-mobile.png",
+        "fingerprint": "cards/headspace/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 5,
+        "fonts": [
+          "Headspace Apercu"
+        ],
+        "components": 4
+      }
+    },
+    "nike": {
+      "id": "nike",
+      "name": "Nike",
+      "url": "https://www.nike.com",
+      "category": "ecommerce",
+      "why": "Reference for athletic brand boldness, kinetic type, product-first imagery",
+      "slug": "nike",
+      "captured_at": "2026-08-09T10:54:22+00:00",
+      "files": {
+        "card": "cards/nike/card.md",
+        "desktop": "cards/nike/screenshot-desktop.png",
+        "mobile": "cards/nike/screenshot-mobile.png",
+        "fingerprint": "cards/nike/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 5,
+        "fonts": [
+          "Arial",
+          "Helvetica Now Display",
+          "Helvetica Now Text",
+          "Helvetica Now Text Medium"
+        ],
+        "components": 4
+      }
+    },
+    "glossier": {
+      "id": "glossier",
+      "name": "Glossier",
+      "url": "https://www.glossier.com",
+      "category": "ecommerce",
+      "why": "Reference for millennial-pink beauty branding, editorial minimal ecommerce",
+      "slug": "glossier",
+      "captured_at": "2026-08-09T10:55:13+00:00",
+      "files": {
+        "card": "cards/glossier/card.md",
+        "desktop": "cards/glossier/screenshot-desktop.png",
+        "mobile": "cards/glossier/screenshot-mobile.png",
+        "fingerprint": "cards/glossier/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 6,
+        "fonts": [
+          "Apercu",
+          "Apercu Mono",
+          "Arial"
+        ],
+        "components": 4
+      }
+    },
+    "allbirds": {
+      "id": "allbirds",
+      "name": "Allbirds",
+      "url": "https://www.allbirds.com",
+      "category": "ecommerce",
+      "why": "Reference for sustainable-brand warmth, earthy palette, simple ecommerce",
+      "slug": "allbirds",
+      "captured_at": "2026-08-09T10:56:33+00:00",
+      "files": {
+        "card": "cards/allbirds/card.md",
+        "desktop": "cards/allbirds/screenshot-desktop.png",
+        "mobile": "cards/allbirds/screenshot-mobile.png",
+        "fingerprint": "cards/allbirds/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 7,
+        "fonts": [
+          "Akkurat Mono",
+          "Geograph",
+          "Self Modern"
+        ],
+        "components": 4
+      }
+    },
+    "theverge": {
+      "id": "theverge",
+      "name": "The Verge",
+      "url": "https://www.theverge.com",
+      "category": "media",
+      "why": "Reference for editorial news design, dense content hierarchy, bold headlines",
+      "slug": "theverge",
+      "captured_at": "2026-08-09T10:58:04+00:00",
+      "files": {
+        "card": "cards/theverge/card.md",
+        "desktop": "cards/theverge/screenshot-desktop.png",
+        "mobile": "cards/theverge/screenshot-mobile.png",
+        "fingerprint": "cards/theverge/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "__fkRomanStandard_cfceed",
+          "__manuka_62afb5",
+          "__polySansMono_0b836e",
+          "__polySans_9afc27"
+        ],
+        "components": 4
+      }
+    },
+    "netflix": {
+      "id": "netflix",
+      "name": "Netflix",
+      "url": "https://www.netflix.com",
+      "category": "media",
+      "why": "Reference for dark streaming UI, hero-driven content surfaces, red brand accent",
+      "slug": "netflix",
+      "captured_at": "2026-08-09T10:59:18+00:00",
+      "files": {
+        "card": "cards/netflix/card.md",
+        "desktop": "cards/netflix/screenshot-desktop.png",
+        "mobile": "cards/netflix/screenshot-mobile.png",
+        "fingerprint": "cards/netflix/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "Netflix Sans",
+          "sans-serif"
+        ],
+        "components": 4
+      }
+    },
+    "squarespace": {
+      "id": "squarespace",
+      "name": "Squarespace",
+      "url": "https://www.squarespace.com",
+      "category": "design-tools",
+      "why": "Reference for creative-company marketing, template showcases, elegant type",
+      "slug": "squarespace",
+      "captured_at": "2026-08-09T11:00:14+00:00",
+      "files": {
+        "card": "cards/squarespace/card.md",
+        "desktop": "cards/squarespace/screenshot-desktop.png",
+        "mobile": "cards/squarespace/screenshot-mobile.png",
+        "fingerprint": "cards/squarespace/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 5,
+        "fonts": [
+          "Clarkson",
+          "Clarkson Serif",
+          "sans-serif"
+        ],
+        "components": 4
+      }
+    },
+    "shopify": {
+      "id": "shopify",
+      "name": "Shopify",
+      "url": "https://www.shopify.com",
+      "category": "ecommerce",
+      "why": "Reference for commerce-platform marketing, green brand, merchant success stories",
+      "slug": "shopify",
+      "captured_at": "2026-08-09T11:00:50+00:00",
+      "files": {
+        "card": "cards/shopify/card.md",
+        "desktop": "cards/shopify/screenshot-desktop.png",
+        "mobile": "cards/shopify/screenshot-mobile.png",
+        "fingerprint": "cards/shopify/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 13,
+        "fonts": [
+          "Inter-Variable",
+          "NeueHaasGrotesk",
+          "ui-monospace"
+        ],
+        "components": 4
+      }
+    },
+    "mailchimp": {
+      "id": "mailchimp",
+      "name": "Mailchimp",
+      "url": "https://mailchimp.com",
+      "category": "saas",
+      "why": "Reference for friendly-SaaS brand evolution, illustration, approachable tone",
+      "slug": "mailchimp",
+      "captured_at": "2026-08-09T11:01:45+00:00",
+      "files": {
+        "card": "cards/mailchimp/card.md",
+        "desktop": "cards/mailchimp/screenshot-desktop.png",
+        "mobile": "cards/mailchimp/screenshot-mobile.png",
+        "fingerprint": "cards/mailchimp/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 10,
+        "fonts": [
+          "Graphik Web",
+          "Means Web"
+        ],
+        "components": 4
+      }
+    },
+    "intercom": {
+      "id": "intercom",
+      "name": "Intercom",
+      "url": "https://www.intercom.com",
+      "category": "saas",
+      "why": "Reference for B2B SaaS marketing, conversational UI showcase, clean grids",
+      "slug": "intercom",
+      "captured_at": "2026-08-09T11:02:20+00:00",
+      "files": {
+        "card": "cards/intercom/card.md",
+        "desktop": "cards/intercom/screenshot-desktop.png",
+        "mobile": "cards/intercom/screenshot-mobile.png",
+        "fingerprint": "cards/intercom/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "Saans",
+          "SaansMono",
+          "Serrif",
+          "system-ui"
+        ],
+        "components": 4
+      }
+    },
+    "atlassian": {
+      "id": "atlassian",
+      "name": "Atlassian",
+      "url": "https://www.atlassian.com",
+      "category": "saas",
+      "why": "Reference for enterprise-SaaS clarity, blue brand, suite-of-products layout",
+      "slug": "atlassian",
+      "captured_at": "2026-08-09T11:03:45+00:00",
+      "files": {
+        "card": "cards/atlassian/card.md",
+        "desktop": "cards/atlassian/screenshot-desktop.png",
+        "mobile": "cards/atlassian/screenshot-mobile.png",
+        "fingerprint": "cards/atlassian/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 12,
+        "fonts": [
+          "Atlassian Mono",
+          "Charlie Display",
+          "Charlie Text"
+        ],
+        "components": 4
+      }
+    },
+    "github": {
+      "id": "github",
+      "name": "GitHub",
+      "url": "https://github.com",
+      "category": "devtools",
+      "why": "Reference for developer platform UI, dense information design, dark+light themes",
+      "slug": "github",
+      "captured_at": "2026-08-09T11:04:40+00:00",
+      "files": {
+        "card": "cards/github/card.md",
+        "desktop": "cards/github/screenshot-desktop.png",
+        "mobile": "cards/github/screenshot-mobile.png",
+        "fingerprint": "cards/github/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 19,
+        "fonts": [
+          "Mona Sans",
+          "Mona Sans Mono",
+          "Mona Sans VF"
+        ],
+        "components": 4
+      }
+    },
+    "dropbox": {
+      "id": "dropbox",
+      "name": "Dropbox",
+      "url": "https://www.dropbox.com",
+      "category": "saas",
+      "why": "Reference for storage-product marketing, blue brand, clear feature sections",
+      "slug": "dropbox",
+      "captured_at": "2026-08-09T11:05:12+00:00",
+      "files": {
+        "card": "cards/dropbox/card.md",
+        "desktop": "cards/dropbox/screenshot-desktop.png",
+        "mobile": "cards/dropbox/screenshot-mobile.png",
+        "fingerprint": "cards/dropbox/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 9,
+        "fonts": [
+          "Arial",
+          "Atlas Grotesk Web",
+          "Sharp Grotesk",
+          "Sharp Grotesk 23"
+        ],
+        "components": 4
+      }
+    },
+    "slack": {
+      "id": "slack",
+      "name": "Slack",
+      "url": "https://slack.com",
+      "category": "saas",
+      "why": "Reference for communication-platform branding, bold color blocks, playful type",
+      "slug": "slack",
+      "captured_at": "2026-08-09T11:05:52+00:00",
+      "files": {
+        "card": "cards/slack/card.md",
+        "desktop": "cards/slack/screenshot-desktop.png",
+        "mobile": "cards/slack/screenshot-mobile.png",
+        "fingerprint": "cards/slack/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 10,
+        "fonts": [
+          "Salesforce-Avant-Garde",
+          "Salesforce-Sans"
+        ],
+        "components": 4
+      }
+    },
+    "discord": {
+      "id": "discord",
+      "name": "Discord",
+      "url": "https://discord.com",
+      "category": "consumer",
+      "why": "Reference for community-platform dark UI, playful purple brand, gamer culture",
+      "slug": "discord",
+      "captured_at": "2026-08-09T11:06:44+00:00",
+      "files": {
+        "card": "cards/discord/card.md",
+        "desktop": "cards/discord/screenshot-desktop.png",
+        "mobile": "cards/discord/screenshot-mobile.png",
+        "fingerprint": "cards/discord/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 5,
+        "fonts": [
+          "ABC Ginto Normal",
+          "Abcgintodiscord",
+          "Abcgintodiscordnord",
+          "Ggsans"
+        ],
+        "components": 4
+      }
+    },
+    "zoom": {
+      "id": "zoom",
+      "name": "Zoom",
+      "url": "https://www.zoom.com",
+      "category": "saas",
+      "why": "Reference for enterprise-communication clarity, blue brand, trust-focused layout",
+      "slug": "zoom",
+      "captured_at": "2026-08-09T11:07:24+00:00",
+      "files": {
+        "card": "cards/zoom/card.md",
+        "desktop": "cards/zoom/screenshot-desktop.png",
+        "mobile": "cards/zoom/screenshot-mobile.png",
+        "fingerprint": "cards/zoom/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 10,
+        "fonts": [
+          "Almaden Sans",
+          "Happy Face Semi Bold",
+          "icozm",
+          "ui-sans-serif"
+        ],
+        "components": 4
+      }
+    },
+    "canva": {
+      "id": "canva",
+      "name": "Canva",
+      "url": "https://www.canva.com",
+      "category": "design-tools",
+      "why": "Reference for accessible-design brand, rainbow palette, creator-marketplace UI",
+      "slug": "canva",
+      "captured_at": "2026-08-09T11:07:59+00:00",
+      "files": {
+        "card": "cards/canva/card.md",
+        "desktop": "cards/canva/screenshot-desktop.png",
+        "mobile": "cards/canva/screenshot-mobile.png",
+        "fingerprint": "cards/canva/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 5,
+        "fonts": [
+          "Arial",
+          "Canva Sans",
+          "Times New Roman"
+        ],
+        "components": 4
+      }
+    },
+    "oura": {
+      "id": "oura",
+      "name": "Oura",
+      "url": "https://oura.com",
+      "category": "wellness",
+      "why": "Reference for wearable wellness design, dark premium landing, data-driven sleep UI, ring-product photography",
+      "slug": "oura",
+      "captured_at": "2026-08-09T11:11:04+00:00",
+      "files": {
+        "card": "cards/oura/card.md",
+        "desktop": "cards/oura/screenshot-desktop.png",
+        "mobile": "cards/oura/screenshot-mobile.png",
+        "fingerprint": "cards/oura/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 33,
+        "fonts": [
+          "DM Sans",
+          "DMSans",
+          "DMSansBold",
+          "Roboto"
+        ],
+        "components": 4
+      }
+    },
+    "sketch": {
+      "id": "sketch",
+      "name": "Sketch",
+      "url": "https://www.sketch.com",
+      "category": "design-tools",
+      "why": "Reference for creative-tool minimalism, warm neutral palette, product storytelling, elegant type",
+      "slug": "sketch",
+      "captured_at": "2026-08-09T11:12:06+00:00",
+      "files": {
+        "card": "cards/sketch/card.md",
+        "desktop": "cards/sketch/screenshot-desktop.png",
+        "mobile": "cards/sketch/screenshot-mobile.png",
+        "fingerprint": "cards/sketch/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "InterVariable",
+          "Reckless"
+        ],
+        "components": 4
+      }
+    },
+    "gitlab": {
+      "id": "gitlab",
+      "name": "GitLab",
+      "url": "https://gitlab.com",
+      "category": "devtools",
+      "why": "Sleek brand refresh: bold gradients, duotone graphics, product-first storytelling for developer platforms",
+      "slug": "gitlab",
+      "captured_at": "2026-08-09T11:12:49+00:00",
+      "files": {
+        "card": "cards/gitlab/card.md",
+        "desktop": "cards/gitlab/screenshot-desktop.png",
+        "mobile": "cards/gitlab/screenshot-mobile.png",
+        "fingerprint": "cards/gitlab/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 12,
+        "fonts": [
+          "GitLab Sans"
+        ],
+        "components": 4
+      }
+    },
+    "sentry": {
+      "id": "sentry",
+      "name": "Sentry",
+      "url": "https://sentry.io",
+      "category": "devtools",
+      "why": "Exception-tracking SaaS with dense data-rich marketing, dark surfaces, electric accent system",
+      "slug": "sentry",
+      "captured_at": "2026-08-09T11:13:28+00:00",
+      "files": {
+        "card": "cards/sentry/card.md",
+        "desktop": "cards/sentry/screenshot-desktop.png",
+        "mobile": "cards/sentry/screenshot-mobile.png",
+        "fingerprint": "cards/sentry/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 17,
+        "fonts": [
+          "-apple-system",
+          "Dammit Sans",
+          "Monaco",
+          "Rubik"
+        ],
+        "components": 4
+      }
+    },
+    "cloudflare": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "url": "https://www.cloudflare.com",
+      "category": "devtools",
+      "why": "Developer-platform clarity at scale: orange accent system, technical depth made readable",
+      "slug": "cloudflare",
+      "captured_at": "2026-08-09T11:13:59+00:00",
+      "files": {
+        "card": "cards/cloudflare/card.md",
+        "desktop": "cards/cloudflare/screenshot-desktop.png",
+        "mobile": "cards/cloudflare/screenshot-mobile.png",
+        "fingerprint": "cards/cloudflare/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 12,
+        "fonts": [
+          "Apercu Mono Pro",
+          "FT Kunst Grotesk"
+        ],
+        "components": 4
+      }
+    },
+    "digitalocean": {
+      "id": "digitalocean",
+      "name": "DigitalOcean",
+      "url": "https://www.digitalocean.com",
+      "category": "devtools",
+      "why": "Friendly dev-cloud brand: soft blue palette, playful illustration, approachable technical marketing",
+      "slug": "digitalocean",
+      "captured_at": "2026-08-09T11:14:38+00:00",
+      "files": {
+        "card": "cards/digitalocean/card.md",
+        "desktop": "cards/digitalocean/screenshot-desktop.png",
+        "mobile": "cards/digitalocean/screenshot-mobile.png",
+        "fingerprint": "cards/digitalocean/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 6,
+        "fonts": [
+          "Inter",
+          "JetBrains Mono",
+          "Plus Jakarta Sans"
+        ],
+        "components": 4
+      }
+    },
+    "railway": {
+      "id": "railway",
+      "name": "Railway",
+      "url": "https://railway.com",
+      "category": "devtools",
+      "why": "Minimal deploy-platform landing: dark gradient hero, crisp mono type, small-team craft",
+      "slug": "railway",
+      "captured_at": "2026-08-09T11:15:17+00:00",
+      "files": {
+        "card": "cards/railway/card.md",
+        "desktop": "cards/railway/screenshot-desktop.png",
+        "mobile": "cards/railway/screenshot-mobile.png",
+        "fingerprint": "cards/railway/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 11,
+        "fonts": [
+          "Helvetica",
+          "IBM Plex Serif",
+          "Inter",
+          "Inter Tight"
+        ],
+        "components": 4
+      }
+    },
+    "flyio": {
+      "id": "flyio",
+      "name": "Fly.io",
+      "url": "https://fly.io",
+      "category": "devtools",
+      "why": "Playful dev-cloud personality: thick borders, retro illustration, docs-first dark UI with wit",
+      "slug": "flyio",
+      "captured_at": "2026-08-09T11:15:53+00:00",
+      "files": {
+        "card": "cards/flyio/card.md",
+        "desktop": "cards/flyio/screenshot-desktop.png",
+        "mobile": "cards/flyio/screenshot-mobile.png",
+        "fingerprint": "cards/flyio/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 10,
+        "fonts": [
+          "Fricolage Grotesque",
+          "Mackinac"
+        ],
+        "components": 4
+      }
+    },
+    "render": {
+      "id": "render",
+      "name": "Render",
+      "url": "https://render.com",
+      "category": "devtools",
+      "why": "Quiet precise cloud-dashboard marketing: restrained palette, tight typography, dense technical clarity",
+      "slug": "render",
+      "captured_at": "2026-08-09T11:16:50+00:00",
+      "files": {
+        "card": "cards/render/card.md",
+        "desktop": "cards/render/screenshot-desktop.png",
+        "mobile": "cards/render/screenshot-mobile.png",
+        "fingerprint": "cards/render/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "Helvetica",
+          "PPNeueMontreal",
+          "PPNeueMontrealMono",
+          "Roobert"
+        ],
+        "components": 4
+      }
+    },
+    "netlify": {
+      "id": "netlify",
+      "name": "Netlify",
+      "url": "https://www.netlify.com",
+      "category": "devtools",
+      "why": "Web-platform marketing: teal brand, generous whitespace, approachable developer copy, clean grids",
+      "slug": "netlify",
+      "captured_at": "2026-08-09T11:17:28+00:00",
+      "files": {
+        "card": "cards/netlify/card.md",
+        "desktop": "cards/netlify/screenshot-desktop.png",
+        "mobile": "cards/netlify/screenshot-mobile.png",
+        "fingerprint": "cards/netlify/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "Figtree",
+          "Instrument Sans",
+          "Martian Mono",
+          "ui-monospace"
+        ],
+        "components": 4
+      }
+    },
+    "vite": {
+      "id": "vite",
+      "name": "Vite",
+      "url": "https://vite.dev",
+      "category": "devtools",
+      "why": "Tool-docs aesthetic done right: gradient hero, crisp code blocks, minimal navigation",
+      "slug": "vite",
+      "captured_at": "2026-08-09T11:18:07+00:00",
+      "files": {
+        "card": "cards/vite/card.md",
+        "desktop": "cards/vite/screenshot-desktop.png",
+        "mobile": "cards/vite/screenshot-mobile.png",
+        "fingerprint": "cards/vite/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 13,
+        "fonts": [
+          "APK Protocol",
+          "Inter",
+          "KH Teka Mono"
+        ],
+        "components": 4
+      }
+    },
+    "astro": {
+      "id": "astro",
+      "name": "Astro",
+      "url": "https://astro.build",
+      "category": "devtools",
+      "why": "Editorial dev brand: serif display type, warm palette, stunning gradient hero, designed docs",
+      "slug": "astro",
+      "captured_at": "2026-08-09T11:18:32+00:00",
+      "files": {
+        "card": "cards/astro/card.md",
+        "desktop": "cards/astro/screenshot-desktop.png",
+        "mobile": "cards/astro/screenshot-mobile.png",
+        "fingerprint": "cards/astro/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 17,
+        "fonts": [
+          "Arial",
+          "Inter",
+          "MDIO",
+          "Obviously"
+        ],
+        "components": 4
+      }
+    },
+    "nextjs": {
+      "id": "nextjs",
+      "name": "Next.js",
+      "url": "https://nextjs.org",
+      "category": "devtools",
+      "why": "Framework marketing: monochrome black hero, sharp type, developer-docs hierarchy",
+      "slug": "nextjs",
+      "captured_at": "2026-08-09T11:18:53+00:00",
+      "files": {
+        "card": "cards/nextjs/card.md",
+        "desktop": "cards/nextjs/screenshot-desktop.png",
+        "mobile": "cards/nextjs/screenshot-mobile.png",
+        "fingerprint": "cards/nextjs/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 12,
+        "fonts": [
+          "Geist Mono",
+          "GeistSans",
+          "Georgia",
+          "Inter"
+        ],
+        "components": 4
+      }
+    },
+    "svelte": {
+      "id": "svelte",
+      "name": "Svelte",
+      "url": "https://svelte.dev",
+      "category": "devtools",
+      "why": "Warm-minimal framework brand: pink accent, clean typography, interactive repl front and center",
+      "slug": "svelte",
+      "captured_at": "2026-08-09T11:19:19+00:00",
+      "files": {
+        "card": "cards/svelte/card.md",
+        "desktop": "cards/svelte/screenshot-desktop.png",
+        "mobile": "cards/svelte/screenshot-mobile.png",
+        "fingerprint": "cards/svelte/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 12,
+        "fonts": [
+          "DM Serif Display",
+          "Fira Sans",
+          "Georgia"
+        ],
+        "components": 4
+      }
+    },
+    "tailwind": {
+      "id": "tailwind",
+      "name": "Tailwind CSS",
+      "url": "https://tailwindcss.com",
+      "category": "devtools",
+      "why": "Utility-CSS brand: playful gradients, live code playground in hero, obsessive docs polish",
+      "slug": "tailwind",
+      "captured_at": "2026-08-09T11:19:55+00:00",
+      "files": {
+        "card": "cards/tailwind/card.md",
+        "desktop": "cards/tailwind/screenshot-desktop.png",
+        "mobile": "cards/tailwind/screenshot-mobile.png",
+        "fingerprint": "cards/tailwind/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 14,
+        "fonts": [
+          "inter",
+          "plexMono"
+        ],
+        "components": 4
+      }
+    },
+    "shadcn": {
+      "id": "shadcn",
+      "name": "shadcn/ui",
+      "url": "https://ui.shadcn.com",
+      "category": "devtools",
+      "why": "Component-library reference: ultra-clean dark UI, copy-paste aesthetic, restrained accent",
+      "slug": "shadcn",
+      "captured_at": "2026-08-09T11:20:48+00:00",
+      "files": {
+        "card": "cards/shadcn/card.md",
+        "desktop": "cards/shadcn/screenshot-desktop.png",
+        "mobile": "cards/shadcn/screenshot-mobile.png",
+        "fingerprint": "cards/shadcn/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "Geist"
+        ],
+        "components": 4
+      }
+    },
+    "radix": {
+      "id": "radix",
+      "name": "Radix UI",
+      "url": "https://www.radix-ui.com",
+      "category": "devtools",
+      "why": "Unstyled-primitives brand: precise typography, elegant dark/light theming, API clarity",
+      "slug": "radix",
+      "captured_at": "2026-08-09T11:21:10+00:00",
+      "files": {
+        "card": "cards/radix/card.md",
+        "desktop": "cards/radix/screenshot-desktop.png",
+        "mobile": "cards/radix/screenshot-mobile.png",
+        "fingerprint": "cards/radix/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 23,
+        "fonts": [
+          "-apple-system",
+          "Times New Roman",
+          "adobeTextPro",
+          "soehneMono"
+        ],
+        "components": 4
+      }
+    },
+    "motion": {
+      "id": "motion",
+      "name": "Motion",
+      "url": "https://motion.dev",
+      "category": "devtools",
+      "why": "Animation-library landing: kinetic hero, buttery micro-interactions, dark minimalism with purple glow",
+      "slug": "motion",
+      "captured_at": "2026-08-09T11:21:32+00:00",
+      "files": {
+        "card": "cards/motion/card.md",
+        "desktop": "cards/motion/screenshot-desktop.png",
+        "mobile": "cards/motion/screenshot-mobile.png",
+        "fingerprint": "cards/motion/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 10,
+        "fonts": [
+          "Geist Mono",
+          "TASA Orbiter"
+        ],
+        "components": 4
+      }
+    },
+    "react": {
+      "id": "react",
+      "name": "React",
+      "url": "https://react.dev",
+      "category": "devtools",
+      "why": "Framework docs redesign: bold dark hero, clean typography, approachable educational structure",
+      "slug": "react",
+      "captured_at": "2026-08-09T11:22:36+00:00",
+      "files": {
+        "card": "cards/react/card.md",
+        "desktop": "cards/react/screenshot-desktop.png",
+        "mobile": "cards/react/screenshot-mobile.png",
+        "fingerprint": "cards/react/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 17,
+        "fonts": [
+          "Optimistic Display",
+          "Optimistic Text",
+          "Source Code Pro"
+        ],
+        "components": 4
+      }
+    },
+    "rust": {
+      "id": "rust",
+      "name": "Rust",
+      "url": "https://www.rust-lang.org",
+      "category": "devtools",
+      "why": "Language-brand warmth: earthy orange, friendly mascot, community-driven editorial tone",
+      "slug": "rust",
+      "captured_at": "2026-08-09T11:23:02+00:00",
+      "files": {
+        "card": "cards/rust/card.md",
+        "desktop": "cards/rust/screenshot-desktop.png",
+        "mobile": "cards/rust/screenshot-mobile.png",
+        "fingerprint": "cards/rust/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 7,
+        "fonts": [
+          "Alfa Slab One",
+          "Fira Sans"
+        ],
+        "components": 4
+      }
+    },
+    "go": {
+      "id": "go",
+      "name": "Go",
+      "url": "https://go.dev",
+      "category": "devtools",
+      "why": "Developer-language minimalism: clean typography, playful gopher mascot, crisp docs layout",
+      "slug": "go",
+      "captured_at": "2026-08-09T11:23:25+00:00",
+      "files": {
+        "card": "cards/go/card.md",
+        "desktop": "cards/go/screenshot-desktop.png",
+        "mobile": "cards/go/screenshot-mobile.png",
+        "fingerprint": "cards/go/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 11,
+        "fonts": [
+          "-apple-system",
+          "Menlo",
+          "Roboto"
+        ],
+        "components": 4
+      }
+    },
+    "deno": {
+      "id": "deno",
+      "name": "Deno",
+      "url": "https://deno.com",
+      "category": "devtools",
+      "why": "Runtime brand: clean minimal landing, subtle gradients, developer-focused clarity",
+      "slug": "deno",
+      "captured_at": "2026-08-09T11:23:51+00:00",
+      "files": {
+        "card": "cards/deno/card.md",
+        "desktop": "cards/deno/screenshot-desktop.png",
+        "mobile": "cards/deno/screenshot-mobile.png",
+        "fingerprint": "cards/deno/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 24,
+        "fonts": [
+          "Inter",
+          "Menlo",
+          "Moranga",
+          "Recursive"
+        ],
+        "components": 4
+      }
+    },
+    "bun": {
+      "id": "bun",
+      "name": "Bun",
+      "url": "https://bun.sh",
+      "category": "devtools",
+      "why": "Fast-runtime brand: bold typography, monochrome plus accent, performance-first messaging",
+      "slug": "bun",
+      "captured_at": "2026-08-09T11:24:25+00:00",
+      "files": {
+        "card": "cards/bun/card.md",
+        "desktop": "cards/bun/screenshot-desktop.png",
+        "mobile": "cards/bun/screenshot-mobile.png",
+        "fingerprint": "cards/bun/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 13,
+        "fonts": [
+          "JetBrains Mono",
+          "system-ui"
+        ],
+        "components": 4
+      }
+    },
+    "expo": {
+      "id": "expo",
+      "name": "Expo",
+      "url": "https://expo.dev",
+      "category": "devtools",
+      "why": "React Native toolchain: bold dark hero, purple brand, clear feature architecture",
+      "slug": "expo",
+      "captured_at": "2026-08-09T11:25:08+00:00",
+      "files": {
+        "card": "cards/expo/card.md",
+        "desktop": "cards/expo/screenshot-desktop.png",
+        "mobile": "cards/expo/screenshot-mobile.png",
+        "fingerprint": "cards/expo/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 9,
+        "fonts": [
+          "Inter",
+          "JetBrains Mono",
+          "ui-monospace"
+        ],
+        "components": 4
+      }
+    },
+    "tauri": {
+      "id": "tauri",
+      "name": "Tauri",
+      "url": "https://tauri.app",
+      "category": "devtools",
+      "why": "Desktop-framework landing: dark minimal, sharp geometry, restrained green accent, crisp code samples",
+      "slug": "tauri",
+      "captured_at": "2026-08-09T11:25:33+00:00",
+      "files": {
+        "card": "cards/tauri/card.md",
+        "desktop": "cards/tauri/screenshot-desktop.png",
+        "mobile": "cards/tauri/screenshot-mobile.png",
+        "fingerprint": "cards/tauri/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 15,
+        "fonts": [
+          "-apple-system",
+          "Arial",
+          "ui-monospace"
+        ],
+        "components": 4
+      }
+    },
+    "warp": {
+      "id": "warp",
+      "name": "Warp",
+      "url": "https://www.warp.dev",
+      "category": "devtools",
+      "why": "Terminal reimagined: beautiful dark app surfaces, monospace hierarchy, AI-feature showcase",
+      "slug": "warp",
+      "captured_at": "2026-08-09T11:25:58+00:00",
+      "files": {
+        "card": "cards/warp/card.md",
+        "desktop": "cards/warp/screenshot-desktop.png",
+        "mobile": "cards/warp/screenshot-mobile.png",
+        "fingerprint": "cards/warp/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "Azeret Mono",
+          "Matter",
+          "theFuture"
+        ],
+        "components": 4
+      }
+    },
+    "cursor": {
+      "id": "cursor",
+      "name": "Cursor",
+      "url": "https://cursor.com",
+      "category": "ai",
+      "why": "AI-editor brand: dark premium landing, calm gradients, product screenshots that sell speed",
+      "slug": "cursor",
+      "captured_at": "2026-08-09T11:26:39+00:00",
+      "files": {
+        "card": "cards/cursor/card.md",
+        "desktop": "cards/cursor/screenshot-desktop.png",
+        "mobile": "cards/cursor/screenshot-mobile.png",
+        "fingerprint": "cards/cursor/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 9,
+        "fonts": [
+          "-apple-system",
+          "CursorGothic",
+          "CursorIcons16",
+          "EB Garamond"
+        ],
+        "components": 4
+      }
+    },
+    "replicate": {
+      "id": "replicate",
+      "name": "Replicate",
+      "url": "https://replicate.com",
+      "category": "ai",
+      "why": "ML-API brand: clean white minimalism, dense model grids, playful pastel accents",
+      "slug": "replicate",
+      "captured_at": "2026-08-09T11:27:32+00:00",
+      "files": {
+        "card": "cards/replicate/card.md",
+        "desktop": "cards/replicate/screenshot-desktop.png",
+        "mobile": "cards/replicate/screenshot-mobile.png",
+        "fingerprint": "cards/replicate/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 9,
+        "fonts": [
+          "basier-square",
+          "jetbrains-mono",
+          "rb-freigeist-neue"
+        ],
+        "components": 4
+      }
+    },
+    "fal": {
+      "id": "fal",
+      "name": "fal.ai",
+      "url": "https://fal.ai",
+      "category": "ai",
+      "why": "AI-infra landing: glassy dark aesthetic, glowing gradients, technical clarity",
+      "slug": "fal",
+      "captured_at": "2026-08-09T11:28:30+00:00",
+      "files": {
+        "card": "cards/fal/card.md",
+        "desktop": "cards/fal/screenshot-desktop.png",
+        "mobile": "cards/fal/screenshot-mobile.png",
+        "fingerprint": "cards/fal/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 10,
+        "fonts": [
+          "Chivo Mono",
+          "focal",
+          "hal",
+          "publicSansRounded"
+        ],
+        "components": 4
+      }
+    },
+    "groq": {
+      "id": "groq",
+      "name": "Groq",
+      "url": "https://groq.com",
+      "category": "ai",
+      "why": "AI-inference brand: gorgeous dark landing, neon green accents, liquid motion",
+      "slug": "groq",
+      "captured_at": "2026-08-09T11:30:03+00:00",
+      "files": {
+        "card": "cards/groq/card.md",
+        "desktop": "cards/groq/screenshot-desktop.png",
+        "mobile": "cards/groq/screenshot-mobile.png",
+        "fingerprint": "cards/groq/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "esBuild",
+          "komuna"
+        ],
+        "components": 4
+      }
+    },
+    "mistral": {
+      "id": "mistral",
+      "name": "Mistral",
+      "url": "https://mistral.ai",
+      "category": "ai",
+      "why": "French AI-lab brand: warm editorial minimalism, elegant serif accents, restrained luxury feel",
+      "slug": "mistral",
+      "captured_at": "2026-08-09T11:30:27+00:00",
+      "files": {
+        "card": "cards/mistral/card.md",
+        "desktop": "cards/mistral/screenshot-desktop.png",
+        "mobile": "cards/mistral/screenshot-mobile.png",
+        "fingerprint": "cards/mistral/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 16,
+        "fonts": [
+          "ALTMistral",
+          "Inter",
+          "Space Mono"
+        ],
+        "components": 4
+      }
+    },
+    "huggingface": {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "url": "https://huggingface.co",
+      "category": "ai",
+      "why": "ML-community hub: playful brand, dense-but-organized surfaces, friendly dark UI",
+      "slug": "huggingface",
+      "captured_at": "2026-08-09T11:31:05+00:00",
+      "files": {
+        "card": "cards/huggingface/card.md",
+        "desktop": "cards/huggingface/screenshot-desktop.png",
+        "mobile": "cards/huggingface/screenshot-mobile.png",
+        "fingerprint": "cards/huggingface/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 12,
+        "fonts": [
+          "IBM Plex Mono",
+          "Source Sans Pro"
+        ],
+        "components": 4
+      }
+    },
+    "midjourney": {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "url": "https://www.midjourney.com",
+      "category": "ai",
+      "why": "Image-gen brand: surreal dark aesthetic, cosmic gradients, cinematic landing",
+      "slug": "midjourney",
+      "captured_at": "2026-08-09T11:31:41+00:00",
+      "files": {
+        "card": "cards/midjourney/card.md",
+        "desktop": "cards/midjourney/screenshot-desktop.png",
+        "mobile": "cards/midjourney/screenshot-mobile.png",
+        "fingerprint": "cards/midjourney/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 12,
+        "fonts": [
+          "DM Sans",
+          "JetBrains Mono"
+        ],
+        "components": 4
+      }
+    },
+    "recraft": {
+      "id": "recraft",
+      "name": "Recraft",
+      "url": "https://www.recraft.ai",
+      "category": "ai",
+      "why": "AI-design-tool brand: clean product UI, playful pastel palette, vector-design focus",
+      "slug": "recraft",
+      "captured_at": "2026-08-09T11:32:33+00:00",
+      "files": {
+        "card": "cards/recraft/card.md",
+        "desktop": "cards/recraft/screenshot-desktop.png",
+        "mobile": "cards/recraft/screenshot-mobile.png",
+        "fingerprint": "cards/recraft/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 3,
+        "fonts": [
+          "ABC Gravity Compressed",
+          "ABC Gravity Condensed",
+          "ABC Gravity Condensed Italic",
+          "ABC Gravity Expanded"
+        ],
+        "components": 4
+      }
+    },
+    "krea": {
+      "id": "krea",
+      "name": "Krea",
+      "url": "https://www.krea.ai",
+      "category": "ai",
+      "why": "AI-creativity tool: dark immersive landing, generative visuals as hero art",
+      "slug": "krea",
+      "captured_at": "2026-08-09T11:33:18+00:00",
+      "files": {
+        "card": "cards/krea/card.md",
+        "desktop": "cards/krea/screenshot-desktop.png",
+        "mobile": "cards/krea/screenshot-mobile.png",
+        "fingerprint": "cards/krea/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 10,
+        "fonts": [
+          "Suisse Intl"
+        ],
+        "components": 4
+      }
+    },
+    "stability": {
+      "id": "stability",
+      "name": "Stability AI",
+      "url": "https://stability.ai",
+      "category": "ai",
+      "why": "Generative-AI brand: bold typography, gradient-rich dark hero, model showcases",
+      "slug": "stability",
+      "captured_at": "2026-08-09T11:33:55+00:00",
+      "files": {
+        "card": "cards/stability/card.md",
+        "desktop": "cards/stability/screenshot-desktop.png",
+        "mobile": "cards/stability/screenshot-mobile.png",
+        "fingerprint": "cards/stability/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 6,
+        "fonts": [
+          "Archivo",
+          "Figtree",
+          "Inter",
+          "Lexand"
+        ],
+        "components": 4
+      }
+    },
+    "luma": {
+      "id": "luma",
+      "name": "Luma AI",
+      "url": "https://lumalabs.ai",
+      "category": "ai",
+      "why": "Video-gen brand: cinematic dark landing, dreamlike product showcases",
+      "slug": "luma",
+      "captured_at": "2026-08-09T11:35:14+00:00",
+      "files": {
+        "card": "cards/luma/card.md",
+        "desktop": "cards/luma/screenshot-desktop.png",
+        "mobile": "cards/luma/screenshot-mobile.png",
+        "fingerprint": "cards/luma/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 4,
+        "fonts": [
+          "__graphik_7126cf"
+        ],
+        "components": 4
+      }
+    },
+    "pika": {
+      "id": "pika",
+      "name": "Pika",
+      "url": "https://pika.art",
+      "category": "ai",
+      "why": "AI-video brand: bold cinematic landing, dramatic typography, playful product motion",
+      "slug": "pika",
+      "captured_at": "2026-08-09T11:36:45+00:00",
+      "files": {
+        "card": "cards/pika/card.md",
+        "desktop": "cards/pika/screenshot-desktop.png",
+        "mobile": "cards/pika/screenshot-mobile.png",
+        "fingerprint": "cards/pika/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 6,
+        "fonts": [
+          "telka",
+          "telkaExtended"
+        ],
+        "components": 4
+      }
+    },
+    "leonardo": {
+      "id": "leonardo",
+      "name": "Leonardo AI",
+      "url": "https://leonardo.ai",
+      "category": "ai",
+      "why": "AI-image platform: polished product UI, vibrant gradient brand, gallery-led marketing",
+      "slug": "leonardo",
+      "captured_at": "2026-08-09T11:38:00+00:00",
+      "files": {
+        "card": "cards/leonardo/card.md",
+        "desktop": "cards/leonardo/screenshot-desktop.png",
+        "mobile": "cards/leonardo/screenshot-mobile.png",
+        "fingerprint": "cards/leonardo/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 13,
+        "fonts": [
+          "canvaSans",
+          "leoSans",
+          "ufficioDisplay"
+        ],
+        "components": 4
+      }
+    },
+    "descript": {
+      "id": "descript",
+      "name": "Descript",
+      "url": "https://www.descript.com",
+      "category": "ai",
+      "why": "Video-editing AI: editorial layout, clean product shots, calm but confident branding",
+      "slug": "descript",
+      "captured_at": "2026-08-09T11:38:32+00:00",
+      "files": {
+        "card": "cards/descript/card.md",
+        "desktop": "cards/descript/screenshot-desktop.png",
+        "mobile": "cards/descript/screenshot-mobile.png",
+        "fingerprint": "cards/descript/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "Arial",
+          "WistiaPlayerInter",
+          "__booton_10e94d",
+          "__brett_006a88"
+        ],
+        "components": 4
+      }
+    },
+    "fathom": {
+      "id": "fathom",
+      "name": "Fathom",
+      "url": "https://fathom.video",
+      "category": "ai",
+      "why": "Meeting-AI brand: bold typography, warm palette, playful product-UI showcases",
+      "slug": "fathom",
+      "captured_at": "2026-08-09T11:39:01+00:00",
+      "files": {
+        "card": "cards/fathom/card.md",
+        "desktop": "cards/fathom/screenshot-desktop.png",
+        "mobile": "cards/fathom/screenshot-mobile.png",
+        "fingerprint": "cards/fathom/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 12,
+        "fonts": [
+          "Sora",
+          "Ttroundsneuecond Md"
+        ],
+        "components": 4
+      }
+    },
+    "granola": {
+      "id": "granola",
+      "name": "Granola",
+      "url": "https://www.granola.ai",
+      "category": "ai",
+      "why": "AI note-taking: refined dark app surfaces, clean typography, thoughtful details",
+      "slug": "granola",
+      "captured_at": "2026-08-09T11:39:40+00:00",
+      "files": {
+        "card": "cards/granola/card.md",
+        "desktop": "cards/granola/screenshot-desktop.png",
+        "mobile": "cards/granola/screenshot-mobile.png",
+        "fingerprint": "cards/granola/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 19,
+        "fonts": [
+          "-apple-system",
+          "melange",
+          "quadrant"
+        ],
+        "components": 4
+      }
+    },
+    "grammarly": {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "url": "https://www.grammarly.com",
+      "category": "ai",
+      "why": "Writing-AI brand: confident editorial typography, warm gradients, product-led sections",
+      "slug": "grammarly",
+      "captured_at": "2026-08-09T11:40:26+00:00",
+      "files": {
+        "card": "cards/grammarly/card.md",
+        "desktop": "cards/grammarly/screenshot-desktop.png",
+        "mobile": "cards/grammarly/screenshot-mobile.png",
+        "fingerprint": "cards/grammarly/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 11,
+        "fonts": [
+          "Arial",
+          "Glyph",
+          "Inter",
+          "Matter"
+        ],
+        "components": 4
+      }
+    },
+    "suno": {
+      "id": "suno",
+      "name": "Suno",
+      "url": "https://suno.com",
+      "category": "ai",
+      "why": "AI-music brand: dark cinematic landing, vibrant gradient waves, product-led showcases",
+      "slug": "suno",
+      "captured_at": "2026-08-09T11:40:49+00:00",
+      "files": {
+        "card": "cards/suno/card.md",
+        "desktop": "cards/suno/screenshot-desktop.png",
+        "mobile": "cards/suno/screenshot-mobile.png",
+        "fingerprint": "cards/suno/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 5,
+        "fonts": [
+          "Neue Montreal"
+        ],
+        "components": 4
+      }
+    },
+    "together": {
+      "id": "together",
+      "name": "Together AI",
+      "url": "https://www.together.ai",
+      "category": "ai",
+      "why": "AI-cloud brand: bold typography, dark luminous hero, developer credibility",
+      "slug": "together",
+      "captured_at": "2026-08-09T11:42:09+00:00",
+      "files": {
+        "card": "cards/together/card.md",
+        "desktop": "cards/together/screenshot-desktop.png",
+        "mobile": "cards/together/screenshot-mobile.png",
+        "fingerprint": "cards/together/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "PP Neue Montreal Mono",
+          "The Future",
+          "monospace"
+        ],
+        "components": 4
+      }
+    },
+    "modal": {
+      "id": "modal",
+      "name": "Modal",
+      "url": "https://modal.com",
+      "category": "ai",
+      "why": "Serverless-AI brand: elegant dark minimalism, subtle glow, precise technical copy",
+      "slug": "modal",
+      "captured_at": "2026-08-09T11:42:40+00:00",
+      "files": {
+        "card": "cards/modal/card.md",
+        "desktop": "cards/modal/screenshot-desktop.png",
+        "mobile": "cards/modal/screenshot-mobile.png",
+        "fingerprint": "cards/modal/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 18,
+        "fonts": [
+          "Goga",
+          "Inter Variable"
+        ],
+        "components": 4
+      }
+    },
+    "deepgram": {
+      "id": "deepgram",
+      "name": "Deepgram",
+      "url": "https://deepgram.com",
+      "category": "ai",
+      "why": "Speech-AI brand: dark technical aesthetic, bright accents, waveform motifs",
+      "slug": "deepgram",
+      "captured_at": "2026-08-09T11:45:38+00:00",
+      "files": {
+        "card": "cards/deepgram/card.md",
+        "desktop": "cards/deepgram/screenshot-desktop.png",
+        "mobile": "cards/deepgram/screenshot-mobile.png",
+        "fingerprint": "cards/deepgram/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 14,
+        "fonts": [
+          "Inter",
+          "roobert"
+        ],
+        "components": 4
+      }
+    },
+    "penpot": {
+      "id": "penpot",
+      "name": "Penpot",
+      "url": "https://penpot.app",
+      "category": "design-tools",
+      "why": "Open-source design tool: playful gradient brand, clean hero, community-first tone",
+      "slug": "penpot",
+      "captured_at": "2026-08-09T11:46:31+00:00",
+      "files": {
+        "card": "cards/penpot/card.md",
+        "desktop": "cards/penpot/screenshot-desktop.png",
+        "mobile": "cards/penpot/screenshot-mobile.png",
+        "fingerprint": "cards/penpot/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 5,
+        "fonts": [
+          "Work Sans"
+        ],
+        "components": 4
+      }
+    },
+    "readymag": {
+      "id": "readymag",
+      "name": "Readymag",
+      "url": "https://readymag.com",
+      "category": "design-tools",
+      "why": "Web-design tool: bold editorial portfolio aesthetic, grid-breaking creative layouts",
+      "slug": "readymag",
+      "captured_at": "2026-08-09T11:46:53+00:00",
+      "files": {
+        "card": "cards/readymag/card.md",
+        "desktop": "cards/readymag/screenshot-desktop.png",
+        "mobile": "cards/readymag/screenshot-mobile.png",
+        "fingerprint": "cards/readymag/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 12,
+        "fonts": [
+          "-apple-system",
+          "Graphik",
+          "Times New Roman",
+          "custom_37866"
+        ],
+        "components": 4
+      }
+    },
+    "typedream": {
+      "id": "typedream",
+      "name": "Typedream",
+      "url": "https://typedream.com",
+      "category": "design-tools",
+      "why": "No-code site builder: minimal landing, gradient accents, template-led showcases",
+      "slug": "typedream",
+      "captured_at": "2026-08-09T11:47:57+00:00",
+      "files": {
+        "card": "cards/typedream/card.md",
+        "desktop": "cards/typedream/screenshot-desktop.png",
+        "mobile": "cards/typedream/screenshot-mobile.png",
+        "fingerprint": "cards/typedream/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 12,
+        "fonts": [
+          "Inter"
+        ],
+        "components": 4
+      }
+    },
+    "carrd": {
+      "id": "carrd",
+      "name": "Carrd",
+      "url": "https://carrd.co",
+      "category": "design-tools",
+      "why": "One-page site builder: radical minimalism, tiny typography, single-column elegance",
+      "slug": "carrd",
+      "captured_at": "2026-08-09T11:48:35+00:00",
+      "files": {
+        "card": "cards/carrd/card.md",
+        "desktop": "cards/carrd/screenshot-desktop.png",
+        "mobile": "cards/carrd/screenshot-mobile.png",
+        "fingerprint": "cards/carrd/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 6,
+        "fonts": [
+          "Arial"
+        ],
+        "components": 4
+      }
+    },
+    "spline": {
+      "id": "spline",
+      "name": "Spline",
+      "url": "https://spline.design",
+      "category": "design-tools",
+      "why": "Reference for 3D-design-tool branding, dark immersive landing, interactive 3D showcases, gradient depth",
+      "slug": "spline",
+      "captured_at": "2026-08-09T11:50:01+00:00",
+      "files": {
+        "card": "cards/spline/card.md",
+        "desktop": "cards/spline/screenshot-desktop.png",
+        "mobile": "cards/spline/screenshot-mobile.png",
+        "fingerprint": "cards/spline/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 6,
+        "fonts": [
+          "Spline Sans",
+          "ui-monospace"
+        ],
+        "components": 4
+      }
+    },
+    "airtable": {
+      "id": "airtable",
+      "name": "Airtable",
+      "url": "https://www.airtable.com",
+      "category": "saas",
+      "why": "No-code database brand: bold color blocks, playful illustration, product-led storytelling",
+      "slug": "airtable",
+      "captured_at": "2026-08-09T11:51:28+00:00",
+      "files": {
+        "card": "cards/airtable/card.md",
+        "desktop": "cards/airtable/screenshot-desktop.png",
+        "mobile": "cards/airtable/screenshot-mobile.png",
+        "fingerprint": "cards/airtable/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 17,
+        "fonts": [
+          "ATSeasonSans",
+          "Haas Groot Disp",
+          "Inter",
+          "SF Pro Text"
+        ],
+        "components": 4
+      }
+    },
+    "coda": {
+      "id": "coda",
+      "name": "Coda",
+      "url": "https://coda.io",
+      "category": "saas",
+      "why": "Docs-meets-apps brand: clean gradient aesthetic, template showcases, friendly tone",
+      "slug": "coda",
+      "captured_at": "2026-08-09T11:52:07+00:00",
+      "files": {
+        "card": "cards/coda/card.md",
+        "desktop": "cards/coda/screenshot-desktop.png",
+        "mobile": "cards/coda/screenshot-mobile.png",
+        "fingerprint": "cards/coda/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "Calibre-R",
+          "Inter",
+          "Super Sans VF"
+        ],
+        "components": 4
+      }
+    },
+    "clickup": {
+      "id": "clickup",
+      "name": "ClickUp",
+      "url": "https://clickup.com",
+      "category": "saas",
+      "why": "Project-management brand: bold purple identity, dense feature sections, energetic marketing",
+      "slug": "clickup",
+      "captured_at": "2026-08-09T11:52:37+00:00",
+      "files": {
+        "card": "cards/clickup/card.md",
+        "desktop": "cards/clickup/screenshot-desktop.png",
+        "mobile": "cards/clickup/screenshot-mobile.png",
+        "fingerprint": "cards/clickup/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 31,
+        "fonts": [
+          "Inter",
+          "Plus Jakarta Sans",
+          "SF Pro",
+          "Sometype Mono"
+        ],
+        "components": 4
+      }
+    },
+    "asana": {
+      "id": "asana",
+      "name": "Asana",
+      "url": "https://asana.com",
+      "category": "saas",
+      "why": "Work-management brand: warm gradient palette, friendly illustration, calm enterprise clarity",
+      "slug": "asana",
+      "captured_at": "2026-08-09T11:53:21+00:00",
+      "files": {
+        "card": "cards/asana/card.md",
+        "desktop": "cards/asana/screenshot-desktop.png",
+        "mobile": "cards/asana/screenshot-mobile.png",
+        "fingerprint": "cards/asana/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 10,
+        "fonts": [
+          "TWK Lausanne"
+        ],
+        "components": 4
+      }
+    },
+    "monday": {
+      "id": "monday",
+      "name": "monday.com",
+      "url": "https://monday.com",
+      "category": "saas",
+      "why": "Work-OS brand: vibrant color-coded product UI, bold animated marketing",
+      "slug": "monday",
+      "captured_at": "2026-08-09T11:54:37+00:00",
+      "files": {
+        "card": "cards/monday/card.md",
+        "desktop": "cards/monday/screenshot-desktop.png",
+        "mobile": "cards/monday/screenshot-mobile.png",
+        "fingerprint": "cards/monday/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 14,
+        "fonts": [
+          "Poppins",
+          "sans-serif"
+        ],
+        "components": 4
+      }
+    },
+    "tana": {
+      "id": "tana",
+      "name": "Tana",
+      "url": "https://tana.inc",
+      "category": "productivity",
+      "why": "Structured-notes app: warm editorial design, elegant typography, calm knowledge UI",
+      "slug": "tana",
+      "captured_at": "2026-08-09T11:55:16+00:00",
+      "files": {
+        "card": "cards/tana/card.md",
+        "desktop": "cards/tana/screenshot-desktop.png",
+        "mobile": "cards/tana/screenshot-mobile.png",
+        "fingerprint": "cards/tana/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 11,
+        "fonts": [
+          "Inter",
+          "Source Serif 4"
+        ],
+        "components": 4
+      }
+    },
+    "basecamp": {
+      "id": "basecamp",
+      "name": "Basecamp",
+      "url": "https://basecamp.com",
+      "category": "saas",
+      "why": "Anti-hype SaaS voice: typographic hero, editorial layout, personality-driven copy",
+      "slug": "basecamp",
+      "captured_at": "2026-08-09T11:56:02+00:00",
+      "files": {
+        "card": "cards/basecamp/card.md",
+        "desktop": "cards/basecamp/screenshot-desktop.png",
+        "mobile": "cards/basecamp/screenshot-mobile.png",
+        "fingerprint": "cards/basecamp/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "Graphik"
+        ],
+        "components": 4
+      }
+    },
+    "trello": {
+      "id": "trello",
+      "name": "Trello",
+      "url": "https://trello.com",
+      "category": "saas",
+      "why": "Kanban classic: friendly blue brand, illustrated workflow storytelling",
+      "slug": "trello",
+      "captured_at": "2026-08-09T11:56:23+00:00",
+      "files": {
+        "card": "cards/trello/card.md",
+        "desktop": "cards/trello/screenshot-desktop.png",
+        "mobile": "cards/trello/screenshot-mobile.png",
+        "fingerprint": "cards/trello/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 9,
+        "fonts": [
+          "Charlie Display",
+          "Charlie Text"
+        ],
+        "components": 4
+      }
+    },
+    "zapier": {
+      "id": "zapier",
+      "name": "Zapier",
+      "url": "https://zapier.com",
+      "category": "saas",
+      "why": "Automation brand: bold gradient blocks, illustrated connectors, approachable B2B tone",
+      "slug": "zapier",
+      "captured_at": "2026-08-09T11:57:00+00:00",
+      "files": {
+        "card": "cards/zapier/card.md",
+        "desktop": "cards/zapier/screenshot-desktop.png",
+        "mobile": "cards/zapier/screenshot-mobile.png",
+        "fingerprint": "cards/zapier/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 9,
+        "fonts": [
+          "Arial",
+          "Degular Display",
+          "DegularDisplay",
+          "Inter"
+        ],
+        "components": 4
+      }
+    },
+    "lattice": {
+      "id": "lattice",
+      "name": "Lattice",
+      "url": "https://www.lattice.com",
+      "category": "saas",
+      "why": "Performance-management brand: clean modern design, warm gradients, people-first storytelling",
+      "slug": "lattice",
+      "captured_at": "2026-08-09T11:57:32+00:00",
+      "files": {
+        "card": "cards/lattice/card.md",
+        "desktop": "cards/lattice/screenshot-desktop.png",
+        "mobile": "cards/lattice/screenshot-mobile.png",
+        "fingerprint": "cards/lattice/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 35,
+        "fonts": [
+          "Matter"
+        ],
+        "components": 4
+      }
+    },
+    "n8n": {
+      "id": "n8n",
+      "name": "n8n",
+      "url": "https://n8n.io",
+      "category": "saas",
+      "why": "Workflow-automation brand: dark technical UI, bold typography, open-source credibility",
+      "slug": "n8n",
+      "captured_at": "2026-08-09T11:58:07+00:00",
+      "files": {
+        "card": "cards/n8n/card.md",
+        "desktop": "cards/n8n/screenshot-desktop.png",
+        "mobile": "cards/n8n/screenshot-mobile.png",
+        "fingerprint": "cards/n8n/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 14,
+        "fonts": [
+          "Open Sans",
+          "geomanist",
+          "geomanist-book"
+        ],
+        "components": 4
+      }
+    },
+    "hubspot": {
+      "id": "hubspot",
+      "name": "HubSpot",
+      "url": "https://www.hubspot.com",
+      "category": "saas",
+      "why": "Inbound-marketing suite: warm orange brand, clean module grids, enterprise scale",
+      "slug": "hubspot",
+      "captured_at": "2026-08-09T11:59:50+00:00",
+      "files": {
+        "card": "cards/hubspot/card.md",
+        "desktop": "cards/hubspot/screenshot-desktop.png",
+        "mobile": "cards/hubspot/screenshot-mobile.png",
+        "fingerprint": "cards/hubspot/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "HubSpot Sans",
+          "HubSpot Serif",
+          "HubSpot Serif Page Header Human"
+        ],
+        "components": 4
+      }
+    },
+    "klaviyo": {
+      "id": "klaviyo",
+      "name": "Klaviyo",
+      "url": "https://www.klaviyo.com",
+      "category": "saas",
+      "why": "Marketing-automation brand: bold editorial typography, data-forward hero, confident palette",
+      "slug": "klaviyo",
+      "captured_at": "2026-08-09T12:00:29+00:00",
+      "files": {
+        "card": "cards/klaviyo/card.md",
+        "desktop": "cards/klaviyo/screenshot-desktop.png",
+        "mobile": "cards/klaviyo/screenshot-mobile.png",
+        "fingerprint": "cards/klaviyo/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 6,
+        "fonts": [
+          "DM Mono",
+          "Instrument Sans",
+          "Klaviyo Degular"
+        ],
+        "components": 4
+      }
+    },
+    "postmark": {
+      "id": "postmark",
+      "name": "Postmark",
+      "url": "https://postmarkapp.com",
+      "category": "saas",
+      "why": "Transactional-email service: crisp minimal UI, warm accent, developer-friendly clarity",
+      "slug": "postmark",
+      "captured_at": "2026-08-09T12:01:10+00:00",
+      "files": {
+        "card": "cards/postmark/card.md",
+        "desktop": "cards/postmark/screenshot-desktop.png",
+        "mobile": "cards/postmark/screenshot-mobile.png",
+        "fingerprint": "cards/postmark/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 13,
+        "fonts": [
+          "Arial",
+          "Bitstream Vera Sans Mono",
+          "Elizeth",
+          "Rund Text"
+        ],
+        "components": 4
+      }
+    },
+    "beehiiv": {
+      "id": "beehiiv",
+      "name": "beehiiv",
+      "url": "https://www.beehiiv.com",
+      "category": "saas",
+      "why": "Newsletter platform: editorial serif+grotesk mix, premium dark sections, creator-first design",
+      "slug": "beehiiv",
+      "captured_at": "2026-08-09T12:01:39+00:00",
+      "files": {
+        "card": "cards/beehiiv/card.md",
+        "desktop": "cards/beehiiv/screenshot-desktop.png",
+        "mobile": "cards/beehiiv/screenshot-mobile.png",
+        "fingerprint": "cards/beehiiv/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 12,
+        "fonts": [
+          "ClashGroteskFont",
+          "SatoshiFont"
+        ],
+        "components": 4
+      }
+    },
+    "convertkit": {
+      "id": "convertkit",
+      "name": "Kit",
+      "url": "https://kit.com",
+      "category": "saas",
+      "why": "Creator-marketing brand: warm earthy palette, friendly illustration, human tone",
+      "slug": "convertkit",
+      "captured_at": "2026-08-09T12:02:34+00:00",
+      "files": {
+        "card": "cards/convertkit/card.md",
+        "desktop": "cards/convertkit/screenshot-desktop.png",
+        "mobile": "cards/convertkit/screenshot-mobile.png",
+        "fingerprint": "cards/convertkit/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 7,
+        "fonts": [
+          "Arial",
+          "KitSansFont",
+          "Libre Franklin",
+          "WistiaPlayerInter"
+        ],
+        "components": 4
+      }
+    },
+    "amplitude": {
+      "id": "amplitude",
+      "name": "Amplitude",
+      "url": "https://amplitude.com",
+      "category": "saas",
+      "why": "Product-analytics brand: bold data-viz hero, clean grid, confident tech typography",
+      "slug": "amplitude",
+      "captured_at": "2026-08-09T12:03:25+00:00",
+      "files": {
+        "card": "cards/amplitude/card.md",
+        "desktop": "cards/amplitude/screenshot-desktop.png",
+        "mobile": "cards/amplitude/screenshot-mobile.png",
+        "fingerprint": "cards/amplitude/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 10,
+        "fonts": [
+          "Poppins",
+          "Twemoji Country Flags",
+          "__IBM_Plex_Sans_6d343d",
+          "ibm plex sans"
+        ],
+        "components": 4
+      }
+    },
+    "mixpanel": {
+      "id": "mixpanel",
+      "name": "Mixpanel",
+      "url": "https://mixpanel.com",
+      "category": "saas",
+      "why": "Analytics brand: playful pastel palette, dense dashboard showcases, friendly data design",
+      "slug": "mixpanel",
+      "captured_at": "2026-08-09T12:04:11+00:00",
+      "files": {
+        "card": "cards/mixpanel/card.md",
+        "desktop": "cards/mixpanel/screenshot-desktop.png",
+        "mobile": "cards/mixpanel/screenshot-mobile.png",
+        "fingerprint": "cards/mixpanel/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 14,
+        "fonts": [
+          "ABC Arizona Text Light Italic",
+          "Apercu Mono",
+          "Apercu Pro",
+          "Apercu Pro Medium"
+        ],
+        "components": 4
+      }
+    },
+    "posthog": {
+      "id": "posthog",
+      "name": "PostHog",
+      "url": "https://posthog.com",
+      "category": "saas",
+      "why": "Open-source analytics: quirky illustration, candid voice, dark docs with personality",
+      "slug": "posthog",
+      "captured_at": "2026-08-09T12:05:08+00:00",
+      "files": {
+        "card": "cards/posthog/card.md",
+        "desktop": "cards/posthog/screenshot-desktop.png",
+        "mobile": "cards/posthog/screenshot-mobile.png",
+        "fingerprint": "cards/posthog/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 12,
+        "fonts": [
+          "RoundHog",
+          "Source Code Pro",
+          "ui-monospace"
+        ],
+        "components": 4
+      }
+    },
+    "fullstory": {
+      "id": "fullstory",
+      "name": "Fullstory",
+      "url": "https://www.fullstory.com",
+      "category": "saas",
+      "why": "Session-analytics brand: bold type, warm palette, product-led sections",
+      "slug": "fullstory",
+      "captured_at": "2026-08-09T12:05:37+00:00",
+      "files": {
+        "card": "cards/fullstory/card.md",
+        "desktop": "cards/fullstory/screenshot-desktop.png",
+        "mobile": "cards/fullstory/screenshot-mobile.png",
+        "fingerprint": "cards/fullstory/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 22,
+        "fonts": [
+          "Helvetica",
+          "neulis-neue",
+          "neulis-sans"
+        ],
+        "components": 4
+      }
+    },
+    "hotjar": {
+      "id": "hotjar",
+      "name": "Hotjar",
+      "url": "https://www.hotjar.com",
+      "category": "saas",
+      "why": "Behavior-analytics brand: friendly rounded design, pastel accents, approachable UI",
+      "slug": "hotjar",
+      "captured_at": "2026-08-09T12:06:16+00:00",
+      "files": {
+        "card": "cards/hotjar/card.md",
+        "desktop": "cards/hotjar/screenshot-desktop.png",
+        "mobile": "cards/hotjar/screenshot-mobile.png",
+        "fingerprint": "cards/hotjar/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 12,
+        "fonts": [
+          "Ambit",
+          "Arial",
+          "Roboto"
+        ],
+        "components": 4
+      }
+    },
+    "metabase": {
+      "id": "metabase",
+      "name": "Metabase",
+      "url": "https://www.metabase.com",
+      "category": "saas",
+      "why": "Open-source BI brand: clean layout, friendly data-viz hero, approachable analytics",
+      "slug": "metabase",
+      "captured_at": "2026-08-09T12:06:55+00:00",
+      "files": {
+        "card": "cards/metabase/card.md",
+        "desktop": "cards/metabase/screenshot-desktop.png",
+        "mobile": "cards/metabase/screenshot-mobile.png",
+        "fingerprint": "cards/metabase/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 12,
+        "fonts": [
+          "Lato",
+          "Roboto Mono"
+        ],
+        "components": 4
+      }
+    },
+    "hex": {
+      "id": "hex",
+      "name": "Hex",
+      "url": "https://hex.tech",
+      "category": "saas",
+      "why": "Notebook-analytics brand: crisp technical design, dark+light duality, developer clarity",
+      "slug": "hex",
+      "captured_at": "2026-08-09T12:07:28+00:00",
+      "files": {
+        "card": "cards/hex/card.md",
+        "desktop": "cards/hex/screenshot-desktop.png",
+        "mobile": "cards/hex/screenshot-mobile.png",
+        "fingerprint": "cards/hex/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 24,
+        "fonts": [
+          "Cinetype",
+          "Cinetype Mono",
+          "IBM Plex Mono",
+          "IBM Plex Sans"
+        ],
+        "components": 4
+      }
+    },
+    "deepnote": {
+      "id": "deepnote",
+      "name": "Deepnote",
+      "url": "https://deepnote.com",
+      "category": "saas",
+      "why": "Data-notebook brand: elegant minimal design, soft gradients, collaborative focus",
+      "slug": "deepnote",
+      "captured_at": "2026-08-09T12:08:20+00:00",
+      "files": {
+        "card": "cards/deepnote/card.md",
+        "desktop": "cards/deepnote/screenshot-desktop.png",
+        "mobile": "cards/deepnote/screenshot-mobile.png",
+        "fingerprint": "cards/deepnote/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 17,
+        "fonts": [
+          "Bricolage Grotesque",
+          "Degular",
+          "Inter",
+          "JetBrains Mono"
+        ],
+        "components": 4
+      }
+    },
+    "datawrapper": {
+      "id": "datawrapper",
+      "name": "Datawrapper",
+      "url": "https://www.datawrapper.de",
+      "category": "saas",
+      "why": "Charting-tool brand: simple trustworthy layout, editorial type, restrained palette",
+      "slug": "datawrapper",
+      "captured_at": "2026-08-09T12:09:00+00:00",
+      "files": {
+        "card": "cards/datawrapper/card.md",
+        "desktop": "cards/datawrapper/screenshot-desktop.png",
+        "mobile": "cards/datawrapper/screenshot-mobile.png",
+        "fingerprint": "cards/datawrapper/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 17,
+        "fonts": [
+          "Roboto",
+          "Roboto Mono"
+        ],
+        "components": 4
+      }
+    },
+    "observable": {
+      "id": "observable",
+      "name": "Observable",
+      "url": "https://observablehq.com",
+      "category": "saas",
+      "why": "Data-storytelling platform: monochrome minimalism, dense interactive charts, editorial structure",
+      "slug": "observable",
+      "captured_at": "2026-08-09T12:09:33+00:00",
+      "files": {
+        "card": "cards/observable/card.md",
+        "desktop": "cards/observable/screenshot-desktop.png",
+        "mobile": "cards/observable/screenshot-mobile.png",
+        "fingerprint": "cards/observable/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 12,
+        "fonts": [
+          "__Inter_e798ec",
+          "__Spline_Sans_Mono_1999fd"
+        ],
+        "components": 4
+      }
+    },
+    "semrush": {
+      "id": "semrush",
+      "name": "Semrush",
+      "url": "https://www.semrush.com",
+      "category": "saas",
+      "why": "SEO-suite brand: bold orange, dense product dashboards, global-scale marketing",
+      "slug": "semrush",
+      "captured_at": "2026-08-09T12:10:23+00:00",
+      "files": {
+        "card": "cards/semrush/card.md",
+        "desktop": "cards/semrush/screenshot-desktop.png",
+        "mobile": "cards/semrush/screenshot-mobile.png",
+        "fingerprint": "cards/semrush/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 9,
+        "fonts": [
+          "Arial",
+          "Inter",
+          "Lazzer"
+        ],
+        "components": 4
+      }
+    },
+    "capterra": {
+      "id": "capterra",
+      "name": "Capterra",
+      "url": "https://www.capterra.com",
+      "category": "saas",
+      "why": "Software-review platform: clear review cards, orange brand, trust-oriented layout",
+      "slug": "capterra",
+      "captured_at": "2026-08-09T12:10:57+00:00",
+      "files": {
+        "card": "cards/capterra/card.md",
+        "desktop": "cards/capterra/screenshot-desktop.png",
+        "mobile": "cards/capterra/screenshot-mobile.png",
+        "fingerprint": "cards/capterra/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 15,
+        "fonts": [
+          "ui-sans-serif"
+        ],
+        "components": 4
+      }
+    },
+    "greenhouse": {
+      "id": "greenhouse",
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.io",
+      "category": "saas",
+      "why": "Hiring-software brand: warm editorial design, elegant serif accents, calm B2B tone",
+      "slug": "greenhouse",
+      "captured_at": "2026-08-09T12:11:29+00:00",
+      "files": {
+        "card": "cards/greenhouse/card.md",
+        "desktop": "cards/greenhouse/screenshot-desktop.png",
+        "mobile": "cards/greenhouse/screenshot-mobile.png",
+        "fingerprint": "cards/greenhouse/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 9,
+        "fonts": [
+          "Untitled Sans",
+          "Untitled Serif"
+        ],
+        "components": 4
+      }
+    },
+    "paddle": {
+      "id": "paddle",
+      "name": "Paddle",
+      "url": "https://www.paddle.com",
+      "category": "saas",
+      "why": "Commerce-infra for SaaS: bold dark hero, crisp product UI, confident fintech-adjacent design",
+      "slug": "paddle",
+      "captured_at": "2026-08-09T12:12:33+00:00",
+      "files": {
+        "card": "cards/paddle/card.md",
+        "desktop": "cards/paddle/screenshot-desktop.png",
+        "mobile": "cards/paddle/screenshot-mobile.png",
+        "fingerprint": "cards/paddle/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 5,
+        "fonts": [
+          "Inter",
+          "monospace",
+          "serrifCondensed",
+          "ui-monospace"
+        ],
+        "components": 4
+      }
+    },
+    "rippling": {
+      "id": "rippling",
+      "name": "Rippling",
+      "url": "https://rippling.com",
+      "category": "saas",
+      "why": "HR-tech brand: clean blue system, dense product UI, enterprise polish",
+      "slug": "rippling",
+      "captured_at": "2026-08-09T12:13:04+00:00",
+      "files": {
+        "card": "cards/rippling/card.md",
+        "desktop": "cards/rippling/screenshot-desktop.png",
+        "mobile": "cards/rippling/screenshot-mobile.png",
+        "fingerprint": "cards/rippling/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 9,
+        "fonts": [
+          "Arial",
+          "Times New Roman",
+          "__basel_e55247"
+        ],
+        "components": 4
+      }
+    },
+    "deel": {
+      "id": "deel",
+      "name": "Deel",
+      "url": "https://www.deel.com",
+      "category": "saas",
+      "why": "Global-payroll brand: bold gradient hero, crisp layout, confident modern fintech-adjacent design",
+      "slug": "deel",
+      "captured_at": "2026-08-09T12:13:49+00:00",
+      "files": {
+        "card": "cards/deel/card.md",
+        "desktop": "cards/deel/screenshot-desktop.png",
+        "mobile": "cards/deel/screenshot-mobile.png",
+        "fingerprint": "cards/deel/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 10,
+        "fonts": [
+          "BagossCondensedFont",
+          "BagossExtendedFont",
+          "BagossStandardVF",
+          "Inter"
+        ],
+        "components": 4
+      }
+    },
+    "remote": {
+      "id": "remote",
+      "name": "Remote",
+      "url": "https://remote.com",
+      "category": "saas",
+      "why": "Global-HR brand: dark hero with vivid gradients, clean international messaging",
+      "slug": "remote",
+      "captured_at": "2026-08-09T12:14:16+00:00",
+      "files": {
+        "card": "cards/remote/card.md",
+        "desktop": "cards/remote/screenshot-desktop.png",
+        "mobile": "cards/remote/screenshot-mobile.png",
+        "fingerprint": "cards/remote/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 15,
+        "fonts": [
+          "Arial",
+          "Bossa",
+          "Inter",
+          "Times New Roman"
+        ],
+        "components": 4
+      }
+    },
+    "todoist": {
+      "id": "todoist",
+      "name": "Todoist",
+      "url": "https://todoist.com",
+      "category": "productivity",
+      "why": "Task-app brand: clean white minimalism, red accent, calm productivity design",
+      "slug": "todoist",
+      "captured_at": "2026-08-09T12:14:48+00:00",
+      "files": {
+        "card": "cards/todoist/card.md",
+        "desktop": "cards/todoist/screenshot-desktop.png",
+        "mobile": "cards/todoist/screenshot-mobile.png",
+        "fingerprint": "cards/todoist/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 9,
+        "fonts": [
+          "Caecilia-8d8a7c9be503e3f3",
+          "Graphik-1bbd4a4c7a2fb472",
+          "Helvetica",
+          "Inter-5486e50ce5a4efdf"
+        ],
+        "components": 4
+      }
+    },
+    "sunsama": {
+      "id": "sunsama",
+      "name": "Sunsama",
+      "url": "https://sunsama.com",
+      "category": "productivity",
+      "why": "Daily-planning app: warm minimal marketing, serene product shots, mindful tone",
+      "slug": "sunsama",
+      "captured_at": "2026-08-09T12:16:18+00:00",
+      "files": {
+        "card": "cards/sunsama/card.md",
+        "desktop": "cards/sunsama/screenshot-desktop.png",
+        "mobile": "cards/sunsama/screenshot-mobile.png",
+        "fingerprint": "cards/sunsama/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 9,
+        "fonts": [
+          "DM Sans"
+        ],
+        "components": 4
+      }
+    },
+    "akiflow": {
+      "id": "akiflow",
+      "name": "Akiflow",
+      "url": "https://akiflow.com",
+      "category": "productivity",
+      "why": "Command-bar productivity app: bold type, dark app surfaces, keyboard-first positioning",
+      "slug": "akiflow",
+      "captured_at": "2026-08-09T12:17:07+00:00",
+      "files": {
+        "card": "cards/akiflow/card.md",
+        "desktop": "cards/akiflow/screenshot-desktop.png",
+        "mobile": "cards/akiflow/screenshot-mobile.png",
+        "fingerprint": "cards/akiflow/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 12,
+        "fonts": [
+          "Inter",
+          "sans-serif"
+        ],
+        "components": 4
+      }
+    },
+    "usemotion": {
+      "id": "usemotion",
+      "name": "Motion",
+      "url": "https://www.usemotion.com",
+      "category": "productivity",
+      "why": "AI-scheduler brand: bold typography, dark hero, energetic gradient accents",
+      "slug": "usemotion",
+      "captured_at": "2026-08-09T12:17:50+00:00",
+      "files": {
+        "card": "cards/usemotion/card.md",
+        "desktop": "cards/usemotion/screenshot-desktop.png",
+        "mobile": "cards/usemotion/screenshot-mobile.png",
+        "fingerprint": "cards/usemotion/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 13,
+        "fonts": [
+          "Albert Sans",
+          "Inter"
+        ],
+        "components": 4
+      }
+    },
+    "cal": {
+      "id": "cal",
+      "name": "Cal.com",
+      "url": "https://cal.com",
+      "category": "productivity",
+      "why": "Open-source scheduling: playful brand, bold type, dark hero, community-first design",
+      "slug": "cal",
+      "captured_at": "2026-08-09T12:18:18+00:00",
+      "files": {
+        "card": "cards/cal/card.md",
+        "desktop": "cards/cal/screenshot-desktop.png",
+        "mobile": "cards/cal/screenshot-mobile.png",
+        "fingerprint": "cards/cal/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "CUSTOMV2;Cal Sans UI Regular",
+          "Cal Sans",
+          "Cal Sans UI Variable Light",
+          "Inter"
+        ],
+        "components": 4
+      }
+    },
+    "calendly": {
+      "id": "calendly",
+      "name": "Calendly",
+      "url": "https://calendly.com",
+      "category": "productivity",
+      "why": "Scheduling brand: clean modern layout, purple accent, approachable enterprise tone",
+      "slug": "calendly",
+      "captured_at": "2026-08-09T12:18:51+00:00",
+      "files": {
+        "card": "cards/calendly/card.md",
+        "desktop": "cards/calendly/screenshot-desktop.png",
+        "mobile": "cards/calendly/screenshot-mobile.png",
+        "fingerprint": "cards/calendly/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 16,
+        "fonts": [
+          "Gilroy",
+          "gilroy"
+        ],
+        "components": 4
+      }
+    },
+    "craft": {
+      "id": "craft",
+      "name": "Craft",
+      "url": "https://www.craft.do",
+      "category": "productivity",
+      "why": "Mac document app: warm minimal marketing, elegant product UI, smooth motion showcases",
+      "slug": "craft",
+      "captured_at": "2026-08-09T12:19:27+00:00",
+      "files": {
+        "card": "cards/craft/card.md",
+        "desktop": "cards/craft/screenshot-desktop.png",
+        "mobile": "cards/craft/screenshot-mobile.png",
+        "fingerprint": "cards/craft/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 4,
+        "fonts": [
+          "UntitledSansFont",
+          "UntitledSerifFont",
+          "apple-system"
+        ],
+        "components": 4
+      }
+    },
+    "anytype": {
+      "id": "anytype",
+      "name": "Anytype",
+      "url": "https://anytype.io",
+      "category": "productivity",
+      "why": "Private knowledge app: playful gradient brand, dark app surfaces, crafted details",
+      "slug": "anytype",
+      "captured_at": "2026-08-09T12:20:16+00:00",
+      "files": {
+        "card": "cards/anytype/card.md",
+        "desktop": "cards/anytype/screenshot-desktop.png",
+        "mobile": null,
+        "fingerprint": "cards/anytype/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 5,
+        "fonts": [
+          "inter",
+          "riccionets"
+        ],
+        "components": 4
+      }
+    },
+    "obsidian": {
+      "id": "obsidian",
+      "name": "Obsidian",
+      "url": "https://obsidian.md",
+      "category": "productivity",
+      "why": "Knowledge-base app: minimal purple brand, community plugin ecosystem, calm dark UI",
+      "slug": "obsidian",
+      "captured_at": "2026-08-09T12:21:45+00:00",
+      "files": {
+        "card": "cards/obsidian/card.md",
+        "desktop": "cards/obsidian/screenshot-desktop.png",
+        "mobile": "cards/obsidian/screenshot-mobile.png",
+        "fingerprint": "cards/obsidian/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 11,
+        "fonts": [
+          "ui-monospace",
+          "ui-sans-serif"
+        ],
+        "components": 4
+      }
+    },
+    "ulysses": {
+      "id": "ulysses",
+      "name": "Ulysses",
+      "url": "https://ulysses.app",
+      "category": "productivity",
+      "why": "Writing app: elegant editorial minimalism, soft gradients, distraction-free positioning",
+      "slug": "ulysses",
+      "captured_at": "2026-08-09T12:22:09+00:00",
+      "files": {
+        "card": "cards/ulysses/card.md",
+        "desktop": "cards/ulysses/screenshot-desktop.png",
+        "mobile": "cards/ulysses/screenshot-mobile.png",
+        "fingerprint": "cards/ulysses/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 9,
+        "fonts": [
+          "interstate"
+        ],
+        "components": 4
+      }
+    },
+    "iawriter": {
+      "id": "iawriter",
+      "name": "iA Writer",
+      "url": "https://ia.net/writer",
+      "category": "productivity",
+      "why": "Typographic writing app: radical typography-first design, pure minimalism",
+      "slug": "iawriter",
+      "captured_at": "2026-08-09T12:22:47+00:00",
+      "files": {
+        "card": "cards/iawriter/card.md",
+        "desktop": "cards/iawriter/screenshot-desktop.png",
+        "mobile": "cards/iawriter/screenshot-mobile.png",
+        "fingerprint": "cards/iawriter/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 6,
+        "fonts": [
+          "-apple-system",
+          "-apple-system-monospaced-numbers",
+          "iASansDay",
+          "iASansNight"
+        ],
+        "components": 4
+      }
+    },
+    "texts": {
+      "id": "texts",
+      "name": "Texts",
+      "url": "https://texts.com",
+      "category": "productivity",
+      "why": "Unified-messaging app: bold dark landing, playful accents, dense feature UI",
+      "slug": "texts",
+      "captured_at": "2026-08-09T12:23:18+00:00",
+      "files": {
+        "card": "cards/texts/card.md",
+        "desktop": "cards/texts/screenshot-desktop.png",
+        "mobile": "cards/texts/screenshot-mobile.png",
+        "fingerprint": "cards/texts/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 6,
+        "fonts": [
+          "-apple-system",
+          "Inter"
+        ],
+        "components": 4
+      }
+    },
+    "hey": {
+      "id": "hey",
+      "name": "HEY",
+      "url": "https://www.hey.com",
+      "category": "saas",
+      "why": "Email rebrand: bold colorful marketing, editorial voice, personality-led layout",
+      "slug": "hey",
+      "captured_at": "2026-08-09T12:23:51+00:00",
+      "files": {
+        "card": "cards/hey/card.md",
+        "desktop": "cards/hey/screenshot-desktop.png",
+        "mobile": "cards/hey/screenshot-mobile.png",
+        "fingerprint": "cards/hey/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 9,
+        "fonts": [
+          "Moniker",
+          "Really Sans Large",
+          "Shantell Sans"
+        ],
+        "components": 4
+      }
+    },
+    "proton": {
+      "id": "proton",
+      "name": "Proton",
+      "url": "https://proton.me",
+      "category": "saas",
+      "why": "Privacy suite: deep blue brand, clean product grid, trust-forward design",
+      "slug": "proton",
+      "captured_at": "2026-08-09T12:24:19+00:00",
+      "files": {
+        "card": "cards/proton/card.md",
+        "desktop": "cards/proton/screenshot-desktop.png",
+        "mobile": "cards/proton/screenshot-mobile.png",
+        "fingerprint": "cards/proton/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "ProtonSans",
+          "ProtonSerif"
+        ],
+        "components": 4
+      }
+    },
+    "fastmail": {
+      "id": "fastmail",
+      "name": "Fastmail",
+      "url": "https://www.fastmail.com",
+      "category": "saas",
+      "why": "Email brand: refined minimal design, warm accents, calm premium tone",
+      "slug": "fastmail",
+      "captured_at": "2026-08-09T12:24:46+00:00",
+      "files": {
+        "card": "cards/fastmail/card.md",
+        "desktop": "cards/fastmail/screenshot-desktop.png",
+        "mobile": "cards/fastmail/screenshot-mobile.png",
+        "fingerprint": "cards/fastmail/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 13,
+        "fonts": [
+          "Proxima Nova",
+          "roca"
+        ],
+        "components": 4
+      }
+    },
+    "spark": {
+      "id": "spark",
+      "name": "Spark",
+      "url": "https://sparkmailapp.com",
+      "category": "productivity",
+      "why": "Email-app brand: bold gradient identity, playful product UI, modern mobile-first design",
+      "slug": "spark",
+      "captured_at": "2026-08-09T12:25:32+00:00",
+      "files": {
+        "card": "cards/spark/card.md",
+        "desktop": "cards/spark/screenshot-desktop.png",
+        "mobile": "cards/spark/screenshot-mobile.png",
+        "fingerprint": null
+      },
+      "fingerprint_summary": {
+        "colors": 0,
+        "fonts": [],
+        "components": 0
+      }
+    },
+    "square": {
+      "id": "square",
+      "name": "Square",
+      "url": "https://squareup.com",
+      "category": "fintech",
+      "why": "Commerce-fintech brand: bold black-and-white typography, product-led photography",
+      "slug": "square",
+      "captured_at": "2026-08-09T12:25:49+00:00",
+      "files": {
+        "card": "cards/square/card.md",
+        "desktop": "cards/square/screenshot-desktop.png",
+        "mobile": "cards/square/screenshot-mobile.png",
+        "fingerprint": "cards/square/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 7,
+        "fonts": [
+          "Cash Sans",
+          "Cash Sans Mono",
+          "Exact Block",
+          "Square Sans Display VF"
+        ],
+        "components": 4
+      }
+    },
+    "klarna": {
+      "id": "klarna",
+      "name": "Klarna",
+      "url": "https://www.klarna.com",
+      "category": "fintech",
+      "why": "Playful pink fintech brand: bold editorial type, vibrant gradients, charming illustration",
+      "slug": "klarna",
+      "captured_at": "2026-08-09T12:26:30+00:00",
+      "files": {
+        "card": "cards/klarna/card.md",
+        "desktop": "cards/klarna/screenshot-desktop.png",
+        "mobile": "cards/klarna/screenshot-mobile.png",
+        "fingerprint": "cards/klarna/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 9,
+        "fonts": [
+          "-apple-system",
+          "Klarna Text",
+          "Klarna Title"
+        ],
+        "components": 4
+      }
+    },
+    "affirm": {
+      "id": "affirm",
+      "name": "Affirm",
+      "url": "https://www.affirm.com",
+      "category": "fintech",
+      "why": "BNPL brand: clean modern typography, warm palette, confident product sections",
+      "slug": "affirm",
+      "captured_at": "2026-08-09T12:26:56+00:00",
+      "files": {
+        "card": "cards/affirm/card.md",
+        "desktop": "cards/affirm/screenshot-desktop.png",
+        "mobile": "cards/affirm/screenshot-mobile.png",
+        "fingerprint": "cards/affirm/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 7,
+        "fonts": [
+          "Axiforma for Affirm",
+          "Calibre"
+        ],
+        "components": 4
+      }
+    },
+    "adyen": {
+      "id": "adyen",
+      "name": "Adyen",
+      "url": "https://www.adyen.com",
+      "category": "fintech",
+      "why": "Payments-platform brand: clean premium design, bold typography, enterprise trust layout",
+      "slug": "adyen",
+      "captured_at": "2026-08-09T12:27:33+00:00",
+      "files": {
+        "card": "cards/adyen/card.md",
+        "desktop": "cards/adyen/screenshot-desktop.png",
+        "mobile": "cards/adyen/screenshot-mobile.png",
+        "fingerprint": "cards/adyen/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 6,
+        "fonts": [
+          "Adyen",
+          "AdyenMono"
+        ],
+        "components": 4
+      }
+    },
+    "n26": {
+      "id": "n26",
+      "name": "N26",
+      "url": "https://n26.com",
+      "category": "fintech",
+      "why": "Neobank brand: minimal European design, clean product shots, restrained typography",
+      "slug": "n26",
+      "captured_at": "2026-08-09T12:28:30+00:00",
+      "files": {
+        "card": "cards/n26/card.md",
+        "desktop": "cards/n26/screenshot-desktop.png",
+        "mobile": "cards/n26/screenshot-mobile.png",
+        "fingerprint": "cards/n26/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "N26",
+          "N26-Extended"
+        ],
+        "components": 4
+      }
+    },
+    "robinhood": {
+      "id": "robinhood",
+      "name": "Robinhood",
+      "url": "https://robinhood.com",
+      "category": "fintech",
+      "why": "Commission-free investing: bold white design, iconic green accent, data-forward UI",
+      "slug": "robinhood",
+      "captured_at": "2026-08-09T12:28:57+00:00",
+      "files": {
+        "card": "cards/robinhood/card.md",
+        "desktop": "cards/robinhood/screenshot-desktop.png",
+        "mobile": "cards/robinhood/screenshot-mobile.png",
+        "fingerprint": "cards/robinhood/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 5,
+        "fonts": [
+          "Capsule Sans Text",
+          "Martina Plantijn",
+          "Phonic"
+        ],
+        "components": 4
+      }
+    },
+    "plaid": {
+      "id": "plaid",
+      "name": "Plaid",
+      "url": "https://plaid.com",
+      "category": "fintech",
+      "why": "Fintech-API brand: bold editorial type, playful gradient patterns, developer clarity",
+      "slug": "plaid",
+      "captured_at": "2026-08-09T12:29:37+00:00",
+      "files": {
+        "card": "cards/plaid/card.md",
+        "desktop": "cards/plaid/screenshot-desktop.png",
+        "mobile": "cards/plaid/screenshot-mobile.png",
+        "fingerprint": "cards/plaid/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 17,
+        "fonts": [
+          "Bowery Street",
+          "Cern",
+          "Inconsolata",
+          "Plaid Sans"
+        ],
+        "components": 4
+      }
+    },
+    "ynab": {
+      "id": "ynab",
+      "name": "YNAB",
+      "url": "https://www.ynab.com",
+      "category": "fintech",
+      "why": "Budgeting brand: friendly teal palette, clean data UI, approachable money design",
+      "slug": "ynab",
+      "captured_at": "2026-08-09T12:30:43+00:00",
+      "files": {
+        "card": "cards/ynab/card.md",
+        "desktop": "cards/ynab/screenshot-desktop.png",
+        "mobile": "cards/ynab/screenshot-mobile.png",
+        "fingerprint": "cards/ynab/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 14,
+        "fonts": [
+          "Figtree Variablefont Wght",
+          "Wishfarm Medium Italic",
+          "Wishfarm Semibold"
+        ],
+        "components": 4
+      }
+    },
+    "monarch": {
+      "id": "monarch",
+      "name": "Monarch Money",
+      "url": "https://www.monarchmoney.com",
+      "category": "fintech",
+      "why": "Personal-finance app: warm minimal design, elegant typography, calm data dashboards",
+      "slug": "monarch",
+      "captured_at": "2026-08-09T12:31:16+00:00",
+      "files": {
+        "card": "cards/monarch/card.md",
+        "desktop": "cards/monarch/screenshot-desktop.png",
+        "mobile": "cards/monarch/screenshot-mobile.png",
+        "fingerprint": "cards/monarch/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 10,
+        "fonts": [
+          "ABC Oracle",
+          "Copernicus",
+          "Helvetica"
+        ],
+        "components": 4
+      }
+    },
+    "binance": {
+      "id": "binance",
+      "name": "Binance",
+      "url": "https://www.binance.com",
+      "category": "crypto",
+      "why": "Crypto-exchange brand: dark gold-and-black aesthetic, dense market-data UI",
+      "slug": "binance",
+      "captured_at": "2026-08-09T12:31:51+00:00",
+      "files": {
+        "card": "cards/binance/card.md",
+        "desktop": "cards/binance/screenshot-desktop.png",
+        "mobile": "cards/binance/screenshot-mobile.png",
+        "fingerprint": "cards/binance/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 7,
+        "fonts": [
+          "BinanceNova",
+          "BinancePlex"
+        ],
+        "components": 4
+      }
+    },
+    "bybit": {
+      "id": "bybit",
+      "name": "Bybit",
+      "url": "https://www.bybit.com",
+      "category": "crypto",
+      "why": "Crypto-exchange brand: dark trading aesthetic, neon accents, dense market UI",
+      "slug": "bybit",
+      "captured_at": "2026-08-09T12:32:18+00:00",
+      "files": {
+        "card": "cards/bybit/card.md",
+        "desktop": "cards/bybit/screenshot-desktop.png",
+        "mobile": "cards/bybit/screenshot-mobile.png",
+        "fingerprint": "cards/bybit/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 7,
+        "fonts": [
+          "Arial",
+          "Inter",
+          "PingFang SC",
+          "by-iconfont"
+        ],
+        "components": 4
+      }
+    },
+    "world": {
+      "id": "world",
+      "name": "World",
+      "url": "https://world.org",
+      "category": "crypto",
+      "why": "Identity-verification brand: bold orbital imagery, clean modern design, mission-led storytelling",
+      "slug": "world",
+      "captured_at": "2026-08-09T12:32:46+00:00",
+      "files": {
+        "card": "cards/world/card.md",
+        "desktop": "cards/world/screenshot-desktop.png",
+        "mobile": "cards/world/screenshot-mobile.png",
+        "fingerprint": "cards/world/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 9,
+        "fonts": [
+          "WorldProMVP"
+        ],
+        "components": 4
+      }
+    },
+    "solana": {
+      "id": "solana",
+      "name": "Solana",
+      "url": "https://solana.com",
+      "category": "crypto",
+      "why": "Layer-1 brand: futuristic gradient aesthetic, bold typography, vibrant motion",
+      "slug": "solana",
+      "captured_at": "2026-08-09T12:33:50+00:00",
+      "files": {
+        "card": "cards/solana/card.md",
+        "desktop": "cards/solana/screenshot-desktop.png",
+        "mobile": "cards/solana/screenshot-mobile.png",
+        "fingerprint": "cards/solana/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 7,
+        "fonts": [
+          "DSemi",
+          "Diatype",
+          "ui-sans-serif"
+        ],
+        "components": 4
+      }
+    },
+    "ethereum": {
+      "id": "ethereum",
+      "name": "Ethereum",
+      "url": "https://ethereum.org",
+      "category": "crypto",
+      "why": "Protocol education: clean modern layout, purple-blue gradient identity, accessible docs",
+      "slug": "ethereum",
+      "captured_at": "2026-08-09T12:34:35+00:00",
+      "files": {
+        "card": "cards/ethereum/card.md",
+        "desktop": "cards/ethereum/screenshot-desktop.png",
+        "mobile": "cards/ethereum/screenshot-mobile.png",
+        "fingerprint": "cards/ethereum/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 27,
+        "fonts": [
+          "Inter"
+        ],
+        "components": 4
+      }
+    },
+    "base": {
+      "id": "base",
+      "name": "Base",
+      "url": "https://www.base.org",
+      "category": "crypto",
+      "why": "L2 brand: optimistic blue identity, bold type, community-first storytelling",
+      "slug": "base",
+      "captured_at": "2026-08-09T12:35:21+00:00",
+      "files": {
+        "card": "cards/base/card.md",
+        "desktop": "cards/base/screenshot-desktop.png",
+        "mobile": "cards/base/screenshot-mobile.png",
+        "fingerprint": "cards/base/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 9,
+        "fonts": [
+          "CoinbaseSans",
+          "baseSans",
+          "baseSansMono",
+          "baseSansText"
+        ],
+        "components": 4
+      }
+    },
+    "optimism": {
+      "id": "optimism",
+      "name": "Optimism",
+      "url": "https://www.optimism.io",
+      "category": "crypto",
+      "why": "L2 brand: bold red-and-blue duotone, playful editorial design, retro-future vibe",
+      "slug": "optimism",
+      "captured_at": "2026-08-09T12:36:47+00:00",
+      "files": {
+        "card": "cards/optimism/card.md",
+        "desktop": "cards/optimism/screenshot-desktop.png",
+        "mobile": "cards/optimism/screenshot-mobile.png",
+        "fingerprint": "cards/optimism/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 4,
+        "fonts": [
+          "Arial",
+          "Riforma LL",
+          "Times New Roman"
+        ],
+        "components": 4
+      }
+    },
+    "hyperliquid": {
+      "id": "hyperliquid",
+      "name": "Hyperliquid",
+      "url": "https://hyperliquid.xyz",
+      "category": "crypto",
+      "why": "Perp-DEX brand: dark dense trading UI, neon green accents, power-user aesthetic",
+      "slug": "hyperliquid",
+      "captured_at": "2026-08-09T12:37:17+00:00",
+      "files": {
+        "card": "cards/hyperliquid/card.md",
+        "desktop": "cards/hyperliquid/screenshot-desktop.png",
+        "mobile": "cards/hyperliquid/screenshot-mobile.png",
+        "fingerprint": "cards/hyperliquid/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 5,
+        "fonts": [
+          "Inter",
+          "Teodor"
+        ],
+        "components": 4
+      }
+    },
+    "ledger": {
+      "id": "ledger",
+      "name": "Ledger",
+      "url": "https://www.ledger.com",
+      "category": "crypto",
+      "why": "Hardware-wallet brand: deep blue premium design, security-first messaging, product photography",
+      "slug": "ledger",
+      "captured_at": "2026-08-09T12:37:59+00:00",
+      "files": {
+        "card": "cards/ledger/card.md",
+        "desktop": "cards/ledger/screenshot-desktop.png",
+        "mobile": "cards/ledger/screenshot-mobile.png",
+        "fingerprint": "cards/ledger/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 7,
+        "fonts": [
+          "HMAlphaMono",
+          "Inter"
+        ],
+        "components": 4
+      }
+    },
+    "phantom": {
+      "id": "phantom",
+      "name": "Phantom",
+      "url": "https://phantom.app",
+      "category": "crypto",
+      "why": "Solana-wallet brand: clean dark UI, vibrant purple gradient, approachable crypto design",
+      "slug": "phantom",
+      "captured_at": "2026-08-09T12:39:19+00:00",
+      "files": {
+        "card": "cards/phantom/card.md",
+        "desktop": "cards/phantom/screenshot-desktop.png",
+        "mobile": "cards/phantom/screenshot-mobile.png",
+        "fingerprint": "cards/phantom/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 6,
+        "fonts": [
+          "Phantom"
+        ],
+        "components": 4
+      }
+    },
+    "alchemy": {
+      "id": "alchemy",
+      "name": "Alchemy",
+      "url": "https://www.alchemy.com",
+      "category": "crypto",
+      "why": "Web3-dev platform: bold gradients, dark technical aesthetic, developer-first clarity",
+      "slug": "alchemy",
+      "captured_at": "2026-08-09T12:39:53+00:00",
+      "files": {
+        "card": "cards/alchemy/card.md",
+        "desktop": "cards/alchemy/screenshot-desktop.png",
+        "mobile": "cards/alchemy/screenshot-mobile.png",
+        "fingerprint": "cards/alchemy/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "Public Sans",
+          "Roboto Mono",
+          "ppNeue"
+        ],
+        "components": 4
+      }
+    },
+    "chainlink": {
+      "id": "chainlink",
+      "name": "Chainlink",
+      "url": "https://chain.link",
+      "category": "crypto",
+      "why": "Oracle brand: dark futuristic design, cyan accents, data-network visualizations",
+      "slug": "chainlink",
+      "captured_at": "2026-08-09T12:40:17+00:00",
+      "files": {
+        "card": "cards/chainlink/card.md",
+        "desktop": "cards/chainlink/screenshot-desktop.png",
+        "mobile": "cards/chainlink/screenshot-mobile.png",
+        "fingerprint": "cards/chainlink/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "DM Mono",
+          "Inter",
+          "TASA Orbiter VF"
+        ],
+        "components": 4
+      }
+    },
+    "bluesky": {
+      "id": "bluesky",
+      "name": "Bluesky",
+      "url": "https://bsky.app",
+      "category": "consumer",
+      "why": "Social-network brand: clean blue identity, simple friendly layout, modern minimalism",
+      "slug": "bluesky",
+      "captured_at": "2026-08-09T12:40:53+00:00",
+      "files": {
+        "card": "cards/bluesky/card.md",
+        "desktop": "cards/bluesky/screenshot-desktop.png",
+        "mobile": "cards/bluesky/screenshot-mobile.png",
+        "fingerprint": "cards/bluesky/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 6,
+        "fonts": [
+          "InterVariable"
+        ],
+        "components": 4
+      }
+    },
+    "backmarket": {
+      "id": "backmarket",
+      "name": "Back Market",
+      "url": "https://www.backmarket.com",
+      "category": "ecommerce",
+      "why": "Refurb-electronics marketplace: playful brand, clean product cards, sustainability storytelling",
+      "slug": "backmarket",
+      "captured_at": "2026-08-09T12:41:28+00:00",
+      "files": {
+        "card": "cards/backmarket/card.md",
+        "desktop": "cards/backmarket/screenshot-desktop.png",
+        "mobile": "cards/backmarket/screenshot-mobile.png",
+        "fingerprint": "cards/backmarket/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 14,
+        "fonts": [
+          "BMDupletDSP",
+          "BMDupletTXT",
+          "IvarSoft"
+        ],
+        "components": 4
+      }
+    },
+    "ikea": {
+      "id": "ikea",
+      "name": "IKEA",
+      "url": "https://www.ikea.com",
+      "category": "consumer",
+      "why": "Retail brand: bold yellow-blue identity, room-scene photography, clean catalog layout",
+      "slug": "ikea",
+      "captured_at": "2026-08-09T12:42:07+00:00",
+      "files": {
+        "card": "cards/ikea/card.md",
+        "desktop": "cards/ikea/screenshot-desktop.png",
+        "mobile": "cards/ikea/screenshot-mobile.png",
+        "fingerprint": "cards/ikea/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 10,
+        "fonts": [
+          "Noto IKEA"
+        ],
+        "components": 4
+      }
+    },
+    "ssense": {
+      "id": "ssense",
+      "name": "SSENSE",
+      "url": "https://www.ssense.com",
+      "category": "ecommerce",
+      "why": "Fashion-platform brand: brutalist minimalism, unconventional editorial layouts, high-fashion imagery",
+      "slug": "ssense",
+      "captured_at": "2026-08-09T12:42:36+00:00",
+      "files": {
+        "card": "cards/ssense/card.md",
+        "desktop": "cards/ssense/screenshot-desktop.png",
+        "mobile": "cards/ssense/screenshot-mobile.png",
+        "fingerprint": "cards/ssense/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 3,
+        "fonts": [
+          "system-ui"
+        ],
+        "components": 4
+      }
+    },
+    "goat": {
+      "id": "goat",
+      "name": "GOAT",
+      "url": "https://www.goat.com",
+      "category": "ecommerce",
+      "why": "Sneaker-marketplace brand: clean modern layout, product-led grids, confident streetwear tone",
+      "slug": "goat",
+      "captured_at": "2026-08-09T12:43:16+00:00",
+      "files": {
+        "card": "cards/goat/card.md",
+        "desktop": "cards/goat/screenshot-desktop.png",
+        "mobile": "cards/goat/screenshot-mobile.png",
+        "fingerprint": "cards/goat/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 3,
+        "fonts": [
+          "GOATProductVariableVF"
+        ],
+        "components": 4
+      }
+    },
+    "carvana": {
+      "id": "carvana",
+      "name": "Carvana",
+      "url": "https://www.carvana.com",
+      "category": "ecommerce",
+      "why": "Used-car ecommerce: playful orange brand, friendly illustrations, vending-machine story",
+      "slug": "carvana",
+      "captured_at": "2026-08-09T12:43:50+00:00",
+      "files": {
+        "card": "cards/carvana/card.md",
+        "desktop": "cards/carvana/screenshot-desktop.png",
+        "mobile": "cards/carvana/screenshot-mobile.png",
+        "fingerprint": "cards/carvana/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 16,
+        "fonts": [
+          "Brandon Text",
+          "Brandon for Carvana",
+          "Inter",
+          "inter"
+        ],
+        "components": 4
+      }
+    },
+    "nytimes": {
+      "id": "nytimes",
+      "name": "The New York Times",
+      "url": "https://www.nytimes.com",
+      "category": "media",
+      "why": "Editorial design benchmark: refined serif type, dense news hierarchy, restrained elegance",
+      "slug": "nytimes",
+      "captured_at": "2026-08-09T12:44:40+00:00",
+      "files": {
+        "card": "cards/nytimes/card.md",
+        "desktop": "cards/nytimes/screenshot-desktop.png",
+        "mobile": "cards/nytimes/screenshot-mobile.png",
+        "fingerprint": "cards/nytimes/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 10,
+        "fonts": [
+          "Times New Roman",
+          "nyt-cheltenham",
+          "nyt-cheltenham-small",
+          "nyt-cheltenham-text-cond"
+        ],
+        "components": 4
+      }
+    },
+    "ft": {
+      "id": "ft",
+      "name": "Financial Times",
+      "url": "https://www.ft.com",
+      "category": "media",
+      "why": "Premium editorial design: pink accent, elegant serif headlines, refined news hierarchy",
+      "slug": "ft",
+      "captured_at": "2026-08-09T12:45:27+00:00",
+      "files": {
+        "card": "cards/ft/card.md",
+        "desktop": "cards/ft/screenshot-desktop.png",
+        "mobile": "cards/ft/screenshot-mobile.png",
+        "fingerprint": "cards/ft/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 15,
+        "fonts": [
+          "Arial",
+          "Times New Roman",
+          "financier display VF",
+          "metric 2 VF"
+        ],
+        "components": 4
+      }
+    },
+    "aljazeera": {
+      "id": "aljazeera",
+      "name": "Al Jazeera",
+      "url": "https://www.aljazeera.com",
+      "category": "media",
+      "why": "News brand: bold red accent, strong editorial typography, clean global news layout",
+      "slug": "aljazeera",
+      "captured_at": "2026-08-09T12:46:15+00:00",
+      "files": {
+        "card": "cards/aljazeera/card.md",
+        "desktop": "cards/aljazeera/screenshot-desktop.png",
+        "mobile": "cards/aljazeera/screenshot-mobile.png",
+        "fingerprint": "cards/aljazeera/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 7,
+        "fonts": [
+          "Arial",
+          "Helvetica",
+          "Helvetica Neue",
+          "Roboto"
+        ],
+        "components": 4
+      }
+    },
+    "theguardian": {
+      "id": "theguardian",
+      "name": "The Guardian",
+      "url": "https://www.theguardian.com",
+      "category": "media",
+      "why": "News brand: distinctive blue accent, editorial typography, thoughtful content hierarchy",
+      "slug": "theguardian",
+      "captured_at": "2026-08-09T12:46:56+00:00",
+      "files": {
+        "card": "cards/theguardian/card.md",
+        "desktop": "cards/theguardian/screenshot-desktop.png",
+        "mobile": "cards/theguardian/screenshot-mobile.png",
+        "fingerprint": "cards/theguardian/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 7,
+        "fonts": [
+          "Arial",
+          "GH Guardian Headline",
+          "GuardianTextEgyptian",
+          "GuardianTextSans"
+        ],
+        "components": 4
+      }
+    },
+    "pitchfork": {
+      "id": "pitchfork",
+      "name": "Pitchfork",
+      "url": "https://pitchfork.com",
+      "category": "media",
+      "why": "Music-editorial brand: stark minimalism, bold type, review-led content design",
+      "slug": "pitchfork",
+      "captured_at": "2026-08-09T12:47:39+00:00",
+      "files": {
+        "card": "cards/pitchfork/card.md",
+        "desktop": "cards/pitchfork/screenshot-desktop.png",
+        "mobile": "cards/pitchfork/screenshot-mobile.png",
+        "fingerprint": "cards/pitchfork/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "FeatureFlatDisplay",
+          "Inter",
+          "PTSerif",
+          "Walfork"
+        ],
+        "components": 4
+      }
+    },
+    "bandcamp": {
+      "id": "bandcamp",
+      "name": "Bandcamp",
+      "url": "https://bandcamp.com",
+      "category": "media",
+      "why": "Music-commerce brand: warm independent aesthetic, artist-led layouts, clean listening UI",
+      "slug": "bandcamp",
+      "captured_at": "2026-08-09T12:49:05+00:00",
+      "files": {
+        "card": "cards/bandcamp/card.md",
+        "desktop": "cards/bandcamp/screenshot-desktop.png",
+        "mobile": "cards/bandcamp/screenshot-mobile.png",
+        "fingerprint": "cards/bandcamp/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "Helvetica Neue"
+        ],
+        "components": 4
+      }
+    },
+    "soundcloud": {
+      "id": "soundcloud",
+      "name": "SoundCloud",
+      "url": "https://soundcloud.com",
+      "category": "media",
+      "why": "Audio-platform brand: dark minimal UI, bold waveform visuals, clean player design",
+      "slug": "soundcloud",
+      "captured_at": "2026-08-09T12:49:41+00:00",
+      "files": {
+        "card": "cards/soundcloud/card.md",
+        "desktop": "cards/soundcloud/screenshot-desktop.png",
+        "mobile": "cards/soundcloud/screenshot-mobile.png",
+        "fingerprint": "cards/soundcloud/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "Interstate",
+          "Söhne",
+          "a"
+        ],
+        "components": 4
+      }
+    },
+    "lonelyplanet": {
+      "id": "lonelyplanet",
+      "name": "Lonely Planet",
+      "url": "https://www.lonelyplanet.com",
+      "category": "travel",
+      "why": "Travel-editorial brand: warm earthy palette, evocative photography, curated destination layout",
+      "slug": "lonelyplanet",
+      "captured_at": "2026-08-09T12:50:46+00:00",
+      "files": {
+        "card": "cards/lonelyplanet/card.md",
+        "desktop": "cards/lonelyplanet/screenshot-desktop.png",
+        "mobile": "cards/lonelyplanet/screenshot-mobile.png",
+        "fingerprint": "cards/lonelyplanet/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 11,
+        "fonts": [
+          "ABC Arizona Flare",
+          "ABC Monument Grotesk",
+          "ABC Monument Grotesk Mono",
+          "American Grotesk"
+        ],
+        "components": 4
+      }
+    },
+    "hopper": {
+      "id": "hopper",
+      "name": "Hopper",
+      "url": "https://www.hopper.com",
+      "category": "travel",
+      "why": "Travel-app brand: playful cartoon illustration, colorful UI, price-prediction data viz",
+      "slug": "hopper",
+      "captured_at": "2026-08-09T12:51:25+00:00",
+      "files": {
+        "card": "cards/hopper/card.md",
+        "desktop": "cards/hopper/screenshot-desktop.png",
+        "mobile": "cards/hopper/screenshot-mobile.png",
+        "fingerprint": "cards/hopper/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 7,
+        "fonts": [
+          "Proxima Nova"
+        ],
+        "components": 4
+      }
+    },
+    "atlasobscura": {
+      "id": "atlasobscura",
+      "name": "Atlas Obscura",
+      "url": "https://www.atlasobscura.com",
+      "category": "travel",
+      "why": "Travel-editorial brand: warm vintage palette, elegant serif, curious-storytelling layout",
+      "slug": "atlasobscura",
+      "captured_at": "2026-08-09T12:51:51+00:00",
+      "files": {
+        "card": "cards/atlasobscura/card.md",
+        "desktop": "cards/atlasobscura/screenshot-desktop.png",
+        "mobile": "cards/atlasobscura/screenshot-mobile.png",
+        "fingerprint": "cards/atlasobscura/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 9,
+        "fonts": [
+          "Freight Pro",
+          "Helvetica",
+          "Platform Web",
+          "atlasobscura"
+        ],
+        "components": 4
+      }
+    },
+    "peloton": {
+      "id": "peloton",
+      "name": "Peloton",
+      "url": "https://www.onepeloton.com",
+      "category": "wellness",
+      "why": "Fitness brand: premium dark design, bold typography, high-energy product photography",
+      "slug": "peloton",
+      "captured_at": "2026-08-09T12:53:13+00:00",
+      "files": {
+        "card": "cards/peloton/card.md",
+        "desktop": "cards/peloton/screenshot-desktop.png",
+        "mobile": "cards/peloton/screenshot-mobile.png",
+        "fingerprint": "cards/peloton/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 9,
+        "fonts": [
+          "Inter"
+        ],
+        "components": 4
+      }
+    },
+    "whoop": {
+      "id": "whoop",
+      "name": "WHOOP",
+      "url": "https://www.whoop.com",
+      "category": "wellness",
+      "why": "Wearable brand: bold black aesthetic, data-dashboard UI, athletic editorial design",
+      "slug": "whoop",
+      "captured_at": "2026-08-09T12:53:41+00:00",
+      "files": {
+        "card": "cards/whoop/card.md",
+        "desktop": "cards/whoop/screenshot-desktop.png",
+        "mobile": "cards/whoop/screenshot-mobile.png",
+        "fingerprint": "cards/whoop/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "proxima-nova"
+        ],
+        "components": 4
+      }
+    },
+    "eightsleep": {
+      "id": "eightsleep",
+      "name": "Eight Sleep",
+      "url": "https://eightsleep.com",
+      "category": "wellness",
+      "why": "Sleep-tech brand: premium dark design, sleek product photography, data-visualization UI",
+      "slug": "eightsleep",
+      "captured_at": "2026-08-09T12:54:22+00:00",
+      "files": {
+        "card": "cards/eightsleep/card.md",
+        "desktop": "cards/eightsleep/screenshot-desktop.png",
+        "mobile": "cards/eightsleep/screenshot-mobile.png",
+        "fingerprint": "cards/eightsleep/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 9,
+        "fonts": [
+          "NeueMontreal"
+        ],
+        "components": 4
+      }
+    },
+    "capsule": {
+      "id": "capsule",
+      "name": "Capsule",
+      "url": "https://www.capsule.com",
+      "category": "healthcare",
+      "why": "Pharmacy brand: warm modern design, friendly illustration, human-centered healthcare UI",
+      "slug": "capsule",
+      "captured_at": "2026-08-09T12:55:37+00:00",
+      "files": {
+        "card": "cards/capsule/card.md",
+        "desktop": "cards/capsule/screenshot-desktop.png",
+        "mobile": "cards/capsule/screenshot-mobile.png",
+        "fingerprint": "cards/capsule/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 14,
+        "fonts": [
+          "Arial",
+          "Circular-Pro",
+          "MercuryTextG4",
+          "Times New Roman"
+        ],
+        "components": 4
+      }
+    },
+    "onemedical": {
+      "id": "onemedical",
+      "name": "One Medical",
+      "url": "https://www.onemedical.com",
+      "category": "healthcare",
+      "why": "Primary-care brand: clean modern healthcare design, warm palette, trust-forward layout",
+      "slug": "onemedical",
+      "captured_at": "2026-08-09T12:56:13+00:00",
+      "files": {
+        "card": "cards/onemedical/card.md",
+        "desktop": "cards/onemedical/screenshot-desktop.png",
+        "mobile": "cards/onemedical/screenshot-mobile.png",
+        "fingerprint": "cards/onemedical/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 10,
+        "fonts": [
+          "Arial",
+          "GT Super Display",
+          "Ginto",
+          "WistiaPlayerInter"
+        ],
+        "components": 4
+      }
+    },
+    "goodrx": {
+      "id": "goodrx",
+      "name": "GoodRx",
+      "url": "https://www.goodrx.com",
+      "category": "healthcare",
+      "why": "Consumer-health brand: playful teal identity, clear pricing UI, friendly accessible design",
+      "slug": "goodrx",
+      "captured_at": "2026-08-09T12:56:55+00:00",
+      "files": {
+        "card": "cards/goodrx/card.md",
+        "desktop": "cards/goodrx/screenshot-desktop.png",
+        "mobile": "cards/goodrx/screenshot-mobile.png",
+        "fingerprint": "cards/goodrx/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 12,
+        "fonts": [
+          "GoodRx Bolton",
+          "GoodRx Goodall",
+          "GoodRx Moon",
+          "Helvetica"
+        ],
+        "components": 4
+      }
+    },
+    "nintendo": {
+      "id": "nintendo",
+      "name": "Nintendo",
+      "url": "https://www.nintendo.com",
+      "category": "gaming",
+      "why": "Gaming brand: playful red identity, product-led grids, family-friendly energy",
+      "slug": "nintendo",
+      "captured_at": "2026-08-09T12:57:47+00:00",
+      "files": {
+        "card": "cards/nintendo/card.md",
+        "desktop": "cards/nintendo/screenshot-desktop.png",
+        "mobile": "cards/nintendo/screenshot-mobile.png",
+        "fingerprint": "cards/nintendo/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 6,
+        "fonts": [
+          "Inter"
+        ],
+        "components": 4
+      }
+    },
+    "playstation": {
+      "id": "playstation",
+      "name": "PlayStation",
+      "url": "https://www.playstation.com",
+      "category": "gaming",
+      "why": "Gaming brand: dark cinematic design, bold blue identity, game-hero marketing",
+      "slug": "playstation",
+      "captured_at": "2026-08-09T12:58:10+00:00",
+      "files": {
+        "card": "cards/playstation/card.md",
+        "desktop": "cards/playstation/screenshot-desktop.png",
+        "mobile": "cards/playstation/screenshot-mobile.png",
+        "fingerprint": "cards/playstation/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 9,
+        "fonts": [
+          "Arial",
+          "Playstation SST",
+          "SST",
+          "sst"
+        ],
+        "components": 4
+      }
+    },
+    "riotgames": {
+      "id": "riotgames",
+      "name": "Riot Games",
+      "url": "https://www.riotgames.com",
+      "category": "gaming",
+      "why": "Game-studio brand: dark immersive design, bold typography, game-world storytelling",
+      "slug": "riotgames",
+      "captured_at": "2026-08-09T12:58:44+00:00",
+      "files": {
+        "card": "cards/riotgames/card.md",
+        "desktop": "cards/riotgames/screenshot-desktop.png",
+        "mobile": "cards/riotgames/screenshot-mobile.png",
+        "fingerprint": "cards/riotgames/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 7,
+        "fonts": [
+          "Helvetica",
+          "Inter",
+          "Inter V Latin",
+          "Oswald"
+        ],
+        "components": 4
+      }
+    },
+    "brilliant": {
+      "id": "brilliant",
+      "name": "Brilliant",
+      "url": "https://brilliant.org",
+      "category": "education",
+      "why": "Learning-platform brand: bold dark hero, playful geometry, puzzle-driven visual design",
+      "slug": "brilliant",
+      "captured_at": "2026-08-09T13:00:08+00:00",
+      "files": {
+        "card": "cards/brilliant/card.md",
+        "desktop": "cards/brilliant/screenshot-desktop.png",
+        "mobile": "cards/brilliant/screenshot-mobile.png",
+        "fingerprint": "cards/brilliant/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "CoFo Brilliant",
+          "CoFo Robert",
+          "coFoBrilliantFont",
+          "coFoRobertFont"
+        ],
+        "components": 4
+      }
+    },
+    "masterclass": {
+      "id": "masterclass",
+      "name": "MasterClass",
+      "url": "https://www.masterclass.com",
+      "category": "education",
+      "why": "Education brand: cinematic photography, bold typography, celebrity-led storytelling",
+      "slug": "masterclass",
+      "captured_at": "2026-08-09T13:00:44+00:00",
+      "files": {
+        "card": "cards/masterclass/card.md",
+        "desktop": "cards/masterclass/screenshot-desktop.png",
+        "mobile": "cards/masterclass/screenshot-mobile.png",
+        "fingerprint": "cards/masterclass/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 12,
+        "fonts": [
+          "Ivar Display Condensed",
+          "Sohne",
+          "Sohne Schmal"
+        ],
+        "components": 4
+      }
+    },
+    "producthunt": {
+      "id": "producthunt",
+      "name": "Product Hunt",
+      "url": "https://www.producthunt.com",
+      "category": "consumer",
+      "why": "Launch-community brand: playful gradient identity, card-based feed, energetic editorial style",
+      "slug": "producthunt",
+      "captured_at": "2026-08-09T13:02:25+00:00",
+      "files": {
+        "card": "cards/producthunt/card.md",
+        "desktop": "cards/producthunt/screenshot-desktop.png",
+        "mobile": "cards/producthunt/screenshot-mobile.png",
+        "fingerprint": "cards/producthunt/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 3,
+        "fonts": [
+          "system-ui"
+        ],
+        "components": 4
+      }
+    },
+    "itch": {
+      "id": "itch",
+      "name": "itch.io",
+      "url": "https://itch.io",
+      "category": "gaming",
+      "why": "Indie-game platform: quirky community aesthetic, colorful game grids, playful chaos",
+      "slug": "itch",
+      "captured_at": "2026-08-09T13:03:10+00:00",
+      "files": {
+        "card": "cards/itch/card.md",
+        "desktop": "cards/itch/screenshot-desktop.png",
+        "mobile": "cards/itch/screenshot-mobile.png",
+        "fingerprint": "cards/itch/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 10,
+        "fonts": [
+          "Lato",
+          "Montserrat",
+          "icomoon"
+        ],
+        "components": 4
+      }
+    },
+    "uniqlo": {
+      "id": "uniqlo",
+      "name": "UNIQLO",
+      "url": "https://www.uniqlo.com",
+      "category": "ecommerce",
+      "why": "Retail ecommerce: functional Japanese minimalism, clean product grids, neutral palette, LifeWear storytelling",
+      "slug": "uniqlo",
+      "captured_at": "2026-08-09T13:06:01+00:00",
+      "files": {
+        "card": "cards/uniqlo/card.md",
+        "desktop": "cards/uniqlo/screenshot-desktop.png",
+        "mobile": "cards/uniqlo/screenshot-mobile.png",
+        "fingerprint": "cards/uniqlo/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 9,
+        "fonts": [
+          "Arial",
+          "Twemoji Country Flags",
+          "UniqloProRegular"
+        ],
+        "components": 4
+      }
+    },
+    "plausible": {
+      "id": "plausible",
+      "name": "Plausible",
+      "url": "https://plausible.io",
+      "category": "analytics",
+      "why": "",
+      "slug": "plausible",
+      "captured_at": "2026-08-09T14:57:33+00:00",
+      "files": {
+        "card": "cards/plausible/card.md",
+        "desktop": "cards/plausible/screenshot-desktop.png",
+        "mobile": "cards/plausible/screenshot-mobile.png",
+        "fingerprint": "cards/plausible/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 8,
+        "fonts": [
+          "system-ui"
+        ],
+        "components": 4
+      }
+    }
+  },
+  "stats": {
+    "last_run": "2026-08-09T15:58:44+00:00",
+    "total": 201
+  }
+}

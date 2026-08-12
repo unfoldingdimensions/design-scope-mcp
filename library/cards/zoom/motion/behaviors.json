@@ -1,0 +1,96 @@
+{
+  "url": "https://www.zoom.com",
+  "captured": "2026-08-10T06:15:41+00:00",
+  "hover_diffs": [],
+  "scroll_probe": [
+    {
+      "selector": "div.nav-top",
+      "diffs": {
+        "boxShadow": "none → rgba(0, 0, 0, 0.08) 0px 4px 8px 0px, rgba(0, 0, 0, 0.08) 0px 2px 4px 0px",
+        "background": "rgba(0, 0, 0, 0) → rgb(255, 255, 255)"
+      }
+    },
+    {
+      "selector": "div.nav-drawer",
+      "diffs": {
+        "background": "rgba(0, 0, 0, 0) → rgb(255, 255, 255)"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 431,
+    "tabs": 22,
+    "accordions": 88,
+    "carousels": 53,
+    "observers": 2,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "button",
+      "classes": "custom-swiper-slider__button custom-swiper-slider__button--prev",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "button",
+      "classes": "custom-swiper-slider__button custom-swiper-slider__button--next",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "div",
+      "classes": "fdn-zdcm-feature-accordion__tabs",
+      "text": "Collaboration\n                                \n             ",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "div",
+      "classes": "fdn-zdcm-feature-accordion__tab fdn-zdcm-feature-accordion__tab-active",
+      "text": "Collaboration",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "div",
+      "classes": "fdn-zdcm-feature-accordion__tab-title",
+      "text": "Collaboration",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "div",
+      "classes": "fdn-zdcm-feature-accordion__tab fdn-zdcm-feature-accordion__tab-inactive",
+      "text": "Customer support",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "div",
+      "classes": "fdn-zdcm-feature-accordion__tab-title",
+      "text": "Customer support",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "div",
+      "classes": "fdn-zdcm-feature-accordion__tab fdn-zdcm-feature-accordion__tab-inactive",
+      "text": "Marketing",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    }
+  ]
+}

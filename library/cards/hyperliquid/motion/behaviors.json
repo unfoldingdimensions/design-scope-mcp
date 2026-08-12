@@ -1,0 +1,50 @@
+{
+  "url": "https://hyperliquid.xyz",
+  "captured": "2026-08-10T13:13:06+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(7, 39, 35)",
+          "after": "rgb(52, 154, 141)"
+        },
+        "outline": {
+          "before": "rgb(7, 39, 35) none 3px",
+          "after": "rgb(52, 154, 141) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgb(7, 39, 35)",
+          "after": "rgb(52, 154, 141)"
+        },
+        "outline": {
+          "before": "rgb(7, 39, 35) none 3px",
+          "after": "rgb(52, 154, 141) none 3px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 11,
+    "tabs": 0,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": []
+}

@@ -1,0 +1,82 @@
+{
+  "url": "https://bun.sh",
+  "captured": "2026-08-10T07:39:48+00:00",
+  "hover_diffs": [],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 163,
+    "tabs": 56,
+    "accordions": 0,
+    "carousels": 1,
+    "observers": 7,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "button",
+      "classes": "margin-auto cursor-pointer border-0 bg-transparent p-0",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "button",
+      "classes": "Tab active mono w-full cursor-pointer border-b-[3px] border-gray-700/75 bg-trans",
+      "text": "Bundler",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "button",
+      "classes": "Tab mono w-full cursor-pointer border-b-[3px] border-gray-700/75 bg-transparent ",
+      "text": "Express",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "button",
+      "classes": "Tab mono w-full cursor-pointer border-b-[3px] border-gray-700/75 bg-transparent ",
+      "text": "Postgres",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "button",
+      "classes": "Tab mono w-full cursor-pointer border-b-[3px] border-gray-700/75 bg-transparent ",
+      "text": "WebSockets",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "div",
+      "classes": "mono w-20 text-sm tabular-nums text-gray-300",
+      "text": "269.1 ms",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "div",
+      "classes": "mono w-20 text-sm tabular-nums text-gray-400",
+      "text": "494.9 ms",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "div",
+      "classes": "mono w-20 text-sm tabular-nums text-gray-400",
+      "text": "571.9 ms",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

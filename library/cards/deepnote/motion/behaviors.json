@@ -1,0 +1,172 @@
+{
+  "url": "https://deepnote.com",
+  "captured": "2026-08-10T10:53:07+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(20, 110, 254)",
+          "after": "rgb(10, 86, 208)"
+        },
+        "outline": {
+          "before": "rgb(20, 110, 254) none 3px",
+          "after": "rgb(10, 86, 208) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgb(51, 64, 82)",
+          "after": "rgb(10, 86, 208)"
+        },
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgb(248, 250, 252)"
+        },
+        "outline": {
+          "before": "rgb(51, 64, 82) none 3px",
+          "after": "rgb(10, 86, 208) none 3px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(20, 110, 254)",
+          "after": "rgb(10, 86, 208)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "color": {
+          "before": "rgb(51, 64, 82)",
+          "after": "rgb(10, 86, 208)"
+        },
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgb(248, 250, 252)"
+        },
+        "outline": {
+          "before": "rgb(51, 64, 82) none 3px",
+          "after": "rgb(10, 86, 208) none 3px"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": "button",
+      "index": 5,
+      "diffs": {
+        "color": {
+          "before": "rgb(51, 64, 82)",
+          "after": "rgb(10, 86, 208)"
+        },
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgb(248, 250, 252)"
+        },
+        "outline": {
+          "before": "rgb(51, 64, 82) none 3px",
+          "after": "rgb(10, 86, 208) none 3px"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "header.css-1a8ied8",
+      "diffs": {
+        "sel": "header.css-1a8ied8 → header.css-861hn9",
+        "background": "rgba(0, 0, 0, 0) → rgba(255, 255, 255, 0.8)",
+        "backdropFilter": "none → blur(20px)"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 96,
+    "tabs": 8,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "button",
+      "classes": "opt",
+      "text": "humans",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "button",
+      "classes": "opt",
+      "text": "agents",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "div",
+      "classes": "dash-table",
+      "text": "Enterprise47 accountsStartup31 accountsSelf-serve92 accounts",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "div",
+      "classes": "art-pill",
+      "text": "published · shared with revenue team",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "div",
+      "classes": "art-pill warn",
+      "text": "treatment +85% vs control",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "div",
+      "classes": "art-pill purp",
+      "text": "4 cells · query → train → deploy → visualize",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "div",
+      "classes": "art-pill purp",
+      "text": "→ opening at deepnote.com/workspace/…",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "url": "https://www.fullstory.com",
+  "captured": "2026-08-10T10:42:20+00:00",
+  "named_tokens": {
+    "light": {
+      "--osano-clear-dialog-background": "rgba(0,0,0,0)",
+      "--osano-button-border-color": "#fff",
+      "--osano-dialog-type": "bar",
+      "--osano-display-position": "bottom",
+      "--osano-info-dialog-position": "left",
+      "--osano-widget-position": "left",
+      "--osano-opt-out-widget-position": "left",
+      "--osano-button-background-color": "#0874ec",
+      "--osano-button-foreground-color": "#ffffff",
+      "--osano-dialog-background-color": "#f8f4f4",
+      "--osano-dialog-foreground-color": "#404040",
+      "--osano-info-dialog-overlay-color": "rgba(0,0,0,0.45)",
+      "--osano-link-color": "#29246a",
+      "--osano-toggle-off-track-color": "#c3c3c3",
+      "--osano-toggle-off-thumb-color": "#ffffff",
+      "--osano-toggle-on-track-color": "#37cd8f",
+      "--osano-toggle-on-thumb-color": "#f4f4f4",
+      "--osano-widget-color": "#37cd8f",
+      "--osano-widget-outline-color": "#29246a",
+      "--osano-widget-fill-color": "#fff",
+      "--osano-focus-outline-color": "Highlight",
+      "--osano-button-close-color": "#404040",
+      "--osano-button-accept-background-color": "#0874ec",
+      "--osano-button-accept-border-color": "var(--osano-button-border-color, var(--osano-button-foreground-color))",
+      "--osano-button-accept-foreground-color": "#ffffff",
+      "--osano-button-deny-background-color": "#0874ec",
+      "--osano-button-deny-border-color": "var(--osano-button-border-color, var(--osano-button-foreground-color))",
+      "--osano-button-deny-foreground-color": "#ffffff",
+      "--osano-button-reject-all-background-color": "#0874ec",
+      "--osano-button-reject-all-background-color-hover": "var(--osano-button-background-color-hover, var(--osano-button-background-color-contrast))",
+      "--osano-button-reject-all-border-color": "var(--osano-button-border-color, var(--osano-button-foreground-color))",
+      "--osano-button-reject-all-foreground-color": "#ffffff",
+      "--osano-button-manage-background-color": "#0874ec",
+      "--osano-button-manage-border-color": "var(--osano-button-border-color, var(--osano-button-foreground-color))",
+      "--osano-button-manage-foreground-color": "#ffffff",
+      "--osano-info-dialog-link-color": "#29246a",
+      "--osano-info-dialog-button-close-color": "var(--osano-info-dialog-foreground-color, var(--osano-dialog-foreground-color))",
+      "--osano-info-dialog-toggle-off-track-color": "#c3c3c3",
+      "--osano-info-dialog-toggle-off-thumb-color": "#ffffff",
+      "--osano-info-dialog-toggle-on-track-color": "#37cd8f",
+      "--osano-info-dialog-toggle-on-thumb-color": "#f4f4f4",
+      "--osano-info-dialog-button-background-color": "#0874ec",
+      "--osano-info-dialog-button-border-color": "var(--osano-info-dialog-button-foreground-color, var(--osano-button-foreground-color))",
+      "--osano-info-dialog-button-foreground-color": "#ffffff",
+      "--osano-dialog-gpc-background-color": "#f8f4f4",
+      "--osano-dialog-gpc-border-color": "#404040",
+      "--osano-dialog-gpc-foreground-color": "#404040",
+      "--osano-dialog-gpc-color": "#37cd84",
+      "--osano-info-dialog-gpc-background-color": "var(--osano-info-dialog-background-color, var(--osano-dialog-background-color))",
+      "--osano-info-dialog-gpc-border-color": "var(--osano-info-dialog-foreground-color, var(--osano-dialog-foreground-color))",
+      "--osano-info-dialog-gpc-foreground-color": "var(--osano-info-dialog-foreground-color, var(--osano-dialog-foreground-color))",
+      "--osano-info-dialog-gpc-color": "#37cd84",
+      "--osano-gpc-background-color": "#ffffff",
+      "--osano-gpc-border-color": "#058a5e",
+      "--osano-gpc-foreground-color": "#058a5e",
+      "--osano-gpc-color": "#37cd84",
+      "--osano-gpc-background-color-hover": "#ffffff",
+      "--osano-toggle-off-background-color": "#d2cfff",
+      "--osano-toggle-button-off-color": "#ffffff",
+      "--osano-toggle-on-background-color": "#37cd8f",
+      "--osano-toggle-button-on-color": "#f4f4f4",
+      "--osano-button-background-color-contrast": "#1c88ff",
+      "--osano-button-foreground-color-contrast": "#ebebeb",
+      "--osano-dialog-background-color-contrast": "#e4e0e0",
+      "--osano-dialog-foreground-color-contrast": "#545454",
+      "--osano-link-color-contrast": "#3d387e",
+      "--osano-toggle-off-track-color-contrast": "#afafaf",
+      "--osano-toggle-off-track-color-disabled": "#838383",
+      "--osano-toggle-off-thumb-color-contrast": "#ebebeb",
+      "--osano-toggle-off-thumb-color-disabled": "#bfbfbf",
+      "--osano-toggle-on-track-color-contrast": "#23b97b",
+      "--osano-toggle-on-track-color-disabled": "#008d4f",
+      "--osano-toggle-on-thumb-color-contrast": "#e0e0e0",
+      "--osano-toggle-on-thumb-color-disabled": "#b4b4b4",
+      "--osano-gpc-background-color-contrast": "#ebebeb",
+      "--osano-button-background-color-hover": "var(--osano-button-background-color-contrast, #1c88ff)",
+      "--osano-button-foreground-color-hover": "var(--osano-button-foreground-color-contrast, #ebebeb)",
+      "--osano-button-background-color-focus": "var(--osano-button-foreground-color-hover, var(--osano-button-foreground-color-contrast))",
+      "--osano-button-foreground-color-focus": "var(--osano-button-background-color-hover, var(--osano-button-background-color-contrast))",
+      "--osano-toggle-off-track-color-hover": "var(--osano-toggle-off-track-color-contrast, #afafaf)",
+      "--osano-toggle-off-thumb-color-hover": "var(--osano-toggle-off-thumb-color-contrast, #ebebeb)",
+      "--osano-toggle-off-track-color-focus": "var(--osano-toggle-off-thumb-color-hover, var(--osano-toggle-off-thumb-color-contrast))",
+      "--osano-toggle-off-thumb-color-focus": "var(--osano-toggle-off-track-color-hover, var(--osano-toggle-off-track-color-contrast))",
+      "--osano-toggle-on-track-color-hover": "var(--osano-toggle-on-track-color-contrast, #23b97b)",
+      "--osano-toggle-on-thumb-color-hover": "var(--osano-toggle-on-thumb-color-contrast, #e0e0e0)",
+      "--osano-toggle-on-track-color-focus": "var(--osano-toggle-on-thumb-color-hover, var(--osano-toggle-on-thumb-color-contrast))",
+      "--osano-toggle-on-thumb-color-focus": "var(--osano-toggle-on-track-color-hover, var(--osano-toggle-on-track-color-contrast))",
+      "--osano-button-accept-background-color-contrast": "var(--osano-button-background-color-contrast, #1c88ff)",
+      "--osano-button-accept-foreground-color-contrast": "var(--osano-button-foreground-color-contrast, #ebebeb)",
+      "--osano-button-accept-background-color-hover": "var(--osano-button-background-color-hover, var(--osano-button-background-color-contrast))",
+      "--osano-button-accept-foreground-color-hover": "var(--osano-button-accept-foreground-color-contrast, var(--osano-button-foreground-color-contrast))",
+      "--osano-button-accept-background-color-focus": "var(--osano-button-accept-foreground-color-hover, var(--osano-button-accept-foreground-color-contrast))",
+      "--osano-button-accept-foreground-color-focus": "var(--osano-button-accept-background-color-hover, var(--osano-button-background-color-hover))",
+      "--osano-button-deny-background-color-contrast": "var(--osano-button-background-color-contrast, #1c88ff)",
+      "--osano-button-deny-foreground-color-contrast": "var(--osano-button-foreground-color-contrast, #ebebeb)",
+      "--osano-button-deny-background-color-hover": "var(--osano-button-background-color-hover, var(--osano-button-background-color-contrast))",
+      "--osano-button-deny-foreground-color-hover": "var(--osano-button-deny-foreground-color-contrast, var(--osano-button-foreground-color-contrast))",
+      "--osano-button-deny-background-color-focus": "var(--osano-button-deny-foreground-color-hover, var(--osano-button-deny-foreground-color-contrast))",
+      "--osano-button-deny-foreground-color-focus": "var(--osano-button-deny-background-color-hover, var(--osano-button-background-color-hover))",
+      "--osano-button-reject-all-background-color-contrast": "var(--osano-button-background-color-contrast, #1c88ff)",
+      "--osano-button-reject-all-foreground-color-contrast": "var(--osano-button-foreground-color-contrast, #ebebeb)",
+      "--osano-button-reject-all-foreground-color-hover": "var(--osano-button-reject-all-foreground-color-contrast, var(--osano-button-foreground-color-contrast))",
+      "--osano-button-reject-all-background-color-focus": "var(--osano-button-reject-all-foreground-color-hover, var(--osano-button-reject-all-foreground-color-contrast))",
+      "--osano-button-reject-all-foreground-color-focus": "var(--osano-button-reject-all-background-color-hover, var(--osano-button-background-color-hover))",
+      "--osano-button-manage-background-color-contrast": "var(--osano-button-background-color-contrast, #1c88ff)",
+      "--osano-button-manage-foreground-color-contrast": "var(--osano-button-foreground-color-contrast, #ebebeb)",
+      "--osano-button-manage-background-color-hover": "var(--osano-button-background-color-hover, var(--osano-button-background-color-contrast))",
+      "--osano-button-manage-foreground-color-hover": "var(--osano-button-manage-foreground-color-contrast, var(--osano-button-foreground-color-contrast))",
+      "--osano-button-manage-background-color-focus": "var(--osano-button-manage-foreground-color-hover, var(--osano-button-manage-foreground-color-contrast))",
+      "--osano-button-manage-foreground-color-focus": "var(--osano-button-manage-background-color-hover, var(--osano-button-background-color-hover))",
+      "--osano-info-dialog-foreground-color": "#404040",
+      "--osano-info-dialog-background-color": "#f8f4f4",
+      "--osano-info-dialog-button-background-color-contrast": "var(--osano-button-background-color-contrast, #1c88ff)",
+      "--osano-info-dialog-button-foreground-color-contrast": "var(--osano-button-foreground-color-contrast, #ebebeb)",
+      "--osano-info-dialog-button-background-color-hover": "var(--osano-button-background-color-hover, var(--osano-button-background-color-contrast))",
+      "--osano-info-dialog-button-foreground-color-hover": "var(--osano-info-dialog-button-foreground-color-contrast, var(--osano-button-foreground-color-contrast))",
+      "--osano-info-dialog-button-background-color-focus": "var(--osano-info-dialog-button-foreground-color-hover, var(--osano-info-dialog-button-foreground-color-contrast))",
+      "--osano-info-dialog-button-foreground-color-focus": "var(--osano-info-dialog-button-background-color-hover, var(--osano-button-background-color-hover))",
+      "--osano-info-dialog-toggle-off-track-color-contrast": "var(--osano-toggle-off-track-color-contrast, #afafaf)",
+      "--osano-info-dialog-toggle-off-thumb-color-contrast": "var(--osano-toggle-off-thumb-color-contrast, #ebebeb)",
+      "--osano-info-dialog-toggle-off-track-color-hover": "var(--osano-info-dialog-toggle-off-track-color-contrast, var(--osano-toggle-off-track-color-contrast))",
+      "--osano-info-dialog-toggle-off-thumb-color-hover": "var(--osano-info-dialog-toggle-off-thumb-color-contrast, var(--osano-toggle-off-thumb-color-contrast))",
+      "--osano-info-dialog-toggle-off-track-color-focus": "var(--osano-info-dialog-toggle-off-thumb-color-hover, var(--osano-info-dialog-toggle-off-thumb-color-contrast))",
+      "--osano-info-dialog-toggle-off-thumb-color-focus": "var(--osano-info-dialog-toggle-off-track-color-hover, var(--osano-info-dialog-toggle-off-track-color-contrast))",
+      "--osano-info-dialog-toggle-off-track-color-disabled": "var(--osano-toggle-off-track-color-disabled, #838383)",
+      "--osano-info-dialog-toggle-off-thumb-color-disabled": "var(--osano-toggle-off-thumb-color-disabled, #bfbfbf)",
+      "--osano-info-dialog-toggle-on-track-color-contrast": "var(--osano-toggle-on-track-color-contrast, #23b97b)",
+      "--osano-info-dialog-toggle-on-thumb-color-contrast": "var(--osano-toggle-on-thumb-color-contrast, #e0e0e0)",
+      "--osano-info-dialog-toggle-on-track-color-hover": "var(--osano-info-dialog-toggle-on-track-color-contrast, var(--osano-toggle-on-track-color-contrast))",
+      "--osano-info-dialog-toggle-on-thumb-color-hover": "var(--osano-info-dialog-toggle-on-thumb-color-contrast, var(--osano-toggle-on-thumb-color-contrast))",
+      "--osano-info-dialog-toggle-on-track-color-focus": "var(--osano-info-dialog-toggle-on-thumb-color-hover, var(--osano-info-dialog-toggle-on-thumb-color-contrast))",
+      "--osano-info-dialog-toggle-on-thumb-color-focus": "var(--osano-info-dialog-toggle-on-track-color-hover, var(--osano-info-dialog-toggle-on-track-color-contrast))",
+      "--osano-info-dialog-toggle-on-track-color-disabled": "var(--osano-toggle-on-track-color-disabled, #008d4f)",
+      "--osano-info-dialog-toggle-on-thumb-color-disabled": "var(--osano-toggle-on-thumb-color-disabled, #b4b4b4)",
+      "--osano-info-dialog-link-color-contrast": "var(--osano-link-color-contrast, #3d387e)"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {
+      "--osano-button-accept-background-color": "#0874ec",
+      "--osano-button-accept-foreground-color": "#ffffff",
+      "--osano-button-background-color": "#0874ec",
+      "--osano-button-background-color-contrast": "#1c88ff",
+      "--osano-button-border-color": "#fff",
+      "--osano-button-close-color": "#404040",
+      "--osano-button-deny-background-color": "#0874ec",
+      "--osano-button-deny-foreground-color": "#ffffff",
+      "--osano-button-foreground-color": "#ffffff",
+      "--osano-button-foreground-color-contrast": "#ebebeb",
+      "--osano-button-manage-background-color": "#0874ec",
+      "--osano-button-manage-foreground-color": "#ffffff",
+      "--osano-button-reject-all-background-color": "#0874ec",
+      "--osano-button-reject-all-foreground-color": "#ffffff",
+      "--osano-dialog-background-color": "#f8f4f4",
+      "--osano-dialog-background-color-contrast": "#e4e0e0",
+      "--osano-dialog-foreground-color": "#404040",
+      "--osano-dialog-foreground-color-contrast": "#545454",
+      "--osano-dialog-gpc-background-color": "#f8f4f4",
+      "--osano-dialog-gpc-border-color": "#404040",
+      "--osano-dialog-gpc-color": "#37cd84",
+      "--osano-dialog-gpc-foreground-color": "#404040",
+      "--osano-gpc-background-color": "#ffffff",
+      "--osano-gpc-background-color-contrast": "#ebebeb",
+      "--osano-gpc-background-color-hover": "#ffffff",
+      "--osano-gpc-border-color": "#058a5e",
+      "--osano-gpc-color": "#37cd84",
+      "--osano-gpc-foreground-color": "#058a5e",
+      "--osano-info-dialog-background-color": "#f8f4f4",
+      "--osano-info-dialog-button-background-color": "#0874ec",
+      "--osano-info-dialog-button-foreground-color": "#ffffff",
+      "--osano-info-dialog-foreground-color": "#404040",
+      "--osano-info-dialog-gpc-color": "#37cd84",
+      "--osano-info-dialog-link-color": "#29246a",
+      "--osano-info-dialog-toggle-off-thumb-color": "#ffffff",
+      "--osano-info-dialog-toggle-off-track-color": "#c3c3c3",
+      "--osano-info-dialog-toggle-on-thumb-color": "#f4f4f4",
+      "--osano-info-dialog-toggle-on-track-color": "#37cd8f",
+      "--osano-link-color": "#29246a",
+      "--osano-link-color-contrast": "#3d387e",
+      "--osano-toggle-button-off-color": "#ffffff",
+      "--osano-toggle-button-on-color": "#f4f4f4",
+      "--osano-toggle-off-background-color": "#d2cfff",
+      "--osano-toggle-off-thumb-color": "#ffffff",
+      "--osano-toggle-off-thumb-color-contrast": "#ebebeb",
+      "--osano-toggle-off-thumb-color-disabled": "#bfbfbf",
+      "--osano-toggle-off-track-color": "#c3c3c3",
+      "--osano-toggle-off-track-color-contrast": "#afafaf",
+      "--osano-toggle-off-track-color-disabled": "#838383",
+      "--osano-toggle-on-background-color": "#37cd8f",
+      "--osano-toggle-on-thumb-color": "#f4f4f4",
+      "--osano-toggle-on-thumb-color-contrast": "#e0e0e0",
+      "--osano-toggle-on-thumb-color-disabled": "#b4b4b4",
+      "--osano-toggle-on-track-color": "#37cd8f",
+      "--osano-toggle-on-track-color-contrast": "#23b97b",
+      "--osano-toggle-on-track-color-disabled": "#008d4f",
+      "--osano-widget-color": "#37cd8f",
+      "--osano-widget-fill-color": "#fff",
+      "--osano-widget-outline-color": "#29246a"
+    },
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "soft corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "soft",
+    "type_mood": [
+      "mono accents"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "dialog": 2147483638,
+    "tooltip": 2147483636,
+    "header": 100000,
+    "banner": 90000,
+    "menu": 1001,
+    "modal": 1000,
+    "notification": 10,
+    "overlay": 1
+  },
+  "z_index_rows": [
+    {
+      "role": "dialog",
+      "selector": ".osano-cm-dialog",
+      "value": "2147483637"
+    },
+    {
+      "role": "dialog",
+      "selector": ".osano-cm-info-dialog",
+      "value": "2147483638"
+    },
+    {
+      "role": "header",
+      "selector": ".osano-cm-header",
+      "value": "1"
+    },
+    {
+      "role": "header",
+      "selector": ".osano-cm-info-dialog-header",
+      "value": "1"
+    },
+    {
+      "role": "tooltip",
+      "selector": ".osano-cm-opt-out-honored-wrapper__tooltip",
+      "value": "2147483636"
+    },
+    {
+      "role": "modal",
+      "selector": ".BrandCampaignHero-module--modal-overlay--71c8f",
+      "value": "1000"
+    },
+    {
+      "role": "banner",
+      "selector": ".VideoBanner-module--video-message-wrap--0e00c",
+      "value": "90000"
+    },
+    {
+      "role": "banner",
+      "selector": ".VideoBanner-module--slide-down--4d4cb",
+      "value": "9000"
+    },
+    {
+      "role": "banner",
+      "selector": ".VideoBanner-module--slide-up--f5589",
+      "value": "9000"
+    },
+    {
+      "role": "notification",
+      "selector": ".NotificationBar-module--notifyBar--3925b",
+      "value": "10"
+    },
+    {
+      "role": "header",
+      "selector": ".Header-module--sticky--9b496",
+      "value": "10999"
+    },
+    {
+      "role": "header",
+      "selector": ".Header-module--sticky--9b496 .Header-module--site-header--c2e4d",
+      "value": "100"
+    },
+    {
+      "role": "header",
+      "selector": ".Header-module--sticky--9b496 .Header-module--site-header--c2e4d .Header-module-",
+      "value": "100000"
+    },
+    {
+      "role": "header",
+      "selector": ".Header-module--slide--e1965",
+      "value": "100"
+    },
+    {
+      "role": "menu",
+      "selector": ".DesktopMenu-module--desktop-menu--0a759 .DesktopMenu-module--primary-item--acad",
+      "value": "0"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar",
+      "change": "flex-direction: row"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-button",
+      "change": "flex-grow: 1"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-button",
+      "change": "flex-shrink: 1"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-button",
+      "change": "flex-basis: 100%"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-button",
+      "change": "width: auto"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-button",
+      "change": "margin-top: 0.25em"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-button",
+      "change": "margin-right: 0.5em"
+    },
+    {
+      "at": "376px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-dialog__list",
+      "change": "flex-direction: row"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-dialog__list",
+      "change": "margin-top: 0.5em"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-dialog__list",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-dialog__list",
+      "change": "margin-bottom: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-dialog__list",
+      "change": "margin-left: auto"
+    },
+    {
+      "at": "768px",
+      "selector": "[dir=\"rtl\"] .osano-cm-dialog--type_bar .osano-cm-dialog__list",
+      "change": "margin-top: 0.5em"
+    },
+    {
+      "at": "768px",
+      "selector": "[dir=\"rtl\"] .osano-cm-dialog--type_bar .osano-cm-dialog__list",
+      "change": "margin-right: auto"
+    },
+    {
+      "at": "768px",
+      "selector": "[dir=\"rtl\"] .osano-cm-dialog--type_bar .osano-cm-dialog__list",
+      "change": "margin-bottom: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": "[dir=\"rtl\"] .osano-cm-dialog--type_bar .osano-cm-dialog__list",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-dialog__buttons",
+      "change": "position: sticky"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-dialog__buttons",
+      "change": "top: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-dialog__buttons",
+      "change": "width: auto"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-dialog__buttons",
+      "change": "max-width: 30vw"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-dialog__buttons",
+      "change": "min-width: 16em"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-dialog__buttons",
+      "change": "margin-top: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": "[dir=\"rtl\"] .osano-cm-dialog--type_bar .osano-cm-dialog__buttons",
+      "change": "margin-top: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": "[dir=\"rtl\"] .osano-cm-dialog--type_bar .osano-cm-dialog__buttons",
+      "change": "margin-right: 0.5em"
+    },
+    {
+      "at": "768px",
+      "selector": "[dir=\"rtl\"] .osano-cm-dialog--type_bar .osano-cm-dialog__buttons",
+      "change": "margin-bottom: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": "[dir=\"rtl\"] .osano-cm-dialog--type_bar .osano-cm-dialog__buttons",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "800px",
+      "selector": ".osano-cm-dialog--type_box.osano-cm-dialog--wide",
+      "change": "max-width: calc(-4em + 100vw)"
+    },
+    {
+      "at": "1024px",
+      "selector": ".ContentContainer-module--container-wide--60cef",
+      "change": "padding-top: 0px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".ContentContainer-module--container-wide--60cef",
+      "change": "padding-right: 0px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".ContentContainer-module--container-wide--60cef",
+      "change": "padding-bottom: 0px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".ContentContainer-module--container-wide--60cef",
+      "change": "padding-left: 0px"
+    },
+    {
+      "at": "1800px",
+      "selector": ".ContentContainer-module--container--51418, .ContentContainer-module--container-",
+      "change": "margin-top: 0px"
+    },
+    {
+      "at": "1800px",
+      "selector": ".ContentContainer-module--container--51418, .ContentContainer-module--container-",
+      "change": "margin-right: auto"
+    },
+    {
+      "at": "1800px",
+      "selector": ".ContentContainer-module--container--51418, .ContentContainer-module--container-",
+      "change": "margin-bottom: 0px"
+    },
+    {
+      "at": "1800px",
+      "selector": ".ContentContainer-module--container--51418, .ContentContainer-module--container-",
+      "change": "margin-left: auto"
+    },
+    {
+      "at": "768px",
+      "selector": ".PageSection-module--page-section--74457",
+      "change": "padding-bottom: 108px"
+    },
+    {
+      "at": "768px",
+      "selector": ".PageSection-module--page-section--74457",
+      "change": "padding-top: 108px"
+    },
+    {
+      "at": "768px",
+      "selector": ".PageSection-module--no-pad--2628c",
+      "change": "padding-bottom: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": ".PageSection-module--no-pad--2628c",
+      "change": "padding-top: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": ".PageSection-module--slim--972a6",
+      "change": "padding-bottom: 54px"
+    }
+  ]
+}

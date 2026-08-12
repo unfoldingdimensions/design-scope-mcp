@@ -1,0 +1,1401 @@
+{
+  "url": "https://pika.art/",
+  "extractedAt": "2026-08-09T11:38:00.684Z",
+  "meta": {
+    "snapshotId": "509c2b5b-cc29-4a00-8ee5-d4fda73ff580",
+    "httpStatus": 200,
+    "dembrandtVersion": "0.27.1",
+    "schemaVersion": "1.5.0",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "fontsReady": true,
+    "flags": {
+      "mobile": true
+    }
+  },
+  "siteName": null,
+  "logo": {
+    "source": "svg",
+    "context": "header",
+    "inline": true,
+    "url": "https://pika.art/",
+    "color": "#0d0d0d",
+    "ariaLabel": null,
+    "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 58 18\" class=\"size-5 shrink-0 h-6 w-auto text-surface-dark-2\" aria-hidden=\"true\" style=\"color: rgb(13, 13, 13);\"><use href=\"/icons.svg?v=f5ed3491#logo\"></use></svg>",
+    "dataUri": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2058%2018%22%20class%3D%22size-5%20shrink-0%20h-6%20w-auto%20text-surface-dark-2%22%20aria-hidden%3D%22true%22%20style%3D%22color%3A%20rgb(13%2C%2013%2C%2013)%3B%22%3E%3Cuse%20href%3D%22%2Ficons.svg%3Fv%3Df5ed3491%23logo%22%3E%3C%2Fuse%3E%3C%2Fsvg%3E",
+    "svgColors": [],
+    "width": 77.328125,
+    "height": 24,
+    "rect": {
+      "x": 321,
+      "y": 23,
+      "width": 77,
+      "height": 24
+    },
+    "natural": {
+      "width": 58,
+      "height": 18
+    },
+    "type": "wordmark",
+    "reversed": false,
+    "background": "#fcfaf7",
+    "safeZone": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 24
+    },
+    "position": {
+      "top": 23,
+      "left": 321
+    }
+  },
+  "logoInstances": [
+    {
+      "source": "svg",
+      "context": "header",
+      "inline": true,
+      "url": "https://pika.art/",
+      "color": "#0d0d0d",
+      "ariaLabel": null,
+      "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 58 18\" class=\"size-5 shrink-0 h-6 w-auto text-surface-dark-2\" aria-hidden=\"true\" style=\"color: rgb(13, 13, 13);\"><use href=\"/icons.svg?v=f5ed3491#logo\"></use></svg>",
+      "dataUri": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2058%2018%22%20class%3D%22size-5%20shrink-0%20h-6%20w-auto%20text-surface-dark-2%22%20aria-hidden%3D%22true%22%20style%3D%22color%3A%20rgb(13%2C%2013%2C%2013)%3B%22%3E%3Cuse%20href%3D%22%2Ficons.svg%3Fv%3Df5ed3491%23logo%22%3E%3C%2Fuse%3E%3C%2Fsvg%3E",
+      "svgColors": [],
+      "width": 77.328125,
+      "height": 24,
+      "rect": {
+        "x": 321,
+        "y": 23,
+        "width": 77,
+        "height": 24
+      },
+      "natural": {
+        "width": 58,
+        "height": 18
+      },
+      "type": "wordmark",
+      "reversed": false,
+      "background": "#fcfaf7",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 24
+      },
+      "position": {
+        "top": 23,
+        "left": 321
+      }
+    }
+  ],
+  "favicons": [
+    {
+      "type": "icon",
+      "url": "https://pika.art/favicon.ico?favicon.3e7abfbd.ico",
+      "sizes": "48x48"
+    },
+    {
+      "type": "og:image",
+      "url": "https://pika.art/images/og.jpeg",
+      "sizes": null
+    },
+    {
+      "type": "twitter:image",
+      "url": "https://pika.art/images/og.jpeg",
+      "sizes": null
+    }
+  ],
+  "colors": {
+    "semantic": {
+      "primary": "rgb(34, 34, 34)",
+      "background": "rgb(252, 250, 247)",
+      "text": "rgb(255, 255, 255)"
+    },
+    "palette": [
+      {
+        "color": "rgb(229, 231, 235)",
+        "normalized": "#e5e7eb",
+        "count": 213,
+        "confidence": "high",
+        "sources": [
+          "fixed",
+          "flex",
+          "rounded-sm"
+        ],
+        "lch": "lch(91.58% 2.18 266.35)",
+        "oklch": "oklch(92.76% 0.006 264.53)",
+        "role": "neutral",
+        "onColor": "#000000",
+        "hover": "#c3c4c8"
+      },
+      {
+        "color": "rgb(13, 13, 13)",
+        "normalized": "#0d0d0d",
+        "count": 80,
+        "confidence": "high",
+        "sources": [
+          "rounded-sm",
+          "flex",
+          "font-medium"
+        ],
+        "lch": "lch(3.64% 0 53.34)",
+        "oklch": "oklch(15.91% 0 89.88)",
+        "role": "surface",
+        "onColor": "#ffffff",
+        "hover": "#101010"
+      },
+      {
+        "color": "rgb(255, 209, 132)",
+        "normalized": "#ffd184",
+        "count": 4,
+        "confidence": "low",
+        "sources": [
+          "flex"
+        ],
+        "lch": "lch(86.68% 45.52 77.42)",
+        "oklch": "oklch(88.42% 0.108 79.54)",
+        "role": "supporting",
+        "onColor": "#000000",
+        "hover": "#d9b270"
+      },
+      {
+        "color": "rgb(255, 237, 210)",
+        "normalized": "#ffedd2",
+        "count": 1,
+        "confidence": "low",
+        "sources": [
+          "absolute"
+        ],
+        "lch": "lch(94.68% 15.8 78.37)",
+        "oklch": "oklch(95.35% 0.04 78.1)",
+        "role": "supporting",
+        "onColor": "#000000",
+        "hover": "#d9c9b3"
+      },
+      {
+        "color": "rgb(16, 16, 16)",
+        "normalized": "#101010",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      },
+      {
+        "color": "rgb(255, 219, 164)",
+        "normalized": "#ffdba4",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      }
+    ],
+    "cssVariables": {
+      "--color-brand-red": {
+        "value": "#ff4c62",
+        "hex": "#ff4c62",
+        "lch": "lch(60.05% 74.95 23.2)",
+        "oklch": "oklch(67.54% 0.214 18.31)"
+      }
+    },
+    "detected": [
+      {
+        "color": "rgb(229, 231, 235)",
+        "normalized": "#e5e7eb",
+        "count": 213,
+        "usageFrac": 0.4819004524886878,
+        "confidence": "high",
+        "sources": [
+          "fixed",
+          "flex",
+          "rounded-sm",
+          "cursor-pointer",
+          "relative"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 104,
+        "usageFrac": 0.23529411764705882,
+        "confidence": "high",
+        "sources": [
+          "fixed",
+          "flex",
+          "cursor-pointer",
+          "relative",
+          "mask-[url('/images/experiments"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(13, 13, 13)",
+        "normalized": "#0d0d0d",
+        "count": 80,
+        "usageFrac": 0.18099547511312217,
+        "confidence": "high",
+        "sources": [
+          "rounded-sm",
+          "flex",
+          "font-medium",
+          "absolute",
+          "justify-self-stretch"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(34, 34, 34)",
+        "normalized": "#222222",
+        "count": 18,
+        "usageFrac": 0.04072398190045249,
+        "confidence": "high",
+        "sources": [
+          "flex",
+          "relative"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(252, 250, 247)",
+        "normalized": "#fcfaf7",
+        "count": 13,
+        "usageFrac": 0.029411764705882353,
+        "confidence": "high",
+        "sources": [
+          "cursor-pointer",
+          "relative",
+          "font-medium"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 209, 132)",
+        "normalized": "#ffd184",
+        "count": 4,
+        "usageFrac": 0.00904977375565611,
+        "confidence": "low",
+        "sources": [
+          "flex"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 3,
+        "usageFrac": 0.006787330316742082,
+        "confidence": "low",
+        "sources": [
+          "flex"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(207, 195, 255)",
+        "normalized": "#cfc3ff",
+        "count": 2,
+        "usageFrac": 0.004524886877828055,
+        "confidence": "low",
+        "sources": [
+          "absolute"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 247, 133)",
+        "normalized": "#fff785",
+        "count": 1,
+        "usageFrac": 0.0022624434389140274,
+        "confidence": "low",
+        "sources": [
+          "relative"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(254, 251, 207)",
+        "normalized": "#fefbcf",
+        "count": 1,
+        "usageFrac": 0.0022624434389140274,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(46, 46, 46)",
+        "normalized": "#2e2e2e",
+        "count": 1,
+        "usageFrac": 0.0022624434389140274,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 237, 210)",
+        "normalized": "#ffedd2",
+        "count": 1,
+        "usageFrac": 0.0022624434389140274,
+        "confidence": "low",
+        "sources": [
+          "absolute"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(253, 247, 239)",
+        "normalized": "#fdf7ef",
+        "count": 1,
+        "usageFrac": 0.0022624434389140274,
+        "confidence": "low",
+        "sources": [
+          "absolute"
+        ],
+        "isToken": false
+      }
+    ],
+    "_raw": [
+      {
+        "color": "rgb(229, 231, 235)",
+        "normalized": "#e5e7eb",
+        "count": 213
+      },
+      {
+        "color": "rgb(252, 250, 247)",
+        "normalized": "#fcfaf7",
+        "count": 13
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 104
+      },
+      {
+        "color": "rgb(13, 13, 13)",
+        "normalized": "#0d0d0d",
+        "count": 80
+      },
+      {
+        "color": "rgb(255, 209, 132)",
+        "normalized": "#ffd184",
+        "count": 4
+      },
+      {
+        "color": "rgb(34, 34, 34)",
+        "normalized": "#222222",
+        "count": 18
+      }
+    ]
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "heading-1",
+        "family": "telkaExtended",
+        "fallbacks": "telkaExtended Fallback",
+        "size": "48px (3.00rem)",
+        "weight": 900,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": "uppercase"
+      },
+      {
+        "context": "text",
+        "family": "telkaExtended",
+        "fallbacks": "telkaExtended Fallback",
+        "size": "48px (3.00rem)",
+        "weight": 900,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": "uppercase"
+      },
+      {
+        "context": "body",
+        "family": "telka",
+        "fallbacks": "telka Fallback",
+        "size": "47.232px (2.95rem)",
+        "weight": 300,
+        "lineHeight": "0.42",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "telkaExtended",
+        "fallbacks": "telkaExtended Fallback",
+        "size": "35px (2.19rem)",
+        "weight": 500,
+        "lineHeight": "0.84",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "telkaExtended",
+        "fallbacks": "telkaExtended Fallback",
+        "size": "32px (2.00rem)",
+        "weight": 900,
+        "lineHeight": "1.00",
+        "spacing": "0.64px",
+        "transform": "uppercase"
+      },
+      {
+        "context": "body",
+        "family": "telka",
+        "fallbacks": "telka Fallback",
+        "size": "30.08px (1.88rem)",
+        "weight": 400,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "telka",
+        "fallbacks": "telka Fallback",
+        "size": "30.08px (1.88rem)",
+        "weight": 400,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "telkaExtended",
+        "fallbacks": "telkaExtended Fallback",
+        "size": "20px (1.25rem)",
+        "weight": 500,
+        "lineHeight": "1.13",
+        "spacing": "0.4px",
+        "transform": "uppercase"
+      },
+      {
+        "context": "body",
+        "family": "telka",
+        "fallbacks": "telka Fallback",
+        "size": "17px (1.06rem)",
+        "weight": 500,
+        "lineHeight": "1.53",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "telka",
+        "fallbacks": "telka Fallback",
+        "size": "17px (1.06rem)",
+        "weight": 300,
+        "lineHeight": "1.32",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "telka",
+        "fallbacks": "telka Fallback",
+        "size": "17px (1.06rem)",
+        "weight": 500,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "telka",
+        "fallbacks": "telka Fallback",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "telka",
+        "fallbacks": "telka Fallback",
+        "size": "15px (0.94rem)",
+        "weight": 400,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "telka",
+        "fallbacks": "telka Fallback",
+        "size": "15px (0.94rem)",
+        "weight": 500,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "telka",
+        "fallbacks": "telka Fallback",
+        "size": "15px (0.94rem)",
+        "weight": 400,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "telka",
+        "fallbacks": "telka Fallback",
+        "size": "15px (0.94rem)",
+        "weight": 500,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "telka",
+        "fallbacks": "telka Fallback",
+        "size": "15px (0.94rem)",
+        "weight": 300,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "telka",
+        "fallbacks": "telka Fallback",
+        "size": "15px (0.94rem)",
+        "weight": 500,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "telka",
+        "fallbacks": "telka Fallback",
+        "size": "14px (0.88rem)",
+        "weight": 300,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "telka",
+        "fallbacks": "telka Fallback",
+        "size": "14px (0.88rem)",
+        "weight": 300,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "telka",
+        "fallbacks": "telka Fallback",
+        "size": "14px (0.88rem)",
+        "weight": 300,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "telka",
+        "fallbacks": "telka Fallback",
+        "size": "12px (0.75rem)",
+        "weight": 500,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "telka",
+        "fallbacks": "telka Fallback",
+        "size": "12px (0.75rem)",
+        "weight": 300,
+        "lineHeight": "1.13",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "telkaExtended",
+        "fallbacks": "telkaExtended Fallback",
+        "size": "12px (0.75rem)",
+        "weight": 700,
+        "lineHeight": "1.00",
+        "spacing": "0.24px",
+        "transform": "uppercase"
+      }
+    ],
+    "sources": {
+      "googleFonts": [],
+      "adobeFonts": false,
+      "variableFonts": false,
+      "selfHostedFonts": [
+        "Telka_Black-s.p.5981fc6f.woff2",
+        "Telka_Bold-s.p.717b1673.woff2",
+        "Telka_Extended_Black-s.p.945ba36a.woff2",
+        "Telka_Extended_Bold-s.p.1ab6567a.woff2",
+        "Telka_Extended_Light-s.p.b3cad60a.woff2",
+        "Telka_Extended_Medium-s.p.333d7db8.woff2",
+        "Telka_Extended_Regular-s.p.465671a5.woff2",
+        "Telka_Extended_Super-s.p.883e5975.woff2",
+        "Telka_Light-s.p.e1d9f84c.woff2",
+        "Telka_Medium-s.p.1e7dfd11.woff2",
+        "Telka_Regular-s.p.b74096f8.woff2",
+        "Telka_Super-s.p.c97ce528.woff2",
+        "dc0d9adbac686440-s.p.3b382e45.woff2"
+      ],
+      "customFonts": [
+        "Telka_Black-s.p.5981fc6f.woff2",
+        "Telka_Bold-s.p.717b1673.woff2",
+        "Telka_Extended_Black-s.p.945ba36a.woff2",
+        "Telka_Extended_Bold-s.p.1ab6567a.woff2",
+        "Telka_Extended_Light-s.p.b3cad60a.woff2",
+        "Telka_Extended_Medium-s.p.333d7db8.woff2",
+        "Telka_Extended_Regular-s.p.465671a5.woff2",
+        "Telka_Extended_Super-s.p.883e5975.woff2",
+        "Telka_Light-s.p.e1d9f84c.woff2",
+        "Telka_Medium-s.p.1e7dfd11.woff2",
+        "Telka_Regular-s.p.b74096f8.woff2",
+        "Telka_Super-s.p.c97ce528.woff2",
+        "dc0d9adbac686440-s.p.3b382e45.woff2"
+      ]
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "4px",
+        "display": "4px",
+        "rem": "0.25rem",
+        "count": 2,
+        "numericValue": 4
+      },
+      {
+        "px": "6px",
+        "display": "6px",
+        "rem": "0.38rem",
+        "count": 1,
+        "numericValue": 6
+      },
+      {
+        "px": "8px",
+        "display": "8px",
+        "rem": "0.50rem",
+        "count": 19,
+        "numericValue": 8
+      },
+      {
+        "px": "12px",
+        "display": "12px",
+        "rem": "0.75rem",
+        "count": 2,
+        "numericValue": 12
+      },
+      {
+        "px": "14px",
+        "display": "14px",
+        "rem": "0.88rem",
+        "count": 14,
+        "numericValue": 14
+      },
+      {
+        "px": "22px",
+        "display": "22px",
+        "rem": "1.38rem",
+        "count": 2,
+        "numericValue": 22
+      },
+      {
+        "px": "32px",
+        "display": "32px",
+        "rem": "2.00rem",
+        "count": 2,
+        "numericValue": 32
+      },
+      {
+        "px": "40px",
+        "display": "40px",
+        "rem": "2.50rem",
+        "count": 9,
+        "numericValue": 40
+      },
+      {
+        "px": "48px",
+        "display": "48px",
+        "rem": "3.00rem",
+        "count": 3,
+        "numericValue": 48
+      },
+      {
+        "px": "56px",
+        "display": "56px",
+        "rem": "3.50rem",
+        "count": 1,
+        "numericValue": 56
+      },
+      {
+        "px": "64px",
+        "display": "64px",
+        "rem": "4.00rem",
+        "count": 2,
+        "numericValue": 64
+      },
+      {
+        "px": "80px",
+        "display": "80px",
+        "rem": "5.00rem",
+        "count": 4,
+        "numericValue": 80
+      },
+      {
+        "px": "96px",
+        "display": "96px",
+        "rem": "6.00rem",
+        "count": 3,
+        "numericValue": 96
+      },
+      {
+        "px": "144px",
+        "display": "144px",
+        "rem": "9.00rem",
+        "count": 1,
+        "numericValue": 144
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "4px",
+        "count": 9,
+        "elements": [
+          "Pika home",
+          "a",
+          "Toggle menu"
+        ],
+        "confidence": "medium",
+        "numericValue": 4
+      },
+      {
+        "value": "18px",
+        "count": 11,
+        "elements": [
+          "a",
+          "Attach image",
+          "button"
+        ],
+        "confidence": "high",
+        "numericValue": 18
+      },
+      {
+        "value": "24px",
+        "count": 10,
+        "elements": [
+          "div",
+          "a",
+          "image"
+        ],
+        "confidence": "medium",
+        "numericValue": 24
+      },
+      {
+        "value": "49.92px",
+        "count": 6,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 49.92
+      },
+      {
+        "value": "3.35544e+07px",
+        "count": 13,
+        "elements": [
+          "div",
+          "span",
+          "Instagram",
+          "X",
+          "LinkedIn"
+        ],
+        "confidence": "high",
+        "numericValue": 33554400
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "0px 0px 1px",
+        "style": "solid",
+        "color": "oklab(0.251963 0.0000115335 0.00000502169 / 0.15)",
+        "count": 6,
+        "elements": [
+          "a"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(254, 251, 207)",
+        "count": 6,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "2px",
+        "style": "solid",
+        "color": "rgb(13, 13, 13)",
+        "count": 4,
+        "elements": [
+          "span"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(34, 34, 34)",
+        "count": 3,
+        "elements": [
+          "a"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "lab(3.63549 -0.00000745058 0.00000298023 / 0.05)",
+        "count": 2,
+        "elements": [
+          "a",
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "lab(13.2279 0 0 / 0.15)",
+        "count": 1,
+        "elements": [
+          "a"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.1)",
+        "count": 1,
+        "elements": [
+          "span"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.3) 0px 2px 12px 0px",
+      "count": 6,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(17, 17, 17) 0px 2px 0px 0px",
+      "count": 4,
+      "confidence": "medium"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 4px 4px 0px",
+      "count": 2,
+      "confidence": "low"
+    }
+  ],
+  "gradients": [
+    {
+      "gradient": "radial-gradient(300px at 0px 0px, rgba(255, 255, 255, 0.15), rgba(0, 0, 0, 0) 60%)",
+      "type": "radial",
+      "stopColors": [
+        "rgba(255, 255, 255, 0.15)",
+        "rgba(0, 0, 0, 0)"
+      ],
+      "count": 3
+    },
+    {
+      "gradient": "linear-gradient(135deg, rgb(29, 29, 31) 200%, rgb(144, 112, 72) 208%, rgb(168, 136, 88) 212%, rgb(200, 168, 104) 216%, rgb(224, 200, 136) 220%, rgb(212, 184, 120) 224%, rgb(184, 152, 88) 228%, rgb(160, 128, 80) 232%, rgb(184, 144, 96) 236%, rgb(29, 29, 31) 240%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(29, 29, 31)",
+        "rgb(144, 112, 72)",
+        "rgb(168, 136, 88)",
+        "rgb(200, 168, 104)",
+        "rgb(224, 200, 136)",
+        "rgb(212, 184, 120)",
+        "rgb(184, 152, 88)",
+        "rgb(160, 128, 80)",
+        "rgb(184, 144, 96)",
+        "rgb(29, 29, 31)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(in oklab, rgb(252, 250, 247) 0%, rgba(0, 0, 0, 0) 100%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(252, 250, 247)",
+        "rgba(0, 0, 0, 0)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(to top in oklab, rgb(207, 195, 255) 0%, rgba(0, 0, 0, 0) 100%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(207, 195, 255)",
+        "rgba(0, 0, 0, 0)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(to top in oklab, rgb(255, 209, 132) 0%, rgba(0, 0, 0, 0) 100%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(255, 209, 132)",
+        "rgba(0, 0, 0, 0)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(to top, rgba(255, 209, 132, 0.3), rgba(0, 0, 0, 0))",
+      "type": "linear",
+      "stopColors": [
+        "rgba(255, 209, 132, 0.3)",
+        "rgba(0, 0, 0, 0)"
+      ],
+      "count": 1
+    }
+  ],
+  "motion": {
+    "durations": [
+      {
+        "value": "0.001s",
+        "ms": 1,
+        "count": 260
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease",
+        "type": "ease",
+        "count": 238
+      },
+      {
+        "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "type": "custom",
+        "count": 19
+      },
+      {
+        "value": "cubic-bezier(0.33, 1, 0.68, 1)",
+        "type": "custom",
+        "count": 2
+      },
+      {
+        "value": "ease-out",
+        "type": "ease-out",
+        "count": 1
+      }
+    ],
+    "animations": [],
+    "contexts": {
+      "nav": {
+        "count": 4,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "card": {
+        "count": 20,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "opacity",
+          "visibility",
+          "translate",
+          "background-color"
+        ]
+      },
+      "link": {
+        "count": 21,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "easingType": "custom",
+        "props": [
+          "background-color",
+          "border-color",
+          "color",
+          "outline-color"
+        ]
+      },
+      "input": {
+        "count": 1,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "button": {
+        "count": 5,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "easingType": "custom",
+        "props": [
+          "background-color",
+          "transform",
+          "box-shadow"
+        ]
+      },
+      "modal": {
+        "count": 1,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      }
+    },
+    "interactiveDeltas": [
+      {
+        "tag": "a",
+        "text": "Careers",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "oklab(0.159065 0.00000723451 0.00000317395 / 0.7)",
+            "to": "rgb(13, 13, 13)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Referral",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "oklab(0.159065 0.00000723451 0.00000317395 / 0.7)",
+            "to": "rgb(13, 13, 13)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Contact Us",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "oklab(0.159065 0.00000723451 0.00000317395 / 0.7)",
+            "to": "rgb(13, 13, 13)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Pricing",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "oklab(0.159065 0.00000723451 0.00000317395 / 0.7)",
+            "to": "rgb(13, 13, 13)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "API",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "oklab(0.159065 0.00000723451 0.00000317395 / 0.7)",
+            "to": "rgb(13, 13, 13)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Experiments",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "oklab(0.159065 0.00000723451 0.00000317395 / 0.7)",
+            "to": "rgb(13, 13, 13)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Login",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgba(0, 0, 0, 0)",
+            "to": "lab(3.63549 -0.00000745058 0.00000298023 / 0.05)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Sign Up",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgb(255, 209, 132)",
+            "to": "rgb(255, 219, 164)"
+          }
+        }
+      }
+    ]
+  },
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "8px 12px",
+            "borderRadius": "18px",
+            "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+            "fontSize": "14px",
+            "fontWeight": "300"
+          }
+        },
+        "fontWeight": "300",
+        "fontSize": "14px",
+        "text": "Generate",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(13, 13, 13, 0.05)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px 20px",
+            "borderRadius": "18px",
+            "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+            "fontSize": "15px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "15px",
+        "text": "See more",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(255, 209, 132)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px 20px",
+            "borderRadius": "18px",
+            "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+            "fontSize": "15px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "15px",
+        "text": "Sign Up",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "lab(3.63549 -0.00000745058 0.00000298023 / 0.6)",
+            "padding": "0px 20px",
+            "borderRadius": "18px",
+            "border": "1px solid lab(3.63549 -0.00000745058 0.00000298023 / 0.05)",
+            "fontSize": "15px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "15px",
+        "text": "Login",
+        "confidence": "medium"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(34, 34, 34)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "0px 16px",
+            "borderRadius": "18px",
+            "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+            "fontSize": "17px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "17px",
+        "text": "Explore Pika Agent",
+        "confidence": "medium"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(255, 255, 255, 0.05)",
+            "color": "rgba(252, 250, 247, 0.85)",
+            "padding": "0px 16px",
+            "borderRadius": "18px",
+            "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+            "fontSize": "17px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "17px",
+        "text": "Explore Pika MCP",
+        "confidence": "medium"
+      }
+    ],
+    "inputs": {
+      "text": [
+        {
+          "specificType": "textarea",
+          "states": {
+            "default": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(13, 13, 13)",
+              "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+              "borderRadius": "0px",
+              "padding": "12px",
+              "boxShadow": "none",
+              "outline": "rgb(13, 13, 13) solid 0px"
+            },
+            "focus": null
+          }
+        }
+      ],
+      "checkbox": [],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none",
+        "fontWeight": "300",
+        "states": {
+          "default": {
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "none"
+          },
+          "hover": null
+        }
+      },
+      {
+        "color": "oklab(0.159065 0.00000723451 0.00000317395 / 0.7)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "oklab(0.159065 0.00000723451 0.00000317395 / 0.7)",
+            "textDecoration": "none"
+          },
+          "hover": null
+        }
+      },
+      {
+        "color": "rgb(34, 34, 34)",
+        "textDecoration": "none",
+        "fontWeight": "500",
+        "states": {
+          "default": {
+            "color": "rgb(34, 34, 34)",
+            "textDecoration": "none"
+          },
+          "hover": null
+        }
+      },
+      {
+        "color": "rgba(252, 250, 247, 0.85)",
+        "textDecoration": "none",
+        "fontWeight": "500",
+        "states": {
+          "default": {
+            "color": "rgba(252, 250, 247, 0.85)",
+            "textDecoration": "none"
+          },
+          "hover": null
+        }
+      },
+      {
+        "color": "lab(98.3644 0.298828 1.68849 / 0.5)",
+        "textDecoration": "none",
+        "fontWeight": "500",
+        "states": {
+          "default": {
+            "color": "lab(98.3644 0.298828 1.68849 / 0.5)",
+            "textDecoration": "none"
+          },
+          "hover": null
+        }
+      }
+    ],
+    "badges": {
+      "all": [],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": []
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "428px"
+    },
+    {
+      "px": "800px"
+    },
+    {
+      "px": "1024px"
+    }
+  ],
+  "iconSystem": [],
+  "frameworks": [
+    {
+      "name": "Tailwind CSS",
+      "confidence": "high",
+      "evidence": "arbitrary values (e.g., top-[117px]), responsive/state modifiers"
+    }
+  ]
+}

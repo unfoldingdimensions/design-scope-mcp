@@ -1,0 +1,163 @@
+{
+  "url": "https://tauri.app",
+  "captured": "2026-08-10T07:48:05+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "oklch(0.5 0.15 253)",
+          "after": "rgb(85, 89, 98)"
+        },
+        "borderColor": {
+          "before": "oklch(0.5 0.15 253)",
+          "after": "rgb(85, 89, 98)"
+        },
+        "outline": {
+          "before": "oklch(0.5 0.15 253) none 3px",
+          "after": "rgb(85, 89, 98) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgb(23, 24, 28)",
+          "after": "rgb(85, 89, 98)"
+        },
+        "borderColor": {
+          "before": "rgb(23, 24, 28)",
+          "after": "rgb(85, 89, 98)"
+        },
+        "outline": {
+          "before": "rgb(23, 24, 28) none 3px",
+          "after": "rgb(85, 89, 98) none 3px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 3,
+      "diffs": {
+        "color": {
+          "before": "rgb(23, 24, 28)",
+          "after": "rgb(85, 89, 98)"
+        },
+        "borderColor": {
+          "before": "rgb(23, 24, 28)",
+          "after": "rgb(85, 89, 98)"
+        },
+        "outline": {
+          "before": "rgb(23, 24, 28) none 3px",
+          "after": "rgb(85, 89, 98) none 3px"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "color": {
+          "before": "rgb(35, 38, 47)",
+          "after": "rgb(23, 24, 28)"
+        },
+        "borderColor": {
+          "before": "rgb(213, 215, 221)",
+          "after": "rgb(35, 38, 47)"
+        },
+        "outline": {
+          "before": "rgb(35, 38, 47) none 3px",
+          "after": "rgb(23, 24, 28) none 3px"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 185,
+    "tabs": 20,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "div",
+      "classes": "tablist-wrapper not-content astro-27ecw45w",
+      "text": "BashPowerShellFishnpmYarnpnpmdenobunCargo",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "li",
+      "classes": "tab astro-27ecw45w",
+      "text": "Bash",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "a",
+      "classes": "astro-27ecw45w",
+      "text": "Bash",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "li",
+      "classes": "tab astro-27ecw45w",
+      "text": "PowerShell",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "a",
+      "classes": "astro-27ecw45w",
+      "text": "PowerShell",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "li",
+      "classes": "tab astro-27ecw45w",
+      "text": "Fish",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "a",
+      "classes": "astro-27ecw45w",
+      "text": "Fish",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "li",
+      "classes": "tab astro-27ecw45w",
+      "text": "npm",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

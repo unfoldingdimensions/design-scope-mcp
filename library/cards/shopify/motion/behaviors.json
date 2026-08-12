@@ -1,0 +1,79 @@
+{
+  "url": "https://www.shopify.com",
+  "captured": "2026-08-10T05:14:26+00:00",
+  "hover_diffs": [
+    {
+      "selector": "button",
+      "index": 1,
+      "diffs": {
+        "borderColor": {
+          "before": "rgb(255, 255, 255)",
+          "after": "rgb(212, 212, 216)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgb(224, 224, 224)",
+          "after": "rgb(255, 255, 255)"
+        },
+        "outline": {
+          "before": "rgb(224, 224, 224) none 3px",
+          "after": "rgb(255, 255, 255) none 3px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 319,
+    "tabs": 5,
+    "accordions": 0,
+    "carousels": 1,
+    "observers": 5,
+    "scrollSnap": 4,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "span",
+      "classes": "cursor-pointer text-shade-50 focus-visible:text-transparent hover:text-transpare",
+      "text": "Sell everywhere people shop.",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "span",
+      "classes": "cursor-pointer text-shade-50 focus-visible:text-transparent hover:text-transpare",
+      "text": "Online and in person.",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "span",
+      "classes": "cursor-pointer text-shade-50 focus-visible:text-transparent hover:text-transpare",
+      "text": "Across AI and on social.",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "span",
+      "classes": "cursor-pointer text-shade-50 focus-visible:text-transparent hover:text-transpare",
+      "text": "Locally and globally.",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    }
+  ]
+}

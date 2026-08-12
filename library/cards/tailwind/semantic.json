@@ -1,0 +1,235 @@
+{
+  "url": "https://tailwindcss.com",
+  "captured": "2026-08-10T07:30:42+00:00",
+  "named_tokens": {
+    "light": {
+      "--lightningcss-light": "initial",
+      "--lightningcss-dark": ""
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "generous corners",
+      "elevated (soft shadows)"
+    ],
+    "flat": false,
+    "corner_style": "generous",
+    "type_mood": [
+      "mono accents"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {},
+  "z_index_rows": [],
+  "responsive": [
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".DocSearch-Container",
+      "change": "padding-top: 10vh"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".DocSearch-Container",
+      "change": "padding-right: 10vh"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".DocSearch-Container",
+      "change": "padding-bottom: 10vh"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".DocSearch-Container",
+      "change": "padding-left: 10vh"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".DocSearch-Container",
+      "change": "padding-top: 12vh"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".DocSearch-Container",
+      "change": "padding-right: 12vh"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".DocSearch-Container",
+      "change": "padding-bottom: 12vh"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".DocSearch-Container",
+      "change": "padding-left: 12vh"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".system .DocSearch-Container",
+      "change": "background-color: rgba(16, 24, 40, 0.8)"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".system .DocSearch-SearchBar",
+      "change": "border-top-color: rgba(229, 231, 235, 0.05)"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".system .DocSearch-SearchBar",
+      "change": "border-right-color: rgba(229, 231, 235, 0.05)"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".system .DocSearch-SearchBar",
+      "change": "border-bottom-color: rgba(229, 231, 235, 0.05)"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".system .DocSearch-SearchBar",
+      "change": "border-left-color: rgba(229, 231, 235, 0.05)"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".system .DocSearch-Hit--Result.DocSearch-Hit--Child::before",
+      "change": "background-image: initial"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".system .DocSearch-Hit--Result.DocSearch-Hit--Child::before",
+      "change": "background-position-x: initial"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".system .DocSearch-Hit--Result.DocSearch-Hit--Child::before",
+      "change": "background-position-y: initial"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".system .DocSearch-Hit--Result.DocSearch-Hit--Child::before",
+      "change": "background-size: initial"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".system .DocSearch-Hit--Result.DocSearch-Hit--Child::before",
+      "change": "background-repeat: initial"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".system .DocSearch-Hit--Result.DocSearch-Hit--Child::before",
+      "change": "background-attachment: initial"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".DocSearch-Hit > a:where(.system, .system *)",
+      "change": "border-top-color: rgba(229, 231, 235, 0.05)"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".DocSearch-Hit > a:where(.system, .system *)",
+      "change": "border-right-color: rgba(229, 231, 235, 0.05)"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".DocSearch-Hit > a:where(.system, .system *)",
+      "change": "border-bottom-color: rgba(229, 231, 235, 0.05)"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".DocSearch-Hit > a:where(.system, .system *)",
+      "change": "border-left-color: rgba(229, 231, 235, 0.05)"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".system .DocSearch-MagnifierLabel",
+      "change": "background-image: url(\"data:image/svg+xml,%3Csvg width='24' height='24' fill='"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".DocSearch-Input:where(.system, .system *)",
+      "change": "color: var(--color-gray-200)"
+    },
+    {
+      "at": "(min-width: 40rem)",
+      "selector": ".DocSearch-Input",
+      "change": "font-size: 0.875rem"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".system .DocSearch-Hit-source",
+      "change": "color: var(--color-gray-200)"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".system :is(.DocSearch-Hit--Parent .DocSearch-Hit-icon)",
+      "change": "background-image: url(\"data:image/svg+xml,%3Csvg  viewBox='0 0 20 20' fill='no"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".system .DocSearch-Hit-path",
+      "change": "color: var(--color-gray-400)"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".DocSearch-Hit-title:where(.system, .system *)",
+      "change": "color: var(--color-gray-400)"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".system :is(.DocSearch-Hit--Result .DocSearch-Hit-action)",
+      "change": "background-image: url(\"data:image/svg+xml,%3Csvg width='24' height='24' fill='"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".system :is(.DocSearch-Hit:first-child > a)",
+      "change": "border-top-color: rgba(229, 231, 235, 0.05)"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".system :is(.DocSearch-Hit:first-child > a)",
+      "change": "border-right-color: rgba(229, 231, 235, 0.05)"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".system :is(.DocSearch-Hit:first-child > a)",
+      "change": "border-bottom-color: rgba(229, 231, 235, 0.05)"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".system :is(.DocSearch-Hit:first-child > a)",
+      "change": "border-left-color: rgba(229, 231, 235, 0.05)"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".system .DocSearch-Hit--Result",
+      "change": "background-color: rgba(54, 65, 83, 0.3)"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".DocSearch-Hit[aria-selected=\"true\"] > a:where(.system, .system *)",
+      "change": "background-color: rgba(54, 65, 83, 0.16)"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".DocSearch-Hit[aria-selected=\"true\"] .DocSearch-Hit--Result:where(.system, .syst",
+      "change": "background-color: var(--color-sky-600)"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".DocSearch-Hits mark:where(.system, .system *)",
+      "change": "border-top-width: 0px"
+    },
+    {
+      "at": "(prefers-color-scheme: dark)",
+      "selector": ".DocSearch-Hits mark:where(.system, .system *)",
+      "change": "border-right-width: 0px"
+    }
+  ]
+}

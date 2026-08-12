@@ -1,0 +1,295 @@
+{
+  "url": "https://postmarkapp.com",
+  "captured": "2026-08-10T10:27:10+00:00",
+  "named_tokens": {
+    "light": {
+      "--lovewall-quotes": "9"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "soft corners",
+      "elevated (soft shadows)"
+    ],
+    "flat": false,
+    "corner_style": "soft",
+    "type_mood": [
+      "mono accents"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "modal": 2147483647,
+    "banner": 2147483645,
+    "header": 1061,
+    "nav": 1060
+  },
+  "z_index_rows": [
+    {
+      "role": "header",
+      "selector": ".header_hamburger.is-active",
+      "value": "1061"
+    },
+    {
+      "role": "nav",
+      "selector": ".nav_dropdown",
+      "value": "101"
+    },
+    {
+      "role": "nav",
+      "selector": ".nav_dropdown-wrapper::before",
+      "value": "102"
+    },
+    {
+      "role": "nav",
+      "selector": ".nav-mobile",
+      "value": "1060"
+    },
+    {
+      "role": "banner",
+      "selector": ".switch-banner",
+      "value": "5"
+    },
+    {
+      "role": "banner",
+      "selector": ".switch-banner_form",
+      "value": "1"
+    },
+    {
+      "role": "banner",
+      "selector": ".switch-banner .u-container::after",
+      "value": "0"
+    },
+    {
+      "role": "banner",
+      "selector": ".switch-banner--pricing .cta-btn",
+      "value": "1"
+    },
+    {
+      "role": "nav",
+      "selector": ".tabbed-nav--libs .tabbed-nav_item--current, .tabbed-nav--libs .tabbed-nav_item-",
+      "value": "1"
+    },
+    {
+      "role": "modal",
+      "selector": "#onetrust-consent-sdk .ot-general-modal",
+      "value": "2147483647"
+    },
+    {
+      "role": "banner",
+      "selector": "#onetrust-banner-sdk.otFloatingRounded",
+      "value": "2147483645"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "750px",
+      "selector": ".title-hero",
+      "change": "font-size: 2.25rem"
+    },
+    {
+      "at": "750px",
+      "selector": ".title-hero--l",
+      "change": "font-size: 2.75em"
+    },
+    {
+      "at": "750px",
+      "selector": ".title-page",
+      "change": "font-size: 2rem"
+    },
+    {
+      "at": "750px",
+      "selector": ".scope-text h1",
+      "change": "text-align: left"
+    },
+    {
+      "at": "768px",
+      "selector": ".u-flex-direction--column",
+      "change": "flex-direction: column"
+    },
+    {
+      "at": "768px",
+      "selector": ".u-flex-direction--column-reverse",
+      "change": "flex-direction: column-reverse"
+    },
+    {
+      "at": "768px",
+      "selector": ".u-flex-container",
+      "change": "row-gap: 40px"
+    },
+    {
+      "at": "768px",
+      "selector": ".u-flex-container",
+      "change": "column-gap: 40px"
+    },
+    {
+      "at": "360px",
+      "selector": ".hidden--at-xxs",
+      "change": "display: none"
+    },
+    {
+      "at": "480px",
+      "selector": ".hidden--at-xs",
+      "change": "display: none"
+    },
+    {
+      "at": "615px",
+      "selector": ".hidden--at-s",
+      "change": "display: none"
+    },
+    {
+      "at": "750px",
+      "selector": ".hidden--at-m",
+      "change": "display: none"
+    },
+    {
+      "at": "885px",
+      "selector": ".hidden--at-l",
+      "change": "display: none"
+    },
+    {
+      "at": "960px",
+      "selector": ".hidden--at-l-2",
+      "change": "display: none"
+    },
+    {
+      "at": "1020px",
+      "selector": ".hidden--at-xl",
+      "change": "display: none"
+    },
+    {
+      "at": "1100px",
+      "selector": ".hidden--at-xxl",
+      "change": "display: none"
+    },
+    {
+      "at": "885px",
+      "selector": ".hidden--at-large",
+      "change": "display: none"
+    },
+    {
+      "at": "750px",
+      "selector": ".u-nowrap",
+      "change": "white-space-collapse: collapse"
+    },
+    {
+      "at": "750px",
+      "selector": ".u-nowrap",
+      "change": "text-wrap-mode: nowrap"
+    },
+    {
+      "at": "885px",
+      "selector": "a.dnt-link",
+      "change": "align-self: flex-end"
+    },
+    {
+      "at": "740px",
+      "selector": ".fake-hs-beacon",
+      "change": "bottom: 10px"
+    },
+    {
+      "at": "740px",
+      "selector": ".fake-hs-beacon",
+      "change": "right: 20px"
+    },
+    {
+      "at": "615px",
+      "selector": ".u-container",
+      "change": "padding-top: 0px"
+    },
+    {
+      "at": "615px",
+      "selector": ".u-container",
+      "change": "padding-right: 40px"
+    },
+    {
+      "at": "615px",
+      "selector": ".u-container",
+      "change": "padding-bottom: 0px"
+    },
+    {
+      "at": "615px",
+      "selector": ".u-container",
+      "change": "padding-left: 40px"
+    },
+    {
+      "at": "650px",
+      "selector": ".u-container--confirm",
+      "change": "margin-bottom: 160px"
+    },
+    {
+      "at": "650px",
+      "selector": ".u-container--confirm",
+      "change": "margin-top: 160px"
+    },
+    {
+      "at": "750px",
+      "selector": ".u-container--overlap",
+      "change": "margin-top: -125px"
+    },
+    {
+      "at": "750px",
+      "selector": ".wrapper",
+      "change": "padding-bottom: 80px"
+    },
+    {
+      "at": "750px",
+      "selector": ".wrapper",
+      "change": "padding-top: 80px"
+    },
+    {
+      "at": "750px",
+      "selector": ".u-grid--gutters-large",
+      "change": "margin-top: -80px"
+    },
+    {
+      "at": "750px",
+      "selector": ".u-grid--gutters-large",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "750px",
+      "selector": ".u-grid--gutters-large",
+      "change": "margin-bottom: 0px"
+    },
+    {
+      "at": "750px",
+      "selector": ".u-grid--gutters-large",
+      "change": "margin-left: -80px"
+    },
+    {
+      "at": "750px",
+      "selector": ".u-grid--gutters-large > .u-grid-cell",
+      "change": "padding-top: 80px"
+    },
+    {
+      "at": "750px",
+      "selector": ".u-grid--gutters-large > .u-grid-cell",
+      "change": "padding-right: 0px"
+    },
+    {
+      "at": "750px",
+      "selector": ".u-grid--gutters-large > .u-grid-cell",
+      "change": "padding-bottom: 0px"
+    },
+    {
+      "at": "750px",
+      "selector": ".u-grid--gutters-large > .u-grid-cell",
+      "change": "padding-left: 80px"
+    },
+    {
+      "at": "750px",
+      "selector": ".u-grid--gutters-1of12",
+      "change": "margin-top: -96px"
+    }
+  ]
+}

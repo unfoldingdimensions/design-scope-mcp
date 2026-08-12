@@ -1,0 +1,45 @@
+{
+  "url": "https://itch.io",
+  "hovers": [
+    {
+      "selector": "a[href]",
+      "file": "hover-01.png",
+      "box": {
+        "x": 22,
+        "y": 8,
+        "width": 136,
+        "height": 35
+      }
+    },
+    {
+      "selector": "a[href]",
+      "file": "hover-02.png",
+      "box": {
+        "x": 178,
+        "y": 0,
+        "width": 106,
+        "height": 50
+      }
+    },
+    {
+      "selector": "a[href]",
+      "file": "hover-03.png",
+      "box": {
+        "x": 305,
+        "y": 0,
+        "width": 81,
+        "height": 50
+      }
+    },
+    {
+      "selector": "button",
+      "file": "hover-04.png",
+      "box": {
+        "x": 1164,
+        "y": 10,
+        "width": 38,
+        "height": 30
+      }
+    }
+  ]
+}

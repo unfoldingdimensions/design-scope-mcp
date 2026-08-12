@@ -1,0 +1,1353 @@
+{
+  "url": "https://n26.com/en-eu",
+  "extractedAt": "2026-08-09T12:28:56.825Z",
+  "meta": {
+    "snapshotId": "342b13b8-c70e-433a-8058-d9a540e30a9e",
+    "httpStatus": 200,
+    "dembrandtVersion": "0.27.1",
+    "schemaVersion": "1.5.0",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "fontsReady": true,
+    "flags": {
+      "mobile": true
+    }
+  },
+  "siteName": "N26",
+  "logo": {
+    "source": "svg",
+    "context": "header",
+    "inline": true,
+    "url": "https://n26.com/en-eu",
+    "color": "#1b1b1b",
+    "ariaLabel": null,
+    "markup": "<svg viewBox=\"0 0 46 32\" class=\"h-nemo32 fill-black\" role=\"img\" aria-labelledby=\"n26-logo-title\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" style=\"color: rgb(27, 27, 27);\"><path d=\"M40.649 12.795c-2.108 0-3.615.975-4.376 2.419 0-3.411 1.19-6.383 4.015-6.383 1.796 0 2.509 1.034 2.889 2.728l2.616-.523c-.615-2.926-2.474-4.347-5.487-4.347-3.785 0-6.617 2.906-6.617 9.42 0 5.783 2.361 8.641 6.43 8.641 3.363 0 5.881-2.296 5.881-6.08 0-2.956-1.576-5.875-5.351-5.875zm-.523 9.818c-2.087 0-3.531-1.92-3.782-4.463.634-2.172 2.04-3.253 3.701-3.253 2.136 0 3.342 1.577 3.342 3.82 0 2.407-1.373 3.896-3.261 3.896zM26.211 18.975c-.847.847-2.756 2.376-4.088 3.296h7.991v2.292H18.355V22.47c1.363-.973 4.193-3.086 5.964-4.858 1.695-1.695 2.805-3.244 2.805-5.518 0-2.237-1.229-3.167-2.89-3.167-1.702 0-3.062.984-3.062 3.039 0 .448.05.946.174 1.519l-2.671-.259a5.647 5.647 0 01-.174-1.395c0-2.743 1.924-5.142 5.821-5.142 3.215 0 5.593 1.669 5.593 5.318 0 3.318-2.423 5.705-3.513 6.779l-.191.189zM0 0h14.251v2.292H0zM11.579 6.875v12.1h-.001c0 1.071.025 1.719.075 2.342h-.05c-.262-.713-.571-1.338-1.031-2.152L3.416 6.875H.146v17.688h2.548v-12.1h.002c0-1.072-.025-1.719-.075-2.342h.05c.261.713.57 1.338 1.03 2.151l7.156 12.291h3.237V6.875h-2.515zM0 29.146h14.251v2.28H0z\"></path><title id=\"n26-logo-title\">N26 Logo</title></svg>",
+    "dataUri": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%2046%2032%22%20class%3D%22h-nemo32%20fill-black%22%20role%3D%22img%22%20aria-labelledby%3D%22n26-logo-title%22%20focusable%3D%22false%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%20rgb(27%2C%2027%2C%2027)%3B%22%3E%3Cpath%20d%3D%22M40.649%2012.795c-2.108%200-3.615.975-4.376%202.419%200-3.411%201.19-6.383%204.015-6.383%201.796%200%202.509%201.034%202.889%202.728l2.616-.523c-.615-2.926-2.474-4.347-5.487-4.347-3.785%200-6.617%202.906-6.617%209.42%200%205.783%202.361%208.641%206.43%208.641%203.363%200%205.881-2.296%205.881-6.08%200-2.956-1.576-5.875-5.351-5.875zm-.523%209.818c-2.087%200-3.531-1.92-3.782-4.463.634-2.172%202.04-3.253%203.701-3.253%202.136%200%203.342%201.577%203.342%203.82%200%202.407-1.373%203.896-3.261%203.896zM26.211%2018.975c-.847.847-2.756%202.376-4.088%203.296h7.991v2.292H18.355V22.47c1.363-.973%204.193-3.086%205.964-4.858%201.695-1.695%202.805-3.244%202.805-5.518%200-2.237-1.229-3.167-2.89-3.167-1.702%200-3.062.984-3.062%203.039%200%20.448.05.946.174%201.519l-2.671-.259a5.647%205.647%200%2001-.174-1.395c0-2.743%201.924-5.142%205.821-5.142%203.215%200%205.593%201.669%205.593%205.318%200%203.318-2.423%205.705-3.513%206.779l-.191.189zM0%200h14.251v2.292H0zM11.579%206.875v12.1h-.001c0%201.071.025%201.719.075%202.342h-.05c-.262-.713-.571-1.338-1.031-2.152L3.416%206.875H.146v17.688h2.548v-12.1h.002c0-1.072-.025-1.719-.075-2.342h.05c.261.713.57%201.338%201.03%202.151l7.156%2012.291h3.237V6.875h-2.515zM0%2029.146h14.251v2.28H0z%22%3E%3C%2Fpath%3E%3Ctitle%20id%3D%22n26-logo-title%22%3EN26%20Logo%3C%2Ftitle%3E%3C%2Fsvg%3E",
+    "svgColors": [],
+    "width": 46,
+    "height": 32,
+    "rect": {
+      "x": 228,
+      "y": 20,
+      "width": 46,
+      "height": 32
+    },
+    "natural": {
+      "width": 46,
+      "height": 32
+    },
+    "type": "logomark",
+    "reversed": false,
+    "background": "#faf8f5",
+    "safeZone": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "position": {
+      "top": 20,
+      "left": 228
+    }
+  },
+  "logoInstances": [
+    {
+      "source": "svg",
+      "context": "header",
+      "inline": true,
+      "url": "https://n26.com/en-eu",
+      "color": "#1b1b1b",
+      "ariaLabel": null,
+      "markup": "<svg viewBox=\"0 0 46 32\" class=\"h-nemo32 fill-black\" role=\"img\" aria-labelledby=\"n26-logo-title\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" style=\"color: rgb(27, 27, 27);\"><path d=\"M40.649 12.795c-2.108 0-3.615.975-4.376 2.419 0-3.411 1.19-6.383 4.015-6.383 1.796 0 2.509 1.034 2.889 2.728l2.616-.523c-.615-2.926-2.474-4.347-5.487-4.347-3.785 0-6.617 2.906-6.617 9.42 0 5.783 2.361 8.641 6.43 8.641 3.363 0 5.881-2.296 5.881-6.08 0-2.956-1.576-5.875-5.351-5.875zm-.523 9.818c-2.087 0-3.531-1.92-3.782-4.463.634-2.172 2.04-3.253 3.701-3.253 2.136 0 3.342 1.577 3.342 3.82 0 2.407-1.373 3.896-3.261 3.896zM26.211 18.975c-.847.847-2.756 2.376-4.088 3.296h7.991v2.292H18.355V22.47c1.363-.973 4.193-3.086 5.964-4.858 1.695-1.695 2.805-3.244 2.805-5.518 0-2.237-1.229-3.167-2.89-3.167-1.702 0-3.062.984-3.062 3.039 0 .448.05.946.174 1.519l-2.671-.259a5.647 5.647 0 01-.174-1.395c0-2.743 1.924-5.142 5.821-5.142 3.215 0 5.593 1.669 5.593 5.318 0 3.318-2.423 5.705-3.513 6.779l-.191.189zM0 0h14.251v2.292H0zM11.579 6.875v12.1h-.001c0 1.071.025 1.719.075 2.342h-.05c-.262-.713-.571-1.338-1.031-2.152L3.416 6.875H.146v17.688h2.548v-12.1h.002c0-1.072-.025-1.719-.075-2.342h.05c.261.713.57 1.338 1.03 2.151l7.156 12.291h3.237V6.875h-2.515zM0 29.146h14.251v2.28H0z\"></path><title id=\"n26-logo-title\">N26 Logo</title></svg>",
+      "dataUri": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%2046%2032%22%20class%3D%22h-nemo32%20fill-black%22%20role%3D%22img%22%20aria-labelledby%3D%22n26-logo-title%22%20focusable%3D%22false%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%20rgb(27%2C%2027%2C%2027)%3B%22%3E%3Cpath%20d%3D%22M40.649%2012.795c-2.108%200-3.615.975-4.376%202.419%200-3.411%201.19-6.383%204.015-6.383%201.796%200%202.509%201.034%202.889%202.728l2.616-.523c-.615-2.926-2.474-4.347-5.487-4.347-3.785%200-6.617%202.906-6.617%209.42%200%205.783%202.361%208.641%206.43%208.641%203.363%200%205.881-2.296%205.881-6.08%200-2.956-1.576-5.875-5.351-5.875zm-.523%209.818c-2.087%200-3.531-1.92-3.782-4.463.634-2.172%202.04-3.253%203.701-3.253%202.136%200%203.342%201.577%203.342%203.82%200%202.407-1.373%203.896-3.261%203.896zM26.211%2018.975c-.847.847-2.756%202.376-4.088%203.296h7.991v2.292H18.355V22.47c1.363-.973%204.193-3.086%205.964-4.858%201.695-1.695%202.805-3.244%202.805-5.518%200-2.237-1.229-3.167-2.89-3.167-1.702%200-3.062.984-3.062%203.039%200%20.448.05.946.174%201.519l-2.671-.259a5.647%205.647%200%2001-.174-1.395c0-2.743%201.924-5.142%205.821-5.142%203.215%200%205.593%201.669%205.593%205.318%200%203.318-2.423%205.705-3.513%206.779l-.191.189zM0%200h14.251v2.292H0zM11.579%206.875v12.1h-.001c0%201.071.025%201.719.075%202.342h-.05c-.262-.713-.571-1.338-1.031-2.152L3.416%206.875H.146v17.688h2.548v-12.1h.002c0-1.072-.025-1.719-.075-2.342h.05c.261.713.57%201.338%201.03%202.151l7.156%2012.291h3.237V6.875h-2.515zM0%2029.146h14.251v2.28H0z%22%3E%3C%2Fpath%3E%3Ctitle%20id%3D%22n26-logo-title%22%3EN26%20Logo%3C%2Ftitle%3E%3C%2Fsvg%3E",
+      "svgColors": [],
+      "width": 46,
+      "height": 32,
+      "rect": {
+        "x": 228,
+        "y": 20,
+        "width": 46,
+        "height": 32
+      },
+      "natural": {
+        "width": 46,
+        "height": 32
+      },
+      "type": "logomark",
+      "reversed": false,
+      "background": "#faf8f5",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 20,
+        "left": 228
+      }
+    }
+  ],
+  "favicons": [
+    {
+      "type": "apple-touch-icon",
+      "url": "https://n26.com/_build/logo-256x256.png",
+      "sizes": "256x256"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://n26.com/_build/logo-152x152.png",
+      "sizes": "152x152"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://n26.com/_build/logo-120x120.png",
+      "sizes": "120x120"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://n26.com/_build/logo.png",
+      "sizes": null
+    },
+    {
+      "type": "icon",
+      "url": "https://n26.com/_build/favico.ico",
+      "sizes": null
+    },
+    {
+      "type": "og:image",
+      "url": "https://n26.com/og-image-n26.png",
+      "sizes": null
+    }
+  ],
+  "colors": {
+    "semantic": {
+      "background": "rgb(255, 255, 255)",
+      "text": "rgb(0, 0, 0)",
+      "primary": "rgb(0, 59, 57)"
+    },
+    "palette": [
+      {
+        "color": "rgb(229, 231, 235)",
+        "normalized": "#e5e7eb",
+        "count": 480,
+        "confidence": "high",
+        "sources": [
+          "sticky",
+          "initial",
+          "flex"
+        ],
+        "lch": "lch(91.58% 2.18 266.35)",
+        "oklch": "oklch(92.76% 0.006 264.53)",
+        "role": "neutral",
+        "onColor": "#000000",
+        "hover": "#c3c4c8"
+      },
+      {
+        "color": "rgb(27, 27, 27)",
+        "normalized": "#1b1b1b",
+        "count": 413,
+        "confidence": "high",
+        "sources": [
+          "sticky",
+          "flex",
+          "initial"
+        ],
+        "lch": "lch(9.77% 0.01 53.35)",
+        "oklch": "oklch(22.21% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#ffffff",
+        "hover": "#202020"
+      },
+      {
+        "color": "rgb(0, 59, 57)",
+        "normalized": "#003b39",
+        "count": 18,
+        "confidence": "high",
+        "sources": [
+          "transition-colors",
+          "flex"
+        ],
+        "lch": "lch(21.52% 18.85 192.32)",
+        "oklch": "oklch(31.81% 0.055 191.03)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#004744",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(109, 109, 109)",
+        "normalized": "#6d6d6d",
+        "count": 3,
+        "confidence": "medium",
+        "sources": [],
+        "lch": "lch(46.03% 0.02 53.35)",
+        "oklch": "oklch(53.48% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#ffffff",
+        "hover": "#838383"
+      },
+      {
+        "color": "rgb(8, 129, 119)",
+        "normalized": "#088177",
+        "count": 2,
+        "confidence": "medium",
+        "sources": [
+          "flex"
+        ],
+        "lch": "lch(48.15% 32.72 186.07)",
+        "oklch": "oklch(54.33% 0.094 185.27)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#0a9b8f",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(16, 16, 16)",
+        "normalized": "#101010",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      },
+      {
+        "color": "rgb(4, 94, 88)",
+        "normalized": "#045e58",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      }
+    ],
+    "cssVariables": {
+      "--color-nemoLagoonStrong": {
+        "value": "#1d6ea2",
+        "hex": "#1d6ea2",
+        "lch": "lch(43.71% 36.74 254.56)",
+        "oklch": "oklch(51.67% 0.111 242.49)"
+      },
+      "--color-nemoRhubarbStrong": {
+        "value": "#b04364",
+        "hex": "#b04364",
+        "lch": "lch(44.88% 47.59 6.26)",
+        "oklch": "oklch(54% 0.145 4.54)"
+      },
+      "--color-nemoRhubarbRich": {
+        "value": "#44021d",
+        "hex": "#44021d",
+        "lch": "lch(11.99% 31.71 5.21)",
+        "oklch": "oklch(25.16% 0.098 3.46)"
+      },
+      "--color-rhubarb-800": {
+        "value": "#8e1b44",
+        "hex": "#8e1b44",
+        "lch": "lch(32.16% 49.55 7.63)",
+        "oklch": "oklch(43.09% 0.151 5.48)"
+      },
+      "--color-teal-450": {
+        "value": "#809d9c",
+        "hex": "#809d9c",
+        "lch": "lch(62.5% 11.03 195.77)",
+        "oklch": "oklch(67.37% 0.032 193.82)"
+      },
+      "--color-lagoon-800": {
+        "value": "#00395f",
+        "hex": "#00395f",
+        "lch": "lch(22.4% 28.18 260.58)",
+        "oklch": "oklch(33.37% 0.085 245.72)"
+      },
+      "--color-nemoSand50": {
+        "value": "#c6b29f80",
+        "hex": "#c6b29f",
+        "lch": "lch(73.92% 13.54 67.59 / 0.5019607843137255)",
+        "oklch": "oklch(77.55% 0.035 65.82 / 0.5019607843137255)"
+      },
+      "--color-nemoRhubarb": {
+        "value": "#b55b64",
+        "hex": "#b55b64",
+        "lch": "lch(50.16% 39.93 18.49)",
+        "oklch": "oklch(58.14% 0.117 15.13)"
+      },
+      "--color-nemoTeal200": {
+        "value": "#a8ded8",
+        "hex": "#a8ded8",
+        "lch": "lch(84.61% 19.13 188.97)",
+        "oklch": "oklch(86.16% 0.056 187.7)"
+      }
+    },
+    "detected": [
+      {
+        "color": "rgb(229, 231, 235)",
+        "normalized": "#e5e7eb",
+        "count": 480,
+        "usageFrac": 0.45112781954887216,
+        "confidence": "high",
+        "sources": [
+          "sticky",
+          "initial",
+          "flex",
+          "nemoxs:hidden",
+          "px-nemo8"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(27, 27, 27)",
+        "normalized": "#1b1b1b",
+        "count": 413,
+        "usageFrac": 0.3881578947368421,
+        "confidence": "high",
+        "sources": [
+          "sticky",
+          "flex",
+          "initial",
+          "nemoxs:hidden",
+          "px-nemo8"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 86,
+        "usageFrac": 0.08082706766917293,
+        "confidence": "high",
+        "sources": [
+          "transition-colors",
+          "text-nemowhite",
+          "font-standard",
+          "_1jkf7870",
+          "flex"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(233, 233, 233)",
+        "normalized": "#e9e9e9",
+        "count": 35,
+        "usageFrac": 0.03289473684210526,
+        "confidence": "high",
+        "sources": [
+          "_1jkf7870"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(0, 59, 57)",
+        "normalized": "#003b39",
+        "count": 18,
+        "usageFrac": 0.016917293233082706,
+        "confidence": "high",
+        "sources": [
+          "transition-colors",
+          "flex"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(6, 115, 106)",
+        "normalized": "#06736a",
+        "count": 14,
+        "usageFrac": 0.013157894736842105,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(250, 248, 245)",
+        "normalized": "#faf8f5",
+        "count": 5,
+        "usageFrac": 0.004699248120300752,
+        "confidence": "high",
+        "sources": [
+          "flex",
+          "_1jkf7870"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 3,
+        "usageFrac": 0.002819548872180451,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(109, 109, 109)",
+        "normalized": "#6d6d6d",
+        "count": 3,
+        "usageFrac": 0.002819548872180451,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": true
+      },
+      {
+        "color": "rgb(217, 217, 217)",
+        "normalized": "#d9d9d9",
+        "count": 2,
+        "usageFrac": 0.0018796992481203006,
+        "confidence": "medium",
+        "sources": [
+          "flex"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(8, 129, 119)",
+        "normalized": "#088177",
+        "count": 2,
+        "usageFrac": 0.0018796992481203006,
+        "confidence": "medium",
+        "sources": [
+          "flex"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(237, 231, 224)",
+        "normalized": "#ede7e0",
+        "count": 2,
+        "usageFrac": 0.0018796992481203006,
+        "confidence": "medium",
+        "sources": [
+          "bg-nemocreamdeep"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(4, 94, 88)",
+        "normalized": "#045e58",
+        "count": 1,
+        "usageFrac": 0.0009398496240601503,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": true
+      }
+    ],
+    "_raw": [
+      {
+        "color": "rgb(229, 231, 235)",
+        "normalized": "#e5e7eb",
+        "count": 480
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 86
+      },
+      {
+        "color": "rgb(27, 27, 27)",
+        "normalized": "#1b1b1b",
+        "count": 413
+      },
+      {
+        "color": "rgb(0, 59, 57)",
+        "normalized": "#003b39",
+        "count": 18
+      },
+      {
+        "color": "rgb(233, 233, 233)",
+        "normalized": "#e9e9e9",
+        "count": 35
+      },
+      {
+        "color": "rgb(6, 115, 106)",
+        "normalized": "#06736a",
+        "count": 14
+      }
+    ]
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "display",
+        "family": "N26-Extended",
+        "fallbacks": "N26-Extended-Fallback",
+        "size": "80px (5.00rem)",
+        "weight": 400,
+        "lineHeight": "1.10",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "N26-Extended",
+        "fallbacks": "N26-Extended-Fallback",
+        "size": "58px (3.63rem)",
+        "weight": 400,
+        "lineHeight": "1.10",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-4",
+        "family": "N26-Extended",
+        "fallbacks": "N26-Extended-Fallback",
+        "size": "44px (2.75rem)",
+        "weight": 500,
+        "lineHeight": "1.18",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "N26-Extended",
+        "fallbacks": "N26-Extended-Fallback",
+        "size": "32px (2.00rem)",
+        "weight": 500,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "N26",
+        "fallbacks": "N26-Fallback",
+        "size": "20px (1.25rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": "0.3125px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "N26",
+        "fallbacks": "N26-Fallback",
+        "size": "20px (1.25rem)",
+        "weight": 400,
+        "lineHeight": "1.60",
+        "spacing": "0.16px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "N26",
+        "fallbacks": "N26-Fallback",
+        "size": "20px (1.25rem)",
+        "weight": 400,
+        "lineHeight": "1.60",
+        "spacing": "0.16px",
+        "transform": null
+      },
+      {
+        "context": "heading-4",
+        "family": "N26-Extended",
+        "fallbacks": "N26-Extended-Fallback",
+        "size": "19px (1.19rem)",
+        "weight": 400,
+        "lineHeight": "1.47",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "N26",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI",
+        "size": "19px (1.19rem)",
+        "weight": 400,
+        "lineHeight": "1.47",
+        "spacing": null,
+        "transform": "uppercase"
+      },
+      {
+        "context": "body",
+        "family": "N26",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI",
+        "size": "18px (1.13rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "N26",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI",
+        "size": "18px (1.13rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "N26",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI",
+        "size": "18px (1.13rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "N26",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI",
+        "size": "18px (1.13rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "N26",
+        "fallbacks": null,
+        "size": "18px (1.13rem)",
+        "weight": 500,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "N26-Extended",
+        "fallbacks": "N26-Extended-Fallback",
+        "size": "18px (1.13rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "N26",
+        "fallbacks": "N26-Fallback",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": "0.3px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "N26",
+        "fallbacks": "N26-Fallback",
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": "0.3px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "N26",
+        "fallbacks": "N26-Fallback",
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": "0.3px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "N26",
+        "fallbacks": "N26-Fallback",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": "0.3px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "N26",
+        "fallbacks": "N26-Fallback",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": "0.3px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "N26",
+        "fallbacks": "N26-Fallback",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.43",
+        "spacing": "0.2625px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "N26",
+        "fallbacks": "N26-Fallback",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.43",
+        "spacing": "0.2625px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "N26",
+        "fallbacks": "N26-Fallback",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.43",
+        "spacing": "0.2625px",
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "N26",
+        "fallbacks": "N26-Fallback",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.43",
+        "spacing": "0.2625px",
+        "transform": "uppercase"
+      },
+      {
+        "context": "heading-3",
+        "family": "N26",
+        "fallbacks": "N26-Fallback",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": "0.2625px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "N26",
+        "fallbacks": "N26-Fallback",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": "0.2625px",
+        "transform": null
+      }
+    ],
+    "sources": {
+      "googleFonts": [],
+      "adobeFonts": false,
+      "variableFonts": false,
+      "selfHostedFonts": [
+        "GT-America-Extended-Medium.latin.woff2",
+        "GT-America-Standard-Medium.latin.woff2",
+        "GT-America-Standard-Regular.latin.woff2",
+        "N26-Sans-Extended-Medium.woff2"
+      ],
+      "customFonts": [
+        "GT-America-Extended-Medium.latin.woff2",
+        "GT-America-Standard-Medium.latin.woff2",
+        "GT-America-Standard-Regular.latin.woff2",
+        "N26-Sans-Extended-Medium.woff2"
+      ]
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "1px",
+        "display": "1px",
+        "rem": "0.06rem",
+        "count": 2,
+        "numericValue": 1
+      },
+      {
+        "px": "2px",
+        "display": "2px",
+        "rem": "0.13rem",
+        "count": 2,
+        "numericValue": 2
+      },
+      {
+        "px": "4px",
+        "display": "4px",
+        "rem": "0.25rem",
+        "count": 106,
+        "numericValue": 4
+      },
+      {
+        "px": "8px",
+        "display": "8px",
+        "rem": "0.50rem",
+        "count": 25,
+        "numericValue": 8
+      },
+      {
+        "px": "12px",
+        "display": "12px",
+        "rem": "0.75rem",
+        "count": 78,
+        "numericValue": 12
+      },
+      {
+        "px": "16px",
+        "display": "16px",
+        "rem": "1.00rem",
+        "count": 34,
+        "numericValue": 16
+      },
+      {
+        "px": "24px",
+        "display": "24px",
+        "rem": "1.50rem",
+        "count": 16,
+        "numericValue": 24
+      },
+      {
+        "px": "32px",
+        "display": "32px",
+        "rem": "2.00rem",
+        "count": 25,
+        "numericValue": 32
+      },
+      {
+        "px": "48px",
+        "display": "48px",
+        "rem": "3.00rem",
+        "count": 10,
+        "numericValue": 48
+      },
+      {
+        "px": "60px",
+        "display": "60px",
+        "rem": "3.75rem",
+        "count": 3,
+        "numericValue": 60
+      },
+      {
+        "px": "64px",
+        "display": "64px",
+        "rem": "4.00rem",
+        "count": 4,
+        "numericValue": 64
+      },
+      {
+        "px": "72px",
+        "display": "72px",
+        "rem": "4.50rem",
+        "count": 6,
+        "numericValue": 72
+      },
+      {
+        "px": "191.594px",
+        "display": "191.594px",
+        "rem": "11.97rem",
+        "count": 3,
+        "numericValue": 191.594
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "2px",
+        "count": 6,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 2
+      },
+      {
+        "value": "6px",
+        "count": 5,
+        "elements": [
+          "button"
+        ],
+        "confidence": "medium",
+        "numericValue": 6
+      },
+      {
+        "value": "8px",
+        "count": 8,
+        "elements": [
+          "tab",
+          "div",
+          "button"
+        ],
+        "confidence": "medium",
+        "numericValue": 8
+      },
+      {
+        "value": "8px 8px 0px 0px",
+        "count": 4,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 8
+      },
+      {
+        "value": "16px",
+        "count": 25,
+        "elements": [
+          "img",
+          "span"
+        ],
+        "confidence": "high",
+        "numericValue": 16
+      },
+      {
+        "value": "16px 16px 0px 0px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 16
+      },
+      {
+        "value": "24px",
+        "count": 28,
+        "elements": [
+          "a",
+          "div",
+          "Login",
+          "button",
+          "Open bank account"
+        ],
+        "confidence": "high",
+        "numericValue": 24
+      },
+      {
+        "value": "32px",
+        "count": 11,
+        "elements": [
+          "div",
+          "img"
+        ],
+        "confidence": "high",
+        "numericValue": 32
+      },
+      {
+        "value": "40px",
+        "count": 6,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 40
+      },
+      {
+        "value": "3.35544e+07px",
+        "count": 7,
+        "elements": [
+          "button",
+          "tablist",
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 33554400
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgba(255, 255, 255, 0.8)",
+        "count": 10,
+        "elements": [
+          "img"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid",
+        "color": "rgb(233, 233, 233)",
+        "count": 8,
+        "elements": [
+          "hr"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "2px",
+        "style": "solid",
+        "color": "rgb(255, 255, 255)",
+        "count": 3,
+        "elements": [
+          "a"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "2px",
+        "style": "solid",
+        "color": "rgb(0, 59, 57)",
+        "count": 2,
+        "elements": [
+          "a"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "solid",
+        "color": "rgb(217, 217, 217)",
+        "count": 1,
+        "elements": [
+          "header"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(217, 217, 217)",
+        "count": 1,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid",
+        "color": "rgb(229, 231, 235)",
+        "count": 1,
+        "elements": [
+          "hr"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [],
+  "gradients": [],
+  "motion": {
+    "durations": [
+      {
+        "value": "0.001s",
+        "ms": 1,
+        "count": 551
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease",
+        "type": "ease",
+        "count": 530
+      },
+      {
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "type": "custom",
+        "count": 21
+      }
+    ],
+    "animations": [
+      {
+        "name": "slideUp",
+        "duration": "0.001s",
+        "easing": "cubic-bezier(0",
+        "count": 3,
+        "contexts": [
+          "other"
+        ]
+      },
+      {
+        "name": "fadeIn",
+        "duration": "0.001s",
+        "easing": "ease-in",
+        "count": 1,
+        "contexts": [
+          "hero"
+        ]
+      },
+      {
+        "name": "heroMediaExpand",
+        "duration": "0.001s",
+        "easing": "ease-in",
+        "count": 1,
+        "contexts": [
+          "hero"
+        ]
+      },
+      {
+        "name": "heroMediaRemoveBorderRadius",
+        "duration": "0.001s",
+        "easing": "ease-in",
+        "count": 1,
+        "contexts": [
+          "hero"
+        ]
+      }
+    ],
+    "contexts": {
+      "hero": {
+        "count": 3,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "card": {
+        "count": 45,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "link": {
+        "count": 54,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "color",
+          "background-color",
+          "border-color",
+          "outline-color"
+        ]
+      },
+      "media": {
+        "count": 2,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "nav": {
+        "count": 3,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "button": {
+        "count": 17,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "easingType": "custom",
+        "props": [
+          "color",
+          "background-color",
+          "border-color",
+          "outline-color"
+        ]
+      }
+    },
+    "interactiveDeltas": [
+      {
+        "tag": "button",
+        "text": "Plans",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgba(0, 0, 0, 0)",
+            "to": "rgb(4, 94, 88)"
+          },
+          "color": {
+            "from": "rgb(27, 27, 27)",
+            "to": "rgb(255, 255, 255)"
+          }
+        }
+      }
+    ]
+  },
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(0, 59, 57)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "12px 24px",
+            "borderRadius": "24px",
+            "border": "0px solid rgb(229, 231, 235)",
+            "fontSize": "16px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "16px",
+        "text": "Open bank account",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(27, 27, 27)",
+            "padding": "12px 24px",
+            "borderRadius": "24px",
+            "border": "0px solid rgb(229, 231, 235)",
+            "fontSize": "16px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "16px",
+        "text": "Open bank account",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(198, 178, 159, 0.25)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "12px 24px",
+            "borderRadius": "24px",
+            "border": "0px solid rgb(229, 231, 235)",
+            "fontSize": "16px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "16px",
+        "text": "Open bank account",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(198, 178, 159, 0.25)",
+            "color": "rgb(0, 59, 57)",
+            "padding": "12px 24px",
+            "borderRadius": "24px",
+            "border": "0px solid rgb(229, 231, 235)",
+            "fontSize": "16px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "16px",
+        "text": "Log in",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "12px 24px",
+            "borderRadius": "24px",
+            "border": "2px solid rgb(255, 255, 255)",
+            "fontSize": "16px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "16px",
+        "text": "Open an N26 Standard account",
+        "confidence": "medium"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 59, 57)",
+            "padding": "12px 24px",
+            "borderRadius": "24px",
+            "border": "2px solid rgb(0, 59, 57)",
+            "fontSize": "16px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "16px",
+        "text": "Discover Instant Savings",
+        "confidence": "medium"
+      }
+    ],
+    "inputs": {
+      "text": [],
+      "checkbox": [],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgb(27, 27, 27)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(27, 27, 27)",
+            "textDecoration": "underline"
+          },
+          "hover": null
+        }
+      },
+      {
+        "color": "rgb(0, 59, 57)",
+        "textDecoration": "none",
+        "fontWeight": "500",
+        "states": {
+          "default": {
+            "color": "rgb(0, 59, 57)",
+            "textDecoration": "none"
+          },
+          "hover": null
+        }
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none",
+        "fontWeight": "500",
+        "states": {
+          "default": {
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "none"
+          },
+          "hover": null
+        }
+      }
+    ],
+    "badges": {
+      "all": [],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": []
+      }
+    }
+  },
+  "breakpoints": [],
+  "iconSystem": [],
+  "frameworks": [
+    {
+      "name": "Tailwind CSS",
+      "confidence": "high",
+      "evidence": "arbitrary values (e.g., top-[117px]), responsive/state modifiers"
+    },
+    {
+      "name": "Radix UI",
+      "confidence": "high",
+      "evidence": "54 Radix primitives"
+    },
+    {
+      "name": "shadcn/ui",
+      "confidence": "medium",
+      "evidence": "Tailwind + Radix + component patterns"
+    }
+  ]
+}

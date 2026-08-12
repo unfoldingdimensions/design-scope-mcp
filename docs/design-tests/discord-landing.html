@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<!-- design-scope translation test 3: Discord reference card → landing page
+     Tokens from library/cards/discord/fingerprint.json + motion/behaviors.md
+     (captured 2026-08-10). Font: Poppins ≈ ABC Ginto Nord (proprietary). -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fable — your place to belong</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  /* ── design tokens (from Discord fingerprint.json) ────────────────────── */
+  :root {
+    --blurple: #5865F2;        /* primary rgb(88,101,242) */
+    --blurple-hover: #4752C4;
+    --dark: #23272A;           /* accent #23272a */
+    --navy: #1A2081;           /* background rgb(26,32,129) — hero navy */
+    --navy-deep: #0E1360;
+    --ink: #000000;
+    --surface: #FFFFFF;
+    --bg-mid: #F6F6F7;
+    --text-muted: #4E5058;
+    /* captured gradients (cssVariables) */
+    --grad-aurora: linear-gradient(90deg, hsl(229.8 92.5% 26.3%) 0%, hsl(234.7 51.4% 52.4%) 100%);
+    --grad-twilight: linear-gradient(135deg, hsl(233.9 79.6% 53.9%) 0%, hsl(21.7 66.7% 57.6%) 100%);
+    --radius-card: 16px;       /* 16px dominant (76 uses) */
+    --radius-blob: 40px;       /* 40px blobs */
+    --ease: ease;              /* captured: ease everywhere */
+    --font: "Poppins", -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  html { scroll-behavior: smooth; }
+  body { font-family: var(--font); color: var(--ink); background: #fff; font-size: 16px; line-height: 1.3; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+  a { color: inherit; }
+
+  /* ── nav — dark, blurple-fill hover (from behaviors.md) ──────────────── */
+  .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; align-items: center;
+         justify-content: space-between; padding: 16px 32px; background: var(--navy); }
+  .nav .logo { display: flex; align-items: center; gap: 10px; color: #fff; font-weight: 800; font-size: 18px; letter-spacing: -0.02em; }
+  .nav .logo .mark { width: 26px; height: 20px; border-radius: 6px; background: var(--surface); position: relative; }
+  .nav .logo .mark::after { content: ""; position: absolute; inset: 4px; border-radius: 4px; background: var(--navy); }
+  .nav-links { display: flex; gap: 28px; align-items: center; }
+  .nav-links a { color: #fff; text-decoration: none; font-size: 15px; font-weight: 600;
+    padding: 8px 14px; border-radius: 999px; /* blurple fill on hover — captured behavior */
+    transition: background-color 0.2s var(--ease), color 0.2s var(--ease); }
+  .nav-links a:hover { background: var(--blurple); }
+  .nav-links a:focus-visible, .btn:focus-visible, .btn-dark:focus-visible { outline: 3px solid #fff; outline-offset: 2px; border-radius: 28px; }
+  .btn { background: var(--surface); color: var(--ink); border: none; border-radius: 28px; padding: 10px 22px;
+    font-family: var(--font); font-size: 14px; font-weight: 600; cursor: pointer;
+    transition: background-color 0.2s var(--ease), color 0.2s var(--ease), box-shadow 0.2s var(--ease); }
+  .btn:hover { color: var(--blurple); box-shadow: 0 6px 18px rgba(0,0,0,0.2); }
+  .btn-dark { background: var(--dark); color: #fff; }
+  .btn-dark:hover { color: var(--blurple); }
+  .btn-blurple { background: var(--blurple); color: #fff; }
+  .btn-blurple:hover { background: var(--blurple-hover); color: #fff; }
+
+  /* ── hero — navy + aurora gradient, floating UI cards ────────────────── */
+  .hero { background: var(--navy); min-height: 100vh; display: flex; flex-direction: column;
+          align-items: center; justify-content: center; text-align: center;
+          padding: 120px 24px 60px; position: relative; overflow: hidden; }
+  .hero::before { content: ""; position: absolute; inset: 0;
+    background: radial-gradient(60% 50% at 50% 0%, rgba(88,101,242,0.35) 0%, transparent 70%); }
+  .hero .aurora { position: absolute; inset: 0; opacity: 0.25;
+    background: var(--grad-aurora); mix-blend-mode: screen; }
+  .hero .eyebrow { position: relative; color: #aab0ff; font-size: 14px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; }
+  .hero h1 { position: relative; color: #fff; font-size: clamp(36px, 6.5vw, 82px); font-weight: 800;
+    line-height: 1.04; letter-spacing: -0.02em; max-width: 900px; margin: 18px auto; }
+  .hero .sub { position: relative; color: #e8eaff; font-size: clamp(16px, 2vw, 20px); font-weight: 400;
+    max-width: 640px; line-height: 1.4; margin: 0 auto; }
+  .hero .cta-row { position: relative; display: flex; gap: 16px; justify-content: center; margin-top: 32px; flex-wrap: wrap; }
+  .hero .cta-row .btn { font-size: 18px; padding: 14px 28px; border-radius: 999px; }
+
+  /* floating Discord-style UI mock (sidebar + channels + message) */
+  .float-stage { position: relative; width: 100%; max-width: 1100px; margin: 56px auto 0; height: 380px; }
+  .float-card { position: absolute; background: #fff; border-radius: var(--radius-card); box-shadow: 0 20px 60px rgba(0,0,0,0.4); overflow: hidden; }
+  .float-card.left { left: 0; top: 0; width: 380px; height: 340px; }
+  .float-card.right { right: 0; bottom: 0; width: 380px; height: 320px; }
+  .ui { display: flex; height: 100%; }
+  .ui .rail { width: 60px; background: var(--dark); display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 10px 0; }
+  .ui .rail .dot { width: 40px; height: 40px; border-radius: 12px; background: #3a3f45; }
+  .ui .rail .dot.active { background: var(--blurple); border-radius: 50%; }
+  .ui .channels { width: 150px; background: #2B2D31; padding: 12px 8px; }
+  .ui .channels .chan { height: 10px; border-radius: 4px; background: #41444a; margin-bottom: 8px; }
+  .ui .channels .chan.on { background: #6a6f78; }
+  .ui .chat { flex: 1; background: #fff; padding: 12px; display: flex; flex-direction: column; gap: 8px; }
+  .ui .msg { display: flex; gap: 8px; align-items: flex-start; }
+  .ui .msg .avatar { width: 26px; height: 26px; border-radius: 50%; background: var(--blurple); flex: none; }
+  .ui .msg .avatar.b { background: #EB459E; }
+  .ui .msg .avatar.c { background: #FAA61A; }
+  .ui .msg .line { height: 8px; border-radius: 4px; background: #e3e5e8; margin-top: 4px; }
+  .ui .msg .line.w1 { width: 70%; } .ui .msg .line.w2 { width: 45%; }
+  .float-card.right .ui .chat { background: #F2F3F5; }
+  .float-card.right .ui .chat .line { background: #d4d7dc; }
+
+  /* ── alternating sections (captured structure: image + copy) ─────────── */
+  .section { max-width: 1180px; margin: 0 auto; padding: 80px 32px; display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
+  .section.flip .media { order: 2; }
+  .section .copy h2 { font-size: clamp(28px, 3.6vw, 48px); font-weight: 800; line-height: 1.1; letter-spacing: -0.01em; margin-bottom: 16px; }
+  .section .copy p { font-size: 18px; line-height: 1.5; color: var(--text-muted); max-width: 44ch; }
+  .section .media { background: var(--bg-mid); border-radius: var(--radius-blob); overflow: hidden; aspect-ratio: 4 / 3; display: grid; place-items: center; }
+  .media-panel { width: 72%; background: #fff; border-radius: var(--radius-card); box-shadow: 0 12px 40px rgba(0,0,0,0.08); padding: 16px; }
+  .media-panel .row { display: flex; gap: 8px; align-items: center; margin-bottom: 10px; }
+  .media-panel .row .avatar { width: 22px; height: 22px; border-radius: 50%; background: var(--blurple); }
+  .media-panel .row .avatar.g { background: #57F287; } .media-panel .row .avatar.y { background: #FEE75C; }
+  .media-panel .row .nm { font-size: 12px; font-weight: 700; }
+  .media-panel .row .tag { font-size: 10px; background: var(--blurple); color: #fff; border-radius: 999px; padding: 1px 8px; }
+  .media-panel .txt { height: 9px; border-radius: 4px; background: #e3e5e8; margin-bottom: 8px; }
+  .media-panel .txt.a { width: 90%; } .media-panel .txt.b { width: 65%; } .media-panel .txt.c { width: 78%; }
+
+  /* center feature band */
+  .band { padding: 80px 32px; text-align: center; }
+  .band h2 { font-size: clamp(28px, 4vw, 48px); font-weight: 800; line-height: 1.1; margin-bottom: 14px; }
+  .band p { font-size: 18px; color: var(--text-muted); max-width: 60ch; margin: 0 auto 40px; }
+  .band .big-panel { max-width: 900px; margin: 0 auto; background: var(--bg-mid); border-radius: var(--radius-blob); padding: 32px; }
+  .band .big-panel .ui { height: 380px; border-radius: var(--radius-card); overflow: hidden; }
+
+  /* CTA — blurple-twilight gradient */
+  .cta { background: var(--grad-twilight); color: #fff; text-align: center; padding: 90px 32px 110px; }
+  .cta h2 { font-size: clamp(30px, 4.5vw, 56px); font-weight: 800; line-height: 1.1; max-width: 720px; margin: 0 auto 28px; }
+  .cta .cta-row { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+
+  /* footer — dark navy */
+  footer { background: var(--dark); color: #fff; padding: 56px 32px 40px; }
+  footer .grid { max-width: 1180px; margin: 0 auto; display: grid; grid-template-columns: repeat(5, 1fr); gap: 32px; }
+  footer .col h4 { font-size: 14px; font-weight: 800; color: var(--blurple); margin-bottom: 14px; }
+  footer .col a { display: block; color: #d7d9e0; font-size: 14px; text-decoration: none; padding: 3px 0; }
+  footer .col a:hover { text-decoration: underline; }
+  footer .legal { max-width: 1180px; margin: 40px auto 0; padding-top: 24px; border-top: 1px solid #3a3f45; color: #8b8e96; font-size: 13px; }
+
+  /* scroll-reveal (captured: scroll-driven, observer) */
+  .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.6s var(--ease), transform 0.6s var(--ease); }
+  .reveal.visible { opacity: 1; transform: none; }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+    .reveal { opacity: 1 !important; transform: none !important; }
+  }
+
+  @media (max-width: 860px) {
+    .nav-links a { display: none; }
+    .section { grid-template-columns: 1fr; gap: 32px; padding: 48px 20px; }
+    .section.flip .media { order: 0; }
+    .float-stage { height: 560px; }
+    .float-card.left, .float-card.right { width: 300px; }
+    footer .grid { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="logo"><span class="mark"></span>Fable</div>
+  <div class="nav-links">
+    <a href="#features">Features</a><a href="#community">Community</a><a href="#voice">Voice</a><a href="#download">Download</a>
+    <button class="btn">Login</button>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="aurora"></div>
+  <div class="eyebrow">A place for every community</div>
+  <h1>IMAGINE A PLACE<br>where you belong</h1>
+  <p class="sub">Fable is where you can talk, hang out, and build communities — voice, video, and text channels for every crew, from a few friends to a whole fandom.</p>
+  <div class="cta-row">
+    <button class="btn btn-dark">⬇ Download for Windows</button>
+    <button class="btn btn-blurple">Open Fable in your browser</button>
+  </div>
+  <div class="float-stage">
+    <div class="float-card left"><div class="ui">
+      <div class="rail"><span class="dot active"></span><span class="dot"></span><span class="dot"></span></div>
+      <div class="channels"><div class="chan on"></div><div class="chan on"></div><div class="chan"></div><div class="chan"></div><div class="chan on"></div></div>
+      <div class="chat">
+        <div class="msg"><span class="avatar"></span><div><div class="nm">Nova</div><div class="line w1"></div><div class="line w2"></div></div></div>
+        <div class="msg"><span class="avatar b"></span><div><div class="nm">Rei</div><div class="line w1"></div></div></div>
+        <div class="msg"><span class="avatar c"></span><div><div class="nm">Kai</div><div class="line w1"></div><div class="line w2"></div></div></div>
+      </div>
+    </div></div>
+    <div class="float-card right"><div class="ui">
+      <div class="rail"><span class="dot active"></span><span class="dot"></span></div>
+      <div class="channels"><div class="chan on"></div><div class="chan"></div><div class="chan on"></div></div>
+      <div class="chat">
+        <div class="msg"><span class="avatar"></span><div class="line w1"></div></div>
+        <div class="msg"><span class="avatar b"></span><div class="line w2"></div></div>
+        <div class="msg"><span class="avatar c"></span><div class="line w1"></div></div>
+      </div>
+    </div></div>
+  </div>
+</section>
+
+<section class="section" id="features">
+  <div class="media reveal"><div class="media-panel">
+    <div class="row"><span class="avatar"></span><span class="nm">Luna</span><span class="tag">mod</span></div>
+    <div class="txt a"></div><div class="txt b"></div><div class="txt c"></div>
+    <div class="row" style="margin-top:14px"><span class="avatar g"></span><span class="nm">Finn</span></div>
+    <div class="txt a"></div>
+  </div></div>
+  <div class="copy reveal"><h2>Create an invite-only place where you belong</h2>
+    <p>Fable servers are organised into topic-based channels where you can collaborate, share, and just talk about your day — without clogging up a group chat.</p></div>
+</section>
+
+<section class="section flip" id="community">
+  <div class="media reveal"><div class="media-panel">
+    <div class="row"><span class="avatar y"></span><span class="nm">Ivy</span><span class="tag">admin</span></div>
+    <div class="txt a"></div><div class="txt b"></div>
+    <div class="row" style="margin-top:14px"><span class="avatar"></span><span class="nm">Rowan</span></div>
+    <div class="txt a"></div><div class="txt c"></div>
+  </div></div>
+  <div class="copy reveal"><h2>Where hanging out is easy</h2>
+    <p>Grab a seat in a voice channel when you're free. Friends in your server can see you're around and instantly drop in — no calls, no ringing, just presence.</p></div>
+</section>
+
+<section class="section" id="voice">
+  <div class="media reveal"><div class="media-panel">
+    <div class="row"><span class="avatar"></span><span class="nm">Aria</span></div>
+    <div class="txt a"></div>
+    <div class="row" style="margin-top:14px"><span class="avatar b"></span><span class="nm">Theo</span></div>
+    <div class="txt b"></div>
+  </div></div>
+  <div class="copy reveal"><h2>From a few to a fandom</h2>
+    <p>Get any community running with moderation tools, custom member access, and powerful admin features. Create private channels, assign roles, and keep things civil.</p></div>
+</section>
+
+<div class="band reveal" id="reliable">
+  <h2>RELIABLE TECH FOR STAYING CLOSE</h2>
+  <p>Low-latency voice and video feel like you're in the same room. Text chat that keeps up at any scale. Built to stay online when it matters.</p>
+  <div class="big-panel"><div class="ui">
+    <div class="rail"><span class="dot active"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+    <div class="channels"><div class="chan on"></div><div class="chan on"></div><div class="chan"></div><div class="chan on"></div><div class="chan"></div></div>
+    <div class="chat">
+      <div class="msg"><span class="avatar"></span><div><div class="nm">Nova</div><div class="line w1"></div></div></div>
+      <div class="msg"><span class="avatar c"></span><div><div class="nm">Kai</div><div class="line w1"></div><div class="line w2"></div></div></div>
+      <div class="msg"><span class="avatar b"></span><div><div class="nm">Rei</div><div class="line w1"></div></div></div>
+      <div class="msg"><span class="avatar"></span><div><div class="nm">Aria</div><div class="line w1"></div><div class="line w2"></div></div></div>
+    </div>
+  </div></div>
+</div>
+
+<div class="cta" id="download">
+  <h2>Ready to start your journey?</h2>
+  <div class="cta-row">
+    <button class="btn btn-dark">⬇ Download for Windows</button>
+    <button class="btn btn-blurple">Open Fable in your browser</button>
+  </div>
+</div>
+
+<footer>
+  <div class="grid">
+    <div class="col"><h4>Product</h4><a href="#">Features</a><a href="#">Download</a><a href="#">Nitro</a><a href="#">Status</a></div>
+    <div class="col"><h4>Company</h4><a href="#">About</a><a href="#">Jobs</a><a href="#">Brand</a><a href="#">Newsroom</a></div>
+    <div class="col"><h4>Resources</h4><a href="#">College</a><a href="#">Support</a><a href="#">Safety</a><a href="#">Blog</a></div>
+    <div class="col"><h4>Policies</h4><a href="#">Terms</a><a href="#">Privacy</a><a href="#">Guidelines</a><a href="#">Licenses</a></div>
+    <div class="col"><h4>Download</h4><a href="#">Windows</a><a href="#">macOS</a><a href="#">Linux</a><a href="#">iOS &amp; Android</a></div>
+  </div>
+  <div class="legal">© 2026 Fable · design translated from a captured Discord reference card (tokens + behavior evidence)</div>
+</footer>
+
+<script>
+  // scroll-driven reveal (captured interaction model: observer-based)
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>

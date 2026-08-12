@@ -1,0 +1,35 @@
+{
+  "url": "https://www.usemotion.com",
+  "hovers": [
+    {
+      "selector": "button",
+      "file": "hover-01.png",
+      "box": {
+        "x": 1135,
+        "y": 24,
+        "width": 185,
+        "height": 48
+      }
+    },
+    {
+      "selector": "button",
+      "file": "hover-02.png",
+      "box": {
+        "x": 628,
+        "y": 634,
+        "width": 185,
+        "height": 48
+      }
+    },
+    {
+      "selector": "[role=button]",
+      "file": "hover-03.png",
+      "box": {
+        "x": 1135,
+        "y": 24,
+        "width": 185,
+        "height": 48
+      }
+    }
+  ]
+}

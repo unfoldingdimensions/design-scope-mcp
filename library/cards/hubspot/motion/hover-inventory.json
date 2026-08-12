@@ -1,0 +1,35 @@
+{
+  "url": "https://www.hubspot.com",
+  "hovers": [
+    {
+      "selector": "button",
+      "file": "hover-01.png",
+      "box": {
+        "x": 523,
+        "y": 74,
+        "width": 115,
+        "height": 46
+      }
+    },
+    {
+      "selector": "button",
+      "file": "hover-02.png",
+      "box": {
+        "x": 654,
+        "y": 74,
+        "width": 115,
+        "height": 46
+      }
+    },
+    {
+      "selector": "[role=button]",
+      "file": "hover-03.png",
+      "box": {
+        "x": 907,
+        "y": 6913,
+        "width": 141,
+        "height": 40
+      }
+    }
+  ]
+}

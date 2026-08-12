@@ -1,0 +1,1943 @@
+{
+  "url": "https://mistral.ai/",
+  "extractedAt": "2026-08-09T11:31:05.714Z",
+  "meta": {
+    "snapshotId": "eabf5b29-7371-41e2-9fe7-a2e7baed863c",
+    "httpStatus": 200,
+    "dembrandtVersion": "0.27.1",
+    "schemaVersion": "1.5.0",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "fontsReady": true,
+    "flags": {
+      "mobile": true
+    }
+  },
+  "siteName": "Mistral AI",
+  "logo": {
+    "source": "svg",
+    "context": "header",
+    "inline": true,
+    "url": "https://mistral.ai/",
+    "color": "#000000",
+    "ariaLabel": null,
+    "markup": "<svg viewBox=\"0 0 21 15\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"color: rgb(0, 0, 0);\">\n<path d=\"M6 0H3V3H6V0Z\" fill=\"#FFAF01\"></path>\n<path d=\"M6 9H3V12H6V9Z\" fill=\"#E61300\"></path>\n<path d=\"M9 12H0V15H9V12Z\" fill=\"#C4001D\"></path>\n<path d=\"M9 3H3V6H9V3Z\" fill=\"#FF8204\"></path>\n<path d=\"M12 9H9V12H12V9Z\" fill=\"#E61300\"></path>\n<path d=\"M18 6H3V9H18V6Z\" fill=\"#FA500F\"></path>\n<path d=\"M18 3H12V6H18V3Z\" fill=\"#FF8204\"></path>\n<path d=\"M18 0H15V3H18V0Z\" fill=\"#FFAF01\"></path>\n<path d=\"M18 9H15V12H18V9Z\" fill=\"#E61300\"></path>\n<path d=\"M21 12H12V15H21V12Z\" fill=\"#C4001D\"></path>\n</svg>",
+    "dataUri": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%2021%2015%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%20rgb(0%2C%200%2C%200)%3B%22%3E%0A%3Cpath%20d%3D%22M6%200H3V3H6V0Z%22%20fill%3D%22%23FFAF01%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M6%209H3V12H6V9Z%22%20fill%3D%22%23E61300%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M9%2012H0V15H9V12Z%22%20fill%3D%22%23C4001D%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M9%203H3V6H9V3Z%22%20fill%3D%22%23FF8204%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M12%209H9V12H12V9Z%22%20fill%3D%22%23E61300%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M18%206H3V9H18V6Z%22%20fill%3D%22%23FA500F%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M18%203H12V6H18V3Z%22%20fill%3D%22%23FF8204%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M18%200H15V3H18V0Z%22%20fill%3D%22%23FFAF01%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M18%209H15V12H18V9Z%22%20fill%3D%22%23E61300%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M21%2012H12V15H21V12Z%22%20fill%3D%22%23C4001D%22%3E%3C%2Fpath%3E%0A%3C%2Fsvg%3E",
+    "svgColors": [
+      "#ffaf01",
+      "#e61300",
+      "#c4001d",
+      "#ff8204",
+      "#fa500f"
+    ],
+    "width": 28,
+    "height": 20,
+    "rect": {
+      "x": 106,
+      "y": 13,
+      "width": 28,
+      "height": 20
+    },
+    "natural": {
+      "width": 21,
+      "height": 15
+    },
+    "type": "logomark",
+    "reversed": false,
+    "background": "#fbfbf8",
+    "safeZone": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "position": {
+      "top": 13,
+      "left": 106
+    }
+  },
+  "logoInstances": [
+    {
+      "source": "svg",
+      "context": "header",
+      "inline": true,
+      "url": "https://mistral.ai/",
+      "color": "#000000",
+      "ariaLabel": null,
+      "markup": "<svg viewBox=\"0 0 21 15\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"color: rgb(0, 0, 0);\">\n<path d=\"M6 0H3V3H6V0Z\" fill=\"#FFAF01\"></path>\n<path d=\"M6 9H3V12H6V9Z\" fill=\"#E61300\"></path>\n<path d=\"M9 12H0V15H9V12Z\" fill=\"#C4001D\"></path>\n<path d=\"M9 3H3V6H9V3Z\" fill=\"#FF8204\"></path>\n<path d=\"M12 9H9V12H12V9Z\" fill=\"#E61300\"></path>\n<path d=\"M18 6H3V9H18V6Z\" fill=\"#FA500F\"></path>\n<path d=\"M18 3H12V6H18V3Z\" fill=\"#FF8204\"></path>\n<path d=\"M18 0H15V3H18V0Z\" fill=\"#FFAF01\"></path>\n<path d=\"M18 9H15V12H18V9Z\" fill=\"#E61300\"></path>\n<path d=\"M21 12H12V15H21V12Z\" fill=\"#C4001D\"></path>\n</svg>",
+      "dataUri": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%2021%2015%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%20rgb(0%2C%200%2C%200)%3B%22%3E%0A%3Cpath%20d%3D%22M6%200H3V3H6V0Z%22%20fill%3D%22%23FFAF01%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M6%209H3V12H6V9Z%22%20fill%3D%22%23E61300%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M9%2012H0V15H9V12Z%22%20fill%3D%22%23C4001D%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M9%203H3V6H9V3Z%22%20fill%3D%22%23FF8204%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M12%209H9V12H12V9Z%22%20fill%3D%22%23E61300%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M18%206H3V9H18V6Z%22%20fill%3D%22%23FA500F%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M18%203H12V6H18V3Z%22%20fill%3D%22%23FF8204%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M18%200H15V3H18V0Z%22%20fill%3D%22%23FFAF01%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M18%209H15V12H18V9Z%22%20fill%3D%22%23E61300%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M21%2012H12V15H21V12Z%22%20fill%3D%22%23C4001D%22%3E%3C%2Fpath%3E%0A%3C%2Fsvg%3E",
+      "svgColors": [
+        "#ffaf01",
+        "#e61300",
+        "#c4001d",
+        "#ff8204",
+        "#fa500f"
+      ],
+      "width": 28,
+      "height": 20,
+      "rect": {
+        "x": 106,
+        "y": 13,
+        "width": 28,
+        "height": 20
+      },
+      "natural": {
+        "width": 21,
+        "height": 15
+      },
+      "type": "logomark",
+      "reversed": false,
+      "background": "#fbfbf8",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 13,
+        "left": 106
+      }
+    },
+    {
+      "source": "svg",
+      "context": "header",
+      "inline": true,
+      "url": "https://mistral.ai/",
+      "color": "#000000",
+      "ariaLabel": null,
+      "markup": "<svg viewBox=\"0 0 30 30\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"color: rgb(0, 0, 0);\">\n<path d=\"M16.9995 5L20.9995 5V9L16.9995 9L16.9995 5Z\" fill=\"currentColor\"></path>\n<path d=\"M12.9995 9L16.9995 9V13L12.9995 13L12.9995 9Z\" fill=\"currentColor\"></path>\n<path d=\"M8.99951 13H12.9995L12.9995 17L8.99951 17L8.99951 13Z\" fill=\"currentColor\"></path>\n<path d=\"M12.9995 17H16.9995L16.9995 21H12.9995L12.9995 17Z\" fill=\"currentColor\"></path>\n<path d=\"M16.9995 21H20.9995L20.9995 25H16.9995V21Z\" fill=\"currentColor\"></path>\n</svg>",
+      "dataUri": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%2030%2030%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%20rgb(0%2C%200%2C%200)%3B%22%3E%0A%3Cpath%20d%3D%22M16.9995%205L20.9995%205V9L16.9995%209L16.9995%205Z%22%20fill%3D%22currentColor%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M12.9995%209L16.9995%209V13L12.9995%2013L12.9995%209Z%22%20fill%3D%22currentColor%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M8.99951%2013H12.9995L12.9995%2017L8.99951%2017L8.99951%2013Z%22%20fill%3D%22currentColor%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M12.9995%2017H16.9995L16.9995%2021H12.9995L12.9995%2017Z%22%20fill%3D%22currentColor%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M16.9995%2021H20.9995L20.9995%2025H16.9995V21Z%22%20fill%3D%22currentColor%22%3E%3C%2Fpath%3E%0A%3C%2Fsvg%3E",
+      "svgColors": [],
+      "width": 24,
+      "height": 24,
+      "rect": {
+        "x": 154,
+        "y": 12,
+        "width": 24,
+        "height": 24
+      },
+      "natural": {
+        "width": 30,
+        "height": 30
+      },
+      "type": "logomark",
+      "reversed": false,
+      "background": "#fbfbf8",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 12,
+        "left": 154
+      }
+    },
+    {
+      "source": "svg",
+      "context": "header",
+      "inline": true,
+      "url": "https://console.mistral.ai/",
+      "color": "#000000",
+      "ariaLabel": null,
+      "markup": "<svg viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"color: rgb(0, 0, 0);\">\n<rect width=\"32\" height=\"32\" fill=\"#0082E6\"></rect>\n<rect x=\"8.72729\" y=\"8.36377\" width=\"2.90909\" height=\"2.90909\" fill=\"white\"></rect>\n<rect x=\"20.3638\" y=\"8.36377\" width=\"2.90909\" height=\"2.90909\" fill=\"white\"></rect>\n<rect x=\"14.5454\" y=\"17.0908\" width=\"2.90909\" height=\"2.90909\" fill=\"white\"></rect>\n<rect x=\"8.72729\" y=\"17.0908\" width=\"2.90909\" height=\"2.90909\" fill=\"white\"></rect>\n<rect x=\"20.3638\" y=\"17.0908\" width=\"2.90909\" height=\"2.90909\" fill=\"white\"></rect>\n<rect x=\"8.72729\" y=\"11.2729\" width=\"5.81818\" height=\"2.90909\" fill=\"white\"></rect>\n<rect x=\"5.81812\" y=\"20\" width=\"8.72727\" height=\"2.90909\" fill=\"white\"></rect>\n<rect x=\"17.4546\" y=\"20\" width=\"8.72727\" height=\"2.90909\" fill=\"white\"></rect>\n<rect x=\"8.72729\" y=\"14.1816\" width=\"14.5455\" height=\"2.90909\" fill=\"white\"></rect>\n<rect x=\"17.4546\" y=\"11.2729\" width=\"5.81818\" height=\"2.90909\" fill=\"white\"></rect>\n</svg>",
+      "dataUri": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%20rgb(0%2C%200%2C%200)%3B%22%3E%0A%3Crect%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22%230082E6%22%3E%3C%2Frect%3E%0A%3Crect%20x%3D%228.72729%22%20y%3D%228.36377%22%20width%3D%222.90909%22%20height%3D%222.90909%22%20fill%3D%22white%22%3E%3C%2Frect%3E%0A%3Crect%20x%3D%2220.3638%22%20y%3D%228.36377%22%20width%3D%222.90909%22%20height%3D%222.90909%22%20fill%3D%22white%22%3E%3C%2Frect%3E%0A%3Crect%20x%3D%2214.5454%22%20y%3D%2217.0908%22%20width%3D%222.90909%22%20height%3D%222.90909%22%20fill%3D%22white%22%3E%3C%2Frect%3E%0A%3Crect%20x%3D%228.72729%22%20y%3D%2217.0908%22%20width%3D%222.90909%22%20height%3D%222.90909%22%20fill%3D%22white%22%3E%3C%2Frect%3E%0A%3Crect%20x%3D%2220.3638%22%20y%3D%2217.0908%22%20width%3D%222.90909%22%20height%3D%222.90909%22%20fill%3D%22white%22%3E%3C%2Frect%3E%0A%3Crect%20x%3D%228.72729%22%20y%3D%2211.2729%22%20width%3D%225.81818%22%20height%3D%222.90909%22%20fill%3D%22white%22%3E%3C%2Frect%3E%0A%3Crect%20x%3D%225.81812%22%20y%3D%2220%22%20width%3D%228.72727%22%20height%3D%222.90909%22%20fill%3D%22white%22%3E%3C%2Frect%3E%0A%3Crect%20x%3D%2217.4546%22%20y%3D%2220%22%20width%3D%228.72727%22%20height%3D%222.90909%22%20fill%3D%22white%22%3E%3C%2Frect%3E%0A%3Crect%20x%3D%228.72729%22%20y%3D%2214.1816%22%20width%3D%2214.5455%22%20height%3D%222.90909%22%20fill%3D%22white%22%3E%3C%2Frect%3E%0A%3Crect%20x%3D%2217.4546%22%20y%3D%2211.2729%22%20width%3D%225.81818%22%20height%3D%222.90909%22%20fill%3D%22white%22%3E%3C%2Frect%3E%0A%3C%2Fsvg%3E",
+      "svgColors": [
+        "#0082e6",
+        "#ffffff"
+      ],
+      "width": 32,
+      "height": 32,
+      "rect": {
+        "x": 1417,
+        "y": 61,
+        "width": 32,
+        "height": 32
+      },
+      "natural": {
+        "width": 32,
+        "height": 32
+      },
+      "type": "logomark",
+      "reversed": false,
+      "background": "#fbfbf8",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 61,
+        "left": 1417.078125
+      }
+    },
+    {
+      "source": "svg",
+      "context": "header",
+      "inline": true,
+      "url": "https://chat.mistral.ai/",
+      "color": "#000000",
+      "ariaLabel": null,
+      "markup": "<svg viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"color: rgb(0, 0, 0);\">\n<rect width=\"32\" height=\"32\" fill=\"#FA500F\"></rect>\n<rect x=\"8.72729\" y=\"8.36377\" width=\"2.90909\" height=\"2.90909\" fill=\"white\"></rect>\n<rect x=\"20.3635\" y=\"8.36377\" width=\"2.90909\" height=\"2.90909\" fill=\"white\"></rect>\n<rect x=\"14.5454\" y=\"17.0908\" width=\"2.90909\" height=\"2.90909\" fill=\"white\"></rect>\n<rect x=\"8.72729\" y=\"17.0908\" width=\"2.90909\" height=\"2.90909\" fill=\"white\"></rect>\n<rect x=\"20.3635\" y=\"17.0908\" width=\"2.90909\" height=\"2.90909\" fill=\"white\"></rect>\n<rect x=\"8.72729\" y=\"11.2729\" width=\"5.81818\" height=\"2.90909\" fill=\"white\"></rect>\n<rect x=\"5.81812\" y=\"20\" width=\"8.72727\" height=\"2.90909\" fill=\"white\"></rect>\n<rect x=\"17.4546\" y=\"20\" width=\"8.72727\" height=\"2.90909\" fill=\"white\"></rect>\n<rect x=\"8.72729\" y=\"14.1816\" width=\"14.5455\" height=\"2.90909\" fill=\"white\"></rect>\n<rect x=\"17.4546\" y=\"11.2729\" width=\"5.81818\" height=\"2.90909\" fill=\"white\"></rect>\n</svg>",
+      "dataUri": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%20rgb(0%2C%200%2C%200)%3B%22%3E%0A%3Crect%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22%23FA500F%22%3E%3C%2Frect%3E%0A%3Crect%20x%3D%228.72729%22%20y%3D%228.36377%22%20width%3D%222.90909%22%20height%3D%222.90909%22%20fill%3D%22white%22%3E%3C%2Frect%3E%0A%3Crect%20x%3D%2220.3635%22%20y%3D%228.36377%22%20width%3D%222.90909%22%20height%3D%222.90909%22%20fill%3D%22white%22%3E%3C%2Frect%3E%0A%3Crect%20x%3D%2214.5454%22%20y%3D%2217.0908%22%20width%3D%222.90909%22%20height%3D%222.90909%22%20fill%3D%22white%22%3E%3C%2Frect%3E%0A%3Crect%20x%3D%228.72729%22%20y%3D%2217.0908%22%20width%3D%222.90909%22%20height%3D%222.90909%22%20fill%3D%22white%22%3E%3C%2Frect%3E%0A%3Crect%20x%3D%2220.3635%22%20y%3D%2217.0908%22%20width%3D%222.90909%22%20height%3D%222.90909%22%20fill%3D%22white%22%3E%3C%2Frect%3E%0A%3Crect%20x%3D%228.72729%22%20y%3D%2211.2729%22%20width%3D%225.81818%22%20height%3D%222.90909%22%20fill%3D%22white%22%3E%3C%2Frect%3E%0A%3Crect%20x%3D%225.81812%22%20y%3D%2220%22%20width%3D%228.72727%22%20height%3D%222.90909%22%20fill%3D%22white%22%3E%3C%2Frect%3E%0A%3Crect%20x%3D%2217.4546%22%20y%3D%2220%22%20width%3D%228.72727%22%20height%3D%222.90909%22%20fill%3D%22white%22%3E%3C%2Frect%3E%0A%3Crect%20x%3D%228.72729%22%20y%3D%2214.1816%22%20width%3D%2214.5455%22%20height%3D%222.90909%22%20fill%3D%22white%22%3E%3C%2Frect%3E%0A%3Crect%20x%3D%2217.4546%22%20y%3D%2211.2729%22%20width%3D%225.81818%22%20height%3D%222.90909%22%20fill%3D%22white%22%3E%3C%2Frect%3E%0A%3C%2Fsvg%3E",
+      "svgColors": [
+        "#fa500f",
+        "#ffffff"
+      ],
+      "width": 32,
+      "height": 32,
+      "rect": {
+        "x": 1417,
+        "y": 118,
+        "width": 32,
+        "height": 32
+      },
+      "natural": {
+        "width": 32,
+        "height": 32
+      },
+      "type": "logomark",
+      "reversed": false,
+      "background": "#fbfbf8",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 118,
+        "left": 1417.078125
+      }
+    },
+    {
+      "source": "svg",
+      "context": "hero",
+      "inline": true,
+      "url": "https://console.mistral.ai/",
+      "color": "#18181b",
+      "ariaLabel": null,
+      "markup": "<svg viewBox=\"0 0 30 30\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"color: rgb(24, 24, 27);\">\n<path d=\"M12.9995 25H8.99951V21H12.9995V25Z\" fill=\"currentColor\"></path>\n<path d=\"M16.9995 21H12.9995V17H16.9995V21Z\" fill=\"currentColor\"></path>\n<path d=\"M20.9995 17H16.9995V13H20.9995V17Z\" fill=\"currentColor\"></path>\n<path d=\"M16.9995 13H12.9995V9H16.9995V13Z\" fill=\"currentColor\"></path>\n<path d=\"M12.9995 9H8.99951V5H12.9995V9Z\" fill=\"currentColor\"></path>\n</svg>",
+      "dataUri": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%2030%2030%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%20rgb(24%2C%2024%2C%2027)%3B%22%3E%0A%3Cpath%20d%3D%22M12.9995%2025H8.99951V21H12.9995V25Z%22%20fill%3D%22currentColor%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M16.9995%2021H12.9995V17H16.9995V21Z%22%20fill%3D%22currentColor%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M20.9995%2017H16.9995V13H20.9995V17Z%22%20fill%3D%22currentColor%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M16.9995%2013H12.9995V9H16.9995V13Z%22%20fill%3D%22currentColor%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M12.9995%209H8.99951V5H12.9995V9Z%22%20fill%3D%22currentColor%22%3E%3C%2Fpath%3E%0A%3C%2Fsvg%3E",
+      "svgColors": [],
+      "width": 24,
+      "height": 24,
+      "rect": {
+        "x": 1464,
+        "y": 11748,
+        "width": 24,
+        "height": 24
+      },
+      "natural": {
+        "width": 30,
+        "height": 30
+      },
+      "type": "logomark",
+      "reversed": false,
+      "background": "#f4f4f5",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 11747.78125,
+        "left": 1464.078125
+      }
+    },
+    {
+      "source": "svg",
+      "context": "hero",
+      "inline": true,
+      "url": "https://console.mistral.ai/",
+      "color": "#18181b",
+      "ariaLabel": null,
+      "markup": "<svg viewBox=\"0 0 30 30\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"color: rgb(24, 24, 27);\">\n<path d=\"M12.9995 25H8.99951V21H12.9995V25Z\" fill=\"currentColor\"></path>\n<path d=\"M16.9995 21H12.9995V17H16.9995V21Z\" fill=\"currentColor\"></path>\n<path d=\"M20.9995 17H16.9995V13H20.9995V17Z\" fill=\"currentColor\"></path>\n<path d=\"M16.9995 13H12.9995V9H16.9995V13Z\" fill=\"currentColor\"></path>\n<path d=\"M12.9995 9H8.99951V5H12.9995V9Z\" fill=\"currentColor\"></path>\n</svg>",
+      "dataUri": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%2030%2030%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%20rgb(24%2C%2024%2C%2027)%3B%22%3E%0A%3Cpath%20d%3D%22M12.9995%2025H8.99951V21H12.9995V25Z%22%20fill%3D%22currentColor%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M16.9995%2021H12.9995V17H16.9995V21Z%22%20fill%3D%22currentColor%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M20.9995%2017H16.9995V13H20.9995V17Z%22%20fill%3D%22currentColor%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M16.9995%2013H12.9995V9H16.9995V13Z%22%20fill%3D%22currentColor%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M12.9995%209H8.99951V5H12.9995V9Z%22%20fill%3D%22currentColor%22%3E%3C%2Fpath%3E%0A%3C%2Fsvg%3E",
+      "svgColors": [],
+      "width": 24,
+      "height": 24,
+      "rect": {
+        "x": 1608,
+        "y": 11748,
+        "width": 24,
+        "height": 24
+      },
+      "natural": {
+        "width": 30,
+        "height": 30
+      },
+      "type": "logomark",
+      "reversed": false,
+      "background": "#f4f4f5",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 11747.78125,
+        "left": 1608.078125
+      }
+    }
+  ],
+  "favicons": [
+    {
+      "type": "og:image",
+      "url": "https://mistral.ai/cms-media/api/media/file/OG-mistral-main_1x.jpg",
+      "sizes": null
+    },
+    {
+      "type": "twitter:image",
+      "url": "https://mistral.ai/cms-media/api/media/file/OG-mistral-main_1x.jpg",
+      "sizes": null
+    },
+    {
+      "type": "favicon.ico",
+      "url": "https://mistral.ai/favicon.ico",
+      "sizes": null
+    }
+  ],
+  "colors": {
+    "semantic": {
+      "primary": "rgb(255, 82, 41)",
+      "secondary": "rgb(9, 9, 11)",
+      "background": "rgb(251, 251, 248)",
+      "text": "rgb(0, 0, 0)",
+      "accent": "rgb(0, 130, 230)"
+    },
+    "palette": [
+      {
+        "color": "rgb(24, 24, 27)",
+        "normalized": "#18181b",
+        "count": 1313,
+        "confidence": "high",
+        "sources": [
+          "flex",
+          "relative",
+          "inline-block"
+        ],
+        "lch": "lch(8.35% 2.2 286.02)",
+        "oklch": "oklch(21.03% 0.006 285.89)",
+        "role": "neutral",
+        "onColor": "#ffffff",
+        "hover": "#1d1d20"
+      },
+      {
+        "color": "rgb(250, 250, 250)",
+        "normalized": "#fafafa",
+        "count": 420,
+        "confidence": "high",
+        "sources": [
+          "flex",
+          "relative",
+          "inline-block"
+        ],
+        "lch": "lch(98.27% 0.03 53.35)",
+        "oklch": "oklch(98.51% 0 89.88)",
+        "role": "surface",
+        "onColor": "#000000",
+        "hover": "#d5d5d5"
+      },
+      {
+        "color": "rgb(113, 113, 123)",
+        "normalized": "#71717b",
+        "count": 170,
+        "confidence": "high",
+        "sources": [
+          "flex",
+          "js-anchor",
+          "text-text-muted"
+        ],
+        "lch": "lch(47.9% 5.75 286.02)",
+        "oklch": "oklch(55.2% 0.015 285.89)",
+        "role": "neutral",
+        "onColor": "#ffffff",
+        "hover": "#888894"
+      },
+      {
+        "color": "rgb(63, 63, 71)",
+        "normalized": "#3f3f47",
+        "count": 42,
+        "confidence": "high",
+        "sources": [
+          "text-body-small",
+          "text-text-tertiary",
+          "text-eyebrow-small"
+        ],
+        "lch": "lch(26.88% 5.09 286.2)",
+        "oklch": "oklch(37.07% 0.014 285.72)",
+        "role": "neutral",
+        "onColor": "#ffffff",
+        "hover": "#4c4c55"
+      },
+      {
+        "color": "rgb(255, 82, 41)",
+        "normalized": "#ff5229",
+        "count": 3,
+        "confidence": "high",
+        "sources": [
+          "markitecture-block",
+          "aspect-square",
+          "p-4"
+        ],
+        "lch": "lch(60.28% 88.52 42.55)",
+        "oklch": "oklch(67.43% 0.216 34.28)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#d94623",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(201, 201, 196)",
+        "normalized": "#c9c9c4",
+        "count": 3,
+        "confidence": "high",
+        "sources": [
+          "markitecture-block"
+        ],
+        "lch": "lch(80.86% 2.61 104.65)",
+        "oklch": "oklch(83.45% 0.007 106.55)",
+        "role": "neutral",
+        "onColor": "#000000",
+        "hover": "#ababa7"
+      },
+      {
+        "color": "rgb(0, 130, 230)",
+        "normalized": "#0082e6",
+        "count": 2,
+        "confidence": "high",
+        "sources": [
+          "logo",
+          "markitecture-block",
+          "aspect-square"
+        ],
+        "lch": "lch(52.73% 60 269.35)",
+        "oklch": "oklch(60.21% 0.178 251.55)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#006fc4"
+      },
+      {
+        "color": "rgb(85, 179, 251)",
+        "normalized": "#55b3fb",
+        "count": 2,
+        "confidence": "medium",
+        "sources": [
+          "markitecture-block"
+        ],
+        "lch": "lch(69.6% 46.28 255.13)",
+        "oklch": "oklch(74.04% 0.137 244.41)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#4898d5"
+      },
+      {
+        "color": "rgb(255, 130, 4)",
+        "normalized": "#ff8204",
+        "count": 2,
+        "confidence": "high",
+        "sources": [
+          "logo",
+          "markitecture-block"
+        ],
+        "lch": "lch(68.21% 86.82 59.1)",
+        "oklch": "oklch(73.5% 0.184 53.64)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#d96f03",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(255, 175, 1)",
+        "normalized": "#ffaf01",
+        "count": 1,
+        "confidence": "high",
+        "sources": [
+          "logo"
+        ],
+        "lch": "lch(77.87% 83.49 74.31)",
+        "oklch": "oklch(81.06% 0.17 75.84)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#d99501",
+        "variantOf": "primary"
+      },
+      {
+        "color": "#e61300",
+        "normalized": "#e61300",
+        "count": 10,
+        "confidence": "high",
+        "sources": [
+          "logo"
+        ],
+        "lch": "lch(49.59% 97.69 41.51)",
+        "oklch": "oklch(58.51% 0.234 30.06)"
+      },
+      {
+        "color": "#c4001d",
+        "normalized": "#c4001d",
+        "count": 10,
+        "confidence": "high",
+        "sources": [
+          "logo"
+        ],
+        "lch": "lch(41.78% 80.56 34.29)",
+        "oklch": "oklch(51.66% 0.21 25.37)"
+      },
+      {
+        "color": "#fa500f",
+        "normalized": "#fa500f",
+        "count": 10,
+        "confidence": "high",
+        "sources": [
+          "logo"
+        ],
+        "lch": "lch(59.02% 92.98 46.47)",
+        "oklch": "oklch(66.28% 0.216 37.16)"
+      },
+      {
+        "color": "#ffffff",
+        "normalized": "#ffffff",
+        "count": 10,
+        "confidence": "high",
+        "sources": [
+          "logo"
+        ],
+        "lch": "lch(100% 0.03 53.35)",
+        "oklch": "oklch(100% 0 89.88)"
+      },
+      {
+        "color": "rgb(16, 16, 16)",
+        "normalized": "#101010",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      },
+      {
+        "color": "rgb(251, 251, 248)",
+        "normalized": "#fbfbf8",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      }
+    ],
+    "cssVariables": {
+      "--color-green-medium": {
+        "value": "#44ba82",
+        "hex": "#44ba82",
+        "lch": "lch(67.9% 48.06 157.55)",
+        "oklch": "oklch(70.8% 0.135 159.16)"
+      },
+      "--color-green-strong": {
+        "value": "#318e68",
+        "hex": "#318e68",
+        "lch": "lch(52.85% 37.59 161.46)",
+        "oklch": "oklch(58.15% 0.106 162.61)"
+      },
+      "--color-pink-medium": {
+        "value": "#ff92dc",
+        "hex": "#ff92dc",
+        "lch": "lch(74.32% 52.61 338.5)",
+        "oklch": "oklch(79.76% 0.157 340.33)"
+      },
+      "--color-raspberry-700": {
+        "value": "#c4001d",
+        "hex": "#c4001d",
+        "lch": "lch(41.78% 80.56 34.29)",
+        "oklch": "oklch(51.66% 0.21 25.37)"
+      },
+      "--color-tangerine-800": {
+        "value": "#933800",
+        "hex": "#933800",
+        "lch": "lch(36.61% 61.15 52.07)",
+        "oklch": "oklch(46.23% 0.135 43.79)"
+      },
+      "--color-tangerine-700": {
+        "value": "#b75002",
+        "hex": "#b75002",
+        "lch": "lch(47.36% 69.72 54.64)",
+        "oklch": "oklch(55.52% 0.152 47.44)"
+      }
+    },
+    "detected": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 2262,
+        "usageFrac": 0.5019973368841545,
+        "confidence": "high",
+        "sources": [
+          "fixed",
+          "max-w-432",
+          "size-12",
+          "absolute",
+          "flex-1"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(24, 24, 27)",
+        "normalized": "#18181b",
+        "count": 1313,
+        "usageFrac": 0.2913892587660897,
+        "confidence": "high",
+        "sources": [
+          "flex",
+          "relative",
+          "inline-block",
+          "text-button-small",
+          "text-h6"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(250, 250, 250)",
+        "normalized": "#fafafa",
+        "count": 420,
+        "usageFrac": 0.09320905459387484,
+        "confidence": "high",
+        "sources": [
+          "flex",
+          "relative",
+          "inline-block",
+          "text-button-small",
+          "group"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(113, 113, 123)",
+        "normalized": "#71717b",
+        "count": 170,
+        "usageFrac": 0.03772747447847315,
+        "confidence": "high",
+        "sources": [
+          "flex",
+          "js-anchor",
+          "text-text-muted"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(228, 227, 222)",
+        "normalized": "#e4e3de",
+        "count": 138,
+        "usageFrac": 0.03062583222370173,
+        "confidence": "high",
+        "sources": [
+          "fixed",
+          "size-12",
+          "w-full",
+          "p-4",
+          "group/link"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(245, 244, 239)",
+        "normalized": "#f5f4ef",
+        "count": 44,
+        "usageFrac": 0.009764758100310697,
+        "confidence": "high",
+        "sources": [
+          "bg-surface-brand-secondary",
+          "overflow-hidden",
+          "text-eyebrow-small",
+          "hidden",
+          "aspect-square"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(63, 63, 71)",
+        "normalized": "#3f3f47",
+        "count": 42,
+        "usageFrac": 0.009320905459387484,
+        "confidence": "high",
+        "sources": [
+          "text-body-small",
+          "text-text-tertiary",
+          "text-eyebrow-small",
+          "font-mono",
+          "text-button-small"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 38,
+        "usageFrac": 0.008433200177541057,
+        "confidence": "high",
+        "sources": [
+          "origin-bottom-right",
+          "aspect-square",
+          "origin-bottom-left",
+          "tech-dot",
+          "lg:group-hover:translate-x-20"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(251, 251, 248)",
+        "normalized": "#fbfbf8",
+        "count": 31,
+        "usageFrac": 0.006879715934309809,
+        "confidence": "high",
+        "sources": [
+          "fixed",
+          "absolute",
+          "border",
+          "size-full",
+          "w-full"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(21, 21, 36)",
+        "normalized": "#151524",
+        "count": 8,
+        "usageFrac": 0.001775410563692854,
+        "confidence": "high",
+        "sources": [
+          "section-editorial-headline",
+          "gap-10"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(244, 244, 245)",
+        "normalized": "#f4f4f5",
+        "count": 7,
+        "usageFrac": 0.0015534842432312472,
+        "confidence": "high",
+        "sources": [
+          "flex"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(49, 49, 58)",
+        "normalized": "#31313a",
+        "count": 6,
+        "usageFrac": 0.0013315579227696406,
+        "confidence": "high",
+        "sources": [
+          "section-editorial-headline",
+          "border-border-primary",
+          "max-w-432",
+          "js-slider-item"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(9, 9, 11)",
+        "normalized": "#09090b",
+        "count": 4,
+        "usageFrac": 0.000887705281846427,
+        "confidence": "high",
+        "sources": [
+          "flex",
+          "group",
+          "js-anchor"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(18, 18, 39)",
+        "normalized": "#121227",
+        "count": 4,
+        "usageFrac": 0.000887705281846427,
+        "confidence": "medium",
+        "sources": [
+          "[object"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(185, 218, 255)",
+        "normalized": "#b9daff",
+        "count": 3,
+        "usageFrac": 0.0006657789613848203,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 82, 41)",
+        "normalized": "#ff5229",
+        "count": 3,
+        "usageFrac": 0.0006657789613848203,
+        "confidence": "high",
+        "sources": [
+          "markitecture-block",
+          "aspect-square",
+          "p-4"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(235, 233, 224)",
+        "normalized": "#ebe9e0",
+        "count": 3,
+        "usageFrac": 0.0006657789613848203,
+        "confidence": "high",
+        "sources": [
+          "markitecture-block"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(201, 201, 196)",
+        "normalized": "#c9c9c4",
+        "count": 3,
+        "usageFrac": 0.0006657789613848203,
+        "confidence": "high",
+        "sources": [
+          "markitecture-block"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(0, 130, 230)",
+        "normalized": "#0082e6",
+        "count": 2,
+        "usageFrac": 0.0004438526409232135,
+        "confidence": "high",
+        "sources": [
+          "markitecture-block",
+          "aspect-square"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(85, 179, 251)",
+        "normalized": "#55b3fb",
+        "count": 2,
+        "usageFrac": 0.0004438526409232135,
+        "confidence": "medium",
+        "sources": [
+          "markitecture-block"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(255, 130, 4)",
+        "normalized": "#ff8204",
+        "count": 2,
+        "usageFrac": 0.0004438526409232135,
+        "confidence": "medium",
+        "sources": [
+          "markitecture-block"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(255, 175, 1)",
+        "normalized": "#ffaf01",
+        "count": 1,
+        "usageFrac": 0.00022192632046160674,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": true
+      }
+    ],
+    "_raw": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 2262
+      },
+      {
+        "color": "rgb(228, 227, 222)",
+        "normalized": "#e4e3de",
+        "count": 138
+      },
+      {
+        "color": "rgb(24, 24, 27)",
+        "normalized": "#18181b",
+        "count": 1313
+      },
+      {
+        "color": "rgb(250, 250, 250)",
+        "normalized": "#fafafa",
+        "count": 420
+      },
+      {
+        "color": "rgb(63, 63, 71)",
+        "normalized": "#3f3f47",
+        "count": 42
+      },
+      {
+        "color": "rgb(245, 244, 239)",
+        "normalized": "#f5f4ef",
+        "count": 44
+      },
+      {
+        "color": "rgb(113, 113, 123)",
+        "normalized": "#71717b",
+        "count": 170
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 38
+      }
+    ]
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "display",
+        "family": "ALTMistral",
+        "fallbacks": null,
+        "size": "96px (6.00rem)",
+        "weight": 500,
+        "lineHeight": "1.00",
+        "spacing": "-1.92px",
+        "transform": null
+      },
+      {
+        "context": "display",
+        "family": "ALTMistral",
+        "fallbacks": null,
+        "size": "56px (3.50rem)",
+        "weight": 500,
+        "lineHeight": "1.07",
+        "spacing": "-0.56px",
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "ALTMistral",
+        "fallbacks": null,
+        "size": "44px (2.75rem)",
+        "weight": 500,
+        "lineHeight": "1.18",
+        "spacing": "-0.44px",
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "ALTMistral",
+        "fallbacks": null,
+        "size": "32px (2.00rem)",
+        "weight": 500,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "ALTMistral",
+        "fallbacks": null,
+        "size": "24px (1.50rem)",
+        "weight": 500,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "20px (1.25rem)",
+        "weight": 400,
+        "lineHeight": "1.40",
+        "spacing": "-0.4px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "ALTMistral",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "ALTMistral",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": "0.16px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "ALTMistral",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": "0.16px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": "0.16px",
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "ALTMistral",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": "0.16px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": "0.16px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": "0.16px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": "-0.16px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": "-0.16px",
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Space Mono",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.43",
+        "spacing": "0.28px",
+        "transform": "uppercase"
+      },
+      {
+        "context": "text",
+        "family": "ALTMistral",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.43",
+        "spacing": "0.28px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "ALTMistral",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.43",
+        "spacing": "0.28px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.43",
+        "spacing": "0.28px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "ALTMistral",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.43",
+        "spacing": "0.28px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "13px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "1.54",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Space Mono",
+        "fallbacks": null,
+        "size": "13px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": "uppercase"
+      },
+      {
+        "context": "caption",
+        "family": "Space Mono",
+        "fallbacks": null,
+        "size": "11px (0.69rem)",
+        "weight": 400,
+        "lineHeight": "1.45",
+        "spacing": null,
+        "transform": "uppercase"
+      }
+    ],
+    "sources": {
+      "googleFonts": [
+        "Source"
+      ],
+      "adobeFonts": false,
+      "variableFonts": false,
+      "selfHostedFonts": [
+        "ALTMistral-Medium.woff2",
+        "ALTMistral-Regular.woff2",
+        "ALTMistral-Semibold.woff2",
+        "Inter-VariableFont.ttf",
+        "SpaceMono-Regular.ttf",
+        "nwpStKy2OAdR1K-IwhWudF-R3w8aZQ.woff2"
+      ],
+      "customFonts": [
+        "ALTMistral-Medium.woff2",
+        "ALTMistral-Regular.woff2",
+        "ALTMistral-Semibold.woff2",
+        "Inter-VariableFont.ttf",
+        "SpaceMono-Regular.ttf",
+        "nwpStKy2OAdR1K-IwhWudF-R3w8aZQ.woff2"
+      ]
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "1px",
+        "display": "1px",
+        "rem": "0.06rem",
+        "count": 7,
+        "numericValue": 1
+      },
+      {
+        "px": "4px",
+        "display": "4px",
+        "rem": "0.25rem",
+        "count": 100,
+        "numericValue": 4
+      },
+      {
+        "px": "8px",
+        "display": "8px",
+        "rem": "0.50rem",
+        "count": 91,
+        "numericValue": 8
+      },
+      {
+        "px": "12px",
+        "display": "12px",
+        "rem": "0.75rem",
+        "count": 42,
+        "numericValue": 12
+      },
+      {
+        "px": "16px",
+        "display": "16px",
+        "rem": "1.00rem",
+        "count": 174,
+        "numericValue": 16
+      },
+      {
+        "px": "24px",
+        "display": "24px",
+        "rem": "1.50rem",
+        "count": 51,
+        "numericValue": 24
+      },
+      {
+        "px": "32px",
+        "display": "32px",
+        "rem": "2.00rem",
+        "count": 12,
+        "numericValue": 32
+      },
+      {
+        "px": "40px",
+        "display": "40px",
+        "rem": "2.50rem",
+        "count": 28,
+        "numericValue": 40
+      },
+      {
+        "px": "52px",
+        "display": "52px",
+        "rem": "3.25rem",
+        "count": 6,
+        "numericValue": 52
+      },
+      {
+        "px": "80px",
+        "display": "80px",
+        "rem": "5.00rem",
+        "count": 8,
+        "numericValue": 80
+      },
+      {
+        "px": "160px",
+        "display": "160px",
+        "rem": "10.00rem",
+        "count": 2,
+        "numericValue": 160
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "0px 0px 8px 8px",
+        "count": 3,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "4px",
+        "count": 44,
+        "elements": [
+          "p"
+        ],
+        "confidence": "high",
+        "numericValue": 4
+      },
+      {
+        "value": "6px",
+        "count": 50,
+        "elements": [
+          "a",
+          "div",
+          "button",
+          "mistral-atom-navigation-dots",
+          "69f0d5c04a1c5e416b03f29e"
+        ],
+        "confidence": "high",
+        "numericValue": 6
+      },
+      {
+        "value": "8px",
+        "count": 12,
+        "elements": [
+          "a",
+          "div"
+        ],
+        "confidence": "high",
+        "numericValue": 8
+      },
+      {
+        "value": "12px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 12
+      },
+      {
+        "value": "32px",
+        "count": 6,
+        "elements": [
+          "span"
+        ],
+        "confidence": "medium",
+        "numericValue": 32
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "1px 0px 0px",
+        "style": "solid",
+        "color": "rgb(228, 227, 222)",
+        "count": 54,
+        "elements": [
+          "div",
+          "a",
+          "mistral-section-carousel-news",
+          "mistral-section-editorial-headline",
+          "section"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(228, 227, 222)",
+        "count": 51,
+        "elements": [
+          "div",
+          "mistral-atom-navigation-dots",
+          "button"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "solid",
+        "color": "rgb(228, 227, 222)",
+        "count": 24,
+        "elements": [
+          "header",
+          "button",
+          "div",
+          "a"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "0px 1px 0px 0px",
+        "style": "solid",
+        "color": "rgb(228, 227, 222)",
+        "count": 18,
+        "elements": [
+          "div",
+          "global-dropdown",
+          "button"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px 0px",
+        "style": "solid",
+        "color": "rgb(228, 227, 222)",
+        "count": 7,
+        "elements": [
+          "a",
+          "div"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 1px",
+        "style": "solid",
+        "color": "rgb(228, 227, 222)",
+        "count": 4,
+        "elements": [
+          "a",
+          "div"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 1px 1px 0px",
+        "style": "solid",
+        "color": "rgb(228, 227, 222)",
+        "count": 4,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 0px 0px 1px",
+        "style": "solid",
+        "color": "rgb(228, 227, 222)",
+        "count": 3,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 1px 0px 0px",
+        "style": "solid",
+        "color": "rgb(49, 49, 58)",
+        "count": 3,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 1px 0px 0px",
+        "style": "solid",
+        "color": "rgb(228, 227, 222)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 1px 1px",
+        "style": "solid",
+        "color": "rgb(228, 227, 222)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 1px 1px",
+        "style": "solid",
+        "color": "rgb(201, 201, 196)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 1px 1px 0px",
+        "style": "solid",
+        "color": "rgb(228, 227, 222)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px",
+        "style": "solid",
+        "color": "rgb(201, 201, 196)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(201, 201, 196)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px",
+        "style": "solid",
+        "color": "rgb(49, 49, 58)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 0px 1px",
+        "style": "solid",
+        "color": "rgb(49, 49, 58)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [
+    {
+      "shadow": "rgba(21, 21, 31, 0.02) 0px 4px 8px 0px, rgba(21, 21, 31, 0.02) 0px 2px 4px 0px, rgba(21, 21, 31, 0.02) 0px 1px 2px 0px, rgba(21, 21, 31, 0.02) 0px 0px 1px 0px",
+      "count": 2,
+      "confidence": "low"
+    }
+  ],
+  "gradients": [],
+  "motion": {
+    "durations": [
+      {
+        "value": "0.001s",
+        "ms": 1,
+        "count": 2827
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease",
+        "type": "ease",
+        "count": 2307
+      },
+      {
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "type": "custom",
+        "count": 520
+      }
+    ],
+    "animations": [
+      {
+        "name": "markitecture-fall",
+        "duration": "0.001s",
+        "easing": "ease-in",
+        "count": 10,
+        "contexts": [
+          "link",
+          "other"
+        ]
+      },
+      {
+        "name": "fading-arrow-scroll",
+        "duration": "0.001s",
+        "easing": "linear",
+        "count": 3,
+        "contexts": [
+          "other"
+        ]
+      },
+      {
+        "name": "markitecture-fall-rotated",
+        "duration": "0.001s",
+        "easing": "ease-in",
+        "count": 2,
+        "contexts": [
+          "other"
+        ]
+      },
+      {
+        "name": "fade-in",
+        "duration": "0.001s",
+        "easing": "ease-in-out",
+        "count": 1,
+        "contexts": [
+          "other"
+        ]
+      }
+    ],
+    "contexts": {
+      "modal": {
+        "count": 1,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "card": {
+        "count": 177,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "color",
+          "background-color",
+          "border-color",
+          "outline-color"
+        ]
+      },
+      "link": {
+        "count": 130,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "easingType": "custom",
+        "props": [
+          "color",
+          "background-color",
+          "border-color",
+          "outline-color"
+        ]
+      },
+      "nav": {
+        "count": 5,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "easingType": "custom",
+        "props": [
+          "color",
+          "background-color",
+          "border-color",
+          "outline-color"
+        ]
+      },
+      "button": {
+        "count": 21,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "color",
+          "background-color",
+          "border-color",
+          "outline-color"
+        ]
+      },
+      "overlay": {
+        "count": 2,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "easingType": "custom",
+        "props": []
+      },
+      "media": {
+        "count": 2,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      }
+    },
+    "interactiveDeltas": [
+      {
+        "tag": "a",
+        "text": "certified byLearn more oncerti",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgba(0, 0, 0, 0)",
+            "to": "rgba(255, 255, 255, 0.067)"
+          }
+        }
+      },
+      {
+        "tag": "button",
+        "text": "Cookies",
+        "pattern": "transform",
+        "delta": {
+          "transform": "matrix(1.0925, 0, 0, 1.0925, 0, 0)"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgba(0, 0, 0, 0)",
+            "to": "rgb(251, 251, 248)"
+          }
+        }
+      }
+    ]
+  },
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "oklch(0.967 0.001 286.375)",
+            "color": "oklch(0.21 0.006 285.885)",
+            "padding": "8px 16px",
+            "borderRadius": "6px",
+            "border": "0px solid oklch(0.21 0.006 285.885)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "text": "Learn more",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "oklch(0.141 0.005 285.823)",
+            "color": "oklch(0.985 0 0)",
+            "padding": "0px 16px",
+            "borderRadius": "0px",
+            "border": "0px solid oklch(0.985 0 0)",
+            "fontSize": "14px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "text": "Contact sales",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "16px",
+            "borderRadius": "0px",
+            "border": "1px 0px 0px solid rgb(228, 227, 222)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "text": "Introducing Shieldstral.",
+        "confidence": "medium"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "16px",
+            "borderRadius": "0px",
+            "border": "1px 0px solid rgb(228, 227, 222)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "text": "Introducing Robostral Navigate",
+        "confidence": "medium"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(7, 7, 11, 0.05)",
+            "color": "oklch(0.21 0.006 285.885)",
+            "padding": "8px 16px",
+            "borderRadius": "6px",
+            "border": "0px solid oklch(0.21 0.006 285.885)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "text": "Discover Vibe",
+        "confidence": "medium"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "oklch(0.141 0.005 285.823)",
+            "color": "oklch(0.985 0 0)",
+            "padding": "8px 16px",
+            "borderRadius": "6px",
+            "border": "0px solid oklch(0.985 0 0)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "text": "Contact sales",
+        "confidence": "medium"
+      }
+    ],
+    "inputs": {
+      "text": [],
+      "checkbox": [],
+      "radio": [],
+      "select": [
+        {
+          "specificType": "select-one",
+          "states": {
+            "default": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "border": "0px solid rgb(0, 0, 0)",
+              "borderRadius": "0px",
+              "padding": "0px",
+              "boxShadow": "none",
+              "outline": "rgb(0, 0, 0) none 3px"
+            },
+            "focus": null
+          }
+        }
+      ]
+    },
+    "links": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(0, 0, 0)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "var(--color-text-secondary)"
+          }
+        }
+      },
+      {
+        "color": "oklch(0.21 0.006 285.885)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "oklch(0.21 0.006 285.885)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "var(--color-text-secondary)"
+          }
+        }
+      },
+      {
+        "color": "oklch(0.985 0 0)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "oklch(0.985 0 0)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "var(--color-text-secondary)"
+          }
+        }
+      },
+      {
+        "color": "oklch(0.552 0.016 285.938)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "oklch(0.552 0.016 285.938)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "var(--color-text-secondary)"
+          }
+        }
+      }
+    ],
+    "badges": {
+      "all": [],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": []
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "768px"
+    }
+  ],
+  "iconSystem": [],
+  "frameworks": [
+    {
+      "name": "Tailwind CSS",
+      "confidence": "high",
+      "evidence": "arbitrary values (e.g., top-[117px]), responsive/state modifiers"
+    }
+  ]
+}

@@ -1,0 +1,1376 @@
+{
+  "url": "https://spline.design/",
+  "extractedAt": "2026-08-09T11:51:22.087Z",
+  "meta": {
+    "snapshotId": "506f8763-d34d-4aff-bc67-dd7b1cda7653",
+    "httpStatus": 200,
+    "dembrandtVersion": "0.27.1",
+    "schemaVersion": "1.5.0",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "fontsReady": true,
+    "flags": {
+      "mobile": true
+    }
+  },
+  "siteName": "Spline",
+  "logo": {
+    "source": "img",
+    "context": "header",
+    "url": "https://spline.design/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fspline_logo.54f4e584.png&w=64&q=75",
+    "width": 64,
+    "height": 64,
+    "rect": {
+      "x": 476,
+      "y": 98,
+      "width": 32,
+      "height": 32
+    },
+    "natural": {
+      "width": 64,
+      "height": 64
+    },
+    "alt": "Spline logo",
+    "type": "logomark",
+    "reversed": true,
+    "background": "#000000",
+    "safeZone": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "position": {
+      "top": 98,
+      "left": 475.984375
+    }
+  },
+  "logoInstances": [
+    {
+      "source": "img",
+      "context": "header",
+      "url": "https://spline.design/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fspline_logo.54f4e584.png&w=64&q=75",
+      "width": 64,
+      "height": 64,
+      "rect": {
+        "x": 476,
+        "y": 98,
+        "width": 32,
+        "height": 32
+      },
+      "natural": {
+        "width": 64,
+        "height": 64
+      },
+      "alt": "Spline logo",
+      "type": "logomark",
+      "reversed": true,
+      "background": "#000000",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 98,
+        "left": 475.984375
+      }
+    },
+    {
+      "source": "img",
+      "context": "footer",
+      "url": "https://spline.design/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fspline-app-icon-v2.fdc35245.png&w=64&q=75",
+      "width": 64,
+      "height": 64,
+      "rect": {
+        "x": 420,
+        "y": 13020,
+        "width": 50,
+        "height": 50
+      },
+      "natural": {
+        "width": 64,
+        "height": 64
+      },
+      "alt": "Spline logo",
+      "type": "logomark",
+      "reversed": true,
+      "background": "#000000",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 13020.359375,
+        "left": 420
+      }
+    }
+  ],
+  "favicons": [
+    {
+      "type": "icon",
+      "url": "https://spline.design/images/icon_favicon16x16.png",
+      "sizes": "16x16"
+    },
+    {
+      "type": "icon",
+      "url": "https://spline.design/images/icon_favicon32x32.png",
+      "sizes": "32x32"
+    },
+    {
+      "type": "og:image",
+      "url": "https://spline.design/_next/static/media/spline_image_banner.77c2eb63.png",
+      "sizes": null
+    },
+    {
+      "type": "twitter:image",
+      "url": "https://spline.design/_next/static/media/spline_image_banner.77c2eb63.png",
+      "sizes": null
+    }
+  ],
+  "colors": {
+    "semantic": {
+      "background": "rgb(0, 0, 0)",
+      "text": "rgb(255, 255, 255)",
+      "primary": "rgb(0, 98, 255)"
+    },
+    "palette": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 1929,
+        "confidence": "high",
+        "sources": [
+          "announcement-module-scss-modul",
+          "[object",
+          "container3d-module-scss-module"
+        ],
+        "lch": "lch(100% 0.03 53.35)",
+        "oklch": "oklch(100% 0 89.88)",
+        "role": "surface",
+        "onColor": "#000000",
+        "hover": "#d9d9d9"
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 2,
+        "confidence": "medium",
+        "sources": [],
+        "lch": "lch(0% 0 0)",
+        "oklch": "oklch(0% 0 0)",
+        "role": "surface",
+        "onColor": "#ffffff",
+        "hover": "#000000"
+      },
+      {
+        "color": "rgb(136, 136, 136)",
+        "normalized": "#888888",
+        "count": 10,
+        "confidence": "medium",
+        "sources": [
+          "communitysection-module-scss-m"
+        ],
+        "lch": "lch(56.7% 0.02 53.35)",
+        "oklch": "oklch(62.68% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#000000",
+        "hover": "#747474"
+      },
+      {
+        "color": "rgb(0, 98, 255)",
+        "normalized": "#0062ff",
+        "count": 3,
+        "confidence": "high",
+        "sources": [
+          "communitysection-module-scss-m",
+          "ctasection-module-scss-module_"
+        ],
+        "lch": "lch(45.38% 89.77 287.12)",
+        "oklch": "oklch(55.6% 0.245 261.33)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#0076ff",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(16, 16, 16)",
+        "normalized": "#101010",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      },
+      {
+        "color": "rgb(33, 124, 229)",
+        "normalized": "#217ce5",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      }
+    ],
+    "cssVariables": {
+      "--color-blue-lighter": {
+        "value": "#5797ff",
+        "hex": "#5797ff",
+        "lch": "lch(61.97% 59.04 274.04)",
+        "oklch": "oklch(68.3% 0.168 259.64)"
+      },
+      "--color-blue-dark": {
+        "value": "#217ce5",
+        "hex": "#217ce5",
+        "lch": "lch(51.31% 61.82 273.74)",
+        "oklch": "oklch(59.2% 0.179 255.52)"
+      },
+      "--color-purple-bright": {
+        "value": "#a770ff",
+        "hex": "#a770ff",
+        "lch": "lch(58.3% 78.16 304.61)",
+        "oklch": "oklch(66.79% 0.205 298.42)"
+      },
+      "--color-super-darker": {
+        "value": "#008761",
+        "hex": "#008761",
+        "lch": "lch(49.61% 41.56 164.22)",
+        "oklch": "oklch(55.23% 0.116 165.02)"
+      },
+      "--color-green-bright": {
+        "value": "#47b35f",
+        "hex": "#47b35f",
+        "lch": "lch(65.29% 56.73 144.23)",
+        "oklch": "oklch(68.4% 0.156 148.13)"
+      },
+      "--color-super": {
+        "value": "#00a376",
+        "hex": "#00a376",
+        "lch": "lch(59.3% 47.66 164.29)",
+        "oklch": "oklch(63.4% 0.133 165.09)"
+      },
+      "--color-red": {
+        "value": "#fd585b",
+        "hex": "#fd585b",
+        "lch": "lch(61.21% 72.64 28.68)",
+        "oklch": "oklch(68.32% 0.201 23.16)"
+      },
+      "--color-super-lighter": {
+        "value": "#38e2b3",
+        "hex": "#38e2b3",
+        "lch": "lch(80.81% 53.45 168.88)",
+        "oklch": "oklch(81.75% 0.151 169.31)"
+      },
+      "--color-team": {
+        "value": "#915eff",
+        "hex": "#915eff",
+        "lch": "lch(52.27% 88.42 302.98)",
+        "oklch": "oklch(62.07% 0.227 293.21)"
+      },
+      "--color-team-lighter": {
+        "value": "#d680ff",
+        "hex": "#d680ff",
+        "lch": "lch(66.9% 70.59 314.55)",
+        "oklch": "oklch(74.01% 0.194 313.84)"
+      },
+      "--color-green": {
+        "value": "#49bc541a",
+        "hex": "#49bc54",
+        "lch": "lch(68.07% 65.11 140 / 0.10196078431372549)",
+        "oklch": "oklch(70.64% 0.177 145.04 / 0.10196078431372549)"
+      },
+      "--color-purple": {
+        "value": "#8f66ff21",
+        "hex": "#8f66ff",
+        "lch": "lch(53.7% 84.03 301.21 / 0.12941176470588237)",
+        "oklch": "oklch(63.04% 0.217 291.25 / 0.12941176470588237)"
+      },
+      "--color-yellow": {
+        "value": "#ffb01f",
+        "hex": "#ffb01f",
+        "lch": "lch(78.15% 79.41 73.67)",
+        "oklch": "oklch(81.31% 0.165 75.11)"
+      },
+      "--color-bg-greenish": {
+        "value": "#c1f6e8",
+        "hex": "#c1f6e8",
+        "lch": "lch(92.94% 19.57 177.18)",
+        "oklch": "oklch(93.28% 0.057 177.05)"
+      },
+      "--color-bg-transparent": {
+        "value": "#1110",
+        "hex": "#111111",
+        "lch": "lch(5.06% 0 53.34 / 0)",
+        "oklch": "oklch(17.76% 0 89.88 / 0)"
+      },
+      "--color-pink": {
+        "value": "#ff5cab",
+        "hex": "#ff5cab",
+        "lch": "lch(63.67% 68.07 353.48)",
+        "oklch": "oklch(71.06% 0.21 353.83)"
+      },
+      "--color-team-darker": {
+        "value": "#7448d4",
+        "hex": "#7448d4",
+        "lch": "lch(42.03% 79.67 303.09)",
+        "oklch": "oklch(52.97% 0.203 292.51)"
+      }
+    },
+    "detected": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 1929,
+        "usageFrac": 0.9683734939759037,
+        "confidence": "high",
+        "sources": [
+          "announcement-module-scss-modul",
+          "[object",
+          "container3d-module-scss-module",
+          "content",
+          "librarysection-module-scss-mod"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(25, 26, 29)",
+        "normalized": "#191a1d",
+        "count": 26,
+        "usageFrac": 0.013052208835341365,
+        "confidence": "high",
+        "sources": [
+          "librarysection-module-scss-mod"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(86, 156, 214)",
+        "normalized": "#569cd6",
+        "count": 10,
+        "usageFrac": 0.0050200803212851405,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(136, 136, 136)",
+        "normalized": "#888888",
+        "count": 10,
+        "usageFrac": 0.0050200803212851405,
+        "confidence": "medium",
+        "sources": [
+          "communitysection-module-scss-m"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(206, 145, 120)",
+        "normalized": "#ce9178",
+        "count": 6,
+        "usageFrac": 0.0030120481927710845,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(106, 153, 85)",
+        "normalized": "#6a9955",
+        "count": 4,
+        "usageFrac": 0.002008032128514056,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(0, 98, 255)",
+        "normalized": "#0062ff",
+        "count": 3,
+        "usageFrac": 0.0015060240963855422,
+        "confidence": "high",
+        "sources": [
+          "communitysection-module-scss-m",
+          "ctasection-module-scss-module_"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 2,
+        "usageFrac": 0.001004016064257028,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": true
+      },
+      {
+        "color": "rgba(30, 30, 35, 0.8)",
+        "normalized": "#1e1e23",
+        "count": 1,
+        "usageFrac": 0.000502008032128514,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": true
+      },
+      {
+        "color": "rgba(32, 32, 32, 0.72)",
+        "normalized": "#202020",
+        "count": 1,
+        "usageFrac": 0.000502008032128514,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      }
+    ],
+    "_raw": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 1929
+      },
+      {
+        "color": "rgb(25, 26, 29)",
+        "normalized": "#191a1d",
+        "count": 26
+      }
+    ]
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "display",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "58px (3.63rem)",
+        "weight": 500,
+        "lineHeight": "1.24",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "40px (2.50rem)",
+        "weight": 500,
+        "lineHeight": "1.35",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "36px (2.25rem)",
+        "weight": 500,
+        "lineHeight": "1.22",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "36px (2.25rem)",
+        "weight": 500,
+        "lineHeight": "1.22",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "24px (1.50rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "24px (1.50rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "24px (1.50rem)",
+        "weight": 500,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "20px (1.25rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "18px (1.13rem)",
+        "weight": 400,
+        "lineHeight": "1.56",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "18px (1.13rem)",
+        "weight": 400,
+        "lineHeight": "1.56",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "18px (1.13rem)",
+        "weight": 500,
+        "lineHeight": "1.56",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": "capitalize"
+      },
+      {
+        "context": "ui",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": "capitalize"
+      },
+      {
+        "context": "link",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": "capitalize"
+      },
+      {
+        "context": "body",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-4",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.71",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "ui-monospace",
+        "fallbacks": "SFMono-Regular, Consolas, Liberation Mono, Menlo",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "13px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Spline Sans",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial",
+        "size": "12px (0.75rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      }
+    ],
+    "sources": {
+      "googleFonts": [],
+      "adobeFonts": false,
+      "variableFonts": false,
+      "selfHostedFonts": [
+        "Brockmann-Medium.woff2",
+        "Brockmann-Regular.woff2",
+        "SplineSans-Medium.woff2",
+        "SplineSans-Regular.woff2",
+        "SplineSansMono-Regular.woff2"
+      ],
+      "customFonts": [
+        "Brockmann-Medium.woff2",
+        "Brockmann-Regular.woff2",
+        "SplineSans-Medium.woff2",
+        "SplineSans-Regular.woff2",
+        "SplineSansMono-Regular.woff2"
+      ]
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "6px",
+        "display": "6px",
+        "rem": "0.38rem",
+        "count": 4,
+        "numericValue": 6
+      },
+      {
+        "px": "8px",
+        "display": "8px",
+        "rem": "0.50rem",
+        "count": 17,
+        "numericValue": 8
+      },
+      {
+        "px": "10px",
+        "display": "10px",
+        "rem": "0.63rem",
+        "count": 20,
+        "numericValue": 10
+      },
+      {
+        "px": "12px",
+        "display": "12px",
+        "rem": "0.75rem",
+        "count": 48,
+        "numericValue": 12
+      },
+      {
+        "px": "16px",
+        "display": "16px",
+        "rem": "1.00rem",
+        "count": 62,
+        "numericValue": 16
+      },
+      {
+        "px": "18px",
+        "display": "18px",
+        "rem": "1.13rem",
+        "count": 2,
+        "numericValue": 18
+      },
+      {
+        "px": "20px",
+        "display": "20px",
+        "rem": "1.25rem",
+        "count": 5,
+        "numericValue": 20
+      },
+      {
+        "px": "24px",
+        "display": "24px",
+        "rem": "1.50rem",
+        "count": 11,
+        "numericValue": 24
+      },
+      {
+        "px": "28px",
+        "display": "28px",
+        "rem": "1.75rem",
+        "count": 1,
+        "numericValue": 28
+      },
+      {
+        "px": "30px",
+        "display": "30px",
+        "rem": "1.88rem",
+        "count": 1,
+        "numericValue": 30
+      },
+      {
+        "px": "32px",
+        "display": "32px",
+        "rem": "2.00rem",
+        "count": 21,
+        "numericValue": 32
+      },
+      {
+        "px": "40px",
+        "display": "40px",
+        "rem": "2.50rem",
+        "count": 33,
+        "numericValue": 40
+      },
+      {
+        "px": "48px",
+        "display": "48px",
+        "rem": "3.00rem",
+        "count": 1,
+        "numericValue": 48
+      },
+      {
+        "px": "56px",
+        "display": "56px",
+        "rem": "3.50rem",
+        "count": 8,
+        "numericValue": 56
+      },
+      {
+        "px": "80px",
+        "display": "80px",
+        "rem": "5.00rem",
+        "count": 2,
+        "numericValue": 80
+      },
+      {
+        "px": "88px",
+        "display": "88px",
+        "rem": "5.50rem",
+        "count": 2,
+        "numericValue": 88
+      },
+      {
+        "px": "95px",
+        "display": "95px",
+        "rem": "5.94rem",
+        "count": 2,
+        "numericValue": 95
+      },
+      {
+        "px": "124px",
+        "display": "124px",
+        "rem": "7.75rem",
+        "count": 1,
+        "numericValue": 124
+      },
+      {
+        "px": "150px",
+        "display": "150px",
+        "rem": "9.38rem",
+        "count": 7,
+        "numericValue": 150
+      },
+      {
+        "px": "180px",
+        "display": "180px",
+        "rem": "11.25rem",
+        "count": 4,
+        "numericValue": 180
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "0px 0px 16px 16px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "8px",
+        "count": 12,
+        "elements": [
+          "div",
+          "button",
+          "a"
+        ],
+        "confidence": "high",
+        "numericValue": 8
+      },
+      {
+        "value": "12px",
+        "count": 13,
+        "elements": [
+          "a",
+          "button"
+        ],
+        "confidence": "high",
+        "numericValue": 12
+      },
+      {
+        "value": "16px",
+        "count": 70,
+        "elements": [
+          "div",
+          "video",
+          "a"
+        ],
+        "confidence": "high",
+        "numericValue": 16
+      },
+      {
+        "value": "16px 16px 0px 0px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 16
+      },
+      {
+        "value": "24px",
+        "count": 8,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 24
+      },
+      {
+        "value": "32px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 32
+      },
+      {
+        "value": "50px",
+        "count": 2,
+        "elements": [
+          "a"
+        ],
+        "confidence": "low",
+        "numericValue": 50
+      },
+      {
+        "value": "56px",
+        "count": 3,
+        "elements": [
+          "ul",
+          "button"
+        ],
+        "confidence": "low",
+        "numericValue": 56
+      },
+      {
+        "value": "99px",
+        "count": 2,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 99
+      },
+      {
+        "value": "50%",
+        "count": 34,
+        "elements": [
+          "span",
+          "img",
+          "image"
+        ],
+        "confidence": "high",
+        "numericValue": 50
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgba(255, 255, 255, 0.01)",
+        "count": 26,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgba(255, 255, 255, 0.1)",
+        "count": 9,
+        "elements": [
+          "video",
+          "a",
+          "div"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "none none solid",
+        "color": "rgb(255, 255, 255)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgba(255, 255, 255, 0.05)",
+        "count": 1,
+        "elements": [
+          "a"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "none none solid",
+        "color": "rgba(255, 255, 255, 0.6)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid none none",
+        "color": "rgba(255, 255, 255, 0.1)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [],
+  "gradients": [],
+  "motion": {
+    "durations": [
+      {
+        "value": "0.001s",
+        "ms": 1,
+        "count": 1250
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease",
+        "type": "ease",
+        "count": 1213
+      },
+      {
+        "value": "ease-out",
+        "type": "ease-out",
+        "count": 26
+      },
+      {
+        "value": "ease-in-out",
+        "type": "ease-in-out",
+        "count": 11
+      }
+    ],
+    "animations": [
+      {
+        "name": "LibrarySection-module-scss-module__4e0pRG__marquee",
+        "duration": "0.001s",
+        "easing": "linear",
+        "count": 2,
+        "contexts": [
+          "other"
+        ]
+      }
+    ],
+    "contexts": {
+      "link": {
+        "count": 81,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "color",
+          "background-color",
+          "background"
+        ]
+      },
+      "hero": {
+        "count": 20,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "nav": {
+        "count": 9,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "background-color"
+        ]
+      },
+      "button": {
+        "count": 12,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "color"
+        ]
+      },
+      "card": {
+        "count": 82,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "media": {
+        "count": 22,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      }
+    },
+    "interactiveDeltas": []
+  },
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(255, 255, 255, 0.1)",
+            "color": "rgba(255, 255, 255, 0.9)",
+            "padding": "12px",
+            "borderRadius": "8px",
+            "border": "0px none rgba(255, 255, 255, 0.9)",
+            "fontSize": "14px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "text": "Copy Code",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(255, 255, 255, 0.1)",
+            "color": "rgba(255, 255, 255, 0.8)",
+            "padding": "16px",
+            "borderRadius": "12px",
+            "border": "0px none rgba(255, 255, 255, 0.8)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "text": "Webflow",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(0, 98, 255)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "16px 24px",
+            "borderRadius": "12px",
+            "border": "0px none rgb(255, 255, 255)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "text": "Get started — it’s free",
+        "confidence": "medium"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(255, 255, 255, 0.15)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "10px 20px",
+            "borderRadius": "12px",
+            "border": "0px none rgb(255, 255, 255)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "text": "Learn more",
+        "confidence": "medium"
+      }
+    ],
+    "inputs": {
+      "text": [],
+      "checkbox": [],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "var(--color-white)"
+          }
+        }
+      }
+    ],
+    "badges": {
+      "all": [],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": []
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "400px"
+    },
+    {
+      "px": "450px"
+    },
+    {
+      "px": "500px"
+    },
+    {
+      "px": "530px"
+    },
+    {
+      "px": "540px"
+    },
+    {
+      "px": "550px"
+    },
+    {
+      "px": "600px"
+    },
+    {
+      "px": "625px"
+    },
+    {
+      "px": "630px"
+    },
+    {
+      "px": "720px"
+    },
+    {
+      "px": "768px"
+    },
+    {
+      "px": "780px"
+    },
+    {
+      "px": "781px"
+    },
+    {
+      "px": "800px"
+    },
+    {
+      "px": "820px"
+    },
+    {
+      "px": "850px"
+    },
+    {
+      "px": "860px"
+    },
+    {
+      "px": "870px"
+    },
+    {
+      "px": "880px"
+    },
+    {
+      "px": "950px"
+    },
+    {
+      "px": "960px"
+    },
+    {
+      "px": "1079px"
+    },
+    {
+      "px": "1080px"
+    },
+    {
+      "px": "1095px"
+    },
+    {
+      "px": "1100px"
+    },
+    {
+      "px": "1160px"
+    },
+    {
+      "px": "1200px"
+    }
+  ],
+  "iconSystem": [],
+  "frameworks": [
+    {
+      "name": "Radix UI",
+      "confidence": "high",
+      "evidence": "10 Radix primitives"
+    }
+  ]
+}

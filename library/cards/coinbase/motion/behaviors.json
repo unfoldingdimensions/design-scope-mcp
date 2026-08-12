@@ -1,0 +1,163 @@
+{
+  "url": "https://www.coinbase.com",
+  "captured": "2026-08-10T04:05:21+00:00",
+  "hover_diffs": [
+    {
+      "selector": "button",
+      "index": 1,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(238, 240, 243)",
+          "after": "rgba(229, 231, 234, 0.88)"
+        },
+        "borderColor": {
+          "before": "rgb(238, 240, 243)",
+          "after": "rgba(229, 231, 234, 0.88)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(238, 240, 243)",
+          "after": "rgba(229, 231, 234, 0.88)"
+        },
+        "borderColor": {
+          "before": "rgb(238, 240, 243)",
+          "after": "rgba(229, 231, 234, 0.88)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 3,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(247, 247, 247, 0.88)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 4,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(247, 247, 247, 0.88)"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 5,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(247, 247, 247, 0.88)"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 6,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(247, 247, 247, 0.88)"
+        }
+      },
+      "before_png": "hover-before-06.png",
+      "after_png": "hover-after-06.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 255,
+    "tabs": 73,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 2,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "a",
+      "classes": " inline-i1d5xt2g fgPrimary-f1viahif _0-_19in606 body-b14a8egd _0-_sikgx6 _0-_1dt",
+      "text": "Skip to content",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "a",
+      "classes": " inline-i1d5xt2g fgPrimary-f1viahif _0-_19in606 body-b14a8egd _0-_sikgx6 _0-_1dt",
+      "text": "Skip to site index",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "button",
+      "classes": " flex-ff5rfy6 fgInverse-f1sdlwjn _0-_19in606 _900-_1i1nlmz _0-_sikgx6 _4-_sm7rau",
+      "text": "󰝊",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "button",
+      "classes": " flex-ff5rfy6 fgInverse-f1sdlwjn _0-_19in606 _900-_1i1nlmz _0-_sikgx6 _4-_sm7rau",
+      "text": "󰒰",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "span",
+      "classes": " flex-ff5rfy6 _100-_x44gs4 _1000-_tqhrr9 cds-Interactable baseCss-b17wmk8f baseC",
+      "text": "󰝈",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "button",
+      "classes": " flex-ff5rfy6 _100-_x44gs4 _0-_sikgx6 cds-Interactable baseCss-b17wmk8f baseCss-",
+      "text": "EspañolUnited States",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "button",
+      "classes": " flex-ff5rfy6 _100-_x44gs4 _0-_sikgx6 cds-Interactable baseCss-b17wmk8f baseCss-",
+      "text": "EnglishUnited States",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "button",
+      "classes": " flex-ff5rfy6 _100-_x44gs4 _0-_sikgx6 cds-Interactable baseCss-b17wmk8f baseCss-",
+      "text": "DeutschGermany",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

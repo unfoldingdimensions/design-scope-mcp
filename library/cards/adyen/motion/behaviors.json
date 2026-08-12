@@ -1,0 +1,104 @@
+{
+  "url": "https://www.adyen.com",
+  "captured": "2026-08-10T12:23:19+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "textDecoration": {
+          "before": "1px",
+          "after": null
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "opacity": {
+          "before": "1",
+          "after": "0.572"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "opacity": {
+          "before": "1",
+          "after": "0.572"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "opacity": {
+          "before": "1",
+          "after": "0.572"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "nav.group",
+      "diffs": {
+        "sel": "nav.group → div.pointer-events-auto",
+        "position": "static → sticky"
+      }
+    },
+    {
+      "selector": "div.pointer-events-auto",
+      "diffs": {
+        "sel": "div.pointer-events-auto → div.sticky"
+      }
+    },
+    {
+      "selector": "div.sticky",
+      "diffs": {
+        "sel": "div.sticky → div.relative"
+      }
+    },
+    {
+      "selector": "div.relative",
+      "diffs": {
+        "sel": "div.relative → div.md:sticky"
+      }
+    },
+    {
+      "selector": "div.md:sticky",
+      "diffs": {
+        "sel": "div.md:sticky → div.lg:sticky"
+      }
+    },
+    {
+      "selector": "div.lg:sticky",
+      "diffs": {
+        "sel": "div.lg:sticky → div.sticky"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 120,
+    "tabs": 0,
+    "accordions": 5,
+    "carousels": 0,
+    "observers": 3,
+    "scrollSnap": 19,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": []
+}

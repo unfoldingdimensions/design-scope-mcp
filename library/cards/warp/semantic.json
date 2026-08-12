@@ -1,0 +1,224 @@
+{
+  "url": "https://www.warp.dev",
+  "captured": "2026-08-10T07:49:36+00:00",
+  "named_tokens": {
+    "light": {
+      "--scroll-padding-top": "5.25rem"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "soft corners",
+      "elevated (soft shadows)"
+    ],
+    "flat": false,
+    "corner_style": "soft",
+    "type_mood": [
+      "mono accents"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {},
+  "z_index_rows": [],
+  "responsive": [
+    {
+      "at": "(prefers-reduced-motion: no-preference)",
+      "selector": "main section[data-motion-reveal] [data-motion-reveal-item]",
+      "change": "opacity: 0"
+    },
+    {
+      "at": "(prefers-reduced-motion: no-preference)",
+      "selector": "main section[data-motion-reveal] [data-motion-reveal-item]",
+      "change": "transition-delay: var(--reveal-delay,0s)"
+    },
+    {
+      "at": "(prefers-reduced-motion: no-preference)",
+      "selector": "main section[data-motion-reveal=\"visible\"] [data-motion-reveal-item]",
+      "change": "opacity: 1"
+    },
+    {
+      "at": "(prefers-reduced-motion: no-preference)",
+      "selector": "main section[data-motion-reveal=\"visible\"] [data-motion-reveal-item]",
+      "change": "will-change: auto"
+    },
+    {
+      "at": "(prefers-reduced-motion: no-preference)",
+      "selector": "main section[data-motion-reveal=\"visible\"] [data-motion-reveal-item]",
+      "change": "transform: translateY(0px)"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".factory-window .row-reveal, .factory-window .row-exit, .factory-window .factory",
+      "change": "animation-duration: auto"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".factory-window .row-reveal, .factory-window .row-exit, .factory-window .factory",
+      "change": "animation-timing-function: ease"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".factory-window .row-reveal, .factory-window .row-exit, .factory-window .factory",
+      "change": "animation-delay: 0s"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".factory-window .row-reveal, .factory-window .row-exit, .factory-window .factory",
+      "change": "animation-iteration-count: 1"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".factory-window .row-reveal, .factory-window .row-exit, .factory-window .factory",
+      "change": "animation-direction: normal"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".factory-window .row-reveal, .factory-window .row-exit, .factory-window .factory",
+      "change": "animation-fill-mode: none"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".warp-lite-window .story-reveal, .warp-lite-window .composer-controls-reveal, .w",
+      "change": "animation-duration: auto"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".warp-lite-window .story-reveal, .warp-lite-window .composer-controls-reveal, .w",
+      "change": "animation-timing-function: ease"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".warp-lite-window .story-reveal, .warp-lite-window .composer-controls-reveal, .w",
+      "change": "animation-delay: 0s"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".warp-lite-window .story-reveal, .warp-lite-window .composer-controls-reveal, .w",
+      "change": "animation-iteration-count: 1"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".warp-lite-window .story-reveal, .warp-lite-window .composer-controls-reveal, .w",
+      "change": "animation-direction: normal"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".warp-lite-window .story-reveal, .warp-lite-window .composer-controls-reveal, .w",
+      "change": "animation-fill-mode: none"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".mini-app-message-enter, .mini-app-typing-dot",
+      "change": "animation-duration: auto"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".mini-app-message-enter, .mini-app-typing-dot",
+      "change": "animation-timing-function: ease"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".mini-app-message-enter, .mini-app-typing-dot",
+      "change": "animation-delay: 0s"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".mini-app-message-enter, .mini-app-typing-dot",
+      "change": "animation-iteration-count: 1"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".mini-app-message-enter, .mini-app-typing-dot",
+      "change": "animation-direction: normal"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".mini-app-message-enter, .mini-app-typing-dot",
+      "change": "animation-fill-mode: none"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".scanner-fluid",
+      "change": "opacity: 0.5"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".scanner-fluid",
+      "change": "background-position-x: 50%, 50%"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".scanner-fluid",
+      "change": "background-position-y: center, center"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".scanner-fluid",
+      "change": "animation-duration: auto"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".scanner-fluid",
+      "change": "animation-timing-function: ease"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".scanner-fluid",
+      "change": "animation-delay: 0s"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".scanner-pulse",
+      "change": "opacity: 0.5"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".scanner-pulse",
+      "change": "animation-duration: auto"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".scanner-pulse",
+      "change": "animation-timing-function: ease"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".scanner-pulse",
+      "change": "animation-delay: 0s"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".scanner-pulse",
+      "change": "animation-iteration-count: 1"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".scanner-pulse",
+      "change": "animation-direction: normal"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": "[style*=\"scroll-up\"], [style*=\"scroll-left\"], [style*=\"scroll-right\"]",
+      "change": "animation-play-state: paused"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": "video[autoplay]",
+      "change": "display: none"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": "video[autoplay]",
+      "change": "animation-play-state: paused"
+    }
+  ]
+}

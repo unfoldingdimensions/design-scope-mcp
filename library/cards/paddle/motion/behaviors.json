@@ -1,0 +1,85 @@
+{
+  "url": "https://www.paddle.com",
+  "captured": "2026-08-10T11:08:13+00:00",
+  "hover_diffs": [
+    {
+      "selector": "button",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgba(28, 26, 21, 0.8)",
+          "after": "rgb(28, 26, 21)"
+        },
+        "borderColor": {
+          "before": "rgba(28, 26, 21, 0.8)",
+          "after": "rgb(28, 26, 21)"
+        },
+        "outline": {
+          "before": "rgba(28, 26, 21, 0.8) none 3px",
+          "after": "rgb(28, 26, 21) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgba(28, 26, 21, 0.8)",
+          "after": "rgb(28, 26, 21)"
+        },
+        "borderColor": {
+          "before": "rgba(28, 26, 21, 0.8)",
+          "after": "rgb(28, 26, 21)"
+        },
+        "outline": {
+          "before": "rgba(28, 26, 21, 0.8) none 3px",
+          "after": "rgb(28, 26, 21) none 3px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "color": {
+          "before": "rgba(28, 26, 21, 0.8)",
+          "after": "rgb(28, 26, 21)"
+        },
+        "borderColor": {
+          "before": "rgba(28, 26, 21, 0.8)",
+          "after": "rgb(28, 26, 21)"
+        },
+        "outline": {
+          "before": "rgba(28, 26, 21, 0.8) none 3px",
+          "after": "rgb(28, 26, 21) none 3px"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "header.site-header-module-scss-module__KwRmMW__header",
+      "diffs": {
+        "background": "rgba(0, 0, 0, 0) → rgb(249, 248, 247)"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 196,
+    "tabs": 0,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": []
+}

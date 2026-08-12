@@ -1,0 +1,177 @@
+{
+  "url": "https://anytype.io",
+  "captured": "2026-08-10T11:51:47+00:00",
+  "named_tokens": {
+    "light": {
+      "--swiper-theme-color": "#007aff",
+      "--swiper-navigation-size": "44px"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {
+      "--swiper-theme-color": "#007aff"
+    },
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "airy line-height",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": null,
+    "type_mood": [
+      "serif-led"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "menu": 3,
+    "tooltip": 3,
+    "notification": 0
+  },
+  "z_index_rows": [
+    {
+      "role": "menu",
+      "selector": ".plyr__menu__container",
+      "value": "3"
+    },
+    {
+      "role": "tooltip",
+      "selector": ".plyr__tooltip",
+      "value": "2"
+    },
+    {
+      "role": "tooltip",
+      "selector": ".plyr__tooltip::before",
+      "value": "2"
+    },
+    {
+      "role": "tooltip",
+      "selector": ".plyr .plyr__control:hover .plyr__tooltip",
+      "value": "3"
+    },
+    {
+      "role": "notification",
+      "selector": ".swiper .swiper-notification",
+      "value": "-1000"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "768px",
+      "selector": ".container",
+      "change": "max-width: 1680px"
+    },
+    {
+      "at": "768px",
+      "selector": ".container",
+      "change": "padding-inline-start: 16rem"
+    },
+    {
+      "at": "768px",
+      "selector": ".container",
+      "change": "padding-inline-end: 16rem"
+    },
+    {
+      "at": "768px",
+      "selector": ".container-full",
+      "change": "padding-inline-start: 16rem"
+    },
+    {
+      "at": "768px",
+      "selector": ".container-full",
+      "change": "padding-inline-end: 16rem"
+    },
+    {
+      "at": "768px",
+      "selector": ".container-inner",
+      "change": "padding-inline-start: 64rem"
+    },
+    {
+      "at": "768px",
+      "selector": ".container-inner",
+      "change": "padding-inline-end: 64rem"
+    },
+    {
+      "at": "480px",
+      "selector": ".plyr__captions",
+      "change": "font-size: var(--plyr-font-size-base,15px)"
+    },
+    {
+      "at": "768px",
+      "selector": ".plyr__captions",
+      "change": "font-size: var(--plyr-font-size-large,18px)"
+    },
+    {
+      "at": "767px",
+      "selector": ".plyr__time + .plyr__time",
+      "change": "display: none"
+    },
+    {
+      "at": "480px",
+      "selector": ".plyr--video .plyr__controls",
+      "change": "padding-top: calc(var(--plyr-control-spacing, 10px)*3.5)"
+    },
+    {
+      "at": "1024px",
+      "selector": ".plyr:fullscreen .plyr__captions",
+      "change": "font-size: var(--plyr-font-size-xlarge,21px)"
+    },
+    {
+      "at": "1024px",
+      "selector": ".plyr--fullscreen-fallback .plyr__captions",
+      "change": "font-size: var(--plyr-font-size-xlarge,21px)"
+    },
+    {
+      "at": "768px",
+      "selector": ".slide-wrapper[data-v-6d2ba66c]",
+      "change": "opacity: 1"
+    },
+    {
+      "at": "768px",
+      "selector": ".slide-wrapper[data-v-6d2ba66c]",
+      "change": "transform: scale(1)"
+    },
+    {
+      "at": "768px",
+      "selector": ".slide-wrapper[data-v-6d2ba66c]",
+      "change": "transition-behavior: normal"
+    },
+    {
+      "at": "768px",
+      "selector": ".slide-wrapper[data-v-6d2ba66c]",
+      "change": "transition-duration: 0.7s"
+    },
+    {
+      "at": "768px",
+      "selector": ".slide-wrapper[data-v-6d2ba66c]",
+      "change": "transition-timing-function: ease"
+    },
+    {
+      "at": "768px",
+      "selector": ".slide-wrapper[data-v-6d2ba66c]",
+      "change": "transition-delay: 0s"
+    },
+    {
+      "at": "768px",
+      "selector": ".is-not-active .slide-wrapper[data-v-6d2ba66c]",
+      "change": "opacity: 0.5"
+    },
+    {
+      "at": "768px",
+      "selector": ".is-not-active .slide-wrapper[data-v-6d2ba66c]",
+      "change": "transform: scale(0.4)"
+    },
+    {
+      "at": "768px",
+      "selector": ".is-not-active .slide-wrapper[data-v-6d2ba66c]",
+      "change": "transform-origin: 50% 50%"
+    }
+  ]
+}

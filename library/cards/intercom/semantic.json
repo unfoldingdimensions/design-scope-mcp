@@ -1,0 +1,284 @@
+{
+  "url": "https://www.intercom.com",
+  "captured": "2026-08-10T07:07:35+00:00",
+  "named_tokens": {
+    "light": {
+      "--button-radius": "var(--radius-md,.375rem)",
+      "--button-height": "2.5rem",
+      "--button-padding-x": ".875rem",
+      "--button-primary-background": "var(--color-black)",
+      "--button-primary-foreground": "var(--color-white)",
+      "--button-primary-hover-background": "#000c",
+      "--button-primary-hover-border": "#000c",
+      "--button-primary-hover-foreground": "var(--color-white)",
+      "--button-primary-active-background": "var(--color-black)",
+      "--button-primary-active-foreground": "var(--color-white)",
+      "--button-primary-disabled-background": "#0000004d",
+      "--button-primary-disabled-foreground": "var(--color-white)",
+      "--button-secondary-background": "transparent",
+      "--button-secondary-foreground": "var(--color-black)",
+      "--button-secondary-border": "var(--color-black)",
+      "--button-secondary-hover-background": "#00000014",
+      "--button-secondary-hover-border": "#00000014",
+      "--button-secondary-hover-foreground": "var(--color-black)",
+      "--button-secondary-active-background": "#0000001f",
+      "--button-secondary-disabled-background": "transparent",
+      "--button-secondary-disabled-foreground": "#0000004d",
+      "--button-secondary-disabled-border": "#0000004d",
+      "--button-secondary-active-foreground": "var(--color-black)"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {
+      "--button-primary-disabled-background": "#0000004d",
+      "--button-secondary-active-background": "#0000001f",
+      "--button-secondary-disabled-border": "#0000004d",
+      "--button-secondary-disabled-foreground": "#0000004d",
+      "--button-secondary-hover-background": "#00000014",
+      "--button-secondary-hover-border": "#00000014"
+    },
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "soft corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "soft",
+    "type_mood": [
+      "serif-led",
+      "mono accents"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "modal": 2147483647,
+    "banner": 2147483645,
+    "menu": 10
+  },
+  "z_index_rows": [
+    {
+      "role": "menu",
+      "selector": "media-settings-menu",
+      "value": "10"
+    },
+    {
+      "role": "modal",
+      "selector": "#onetrust-consent-sdk .ot-general-modal",
+      "value": "2147483647"
+    },
+    {
+      "role": "banner",
+      "selector": "#onetrust-banner-sdk.otFloatingRounded",
+      "value": "2147483645"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": "[data-marquee-track]",
+      "change": "animation-play-state: paused"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".input:not(:focus-within):hover",
+      "change": "color: var(--color-black)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".input:not(:focus-within):hover",
+      "change": "background-color: rgba(0, 0, 0, 0)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".brand-i2y4 .input:not(:focus-within):hover",
+      "change": "border-top-color: rgba(17, 17, 17, 0.4)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".brand-i2y4 .input:not(:focus-within):hover",
+      "change": "border-right-color: rgba(17, 17, 17, 0.4)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".brand-i2y4 .input:not(:focus-within):hover",
+      "change": "border-bottom-color: rgba(17, 17, 17, 0.4)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".brand-i2y4 .input:not(:focus-within):hover",
+      "change": "border-left-color: rgba(17, 17, 17, 0.4)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".brand-i2y4 .input:not(:focus-within):hover",
+      "change": "background-color: var(--color-off-white)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".brand-i2y4 .input:not(:focus-within):hover",
+      "change": "color: var(--color-off-black)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".brand-i2y4 .select:hover",
+      "change": "border-top-color: rgba(17, 17, 17, 0.6)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".brand-i2y4 .select:hover",
+      "change": "border-right-color: rgba(17, 17, 17, 0.6)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".brand-i2y4 .select:hover",
+      "change": "border-bottom-color: rgba(17, 17, 17, 0.6)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".brand-i2y4 .select:hover",
+      "change": "border-left-color: rgba(17, 17, 17, 0.6)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".brand-i2y4 .checkbox:hover",
+      "change": "border-top-color: rgba(17, 17, 17, 0.6)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".brand-i2y4 .checkbox:hover",
+      "change": "border-right-color: rgba(17, 17, 17, 0.6)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".brand-i2y4 .checkbox:hover",
+      "change": "border-bottom-color: rgba(17, 17, 17, 0.6)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".brand-i2y4 .checkbox:hover",
+      "change": "border-left-color: rgba(17, 17, 17, 0.6)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".brand-i2y4 .radio:hover",
+      "change": "border-top-color: rgba(17, 17, 17, 0.6)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".brand-i2y4 .radio:hover",
+      "change": "border-right-color: rgba(17, 17, 17, 0.6)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".brand-i2y4 .radio:hover",
+      "change": "border-bottom-color: rgba(17, 17, 17, 0.6)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".brand-i2y4 .radio:hover",
+      "change": "border-left-color: rgba(17, 17, 17, 0.6)"
+    },
+    {
+      "at": "1024px",
+      "selector": "media-settings-menu-item",
+      "change": "padding-top: 10px"
+    },
+    {
+      "at": "1024px",
+      "selector": "media-settings-menu-item",
+      "change": "padding-right: 0px"
+    },
+    {
+      "at": "1024px",
+      "selector": "media-settings-menu-item",
+      "change": "padding-bottom: 10px"
+    },
+    {
+      "at": "1024px",
+      "selector": "media-settings-menu-item",
+      "change": "padding-left: 0px"
+    },
+    {
+      "at": "1024px",
+      "selector": "media-rendition-menu::part(menu-item), media-playback-rate-menu::part(menu-item)",
+      "change": "padding-top: 6px"
+    },
+    {
+      "at": "1024px",
+      "selector": "media-rendition-menu::part(menu-item), media-playback-rate-menu::part(menu-item)",
+      "change": "padding-right: 15px"
+    },
+    {
+      "at": "1024px",
+      "selector": "media-rendition-menu::part(menu-item), media-playback-rate-menu::part(menu-item)",
+      "change": "padding-bottom: 6px"
+    },
+    {
+      "at": "1024px",
+      "selector": "media-rendition-menu::part(menu-item), media-playback-rate-menu::part(menu-item)",
+      "change": "padding-left: 24px"
+    },
+    {
+      "at": "1024px",
+      "selector": "media-rendition-menu::part(menu-item), media-playback-rate-menu::part(menu-item)",
+      "change": "font-size: 16px"
+    },
+    {
+      "at": "426px",
+      "selector": "#onetrust-pc-sdk p",
+      "change": "font-size: 0.75em"
+    },
+    {
+      "at": "600px",
+      "selector": "#onetrust-consent-sdk .ot-general-modal",
+      "change": "min-width: 100%"
+    },
+    {
+      "at": "600px",
+      "selector": "#onetrust-consent-sdk .ot-signature-health .ot-signature-health-form",
+      "change": "width: 100%"
+    },
+    {
+      "at": "600px",
+      "selector": "#onetrust-consent-sdk .ot-input-field-cont .ot-signature-input",
+      "change": "width: 100%"
+    },
+    {
+      "at": "400px",
+      "selector": "#onetrust-banner-sdk .ot-sdk-container, #onetrust-pc-sdk .ot-sdk-container, #ot-",
+      "change": "width: 90%"
+    },
+    {
+      "at": "400px",
+      "selector": "#onetrust-banner-sdk .ot-sdk-container, #onetrust-pc-sdk .ot-sdk-container, #ot-",
+      "change": "padding-top: 0px"
+    },
+    {
+      "at": "400px",
+      "selector": "#onetrust-banner-sdk .ot-sdk-container, #onetrust-pc-sdk .ot-sdk-container, #ot-",
+      "change": "padding-right: 0px"
+    },
+    {
+      "at": "400px",
+      "selector": "#onetrust-banner-sdk .ot-sdk-container, #onetrust-pc-sdk .ot-sdk-container, #ot-",
+      "change": "padding-bottom: 0px"
+    },
+    {
+      "at": "400px",
+      "selector": "#onetrust-banner-sdk .ot-sdk-container, #onetrust-pc-sdk .ot-sdk-container, #ot-",
+      "change": "padding-left: 0px"
+    },
+    {
+      "at": "550px",
+      "selector": "#onetrust-banner-sdk .ot-sdk-container, #onetrust-pc-sdk .ot-sdk-container, #ot-",
+      "change": "width: 100%"
+    }
+  ]
+}

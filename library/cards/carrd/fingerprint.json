@@ -1,0 +1,838 @@
+{
+  "url": "https://carrd.co/",
+  "extractedAt": "2026-08-09T11:49:00.792Z",
+  "meta": {
+    "snapshotId": "31987ae4-627b-43d1-8912-7b2406252bf8",
+    "httpStatus": 200,
+    "dembrandtVersion": "0.27.1",
+    "schemaVersion": "1.5.0",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "fontsReady": true,
+    "flags": {
+      "mobile": true
+    }
+  },
+  "siteName": "Carrd",
+  "logo": null,
+  "logoInstances": [],
+  "favicons": [
+    {
+      "type": "og:image",
+      "url": "https://carrd.co/assets/images/etc/share.jpg",
+      "sizes": null
+    },
+    {
+      "type": "favicon.ico",
+      "url": "https://carrd.co/favicon.ico",
+      "sizes": null
+    }
+  ],
+  "colors": {
+    "semantic": {
+      "background": "rgb(36, 37, 45)",
+      "text": "rgba(255, 255, 255, 0.75)",
+      "primary": "rgb(51, 173, 169)"
+    },
+    "palette": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 294,
+        "confidence": "high",
+        "sources": [
+          "site-header",
+          "[object",
+          "intro-wrapper"
+        ],
+        "lch": "lch(100% 0.03 53.35)",
+        "oklch": "oklch(100% 0 89.88)",
+        "role": "surface",
+        "onColor": "#000000",
+        "hover": "#d9d9d9"
+      },
+      {
+        "color": "rgb(36, 37, 45)",
+        "normalized": "#24252d",
+        "count": 7,
+        "confidence": "medium",
+        "sources": [
+          "about-wrapper",
+          "pro-wrapper"
+        ],
+        "lch": "lch(14.83% 5.57 281.72)",
+        "oklch": "oklch(26.69% 0.015 279.71)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#2b2c36"
+      },
+      {
+        "color": "rgb(51, 173, 169)",
+        "normalized": "#33ada9",
+        "count": 2,
+        "confidence": "high",
+        "sources": [
+          "button"
+        ],
+        "lch": "lch(64.24% 35.76 193.17)",
+        "oklch": "oklch(68.18% 0.104 191.76)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#2b9390",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(65, 93, 157)",
+        "normalized": "#415d9d",
+        "count": 2,
+        "confidence": "low",
+        "sources": [
+          "gradient"
+        ],
+        "lch": "lch(39.69% 38.99 277.29)",
+        "oklch": "oklch(48.79% 0.108 264.85)"
+      },
+      {
+        "color": "rgb(57, 193, 188)",
+        "normalized": "#39c1bc",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      },
+      {
+        "color": "rgb(16, 16, 16)",
+        "normalized": "#101010",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      }
+    ],
+    "cssVariables": {},
+    "detected": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 294,
+        "usageFrac": 0.9639344262295082,
+        "confidence": "high",
+        "sources": [
+          "site-header",
+          "[object",
+          "intro-wrapper",
+          "button",
+          "about-wrapper"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(36, 37, 45)",
+        "normalized": "#24252d",
+        "count": 7,
+        "usageFrac": 0.022950819672131147,
+        "confidence": "medium",
+        "sources": [
+          "about-wrapper",
+          "pro-wrapper"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 2,
+        "usageFrac": 0.006557377049180328,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(51, 173, 169)",
+        "normalized": "#33ada9",
+        "count": 2,
+        "usageFrac": 0.006557377049180328,
+        "confidence": "high",
+        "sources": [
+          "button"
+        ],
+        "isToken": false
+      }
+    ],
+    "_raw": [
+      {
+        "color": "rgb(36, 37, 45)",
+        "normalized": "#24252d",
+        "count": 7
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 294
+      }
+    ]
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "display",
+        "family": "Arial",
+        "fallbacks": "Helvetica",
+        "size": "70px (4.38rem)",
+        "weight": 700,
+        "lineHeight": "1.60",
+        "spacing": "-1.75px",
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Arial",
+        "fallbacks": "Helvetica",
+        "size": "70px (4.38rem)",
+        "weight": 700,
+        "lineHeight": "1.25",
+        "spacing": "-1.75px",
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Arial",
+        "fallbacks": "Helvetica",
+        "size": "42.5px (2.66rem)",
+        "weight": 700,
+        "lineHeight": "1.25",
+        "spacing": "-1.0625px",
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "Arial",
+        "fallbacks": "Helvetica",
+        "size": "30px (1.88rem)",
+        "weight": 700,
+        "lineHeight": "1.60",
+        "spacing": "-0.75px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Arial",
+        "fallbacks": "Helvetica",
+        "size": "20px (1.25rem)",
+        "weight": 700,
+        "lineHeight": "3.50",
+        "spacing": "-0.5px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Arial",
+        "fallbacks": "Helvetica",
+        "size": "20px (1.25rem)",
+        "weight": 400,
+        "lineHeight": "3.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Arial",
+        "fallbacks": "Helvetica",
+        "size": "20px (1.25rem)",
+        "weight": 400,
+        "lineHeight": "1.75",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Arial",
+        "fallbacks": "Helvetica",
+        "size": "20px (1.25rem)",
+        "weight": 700,
+        "lineHeight": "3.30",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Arial",
+        "fallbacks": "Helvetica",
+        "size": "16px (1.00rem)",
+        "weight": 700,
+        "lineHeight": "3.30",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Arial",
+        "fallbacks": "Helvetica",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Arial",
+        "fallbacks": "Helvetica",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.75",
+        "spacing": null,
+        "transform": null
+      }
+    ],
+    "sources": {
+      "googleFonts": [],
+      "adobeFonts": false,
+      "variableFonts": false,
+      "selfHostedFonts": [],
+      "customFonts": []
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "5px",
+        "display": "5px",
+        "rem": "0.31rem",
+        "count": 1,
+        "numericValue": 5
+      },
+      {
+        "px": "8.75px",
+        "display": "8.75px",
+        "rem": "0.55rem",
+        "count": 6,
+        "numericValue": 8.75
+      },
+      {
+        "px": "15px",
+        "display": "15px",
+        "rem": "0.94rem",
+        "count": 6,
+        "numericValue": 15
+      },
+      {
+        "px": "17.5px",
+        "display": "17.5px",
+        "rem": "1.09rem",
+        "count": 3,
+        "numericValue": 17.5
+      },
+      {
+        "px": "21.25px",
+        "display": "21.25px",
+        "rem": "1.33rem",
+        "count": 5,
+        "numericValue": 21.25
+      },
+      {
+        "px": "26px",
+        "display": "26px",
+        "rem": "1.63rem",
+        "count": 1,
+        "numericValue": 26
+      },
+      {
+        "px": "28px",
+        "display": "28px",
+        "rem": "1.75rem",
+        "count": 1,
+        "numericValue": 28
+      },
+      {
+        "px": "32px",
+        "display": "32px",
+        "rem": "2.00rem",
+        "count": 1,
+        "numericValue": 32
+      },
+      {
+        "px": "38.3906px",
+        "display": "38.3906px",
+        "rem": "2.40rem",
+        "count": 1,
+        "numericValue": 38.3906
+      },
+      {
+        "px": "40px",
+        "display": "40px",
+        "rem": "2.50rem",
+        "count": 24,
+        "numericValue": 40
+      },
+      {
+        "px": "42.5px",
+        "display": "42.5px",
+        "rem": "2.66rem",
+        "count": 6,
+        "numericValue": 42.5
+      },
+      {
+        "px": "60px",
+        "display": "60px",
+        "rem": "3.75rem",
+        "count": 6,
+        "numericValue": 60
+      },
+      {
+        "px": "80px",
+        "display": "80px",
+        "rem": "5.00rem",
+        "count": 10,
+        "numericValue": 80
+      },
+      {
+        "px": "100px",
+        "display": "100px",
+        "rem": "6.25rem",
+        "count": 1,
+        "numericValue": 100
+      },
+      {
+        "px": "120px",
+        "display": "120px",
+        "rem": "7.50rem",
+        "count": 3,
+        "numericValue": 120
+      },
+      {
+        "px": "140px",
+        "display": "140px",
+        "rem": "8.75rem",
+        "count": 1,
+        "numericValue": 140
+      },
+      {
+        "px": "160px",
+        "display": "160px",
+        "rem": "10.00rem",
+        "count": 1,
+        "numericValue": 160
+      },
+      {
+        "px": "200px",
+        "display": "200px",
+        "rem": "12.50rem",
+        "count": 4,
+        "numericValue": 200
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "0px 0px 6px 6px",
+        "count": 3,
+        "elements": [
+          "div",
+          "section"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "0px 6px 0px 0px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "0px 0px 0px 6px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "0px 0px 6px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "6px",
+        "count": 14,
+        "elements": [
+          "ul",
+          "section",
+          "button",
+          "a",
+          "div"
+        ],
+        "confidence": "high",
+        "numericValue": 6
+      },
+      {
+        "value": "6px 6px 0px 0px",
+        "count": 1,
+        "elements": [
+          "section"
+        ],
+        "confidence": "low",
+        "numericValue": 6
+      },
+      {
+        "value": "6px 0px 0px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 6
+      },
+      {
+        "value": "20px",
+        "count": 3,
+        "elements": [
+          "div",
+          "image"
+        ],
+        "confidence": "low",
+        "numericValue": 20
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "0px 0px 2px",
+        "style": "none none dotted",
+        "color": "rgba(255, 255, 255, 0.75)",
+        "count": 11,
+        "elements": [
+          "a"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "0px 0px 0px 1px",
+        "style": "none none none solid",
+        "color": "rgba(255, 255, 255, 0.376)",
+        "count": 3,
+        "elements": [
+          "li"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 0px 2px",
+        "style": "solid none none solid",
+        "color": "rgba(255, 255, 255, 0.075)",
+        "count": 2,
+        "elements": [
+          "li"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "2px 0px 0px 2px",
+        "style": "solid none none solid",
+        "color": "rgba(255, 255, 255, 0.075)",
+        "count": 2,
+        "elements": [
+          "li"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "2px",
+        "style": "solid",
+        "color": "rgba(255, 255, 255, 0.075)",
+        "count": 1,
+        "elements": [
+          "ul"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "2px 0px 0px",
+        "style": "solid none none solid",
+        "color": "rgba(255, 255, 255, 0.075)",
+        "count": 1,
+        "elements": [
+          "li"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "2px 0px 0px",
+        "style": "solid none none",
+        "color": "rgba(255, 255, 255, 0.075)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [
+    {
+      "shadow": "rgba(0, 0, 0, 0.1) 0px 10px 20px 0px",
+      "count": 4,
+      "confidence": "medium"
+    },
+    {
+      "shadow": "rgba(255, 255, 255, 0.25) 0px 0px 0px 2px inset",
+      "count": 3,
+      "confidence": "medium"
+    },
+    {
+      "shadow": "rgba(255, 255, 255, 0.125) 0px 0px 0px 2px inset",
+      "count": 1,
+      "confidence": "low"
+    }
+  ],
+  "gradients": [
+    {
+      "gradient": "linear-gradient(45deg, rgb(65, 93, 157) 0%, rgb(137, 99, 135) 100%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(65, 93, 157)",
+        "rgb(137, 99, 135)"
+      ],
+      "count": 3
+    },
+    {
+      "gradient": "linear-gradient(30deg, rgba(121, 82, 119, 0.976) 30%, rgb(53, 81, 146) 85%)",
+      "type": "linear",
+      "stopColors": [
+        "rgba(121, 82, 119, 0.976)",
+        "rgb(53, 81, 146)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(45deg, rgb(113, 141, 205) 0%, rgb(185, 147, 183) 100%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(113, 141, 205)",
+        "rgb(185, 147, 183)"
+      ],
+      "count": 1
+    }
+  ],
+  "motion": {
+    "durations": [
+      {
+        "value": "0.001s",
+        "ms": 1,
+        "count": 208
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease",
+        "type": "ease",
+        "count": 172
+      },
+      {
+        "value": "ease-in-out",
+        "type": "ease-in-out",
+        "count": 81
+      }
+    ],
+    "animations": [
+      {
+        "name": "carousel-reel",
+        "duration": "0.001s",
+        "easing": "linear",
+        "count": 1,
+        "contexts": [
+          "other"
+        ]
+      }
+    ],
+    "contexts": {
+      "nav": {
+        "count": 5,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "opacity",
+          "visibility"
+        ]
+      },
+      "hero": {
+        "count": 1,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "link": {
+        "count": 38,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease-in-out",
+        "easingType": "ease-in-out",
+        "props": [
+          "color",
+          "border-bottom-color",
+          "background-color",
+          "box-shadow"
+        ]
+      },
+      "media": {
+        "count": 1,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      }
+    },
+    "interactiveDeltas": [
+      {
+        "tag": "a",
+        "text": "Menu",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgba(255, 255, 255, 0.4)",
+            "to": "rgb(255, 255, 255)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Choose a Starting Point",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgb(51, 173, 169)",
+            "to": "rgb(57, 193, 188)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Log In",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgba(0, 0, 0, 0)",
+            "to": "rgba(255, 255, 255, 0.075)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "What is Carrd?",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgba(0, 0, 0, 0)",
+            "to": "rgba(255, 255, 255, 0.075)"
+          }
+        }
+      }
+    ]
+  },
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(51, 173, 169)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "0px 30px",
+            "borderRadius": "6px",
+            "border": "0px none rgb(255, 255, 255)",
+            "fontSize": "20px",
+            "fontWeight": "700"
+          }
+        },
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "text": "Choose a Starting Point",
+        "confidence": "medium"
+      }
+    ],
+    "inputs": {
+      "text": [],
+      "checkbox": [],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgba(255, 255, 255, 0.4)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgba(255, 255, 255, 0.4)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "rgb(255, 255, 255)"
+          }
+        }
+      }
+    ],
+    "badges": {
+      "all": [],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": []
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "360px"
+    },
+    {
+      "px": "480px"
+    },
+    {
+      "px": "481px"
+    },
+    {
+      "px": "736px"
+    },
+    {
+      "px": "737px"
+    },
+    {
+      "px": "980px"
+    },
+    {
+      "px": "1280px"
+    },
+    {
+      "px": "1680px"
+    }
+  ],
+  "iconSystem": [],
+  "frameworks": []
+}

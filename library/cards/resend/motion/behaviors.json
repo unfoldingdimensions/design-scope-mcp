@@ -1,0 +1,99 @@
+{
+  "url": "https://resend.com",
+  "captured": "2026-08-09T17:00:56+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(161, 164, 165)",
+          "after": "rgb(240, 240, 240)"
+        },
+        "outline": {
+          "before": "rgb(161, 164, 165) none 3px",
+          "after": "rgb(240, 240, 240) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 107,
+    "tabs": 33,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 12,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "button",
+      "classes": "group flex flex-col items-center justify-center gap-4 text-default outline-hidde",
+      "text": "Node.js",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "button",
+      "classes": "group flex flex-col items-center justify-center gap-4 text-default outline-hidde",
+      "text": "Serverless",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "button",
+      "classes": "group flex flex-col items-center justify-center gap-4 text-default outline-hidde",
+      "text": "Ruby",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "button",
+      "classes": "group flex flex-col items-center justify-center gap-4 text-default outline-hidde",
+      "text": "Python",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "button",
+      "classes": "group flex flex-col items-center justify-center gap-4 text-default outline-hidde",
+      "text": "PHP",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "button",
+      "classes": "group flex flex-col items-center justify-center gap-4 text-default outline-hidde",
+      "text": "CLI",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "button",
+      "classes": "group flex flex-col items-center justify-center gap-4 text-default outline-hidde",
+      "text": "Go",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "button",
+      "classes": "group flex flex-col items-center justify-center gap-4 text-default outline-hidde",
+      "text": "Rust",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    }
+  ]
+}

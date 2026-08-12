@@ -1,0 +1,337 @@
+{
+  "url": "https://slack.com",
+  "captured": "2026-08-10T07:07:59+00:00",
+  "named_tokens": {
+    "light": {
+      "--article-theme-primary": "#4a154b",
+      "--article-theme-secondary": "#fff",
+      "--font-family-heading": "\"Salesforce-Avant-Garde\", system-ui, -apple-system, blinkmacsystemfont, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "--font-family-body": "\"Salesforce-Sans\", system-ui, -apple-system, blinkmacsystemfont, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "--font-family-monospace": "\"Monaco\", \"Menlo\", \"Consolas\", \"Courier New\", monospace",
+      "--sidebar-color": "#400d40",
+      "--sidebar-highlight-color": "#1264a3",
+      "--attachment-color": "#000",
+      "--more-count": "\"+1\"",
+      "--swiper-theme-color": "#007aff",
+      "--swiper-navigation-size": "44px"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {
+      "--article-theme-primary": "#4a154b",
+      "--article-theme-secondary": "#fff",
+      "--attachment-color": "#000",
+      "--sidebar-color": "#400d40",
+      "--sidebar-highlight-color": "#1264a3",
+      "--swiper-theme-color": "#007aff"
+    },
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "rounded corners",
+      "elevated (soft shadows)"
+    ],
+    "flat": false,
+    "corner_style": "rounded",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "modal": 2147483647,
+    "banner": 2147483645,
+    "notification": 9999,
+    "overlay": 9000,
+    "nav": 1002,
+    "toast": 1000,
+    "header": 100,
+    "tooltip": 100,
+    "other": 1
+  },
+  "z_index_rows": [
+    {
+      "role": "notification",
+      "selector": "body.notifications::before",
+      "value": "9999"
+    },
+    {
+      "role": "header",
+      "selector": ".o-pricing-table__header",
+      "value": "100"
+    },
+    {
+      "role": "nav",
+      "selector": ".c-nav__cta",
+      "value": "2"
+    },
+    {
+      "role": "nav",
+      "selector": ".c-nav.v--sticky.is-stuck",
+      "value": "999"
+    },
+    {
+      "role": "nav",
+      "selector": ".c-nav--primary",
+      "value": "1000"
+    },
+    {
+      "role": "nav",
+      "selector": ".c-nav--primary--expanded",
+      "value": "1000"
+    },
+    {
+      "role": "nav",
+      "selector": ".c-nav--primary--expanded .c-nav__list .c-extnav-level__1",
+      "value": "6"
+    },
+    {
+      "role": "nav",
+      "selector": ".c-nav__mobile",
+      "value": "2"
+    },
+    {
+      "role": "nav",
+      "selector": ".c-nav__mobile.v--primary",
+      "value": "1000"
+    },
+    {
+      "role": "nav",
+      "selector": ".c-nav__mobile.v--secondary",
+      "value": "1001"
+    },
+    {
+      "role": "nav",
+      "selector": ".c-nav--sidebar",
+      "value": "900"
+    },
+    {
+      "role": "nav",
+      "selector": ".c-nav--utility",
+      "value": "1001"
+    },
+    {
+      "role": "nav",
+      "selector": "body.js-nav-open .c-nav--utility",
+      "value": "999"
+    },
+    {
+      "role": "banner",
+      "selector": ".c-announcement-banner",
+      "value": "999"
+    },
+    {
+      "role": "banner",
+      "selector": ".c-mobile-download-banner",
+      "value": "999"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "479px",
+      "selector": "._arrow-link-default.u-hide-arrow-on-intl-mobile:not(:lang(en))::after",
+      "change": "display: none"
+    },
+    {
+      "at": "only print",
+      "selector": "._arrow-link-print::after",
+      "change": "background-image: initial"
+    },
+    {
+      "at": "only print",
+      "selector": "._arrow-link-print::after",
+      "change": "background-position-x: 0px"
+    },
+    {
+      "at": "only print",
+      "selector": "._arrow-link-print::after",
+      "change": "background-position-y: 0px"
+    },
+    {
+      "at": "only print",
+      "selector": "._arrow-link-print::after",
+      "change": "background-size: initial"
+    },
+    {
+      "at": "only print",
+      "selector": "._arrow-link-print::after",
+      "change": "background-repeat: initial"
+    },
+    {
+      "at": "only print",
+      "selector": "._arrow-link-print::after",
+      "change": "background-attachment: initial"
+    },
+    {
+      "at": "only print",
+      "selector": "html",
+      "change": "font-size: 12pt"
+    },
+    {
+      "at": "only print",
+      "selector": "p",
+      "change": "color: rgb(0, 0, 0)"
+    },
+    {
+      "at": "only print",
+      "selector": "h1, h2, h3, h4, h5",
+      "change": "break-after: avoid"
+    },
+    {
+      "at": "only print",
+      "selector": "h1, h2, h3, h4, h5",
+      "change": "color: inherit"
+    },
+    {
+      "at": "only print",
+      "selector": "table tr, figure, img",
+      "change": "break-inside: avoid"
+    },
+    {
+      "at": "only print",
+      "selector": "img",
+      "change": "max-width: 80%"
+    },
+    {
+      "at": "only print",
+      "selector": "p a",
+      "change": "overflow-wrap: break-word"
+    },
+    {
+      "at": "only print",
+      "selector": "p a::after",
+      "change": "content: \" (\" attr(href) \")\""
+    },
+    {
+      "at": "only print",
+      "selector": "p a[href^=\"#\"]::after, p a[href^=\"\"]::after",
+      "change": "display: none"
+    },
+    {
+      "at": "only print",
+      "selector": "p a[href^=\"http://\"]::after, a[href^=\"https://\"]::after",
+      "change": "content: \" (\" attr(href) \")\""
+    },
+    {
+      "at": "only print",
+      "selector": "p a[href^=\"http://\"]::after, a[href^=\"https://\"]::after",
+      "change": "white-space-collapse: collapse"
+    },
+    {
+      "at": "only print",
+      "selector": "p a[href^=\"http://\"]::after, a[href^=\"https://\"]::after",
+      "change": "text-wrap-mode: wrap"
+    },
+    {
+      "at": "screen and (width >= 64rem)",
+      "selector": "hr.v--responsive",
+      "change": "width: inherit"
+    },
+    {
+      "at": "screen and (-ms-high-contrast:none), (-m",
+      "selector": ".o-block-grid",
+      "change": "flex-wrap: wrap"
+    },
+    {
+      "at": "screen and (-ms-high-contrast:none), (-m",
+      "selector": ".o-block-grid.v--two > *",
+      "change": "max-width: 100%"
+    },
+    {
+      "at": "screen and (width >= 48rem)",
+      "selector": ".o-block-grid.v--two > *",
+      "change": "flex-basis: 48.781%"
+    },
+    {
+      "at": "screen and (width >= 48rem)",
+      "selector": ".o-block-grid.v--two > *",
+      "change": "margin-bottom: 1rem"
+    },
+    {
+      "at": "screen and (width >= 48rem)",
+      "selector": ".o-block-grid.v--two > :nth-child(2n)",
+      "change": "margin-left: 2.43902%"
+    },
+    {
+      "at": "screen and (width >= 48rem) and (-ms-hig",
+      "selector": ".o-block-grid.v--two > *",
+      "change": "max-width: 48.781%"
+    },
+    {
+      "at": "screen and (-ms-high-contrast:none), (-m",
+      "selector": ".o-block-grid.v--three > *",
+      "change": "max-width: 100%"
+    },
+    {
+      "at": "screen and (width >= 48rem)",
+      "selector": ".o-block-grid.v--three > *",
+      "change": "flex-basis: 48.781%"
+    },
+    {
+      "at": "screen and (width >= 48rem)",
+      "selector": ".o-block-grid.v--three > *",
+      "change": "margin-right: 2.43902%"
+    },
+    {
+      "at": "screen and (width >= 48rem)",
+      "selector": ".o-block-grid.v--three > :nth-child(2n)",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "screen and (width >= 48rem) and (-ms-hig",
+      "selector": ".o-block-grid.v--three > *",
+      "change": "max-width: 48.781%"
+    },
+    {
+      "at": "screen and (width >= 60rem)",
+      "selector": ".o-block-grid.v--three > *",
+      "change": "flex-basis: 31.7%"
+    },
+    {
+      "at": "screen and (width >= 60rem)",
+      "selector": ".o-block-grid.v--three > *",
+      "change": "margin-right: 2.43902%"
+    },
+    {
+      "at": "screen and (width >= 60rem)",
+      "selector": ".o-block-grid.v--three > :nth-child(2n)",
+      "change": "margin-right: 2.43902%"
+    },
+    {
+      "at": "screen and (width >= 60rem)",
+      "selector": ".o-block-grid.v--three > :nth-child(3n)",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "screen and (width >= 60rem) and (-ms-hig",
+      "selector": ".o-block-grid.v--three > *",
+      "change": "max-width: 31.7%"
+    },
+    {
+      "at": "767px",
+      "selector": ".o-block-grid.v--four.v--min-two > *",
+      "change": "flex-basis: 48.78%"
+    },
+    {
+      "at": "767px",
+      "selector": ".o-block-grid.v--four.v--min-two > *",
+      "change": "margin-bottom: 2.43902%"
+    },
+    {
+      "at": "767px",
+      "selector": ".o-block-grid.v--four.v--min-two > *",
+      "change": "margin-right: 2.43902%"
+    },
+    {
+      "at": "screen and (-ms-high-contrast:none), (-m",
+      "selector": ".o-block-grid.v--four > *",
+      "change": "max-width: 100%"
+    }
+  ]
+}

@@ -1,0 +1,1977 @@
+{
+  "url": "https://www.affirm.com/",
+  "extractedAt": "2026-08-09T12:27:33.303Z",
+  "meta": {
+    "snapshotId": "5541b696-2c4b-43a8-bde2-1f78fc3d822d",
+    "httpStatus": 200,
+    "dembrandtVersion": "0.27.1",
+    "schemaVersion": "1.5.0",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "fontsReady": true,
+    "flags": {
+      "mobile": true
+    }
+  },
+  "siteName": "Affirm",
+  "logo": {
+    "source": "svg",
+    "context": "header",
+    "inline": true,
+    "url": "https://www.affirm.com/",
+    "color": "#101820",
+    "ariaLabel": null,
+    "markup": "<svg width=\"72\" height=\"36\" viewBox=\"0 0 72 36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"color: rgb(16, 24, 32);\"><path d=\"M29.495 20.027h-2.897v-1.12c0-1.468.85-1.893 1.584-1.893.81 0 1.429.348 1.429.348l.966-2.24s-1.005-.657-2.82-.657c-2.047 0-4.365 1.159-4.365 4.75v.812h-4.79v-1.12c0-1.468.85-1.893 1.584-1.893.425 0 .966.078 1.43.348l.965-2.24c-.58-.348-1.545-.657-2.82-.657-2.047 0-4.365 1.159-4.365 4.75v.812h-1.854V22.5h1.854v8.652h3.168V22.5h4.867v8.652h3.167V22.5h2.897v-2.472ZM37.22 20.027v11.124h3.168v-5.369c0-2.549 1.545-3.283 2.627-3.283.425 0 1.004.116 1.352.386l.58-2.935a4.04 4.04 0 0 0-1.43-.27c-1.622 0-2.665.733-3.36 2.201v-1.854H37.22Z\" fill=\"#fff\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M7.362 19.718c-1.815 0-3.94.85-5.098 1.777l1.042 2.202c.928-.85 2.395-1.546 3.747-1.546 1.275 0 1.97.425 1.97 1.275 0 .58-.463.85-1.352.966-3.283.425-5.871 1.313-5.871 3.863 0 2.008 1.43 3.244 3.67 3.244 1.583 0 3.012-.888 3.708-2.047v1.7h2.974V23.89c0-2.974-2.086-4.172-4.79-4.172Zm-1.12 9.425c-.85 0-1.236-.425-1.236-1.082 0-1.274 1.39-1.7 3.979-1.97 0 1.7-1.16 3.052-2.743 3.052Z\" fill=\"#fff\"></path><path d=\"M56.148 21.688c.657-.966 1.893-1.97 3.592-1.97 2.047 0 3.708 1.236 3.67 3.747v7.686h-3.168V24.47c0-1.468-.888-2.086-1.738-2.086-1.043 0-2.086.966-2.086 3.052v5.716h-3.167v-6.643c0-1.545-.811-2.125-1.738-2.125-1.005 0-2.086 1.005-2.086 3.052v5.716H46.26V20.027h3.051v1.7c.54-1.082 1.7-2.009 3.4-2.009 1.544 0 2.819.734 3.437 1.97ZM31.388 20.027h3.168v11.124h-3.168V20.027Z\" fill=\"#fff\"></path><path d=\"M49.928 4.5c-8.575 0-16.262 5.948-18.425 13.635h3.128c1.816-5.717 7.996-10.738 15.297-10.738 8.922 0 16.609 6.798 16.609 17.343 0 2.357-.309 4.52-.888 6.412h3.013l.038-.116c.502-1.93.734-4.055.734-6.296 0-11.742-8.575-20.24-19.506-20.24Z\" fill=\"#fff\"></path></svg>",
+    "dataUri": "data:image/svg+xml;utf8,%3Csvg%20width%3D%2272%22%20height%3D%2236%22%20viewBox%3D%220%200%2072%2036%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%20rgb(16%2C%2024%2C%2032)%3B%22%3E%3Cpath%20d%3D%22M29.495%2020.027h-2.897v-1.12c0-1.468.85-1.893%201.584-1.893.81%200%201.429.348%201.429.348l.966-2.24s-1.005-.657-2.82-.657c-2.047%200-4.365%201.159-4.365%204.75v.812h-4.79v-1.12c0-1.468.85-1.893%201.584-1.893.425%200%20.966.078%201.43.348l.965-2.24c-.58-.348-1.545-.657-2.82-.657-2.047%200-4.365%201.159-4.365%204.75v.812h-1.854V22.5h1.854v8.652h3.168V22.5h4.867v8.652h3.167V22.5h2.897v-2.472ZM37.22%2020.027v11.124h3.168v-5.369c0-2.549%201.545-3.283%202.627-3.283.425%200%201.004.116%201.352.386l.58-2.935a4.04%204.04%200%200%200-1.43-.27c-1.622%200-2.665.733-3.36%202.201v-1.854H37.22Z%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M7.362%2019.718c-1.815%200-3.94.85-5.098%201.777l1.042%202.202c.928-.85%202.395-1.546%203.747-1.546%201.275%200%201.97.425%201.97%201.275%200%20.58-.463.85-1.352.966-3.283.425-5.871%201.313-5.871%203.863%200%202.008%201.43%203.244%203.67%203.244%201.583%200%203.012-.888%203.708-2.047v1.7h2.974V23.89c0-2.974-2.086-4.172-4.79-4.172Zm-1.12%209.425c-.85%200-1.236-.425-1.236-1.082%200-1.274%201.39-1.7%203.979-1.97%200%201.7-1.16%203.052-2.743%203.052Z%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M56.148%2021.688c.657-.966%201.893-1.97%203.592-1.97%202.047%200%203.708%201.236%203.67%203.747v7.686h-3.168V24.47c0-1.468-.888-2.086-1.738-2.086-1.043%200-2.086.966-2.086%203.052v5.716h-3.167v-6.643c0-1.545-.811-2.125-1.738-2.125-1.005%200-2.086%201.005-2.086%203.052v5.716H46.26V20.027h3.051v1.7c.54-1.082%201.7-2.009%203.4-2.009%201.544%200%202.819.734%203.437%201.97ZM31.388%2020.027h3.168v11.124h-3.168V20.027Z%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M49.928%204.5c-8.575%200-16.262%205.948-18.425%2013.635h3.128c1.816-5.717%207.996-10.738%2015.297-10.738%208.922%200%2016.609%206.798%2016.609%2017.343%200%202.357-.309%204.52-.888%206.412h3.013l.038-.116c.502-1.93.734-4.055.734-6.296%200-11.742-8.575-20.24-19.506-20.24Z%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E",
+    "svgColors": [
+      "#ffffff"
+    ],
+    "width": 72,
+    "height": 36,
+    "rect": {
+      "x": 318,
+      "y": 53,
+      "width": 72,
+      "height": 36
+    },
+    "natural": {
+      "width": 72,
+      "height": 36
+    },
+    "type": "combination",
+    "reversed": false,
+    "background": null,
+    "safeZone": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "position": {
+      "top": 53.4375,
+      "left": 318
+    }
+  },
+  "logoInstances": [
+    {
+      "source": "svg",
+      "context": "header",
+      "inline": true,
+      "url": "https://www.affirm.com/",
+      "color": "#101820",
+      "ariaLabel": null,
+      "markup": "<svg width=\"72\" height=\"36\" viewBox=\"0 0 72 36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"color: rgb(16, 24, 32);\"><path d=\"M29.495 20.027h-2.897v-1.12c0-1.468.85-1.893 1.584-1.893.81 0 1.429.348 1.429.348l.966-2.24s-1.005-.657-2.82-.657c-2.047 0-4.365 1.159-4.365 4.75v.812h-4.79v-1.12c0-1.468.85-1.893 1.584-1.893.425 0 .966.078 1.43.348l.965-2.24c-.58-.348-1.545-.657-2.82-.657-2.047 0-4.365 1.159-4.365 4.75v.812h-1.854V22.5h1.854v8.652h3.168V22.5h4.867v8.652h3.167V22.5h2.897v-2.472ZM37.22 20.027v11.124h3.168v-5.369c0-2.549 1.545-3.283 2.627-3.283.425 0 1.004.116 1.352.386l.58-2.935a4.04 4.04 0 0 0-1.43-.27c-1.622 0-2.665.733-3.36 2.201v-1.854H37.22Z\" fill=\"#fff\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M7.362 19.718c-1.815 0-3.94.85-5.098 1.777l1.042 2.202c.928-.85 2.395-1.546 3.747-1.546 1.275 0 1.97.425 1.97 1.275 0 .58-.463.85-1.352.966-3.283.425-5.871 1.313-5.871 3.863 0 2.008 1.43 3.244 3.67 3.244 1.583 0 3.012-.888 3.708-2.047v1.7h2.974V23.89c0-2.974-2.086-4.172-4.79-4.172Zm-1.12 9.425c-.85 0-1.236-.425-1.236-1.082 0-1.274 1.39-1.7 3.979-1.97 0 1.7-1.16 3.052-2.743 3.052Z\" fill=\"#fff\"></path><path d=\"M56.148 21.688c.657-.966 1.893-1.97 3.592-1.97 2.047 0 3.708 1.236 3.67 3.747v7.686h-3.168V24.47c0-1.468-.888-2.086-1.738-2.086-1.043 0-2.086.966-2.086 3.052v5.716h-3.167v-6.643c0-1.545-.811-2.125-1.738-2.125-1.005 0-2.086 1.005-2.086 3.052v5.716H46.26V20.027h3.051v1.7c.54-1.082 1.7-2.009 3.4-2.009 1.544 0 2.819.734 3.437 1.97ZM31.388 20.027h3.168v11.124h-3.168V20.027Z\" fill=\"#fff\"></path><path d=\"M49.928 4.5c-8.575 0-16.262 5.948-18.425 13.635h3.128c1.816-5.717 7.996-10.738 15.297-10.738 8.922 0 16.609 6.798 16.609 17.343 0 2.357-.309 4.52-.888 6.412h3.013l.038-.116c.502-1.93.734-4.055.734-6.296 0-11.742-8.575-20.24-19.506-20.24Z\" fill=\"#fff\"></path></svg>",
+      "dataUri": "data:image/svg+xml;utf8,%3Csvg%20width%3D%2272%22%20height%3D%2236%22%20viewBox%3D%220%200%2072%2036%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%20rgb(16%2C%2024%2C%2032)%3B%22%3E%3Cpath%20d%3D%22M29.495%2020.027h-2.897v-1.12c0-1.468.85-1.893%201.584-1.893.81%200%201.429.348%201.429.348l.966-2.24s-1.005-.657-2.82-.657c-2.047%200-4.365%201.159-4.365%204.75v.812h-4.79v-1.12c0-1.468.85-1.893%201.584-1.893.425%200%20.966.078%201.43.348l.965-2.24c-.58-.348-1.545-.657-2.82-.657-2.047%200-4.365%201.159-4.365%204.75v.812h-1.854V22.5h1.854v8.652h3.168V22.5h4.867v8.652h3.167V22.5h2.897v-2.472ZM37.22%2020.027v11.124h3.168v-5.369c0-2.549%201.545-3.283%202.627-3.283.425%200%201.004.116%201.352.386l.58-2.935a4.04%204.04%200%200%200-1.43-.27c-1.622%200-2.665.733-3.36%202.201v-1.854H37.22Z%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M7.362%2019.718c-1.815%200-3.94.85-5.098%201.777l1.042%202.202c.928-.85%202.395-1.546%203.747-1.546%201.275%200%201.97.425%201.97%201.275%200%20.58-.463.85-1.352.966-3.283.425-5.871%201.313-5.871%203.863%200%202.008%201.43%203.244%203.67%203.244%201.583%200%203.012-.888%203.708-2.047v1.7h2.974V23.89c0-2.974-2.086-4.172-4.79-4.172Zm-1.12%209.425c-.85%200-1.236-.425-1.236-1.082%200-1.274%201.39-1.7%203.979-1.97%200%201.7-1.16%203.052-2.743%203.052Z%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M56.148%2021.688c.657-.966%201.893-1.97%203.592-1.97%202.047%200%203.708%201.236%203.67%203.747v7.686h-3.168V24.47c0-1.468-.888-2.086-1.738-2.086-1.043%200-2.086.966-2.086%203.052v5.716h-3.167v-6.643c0-1.545-.811-2.125-1.738-2.125-1.005%200-2.086%201.005-2.086%203.052v5.716H46.26V20.027h3.051v1.7c.54-1.082%201.7-2.009%203.4-2.009%201.544%200%202.819.734%203.437%201.97ZM31.388%2020.027h3.168v11.124h-3.168V20.027Z%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M49.928%204.5c-8.575%200-16.262%205.948-18.425%2013.635h3.128c1.816-5.717%207.996-10.738%2015.297-10.738%208.922%200%2016.609%206.798%2016.609%2017.343%200%202.357-.309%204.52-.888%206.412h3.013l.038-.116c.502-1.93.734-4.055.734-6.296%200-11.742-8.575-20.24-19.506-20.24Z%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E",
+      "svgColors": [
+        "#ffffff"
+      ],
+      "width": 72,
+      "height": 36,
+      "rect": {
+        "x": 318,
+        "y": 53,
+        "width": 72,
+        "height": 36
+      },
+      "natural": {
+        "width": 72,
+        "height": 36
+      },
+      "type": "combination",
+      "reversed": false,
+      "background": null,
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 53.4375,
+        "left": 318
+      }
+    },
+    {
+      "source": "img",
+      "context": "header",
+      "url": "data:image/svg+xml;charset=utf-8,%3Csvg height='24' width='24' xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3C/svg%3E",
+      "width": 24,
+      "height": 24,
+      "rect": {
+        "x": 946,
+        "y": 331,
+        "width": 24,
+        "height": 24
+      },
+      "natural": {
+        "width": 24,
+        "height": 24
+      },
+      "alt": "",
+      "type": "logomark",
+      "reversed": false,
+      "background": null,
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 330.90625,
+        "left": 945.5
+      }
+    },
+    {
+      "source": "img",
+      "context": "header",
+      "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAC01BMVEUAAAAAABs8PJ0AAJgAIKVaAILvAAD3AADvAADgAAB9AAAAAAAAAJE+Pqd4eL79pqb6t7fv5eUAlpYZGV0qKqE5Oaj+8vLs1dWIT08AAAAAAI1WVq75NDTvAAAkJJFVVaz5sbHnx8ceHkV5ebfz6OhQcXGMjLVKSqDvTk/SAAACAoflenp3d6zt7e0AAHriaWlvcp/gaGjq6eno5+fbcW/WcHDCAADfVFTfVVXDAABSdXXm3d3o3994i4vUtLThnZ3fnZ3UtLTNAADYMDDYLy/FAAB4S0vXw8Pn3d3o3t7ey8t1ODgAcnLWzs7apaXalZXZlZXYpaXUy8sAsbErAACvAAC9AADCAADDAADEAADDAADAAACvAAAAAAAiI6NnbbxqUKX0n6L/pqX9pKRra70pKaRrbLo5P6paXrH06+/99fT79PT89PT+9PRhYbM6OqRzc7gtLp9obrlpMo7tLS73KyT1JST1JCT1Jyf3MzNmZrI0NJ5sbLcrK5tpabM2P6NXOJLuo6X3qqn1qKj3qalPT6JYWKheXqw3N512drUuL5hnarNobLLv6e359PP38vL69PRUVKNpaaw5OZdxcbMuLpVub687Rp9UAHznTlDwTkztTEvtS0vtTEzvT09nZ6xJSZpSUqFUVKQvL5Vubq0lJpFdY61gOYvmdHbweHbtdnbudnbweHhMTJpXV51paaU6OpFwcKwyMo5wcKo9QpZWXaDr6ez18/Pz8vL08vJiYqY0NY5GR5hSUp4AAIdmZqcAAIFYXqZZLILfaWvpb23nbW3obm55fKl2eKV3eaZ4e6h0d6R7falzdqN1fKqMdpnhb3Dnbm3mbW3mbm7w7u7v7e3u7e3w7e3kb27jbWzibWzhbW3ibW3jb2/fVVXeUlLdUlLt5+fq5eXel5fdlpbclZXXLy/VJSXVIyPUIyPn39/m39/l39/n3t7Zk5PYlJTZlJTQX5QHAAAAXnRSTlMAIXC75P395r1xIQhh0Pv70GEJEpH3+JcSC5f+/pFi+fdhIdDQIXH7+3C9u+bk/f39/eTmu71w+/txIdDQIWH3+WKS/v6YEpb495ISCmLQ+/vQYQgicb3m/f3ku3AhPb1iaQAAAMFJREFUGBlNwTFKQ0EUQNF7J4808dtY2VhYugDtXIGgoJWiSFyDdTZhKVh8QQRdg5uwt4xVulhmnAn8TM6Ryo0/CoGJemH1oS5A2NNzB+/6i+zrpU3vYikH3jgAfPbHQ6duUPhkhDs2oKFHjzYUOou0a0NlitTZUJkidTYUkiJ1UokrKXJOkUJZkzVNHvumbFldG+FIthnKqa/KIOdbv2RyYq9S5Zzv/J4nlhHT0WD8MB7PEThTXwS8Vz9BqisHPcU/QvsiMhCaxBUAAAAASUVORK5CYII=",
+      "width": 20,
+      "height": 20,
+      "rect": {
+        "x": 946,
+        "y": 331,
+        "width": 28,
+        "height": 20
+      },
+      "natural": {
+        "width": 20,
+        "height": 20
+      },
+      "alt": "",
+      "type": "logomark",
+      "reversed": false,
+      "background": null,
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 330.90625,
+        "left": 945.5
+      }
+    },
+    {
+      "source": "img",
+      "context": "header",
+      "url": "https://images.ctfassets.net/4rc1asww3mw7/5BkSbOYcnHWds4kzGrfLdC/528d46ec5e7715a69c9c7079740f4774/USA.png?w=48&h=48&q=50&fm=avif",
+      "width": 24,
+      "height": 24,
+      "rect": {
+        "x": 946,
+        "y": 331,
+        "width": 28,
+        "height": 20
+      },
+      "natural": {
+        "width": 24,
+        "height": 24
+      },
+      "alt": "The American flag",
+      "type": "logomark",
+      "reversed": false,
+      "background": null,
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 330.90625,
+        "left": 945.5
+      }
+    }
+  ],
+  "favicons": [
+    {
+      "type": "icon",
+      "url": "data:image/png;base64,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",
+      "sizes": null
+    },
+    {
+      "type": "og:image",
+      "url": "https://images.ctfassets.net/4rc1asww3mw7/2Sa4ZkroCS5cFxUBhYpEv0/76e4b8169df95664b1af70f3b5b84060/og-home-flexible-payment-plans.jpg",
+      "sizes": null
+    },
+    {
+      "type": "twitter:image",
+      "url": "https://images.ctfassets.net/4rc1asww3mw7/2Sa4ZkroCS5cFxUBhYpEv0/76e4b8169df95664b1af70f3b5b84060/og-home-flexible-payment-plans.jpg",
+      "sizes": null
+    }
+  ],
+  "colors": {
+    "semantic": {
+      "background": "rgb(19, 19, 31)",
+      "text": "rgb(16, 24, 32)",
+      "primary": "rgb(16, 24, 32)"
+    },
+    "palette": [
+      {
+        "color": "rgb(16, 24, 32)",
+        "normalized": "#101820",
+        "count": 354,
+        "confidence": "high",
+        "sources": [
+          "rebrand-2025",
+          "header-outer--5mkpg",
+          "header-topbar--6t4qa"
+        ],
+        "lch": "lch(7.75% 7.08 255.94)",
+        "oklch": "oklch(20.5% 0.02 248.83)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#131d26",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 284,
+        "confidence": "high",
+        "sources": [
+          "logo",
+          "header-topnav--6ks8m",
+          "header-topnav-item--2ixew",
+          "header-topnav-itemlink--37m0c"
+        ],
+        "lch": "lch(100% 0.03 53.35)",
+        "oklch": "oklch(100% 0 89.88)",
+        "role": "surface",
+        "onColor": "#000000",
+        "hover": "#d9d9d9"
+      },
+      {
+        "color": "rgb(159, 159, 159)",
+        "normalized": "#9f9f9f",
+        "count": 24,
+        "confidence": "high",
+        "sources": [
+          "richtext-richtext--1l77z",
+          "footerrefresh-legallink--5l5kr",
+          "footerrefresh-copyright--1rpxc"
+        ],
+        "lch": "lch(65.49% 0.02 53.35)",
+        "oklch": "oklch(70.25% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#000000",
+        "hover": "#878787"
+      },
+      {
+        "color": "rgb(168, 169, 252)",
+        "normalized": "#a8a9fc",
+        "count": 8,
+        "confidence": "high",
+        "sources": [
+          "imports-linktext--2plgl"
+        ],
+        "lch": "lch(71.59% 44.01 288.46)",
+        "oklch": "oklch(76.6% 0.118 282.72)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#8f90d6",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(109, 110, 113)",
+        "normalized": "#6d6e71",
+        "count": 6,
+        "confidence": "high",
+        "sources": [
+          "imports-caption--3uute",
+          "footerrefresh-legalwrap--5wwkq"
+        ],
+        "lch": "lch(46.42% 1.81 272.45)",
+        "oklch": "oklch(53.83% 0.005 271.33)",
+        "role": "neutral",
+        "onColor": "#ffffff",
+        "hover": "#838488"
+      },
+      {
+        "color": "rgb(156, 173, 252)",
+        "normalized": "#9cadfc",
+        "count": 2,
+        "confidence": "low",
+        "sources": [
+          "gradient"
+        ],
+        "lch": "lch(71.73% 42.45 281.29)",
+        "oklch": "oklch(76.52% 0.115 274.09)"
+      },
+      {
+        "color": "rgb(16, 16, 16)",
+        "normalized": "#101010",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      }
+    ],
+    "cssVariables": {
+      "--color-primary-darkest": {
+        "value": "#212189",
+        "hex": "#212189",
+        "lch": "lch(19.82% 65.86 296.98)",
+        "oklch": "oklch(33.35% 0.166 272.84)"
+      },
+      "--color-primary-base": {
+        "value": "#4a4af4",
+        "hex": "#4a4af4",
+        "lch": "lch(41.08% 96.56 296.23)",
+        "oklch": "oklch(52.72% 0.245 274.06)"
+      },
+      "--color-ui-colors-text-80": {
+        "value": "#3a3c3d",
+        "hex": "#3a3c3d",
+        "lch": "lch(25.15% 1.16 232.84)",
+        "oklch": "oklch(35.46% 0.003 228.87)"
+      },
+      "--color-greyscale-grey-90": {
+        "value": "#383838",
+        "hex": "#383838",
+        "lch": "lch(23.52% 0.01 53.35)",
+        "oklch": "oklch(34.07% 0 89.88)"
+      },
+      "--color-primary-dark": {
+        "value": "#2f2fc1",
+        "hex": "#2f2fc1",
+        "lch": "lch(29.16% 86.83 297.39)",
+        "oklch": "oklch(42.26% 0.217 272.13)"
+      }
+    },
+    "detected": [
+      {
+        "color": "rgb(16, 24, 32)",
+        "normalized": "#101820",
+        "count": 354,
+        "usageFrac": 0.4978902953586498,
+        "confidence": "high",
+        "sources": [
+          "rebrand-2025",
+          "header-outer--5mkpg",
+          "header-topbar--6t4qa",
+          "container-container--dixxp",
+          "header-header--5qk1l"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 284,
+        "usageFrac": 0.39943741209563993,
+        "confidence": "high",
+        "sources": [
+          "header-topnav--6ks8m",
+          "header-topnav-item--2ixew",
+          "header-topnav-itemlink--37m0c",
+          "header-subnav--jyagg",
+          "header-subnavtitle--6t0fn"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(12, 12, 20)",
+        "normalized": "#0c0c14",
+        "count": 29,
+        "usageFrac": 0.040787623066104076,
+        "confidence": "high",
+        "sources": [
+          "buttonprimary-buttonprimary--1",
+          "stackcard-button--xvayg",
+          "bentogrid-cardbutton--5kpwl"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(159, 159, 159)",
+        "normalized": "#9f9f9f",
+        "count": 24,
+        "usageFrac": 0.03375527426160337,
+        "confidence": "high",
+        "sources": [
+          "richtext-richtext--1l77z",
+          "footerrefresh-legallink--5l5kr",
+          "footerrefresh-copyright--1rpxc"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(168, 169, 252)",
+        "normalized": "#a8a9fc",
+        "count": 8,
+        "usageFrac": 0.011251758087201125,
+        "confidence": "high",
+        "sources": [
+          "imports-linktext--2plgl"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(109, 110, 113)",
+        "normalized": "#6d6e71",
+        "count": 6,
+        "usageFrac": 0.008438818565400843,
+        "confidence": "high",
+        "sources": [
+          "imports-caption--3uute",
+          "footerrefresh-legalwrap--5wwkq"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 3,
+        "usageFrac": 0.004219409282700422,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(247, 247, 248)",
+        "normalized": "#f7f7f8",
+        "count": 2,
+        "usageFrac": 0.0028129395218002813,
+        "confidence": "medium",
+        "sources": [
+          "stackcardcontainer-containerti"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(19, 19, 31)",
+        "normalized": "#13131f",
+        "count": 1,
+        "usageFrac": 0.0014064697609001407,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": true
+      }
+    ],
+    "_raw": [
+      {
+        "color": "rgb(16, 24, 32)",
+        "normalized": "#101820",
+        "count": 354
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 284
+      },
+      {
+        "color": "rgb(12, 12, 20)",
+        "normalized": "#0c0c14",
+        "count": 29
+      },
+      {
+        "color": "rgb(159, 159, 159)",
+        "normalized": "#9f9f9f",
+        "count": 24
+      }
+    ]
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "display",
+        "family": "Axiforma for Affirm",
+        "fallbacks": "Axiforma, Calibre",
+        "size": "80px (5.00rem)",
+        "weight": 300,
+        "lineHeight": "1.10",
+        "spacing": "-3.2px",
+        "transform": null
+      },
+      {
+        "context": "display",
+        "family": "Axiforma for Affirm",
+        "fallbacks": "Axiforma, Calibre",
+        "size": "76px (4.75rem)",
+        "weight": 300,
+        "lineHeight": "0.80",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Axiforma for Affirm",
+        "fallbacks": "Axiforma, Calibre",
+        "size": "50px (3.13rem)",
+        "weight": 300,
+        "lineHeight": "1.17",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Axiforma for Affirm",
+        "fallbacks": "Axiforma, Calibre",
+        "size": "48px (3.00rem)",
+        "weight": 300,
+        "lineHeight": "1.10",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "Axiforma for Affirm",
+        "fallbacks": null,
+        "size": "30px (1.88rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Calibre",
+        "fallbacks": null,
+        "size": "24px (1.50rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Calibre",
+        "fallbacks": null,
+        "size": "21.92px (1.37rem)",
+        "weight": 600,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Calibre",
+        "fallbacks": null,
+        "size": "20px (1.25rem)",
+        "weight": 400,
+        "lineHeight": "1.55",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Calibre",
+        "fallbacks": null,
+        "size": "18px (1.13rem)",
+        "weight": 400,
+        "lineHeight": "1.44",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Calibre",
+        "fallbacks": null,
+        "size": "18px (1.13rem)",
+        "weight": 400,
+        "lineHeight": "1.17",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Calibre",
+        "fallbacks": null,
+        "size": "18px (1.13rem)",
+        "weight": 600,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Calibre",
+        "fallbacks": null,
+        "size": "18px (1.13rem)",
+        "weight": 500,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Calibre",
+        "fallbacks": null,
+        "size": "18px (1.13rem)",
+        "weight": 500,
+        "lineHeight": null,
+        "spacing": "0.18px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Calibre",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "Calibre",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 700,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Axiforma for Affirm",
+        "fallbacks": "Axiforma, Calibre",
+        "size": "15px (0.94rem)",
+        "weight": 500,
+        "lineHeight": "1.73",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Calibre",
+        "fallbacks": null,
+        "size": "14.4px (0.90rem)",
+        "weight": 400,
+        "lineHeight": "2.64",
+        "spacing": "0.144px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Calibre",
+        "fallbacks": null,
+        "size": "14.4px (0.90rem)",
+        "weight": 700,
+        "lineHeight": "1.00",
+        "spacing": "0.144px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Axiforma for Affirm",
+        "fallbacks": "Axiforma, Calibre",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Axiforma for Affirm",
+        "fallbacks": "Axiforma, Calibre",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Axiforma for Affirm",
+        "fallbacks": "Axiforma, Calibre",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Axiforma for Affirm",
+        "fallbacks": "Axiforma, Calibre",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Axiforma for Affirm",
+        "fallbacks": "Axiforma, Calibre",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Axiforma for Affirm",
+        "fallbacks": "Axiforma, Calibre",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Calibre",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Calibre",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "Calibre",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 700,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "Calibre",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-4",
+        "family": "Calibre",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 700,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Calibre",
+        "fallbacks": null,
+        "size": "13.6px (0.85rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-5",
+        "family": "Calibre",
+        "fallbacks": null,
+        "size": "13.12px (0.82rem)",
+        "weight": 700,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Calibre",
+        "fallbacks": null,
+        "size": "13.12px (0.82rem)",
+        "weight": 400,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Calibre",
+        "fallbacks": null,
+        "size": "13.008px (0.81rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Calibre",
+        "fallbacks": null,
+        "size": "13.008px (0.81rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Calibre",
+        "fallbacks": null,
+        "size": "12.8px (0.80rem)",
+        "weight": 400,
+        "lineHeight": "1.10",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Axiforma for Affirm",
+        "fallbacks": "Axiforma, Calibre",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Calibre",
+        "fallbacks": null,
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"clig\" 0, \"liga\" 0"
+      },
+      {
+        "context": "ui",
+        "family": "Calibre",
+        "fallbacks": null,
+        "size": "0px (0.00rem)",
+        "weight": 400,
+        "lineHeight": "Infinity",
+        "spacing": null,
+        "transform": null
+      }
+    ],
+    "sources": {
+      "googleFonts": [],
+      "adobeFonts": false,
+      "variableFonts": false,
+      "selfHostedFonts": [
+        "Axiforma-Light-b3c4848a9dc50cce0d5cec458ed5b577.woff2",
+        "AxiformaforAffirm-27d9c5be39f434f9838de1b2c1527703.woff2",
+        "AxiformaforAffirm-Light-f957387b7fd641744567b02af315edf1.woff2",
+        "AxiformaforAffirm-Medium-390b2cb0c946952cb95c3ba0a2273d0b.woff2",
+        "AxiformaforAffirm-SemiBold-cfd45a0ff04c7fe3579a3687f7409466.woff2",
+        "CalibreWeb-Bold-c0a295d928388222864fd66ea681f189.woff2",
+        "CalibreWeb-Regular-4dd57d9179e958e4824e104f9d1feb4c.woff2",
+        "CalibreWeb-Semibold-191c32431eb5d1ebd758787617309f6e.woff2",
+        "rokt-icons.woff"
+      ],
+      "customFonts": [
+        "Axiforma-Light-b3c4848a9dc50cce0d5cec458ed5b577.woff2",
+        "AxiformaforAffirm-27d9c5be39f434f9838de1b2c1527703.woff2",
+        "AxiformaforAffirm-Light-f957387b7fd641744567b02af315edf1.woff2",
+        "AxiformaforAffirm-Medium-390b2cb0c946952cb95c3ba0a2273d0b.woff2",
+        "AxiformaforAffirm-SemiBold-cfd45a0ff04c7fe3579a3687f7409466.woff2",
+        "CalibreWeb-Bold-c0a295d928388222864fd66ea681f189.woff2",
+        "CalibreWeb-Regular-4dd57d9179e958e4824e104f9d1feb4c.woff2",
+        "CalibreWeb-Semibold-191c32431eb5d1ebd758787617309f6e.woff2",
+        "rokt-icons.woff"
+      ]
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "1px",
+        "display": "1px",
+        "rem": "0.06rem",
+        "count": 38,
+        "numericValue": 1
+      },
+      {
+        "px": "1.5px",
+        "display": "1.5px",
+        "rem": "0.09rem",
+        "count": 52,
+        "numericValue": 1.5
+      },
+      {
+        "px": "2px",
+        "display": "2px",
+        "rem": "0.13rem",
+        "count": 4,
+        "numericValue": 2
+      },
+      {
+        "px": "3px",
+        "display": "3px",
+        "rem": "0.19rem",
+        "count": 3,
+        "numericValue": 3
+      },
+      {
+        "px": "4px",
+        "display": "4px",
+        "rem": "0.25rem",
+        "count": 45,
+        "numericValue": 4
+      },
+      {
+        "px": "5px",
+        "display": "5px",
+        "rem": "0.31rem",
+        "count": 6,
+        "numericValue": 5
+      },
+      {
+        "px": "8px",
+        "display": "8px",
+        "rem": "0.50rem",
+        "count": 38,
+        "numericValue": 8
+      },
+      {
+        "px": "10px",
+        "display": "10px",
+        "rem": "0.63rem",
+        "count": 29,
+        "numericValue": 10
+      },
+      {
+        "px": "11px",
+        "display": "11px",
+        "rem": "0.69rem",
+        "count": 12,
+        "numericValue": 11
+      },
+      {
+        "px": "12px",
+        "display": "12px",
+        "rem": "0.75rem",
+        "count": 35,
+        "numericValue": 12
+      },
+      {
+        "px": "13.008px",
+        "display": "13.008px",
+        "rem": "0.81rem",
+        "count": 3,
+        "numericValue": 13.008
+      },
+      {
+        "px": "14px",
+        "display": "14px",
+        "rem": "0.88rem",
+        "count": 50,
+        "numericValue": 14
+      },
+      {
+        "px": "16px",
+        "display": "16px",
+        "rem": "1.00rem",
+        "count": 31,
+        "numericValue": 16
+      },
+      {
+        "px": "17.5px",
+        "display": "17.5px",
+        "rem": "1.09rem",
+        "count": 4,
+        "numericValue": 17.5
+      },
+      {
+        "px": "20px",
+        "display": "20px",
+        "rem": "1.25rem",
+        "count": 34,
+        "numericValue": 20
+      },
+      {
+        "px": "24px",
+        "display": "24px",
+        "rem": "1.50rem",
+        "count": 11,
+        "numericValue": 24
+      },
+      {
+        "px": "30px",
+        "display": "30px",
+        "rem": "1.88rem",
+        "count": 5,
+        "numericValue": 30
+      },
+      {
+        "px": "40px",
+        "display": "40px",
+        "rem": "2.50rem",
+        "count": 11,
+        "numericValue": 40
+      },
+      {
+        "px": "60px",
+        "display": "60px",
+        "rem": "3.75rem",
+        "count": 8,
+        "numericValue": 60
+      },
+      {
+        "px": "75.5938px",
+        "display": "75.5938px",
+        "rem": "4.72rem",
+        "count": 3,
+        "numericValue": 75.5938
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "0px 0px 2px 2px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "2px",
+        "count": 6,
+        "elements": [
+          "div",
+          "Close preference center",
+          "Back",
+          "button"
+        ],
+        "confidence": "medium",
+        "numericValue": 2
+      },
+      {
+        "value": "3px",
+        "count": 5,
+        "elements": [
+          "div",
+          "tabpanel"
+        ],
+        "confidence": "medium",
+        "numericValue": 3
+      },
+      {
+        "value": "4px",
+        "count": 18,
+        "elements": [
+          "a",
+          "image"
+        ],
+        "confidence": "high",
+        "numericValue": 4
+      },
+      {
+        "value": "5px",
+        "count": 2,
+        "elements": [
+          "badge"
+        ],
+        "confidence": "low",
+        "numericValue": 5
+      },
+      {
+        "value": "8px",
+        "count": 1,
+        "elements": [
+          "dialog"
+        ],
+        "confidence": "low",
+        "numericValue": 8
+      },
+      {
+        "value": "10px",
+        "count": 3,
+        "elements": [
+          "badge"
+        ],
+        "confidence": "low",
+        "numericValue": 10
+      },
+      {
+        "value": "12px",
+        "count": 15,
+        "elements": [
+          "dialog",
+          "div",
+          "a"
+        ],
+        "confidence": "high",
+        "numericValue": 12
+      },
+      {
+        "value": "16px",
+        "count": 8,
+        "elements": [
+          "video"
+        ],
+        "confidence": "medium",
+        "numericValue": 16
+      },
+      {
+        "value": "16px 16px 0px 0px",
+        "count": 6,
+        "elements": [
+          "image"
+        ],
+        "confidence": "medium",
+        "numericValue": 16
+      },
+      {
+        "value": "17px",
+        "count": 1,
+        "elements": [
+          "Filter Cookie List"
+        ],
+        "confidence": "low",
+        "numericValue": 17
+      },
+      {
+        "value": "20px",
+        "count": 3,
+        "elements": [
+          "span"
+        ],
+        "confidence": "low",
+        "numericValue": 20
+      },
+      {
+        "value": "24px",
+        "count": 70,
+        "elements": [
+          "div",
+          "Main",
+          "li",
+          "nav",
+          "article"
+        ],
+        "confidence": "high",
+        "numericValue": 24
+      },
+      {
+        "value": "25px",
+        "count": 3,
+        "elements": [
+          "card"
+        ],
+        "confidence": "low",
+        "numericValue": 25
+      },
+      {
+        "value": "25.22px 25.22px 0px 0px",
+        "count": 3,
+        "elements": [
+          "image"
+        ],
+        "confidence": "low",
+        "numericValue": 25.22
+      },
+      {
+        "value": "36px",
+        "count": 3,
+        "elements": [
+          "Search Input"
+        ],
+        "confidence": "low",
+        "numericValue": 36
+      },
+      {
+        "value": "50px",
+        "count": 1,
+        "elements": [
+          "Cookie list search"
+        ],
+        "confidence": "low",
+        "numericValue": 50
+      },
+      {
+        "value": "96px",
+        "count": 20,
+        "elements": [
+          "button",
+          "div"
+        ],
+        "confidence": "high",
+        "numericValue": 96
+      },
+      {
+        "value": "999px",
+        "count": 6,
+        "elements": [
+          "Manage, Opens the preference center dialog",
+          "button"
+        ],
+        "confidence": "medium",
+        "numericValue": 999
+      },
+      {
+        "value": "40% 0px 0px",
+        "count": 2,
+        "elements": [
+          "image"
+        ],
+        "confidence": "low",
+        "numericValue": 40
+      },
+      {
+        "value": "50%",
+        "count": 1,
+        "elements": [
+          "svg"
+        ],
+        "confidence": "low",
+        "numericValue": 50
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "2px",
+        "style": "solid",
+        "color": "rgb(0, 0, 73)",
+        "count": 5,
+        "elements": [
+          "button"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(12, 12, 20)",
+        "count": 3,
+        "elements": [
+          "input"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(255, 255, 255)",
+        "count": 3,
+        "elements": [
+          "span"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(0, 0, 73)",
+        "count": 3,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "none none solid",
+        "color": "rgb(16, 24, 32)",
+        "count": 2,
+        "elements": [
+          "presentation",
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 1px 10px",
+        "style": "none none solid solid",
+        "color": "rgb(16, 24, 32)",
+        "count": 2,
+        "elements": [
+          "tab"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(50, 174, 136)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 1px 10px",
+        "style": "none none solid solid",
+        "color": "rgb(0, 0, 73)",
+        "count": 1,
+        "elements": [
+          "tab"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(112, 112, 112)",
+        "count": 1,
+        "elements": [
+          "input"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(187, 187, 187)",
+        "count": 1,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(216, 216, 216)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [
+    {
+      "shadow": "rgba(156, 173, 252, 0.1) 0px 0px 0px 1.5px inset",
+      "count": 26,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgb(12, 12, 20) 0px 0px 0px 1px inset",
+      "count": 2,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(22, 31, 39, 0.42) 0px 60px 123px -25px, rgba(19, 26, 32, 0.08) 0px 35px 75px -35px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(6, 8, 9, 0.32) 0px 6px 16px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.2) 0px 0px 18px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 2px 4px 0px, rgba(50, 50, 93, 0.1) 0px 7px 14px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgb(199, 197, 199) -3px -3px 5px -2px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgb(199, 197, 199) 0px 0px 12px 2px",
+      "count": 1,
+      "confidence": "low"
+    }
+  ],
+  "gradients": [
+    {
+      "gradient": "radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(156, 173, 252, 0.1), rgb(156, 173, 252), rgba(156, 173, 252, 0.1), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0))",
+      "type": "radial",
+      "stopColors": [
+        "rgba(0, 0, 0, 0)",
+        "rgba(0, 0, 0, 0)",
+        "rgba(156, 173, 252, 0.1)",
+        "rgb(156, 173, 252)",
+        "rgba(156, 173, 252, 0.1)",
+        "rgba(0, 0, 0, 0)",
+        "rgba(0, 0, 0, 0)"
+      ],
+      "count": 14
+    },
+    {
+      "gradient": "linear-gradient(rgba(19, 19, 31, 0), rgba(156, 173, 252, 0.2) 80%, rgba(156, 173, 252, 0.95))",
+      "type": "linear",
+      "stopColors": [
+        "rgba(19, 19, 31, 0)",
+        "rgba(156, 173, 252, 0.2)",
+        "rgba(156, 173, 252, 0.95)"
+      ],
+      "count": 3
+    },
+    {
+      "gradient": "radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(156, 173, 252, 0.8), rgba(156, 173, 252, 0.2), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0))",
+      "type": "radial",
+      "stopColors": [
+        "rgba(0, 0, 0, 0)",
+        "rgba(0, 0, 0, 0)",
+        "rgba(0, 0, 0, 0)",
+        "rgba(156, 173, 252, 0.8)",
+        "rgba(156, 173, 252, 0.2)",
+        "rgba(0, 0, 0, 0)",
+        "rgba(0, 0, 0, 0)",
+        "rgba(0, 0, 0, 0)"
+      ],
+      "count": 3
+    },
+    {
+      "gradient": "linear-gradient(182deg, rgba(22, 25, 38, 0.1) 1.08%, rgba(156, 173, 252, 0.28) 92.23%, rgba(156, 173, 252, 0.28) 51.68%)",
+      "type": "linear",
+      "stopColors": [
+        "rgba(22, 25, 38, 0.1)",
+        "rgba(156, 173, 252, 0.28)",
+        "rgba(156, 173, 252, 0.28)"
+      ],
+      "count": 3
+    },
+    {
+      "gradient": "radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgb(156, 173, 252), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0))",
+      "type": "radial",
+      "stopColors": [
+        "rgba(0, 0, 0, 0)",
+        "rgba(0, 0, 0, 0)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(156, 173, 252)",
+        "rgba(0, 0, 0, 0)",
+        "rgba(0, 0, 0, 0)",
+        "rgba(0, 0, 0, 0)"
+      ],
+      "count": 2
+    },
+    {
+      "gradient": "linear-gradient(rgb(19, 19, 31) 30%, rgba(19, 19, 31, 0.8) 60%, rgba(19, 19, 31, 0.5) 80%, rgba(0, 0, 0, 0))",
+      "type": "linear",
+      "stopColors": [
+        "rgb(19, 19, 31)",
+        "rgba(19, 19, 31, 0.8)",
+        "rgba(19, 19, 31, 0.5)",
+        "rgba(0, 0, 0, 0)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(172deg, rgb(19, 19, 31), rgb(168, 169, 252))",
+      "type": "linear",
+      "stopColors": [
+        "rgb(19, 19, 31)",
+        "rgb(168, 169, 252)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "radial-gradient(44.05% 43.36% at 52.67% 56.72%, rgb(156, 173, 252) 0%, rgb(41, 106, 125) 54.81%, rgb(19, 19, 31) 100%)",
+      "type": "radial",
+      "stopColors": [
+        "rgb(156, 173, 252)",
+        "rgb(41, 106, 125)",
+        "rgb(19, 19, 31)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(225deg, rgba(27, 27, 48, 0.4) 31.64%, rgba(168, 169, 252, 0.4) 88.1%)",
+      "type": "linear",
+      "stopColors": [
+        "rgba(27, 27, 48, 0.4)",
+        "rgba(168, 169, 252, 0.4)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(rgba(27, 27, 48, 0.18), rgba(168, 169, 252, 0.2))",
+      "type": "linear",
+      "stopColors": [
+        "rgba(27, 27, 48, 0.18)",
+        "rgba(168, 169, 252, 0.2)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(156, 173, 252, 0.1) 1.08%, rgb(156, 173, 252) 62.23%, rgba(156, 173, 252, 0.1) 91.68%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0))",
+      "type": "radial",
+      "stopColors": [
+        "rgba(0, 0, 0, 0)",
+        "rgba(0, 0, 0, 0)",
+        "rgba(156, 173, 252, 0.1)",
+        "rgb(156, 173, 252)",
+        "rgba(156, 173, 252, 0.1)",
+        "rgba(0, 0, 0, 0)",
+        "rgba(0, 0, 0, 0)"
+      ],
+      "count": 1
+    }
+  ],
+  "motion": {
+    "durations": [
+      {
+        "value": "0.001s",
+        "ms": 1,
+        "count": 622
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease",
+        "type": "ease",
+        "count": 568
+      },
+      {
+        "value": "linear",
+        "type": "linear",
+        "count": 53
+      },
+      {
+        "value": "cubic-bezier(0.19, 1, 0.22, 1)",
+        "type": "ease-out",
+        "count": 22
+      },
+      {
+        "value": "ease-out",
+        "type": "ease-out",
+        "count": 12
+      },
+      {
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "type": "custom",
+        "count": 4
+      },
+      {
+        "value": "ease-in-out",
+        "type": "ease-in-out",
+        "count": 2
+      }
+    ],
+    "animations": [
+      {
+        "name": "ShineBorder-shine--1gdFG",
+        "duration": "0.001s",
+        "easing": "linear",
+        "count": 2,
+        "contexts": [
+          "other"
+        ]
+      },
+      {
+        "name": "NavigationModal-entry--eP2wH",
+        "duration": "0.001s",
+        "easing": "ease",
+        "count": 1,
+        "contexts": [
+          "nav"
+        ]
+      },
+      {
+        "name": "NavigationModal-bgImageScale--1Eq5m",
+        "duration": "0.001s",
+        "easing": "ease",
+        "count": 1,
+        "contexts": [
+          "other"
+        ]
+      },
+      {
+        "name": "MerchantDetailsPage-rotate--S5u7e",
+        "duration": "0.001s",
+        "easing": "linear",
+        "count": 1,
+        "contexts": [
+          "other"
+        ]
+      }
+    ],
+    "contexts": {
+      "modal": {
+        "count": 7,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "opacity",
+          "transform"
+        ]
+      },
+      "nav": {
+        "count": 57,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "opacity",
+          "visibility",
+          "transform"
+        ]
+      },
+      "button": {
+        "count": 7,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "linear",
+        "easingType": "linear",
+        "props": [
+          "background-color"
+        ]
+      },
+      "media": {
+        "count": 15,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "link": {
+        "count": 77,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "color",
+          "background-color"
+        ]
+      },
+      "hero": {
+        "count": 31,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "opacity",
+          "transform",
+          "outline-color",
+          "top"
+        ]
+      },
+      "input": {
+        "count": 2,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "linear",
+        "easingType": "linear",
+        "props": []
+      },
+      "overlay": {
+        "count": 14,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "opacity",
+          "visibility"
+        ]
+      },
+      "card": {
+        "count": 96,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "opacity",
+          "transform",
+          "position",
+          "left"
+        ]
+      }
+    },
+    "interactiveDeltas": []
+  },
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(168, 169, 252)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "10px",
+            "borderRadius": "96px",
+            "border": "0px none rgb(255, 255, 255)",
+            "fontSize": "14px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "text": "Skip to main content",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(12, 12, 20)",
+            "padding": "14px 23px",
+            "borderRadius": "96px",
+            "border": "0px none rgb(12, 12, 20)",
+            "fontSize": "14px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "text": "Get back to school",
+        "confidence": "medium"
+      }
+    ],
+    "inputs": {
+      "text": [
+        {
+          "specificType": "div",
+          "states": {
+            "default": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(16, 24, 32)",
+              "border": "0px none rgb(16, 24, 32)",
+              "borderRadius": "0px",
+              "padding": "0px",
+              "boxShadow": "none",
+              "outline": "rgb(16, 24, 32) none 3px"
+            },
+            "focus": {}
+          }
+        },
+        {
+          "specificType": "text",
+          "states": {
+            "default": {
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(12, 12, 20)",
+              "borderRadius": "36px",
+              "padding": "20px 104px 20px 54px",
+              "boxShadow": "none",
+              "outline": "rgb(0, 0, 0) none 3px"
+            },
+            "focus": {
+              "backgroundColor": "rgb(30, 174, 219)",
+              "border": "1px solid rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "outline": "rgb(0, 0, 0) solid 1px",
+              "color": "rgb(255, 255, 255)",
+              "boxShadow": "rgb(33, 150, 243) 0px 0px 1px"
+            }
+          }
+        }
+      ],
+      "checkbox": [],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "underline"
+          },
+          "hover": {
+            "color": "rgb(24, 131, 253)",
+            "textDecoration": "none"
+          }
+        }
+      },
+      {
+        "color": "rgb(16, 24, 32)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(16, 24, 32)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "rgb(24, 131, 253)",
+            "textDecoration": "none"
+          }
+        }
+      },
+      {
+        "color": "rgb(12, 12, 20)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(12, 12, 20)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "rgb(24, 131, 253)",
+            "textDecoration": "none"
+          }
+        }
+      },
+      {
+        "color": "rgb(168, 169, 252)",
+        "textDecoration": "underline",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(168, 169, 252)",
+            "textDecoration": "underline"
+          },
+          "hover": {
+            "color": "rgb(24, 131, 253)",
+            "textDecoration": "none"
+          }
+        }
+      },
+      {
+        "color": "rgb(159, 159, 159)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(159, 159, 159)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "rgb(24, 131, 253)",
+            "textDecoration": "none"
+          }
+        }
+      }
+    ],
+    "badges": {
+      "all": [],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": []
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "400px"
+    },
+    {
+      "px": "425px"
+    },
+    {
+      "px": "426px"
+    },
+    {
+      "px": "460px"
+    },
+    {
+      "px": "530px"
+    },
+    {
+      "px": "550px"
+    },
+    {
+      "px": "577px"
+    },
+    {
+      "px": "600px"
+    },
+    {
+      "px": "610px"
+    },
+    {
+      "px": "640px"
+    },
+    {
+      "px": "767px"
+    },
+    {
+      "px": "768px"
+    },
+    {
+      "px": "769px"
+    },
+    {
+      "px": "800px"
+    },
+    {
+      "px": "863px"
+    },
+    {
+      "px": "890px"
+    },
+    {
+      "px": "896px"
+    },
+    {
+      "px": "897px"
+    },
+    {
+      "px": "900px"
+    },
+    {
+      "px": "920px"
+    },
+    {
+      "px": "921px"
+    },
+    {
+      "px": "1023px"
+    },
+    {
+      "px": "1024px"
+    },
+    {
+      "px": "1168px"
+    },
+    {
+      "px": "1169px"
+    },
+    {
+      "px": "1280px"
+    },
+    {
+      "px": "1600px"
+    },
+    {
+      "px": "1601px"
+    }
+  ],
+  "iconSystem": [
+    {
+      "name": "SVG Icons",
+      "type": "svg"
+    }
+  ],
+  "frameworks": []
+}

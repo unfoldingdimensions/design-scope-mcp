@@ -1,0 +1,65 @@
+{
+  "url": "https://go.dev",
+  "hovers": [
+    {
+      "selector": "a[href]",
+      "file": "hover-01.png",
+      "box": {
+        "x": 24,
+        "y": 12,
+        "width": 118,
+        "height": 32
+      }
+    },
+    {
+      "selector": "a[href]",
+      "file": "hover-02.png",
+      "box": {
+        "x": 782,
+        "y": 0,
+        "width": 128,
+        "height": 56
+      }
+    },
+    {
+      "selector": "a[href]",
+      "file": "hover-03.png",
+      "box": {
+        "x": 806,
+        "y": 80,
+        "width": 88,
+        "height": 22
+      }
+    },
+    {
+      "selector": "button",
+      "file": "hover-04.png",
+      "box": {
+        "x": 1278,
+        "y": 1288,
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "selector": "button",
+      "file": "hover-05.png",
+      "box": {
+        "x": 1088,
+        "y": 1074,
+        "width": 65,
+        "height": 28
+      }
+    },
+    {
+      "selector": "[role=button]",
+      "file": "hover-06.png",
+      "box": {
+        "x": 138,
+        "y": -1189,
+        "width": 280,
+        "height": 64
+      }
+    }
+  ]
+}

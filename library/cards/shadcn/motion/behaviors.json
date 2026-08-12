@@ -1,0 +1,179 @@
+{
+  "url": "https://ui.shadcn.com",
+  "captured": "2026-08-10T07:30:53+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(0, 0, 0)",
+          "after": "lab(7.78201 -0.0000149012 0)"
+        },
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "lab(96.52 -0.0000298023 0.0000119209)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgb(0, 0, 0)",
+          "after": "lab(7.78201 -0.0000149012 0)"
+        },
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "lab(96.52 -0.0000298023 0.0000119209)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 3,
+      "diffs": {
+        "color": {
+          "before": "rgb(0, 0, 0)",
+          "after": "lab(7.78201 -0.0000149012 0)"
+        },
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "lab(96.52 -0.0000298023 0.0000119209)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 4,
+      "diffs": {
+        "color": {
+          "before": "rgb(0, 0, 0)",
+          "after": "lab(7.78201 -0.0000149012 0)"
+        },
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "lab(96.52 -0.0000298023 0.0000119209)"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": "button",
+      "index": 5,
+      "diffs": {
+        "color": {
+          "before": "lab(0 0 0)",
+          "after": "lab(7.78201 -0.0000149012 0)"
+        },
+        "backgroundColor": {
+          "before": "lab(96.52 -0.0000298023 0.0000119209)",
+          "after": "oklab(0.969998 -0.00000959635 0.0000227094 / 0.5)"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    },
+    {
+      "selector": "button",
+      "index": 6,
+      "diffs": {
+        "color": {
+          "before": "rgb(0, 0, 0)",
+          "after": "lab(7.78201 -0.0000149012 0)"
+        },
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "lab(96.52 -0.0000298023 0.0000119209)"
+        }
+      },
+      "before_png": "hover-before-06.png",
+      "after_png": "hover-after-06.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 85,
+    "tabs": 13,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 304,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "span",
+      "classes": "w-fit text-xs text-muted-foreground tabular-nums",
+      "text": "121k",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "svg",
+      "classes": "[object SVGAnimatedString]",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "span",
+      "classes": "text-3xl font-semibold tabular-nums",
+      "text": "$420,000",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "span",
+      "classes": "text-sm font-medium tabular-nums",
+      "text": "$273,000",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "span",
+      "classes": "text-3xl font-semibold tabular-nums",
+      "text": "$85,000",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "span",
+      "classes": "text-sm font-medium tabular-nums",
+      "text": "$27,200",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "div",
+      "classes": "cn-font-heading font-medium text-4xl tabular-nums",
+      "text": "$1,211.29",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "span",
+      "classes": "text-sm font-medium tabular-nums",
+      "text": "$1,248.75",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

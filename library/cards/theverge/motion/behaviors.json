@@ -1,0 +1,71 @@
+{
+  "url": "https://www.theverge.com",
+  "captured": "2026-08-10T05:01:18+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(82, 0, 255)",
+          "after": "rgb(99, 99, 99)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 544,
+    "tabs": 7,
+    "accordions": 4,
+    "carousels": 0,
+    "observers": 2,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "button",
+      "classes": "_1cuypub6 _1cuypub8 _1cuypub7",
+      "text": "Top Stories",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "button",
+      "classes": "_1cuypub6 _1cuypub9",
+      "text": "Latest",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "button",
+      "classes": "_1cuypub6 _1cuypub9",
+      "text": "Following",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "button",
+      "classes": "_1cuypub6 _1cuypub8 _1cuypub7",
+      "text": "Latest",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "button",
+      "classes": "_1cuypub6 _1cuypub9",
+      "text": "Following",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    }
+  ]
+}

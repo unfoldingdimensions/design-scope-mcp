@@ -1,0 +1,301 @@
+{
+  "url": "https://carrd.co",
+  "captured": "2026-08-10T09:20:11+00:00",
+  "named_tokens": {
+    "light": {
+      "--box-padding-lr": "2.5em",
+      "--box-padding-tb": "2.5em"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "soft corners",
+      "elevated (soft shadows)"
+    ],
+    "flat": false,
+    "corner_style": "soft",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "overlay": 10011,
+    "modal": 10001,
+    "header": 10000,
+    "tooltip": 10000
+  },
+  "z_index_rows": [
+    {
+      "role": "header",
+      "selector": ".plan-table .plan header::before",
+      "value": "-1"
+    },
+    {
+      "role": "overlay",
+      "selector": ".progress-overlay",
+      "value": "10011"
+    },
+    {
+      "role": "tooltip",
+      "selector": "[data-tooltip]::before, [data-tooltip]::after",
+      "value": "10000"
+    },
+    {
+      "role": "header",
+      "selector": ".form-array-input > .items > .item.has-thumbnail > .header .thumbnail",
+      "value": "-1"
+    },
+    {
+      "role": "modal",
+      "selector": ".form-image-input-modal",
+      "value": "10001"
+    },
+    {
+      "role": "modal",
+      "selector": ".form-image-input-modal .wrapper .preview .crop .controls::before, .form-image-i",
+      "value": "-1"
+    },
+    {
+      "role": "modal",
+      "selector": ".form-image-input-modal header > .menu > div svg",
+      "value": "1"
+    },
+    {
+      "role": "modal",
+      "selector": ".modal",
+      "value": "10001"
+    },
+    {
+      "role": "modal",
+      "selector": ".modal.dialog.pro-trial > .inner > .content header::before, .modal.dialog.pro-tr",
+      "value": "-1"
+    },
+    {
+      "role": "header",
+      "selector": "body.template-printable-document > .header",
+      "value": "10000"
+    },
+    {
+      "role": "overlay",
+      "selector": ".menu-overlay",
+      "value": "10001"
+    },
+    {
+      "role": "header",
+      "selector": ".site-header",
+      "value": "10000"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "1680px",
+      "selector": "html",
+      "change": "font-size: 15pt"
+    },
+    {
+      "at": "736px",
+      "selector": "html",
+      "change": "font-size: 11pt"
+    },
+    {
+      "at": "480px",
+      "selector": "html, body",
+      "change": "min-width: 320px"
+    },
+    {
+      "at": "736px",
+      "selector": "hr.major",
+      "change": "margin-top: 2em"
+    },
+    {
+      "at": "736px",
+      "selector": "hr.major",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "736px",
+      "selector": "hr.major",
+      "change": "margin-bottom: 2em"
+    },
+    {
+      "at": "736px",
+      "selector": "hr.major",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "736px",
+      "selector": "p.details.minor",
+      "change": "font-size: 1em"
+    },
+    {
+      "at": "736px",
+      "selector": "h1",
+      "change": "font-size: 1.5em"
+    },
+    {
+      "at": "736px",
+      "selector": "h1",
+      "change": "letter-spacing: -0.025em"
+    },
+    {
+      "at": "736px",
+      "selector": "h1",
+      "change": "margin-top: 0px"
+    },
+    {
+      "at": "736px",
+      "selector": "h1",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "736px",
+      "selector": "h1",
+      "change": "margin-bottom: 1em"
+    },
+    {
+      "at": "736px",
+      "selector": "h1",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "736px",
+      "selector": "h2",
+      "change": "font-size: 1em"
+    },
+    {
+      "at": "736px",
+      "selector": ".mobile-exclude",
+      "change": "display: none"
+    },
+    {
+      "at": "980px",
+      "selector": "input[type=\"submit\"].fixed, input[type=\"reset\"].fixed, input[type=\"button\"].fixe",
+      "change": "width: auto"
+    },
+    {
+      "at": "screen and (prefers-contrast: more)",
+      "selector": "input[type=\"submit\"], input[type=\"reset\"], input[type=\"button\"], button, .button",
+      "change": "box-shadow: rgba(255, 255, 255, 0.25) 0px 0px 0px 2px inset"
+    },
+    {
+      "at": "screen and (prefers-contrast: more)",
+      "selector": "input[type=\"submit\"].special, input[type=\"reset\"].special, input[type=\"button\"].",
+      "change": "background-color: rgb(37, 126, 123)"
+    },
+    {
+      "at": "screen and (prefers-contrast: more)",
+      "selector": "input[type=\"submit\"].special, input[type=\"reset\"].special, input[type=\"button\"].",
+      "change": "box-shadow: rgb(51, 173, 169) 0px 0px 0px 2px inset"
+    },
+    {
+      "at": "screen and (prefers-contrast: more)",
+      "selector": "input[type=\"submit\"].special:hover, input[type=\"reset\"].special:hover, input[typ",
+      "change": "background-color: rgb(28, 94, 92)"
+    },
+    {
+      "at": "480px",
+      "selector": ".date-range-widget form",
+      "change": "grid-template-rows: auto auto"
+    },
+    {
+      "at": "480px",
+      "selector": ".date-range-widget form",
+      "change": "grid-template-areas: \"start end\" \"button button\""
+    },
+    {
+      "at": "480px",
+      "selector": ".date-range-widget form",
+      "change": "grid-template-columns: auto auto"
+    },
+    {
+      "at": "480px",
+      "selector": ".date-range-widget form input[type=\"submit\"]",
+      "change": "width: 100%"
+    },
+    {
+      "at": "736px",
+      "selector": ".docs-search-widget .results",
+      "change": "font-size: 1em"
+    },
+    {
+      "at": "736px",
+      "selector": ".entity-card",
+      "change": "grid-template-columns: 8em auto fit-content(100%)"
+    },
+    {
+      "at": "736px",
+      "selector": ".entity-card",
+      "change": "grid-template-rows: 6.4em"
+    },
+    {
+      "at": "736px",
+      "selector": ".entity-card > .content > .description:nth-last-child(2)",
+      "change": "display: none"
+    },
+    {
+      "at": "736px",
+      "selector": ".entity-card > .actions > ul > li > a.primary::after",
+      "change": "width: 8em"
+    },
+    {
+      "at": "736px",
+      "selector": ".entity-card > .actions > ul > li:nth-child(1) > a svg, .entity-card > .actions ",
+      "change": "top: 0.125em"
+    },
+    {
+      "at": "736px",
+      "selector": ".entity-card > .actions > ul > li:nth-child(2) > a svg, .entity-card > .actions ",
+      "change": "bottom: 0.125em"
+    },
+    {
+      "at": "480px",
+      "selector": ".entity-card",
+      "change": "grid-template-columns: 5.75em auto fit-content(100%)"
+    },
+    {
+      "at": "480px",
+      "selector": ".entity-card",
+      "change": "grid-template-rows: 5.75em"
+    },
+    {
+      "at": "480px",
+      "selector": ".entity-card > .content",
+      "change": "padding-top: 1.25em"
+    },
+    {
+      "at": "480px",
+      "selector": ".entity-card > .content",
+      "change": "padding-right: 1.25em"
+    },
+    {
+      "at": "480px",
+      "selector": ".entity-card > .content",
+      "change": "padding-bottom: 1.25em"
+    },
+    {
+      "at": "480px",
+      "selector": ".entity-card > .content",
+      "change": "padding-left: 1.25em"
+    },
+    {
+      "at": "480px",
+      "selector": ".entity-card > .actions",
+      "change": "width: 3.25em"
+    },
+    {
+      "at": "480px",
+      "selector": ".entity-card > .actions > ul > li > a.primary::after",
+      "change": "width: 5.75em"
+    }
+  ]
+}

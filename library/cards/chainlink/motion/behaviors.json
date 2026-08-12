@@ -1,0 +1,207 @@
+{
+  "url": "https://chain.link",
+  "captured": "2026-08-10T13:28:55+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(245, 247, 250)",
+          "after": "rgb(33, 39, 50)"
+        },
+        "borderColor": {
+          "before": "rgb(245, 247, 250)",
+          "after": "rgb(33, 39, 50)"
+        },
+        "outline": {
+          "before": "rgb(245, 247, 250) none 3px",
+          "after": "rgb(33, 39, 50) none 0px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgba(22, 37, 65, 0.35)",
+          "after": "rgba(217, 226, 242, 0.8)"
+        },
+        "borderColor": {
+          "before": "rgba(22, 37, 65, 0.35)",
+          "after": "rgba(217, 226, 242, 0.8)"
+        },
+        "opacity": {
+          "before": "0.5",
+          "after": "1"
+        },
+        "outline": {
+          "before": "rgba(22, 37, 65, 0.35) none 3px",
+          "after": "rgba(217, 226, 242, 0.8) none 3px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 3,
+      "diffs": {
+        "color": {
+          "before": "rgba(217, 226, 242, 0.4)",
+          "after": "rgba(22, 37, 65, 0.95)"
+        },
+        "borderColor": {
+          "before": "rgba(217, 226, 242, 0.4)",
+          "after": "rgba(22, 37, 65, 0.95)"
+        },
+        "opacity": {
+          "before": "0.5",
+          "after": "1"
+        },
+        "outline": {
+          "before": "rgba(217, 226, 242, 0.4) none 3px",
+          "after": "rgba(22, 37, 65, 0.95) none 3px"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 4,
+      "diffs": {
+        "color": {
+          "before": "rgba(209, 224, 250, 0.5)",
+          "after": "rgba(209, 224, 250, 0.9)"
+        },
+        "borderColor": {
+          "before": "rgba(209, 224, 250, 0.5)",
+          "after": "rgba(209, 224, 250, 0.9)"
+        },
+        "opacity": {
+          "before": "0.5",
+          "after": "1"
+        },
+        "outline": {
+          "before": "rgba(209, 224, 250, 0.5) none 3px",
+          "after": "rgba(209, 224, 250, 0.9) none 3px"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 5,
+      "diffs": {
+        "color": {
+          "before": "rgba(209, 224, 250, 0.5)",
+          "after": "rgba(209, 224, 250, 0.9)"
+        },
+        "borderColor": {
+          "before": "rgba(209, 224, 250, 0.5)",
+          "after": "rgba(209, 224, 250, 0.9)"
+        },
+        "opacity": {
+          "before": "0.5",
+          "after": "1"
+        },
+        "outline": {
+          "before": "rgba(209, 224, 250, 0.5) none 3px",
+          "after": "rgba(209, 224, 250, 0.9) none 3px"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "div.chainlink-system--navigation",
+      "diffs": {
+        "boxShadow": "rgba(209, 224, 250, 0.18) 0px -1px 0px 0px inset → rgba(217, 226, 242, 0.13) 0px -1px 0px 0px inset",
+        "background": "rgb(8, 71, 247) → rgb(14, 17, 25)"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 178,
+    "tabs": 15,
+    "accordions": 0,
+    "carousels": 83,
+    "observers": 22,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 149
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "div",
+      "classes": "tabs u-pl-0-5 u-pr-0-5 w-tabs",
+      "text": "Tokenized fundsstablecoinsPayments & SettlementsOnChain Data",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "div",
+      "classes": "tab-group u-pb-0-5 w-tab-menu",
+      "text": "Tokenized fundsstablecoinsPayments & SettlementsOnChain Data",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "a",
+      "classes": "tab-label w-inline-block w-tab-link w--current",
+      "text": "Tokenized funds",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "a",
+      "classes": "tab-label w-inline-block w-tab-link",
+      "text": "stablecoins",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "a",
+      "classes": "tab-label w-inline-block w-tab-link",
+      "text": "Payments & Settlements",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "a",
+      "classes": "tab-label w-inline-block w-tab-link",
+      "text": "OnChain Data Delivery",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "a",
+      "classes": "tab-label w-inline-block w-tab-link",
+      "text": "Lending & Borrowing",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "a",
+      "classes": "tab-label w-inline-block w-tab-link",
+      "text": "Derivatives",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "url": "https://www.perplexity.ai",
+  "captured": "2026-08-10T04:19:55+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(39, 26, 0, 0.035)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(39, 26, 0, 0.035)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "color": {
+          "before": "rgba(39, 37, 30, 0.5)",
+          "after": "rgb(39, 37, 30)"
+        },
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(39, 26, 0, 0.07)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(39, 26, 0, 0.07)"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 28,
+    "tabs": 29,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "a",
+      "classes": "reset interactable flex size-[40px] items-center justify-center rounded-xl hover",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "button",
+      "classes": "reset interactable flex items-center justify-center rounded-xl hover:bg-subtle s",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "a",
+      "classes": "reset interactable absolute inset-0 rounded-xl",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "a",
+      "classes": "reset interactable absolute inset-0 rounded-xl",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "a",
+      "classes": "reset interactable absolute inset-0 rounded-xl",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "a",
+      "classes": "reset interactable absolute inset-0 rounded-xl",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "a",
+      "classes": "reset interactable absolute inset-0 rounded-lg",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "button",
+      "classes": "reset interactable-alt size-6 grid place-items-center rounded-md shrink-0 text-q",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

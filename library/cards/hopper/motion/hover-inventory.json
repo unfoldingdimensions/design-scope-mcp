@@ -1,0 +1,35 @@
+{
+  "url": "https://www.hopper.com",
+  "hovers": [
+    {
+      "selector": "[role=button]",
+      "file": "hover-01.png",
+      "box": {
+        "x": 112,
+        "y": 843,
+        "width": 96,
+        "height": 16
+      }
+    },
+    {
+      "selector": "nav a",
+      "file": "hover-02.png",
+      "box": {
+        "x": 24,
+        "y": 843,
+        "width": 76,
+        "height": 16
+      }
+    },
+    {
+      "selector": "nav a",
+      "file": "hover-03.png",
+      "box": {
+        "x": 112,
+        "y": 843,
+        "width": 96,
+        "height": 16
+      }
+    }
+  ]
+}

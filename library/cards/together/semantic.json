@@ -1,0 +1,396 @@
+{
+  "url": "https://www.together.ai",
+  "captured": "2026-08-10T09:09:17+00:00",
+  "named_tokens": {
+    "light": {
+      "--brand--white": "white",
+      "--brand--black": "#000",
+      "--_spacers---padding-global": "3em",
+      "--product--purple-02": "#dfddfe",
+      "--shades--black-opacity-70": "#000000b3",
+      "--shades--black-opacity-8": "#00000014",
+      "--shades--black-opacity-16": "#00000029",
+      "--brand--transparent": "transparent",
+      "--shades--white-opacity-80": "#fffc",
+      "--shades--white-opacity-12": "#ffffff1f",
+      "--shades--white-opacity-8": "#ffffff14",
+      "--shades--black-opacity-32": "#00000052",
+      "--product--purple-01": "#bdbbff",
+      "--product--cyan-01": "#70e9f0",
+      "--product--blue-01": "#9bcdf5",
+      "--brand--dark-blue": "#010120",
+      "--_radius---4": ".25em",
+      "--shades--black-opacity-4": "#0000000a",
+      "--_spacers---spacers--100": "6.25em",
+      "--product--blue-02": "#c1dff9",
+      "--product--pink-02": "#fde3f6",
+      "--product--orange-02": "#ffdccd",
+      "--product--pink-01": "#f7b0df",
+      "--product--orange-01": "#febea3",
+      "--_spacers---spacers--80": "5em",
+      "--_radius---8": ".5em",
+      "--product--cyan-02": "#c8f6f9",
+      "--_spacers---spacers--120": "7.5em",
+      "--shades--white-opacity-50": "#ffffff80",
+      "--_radius---16": "1em",
+      "--shades--white-opacity-4": "#ffffff0a",
+      "--shades--white-opacity-70": "#ffffffb3",
+      "--shades--white-opacity-40": "#fff6",
+      "--opacity--purple-16": "#caaef529",
+      "--brand--brand-purple": "#caaef5",
+      "--opacity--cyan-40": "#70e9f066",
+      "--opacity--cyan-16": "#70e9f029",
+      "--opacity--blue-40": "#9bcdf566",
+      "--opacity--blue-16": "#9bcdf529",
+      "--_radius---12": ".75em",
+      "--product--purple-03": "#ede4fc",
+      "--opacity--purple-8": "#caaef514",
+      "--product--purple-cards": "#70549b",
+      "--shades--white-opacity-16": "#ffffff29",
+      "--brand--brand-orange": "#fc4c02",
+      "--_spacers---announcement-bar": "2.75em",
+      "--text--black-40": "#0006",
+      "--shades--white-opacity-32": "#ffffff52",
+      "--shades--black-opacity-90": "#000000e6",
+      "--shades--black-opacity-40": "#0006",
+      "--_spacers---spacers--48": "3em",
+      "--shades--black-opacity-12": "#0000001f",
+      "--shades--black-opacity-80": "#000c",
+      "--shades--black-opacity-24": "#0000003d",
+      "--_radius---6": ".375em",
+      "--opacity--blue-8": "#9bcdf514",
+      "--shades--black-opacity-60": "#0009",
+      "--product--blue-00": "#197ecf",
+      "--brand--brand-magneta": "#ef2cc1",
+      "--product--cyan-03": "#ebfbfc",
+      "--shades--black-opacity-50": "#00000080",
+      "--shades--white-opacity-90": "#ffffffe6",
+      "--shades--white-opacity-60": "#fff9",
+      "--shades--white-opacity-24": "#ffffff3d",
+      "--size-unit": "16",
+      "--size-container-ideal": "1440",
+      "--size-container-min": "992px",
+      "--size-container-max": "1440px",
+      "--size-container": "clamp(var(--size-container-min), 100vw, var(--size-container-max))",
+      "--size-font": "calc(var(--size-container) / (var(--size-container-ideal) / var(--size-unit)))",
+      "--gradient-blue-3": "linear-gradient(180deg, #fff 15.93%, #f6fafd 26.07%, #e5f3ff 73.05%)",
+      "--gradients-white-gradient-footer": "linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0.85) 100%)",
+      "--gradients-dark-blue-gradient-footer": "linear-gradient(180deg, #151531 0%, rgba(21, 21, 49, 0.9) 100%)"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {
+      "--brand--black": "#000",
+      "--brand--brand-magneta": "#ef2cc1",
+      "--brand--brand-orange": "#fc4c02",
+      "--brand--brand-purple": "#caaef5",
+      "--brand--dark-blue": "#010120",
+      "--product--purple-cards": "#70549b"
+    },
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "soft corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "soft",
+    "type_mood": [
+      "mono accents"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "modal": 9999,
+    "nav": 1000,
+    "dropdown": 900,
+    "overlay": 10,
+    "header": 2,
+    "tooltip": 0
+  },
+  "z_index_rows": [
+    {
+      "role": "nav",
+      "selector": ".w-slider-nav",
+      "value": "2"
+    },
+    {
+      "role": "dropdown",
+      "selector": ".w-dropdown",
+      "value": "900"
+    },
+    {
+      "role": "nav",
+      "selector": ".w-nav",
+      "value": "1000"
+    },
+    {
+      "role": "nav",
+      "selector": ".w-nav[data-animation=\"over-left\"] .w-nav-overlay, .w-nav[data-animation=\"over-l",
+      "value": "1"
+    },
+    {
+      "role": "nav",
+      "selector": ".w-nav[data-animation=\"over-right\"] .w-nav-overlay, .w-nav[data-animation=\"over-",
+      "value": "1"
+    },
+    {
+      "role": "nav",
+      "selector": ".nav-wrapper",
+      "value": "100"
+    },
+    {
+      "role": "nav",
+      "selector": ".nav-brand",
+      "value": "5"
+    },
+    {
+      "role": "nav",
+      "selector": ".nav-hinge",
+      "value": "2"
+    },
+    {
+      "role": "nav",
+      "selector": ".ai-native_nav",
+      "value": "10"
+    },
+    {
+      "role": "modal",
+      "selector": ".modal",
+      "value": "9999"
+    },
+    {
+      "role": "overlay",
+      "selector": ".event-hero_overlay",
+      "value": "1"
+    },
+    {
+      "role": "overlay",
+      "selector": ".event-video_overlay",
+      "value": "1"
+    },
+    {
+      "role": "overlay",
+      "selector": ".content-video_overlay",
+      "value": "2"
+    },
+    {
+      "role": "overlay",
+      "selector": ".form-visual_box-overlay",
+      "value": "2"
+    },
+    {
+      "role": "overlay",
+      "selector": ".form-visual_overlay",
+      "value": "10"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "991px",
+      "selector": ".w-container",
+      "change": "max-width: 728px"
+    },
+    {
+      "at": "991px",
+      "selector": ".w-hidden-main",
+      "change": "display: inherit"
+    },
+    {
+      "at": "991px",
+      "selector": ".w-hidden-medium",
+      "change": "display: none"
+    },
+    {
+      "at": "991px",
+      "selector": ".w-col-medium-1",
+      "change": "width: 8.33333%"
+    },
+    {
+      "at": "991px",
+      "selector": ".w-col-medium-2",
+      "change": "width: 16.6667%"
+    },
+    {
+      "at": "991px",
+      "selector": ".w-col-medium-3",
+      "change": "width: 25%"
+    },
+    {
+      "at": "991px",
+      "selector": ".w-col-medium-4",
+      "change": "width: 33.3333%"
+    },
+    {
+      "at": "991px",
+      "selector": ".w-col-medium-5",
+      "change": "width: 41.6667%"
+    },
+    {
+      "at": "991px",
+      "selector": ".w-col-medium-6",
+      "change": "width: 50%"
+    },
+    {
+      "at": "991px",
+      "selector": ".w-col-medium-7",
+      "change": "width: 58.3333%"
+    },
+    {
+      "at": "991px",
+      "selector": ".w-col-medium-8",
+      "change": "width: 66.6667%"
+    },
+    {
+      "at": "991px",
+      "selector": ".w-col-medium-9",
+      "change": "width: 75%"
+    },
+    {
+      "at": "767px",
+      "selector": ".w-hidden-main, .w-hidden-medium",
+      "change": "display: inherit"
+    },
+    {
+      "at": "767px",
+      "selector": ".w-hidden-small",
+      "change": "display: none"
+    },
+    {
+      "at": "767px",
+      "selector": ".w-row, .w-container .w-row",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "767px",
+      "selector": ".w-row, .w-container .w-row",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "767px",
+      "selector": ".w-col",
+      "change": "width: 100%"
+    },
+    {
+      "at": "767px",
+      "selector": ".w-col",
+      "change": "left: auto"
+    },
+    {
+      "at": "767px",
+      "selector": ".w-col",
+      "change": "right: auto"
+    },
+    {
+      "at": "767px",
+      "selector": ".w-col-small-1",
+      "change": "width: 8.33333%"
+    },
+    {
+      "at": "767px",
+      "selector": ".w-col-small-2",
+      "change": "width: 16.6667%"
+    },
+    {
+      "at": "767px",
+      "selector": ".w-col-small-3",
+      "change": "width: 25%"
+    },
+    {
+      "at": "767px",
+      "selector": ".w-col-small-4",
+      "change": "width: 33.3333%"
+    },
+    {
+      "at": "767px",
+      "selector": ".w-col-small-5",
+      "change": "width: 41.6667%"
+    },
+    {
+      "at": "479px",
+      "selector": ".w-container",
+      "change": "max-width: none"
+    },
+    {
+      "at": "479px",
+      "selector": ".w-hidden-main, .w-hidden-medium, .w-hidden-small",
+      "change": "display: inherit"
+    },
+    {
+      "at": "479px",
+      "selector": ".w-hidden-tiny",
+      "change": "display: none"
+    },
+    {
+      "at": "479px",
+      "selector": ".w-col",
+      "change": "width: 100%"
+    },
+    {
+      "at": "479px",
+      "selector": ".w-col-tiny-1",
+      "change": "width: 8.33333%"
+    },
+    {
+      "at": "479px",
+      "selector": ".w-col-tiny-2",
+      "change": "width: 16.6667%"
+    },
+    {
+      "at": "479px",
+      "selector": ".w-col-tiny-3",
+      "change": "width: 25%"
+    },
+    {
+      "at": "479px",
+      "selector": ".w-col-tiny-4",
+      "change": "width: 33.3333%"
+    },
+    {
+      "at": "479px",
+      "selector": ".w-col-tiny-5",
+      "change": "width: 41.6667%"
+    },
+    {
+      "at": "479px",
+      "selector": ".w-col-tiny-6",
+      "change": "width: 50%"
+    },
+    {
+      "at": "479px",
+      "selector": ".w-col-tiny-7",
+      "change": "width: 58.3333%"
+    },
+    {
+      "at": "479px",
+      "selector": ".w-col-tiny-8",
+      "change": "width: 66.6667%"
+    },
+    {
+      "at": "768px",
+      "selector": ".w-lightbox-content",
+      "change": "height: 96vh"
+    },
+    {
+      "at": "768px",
+      "selector": ".w-lightbox-content",
+      "change": "margin-top: 2vh"
+    },
+    {
+      "at": "768px",
+      "selector": ".w-lightbox-view, .w-lightbox-view::before",
+      "change": "height: 96vh"
+    },
+    {
+      "at": "768px",
+      "selector": ".w-lightbox-group, .w-lightbox-group .w-lightbox-view, .w-lightbox-group .w-ligh",
+      "change": "height: 84vh"
+    }
+  ]
+}

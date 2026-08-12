@@ -1,0 +1,65 @@
+{
+  "url": "https://tauri.app",
+  "hovers": [
+    {
+      "selector": "a[href]",
+      "file": "hover-01.png",
+      "box": {
+        "x": 24,
+        "y": 10,
+        "width": 101,
+        "height": 44
+      }
+    },
+    {
+      "selector": "a[href]",
+      "file": "hover-02.png",
+      "box": {
+        "x": 149,
+        "y": 18,
+        "width": 50,
+        "height": 28
+      }
+    },
+    {
+      "selector": "a[href]",
+      "file": "hover-03.png",
+      "box": {
+        "x": 215,
+        "y": 18,
+        "width": 79,
+        "height": 28
+      }
+    },
+    {
+      "selector": "button",
+      "file": "hover-04.png",
+      "box": {
+        "x": 681,
+        "y": 12,
+        "width": 352,
+        "height": 40
+      }
+    },
+    {
+      "selector": ".card",
+      "file": "hover-05.png",
+      "box": {
+        "x": 180,
+        "y": 585,
+        "width": 1080,
+        "height": 254
+      }
+    },
+    {
+      "selector": ".card",
+      "file": "hover-06.png",
+      "box": {
+        "x": 180,
+        "y": 855,
+        "width": 528,
+        "height": 242
+      }
+    }
+  ]
+}

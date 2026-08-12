@@ -1,0 +1,110 @@
+{
+  "url": "https://www.semrush.com",
+  "captured": "2026-08-10T10:59:55+00:00",
+  "hover_diffs": [
+    {
+      "selector": "button",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(255, 255, 255)",
+          "after": "rgb(224, 225, 233)"
+        },
+        "borderColor": {
+          "before": "rgb(255, 255, 255)",
+          "after": "rgb(224, 225, 233)"
+        },
+        "outline": {
+          "before": "rgb(255, 255, 255) none 3px",
+          "after": "rgb(224, 225, 233) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "header.",
+      "diffs": {
+        "background": "oklab(0.934924 -0.0193309 -0.00164258) → oklab(0.999994 0.0000455678 0.0000200868)"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 199,
+    "tabs": 6,
+    "accordions": 0,
+    "carousels": 36,
+    "observers": 1,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 29
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "button",
+      "classes": "mp-button mp-button--icon swiper-button-prev swiper-button-disabled",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "button",
+      "classes": "mp-button mp-button--icon swiper-button-next",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "button",
+      "classes": "mp-toolkit__trigger mp-button mp-button--icon",
+      "text": "Minimize\n                            Expand",
+      "ariaSelected": null,
+      "ariaExpanded": "false"
+    },
+    {
+      "idx": 3,
+      "tag": "button",
+      "classes": "mp-toolkit__trigger mp-button mp-button--icon",
+      "text": "Minimize\n                            Expand",
+      "ariaSelected": null,
+      "ariaExpanded": "false"
+    },
+    {
+      "idx": 4,
+      "tag": "button",
+      "classes": "mp-toolkit__trigger mp-button mp-button--icon",
+      "text": "Minimize\n                            Expand",
+      "ariaSelected": null,
+      "ariaExpanded": "false"
+    },
+    {
+      "idx": 5,
+      "tag": "button",
+      "classes": "mp-toolkit__trigger mp-button mp-button--icon",
+      "text": "Minimize\n                            Expand",
+      "ariaSelected": null,
+      "ariaExpanded": "false"
+    },
+    {
+      "idx": 6,
+      "tag": "button",
+      "classes": "mp-toolkit__trigger mp-button mp-button--icon",
+      "text": "Minimize\n                            Expand",
+      "ariaSelected": null,
+      "ariaExpanded": "false"
+    },
+    {
+      "idx": 7,
+      "tag": "button",
+      "classes": "mp-toolkit__trigger mp-button mp-button--icon",
+      "text": "Minimize\n                            Expand",
+      "ariaSelected": null,
+      "ariaExpanded": "false"
+    }
+  ]
+}

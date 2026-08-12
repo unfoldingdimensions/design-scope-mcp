@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- design-scope final variant component: Empty state -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Empty state — component</title>
+<link rel="stylesheet" href="../assets/tokens.css">
+<style>
+  body { font-family: var(--font, system-ui); background: var(--bg); color: var(--text);
+         padding: 32px; margin: 0; }
+  .demo-grid { display: grid; gap: 24px; max-width: 720px; }
+  .demo-section h2 { font-size: 15px; font-weight: 600; color: var(--text-muted); margin: 0 0 12px; }
+  .demo-row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  .demo-block { background: var(--surface); border: 1px solid var(--border);
+                 border-radius: var(--radius, 8px); padding: 20px; }
+  .note { font-size: 12px; color: var(--text-muted); font-family: var(--mono, monospace); }
+  
+  .empty { text-align: center; padding: 40px 24px; background: var(--surface);
+    border: 1px dashed var(--border); border-radius: var(--radius, 12px); }
+  .empty-icon { font-size: 28px; color: var(--text-muted); margin-bottom: 10px; }
+  .empty h3 { font-size: 16px; margin: 0 0 6px; }
+  .empty p { font-size: 13px; color: var(--text-muted); max-width: 36ch; margin: 0 auto 16px; line-height: 1.5; }
+
+</style>
+</head>
+<body>
+<div class="demo-grid">
+  <div class="note">Component: Empty state · tokens: assets/tokens.css · self-contained</div>
+  <div class="demo-section"><h2>Empty state — meaningful, not blank</h2>
+  <div class="empty">
+    <div class="empty-icon">∅</div>
+    <h3>No transactions yet</h3>
+    <p>When your first payment lands it will show up here. Connect a payment method to get started.</p>
+    <button class="btn">Add payment method</button>
+  </div>
+  <div class="note">Empty state = illustration mark + what it means + what to do next (recovery path).</div>
+</div>
+
+</div>
+<script src="../assets/theme.js"></script>
+</body>
+</html>

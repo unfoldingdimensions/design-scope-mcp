@@ -1,0 +1,195 @@
+{
+  "url": "https://www.onemedical.com",
+  "captured": "2026-08-10T15:52:54+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "outline": {
+          "before": "rgb(6, 132, 102) none 3px",
+          "after": "rgb(6, 132, 102) none 0px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "outline": {
+          "before": "rgb(0, 0, 238) none 3px",
+          "after": "rgb(0, 0, 238) none 0px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "color": {
+          "before": "rgb(0, 77, 73)",
+          "after": "rgb(6, 132, 102)"
+        },
+        "borderColor": {
+          "before": "rgb(0, 77, 73)",
+          "after": "rgb(6, 132, 102)"
+        },
+        "outline": {
+          "before": "rgb(0, 77, 73) none 3px",
+          "after": "rgb(6, 132, 102) none 3px"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "color": {
+          "before": "rgb(0, 77, 73)",
+          "after": "rgb(6, 132, 102)"
+        },
+        "borderColor": {
+          "before": "rgb(0, 77, 73)",
+          "after": "rgb(6, 132, 102)"
+        },
+        "outline": {
+          "before": "rgb(0, 77, 73) none 3px",
+          "after": "rgb(6, 132, 102) none 3px"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": "button",
+      "index": 5,
+      "diffs": {
+        "color": {
+          "before": "rgb(0, 77, 73)",
+          "after": "rgb(6, 132, 102)"
+        },
+        "borderColor": {
+          "before": "rgb(0, 77, 73)",
+          "after": "rgb(6, 132, 102)"
+        },
+        "outline": {
+          "before": "rgb(0, 77, 73) none 3px",
+          "after": "rgb(6, 132, 102) none 3px"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    },
+    {
+      "selector": "button",
+      "index": 6,
+      "diffs": {
+        "color": {
+          "before": "rgb(0, 84, 80)",
+          "after": "rgb(6, 132, 102)"
+        },
+        "borderColor": {
+          "before": "rgb(0, 84, 80)",
+          "after": "rgb(6, 132, 102)"
+        },
+        "outline": {
+          "before": "rgb(0, 84, 80) none 3px",
+          "after": "rgb(6, 132, 102) none 3px"
+        }
+      },
+      "before_png": "hover-before-06.png",
+      "after_png": "hover-after-06.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "nav.navigation",
+      "diffs": {
+        "position": "absolute → fixed",
+        "boxShadow": "none → rgba(0, 0, 0, 0.16) 0px 0px 8px 0px"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 139,
+    "tabs": 20,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "a",
+      "classes": "cta-base -btn-pill--link-arrow",
+      "text": "Learn more\n            \n\n            \n                \n    \n",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "a",
+      "classes": "-btn-pill navigation__btn-pill navigation__anchor js-header-item",
+      "text": "Sign up",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "a",
+      "classes": "cta-base -btn-pill--primary",
+      "text": "Get Started\n                                \n               ",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "p",
+      "classes": "cta-base -btn-pill--link-arrow",
+      "text": "Learn more\n                            \n                    ",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "p",
+      "classes": "cta-base -btn-pill--link-arrow",
+      "text": "Learn more\n                            \n                    ",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "p",
+      "classes": "cta-base -btn-pill--link-arrow",
+      "text": "Learn more\n                            \n                    ",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "a",
+      "classes": "cta-base -btn-pill--link-arrow",
+      "text": "See all our services\n            \n\n            \n            ",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "a",
+      "classes": "cta-base -btn-pill--link",
+      "text": "See if we're in network with your insurance\n            \n\n  ",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

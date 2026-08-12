@@ -1,0 +1,27 @@
+/* design-scope final variant — tokens (from winning iteration) */
+:root {
+  color-scheme: light;
+  --bg: #FAFAF9;
+  --surface: #F5F5F4;
+  --border: #E7E5E4;
+  --text: #1C1917;
+  --text-muted: #78716C;
+  --accent: #0D9488;
+  --accent-ink: #FFFFFF;
+  --radius: 10px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #1C1917;
+  --surface: #292524;
+  --border: #44403C;
+  --text: #E7E5E4;
+  --text-muted: #A8A29E;
+  --accent: #2DD4BF;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}

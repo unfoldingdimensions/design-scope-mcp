@@ -1,0 +1,131 @@
+{
+  "url": "https://www.grammarly.com",
+  "captured": "2026-08-10T09:05:37+00:00",
+  "hover_diffs": [
+    {
+      "selector": "button",
+      "index": 1,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(255, 255, 255, 0)",
+          "after": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(255, 255, 255, 0)",
+          "after": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(255, 255, 255, 0)",
+          "after": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(255, 255, 255, 0)",
+          "after": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 241,
+    "tabs": 6,
+    "accordions": 0,
+    "carousels": 17,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "button",
+      "classes": "base_PbRSndwM paddingNone_PbRSndwM carousel_navButton__o614d carousel_prevButton",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "button",
+      "classes": "base_PbRSndwM paddingNone_PbRSndwM carousel_navButton__o614d carousel_nextButton",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "button",
+      "classes": "card_card__pUqHH",
+      "text": "Paragraph rewritesImprove clarity and flow with one click.",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "button",
+      "classes": "card_card__pUqHH",
+      "text": "Tone suggestionsAdapt your message for the context.",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "button",
+      "classes": "card_card__pUqHH",
+      "text": "ProofreadingRefine grammar, structure, clarity, and more.",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "button",
+      "classes": "card_card__pUqHH",
+      "text": "Humanizer agentGive your writing personality.",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "button",
+      "classes": "card_card__pUqHH",
+      "text": "AI Detector agentSpot AI-generated text and areas to revise.",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "button",
+      "classes": "carousel_dot__o9rZE carousel_dotActive__j3L1r",
+      "text": "",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    }
+  ]
+}

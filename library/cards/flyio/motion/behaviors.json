@@ -1,0 +1,66 @@
+{
+  "url": "https://fly.io",
+  "captured": "2026-08-10T07:15:38+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(55, 57, 83)",
+          "after": "rgb(18, 18, 38)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(225, 228, 239)",
+          "after": "rgb(204, 208, 224)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(124, 58, 237)",
+          "after": "rgb(109, 40, 217)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(124, 58, 237)",
+          "after": "rgb(109, 40, 217)"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 97,
+    "tabs": 0,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 0,
+    "scrollSnap": 6,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": []
+}

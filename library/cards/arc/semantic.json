@@ -1,0 +1,363 @@
+{
+  "url": "https://arc.net",
+  "captured": "2026-08-10T07:04:17+00:00",
+  "named_tokens": {
+    "light": {
+      "--colors-primary1": "rgb(255, 234, 231)",
+      "--colors-primary2": "rgb(255, 201, 195)",
+      "--colors-primary3": "rgb(252, 163, 159)",
+      "--colors-primary4": "rgb(252, 130, 121)",
+      "--colors-primary5": "rgb(253, 105, 88)",
+      "--colors-primary6": "rgb(250, 69, 49)",
+      "--colors-primary7": "rgb(207, 56, 40)",
+      "--colors-primary8": "rgb(162, 43, 31)",
+      "--colors-primary9": "rgb(116, 30, 21)",
+      "--colors-primary10": "rgb(71, 17, 12)",
+      "--colors-primary11": "rgb(26, 4, 2)",
+      "--colors-primary12": "rgb(9, 2, 1)",
+      "--colors-secondary1": "rgb(0, 234, 231)",
+      "--colors-secondary2": "rgb(0, 201, 195)",
+      "--colors-secondary3": "rgb(0, 163, 159)",
+      "--colors-secondary4": "rgb(0, 130, 121)",
+      "--colors-secondary5": "rgb(0, 105, 88)",
+      "--colors-secondary6": "rgb(0, 69, 49)",
+      "--colors-secondary7": "rgb(0, 56, 40)",
+      "--colors-secondary8": "rgb(0, 43, 31)",
+      "--colors-secondary9": "rgb(0, 30, 21)",
+      "--colors-secondary10": "rgb(0, 17, 12)",
+      "--colors-secondary11": "rgb(0, 4, 2)",
+      "--colors-secondary12": "rgb(0, 2, 1)",
+      "--colors-students-arc_blue": "rgb(12, 80, 255)",
+      "--colors-students-arc_blue_pale": "rgb(69, 138, 255)",
+      "--colors-students-deep_blue": "rgb(36, 4, 170)",
+      "--colors-students-arc_pinkish": "rgb(242, 94, 107)",
+      "--colors-students-off_white": "rgb(245, 244, 226)",
+      "--colors-students-dark_grey": "rgb(60, 59, 58)",
+      "--colors-students-light_grey": "rgb(225, 224, 206)",
+      "--colors-students-light_grey-hover": "rgb(215, 214, 196)",
+      "--colors-students-text_light": "rgb(151, 146, 143)",
+      "--colors-students-text_dark": "rgb(118, 110, 106)",
+      "--colors-students-dark_blue": "rgb(39, 2, 194)",
+      "--colors-students-light_blue": "rgb(205, 204, 223)",
+      "--colors-students-light_green": "rgb(211, 224, 129)",
+      "--colors-students-salmon": "rgb(242, 194, 172)",
+      "--colors-lowContrast": "#FFF",
+      "--colors-highContrast": "#000",
+      "--colors-brandDarkBlue": "#000354",
+      "--colors-brandDeepBlue": "#2404AA",
+      "--colors-brandBlue": "#3139FB",
+      "--colors-brandRed": "#FB3A4D",
+      "--colors-brandOffwhite": "#FFFCEC",
+      "--colors-focusOutline": "#96C4FF",
+      "--space-4": "4px",
+      "--space-8": "8px",
+      "--space-12": "12px",
+      "--space-16": "16px",
+      "--space-24": "24px",
+      "--space-32": "32px",
+      "--space-40": "40px",
+      "--space-48": "48px",
+      "--space-56": "56px",
+      "--space-64": "64px",
+      "--space-72": "72px",
+      "--sizes-4": "4px",
+      "--sizes-8": "8px",
+      "--sizes-12": "12px",
+      "--sizes-16": "16px",
+      "--sizes-24": "24px",
+      "--sizes-32": "32px",
+      "--sizes-40": "40px",
+      "--sizes-48": "48px",
+      "--sizes-56": "56px",
+      "--sizes-64": "64px",
+      "--sizes-72": "72px",
+      "--fontSizes-10": "10px",
+      "--fontSizes-12": "12px",
+      "--fontSizes-14": "14px",
+      "--fontSizes-16": "16px",
+      "--fontSizes-20": "20px",
+      "--fontSizes-24": "24px",
+      "--fontSizes-32": "32px",
+      "--fontSizes-36": "36px",
+      "--fontSizes-40": "40px",
+      "--fontSizes-48": "48px",
+      "--fonts-boostSans": "-apple-system, BlinkMacSystemFont, sans-serif",
+      "--fonts-boostsSoft": "Marlin Soft Basic, -apple-system, BlinkMacSystemFont, sans-serif",
+      "--fonts-referralSans": "-apple-system, BlinkMacSystemFont, sans-serif",
+      "--fonts-referralCode": "\"Inter\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+      "--fonts-sans": "Marlin, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+      "--fonts-cta": "\"Inter\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+      "--fonts-body": "\"InterVariable\", \"Inter\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+      "--fonts-mono": "ABC Favorit Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace",
+      "--fonts-softSans": "Marlin Soft SQ, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+      "--fonts-oracle": "\"ABC Oracle\", \"Helvetica\", sans-serif",
+      "--fonts-exposure": "\"Exposure VAR\", \"Helvetica\", sans-serif",
+      "--fontWeights-400": "400",
+      "--fontWeights-500": "500",
+      "--fontWeights-600": "600",
+      "--fontWeights-700": "700",
+      "--fontWeights-800": "800",
+      "--lineHeights-12": "12px",
+      "--lineHeights-16": "16px",
+      "--lineHeights-20": "20px",
+      "--lineHeights-24": "24px",
+      "--lineHeights-32": "32px",
+      "--lineHeights-40": "40px",
+      "--lineHeights-48": "48px",
+      "--lineHeights-56": "56px",
+      "--radii-2": "2px",
+      "--radii-4": "4px",
+      "--radii-8": "8px",
+      "--radii-12": "12px",
+      "--radii-16": "16px",
+      "--radii-32": "32px",
+      "--radii-round": "9999px",
+      "--shadows-small": "0 5px 10px rgba(0, 0, 0, 0.12)",
+      "--shadows-medium": "0 8px 30px rgba(0, 0, 0, 0.12)",
+      "--shadows-large": "0 30px 60px rgba(0, 0, 0, 0.12)",
+      "--padding": "32px",
+      "--page-padding-left": "max(env(safe-area-inset-left), var(--padding))",
+      "--page-padding-right": "max(env(safe-area-inset-right), var(--padding))",
+      "--max-width": "1280px",
+      "--navbar-height": "64px",
+      "--mobile-cta-height": "56px",
+      "--announcement-banner-height": "0px",
+      "--announcement-banner-height-desktop": "0px"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {
+      "--colors-students-salmon": "rgb(242, 194, 172)"
+    },
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "soft corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "soft",
+    "type_mood": [
+      "mono accents"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "overlay": 2
+  },
+  "z_index_rows": [
+    {
+      "role": "overlay",
+      "selector": ".overlay::before, .overlay::after",
+      "value": "2"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "",
+      "selector": "*, ::before, ::after",
+      "change": "box-sizing: border-box"
+    },
+    {
+      "at": "",
+      "selector": "*, ::before, ::after",
+      "change": "margin-top: 0px"
+    },
+    {
+      "at": "",
+      "selector": "*, ::before, ::after",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "",
+      "selector": "*, ::before, ::after",
+      "change": "margin-bottom: 0px"
+    },
+    {
+      "at": "",
+      "selector": "*, ::before, ::after",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "",
+      "selector": "html, body",
+      "change": "margin-top: 0px"
+    },
+    {
+      "at": "",
+      "selector": "html, body",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "",
+      "selector": "html, body",
+      "change": "margin-bottom: 0px"
+    },
+    {
+      "at": "",
+      "selector": "html, body",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "",
+      "selector": "html, body",
+      "change": "padding-top: 0px"
+    },
+    {
+      "at": "",
+      "selector": "html, body",
+      "change": "padding-right: 0px"
+    },
+    {
+      "at": "",
+      "selector": "body",
+      "change": "font-family: var(--fonts-sans)"
+    },
+    {
+      "at": "800px",
+      "selector": ".c-kLvRsT",
+      "change": "justify-content: center"
+    },
+    {
+      "at": "screen and (min-width: 30em)",
+      "selector": ".c-kXCYdJ",
+      "change": "font-size: 45.51px"
+    },
+    {
+      "at": "screen and (min-width: 30em)",
+      "selector": ".c-kXCYdJ",
+      "change": "line-height: 42.25px"
+    },
+    {
+      "at": "screen and (min-width: 30em)",
+      "selector": ".c-kXCYdJ",
+      "change": "letter-spacing: -0.04em"
+    },
+    {
+      "at": "screen and (min-width: 30em)",
+      "selector": ".c-kXCYdJ",
+      "change": "max-width: 700px"
+    },
+    {
+      "at": "750px",
+      "selector": ".c-kSpLvA",
+      "change": "display: none"
+    },
+    {
+      "at": "screen and (min-width: 60em)",
+      "selector": ".c-gmwlPo",
+      "change": "max-width: 900px"
+    },
+    {
+      "at": "screen and (min-width: 60em)",
+      "selector": ".c-iuNWYC",
+      "change": "flex-direction: row"
+    },
+    {
+      "at": "screen and (min-width: 60em)",
+      "selector": ".c-iuNWYC",
+      "change": "max-width: 800px"
+    },
+    {
+      "at": "screen and (min-width: 30em) and (max-wi",
+      "selector": ".c-cYdlNN",
+      "change": "width: 80vw"
+    },
+    {
+      "at": "screen and (min-width: 30em) and (max-wi",
+      "selector": ".c-cYdlNN",
+      "change": "max-width: 640px"
+    },
+    {
+      "at": "screen and (min-width: 30em) and (max-wi",
+      "selector": ".c-cYdlNN img",
+      "change": "height: 35vw"
+    },
+    {
+      "at": "screen and (min-width: 60em)",
+      "selector": ".c-cYdlNN",
+      "change": "width: 33%"
+    },
+    {
+      "at": "screen and (min-width: 60em)",
+      "selector": ".c-cYdlNN img",
+      "change": "height: 150px"
+    },
+    {
+      "at": "screen and (min-width: 30em) and (max-wi",
+      "selector": ".c-lMclZ",
+      "change": "background-position-x: center"
+    },
+    {
+      "at": "screen and (min-width: 30em) and (max-wi",
+      "selector": ".c-lMclZ",
+      "change": "background-position-y: center"
+    },
+    {
+      "at": "screen and (min-width: 30em) and (max-wi",
+      "selector": ".c-lMclZ",
+      "change": "height: 25vw"
+    },
+    {
+      "at": "screen and (min-width: 30em) and (max-wi",
+      "selector": ".c-jmqsMK",
+      "change": "bottom: auto"
+    },
+    {
+      "at": "screen and (min-width: 30em) and (max-wi",
+      "selector": ".c-jmqsMK",
+      "change": "top: 530px"
+    },
+    {
+      "at": "screen and (min-width: 30em) and (max-wi",
+      "selector": ".c-jmqsMK",
+      "change": "height: calc(100% - 530px)"
+    },
+    {
+      "at": "screen and (min-width: 60em)",
+      "selector": ".c-jmqsMK",
+      "change": "height: 250px"
+    },
+    {
+      "at": "800px",
+      "selector": ".c-fXeVuy",
+      "change": "font-size: 36px"
+    },
+    {
+      "at": "800px",
+      "selector": ".c-fuDrew",
+      "change": "font-size: 20px"
+    },
+    {
+      "at": "580px",
+      "selector": ".c-koCplY",
+      "change": "margin-top: 37px"
+    },
+    {
+      "at": "580px",
+      "selector": ".c-koCplY",
+      "change": "margin-right: auto"
+    },
+    {
+      "at": "580px",
+      "selector": ".c-koCplY",
+      "change": "margin-bottom: 0px"
+    },
+    {
+      "at": "580px",
+      "selector": ".c-koCplY",
+      "change": "margin-left: auto"
+    },
+    {
+      "at": "800px",
+      "selector": ".c-koCplY",
+      "change": "height: 76px"
+    }
+  ]
+}

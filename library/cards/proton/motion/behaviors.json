@@ -1,0 +1,194 @@
+{
+  "url": "https://proton.me",
+  "captured": "2026-08-10T11:58:44+00:00",
+  "hover_diffs": [
+    {
+      "selector": "button",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(55, 37, 128)",
+          "after": "rgb(109, 74, 255)"
+        },
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(109, 74, 255, 0.1)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgb(55, 37, 128)",
+          "after": "rgb(109, 74, 255)"
+        },
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(109, 74, 255, 0.1)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "color": {
+          "before": "rgb(55, 37, 128)",
+          "after": "rgb(109, 74, 255)"
+        },
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(109, 74, 255, 0.1)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "color": {
+          "before": "rgb(55, 37, 128)",
+          "after": "rgb(109, 74, 255)"
+        },
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(109, 74, 255, 0.1)"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "div.top-0",
+      "diffs": {
+        "sel": "div.top-0 → header.container",
+        "position": "sticky → static",
+        "background": "rgb(255, 255, 255) → rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "selector": "header.container",
+      "diffs": {
+        "sel": "header.container → nav."
+      }
+    },
+    {
+      "selector": "nav.",
+      "diffs": {
+        "sel": "nav. → div.pointer-events-none",
+        "position": "static → fixed",
+        "background": "rgba(0, 0, 0, 0) → rgba(55, 37, 128, 0.6)"
+      }
+    },
+    {
+      "selector": "div.pointer-events-none",
+      "diffs": {
+        "sel": "div.pointer-events-none → div.fixed",
+        "boxShadow": "none → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(74, 45, 197, 0.1) 0px 4px 8px 0px",
+        "background": "rgba(55, 37, 128, 0.6) → rgb(255, 255, 255)"
+      }
+    },
+    {
+      "selector": "div.fixed",
+      "diffs": {
+        "sel": "div.fixed → span.header-mobile-menu-toggle-icon",
+        "position": "fixed → relative",
+        "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(74, 45, 197, 0.1) 0px 4px 8px 0px → none",
+        "background": "rgb(255, 255, 255) → rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "selector": "span.header-mobile-menu-toggle-icon",
+      "diffs": {
+        "sel": "span.header-mobile-menu-toggle-icon → nav.col-span-full",
+        "position": "relative → static"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 310,
+    "tabs": 10,
+    "accordions": 0,
+    "carousels": 24,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "button",
+      "classes": "w-fit rounded-full px-4 py-2 text-start font-semibold text-sm outline-none ring-",
+      "text": "Proton Mail",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "button",
+      "classes": "w-fit rounded-full px-4 py-2 text-start font-semibold text-sm outline-none ring-",
+      "text": "Proton VPN",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "button",
+      "classes": "w-fit rounded-full px-4 py-2 text-start font-semibold text-sm outline-none ring-",
+      "text": "Proton Drive",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "button",
+      "classes": "w-fit rounded-full px-4 py-2 text-start font-semibold text-sm outline-none ring-",
+      "text": "Proton Pass",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "button",
+      "classes": "w-fit rounded-full px-4 py-2 text-start font-semibold text-sm outline-none ring-",
+      "text": "Lumo AI",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "button",
+      "classes": "w-fit rounded-full px-4 py-2 text-start font-semibold text-sm outline-none ring-",
+      "text": "Proton Calendar",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "button",
+      "classes": "w-fit rounded-full px-4 py-2 text-start font-semibold text-sm outline-none ring-",
+      "text": "Proton Meet",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "button",
+      "classes": "w-fit rounded-full px-4 py-2 text-start font-semibold text-sm outline-none ring-",
+      "text": "Proton Authenticator",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    }
+  ]
+}

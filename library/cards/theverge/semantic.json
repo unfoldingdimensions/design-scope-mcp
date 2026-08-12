@@ -1,0 +1,252 @@
+{
+  "url": "https://www.theverge.com",
+  "captured": "2026-08-10T07:07:09+00:00",
+  "named_tokens": {
+    "light": {
+      "--font-fkroman": "'__fkRomanStandard_cfceed', '__fkRomanStandard_Fallback_cfceed', Georgia, serif",
+      "--font-manuka": "'__manuka_62afb5', '__manuka_Fallback_62afb5', Impact, Helvetica, sans-serif",
+      "--font-polysans": "'__polySans_9afc27', '__polySans_Fallback_9afc27', Helvetica, Arial, sans-serif",
+      "--font-polysans-mono": "'__polySansMono_0b836e', '__polySansMono_Fallback_0b836e', Courier New, Courier, monospace"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "soft corners",
+      "elevated (soft shadows)"
+    ],
+    "flat": false,
+    "corner_style": "soft",
+    "type_mood": [
+      "serif-led",
+      "mono accents"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "modal": 2147483647,
+    "banner": 2147483645
+  },
+  "z_index_rows": [
+    {
+      "role": "modal",
+      "selector": "#onetrust-consent-sdk .ot-general-modal",
+      "value": "2147483647"
+    },
+    {
+      "role": "banner",
+      "selector": "#onetrust-banner-sdk.otFlat",
+      "value": "2147483645"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "1180px",
+      "selector": ".x96f282",
+      "change": "margin-right: var(--_1tsb0ye14j)"
+    },
+    {
+      "at": "768px",
+      "selector": ".x96f283",
+      "change": "padding-left: var(--_1tsb0ye12f)"
+    },
+    {
+      "at": "768px",
+      "selector": "._1cnxcye1",
+      "change": "min-width: 30px"
+    },
+    {
+      "at": "768px",
+      "selector": "._1cnxcye1",
+      "change": "max-width: 48px"
+    },
+    {
+      "at": "768px",
+      "selector": "._1044qiz3, ._1044qiz5",
+      "change": "margin-top: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": "._1044qiz3, ._1044qiz5",
+      "change": "margin-right: auto"
+    },
+    {
+      "at": "768px",
+      "selector": "._1044qiz3, ._1044qiz5",
+      "change": "margin-bottom: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": "._1044qiz3, ._1044qiz5",
+      "change": "margin-left: auto"
+    },
+    {
+      "at": "768px",
+      "selector": "._1044qizd",
+      "change": "margin-bottom: var(--_1tsb0ye12t)"
+    },
+    {
+      "at": "768px",
+      "selector": "._1044qize",
+      "change": "margin-bottom: var(--_1tsb0ye12v)"
+    },
+    {
+      "at": "768px",
+      "selector": "._1044qizf",
+      "change": "margin-bottom: var(--_1tsb0ye12x)"
+    },
+    {
+      "at": "768px",
+      "selector": "._1044qizg",
+      "change": "margin-bottom: var(--_1tsb0ye12z)"
+    },
+    {
+      "at": "768px",
+      "selector": "._1044qizh",
+      "change": "margin-bottom: var(--_1tsb0ye131)"
+    },
+    {
+      "at": "768px",
+      "selector": "._1044qizk, ._1044qizl",
+      "change": "margin-top: 6px"
+    },
+    {
+      "at": "768px",
+      "selector": "._1044qizk, ._1044qizl",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": "._1044qizk, ._1044qizl",
+      "change": "margin-bottom: 20px"
+    },
+    {
+      "at": "1180px",
+      "selector": "._1044qiz3",
+      "change": "max-width: 1100px"
+    },
+    {
+      "at": "1180px",
+      "selector": "._1044qizp",
+      "change": "display: none"
+    },
+    {
+      "at": "1180px",
+      "selector": "._1044qiz16",
+      "change": "margin-top: var(--_1tsb0ye13s)"
+    },
+    {
+      "at": "1180px",
+      "selector": "._1044qiz17",
+      "change": "margin-top: var(--_1tsb0ye13t)"
+    },
+    {
+      "at": "1300px",
+      "selector": "._1044qiz4",
+      "change": "max-width: 1100px"
+    },
+    {
+      "at": "1300px",
+      "selector": "._1044qiz4",
+      "change": "margin-top: 0px"
+    },
+    {
+      "at": "1300px",
+      "selector": "._1044qiz4",
+      "change": "margin-right: auto"
+    },
+    {
+      "at": "1300px",
+      "selector": "._1044qiz4",
+      "change": "margin-bottom: 0px"
+    },
+    {
+      "at": "1300px",
+      "selector": "._1044qiz4",
+      "change": "margin-left: auto"
+    },
+    {
+      "at": "901px",
+      "selector": "._1044qiz6, ._1044qiz7",
+      "change": "padding-top: var(--_1tsb0ye16y)"
+    },
+    {
+      "at": "901px",
+      "selector": "._1044qiz9",
+      "change": "padding-top: calc(var(--_1tsb0ye16y) + 40px)"
+    },
+    {
+      "at": "901px",
+      "selector": "._1044qiz8",
+      "change": "padding-top: calc(var(--_1tsb0ye16x) + 28px)"
+    },
+    {
+      "at": "1179px",
+      "selector": "._1044qizq",
+      "change": "display: none"
+    },
+    {
+      "at": "768px",
+      "selector": "._1xtd7xbc",
+      "change": "width: 100%"
+    },
+    {
+      "at": "768px",
+      "selector": "._1xtd7xbc",
+      "change": "margin-top: 30px"
+    },
+    {
+      "at": "768px",
+      "selector": "._1xtd7xbc",
+      "change": "margin-right: auto"
+    },
+    {
+      "at": "768px",
+      "selector": "._1xtd7xbc",
+      "change": "margin-bottom: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": "._1xtd7xbc",
+      "change": "margin-left: auto"
+    },
+    {
+      "at": "768px",
+      "selector": "._1xtd7xbc",
+      "change": "max-width: 700px"
+    },
+    {
+      "at": "1180px",
+      "selector": "._1xtd7xbc",
+      "change": "margin-top: 30px"
+    },
+    {
+      "at": "1180px",
+      "selector": "._1xtd7xbc",
+      "change": "margin-right: auto"
+    },
+    {
+      "at": "1180px",
+      "selector": "._1xtd7xbc",
+      "change": "margin-bottom: 0px"
+    },
+    {
+      "at": "1180px",
+      "selector": "._1xtd7xbc",
+      "change": "margin-left: auto"
+    },
+    {
+      "at": "1180px",
+      "selector": "._1xtd7xbc",
+      "change": "max-width: 1100px"
+    }
+  ]
+}

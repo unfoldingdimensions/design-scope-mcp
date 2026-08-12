@@ -1,0 +1,111 @@
+{
+  "url": "https://www.cloudflare.com",
+  "captured": "2026-08-10T06:35:31+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "opacity": {
+          "before": "1",
+          "after": "0.8"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "oklab(0.268617 0.000012286 0.00000536442 / 0.4)",
+          "after": "oklab(0.268617 0.000012286 0.00000536442 / 0.7)"
+        },
+        "opacity": {
+          "before": "0",
+          "after": "1"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 107,
+    "tabs": 12,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 232,
+    "scrollSnap": 8,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "button",
+      "classes": "relative z-10 flex h-10 cursor-pointer items-center gap-2 rounded-full px-3.5 py",
+      "text": "Network & CDN",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "button",
+      "classes": "relative z-10 flex h-10 cursor-pointer items-center gap-2 rounded-full px-3.5 py",
+      "text": "SASE / Zero Trust",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "button",
+      "classes": "relative z-10 flex h-10 cursor-pointer items-center gap-2 rounded-full px-3.5 py",
+      "text": "Compute & Storage",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "button",
+      "classes": "shrink-0 snap-start text-sm transition-colors font-medium rounded-sm focus:outli",
+      "text": "Workers",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "button",
+      "classes": "shrink-0 snap-start text-sm transition-colors font-medium rounded-sm focus:outli",
+      "text": "Durable Objects",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "button",
+      "classes": "shrink-0 snap-start text-sm transition-colors font-medium rounded-sm focus:outli",
+      "text": "Workers KV",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "button",
+      "classes": "shrink-0 snap-start text-sm transition-colors font-medium rounded-sm focus:outli",
+      "text": "Workers",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "button",
+      "classes": "shrink-0 snap-start text-sm transition-colors font-medium rounded-sm focus:outli",
+      "text": "Durable Objects",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    }
+  ]
+}

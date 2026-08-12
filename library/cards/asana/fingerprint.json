@@ -1,0 +1,2310 @@
+{
+  "url": "https://asana.com/",
+  "extractedAt": "2026-08-09T11:54:37.284Z",
+  "meta": {
+    "snapshotId": "ed91a32c-e9b9-4791-925e-13ad2dbdb3c2",
+    "httpStatus": 200,
+    "dembrandtVersion": "0.27.1",
+    "schemaVersion": "1.5.0",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "fontsReady": true,
+    "flags": {
+      "mobile": true
+    }
+  },
+  "siteName": "Asana",
+  "logo": {
+    "source": "svg",
+    "context": "header",
+    "inline": true,
+    "url": "https://asana.com/",
+    "color": "#0d0e10",
+    "ariaLabel": null,
+    "markup": "<svg width=\"112\" height=\"22\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"asana-logo-title\" style=\"color: rgb(13, 14, 16);\"><title id=\"asana-logo-title\">Asana Home</title><path class=\"styles_logo-link__text__alt1B\" d=\"M108.202 16.703c.067.765.679 1.739 1.74 1.739h.62a.44.44 0 0 0 .438-.438V4.359h-.003a.437.437 0 0 0-.435-.414h-1.922a.437.437 0 0 0-.435.414h-.003v1.109c-1.178-1.452-3.035-2.055-4.897-2.055a7.667 7.667 0 0 0-7.665 7.67 7.668 7.668 0 0 0 7.665 7.672c1.862 0 3.892-.723 4.897-2.054v.002Zm-4.89-.633c-2.692 0-4.874-2.232-4.874-4.986 0-2.754 2.182-4.986 4.874-4.986 2.693 0 4.875 2.232 4.875 4.986 0 2.754-2.182 4.986-4.875 4.986ZM93.21 17.172v-7.06c0-3.981-2.51-6.666-6.51-6.666-1.91 0-3.476 1.105-4.029 2.055-.12-.743-.513-1.523-1.735-1.523h-.622a.439.439 0 0 0-.438.438v13.646h.003c.012.23.203.414.435.414h1.923c.029 0 .058-.004.086-.009.013-.002.024-.008.037-.011l.043-.013c.017-.008.032-.017.048-.026l.024-.013a.44.44 0 0 0 .053-.043l.01-.007a.434.434 0 0 0 .134-.292h.002v-8.06a3.87 3.87 0 0 1 3.868-3.871 3.87 3.87 0 0 1 3.868 3.87l.001 6.738v-.002l.002.018v1.307h.002c.013.23.203.414.435.414h1.923a.45.45 0 0 0 .086-.009c.011-.002.022-.007.033-.01.016-.004.032-.008.047-.014.016-.007.03-.016.045-.024l.027-.015a.49.49 0 0 0 .05-.04l.013-.01a.452.452 0 0 0 .049-.057l.003-.004a.434.434 0 0 0 .082-.23h.003v-.891ZM73.188 16.703c.067.765.68 1.739 1.74 1.739h.62c.24 0 .437-.197.437-.438V4.359h-.002a.438.438 0 0 0-.435-.414h-1.923a.438.438 0 0 0-.435.414h-.002v1.109c-1.178-1.452-3.035-2.055-4.898-2.055a7.667 7.667 0 0 0-7.664 7.67c0 4.237 3.431 7.672 7.664 7.672 1.863 0 3.892-.723 4.898-2.054v.002Zm-4.89-.633c-2.692 0-4.875-2.232-4.875-4.986 0-2.754 2.183-4.986 4.875-4.986s4.874 2.232 4.874 4.986c0 2.754-2.182 4.986-4.874 4.986ZM49.257 14.748c1.283.89 2.684 1.322 4.03 1.322 1.283 0 2.609-.665 2.609-1.823 0-1.546-2.89-1.787-4.705-2.405-1.815-.617-3.379-1.893-3.379-3.96 0-3.163 2.816-4.47 5.444-4.47 1.665 0 3.383.55 4.497 1.338.384.29.15.625.15.625l-1.063 1.52c-.12.17-.328.318-.628.133s-1.352-.93-2.956-.93c-1.603 0-2.57.74-2.57 1.66 0 1.1 1.256 1.447 2.727 1.823 2.562.691 5.357 1.522 5.357 4.666 0 2.786-2.604 4.508-5.483 4.508-2.181 0-4.038-.622-5.596-1.766-.324-.325-.098-.627-.098-.627l1.058-1.512c.216-.282.487-.184.606-.102ZM41.866 16.703c.068.765.68 1.739 1.74 1.739h.62a.44.44 0 0 0 .438-.438V4.359h-.003a.437.437 0 0 0-.435-.414h-1.922a.438.438 0 0 0-.435.414h-.003v1.109c-1.178-1.452-3.035-2.055-4.897-2.055a7.668 7.668 0 0 0-7.665 7.67c0 4.237 3.432 7.672 7.665 7.672 1.862 0 3.892-.723 4.897-2.054v.002Zm-4.89-.633c-2.692 0-4.874-2.232-4.874-4.986 0-2.754 2.182-4.986 4.875-4.986 2.692 0 4.874 2.232 4.874 4.986 0 2.754-2.182 4.986-4.874 4.986Z\" fill=\"#0D0E10\"></path><path class=\"styles_logo-link__asana-icon__2XPvA\" d=\"M18.559 11.605a5.158 5.158 0 1 0 0 10.317 5.158 5.158 0 0 0 0-10.317Zm-13.401.001a5.158 5.158 0 1 0 0 10.315 5.158 5.158 0 0 0 0-10.315Zm11.858-6.448a5.158 5.158 0 1 1-10.316 0 5.158 5.158 0 0 1 10.316 0Z\" fill=\"#F06A6A\"></path></svg>",
+    "dataUri": "data:image/svg+xml;utf8,%3Csvg%20width%3D%22112%22%20height%3D%2222%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20aria-labelledby%3D%22asana-logo-title%22%20style%3D%22color%3A%20rgb(13%2C%2014%2C%2016)%3B%22%3E%3Ctitle%20id%3D%22asana-logo-title%22%3EAsana%20Home%3C%2Ftitle%3E%3Cpath%20class%3D%22styles_logo-link__text__alt1B%22%20d%3D%22M108.202%2016.703c.067.765.679%201.739%201.74%201.739h.62a.44.44%200%200%200%20.438-.438V4.359h-.003a.437.437%200%200%200-.435-.414h-1.922a.437.437%200%200%200-.435.414h-.003v1.109c-1.178-1.452-3.035-2.055-4.897-2.055a7.667%207.667%200%200%200-7.665%207.67%207.668%207.668%200%200%200%207.665%207.672c1.862%200%203.892-.723%204.897-2.054v.002Zm-4.89-.633c-2.692%200-4.874-2.232-4.874-4.986%200-2.754%202.182-4.986%204.874-4.986%202.693%200%204.875%202.232%204.875%204.986%200%202.754-2.182%204.986-4.875%204.986ZM93.21%2017.172v-7.06c0-3.981-2.51-6.666-6.51-6.666-1.91%200-3.476%201.105-4.029%202.055-.12-.743-.513-1.523-1.735-1.523h-.622a.439.439%200%200%200-.438.438v13.646h.003c.012.23.203.414.435.414h1.923c.029%200%20.058-.004.086-.009.013-.002.024-.008.037-.011l.043-.013c.017-.008.032-.017.048-.026l.024-.013a.44.44%200%200%200%20.053-.043l.01-.007a.434.434%200%200%200%20.134-.292h.002v-8.06a3.87%203.87%200%200%201%203.868-3.871%203.87%203.87%200%200%201%203.868%203.87l.001%206.738v-.002l.002.018v1.307h.002c.013.23.203.414.435.414h1.923a.45.45%200%200%200%20.086-.009c.011-.002.022-.007.033-.01.016-.004.032-.008.047-.014.016-.007.03-.016.045-.024l.027-.015a.49.49%200%200%200%20.05-.04l.013-.01a.452.452%200%200%200%20.049-.057l.003-.004a.434.434%200%200%200%20.082-.23h.003v-.891ZM73.188%2016.703c.067.765.68%201.739%201.74%201.739h.62c.24%200%20.437-.197.437-.438V4.359h-.002a.438.438%200%200%200-.435-.414h-1.923a.438.438%200%200%200-.435.414h-.002v1.109c-1.178-1.452-3.035-2.055-4.898-2.055a7.667%207.667%200%200%200-7.664%207.67c0%204.237%203.431%207.672%207.664%207.672%201.863%200%203.892-.723%204.898-2.054v.002Zm-4.89-.633c-2.692%200-4.875-2.232-4.875-4.986%200-2.754%202.183-4.986%204.875-4.986s4.874%202.232%204.874%204.986c0%202.754-2.182%204.986-4.874%204.986ZM49.257%2014.748c1.283.89%202.684%201.322%204.03%201.322%201.283%200%202.609-.665%202.609-1.823%200-1.546-2.89-1.787-4.705-2.405-1.815-.617-3.379-1.893-3.379-3.96%200-3.163%202.816-4.47%205.444-4.47%201.665%200%203.383.55%204.497%201.338.384.29.15.625.15.625l-1.063%201.52c-.12.17-.328.318-.628.133s-1.352-.93-2.956-.93c-1.603%200-2.57.74-2.57%201.66%200%201.1%201.256%201.447%202.727%201.823%202.562.691%205.357%201.522%205.357%204.666%200%202.786-2.604%204.508-5.483%204.508-2.181%200-4.038-.622-5.596-1.766-.324-.325-.098-.627-.098-.627l1.058-1.512c.216-.282.487-.184.606-.102ZM41.866%2016.703c.068.765.68%201.739%201.74%201.739h.62a.44.44%200%200%200%20.438-.438V4.359h-.003a.437.437%200%200%200-.435-.414h-1.922a.438.438%200%200%200-.435.414h-.003v1.109c-1.178-1.452-3.035-2.055-4.897-2.055a7.668%207.668%200%200%200-7.665%207.67c0%204.237%203.432%207.672%207.665%207.672%201.862%200%203.892-.723%204.897-2.054v.002Zm-4.89-.633c-2.692%200-4.874-2.232-4.874-4.986%200-2.754%202.182-4.986%204.875-4.986%202.692%200%204.874%202.232%204.874%204.986%200%202.754-2.182%204.986-4.874%204.986Z%22%20fill%3D%22%230D0E10%22%3E%3C%2Fpath%3E%3Cpath%20class%3D%22styles_logo-link__asana-icon__2XPvA%22%20d%3D%22M18.559%2011.605a5.158%205.158%200%201%200%200%2010.317%205.158%205.158%200%200%200%200-10.317Zm-13.401.001a5.158%205.158%200%201%200%200%2010.315%205.158%205.158%200%200%200%200-10.315Zm11.858-6.448a5.158%205.158%200%201%201-10.316%200%205.158%205.158%200%200%201%2010.316%200Z%22%20fill%3D%22%23F06A6A%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E",
+    "svgColors": [
+      "#0d0e10",
+      "#f06a6a"
+    ],
+    "width": 112,
+    "height": 22,
+    "rect": {
+      "x": 124,
+      "y": 23,
+      "width": 112,
+      "height": 22
+    },
+    "natural": {
+      "width": null,
+      "height": null
+    },
+    "type": "wordmark",
+    "reversed": false,
+    "background": "#ffffff",
+    "safeZone": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "position": {
+      "top": 23,
+      "left": 124
+    }
+  },
+  "logoInstances": [
+    {
+      "source": "svg",
+      "context": "header",
+      "inline": true,
+      "url": "https://asana.com/",
+      "color": "#0d0e10",
+      "ariaLabel": null,
+      "markup": "<svg width=\"112\" height=\"22\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"asana-logo-title\" style=\"color: rgb(13, 14, 16);\"><title id=\"asana-logo-title\">Asana Home</title><path class=\"styles_logo-link__text__alt1B\" d=\"M108.202 16.703c.067.765.679 1.739 1.74 1.739h.62a.44.44 0 0 0 .438-.438V4.359h-.003a.437.437 0 0 0-.435-.414h-1.922a.437.437 0 0 0-.435.414h-.003v1.109c-1.178-1.452-3.035-2.055-4.897-2.055a7.667 7.667 0 0 0-7.665 7.67 7.668 7.668 0 0 0 7.665 7.672c1.862 0 3.892-.723 4.897-2.054v.002Zm-4.89-.633c-2.692 0-4.874-2.232-4.874-4.986 0-2.754 2.182-4.986 4.874-4.986 2.693 0 4.875 2.232 4.875 4.986 0 2.754-2.182 4.986-4.875 4.986ZM93.21 17.172v-7.06c0-3.981-2.51-6.666-6.51-6.666-1.91 0-3.476 1.105-4.029 2.055-.12-.743-.513-1.523-1.735-1.523h-.622a.439.439 0 0 0-.438.438v13.646h.003c.012.23.203.414.435.414h1.923c.029 0 .058-.004.086-.009.013-.002.024-.008.037-.011l.043-.013c.017-.008.032-.017.048-.026l.024-.013a.44.44 0 0 0 .053-.043l.01-.007a.434.434 0 0 0 .134-.292h.002v-8.06a3.87 3.87 0 0 1 3.868-3.871 3.87 3.87 0 0 1 3.868 3.87l.001 6.738v-.002l.002.018v1.307h.002c.013.23.203.414.435.414h1.923a.45.45 0 0 0 .086-.009c.011-.002.022-.007.033-.01.016-.004.032-.008.047-.014.016-.007.03-.016.045-.024l.027-.015a.49.49 0 0 0 .05-.04l.013-.01a.452.452 0 0 0 .049-.057l.003-.004a.434.434 0 0 0 .082-.23h.003v-.891ZM73.188 16.703c.067.765.68 1.739 1.74 1.739h.62c.24 0 .437-.197.437-.438V4.359h-.002a.438.438 0 0 0-.435-.414h-1.923a.438.438 0 0 0-.435.414h-.002v1.109c-1.178-1.452-3.035-2.055-4.898-2.055a7.667 7.667 0 0 0-7.664 7.67c0 4.237 3.431 7.672 7.664 7.672 1.863 0 3.892-.723 4.898-2.054v.002Zm-4.89-.633c-2.692 0-4.875-2.232-4.875-4.986 0-2.754 2.183-4.986 4.875-4.986s4.874 2.232 4.874 4.986c0 2.754-2.182 4.986-4.874 4.986ZM49.257 14.748c1.283.89 2.684 1.322 4.03 1.322 1.283 0 2.609-.665 2.609-1.823 0-1.546-2.89-1.787-4.705-2.405-1.815-.617-3.379-1.893-3.379-3.96 0-3.163 2.816-4.47 5.444-4.47 1.665 0 3.383.55 4.497 1.338.384.29.15.625.15.625l-1.063 1.52c-.12.17-.328.318-.628.133s-1.352-.93-2.956-.93c-1.603 0-2.57.74-2.57 1.66 0 1.1 1.256 1.447 2.727 1.823 2.562.691 5.357 1.522 5.357 4.666 0 2.786-2.604 4.508-5.483 4.508-2.181 0-4.038-.622-5.596-1.766-.324-.325-.098-.627-.098-.627l1.058-1.512c.216-.282.487-.184.606-.102ZM41.866 16.703c.068.765.68 1.739 1.74 1.739h.62a.44.44 0 0 0 .438-.438V4.359h-.003a.437.437 0 0 0-.435-.414h-1.922a.438.438 0 0 0-.435.414h-.003v1.109c-1.178-1.452-3.035-2.055-4.897-2.055a7.668 7.668 0 0 0-7.665 7.67c0 4.237 3.432 7.672 7.665 7.672 1.862 0 3.892-.723 4.897-2.054v.002Zm-4.89-.633c-2.692 0-4.874-2.232-4.874-4.986 0-2.754 2.182-4.986 4.875-4.986 2.692 0 4.874 2.232 4.874 4.986 0 2.754-2.182 4.986-4.874 4.986Z\" fill=\"#0D0E10\"></path><path class=\"styles_logo-link__asana-icon__2XPvA\" d=\"M18.559 11.605a5.158 5.158 0 1 0 0 10.317 5.158 5.158 0 0 0 0-10.317Zm-13.401.001a5.158 5.158 0 1 0 0 10.315 5.158 5.158 0 0 0 0-10.315Zm11.858-6.448a5.158 5.158 0 1 1-10.316 0 5.158 5.158 0 0 1 10.316 0Z\" fill=\"#F06A6A\"></path></svg>",
+      "dataUri": "data:image/svg+xml;utf8,%3Csvg%20width%3D%22112%22%20height%3D%2222%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20aria-labelledby%3D%22asana-logo-title%22%20style%3D%22color%3A%20rgb(13%2C%2014%2C%2016)%3B%22%3E%3Ctitle%20id%3D%22asana-logo-title%22%3EAsana%20Home%3C%2Ftitle%3E%3Cpath%20class%3D%22styles_logo-link__text__alt1B%22%20d%3D%22M108.202%2016.703c.067.765.679%201.739%201.74%201.739h.62a.44.44%200%200%200%20.438-.438V4.359h-.003a.437.437%200%200%200-.435-.414h-1.922a.437.437%200%200%200-.435.414h-.003v1.109c-1.178-1.452-3.035-2.055-4.897-2.055a7.667%207.667%200%200%200-7.665%207.67%207.668%207.668%200%200%200%207.665%207.672c1.862%200%203.892-.723%204.897-2.054v.002Zm-4.89-.633c-2.692%200-4.874-2.232-4.874-4.986%200-2.754%202.182-4.986%204.874-4.986%202.693%200%204.875%202.232%204.875%204.986%200%202.754-2.182%204.986-4.875%204.986ZM93.21%2017.172v-7.06c0-3.981-2.51-6.666-6.51-6.666-1.91%200-3.476%201.105-4.029%202.055-.12-.743-.513-1.523-1.735-1.523h-.622a.439.439%200%200%200-.438.438v13.646h.003c.012.23.203.414.435.414h1.923c.029%200%20.058-.004.086-.009.013-.002.024-.008.037-.011l.043-.013c.017-.008.032-.017.048-.026l.024-.013a.44.44%200%200%200%20.053-.043l.01-.007a.434.434%200%200%200%20.134-.292h.002v-8.06a3.87%203.87%200%200%201%203.868-3.871%203.87%203.87%200%200%201%203.868%203.87l.001%206.738v-.002l.002.018v1.307h.002c.013.23.203.414.435.414h1.923a.45.45%200%200%200%20.086-.009c.011-.002.022-.007.033-.01.016-.004.032-.008.047-.014.016-.007.03-.016.045-.024l.027-.015a.49.49%200%200%200%20.05-.04l.013-.01a.452.452%200%200%200%20.049-.057l.003-.004a.434.434%200%200%200%20.082-.23h.003v-.891ZM73.188%2016.703c.067.765.68%201.739%201.74%201.739h.62c.24%200%20.437-.197.437-.438V4.359h-.002a.438.438%200%200%200-.435-.414h-1.923a.438.438%200%200%200-.435.414h-.002v1.109c-1.178-1.452-3.035-2.055-4.898-2.055a7.667%207.667%200%200%200-7.664%207.67c0%204.237%203.431%207.672%207.664%207.672%201.863%200%203.892-.723%204.898-2.054v.002Zm-4.89-.633c-2.692%200-4.875-2.232-4.875-4.986%200-2.754%202.183-4.986%204.875-4.986s4.874%202.232%204.874%204.986c0%202.754-2.182%204.986-4.874%204.986ZM49.257%2014.748c1.283.89%202.684%201.322%204.03%201.322%201.283%200%202.609-.665%202.609-1.823%200-1.546-2.89-1.787-4.705-2.405-1.815-.617-3.379-1.893-3.379-3.96%200-3.163%202.816-4.47%205.444-4.47%201.665%200%203.383.55%204.497%201.338.384.29.15.625.15.625l-1.063%201.52c-.12.17-.328.318-.628.133s-1.352-.93-2.956-.93c-1.603%200-2.57.74-2.57%201.66%200%201.1%201.256%201.447%202.727%201.823%202.562.691%205.357%201.522%205.357%204.666%200%202.786-2.604%204.508-5.483%204.508-2.181%200-4.038-.622-5.596-1.766-.324-.325-.098-.627-.098-.627l1.058-1.512c.216-.282.487-.184.606-.102ZM41.866%2016.703c.068.765.68%201.739%201.74%201.739h.62a.44.44%200%200%200%20.438-.438V4.359h-.003a.437.437%200%200%200-.435-.414h-1.922a.438.438%200%200%200-.435.414h-.003v1.109c-1.178-1.452-3.035-2.055-4.897-2.055a7.668%207.668%200%200%200-7.665%207.67c0%204.237%203.432%207.672%207.665%207.672%201.862%200%203.892-.723%204.897-2.054v.002Zm-4.89-.633c-2.692%200-4.874-2.232-4.874-4.986%200-2.754%202.182-4.986%204.875-4.986%202.692%200%204.874%202.232%204.874%204.986%200%202.754-2.182%204.986-4.874%204.986Z%22%20fill%3D%22%230D0E10%22%3E%3C%2Fpath%3E%3Cpath%20class%3D%22styles_logo-link__asana-icon__2XPvA%22%20d%3D%22M18.559%2011.605a5.158%205.158%200%201%200%200%2010.317%205.158%205.158%200%200%200%200-10.317Zm-13.401.001a5.158%205.158%200%201%200%200%2010.315%205.158%205.158%200%200%200%200-10.315Zm11.858-6.448a5.158%205.158%200%201%201-10.316%200%205.158%205.158%200%200%201%2010.316%200Z%22%20fill%3D%22%23F06A6A%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E",
+      "svgColors": [
+        "#0d0e10",
+        "#f06a6a"
+      ],
+      "width": 112,
+      "height": 22,
+      "rect": {
+        "x": 124,
+        "y": 23,
+        "width": 112,
+        "height": 22
+      },
+      "natural": {
+        "width": null,
+        "height": null
+      },
+      "type": "wordmark",
+      "reversed": false,
+      "background": "#ffffff",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 23,
+        "left": 124
+      }
+    }
+  ],
+  "favicons": [
+    {
+      "type": "apple-touch-icon",
+      "url": "https://brand.asana.biz/image/upload/f_auto:image,fl_preserve_transparency/v1696462482/asana_favicon_57x57.png",
+      "sizes": "57x57"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://brand.asana.biz/image/upload/f_auto:image,fl_preserve_transparency/v1696462482/asana_favicon_60x60.png",
+      "sizes": "60x60"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://brand.asana.biz/image/upload/f_auto:image,fl_preserve_transparency/v1696462482/asana_favicon_72x72.png",
+      "sizes": "72x72"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://brand.asana.biz/image/upload/f_auto:image,fl_preserve_transparency/v1696462482/asana_favicon_76x76.png",
+      "sizes": "76x76"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://brand.asana.biz/image/upload/f_auto:image,fl_preserve_transparency/v1696462482/asana_favicon_114x114.png",
+      "sizes": "114x114"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://brand.asana.biz/image/upload/f_auto:image,fl_preserve_transparency/v1696462483/asana_favicon_120x120.png",
+      "sizes": "120x120"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://brand.asana.biz/image/upload/f_auto:image,fl_preserve_transparency/v1696462483/asana_favicon_144x144.png",
+      "sizes": "144x144"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://brand.asana.biz/image/upload/f_auto:image,fl_preserve_transparency/v1696462483/asana_favicon_152x152.png",
+      "sizes": "152x152"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://brand.asana.biz/image/upload/f_auto:image,fl_preserve_transparency/v1696462483/asana_favicon_180x180.png",
+      "sizes": "180x180"
+    },
+    {
+      "type": "favicon",
+      "url": "https://brand.asana.biz/image/upload/f_auto:image,fl_preserve_transparency/v1696462484/asana_favicon_16x16.png",
+      "sizes": "16x16"
+    },
+    {
+      "type": "favicon",
+      "url": "https://brand.asana.biz/image/upload/f_auto:image,fl_preserve_transparency/v1683659104/asana_symbol_32x32.png",
+      "sizes": "32x32"
+    },
+    {
+      "type": "favicon",
+      "url": "https://brand.asana.biz/image/upload/f_auto:image,fl_preserve_transparency/v1696462484/asana_symbol_96x96.png",
+      "sizes": "96x96"
+    },
+    {
+      "type": "favicon",
+      "url": "https://brand.asana.biz/image/upload/f_auto:image,fl_preserve_transparency/v1696462484/asana_favicon_192x192.png",
+      "sizes": "192x192"
+    },
+    {
+      "type": "favicon",
+      "url": "https://brand.asana.biz/image/upload/f_auto:image,fl_preserve_transparency/v1696462484/asana_favicon_194x194.png",
+      "sizes": "194x194"
+    },
+    {
+      "type": "shortcut icon",
+      "url": "https://asana.com/assets/img/brand/asana-logo-favicon.ico",
+      "sizes": null
+    },
+    {
+      "type": "og:image",
+      "url": "https://assets.asana.biz/m/4aecf2c7c66aa51b/original/asana-meta-coral-1x.png",
+      "sizes": null
+    },
+    {
+      "type": "twitter:image",
+      "url": "https://assets.asana.biz/m/4aecf2c7c66aa51b/original/asana-meta-coral-1x.png",
+      "sizes": null
+    }
+  ],
+  "manifest": {
+    "themeColor": "#2e3c54"
+  },
+  "colors": {
+    "semantic": {
+      "secondary": "rgb(13, 13, 13)",
+      "background": "rgb(255, 255, 255)",
+      "text": "rgb(100, 111, 121)",
+      "primary": "rgb(255, 212, 255)"
+    },
+    "palette": [
+      {
+        "color": "rgb(13, 13, 13)",
+        "normalized": "#0d0d0d",
+        "count": 742,
+        "confidence": "high",
+        "sources": [
+          "[object",
+          "css-wi2og3-link-2",
+          "css-1tkoqw5-link-2"
+        ],
+        "lch": "lch(3.64% 0 53.34)",
+        "oklch": "oklch(15.91% 0 89.88)",
+        "role": "surface",
+        "onColor": "#ffffff",
+        "hover": "#101010"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 661,
+        "confidence": "high",
+        "sources": [
+          "css-19tpd7h",
+          "css-8y0evn-p2",
+          "css-6lxnn6-link-3-link-2-link-"
+        ],
+        "lch": "lch(100% 0.03 53.35)",
+        "oklch": "oklch(100% 0 89.88)",
+        "role": "surface",
+        "onColor": "#000000",
+        "hover": "#d9d9d9"
+      },
+      {
+        "color": "rgb(110, 110, 110)",
+        "normalized": "#6e6e6e",
+        "count": 145,
+        "confidence": "high",
+        "sources": [
+          "css-6lxnn6-link-3-link-2-link-"
+        ],
+        "lch": "lch(46.44% 0.02 53.35)",
+        "oklch": "oklch(53.82% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#ffffff",
+        "hover": "#848484"
+      },
+      {
+        "color": "rgb(61, 61, 61)",
+        "normalized": "#3d3d3d",
+        "count": 33,
+        "confidence": "high",
+        "sources": [
+          "css-1eov2rs-link-1-link-2-link"
+        ],
+        "lch": "lch(25.76% 0.01 53.35)",
+        "oklch": "oklch(36% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#ffffff",
+        "hover": "#494949"
+      },
+      {
+        "color": "rgb(156, 166, 175)",
+        "normalized": "#9ca6af",
+        "count": 5,
+        "confidence": "high",
+        "sources": [
+          "css-d7qz4q",
+          "[object"
+        ],
+        "lch": "lch(67.53% 6.35 249)",
+        "oklch": "oklch(72% 0.017 245.17)",
+        "role": "neutral",
+        "onColor": "#000000",
+        "hover": "#858d95"
+      },
+      {
+        "color": "rgb(255, 212, 255)",
+        "normalized": "#ffd4ff",
+        "count": 1,
+        "confidence": "high",
+        "sources": [
+          "css-1eov2rs-link-1-link-2-link"
+        ],
+        "lch": "lch(89.63% 25.76 324.02)",
+        "oklch": "oklch(91.94% 0.074 326.16)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#d9b4d9",
+        "variantOf": "primary"
+      },
+      {
+        "color": "#2e3c54",
+        "normalized": "#2e3c54",
+        "count": 10,
+        "confidence": "high",
+        "sources": [
+          "manifest:theme_color"
+        ]
+      },
+      {
+        "color": "#0d0e10",
+        "normalized": "#0d0e10",
+        "count": 10,
+        "confidence": "high",
+        "sources": [
+          "logo"
+        ],
+        "lch": "lch(3.94% 1.11 267.08)",
+        "oklch": "oklch(16.35% 0.005 264.44)"
+      },
+      {
+        "color": "#f06a6a",
+        "normalized": "#f06a6a",
+        "count": 10,
+        "confidence": "high",
+        "sources": [
+          "logo"
+        ],
+        "lch": "lch(62.17% 59.21 27.16)",
+        "oklch": "oklch(68.84% 0.166 22.43)"
+      },
+      {
+        "color": "rgb(16, 16, 16)",
+        "normalized": "#101010",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      }
+    ],
+    "cssVariables": {},
+    "detected": [
+      {
+        "color": "rgb(13, 13, 13)",
+        "normalized": "#0d0d0d",
+        "count": 742,
+        "usageFrac": 0.32919254658385094,
+        "confidence": "high",
+        "sources": [
+          "[object",
+          "css-wi2og3-link-2",
+          "css-1tkoqw5-link-2",
+          "css-8y0evn-p2",
+          "css-6lxnn6-link-3-link-2-link-"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 661,
+        "usageFrac": 0.2932564330079858,
+        "confidence": "high",
+        "sources": [
+          "css-19tpd7h",
+          "css-8y0evn-p2",
+          "css-6lxnn6-link-3-link-2-link-",
+          "css-lfkiut",
+          "css-d7qz4q"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(243, 243, 243)",
+        "normalized": "#f3f3f3",
+        "count": 249,
+        "usageFrac": 0.11047027506654836,
+        "confidence": "high",
+        "sources": [
+          "css-d7qz4q",
+          "-white",
+          "i18n-modal",
+          "i18n-globe",
+          "[object"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(100, 111, 121)",
+        "normalized": "#646f79",
+        "count": 242,
+        "usageFrac": 0.10736468500443656,
+        "confidence": "high",
+        "sources": [
+          "css-19tpd7h",
+          "css-19ncu0v-link-2",
+          "css-134wb84",
+          "css-1g6rru7",
+          "css-1iwfo8v"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(110, 110, 110)",
+        "normalized": "#6e6e6e",
+        "count": 145,
+        "usageFrac": 0.06433007985803017,
+        "confidence": "high",
+        "sources": [
+          "css-6lxnn6-link-3-link-2-link-"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(13, 14, 16)",
+        "normalized": "#0d0e10",
+        "count": 86,
+        "usageFrac": 0.038154392191659274,
+        "confidence": "high",
+        "sources": [
+          "[object",
+          "css-dmmy3s",
+          "css-1kdapvb",
+          "css-1pf1mn9",
+          "sr-only"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(231, 231, 231)",
+        "normalized": "#e7e7e7",
+        "count": 64,
+        "usageFrac": 0.02839396628216504,
+        "confidence": "high",
+        "sources": [],
+        "isToken": true
+      },
+      {
+        "color": "rgb(61, 61, 61)",
+        "normalized": "#3d3d3d",
+        "count": 33,
+        "usageFrac": 0.014640638864241348,
+        "confidence": "high",
+        "sources": [
+          "css-1eov2rs-link-1-link-2-link"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(250, 250, 250)",
+        "normalized": "#fafafa",
+        "count": 19,
+        "usageFrac": 0.008429458740017746,
+        "confidence": "high",
+        "sources": [
+          "css-6lxnn6-link-3-link-2-link-"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(156, 166, 175)",
+        "normalized": "#9ca6af",
+        "count": 5,
+        "usageFrac": 0.0022182786157941437,
+        "confidence": "high",
+        "sources": [
+          "css-d7qz4q",
+          "[object"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(207, 207, 207)",
+        "normalized": "#cfcfcf",
+        "count": 3,
+        "usageFrac": 0.0013309671694764862,
+        "confidence": "low",
+        "sources": [
+          "css-8y0evn-p2"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgba(62, 62, 62, 0.8)",
+        "normalized": "#3e3e3e",
+        "count": 2,
+        "usageFrac": 0.0008873114463176575,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(213, 220, 224)",
+        "normalized": "#d5dce0",
+        "count": 1,
+        "usageFrac": 0.00044365572315882877,
+        "confidence": "high",
+        "sources": [
+          "css-d7qz4q"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 212, 255)",
+        "normalized": "#ffd4ff",
+        "count": 1,
+        "usageFrac": 0.00044365572315882877,
+        "confidence": "high",
+        "sources": [
+          "css-1eov2rs-link-1-link-2-link"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(86, 86, 86)",
+        "normalized": "#565656",
+        "count": 1,
+        "usageFrac": 0.00044365572315882877,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      }
+    ],
+    "_raw": [
+      {
+        "color": "rgb(100, 111, 121)",
+        "normalized": "#646f79",
+        "count": 242
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 661
+      },
+      {
+        "color": "rgb(13, 14, 16)",
+        "normalized": "#0d0e10",
+        "count": 86
+      },
+      {
+        "color": "rgb(13, 13, 13)",
+        "normalized": "#0d0d0d",
+        "count": 742
+      },
+      {
+        "color": "rgb(243, 243, 243)",
+        "normalized": "#f3f3f3",
+        "count": 249
+      },
+      {
+        "color": "rgb(110, 110, 110)",
+        "normalized": "#6e6e6e",
+        "count": 145
+      },
+      {
+        "color": "rgb(231, 231, 231)",
+        "normalized": "#e7e7e7",
+        "count": 64
+      },
+      {
+        "color": "rgb(61, 61, 61)",
+        "normalized": "#3d3d3d",
+        "count": 33
+      }
+    ]
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "display",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "102px (6.38rem)",
+        "weight": 300,
+        "lineHeight": "0.90",
+        "spacing": "-2.55px",
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "54px (3.38rem)",
+        "weight": 300,
+        "lineHeight": "1.00",
+        "spacing": "-1.08px",
+        "transform": null
+      },
+      {
+        "context": "heading-4",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "30px (1.88rem)",
+        "weight": 400,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "26px (1.63rem)",
+        "weight": 300,
+        "lineHeight": "1.30",
+        "spacing": "0.52px",
+        "transform": null
+      },
+      {
+        "context": "heading-5",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "24px (1.50rem)",
+        "weight": 500,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "24px (1.50rem)",
+        "weight": 500,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "24px (1.50rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "22px (1.38rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "20px (1.25rem)",
+        "weight": 300,
+        "lineHeight": "1.50",
+        "spacing": "0.4px",
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "20px (1.25rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "20px (1.25rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.75",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "16px (1.00rem)",
+        "weight": 300,
+        "lineHeight": "1.50",
+        "spacing": "0.32px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": "0.64px",
+        "transform": "uppercase"
+      },
+      {
+        "context": "ui",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.75",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-5",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": "0.4px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "16px (1.00rem)",
+        "weight": 700,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "16px (1.00rem)",
+        "weight": 700,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": "0.16px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "15px (0.94rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "14.4px (0.90rem)",
+        "weight": 700,
+        "lineHeight": "1.00",
+        "spacing": "0.144px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "2.57",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "2.57",
+        "spacing": "0.5px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.75",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-4",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "14px (0.88rem)",
+        "weight": 700,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-4",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "13.6px (0.85rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "13.6px (0.85rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "13.008px (0.81rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": "0.13008px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "13px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": "0.26px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "13px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": "0.26px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "13px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": "0.26px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "13px (0.81rem)",
+        "weight": 300,
+        "lineHeight": "1.50",
+        "spacing": "0.26px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "13px (0.81rem)",
+        "weight": 300,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-6",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "13px (0.81rem)",
+        "weight": 300,
+        "lineHeight": "1.50",
+        "spacing": "0.26px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "13px (0.81rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "12.992px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "12px (0.75rem)",
+        "weight": 500,
+        "lineHeight": "2.67",
+        "spacing": "0.5px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "12px (0.75rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "12px (0.75rem)",
+        "weight": 700,
+        "lineHeight": "1.00",
+        "spacing": "0.12px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "11px (0.69rem)",
+        "weight": 500,
+        "lineHeight": "1.75",
+        "spacing": "0.44px",
+        "transform": "uppercase"
+      },
+      {
+        "context": "caption",
+        "family": "TWK Lausanne",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "11px (0.69rem)",
+        "weight": 700,
+        "lineHeight": "1.82",
+        "spacing": "0.5px",
+        "transform": null
+      }
+    ],
+    "sources": {
+      "googleFonts": [],
+      "adobeFonts": false,
+      "variableFonts": false,
+      "selfHostedFonts": [
+        "Inter-Regular.f1f0c35b32.woff2",
+        "Inter-SemiBold.fcb100c760.woff2",
+        "TWKLausanne-300.otf",
+        "TWKLausanne-400.otf",
+        "TWKLausanne-500.otf"
+      ],
+      "customFonts": [
+        "Inter-Regular.f1f0c35b32.woff2",
+        "Inter-SemiBold.fcb100c760.woff2",
+        "TWKLausanne-300.otf",
+        "TWKLausanne-400.otf",
+        "TWKLausanne-500.otf"
+      ]
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "1px",
+        "display": "1px",
+        "rem": "0.06rem",
+        "count": 5,
+        "numericValue": 1
+      },
+      {
+        "px": "2px",
+        "display": "2px",
+        "rem": "0.13rem",
+        "count": 4,
+        "numericValue": 2
+      },
+      {
+        "px": "4px",
+        "display": "4px",
+        "rem": "0.25rem",
+        "count": 53,
+        "numericValue": 4
+      },
+      {
+        "px": "5px",
+        "display": "5px",
+        "rem": "0.31rem",
+        "count": 3,
+        "numericValue": 5
+      },
+      {
+        "px": "6px",
+        "display": "6px",
+        "rem": "0.38rem",
+        "count": 3,
+        "numericValue": 6
+      },
+      {
+        "px": "8px",
+        "display": "8px",
+        "rem": "0.50rem",
+        "count": 36,
+        "numericValue": 8
+      },
+      {
+        "px": "10px",
+        "display": "10px",
+        "rem": "0.63rem",
+        "count": 67,
+        "numericValue": 10
+      },
+      {
+        "px": "11.2px",
+        "display": "11.2px",
+        "rem": "0.70rem",
+        "count": 8,
+        "numericValue": 11.2
+      },
+      {
+        "px": "12px",
+        "display": "12px",
+        "rem": "0.75rem",
+        "count": 35,
+        "numericValue": 12
+      },
+      {
+        "px": "12.992px",
+        "display": "12.992px",
+        "rem": "0.81rem",
+        "count": 4,
+        "numericValue": 12.992
+      },
+      {
+        "px": "14px",
+        "display": "14px",
+        "rem": "0.88rem",
+        "count": 58,
+        "numericValue": 14
+      },
+      {
+        "px": "16px",
+        "display": "16px",
+        "rem": "1.00rem",
+        "count": 107,
+        "numericValue": 16
+      },
+      {
+        "px": "20px",
+        "display": "20px",
+        "rem": "1.25rem",
+        "count": 10,
+        "numericValue": 20
+      },
+      {
+        "px": "24px",
+        "display": "24px",
+        "rem": "1.50rem",
+        "count": 25,
+        "numericValue": 24
+      },
+      {
+        "px": "30px",
+        "display": "30px",
+        "rem": "1.88rem",
+        "count": 3,
+        "numericValue": 30
+      },
+      {
+        "px": "32px",
+        "display": "32px",
+        "rem": "2.00rem",
+        "count": 41,
+        "numericValue": 32
+      },
+      {
+        "px": "40px",
+        "display": "40px",
+        "rem": "2.50rem",
+        "count": 12,
+        "numericValue": 40
+      },
+      {
+        "px": "80px",
+        "display": "80px",
+        "rem": "5.00rem",
+        "count": 7,
+        "numericValue": 80
+      },
+      {
+        "px": "120px",
+        "display": "120px",
+        "rem": "7.50rem",
+        "count": 7,
+        "numericValue": 120
+      },
+      {
+        "px": "160px",
+        "display": "160px",
+        "rem": "10.00rem",
+        "count": 4,
+        "numericValue": 160
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "0px 0px 8px 8px",
+        "count": 6,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 0
+      },
+      {
+        "value": "1px",
+        "count": 9,
+        "elements": [
+          "button",
+          "span"
+        ],
+        "confidence": "medium",
+        "numericValue": 1
+      },
+      {
+        "value": "2px",
+        "count": 20,
+        "elements": [
+          "badge",
+          "Close preference center",
+          "button",
+          "div",
+          "Strictly Necessary Cookies - Cookie Details button opens Cookie List menu"
+        ],
+        "confidence": "high",
+        "numericValue": 2
+      },
+      {
+        "value": "2.5px",
+        "count": 1,
+        "elements": [
+          "region"
+        ],
+        "confidence": "low",
+        "numericValue": 2.5
+      },
+      {
+        "value": "3px",
+        "count": 21,
+        "elements": [
+          "option",
+          "button",
+          "Open menu",
+          "div"
+        ],
+        "confidence": "high",
+        "numericValue": 3
+      },
+      {
+        "value": "4px",
+        "count": 24,
+        "elements": [
+          "div",
+          "badge",
+          "input",
+          "span"
+        ],
+        "confidence": "high",
+        "numericValue": 4
+      },
+      {
+        "value": "6px",
+        "count": 5,
+        "elements": [
+          "label"
+        ],
+        "confidence": "medium",
+        "numericValue": 6
+      },
+      {
+        "value": "8px",
+        "count": 21,
+        "elements": [
+          "button",
+          "div"
+        ],
+        "confidence": "high",
+        "numericValue": 8
+      },
+      {
+        "value": "8px 8px 0px 0px",
+        "count": 66,
+        "elements": [
+          "div",
+          "span",
+          "img"
+        ],
+        "confidence": "high",
+        "numericValue": 8
+      },
+      {
+        "value": "10px",
+        "count": 4,
+        "elements": [
+          "div",
+          "a"
+        ],
+        "confidence": "medium",
+        "numericValue": 10
+      },
+      {
+        "value": "12px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 12
+      },
+      {
+        "value": "16px",
+        "count": 54,
+        "elements": [
+          "div",
+          "span",
+          "img",
+          "X",
+          "Linkedin"
+        ],
+        "confidence": "high",
+        "numericValue": 16
+      },
+      {
+        "value": "17px",
+        "count": 1,
+        "elements": [
+          "Filter Cookie List"
+        ],
+        "confidence": "low",
+        "numericValue": 17
+      },
+      {
+        "value": "20px",
+        "count": 27,
+        "elements": [
+          "div",
+          "span"
+        ],
+        "confidence": "high",
+        "numericValue": 20
+      },
+      {
+        "value": "50px",
+        "count": 1,
+        "elements": [
+          "Cookie list search"
+        ],
+        "confidence": "low",
+        "numericValue": 50
+      },
+      {
+        "value": "64px",
+        "count": 5,
+        "elements": [
+          "tab"
+        ],
+        "confidence": "medium",
+        "numericValue": 64
+      },
+      {
+        "value": "100px",
+        "count": 53,
+        "elements": [
+          "button",
+          "a",
+          "div",
+          "Sign up"
+        ],
+        "confidence": "high",
+        "numericValue": 100
+      },
+      {
+        "value": "999px",
+        "count": 2,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low",
+        "numericValue": 999
+      },
+      {
+        "value": "50%",
+        "count": 19,
+        "elements": [
+          "div",
+          "svg"
+        ],
+        "confidence": "high",
+        "numericValue": 50
+      },
+      {
+        "value": "100%",
+        "count": 7,
+        "elements": [
+          "span",
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 100
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "0px 0px 1px",
+        "style": "none none solid",
+        "color": "rgb(243, 243, 243)",
+        "count": 64,
+        "elements": [
+          "a"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(250, 250, 250)",
+        "count": 30,
+        "elements": [
+          "a"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(243, 243, 243)",
+        "count": 10,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px 1px 0px",
+        "style": "solid solid none",
+        "color": "rgb(231, 231, 231)",
+        "count": 6,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 1px 1px",
+        "style": "none solid solid",
+        "color": "rgb(13, 13, 13)",
+        "count": 6,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(231, 231, 231)",
+        "count": 5,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(39, 50, 64)",
+        "count": 4,
+        "elements": [
+          "button"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "none none solid",
+        "color": "rgb(100, 111, 121)",
+        "count": 3,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(110, 110, 110)",
+        "count": 3,
+        "elements": [
+          "div",
+          "a"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 1px 1px",
+        "style": "none solid solid",
+        "color": "rgb(100, 111, 121)",
+        "count": 3,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(255, 255, 255)",
+        "count": 3,
+        "elements": [
+          "span"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(207, 207, 207)",
+        "count": 2,
+        "elements": [
+          "span"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "solid none",
+        "color": "rgb(231, 231, 231)",
+        "count": 1,
+        "elements": [
+          "a"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(207, 207, 207)",
+        "count": 1,
+        "elements": [
+          "input"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "none none solid",
+        "color": "rgb(13, 13, 13)",
+        "count": 1,
+        "elements": [
+          "tab"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(213, 220, 224)",
+        "count": 1,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(193, 193, 193)",
+        "count": 1,
+        "elements": [
+          "textarea"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(50, 174, 136)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(216, 216, 216)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(112, 112, 112)",
+        "count": 1,
+        "elements": [
+          "input"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(187, 187, 187)",
+        "count": 1,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(216, 216, 216)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [
+    {
+      "shadow": "rgba(0, 0, 0, 0.15) 0px 2px 8px 0px",
+      "count": 5,
+      "confidence": "medium"
+    },
+    {
+      "shadow": "rgba(36, 50, 66, 0.08) 0px 2px 12px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgb(13, 13, 13) 0px 0px 0px 1px inset",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(109, 110, 111, 0.08) 0px 5px 20px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(36, 50, 66, 0.15) 0px 50px 60px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgb(128, 128, 128) 0px 0px 5px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgb(153, 153, 153) 0px 2px 10px -3px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgb(199, 197, 199) -3px -3px 5px -2px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgb(199, 197, 199) 0px 0px 12px 2px",
+      "count": 1,
+      "confidence": "low"
+    }
+  ],
+  "gradients": [
+    {
+      "gradient": "linear-gradient(90deg, rgb(255, 69, 62) 0%, rgb(244, 129, 244) 50%, rgb(255, 69, 62) 100%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(255, 69, 62)",
+        "rgb(244, 129, 244)",
+        "rgb(255, 69, 62)"
+      ],
+      "count": 1
+    }
+  ],
+  "motion": {
+    "durations": [
+      {
+        "value": "0.001s",
+        "ms": 1,
+        "count": 1354
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease",
+        "type": "ease",
+        "count": 1240
+      },
+      {
+        "value": "ease-in-out",
+        "type": "ease-in-out",
+        "count": 56
+      },
+      {
+        "value": "ease-in",
+        "type": "ease-in",
+        "count": 44
+      },
+      {
+        "value": "linear",
+        "type": "linear",
+        "count": 18
+      },
+      {
+        "value": "cubic-bezier(0, 0, 0.16, 0.96)",
+        "type": "ease-out",
+        "count": 8
+      },
+      {
+        "value": "cubic-bezier(0.6, 0, 0, 1)",
+        "type": "custom",
+        "count": 8
+      },
+      {
+        "value": "cubic-bezier(0.6, 0, 0.13, 1)",
+        "type": "custom",
+        "count": 3
+      }
+    ],
+    "animations": [
+      {
+        "name": "animation-11qm68r",
+        "duration": "0.001s",
+        "easing": "cubic-bezier(0.61",
+        "count": 3,
+        "contexts": [
+          "other"
+        ]
+      },
+      {
+        "name": "animation-1wlok8",
+        "duration": "0.001s",
+        "easing": "ease",
+        "count": 1,
+        "contexts": [
+          "other"
+        ]
+      },
+      {
+        "name": "animation-os2n7p",
+        "duration": "0.001s",
+        "easing": "cubic-bezier(0",
+        "count": 1,
+        "contexts": [
+          "other"
+        ]
+      },
+      {
+        "name": "animation-1vansf7",
+        "duration": "0.001s",
+        "easing": "linear",
+        "count": 1,
+        "contexts": [
+          "other"
+        ]
+      }
+    ],
+    "contexts": {
+      "hero": {
+        "count": 2,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "nav": {
+        "count": 5,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "link": {
+        "count": 106,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "color",
+          "border",
+          "background-color"
+        ]
+      },
+      "button": {
+        "count": 18,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "background-color",
+          "fill",
+          "border",
+          "color"
+        ]
+      },
+      "overlay": {
+        "count": 1,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "input": {
+        "count": 1,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "card": {
+        "count": 61,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "modal": {
+        "count": 2,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "color"
+        ]
+      },
+      "media": {
+        "count": 1,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      }
+    },
+    "interactiveDeltas": [
+      {
+        "tag": "a",
+        "text": "Asana Home",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(13, 14, 16)",
+            "to": "rgb(205, 72, 72)"
+          }
+        }
+      },
+      {
+        "tag": "button",
+        "text": "Productschevron-down icon",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(13, 13, 13)",
+            "to": "rgb(110, 110, 110)"
+          }
+        }
+      },
+      {
+        "tag": "button",
+        "text": "Solutionschevron-down icon",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(13, 13, 13)",
+            "to": "rgb(110, 110, 110)"
+          }
+        }
+      },
+      {
+        "tag": "button",
+        "text": "Learning & supportchevron-down",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(13, 13, 13)",
+            "to": "rgb(110, 110, 110)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Pricing",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(13, 13, 13)",
+            "to": "rgb(110, 110, 110)"
+          }
+        }
+      }
+    ]
+  },
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(13, 13, 13)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "12px 32px",
+            "borderRadius": "100px",
+            "border": "1px solid rgba(0, 0, 0, 0)",
+            "fontSize": "16px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "16px",
+        "text": "Sign up",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(243, 243, 243)",
+            "color": "rgb(156, 166, 175)",
+            "padding": "0px",
+            "borderRadius": "999px",
+            "border": "1px solid rgb(213, 220, 224)",
+            "fontSize": "14px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "14px",
+        "text": "Scroll carousel back",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(13, 13, 13)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "0px",
+            "borderRadius": "999px",
+            "border": "0px none rgba(0, 0, 0, 0)",
+            "fontSize": "14px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "14px",
+        "text": "Scroll carousel forward",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(250, 250, 250)",
+            "color": "rgb(13, 13, 13)",
+            "padding": "16px 32px",
+            "borderRadius": "100px",
+            "border": "1px solid rgb(110, 110, 110)",
+            "fontSize": "16px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "16px",
+        "text": "Learn more",
+        "confidence": "medium"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(13, 13, 13)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "16px 32px",
+            "borderRadius": "100px",
+            "border": "1px solid rgb(250, 250, 250)",
+            "fontSize": "13px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "13px",
+        "text": "Learn more",
+        "confidence": "medium"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(13, 13, 13)",
+            "padding": "16px 32px",
+            "borderRadius": "100px",
+            "border": "1px solid rgba(0, 0, 0, 0)",
+            "fontSize": "20px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "20px",
+        "text": "Get started",
+        "confidence": "medium"
+      }
+    ],
+    "inputs": {
+      "text": [
+        {
+          "specificType": "text",
+          "states": {
+            "default": {
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(13, 13, 13)",
+              "border": "1px solid rgb(207, 207, 207)",
+              "borderRadius": "4px",
+              "padding": "12px 16px",
+              "boxShadow": "none",
+              "outline": "rgb(16, 16, 16) auto 1px"
+            },
+            "focus": {
+              "borderColor": "rgb(0, 0, 0)",
+              "outline": "rgb(0, 0, 0) solid 1px",
+              "backgroundColor": "rgb(30, 174, 219)",
+              "boxShadow": "none",
+              "border": "1px solid rgb(0, 0, 0)",
+              "color": "rgb(255, 255, 255)"
+            }
+          }
+        }
+      ],
+      "checkbox": [],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgb(13, 14, 16)",
+        "textDecoration": "none",
+        "fontWeight": "500",
+        "states": {
+          "default": {
+            "color": "rgb(13, 14, 16)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "rgb(56, 96, 190)",
+            "textDecoration": "none"
+          }
+        }
+      },
+      {
+        "color": "rgb(13, 13, 13)",
+        "textDecoration": "none",
+        "fontWeight": "500",
+        "states": {
+          "default": {
+            "color": "rgb(13, 13, 13)",
+            "textDecoration": "underline 1px"
+          },
+          "hover": {
+            "color": "rgb(56, 96, 190)",
+            "textDecoration": "none"
+          }
+        }
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none",
+        "fontWeight": "500",
+        "states": {
+          "default": {
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "rgb(56, 96, 190)",
+            "textDecoration": "none"
+          }
+        }
+      },
+      {
+        "color": "rgb(243, 243, 243)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(243, 243, 243)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "rgb(56, 96, 190)",
+            "textDecoration": "none"
+          }
+        }
+      }
+    ],
+    "badges": {
+      "all": [],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": []
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "1px"
+    },
+    {
+      "px": "200px"
+    },
+    {
+      "px": "300px"
+    },
+    {
+      "px": "350px"
+    },
+    {
+      "px": "400px"
+    },
+    {
+      "px": "414px"
+    },
+    {
+      "px": "425px"
+    },
+    {
+      "px": "426px"
+    },
+    {
+      "px": "480px"
+    },
+    {
+      "px": "500px"
+    },
+    {
+      "px": "520px"
+    },
+    {
+      "px": "550px"
+    },
+    {
+      "px": "560px"
+    },
+    {
+      "px": "600px"
+    },
+    {
+      "px": "640px"
+    },
+    {
+      "px": "660px"
+    },
+    {
+      "px": "680px"
+    },
+    {
+      "px": "750px"
+    },
+    {
+      "px": "761px"
+    },
+    {
+      "px": "767px"
+    },
+    {
+      "px": "768px"
+    },
+    {
+      "px": "769px"
+    },
+    {
+      "px": "896px"
+    },
+    {
+      "px": "900px"
+    },
+    {
+      "px": "960px"
+    },
+    {
+      "px": "1024px"
+    },
+    {
+      "px": "1100px"
+    },
+    {
+      "px": "1119px"
+    },
+    {
+      "px": "1120px"
+    },
+    {
+      "px": "1125px"
+    },
+    {
+      "px": "1200px"
+    },
+    {
+      "px": "1210px"
+    },
+    {
+      "px": "1279px"
+    },
+    {
+      "px": "1280px"
+    },
+    {
+      "px": "1300px"
+    },
+    {
+      "px": "1360px"
+    },
+    {
+      "px": "1400px"
+    },
+    {
+      "px": "1439px"
+    },
+    {
+      "px": "1440px"
+    },
+    {
+      "px": "1441px"
+    },
+    {
+      "px": "1499px"
+    },
+    {
+      "px": "1500px"
+    },
+    {
+      "px": "1600px"
+    },
+    {
+      "px": "1679px"
+    },
+    {
+      "px": "1680px"
+    },
+    {
+      "px": "1800px"
+    },
+    {
+      "px": "1880px"
+    },
+    {
+      "px": "2000px"
+    }
+  ],
+  "iconSystem": [
+    {
+      "name": "SVG Icons",
+      "type": "svg"
+    }
+  ],
+  "frameworks": []
+}

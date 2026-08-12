@@ -1,0 +1,55 @@
+{
+  "url": "https://texts.com",
+  "captured": "2026-08-10T11:53:14+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "opacity": {
+          "before": "1",
+          "after": "0.85"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(255, 255, 255)",
+          "after": "rgb(248, 248, 248)"
+        },
+        "boxShadow": {
+          "before": "rgba(0, 0, 0, 0.2) 0px 4px 16px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px",
+          "after": "rgba(0, 0, 0, 0.25) 0px 6px 20px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 68,
+    "tabs": 1,
+    "accordions": 6,
+    "carousels": 0,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "strong",
+      "classes": "tabular-nums font-mono",
+      "text": "?ncrypted",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

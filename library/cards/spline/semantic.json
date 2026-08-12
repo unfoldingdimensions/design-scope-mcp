@@ -1,0 +1,360 @@
+{
+  "url": "https://spline.design",
+  "captured": "2026-08-10T09:21:18+00:00",
+  "named_tokens": {
+    "light": {
+      "--removed-body-scroll-bar-size": "0px",
+      "--color-bg": "#000",
+      "--color-bg-transparent": "#1110",
+      "--color-text-main": "#fff",
+      "--color-text-navigation": "#ffffffb3",
+      "--color-text-paragraph": "#fff9",
+      "--color-blue": "#0062ff",
+      "--color-blue-lighter": "#5797ff",
+      "--color-blue-dark": "#217ce5",
+      "--color-blue-ios": "#5966f3",
+      "--color-red": "#fd585b",
+      "--color-yellow": "#ffb01f",
+      "--color-purple": "#8f66ff21",
+      "--color-purple-bright": "#a770ff",
+      "--color-green": "#49bc541a",
+      "--color-green-bright": "#47b35f",
+      "--color-pink": "#ff5cab",
+      "--color-white": "#fff",
+      "--color-bg-pink": "#ffe6e6",
+      "--color-bg-greenish": "#c1f6e8",
+      "--color-btn-bg": "#ffffff0d",
+      "--color-btn-bg-highlight": "#ffffff0f",
+      "--panel-bg-alpha": ".08",
+      "--color-panel-bg": "rgba(255,255,255,var(--panel-bg-alpha))",
+      "--color-panel-bg-hover": "rgba(255,255,255,calc(var(--panel-bg-alpha) + .03))",
+      "--color-menu-dropdown": "#1e1e23cc",
+      "--color-white-001": "#ffffff03",
+      "--color-white-003": "#ffffff08",
+      "--color-white-005": "#ffffff0d",
+      "--color-white-008": "#ffffff14",
+      "--color-white-010": "#ffffff1a",
+      "--color-white-020": "#fff3",
+      "--color-white-040": "#fff6",
+      "--color-white-060": "#fff9",
+      "--color-white-070": "#ffffffb3",
+      "--color-white-080": "#fffc",
+      "--color-white-090": "#ffffffe6",
+      "--color-free": "rgba(255,255,255,var(--panel-bg-alpha))",
+      "--color-free-darker": "rgba(255,255,255,calc(var(--panel-bg-alpha) + .03))",
+      "--color-super": "#00a376",
+      "--color-super-darker": "#008761",
+      "--color-super-lighter": "#38e2b3",
+      "--color-team": "#915eff",
+      "--color-team-darker": "#7448d4",
+      "--color-team-lighter": "#d680ff",
+      "--lightningcss-light": "",
+      "--lightningcss-dark": "initial"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {
+      "--color-bg": "#000",
+      "--color-bg-greenish": "#c1f6e8",
+      "--color-bg-pink": "#ffe6e6",
+      "--color-blue": "#0062ff",
+      "--color-blue-dark": "#217ce5",
+      "--color-blue-ios": "#5966f3",
+      "--color-blue-lighter": "#5797ff",
+      "--color-btn-bg": "#ffffff0d",
+      "--color-btn-bg-highlight": "#ffffff0f",
+      "--color-green": "#49bc541a",
+      "--color-green-bright": "#47b35f",
+      "--color-menu-dropdown": "#1e1e23cc",
+      "--color-pink": "#ff5cab",
+      "--color-purple": "#8f66ff21",
+      "--color-purple-bright": "#a770ff",
+      "--color-red": "#fd585b",
+      "--color-super": "#00a376",
+      "--color-super-darker": "#008761",
+      "--color-super-lighter": "#38e2b3",
+      "--color-team": "#915eff",
+      "--color-team-darker": "#7448d4",
+      "--color-team-lighter": "#d680ff",
+      "--color-text-main": "#fff",
+      "--color-text-navigation": "#ffffffb3",
+      "--color-white": "#fff",
+      "--color-yellow": "#ffb01f"
+    },
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "rounded corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "rounded",
+    "type_mood": [
+      "mono accents"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "tooltip": 1000,
+    "banner": 999,
+    "header": 10,
+    "menu": 10,
+    "dropdown": 10,
+    "other": 2
+  },
+  "z_index_rows": [
+    {
+      "role": "header",
+      "selector": ".Header-module-scss-module__JJFXqa__header",
+      "value": "10"
+    },
+    {
+      "role": "menu",
+      "selector": ".Menu-module-scss-module__X4tN8q__content",
+      "value": "10"
+    },
+    {
+      "role": "menu",
+      "selector": ".Menu-module-scss-module__X4tN8q__contentLarge",
+      "value": "10"
+    },
+    {
+      "role": "dropdown",
+      "selector": ".Menu-module-scss-module__X4tN8q__dropdownMenu",
+      "value": "10"
+    },
+    {
+      "role": "banner",
+      "selector": ".CookieBanner-module-scss-module__0eDzpq__container",
+      "value": "999"
+    },
+    {
+      "role": "other",
+      "selector": ".CodeBlock-module-scss-module__PZ0kOq__codeContainer .CodeBlock-module-scss-modu",
+      "value": "2"
+    },
+    {
+      "role": "tooltip",
+      "selector": ".UseCasesSection3x3-module-scss-module__KBjSlq__tooltip",
+      "value": "1000"
+    },
+    {
+      "role": "banner",
+      "selector": ".BannerSplineEventAndroid-module-scss-module__8M0l4G__container .BannerSplineEve",
+      "value": "3"
+    },
+    {
+      "role": "banner",
+      "selector": ".BannerSplineEventAndroid-module-scss-module__8M0l4G__splineEventLabel > div",
+      "value": "3"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "1080px",
+      "selector": ".content-container",
+      "change": "padding-top: 0px"
+    },
+    {
+      "at": "1080px",
+      "selector": ".content-container",
+      "change": "padding-right: 0px"
+    },
+    {
+      "at": "1080px",
+      "selector": ".content-container",
+      "change": "padding-bottom: 0px"
+    },
+    {
+      "at": "1080px",
+      "selector": ".content-container",
+      "change": "padding-left: 0px"
+    },
+    {
+      "at": "780px",
+      "selector": ".section",
+      "change": "padding-top: 3.25rem"
+    },
+    {
+      "at": "780px",
+      "selector": ".section",
+      "change": "padding-bottom: 2rem"
+    },
+    {
+      "at": "780px",
+      "selector": ".section-hero",
+      "change": "padding-top: 5.875rem"
+    },
+    {
+      "at": "780px",
+      "selector": ".section-hero",
+      "change": "padding-bottom: 2rem"
+    },
+    {
+      "at": "780px",
+      "selector": ".title-hero",
+      "change": "font-size: 1.5rem"
+    },
+    {
+      "at": "780px",
+      "selector": ".title-hero",
+      "change": "line-height: 2.25rem"
+    },
+    {
+      "at": "780px",
+      "selector": ".description-hero",
+      "change": "font-size: 1.125rem"
+    },
+    {
+      "at": "780px",
+      "selector": ".description-hero",
+      "change": "line-height: 1.75rem"
+    },
+    {
+      "at": "1160px",
+      "selector": ".Header-module-scss-module__JJFXqa__header",
+      "change": "margin-top: 30px"
+    },
+    {
+      "at": "1160px",
+      "selector": ".Header-module-scss-module__JJFXqa__header",
+      "change": "top: 2rem"
+    },
+    {
+      "at": "720px",
+      "selector": ".Header-module-scss-module__JJFXqa__header",
+      "change": "margin-top: 10px"
+    },
+    {
+      "at": "1160px",
+      "selector": ".Menu-module-scss-module__X4tN8q__desktop",
+      "change": "display: none"
+    },
+    {
+      "at": "1160px",
+      "selector": ".Menu-module-scss-module__X4tN8q__nav",
+      "change": "background-color: rgba(0, 0, 0, 0.8)"
+    },
+    {
+      "at": "1160px",
+      "selector": ".Menu-module-scss-module__X4tN8q__dropdownWrapper",
+      "change": "display: none"
+    },
+    {
+      "at": "1160px",
+      "selector": ".Menu-module-scss-module__X4tN8q__dropdownTrigger",
+      "change": "display: none"
+    },
+    {
+      "at": "720px",
+      "selector": ".Announcement-module-scss-module__TIhqCa__container",
+      "change": "height: auto"
+    },
+    {
+      "at": "720px",
+      "selector": ".Announcement-module-scss-module__TIhqCa__container",
+      "change": "padding-top: 16px"
+    },
+    {
+      "at": "720px",
+      "selector": ".Announcement-module-scss-module__TIhqCa__container",
+      "change": "padding-right: 0px"
+    },
+    {
+      "at": "720px",
+      "selector": ".Announcement-module-scss-module__TIhqCa__container",
+      "change": "padding-bottom: 16px"
+    },
+    {
+      "at": "720px",
+      "selector": ".Announcement-module-scss-module__TIhqCa__container",
+      "change": "padding-left: 0px"
+    },
+    {
+      "at": "720px",
+      "selector": ".Announcement-module-scss-module__TIhqCa__content",
+      "change": "flex-direction: column"
+    },
+    {
+      "at": "720px",
+      "selector": ".Announcement-module-scss-module__TIhqCa__content",
+      "change": "row-gap: 4px"
+    },
+    {
+      "at": "720px",
+      "selector": ".Announcement-module-scss-module__TIhqCa__content",
+      "change": "column-gap: 4px"
+    },
+    {
+      "at": "720px",
+      "selector": ".Announcement-module-scss-module__TIhqCa__desktop",
+      "change": "display: none"
+    },
+    {
+      "at": "720px",
+      "selector": ".Announcement-module-scss-module__TIhqCa__mobile",
+      "change": "display: none"
+    },
+    {
+      "at": "720px",
+      "selector": ".Announcement-module-scss-module__TIhqCa__title",
+      "change": "height: auto"
+    },
+    {
+      "at": "1200px",
+      "selector": ".Footer-module-scss-module__-TkEBW__footer",
+      "change": "padding-top: 0px"
+    },
+    {
+      "at": "1200px",
+      "selector": ".Footer-module-scss-module__-TkEBW__footer",
+      "change": "padding-right: 1rem"
+    },
+    {
+      "at": "1200px",
+      "selector": ".Footer-module-scss-module__-TkEBW__footer",
+      "change": "padding-bottom: 0px"
+    },
+    {
+      "at": "1200px",
+      "selector": ".Footer-module-scss-module__-TkEBW__footer",
+      "change": "padding-left: 1rem"
+    },
+    {
+      "at": "625px",
+      "selector": ".Footer-module-scss-module__-TkEBW__footer",
+      "change": "margin-top: 96px"
+    },
+    {
+      "at": "625px",
+      "selector": ".Footer-module-scss-module__-TkEBW__footer",
+      "change": "padding-top: 0px"
+    },
+    {
+      "at": "625px",
+      "selector": ".Footer-module-scss-module__-TkEBW__footer",
+      "change": "padding-right: 32px"
+    },
+    {
+      "at": "625px",
+      "selector": ".Footer-module-scss-module__-TkEBW__footer",
+      "change": "padding-bottom: 0px"
+    },
+    {
+      "at": "625px",
+      "selector": ".Footer-module-scss-module__-TkEBW__footer",
+      "change": "padding-left: 32px"
+    },
+    {
+      "at": "820px",
+      "selector": ".Footer-module-scss-module__-TkEBW__logoColumn",
+      "change": "display: none"
+    }
+  ]
+}

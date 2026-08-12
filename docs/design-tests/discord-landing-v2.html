@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<!-- design-scope translation test 3 v2: Discord card, semantic-layer build
+     Rebuilt with library/cards/discord/semantic.json (named tokens + design
+     intent + z-index + responsive rules) + behaviors.md (interaction states).
+     Font: Poppins ≈ ABC Ginto Nord (proprietary). -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fable — your place to belong</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  /* ══ design tokens — from semantic.json (captured named vocabulary) ══
+     Design intent: vibrant · soft | flat (no shadows at rest) |
+     rounded corners | 4px grid rhythm */
+  :root {
+    /* named colors (semantic_colors.light, 29 tokens) */
+    --blurple: #5865f2;        /* primary */
+    --brand: #5865f2;
+    --button-hover: #8891f2;
+    --dark-blurple: #3442d9;
+    --dark-button-hover: #3b3b3b;
+    --not-quite-black: #23272a;/* surfaces */
+    --dark-charcoal: #2c2f33;  /* elevated surfaces */
+    --dark-not-black: #2c2f33;
+    --black: #060a0b;
+    --white: #fff;
+    --off-white: #f6f6f6;
+    --greyple: #99aab5;        /* muted text */
+    --dim-grey: #50555f;
+    --spring-green: #57f287;   /* status: online */
+    --status-green: #43b581;
+    --mint-green: #43b581;
+    --fuchsia: #eb459e;        /* status: streaming */
+    --yellow: #fee75c;         /* status: idle */
+    --red: #ed4245;            /* status: dnd */
+    --ekko-red: #de2761;
+    --vivid-cerulean: #00b0f4; /* links */
+    --text-link: #00b0f4;
+    --focus-border: #00b0f4;
+    --orange: #fda220;
+    --pink: #ffcdee;
+    --purple: #808aff;
+    --green: #52f180;
+    --refresh-blue: #161cbb;
+    --navy-blue: #24173f;
+
+    /* z-index layers (from semantic.json z_index) */
+    --z-nav: 1000;
+    --z-dropdown: 1000;
+    --z-banner: 100;
+    --z-modal: 2147483647;
+
+    /* radii + spacing (fingerprint: 16px dominant, 12px buttons, 4px grid) */
+    --radius-sm: 8px;
+    --radius-md: 12px;         /* buttons */
+    --radius-lg: 16px;         /* cards */
+    --radius-xl: 24px;
+    --space-4: 4px; --space-8: 8px; --space-12: 12px; --space-16: 16px;
+    --space-20: 20px; --space-24: 24px; --space-32: 32px; --space-48: 48px;
+
+    /* motion (captured: ease; hover: -1px lift + shadow + opacity .9) */
+    --ease: ease;
+    --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+    --hover-lift: translateY(-1px);
+    --hover-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    --hover-opacity: 0.9;
+
+    --font: "Poppins", -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  html { scroll-behavior: smooth; }
+  body { font-family: var(--font); background: var(--white); color: var(--black); font-size: 16px; line-height: 1.3; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+  a { color: inherit; }
+
+  /* ══ nav — z-index 1000, blurple fill on hover (behaviors.md) ══ */
+  .nav { position: fixed; top: 0; left: 0; right: 0; z-index: var(--z-nav);
+         display: flex; align-items: center; justify-content: space-between;
+         padding: var(--space-16) var(--space-32); background: var(--navy-blue); }
+  .nav .logo { display: flex; align-items: center; gap: 10px; color: var(--white); font-weight: 800; font-size: 18px; letter-spacing: -0.02em; }
+  .nav .logo .mark { width: 26px; height: 20px; border-radius: var(--radius-sm); background: var(--white); position: relative; }
+  .nav .logo .mark::after { content: ""; position: absolute; inset: 4px; border-radius: 5px; background: var(--navy-blue); }
+  .nav-links { display: flex; gap: var(--space-24); align-items: center; }
+  .nav-links a { color: var(--white); text-decoration: none; font-size: 15px; font-weight: 600;
+    padding: var(--space-8) var(--space-12); border-radius: 999px;
+    transition: background-color 0.2s var(--ease), color 0.2s var(--ease); }
+  .nav-links a:hover { background: var(--blurple); }
+  .nav-links a:focus-visible, .btn:focus-visible { outline: 3px solid var(--focus-border); outline-offset: 2px; border-radius: var(--radius-md); }
+  .btn { background: var(--white); color: var(--black); border: none; border-radius: var(--radius-md);
+    padding: 10px 22px; font-family: var(--font); font-size: 14px; font-weight: 600; cursor: pointer;
+    transition: background-color 0.2s var(--ease), color 0.2s var(--ease), transform 0.15s var(--ease), box-shadow 0.15s var(--ease), opacity 0.15s var(--ease); }
+  .btn:hover { color: var(--blurple); transform: var(--hover-lift); box-shadow: var(--hover-shadow); opacity: var(--hover-opacity); }
+  .btn:active { opacity: 1; transform: none; }
+  .btn-dark { background: var(--not-quite-black); color: var(--white); }
+  .btn-dark:hover { color: var(--blurple); }
+  .btn-blurple { background: var(--blurple); color: var(--white); }
+  .btn-blurple:hover { background: var(--button-hover); color: var(--white); }
+
+  /* ══ hero — navy + blurple, flat (no resting shadows) ══ */
+  .hero { background: var(--navy-blue); min-height: 100vh; display: flex; flex-direction: column;
+          align-items: center; justify-content: center; text-align: center;
+          padding: 120px 24px 60px; position: relative; overflow: hidden; }
+  .hero::before { content: ""; position: absolute; inset: 0;
+    background: radial-gradient(60% 50% at 50% 0%, rgba(88, 101, 242, 0.4) 0%, transparent 70%); }
+  .hero .eyebrow { position: relative; color: var(--greyple); font-size: 14px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; }
+  .hero h1 { position: relative; color: var(--white); font-size: clamp(36px, 6.5vw, 82px); font-weight: 800;
+    line-height: 1.04; letter-spacing: -0.02em; max-width: 900px; margin: 18px auto; }
+  .hero .sub { position: relative; color: var(--off-white); font-size: clamp(16px, 2vw, 20px); font-weight: 400;
+    max-width: 640px; line-height: 1.4; margin: 0 auto; }
+  .hero .cta-row { position: relative; display: flex; gap: var(--space-16); justify-content: center; margin-top: var(--space-32); flex-wrap: wrap; }
+  .hero .cta-row .btn { font-size: 18px; padding: 14px 28px; border-radius: 999px; }
+
+  /* floating Discord-style UI mock — flat cards, 1px border, status colors */
+  .float-stage { position: relative; width: 100%; max-width: 1100px; margin: 56px auto 0; height: 380px; }
+  .float-card { position: absolute; background: var(--white); border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: var(--radius-lg); overflow: hidden; }
+  .float-card.left { left: 0; top: 0; width: 380px; height: 340px; }
+  .float-card.right { right: 0; bottom: 0; width: 380px; height: 320px; }
+  .ui { display: flex; height: 100%; }
+  .ui .rail { width: 60px; background: var(--dark-charcoal); display: flex; flex-direction: column; align-items: center; gap: var(--space-8); padding: 10px 0; }
+  .ui .rail .dot { width: 40px; height: 40px; border-radius: var(--radius-md); background: var(--dim-grey); }
+  .ui .rail .dot.active { background: var(--blurple); border-radius: 50%; }
+  .ui .channels { width: 150px; background: var(--not-quite-black); padding: var(--space-12) var(--space-8); }
+  .ui .channels .chan { height: 10px; border-radius: var(--radius-sm); background: var(--dim-grey); margin-bottom: var(--space-8); }
+  .ui .channels .chan.on { background: var(--greyple); }
+  .ui .chat { flex: 1; background: var(--white); padding: var(--space-12); display: flex; flex-direction: column; gap: var(--space-8); }
+  .ui .msg { display: flex; gap: var(--space-8); align-items: flex-start; }
+  /* status-colored avatars: spring-green online, fuchsia streaming, yellow idle */
+  .ui .msg .avatar { width: 26px; height: 26px; border-radius: 50%; background: var(--blurple); flex: none; }
+  .ui .msg .avatar.s-green { background: var(--spring-green); }
+  .ui .msg .avatar.s-fuchsia { background: var(--fuchsia); }
+  .ui .msg .avatar.s-yellow { background: var(--yellow); }
+  .ui .msg .avatar.s-cerulean { background: var(--vivid-cerulean); }
+  .ui .msg .avatar.s-orange { background: var(--orange); }
+  .ui .msg .line { height: 8px; border-radius: var(--radius-sm); background: var(--off-white); margin-top: var(--space-4); }
+  .ui .msg .line.w1 { width: 70%; } .ui .msg .line.w2 { width: 45%; }
+  .float-card.right .ui .chat { background: var(--off-white); }
+  .float-card.right .ui .chat .line { background: var(--greyple); opacity: 0.4; }
+
+  /* ══ alternating sections — flat, rounded-24 media panels ══ */
+  .section { max-width: 1180px; margin: 0 auto; padding: 80px 32px; display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
+  .section.flip .media { order: 2; }
+  .section .copy h2 { font-size: clamp(28px, 3.6vw, 48px); font-weight: 800; line-height: 1.1; letter-spacing: -0.01em; margin-bottom: var(--space-16); }
+  .section .copy p { font-size: 18px; line-height: 1.5; color: var(--dim-grey); max-width: 44ch; }
+  .section .media { background: var(--off-white); border: 1px solid #e8e8ec; border-radius: var(--radius-xl);
+    overflow: hidden; aspect-ratio: 4 / 3; display: grid; place-items: center; }
+  .media-panel { width: 72%; background: var(--white); border: 1px solid #e8e8ec; border-radius: var(--radius-lg); padding: var(--space-16); }
+  .media-panel .row { display: flex; gap: var(--space-8); align-items: center; margin-bottom: 10px; }
+  .media-panel .row .avatar { width: 22px; height: 22px; border-radius: 50%; background: var(--blurple); }
+  .media-panel .row .avatar.g { background: var(--spring-green); } .media-panel .row .avatar.y { background: var(--yellow); } .media-panel .row .avatar.f { background: var(--fuchsia); }
+  .media-panel .row .nm { font-size: 12px; font-weight: 700; }
+  .media-panel .row .tag { font-size: 10px; background: var(--blurple); color: var(--white); border-radius: 999px; padding: 1px 8px; }
+  .media-panel .txt { height: 9px; border-radius: var(--radius-sm); background: var(--off-white); margin-bottom: var(--space-8); }
+  .media-panel .txt.a { width: 90%; } .media-panel .txt.b { width: 65%; } .media-panel .txt.c { width: 78%; }
+
+  /* center feature band */
+  .band { padding: 80px 32px; text-align: center; }
+  .band h2 { font-size: clamp(28px, 4vw, 48px); font-weight: 800; line-height: 1.1; margin-bottom: 14px; }
+  .band p { font-size: 18px; color: var(--dim-grey); max-width: 60ch; margin: 0 auto 40px; }
+  .band .big-panel { max-width: 900px; margin: 0 auto; background: var(--off-white); border-radius: var(--radius-xl); padding: var(--space-32); }
+  .band .big-panel .ui { height: 380px; border-radius: var(--radius-lg); overflow: hidden; }
+
+  /* CTA — blurple band, flat */
+  .cta { background: var(--blurple); color: var(--white); text-align: center; padding: 90px 32px 110px; }
+  .cta h2 { font-size: clamp(30px, 4.5vw, 56px); font-weight: 800; line-height: 1.1; max-width: 720px; margin: 0 auto 28px; }
+  .cta .cta-row { display: flex; gap: var(--space-16); justify-content: center; flex-wrap: wrap; }
+
+  /* footer — dark, z-banner-level footer content */
+  footer { background: var(--not-quite-black); color: var(--white); padding: 56px 32px 40px; }
+  footer .grid { max-width: 1180px; margin: 0 auto; display: grid; grid-template-columns: repeat(5, 1fr); gap: 32px; }
+  footer .col h4 { font-size: 14px; font-weight: 800; color: var(--blurple); margin-bottom: 14px; }
+  /* contrast guard: blurple #5865F2 on #23272A is 3.27:1 (< 4.5 AA) — use the
+     lighter --purple #808aff for footer headings (verified ~5.3:1) */
+  footer .col h4 { color: var(--purple); }
+  footer .col a { display: block; color: var(--greyple); font-size: 14px; text-decoration: none; padding: 3px 0; }
+  footer .col a:hover { color: var(--white); text-decoration: underline; }
+  footer .legal { max-width: 1180px; margin: 40px auto 0; padding-top: 24px; border-top: 1px solid var(--dark-charcoal); color: var(--dim-grey); font-size: 13px; }
+
+  /* ══ motion layer — entrance, ambient, micro (captured easing + intent) ══
+     keyframes: rise (entrance), bob (ambient float), pulse (presence dots) */
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: none; }
+  }
+  @keyframes bob {
+    0%, 100% { transform: translateY(0); }
+    50%      { transform: translateY(-8px); }
+  }
+  @keyframes pulse-dot {
+    0%, 100% { opacity: 1; }
+    50%      { opacity: 0.35; }
+  }
+  /* hero entrance — staggered on load via .loaded on <body> */
+  .hero .eyebrow, .hero h1, .hero .sub, .hero .cta-row, .float-card {
+    opacity: 0;
+  }
+  body.loaded .hero .eyebrow, body.loaded .hero h1, body.loaded .hero .sub,
+  body.loaded .hero .cta-row {
+    animation: rise 0.7s var(--ease-out) forwards;
+  }
+  body.loaded .hero .eyebrow { animation-delay: 0.05s; }
+  body.loaded .hero h1       { animation-delay: 0.15s; }
+  body.loaded .hero .sub     { animation-delay: 0.28s; }
+  body.loaded .hero .cta-row { animation-delay: 0.40s; }
+  /* float cards: entrance (rise) then ambient drift (bob, infinite) —
+     combined in ONE shorthand so specificity can't drop bob */
+  body.loaded .float-card.left {
+    animation: rise 0.7s var(--ease-out) 0.55s forwards,
+               bob 6s var(--ease) 1.6s infinite;
+  }
+  body.loaded .float-card.right {
+    animation: rise 0.7s var(--ease-out) 0.70s forwards,
+               bob 6s var(--ease) 2.1s infinite;
+  }
+  /* presence micro-interaction: status dots pulse */
+  .ui .avatar { animation: pulse-dot 2.4s var(--ease) infinite; }
+  .ui .avatar:nth-child(2) { animation-delay: 0.4s; }
+  .ui .avatar:nth-child(3) { animation-delay: 0.8s; }
+  /* nav link: subtle underline slide in addition to blurple fill */
+  .nav-links a::after { content: ""; display: block; height: 2px; border-radius: 2px;
+    background: var(--white); transform: scaleX(0); transform-origin: left;
+    transition: transform 0.2s var(--ease); }
+  .nav-links a:hover::after { transform: scaleX(1); }
+
+  /* scroll-reveal (scroll-driven, observer — behaviors.md) */
+  .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.6s var(--ease-out), transform 0.6s var(--ease-out); }
+  .reveal.visible { opacity: 1; transform: none; }
+  .section .media.reveal { transition-delay: 0.1s; }
+  .section.flip .copy.reveal { transition-delay: 0.1s; }
+
+  /* ══ responsive — captured rules: nav collapses at 991px ══ */
+  @media (max-width: 991px) {
+    .nav-links a { display: none; }          /* captured: nav menu hides */
+    .section { grid-template-columns: 1fr; gap: 32px; padding: 48px 20px; }
+    .section.flip .media { order: 0; }
+    .float-stage { height: 560px; }
+    .float-card.left, .float-card.right { width: 300px; }
+    footer .grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+    .reveal { opacity: 1 !important; transform: none !important; }
+    /* entrance elements must be VISIBLE without animation */
+    .hero .eyebrow, .hero h1, .hero .sub, .hero .cta-row, .float-card {
+      opacity: 1 !important; transform: none !important;
+    }
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="logo"><span class="mark"></span>Fable</div>
+  <div class="nav-links">
+    <a href="#features">Features</a><a href="#community">Community</a><a href="#voice">Voice</a><a href="#download">Download</a>
+    <button class="btn">Login</button>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="eyebrow">A place for every community</div>
+  <h1>IMAGINE A PLACE<br>where you belong</h1>
+  <p class="sub">Fable is where you can talk, hang out, and build communities — voice, video, and text channels for every crew, from a few friends to a whole fandom.</p>
+  <div class="cta-row">
+    <button class="btn btn-dark">⬇ Download for Windows</button>
+    <button class="btn btn-blurple">Open Fable in your browser</button>
+  </div>
+  <div class="float-stage">
+    <div class="float-card left"><div class="ui">
+      <div class="rail"><span class="dot active"></span><span class="dot"></span><span class="dot"></span></div>
+      <div class="channels"><div class="chan on"></div><div class="chan on"></div><div class="chan"></div><div class="chan"></div><div class="chan on"></div></div>
+      <div class="chat">
+        <div class="msg"><span class="avatar s-green"></span><div><div class="nm">Nova</div><div class="line w1"></div><div class="line w2"></div></div></div>
+        <div class="msg"><span class="avatar s-fuchsia"></span><div><div class="nm">Rei</div><div class="line w1"></div></div></div>
+        <div class="msg"><span class="avatar s-yellow"></span><div><div class="nm">Kai</div><div class="line w1"></div><div class="line w2"></div></div></div>
+      </div>
+    </div></div>
+    <div class="float-card right"><div class="ui">
+      <div class="rail"><span class="dot active"></span><span class="dot"></span></div>
+      <div class="channels"><div class="chan on"></div><div class="chan"></div><div class="chan on"></div></div>
+      <div class="chat">
+        <div class="msg"><span class="avatar s-cerulean"></span><div class="line w1"></div></div>
+        <div class="msg"><span class="avatar s-orange"></span><div class="line w2"></div></div>
+        <div class="msg"><span class="avatar s-green"></span><div class="line w1"></div></div>
+      </div>
+    </div></div>
+  </div>
+</section>
+
+<section class="section" id="features">
+  <div class="media reveal"><div class="media-panel">
+    <div class="row"><span class="avatar"></span><span class="nm">Luna</span><span class="tag">mod</span></div>
+    <div class="txt a"></div><div class="txt b"></div><div class="txt c"></div>
+    <div class="row" style="margin-top:14px"><span class="avatar g"></span><span class="nm">Finn</span></div>
+    <div class="txt a"></div>
+  </div></div>
+  <div class="copy reveal"><h2>Create an invite-only place where you belong</h2>
+    <p>Fable servers are organised into topic-based channels where you can collaborate, share, and just talk about your day — without clogging up a group chat.</p></div>
+</section>
+
+<section class="section flip" id="community">
+  <div class="media reveal"><div class="media-panel">
+    <div class="row"><span class="avatar y"></span><span class="nm">Ivy</span><span class="tag">admin</span></div>
+    <div class="txt a"></div><div class="txt b"></div>
+    <div class="row" style="margin-top:14px"><span class="avatar f"></span><span class="nm">Rowan</span></div>
+    <div class="txt a"></div><div class="txt c"></div>
+  </div></div>
+  <div class="copy reveal"><h2>Where hanging out is easy</h2>
+    <p>Grab a seat in a voice channel when you're free. Friends in your server can see you're around and instantly drop in — no calls, no ringing, just presence.</p></div>
+</section>
+
+<section class="section" id="voice">
+  <div class="media reveal"><div class="media-panel">
+    <div class="row"><span class="avatar s-cerulean"></span><span class="nm">Aria</span></div>
+    <div class="txt a"></div>
+    <div class="row" style="margin-top:14px"><span class="avatar s-orange"></span><span class="nm">Theo</span></div>
+    <div class="txt b"></div>
+  </div></div>
+  <div class="copy reveal"><h2>From a few to a fandom</h2>
+    <p>Get any community running with moderation tools, custom member access, and powerful admin features. Create private channels, assign roles, and keep things civil.</p></div>
+</section>
+
+<div class="band reveal" id="reliable">
+  <h2>RELIABLE TECH FOR STAYING CLOSE</h2>
+  <p>Low-latency voice and video feel like you're in the same room. Text chat that keeps up at any scale. Built to stay online when it matters.</p>
+  <div class="big-panel"><div class="ui">
+    <div class="rail"><span class="dot active"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+    <div class="channels"><div class="chan on"></div><div class="chan on"></div><div class="chan"></div><div class="chan on"></div><div class="chan"></div></div>
+    <div class="chat">
+      <div class="msg"><span class="avatar s-green"></span><div><div class="nm">Nova</div><div class="line w1"></div></div></div>
+      <div class="msg"><span class="avatar s-yellow"></span><div><div class="nm">Kai</div><div class="line w1"></div><div class="line w2"></div></div></div>
+      <div class="msg"><span class="avatar s-fuchsia"></span><div><div class="nm">Rei</div><div class="line w1"></div></div></div>
+      <div class="msg"><span class="avatar s-cerulean"></span><div><div class="nm">Aria</div><div class="line w1"></div><div class="line w2"></div></div></div>
+    </div>
+  </div></div>
+</div>
+
+<div class="cta" id="download">
+  <h2>Ready to start your journey?</h2>
+  <div class="cta-row">
+    <button class="btn btn-dark">⬇ Download for Windows</button>
+    <button class="btn btn-blurple">Open Fable in your browser</button>
+  </div>
+</div>
+
+<footer>
+  <div class="grid">
+    <div class="col"><h4>Product</h4><a href="#">Features</a><a href="#">Download</a><a href="#">Nitro</a><a href="#">Status</a></div>
+    <div class="col"><h4>Company</h4><a href="#">About</a><a href="#">Jobs</a><a href="#">Brand</a><a href="#">Newsroom</a></div>
+    <div class="col"><h4>Resources</h4><a href="#">College</a><a href="#">Support</a><a href="#">Safety</a><a href="#">Blog</a></div>
+    <div class="col"><h4>Policies</h4><a href="#">Terms</a><a href="#">Privacy</a><a href="#">Guidelines</a><a href="#">Licenses</a></div>
+    <div class="col"><h4>Download</h4><a href="#">Windows</a><a href="#">macOS</a><a href="#">Linux</a><a href="#">iOS &amp; Android</a></div>
+  </div>
+  <div class="legal">© 2026 Fable · design translated from a captured Discord reference card — semantic.json tokens + behaviors.md evidence</div>
+</footer>
+
+<script>
+  // scroll-driven reveal (captured interaction model: observer-based)
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  // trigger hero entrance stagger on load
+  window.addEventListener('load', () => document.body.classList.add('loaded'));
+</script>
+</body>
+</html>

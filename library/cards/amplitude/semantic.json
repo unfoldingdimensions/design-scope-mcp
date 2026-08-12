@@ -1,0 +1,276 @@
+{
+  "url": "https://amplitude.com",
+  "captured": "2026-08-10T10:34:32+00:00",
+  "named_tokens": {
+    "light": {
+      "--head-nav-height": "4rem",
+      "--benchmark-section-filter-container-height": "4rem"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "soft corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "soft",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "tooltip": 2147483647,
+    "modal": 2147483644,
+    "dialog": 1050,
+    "other": 100
+  },
+  "z_index_rows": [
+    {
+      "role": "tooltip",
+      "selector": ".engagement-tooltip",
+      "value": "2147483647"
+    },
+    {
+      "role": "modal",
+      "selector": ".engagement-nudge-modal",
+      "value": "2147483644"
+    },
+    {
+      "role": "modal",
+      "selector": ".engagement-nudge-modal-mock",
+      "value": "2147483644"
+    },
+    {
+      "role": "tooltip",
+      "selector": ".engagement-shortcut-tooltip, .engagement-shortcut-tooltip-remove",
+      "value": "99999999"
+    },
+    {
+      "role": "dialog",
+      "selector": ".rc-dialog-wrap",
+      "value": "1050"
+    },
+    {
+      "role": "dialog",
+      "selector": ".rc-dialog-mask",
+      "value": "1050"
+    },
+    {
+      "role": "other",
+      "selector": ":is(#engagement-wrapper, .engagement-card-portal-container) .engagement-widget-c",
+      "value": "100"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "992px",
+      "selector": "body, window",
+      "change": "font-size: 1.125rem"
+    },
+    {
+      "at": "992px",
+      "selector": "body, window",
+      "change": "line-height: 1.75rem"
+    },
+    {
+      "at": "992px",
+      "selector": "h1",
+      "change": "font-size: 55px"
+    },
+    {
+      "at": "992px",
+      "selector": "h1",
+      "change": "line-height: 65px"
+    },
+    {
+      "at": "992px",
+      "selector": "h1",
+      "change": "letter-spacing: -1px"
+    },
+    {
+      "at": "992px",
+      "selector": "h2",
+      "change": "font-size: 44px"
+    },
+    {
+      "at": "992px",
+      "selector": "h2",
+      "change": "line-height: 52px"
+    },
+    {
+      "at": "992px",
+      "selector": "h2",
+      "change": "letter-spacing: -0.5px"
+    },
+    {
+      "at": "992px",
+      "selector": "h3",
+      "change": "font-size: 36px"
+    },
+    {
+      "at": "992px",
+      "selector": "h3",
+      "change": "line-height: 44px"
+    },
+    {
+      "at": "992px",
+      "selector": "h3",
+      "change": "letter-spacing: -0.5px"
+    },
+    {
+      "at": "992px",
+      "selector": "h4",
+      "change": "font-size: 28px"
+    },
+    {
+      "at": "992px",
+      "selector": "h4",
+      "change": "line-height: 34px"
+    },
+    {
+      "at": "992px",
+      "selector": "h5",
+      "change": "font-size: 22px"
+    },
+    {
+      "at": "992px",
+      "selector": "h5",
+      "change": "line-height: 1.75rem"
+    },
+    {
+      "at": "380px",
+      "selector": ".\\!container",
+      "change": "max-width: 380px"
+    },
+    {
+      "at": "380px",
+      "selector": ".container",
+      "change": "max-width: 380px"
+    },
+    {
+      "at": "480px",
+      "selector": ".\\!container",
+      "change": "max-width: 480px"
+    },
+    {
+      "at": "480px",
+      "selector": ".container",
+      "change": "max-width: 480px"
+    },
+    {
+      "at": "768px",
+      "selector": ".\\!container",
+      "change": "max-width: 768px"
+    },
+    {
+      "at": "768px",
+      "selector": ".container",
+      "change": "max-width: 768px"
+    },
+    {
+      "at": "992px",
+      "selector": ".\\!container",
+      "change": "max-width: 992px"
+    },
+    {
+      "at": "992px",
+      "selector": ".container",
+      "change": "max-width: 992px"
+    },
+    {
+      "at": "1130px",
+      "selector": ".\\!container",
+      "change": "max-width: 1130px"
+    },
+    {
+      "at": "1130px",
+      "selector": ".container",
+      "change": "max-width: 1130px"
+    },
+    {
+      "at": "1342px",
+      "selector": ".\\!container",
+      "change": "max-width: 1342px"
+    },
+    {
+      "at": "1342px",
+      "selector": ".container",
+      "change": "max-width: 1342px"
+    },
+    {
+      "at": "992px",
+      "selector": ".long-form-rich-text h3",
+      "change": "font-size: 32px"
+    },
+    {
+      "at": "992px",
+      "selector": ".long-form-rich-text h3",
+      "change": "line-height: 38px"
+    },
+    {
+      "at": "992px",
+      "selector": ".long-form-rich-text h3",
+      "change": "letter-spacing: -0.5px"
+    },
+    {
+      "at": "992px",
+      "selector": ".long-form-rich-text h4",
+      "change": "font-size: 24px"
+    },
+    {
+      "at": "992px",
+      "selector": ".long-form-rich-text h4",
+      "change": "font-weight: 500"
+    },
+    {
+      "at": "992px",
+      "selector": ".long-form-rich-text h4",
+      "change": "line-height: 28px"
+    },
+    {
+      "at": "992px",
+      "selector": ".long-form-rich-text h5",
+      "change": "font-size: 1.125rem"
+    },
+    {
+      "at": "992px",
+      "selector": ".long-form-rich-text h5",
+      "change": "line-height: 1.75rem"
+    },
+    {
+      "at": "992px",
+      "selector": ".long-form-rich-text h5",
+      "change": "font-weight: 600"
+    },
+    {
+      "at": "992px",
+      "selector": ".long-form-rich-text h5",
+      "change": "letter-spacing: 0px"
+    },
+    {
+      "at": "992px",
+      "selector": ".text-hairline",
+      "change": "font-size: 22px"
+    },
+    {
+      "at": "992px",
+      "selector": ".text-hairline",
+      "change": "line-height: 26px"
+    },
+    {
+      "at": "768px",
+      "selector": ".btn",
+      "change": "font-size: 1.125rem"
+    }
+  ]
+}

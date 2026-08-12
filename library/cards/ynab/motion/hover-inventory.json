@@ -1,0 +1,65 @@
+{
+  "url": "https://www.ynab.com",
+  "hovers": [
+    {
+      "selector": "a[href]",
+      "file": "hover-01.png",
+      "box": {
+        "x": 80,
+        "y": 16,
+        "width": 90,
+        "height": 44
+      }
+    },
+    {
+      "selector": "button",
+      "file": "hover-02.png",
+      "box": {
+        "x": 80,
+        "y": 4566,
+        "width": 55,
+        "height": 30
+      }
+    },
+    {
+      "selector": "button",
+      "file": "hover-03.png",
+      "box": {
+        "x": 1305,
+        "y": 435,
+        "width": 55,
+        "height": 30
+      }
+    },
+    {
+      "selector": "button",
+      "file": "hover-04.png",
+      "box": {
+        "x": 555,
+        "y": 817,
+        "width": 175,
+        "height": 44
+      }
+    },
+    {
+      "selector": "button",
+      "file": "hover-05.png",
+      "box": {
+        "x": 425,
+        "y": 817,
+        "width": 130,
+        "height": 44
+      }
+    },
+    {
+      "selector": "[role=button]",
+      "file": "hover-06.png",
+      "box": {
+        "x": 189,
+        "y": 24,
+        "width": 129,
+        "height": 28
+      }
+    }
+  ]
+}

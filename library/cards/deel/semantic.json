@@ -1,0 +1,238 @@
+{
+  "url": "https://www.deel.com",
+  "captured": "2026-08-10T11:13:55+00:00",
+  "named_tokens": {
+    "light": {
+      "--font-inter": "'Inter','Inter Fallback',Arial,Helvetica,sans-serif",
+      "--font-bagoss-condensed": "'BagossCondensedFont','BagossCondensedFont Fallback',Arial,Helvetica,sans-serif",
+      "--font-bagoss-standard": "var(--font-bagoss-standard-vf),Arial,Helvetica,sans-serif",
+      "--font-bagoss-extended": "'BagossExtendedFont','BagossExtendedFont Fallback',Arial,Helvetica,sans-serif",
+      "--font-bagoss-standard-vf": "'BagossStandardVF','BagossStandardVF Fallback',Arial,Helvetica,sans-serif"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "rounded corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "rounded",
+    "type_mood": [
+      "serif-led"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {},
+  "z_index_rows": [],
+  "responsive": [
+    {
+      "at": "print",
+      "selector": "body",
+      "change": "background-color: rgb(255, 255, 255)"
+    },
+    {
+      "at": "print",
+      "selector": "body",
+      "change": "background-color: rgb(255, 255, 255)"
+    },
+    {
+      "at": "958px",
+      "selector": ".mui-1e0q6xs",
+      "change": "padding-top: 16px"
+    },
+    {
+      "at": "958px",
+      "selector": ".mui-1e0q6xs",
+      "change": "padding-right: 24px"
+    },
+    {
+      "at": "958px",
+      "selector": ".mui-1e0q6xs",
+      "change": "padding-bottom: 16px"
+    },
+    {
+      "at": "958px",
+      "selector": ".mui-1e0q6xs",
+      "change": "padding-left: 24px"
+    },
+    {
+      "at": "958px",
+      "selector": ".mui-r1bhz9",
+      "change": "padding-top: 16px"
+    },
+    {
+      "at": "958px",
+      "selector": ".mui-r1bhz9",
+      "change": "padding-right: 24px"
+    },
+    {
+      "at": "958px",
+      "selector": ".mui-r1bhz9",
+      "change": "padding-bottom: 16px"
+    },
+    {
+      "at": "958px",
+      "selector": ".mui-r1bhz9",
+      "change": "padding-left: 24px"
+    },
+    {
+      "at": "958px",
+      "selector": ".mui-wocel8",
+      "change": "align-items: flex-start"
+    },
+    {
+      "at": "958px",
+      "selector": ".mui-15wf9iq",
+      "change": "align-items: flex-start"
+    },
+    {
+      "at": "958px",
+      "selector": ".mui-6259yq",
+      "change": "align-items: flex-start"
+    },
+    {
+      "at": "958px",
+      "selector": ".mui-1ftg146",
+      "change": "flex-direction: column"
+    },
+    {
+      "at": "958px",
+      "selector": ".mui-1ftg146",
+      "change": "-webkit-box-pack: start"
+    },
+    {
+      "at": "958px",
+      "selector": ".mui-1ftg146",
+      "change": "justify-content: flex-start"
+    },
+    {
+      "at": "958px",
+      "selector": ".mui-1ftg146",
+      "change": "align-items: flex-start"
+    },
+    {
+      "at": "958px",
+      "selector": ".mui-1gellab",
+      "change": "flex-direction: column"
+    },
+    {
+      "at": "958px",
+      "selector": ".mui-1gellab",
+      "change": "-webkit-box-pack: start"
+    },
+    {
+      "at": "958px",
+      "selector": ".mui-1gellab",
+      "change": "justify-content: flex-start"
+    },
+    {
+      "at": "958px",
+      "selector": ".mui-1gellab",
+      "change": "align-items: flex-start"
+    },
+    {
+      "at": "390px",
+      "selector": ".mui-18n3lyj",
+      "change": "display: none"
+    },
+    {
+      "at": "390px",
+      "selector": ".mui-1wjc8ik",
+      "change": "display: none"
+    },
+    {
+      "at": "958px",
+      "selector": ".mui-9jehnj",
+      "change": "align-items: flex-start"
+    },
+    {
+      "at": "390px",
+      "selector": ".mui-9jehnj",
+      "change": "flex-direction: column"
+    },
+    {
+      "at": "390px",
+      "selector": ".mui-9jehnj",
+      "change": "row-gap: 8px"
+    },
+    {
+      "at": "390px",
+      "selector": ".mui-9jehnj",
+      "change": "column-gap: 8px"
+    },
+    {
+      "at": "958px",
+      "selector": ".mui-1ajlh86",
+      "change": "align-items: flex-start"
+    },
+    {
+      "at": "390px",
+      "selector": ".mui-1ajlh86",
+      "change": "flex-direction: column"
+    },
+    {
+      "at": "390px",
+      "selector": ".mui-1ajlh86",
+      "change": "row-gap: 8px"
+    },
+    {
+      "at": "390px",
+      "selector": ".mui-1ajlh86",
+      "change": "column-gap: 8px"
+    },
+    {
+      "at": "598px",
+      "selector": ".mui-d6t6ku *",
+      "change": "color: rgba(27, 27, 27, 0.85)"
+    },
+    {
+      "at": "598px",
+      "selector": ".mui-d6t6ku *",
+      "change": "font-family: Inter, \"Inter Fallback\", Arial, Helvetica, sans-serif"
+    },
+    {
+      "at": "598px",
+      "selector": ".mui-d6t6ku *",
+      "change": "font-size: 12px"
+    },
+    {
+      "at": "598px",
+      "selector": ".mui-d6t6ku *",
+      "change": "font-weight: 400"
+    },
+    {
+      "at": "598px",
+      "selector": ".mui-d6t6ku *",
+      "change": "line-height: 170%"
+    },
+    {
+      "at": "598px",
+      "selector": ".mui-d6t6ku.check-list ul li",
+      "change": "color: rgba(27, 27, 27, 0.85)"
+    },
+    {
+      "at": "598px",
+      "selector": ".mui-d6t6ku.check-list ul li",
+      "change": "font-family: Inter, \"Inter Fallback\", Arial, Helvetica, sans-serif"
+    },
+    {
+      "at": "598px",
+      "selector": ".mui-d6t6ku.check-list ul li",
+      "change": "font-size: 12px"
+    },
+    {
+      "at": "598px",
+      "selector": ".mui-d6t6ku.check-list ul li",
+      "change": "font-weight: 400"
+    }
+  ]
+}

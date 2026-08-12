@@ -1,0 +1,258 @@
+{
+  "url": "https://www.goat.com",
+  "captured": "2026-08-10T14:17:58+00:00",
+  "named_tokens": {
+    "light": {},
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "sharp corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "sharp",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "modal": 2147483647,
+    "banner": 2147483645,
+    "header": 200,
+    "notification": 4
+  },
+  "z_index_rows": [
+    {
+      "role": "notification",
+      "selector": ".defaultNotification",
+      "value": "4"
+    },
+    {
+      "role": "header",
+      "selector": ".gtewEj .accordionHeaderButton",
+      "value": "200"
+    },
+    {
+      "role": "modal",
+      "selector": "#onetrust-consent-sdk .ot-general-modal",
+      "value": "2147483647"
+    },
+    {
+      "role": "banner",
+      "selector": "#onetrust-banner-sdk.otFlat",
+      "value": "2147483645"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "769px",
+      "selector": ".jRSxlB",
+      "change": "max-width: 100%"
+    },
+    {
+      "at": "769px",
+      "selector": ".gYdYnI",
+      "change": "width: 10vw"
+    },
+    {
+      "at": "769px",
+      "selector": "html, body",
+      "change": "font-size: 11.5px"
+    },
+    {
+      "at": "769px",
+      "selector": "html, body",
+      "change": "line-height: 14px"
+    },
+    {
+      "at": "1180px",
+      "selector": ".defaultNotification",
+      "change": "display: none"
+    },
+    {
+      "at": "769px",
+      "selector": ".hrUIOx",
+      "change": "animation-name: ceXziA"
+    },
+    {
+      "at": "640px",
+      "selector": ".jruAAm",
+      "change": "padding-top: 0px"
+    },
+    {
+      "at": "640px",
+      "selector": ".jruAAm",
+      "change": "padding-right: 12px"
+    },
+    {
+      "at": "640px",
+      "selector": ".jruAAm",
+      "change": "padding-bottom: 0px"
+    },
+    {
+      "at": "640px",
+      "selector": ".jruAAm",
+      "change": "padding-left: 12px"
+    },
+    {
+      "at": "1180px",
+      "selector": ".fZeGEj",
+      "change": "background-color: rgb(0, 0, 0)"
+    },
+    {
+      "at": "1180px",
+      "selector": ".fZeGEj",
+      "change": "border-right-width: 1px"
+    },
+    {
+      "at": "1180px",
+      "selector": ".fZeGEj",
+      "change": "border-bottom-width: 1px"
+    },
+    {
+      "at": "1180px",
+      "selector": ".fZeGEj",
+      "change": "border-left-width: 1px"
+    },
+    {
+      "at": "1180px",
+      "selector": ".fZeGEj",
+      "change": "border-right-style: solid"
+    },
+    {
+      "at": "1180px",
+      "selector": ".fZeGEj",
+      "change": "border-bottom-style: solid"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".cdFgQy > li:hover",
+      "change": "text-decoration-line: underline"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".cdFgQy > li:hover",
+      "change": "text-decoration-thickness: initial"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".cdFgQy > li:hover",
+      "change": "text-decoration-style: initial"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".cdFgQy > li:hover",
+      "change": "text-decoration-color: initial"
+    },
+    {
+      "at": "1180px",
+      "selector": ".cdFgQy",
+      "change": "align-items: flex-end"
+    },
+    {
+      "at": "1180px",
+      "selector": ".cdFgQy",
+      "change": "color: rgb(255, 255, 255)"
+    },
+    {
+      "at": "1180px",
+      "selector": ".cdFgQy",
+      "change": "flex-direction: column"
+    },
+    {
+      "at": "1180px",
+      "selector": ".cdFgQy",
+      "change": "font-family: GOATProductVariableVF, sans-serif"
+    },
+    {
+      "at": "1180px",
+      "selector": ".cdFgQy",
+      "change": "font-weight: 300"
+    },
+    {
+      "at": "1180px",
+      "selector": ".cdFgQy > li",
+      "change": "margin-bottom: 8px"
+    },
+    {
+      "at": "1180px",
+      "selector": ".heIImW button",
+      "change": "padding-top: 0px"
+    },
+    {
+      "at": "1180px",
+      "selector": ".heIImW button",
+      "change": "padding-right: 0px"
+    },
+    {
+      "at": "1180px",
+      "selector": ".heIImW button",
+      "change": "padding-bottom: 0px"
+    },
+    {
+      "at": "1180px",
+      "selector": ".heIImW button",
+      "change": "padding-left: 0px"
+    },
+    {
+      "at": "1180px",
+      "selector": ".eeABMe",
+      "change": "display: none"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".eeABMe .closeButton:hover",
+      "change": "text-decoration-line: underline"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".eeABMe .closeButton:hover",
+      "change": "text-decoration-thickness: initial"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".eeABMe .closeButton:hover",
+      "change": "text-decoration-style: initial"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".eeABMe .closeButton:hover",
+      "change": "text-decoration-color: initial"
+    },
+    {
+      "at": "769px",
+      "selector": ".fKkwYP",
+      "change": "top: 0px"
+    },
+    {
+      "at": "769px",
+      "selector": ".fKkwYP",
+      "change": "height: 58px"
+    },
+    {
+      "at": "1180px",
+      "selector": ".fKkwYP",
+      "change": "top: 0px"
+    },
+    {
+      "at": "1180px",
+      "selector": ".fKkwYP",
+      "change": "height: 50px"
+    },
+    {
+      "at": "1180px",
+      "selector": ".imBwJh",
+      "change": "padding-top: 12px"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.recraft.ai",
+  "captured": "2026-08-10T08:18:31+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(255, 255, 255, 0.9)",
+          "after": "rgba(255, 255, 255, 0.8)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 70,
+    "tabs": 0,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": []
+}

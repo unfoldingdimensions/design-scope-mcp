@@ -1,0 +1,2408 @@
+{
+  "url": "https://www.zoom.com/",
+  "extractedAt": "2026-08-09T11:07:59.692Z",
+  "meta": {
+    "snapshotId": "9460f7d9-3a86-404c-ab2c-b1aab10cfdbe",
+    "httpStatus": 200,
+    "dembrandtVersion": "0.27.1",
+    "schemaVersion": "1.5.0",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "fontsReady": true,
+    "flags": {
+      "mobile": true
+    }
+  },
+  "siteName": "Zoom",
+  "logo": {
+    "source": "img",
+    "context": "header",
+    "url": "https://st1.zoom.us/homepage/20260805-1234/primary/dist/assets/zoommedia/logo-zoom-white@2x.png",
+    "width": 188,
+    "height": 43,
+    "rect": {
+      "x": 120,
+      "y": 26,
+      "width": 114,
+      "height": 26
+    },
+    "natural": {
+      "width": 188,
+      "height": 43
+    },
+    "alt": "logo-zoom-white@2x.png",
+    "type": "wordmark",
+    "reversed": false,
+    "background": null,
+    "safeZone": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "position": {
+      "top": 25.96875,
+      "left": 120
+    }
+  },
+  "logoInstances": [
+    {
+      "source": "img",
+      "context": "header",
+      "url": "https://st1.zoom.us/homepage/20260805-1234/primary/dist/assets/zoommedia/logo-zoom-white@2x.png",
+      "width": 188,
+      "height": 43,
+      "rect": {
+        "x": 120,
+        "y": 26,
+        "width": 114,
+        "height": 26
+      },
+      "natural": {
+        "width": 188,
+        "height": 43
+      },
+      "alt": "logo-zoom-white@2x.png",
+      "type": "wordmark",
+      "reversed": false,
+      "background": null,
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 25.96875,
+        "left": 120
+      }
+    },
+    {
+      "source": "img",
+      "context": "footer",
+      "url": "https://st1.zoom.us/homepage/20260805-1234/primary/dist/assets/zoommedia/logo-zoom-white@2x.png",
+      "width": 188,
+      "height": 43,
+      "rect": {
+        "x": 280,
+        "y": 5960,
+        "width": 114,
+        "height": 26
+      },
+      "natural": {
+        "width": 188,
+        "height": 43
+      },
+      "alt": "logo-zoom-white@2x.png",
+      "type": "wordmark",
+      "reversed": true,
+      "background": "#00053d",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 5959.8125,
+        "left": 280
+      }
+    }
+  ],
+  "favicons": [
+    {
+      "type": "icon",
+      "url": "https://st1.zoom.us/homepage/20260805-1234/primary/favicon.ico",
+      "sizes": null
+    },
+    {
+      "type": "shortcut icon",
+      "url": "https://st1.zoom.us/homepage/20260805-1234/primary/dist/assets/images/zoom.ico",
+      "sizes": null
+    },
+    {
+      "type": "og:image",
+      "url": "https://st1.zoom.us/homepage/20260805-1234/primary/dist/assets/images/thumb.png",
+      "sizes": null
+    }
+  ],
+  "colors": {
+    "semantic": {
+      "primary": "rgb(11, 92, 255)",
+      "secondary": "rgb(230, 240, 255)",
+      "background": "rgb(255, 255, 255)",
+      "text": "rgb(0, 0, 0)"
+    },
+    "palette": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 664,
+        "confidence": "high",
+        "sources": [
+          "nav-skip",
+          "accessibility-overview",
+          "[object"
+        ],
+        "lch": "lch(100% 0.03 53.35)",
+        "oklch": "oklch(100% 0 89.88)",
+        "role": "surface",
+        "onColor": "#000000",
+        "hover": "#d9d9d9"
+      },
+      {
+        "color": "rgb(0, 5, 61)",
+        "normalized": "#00053d",
+        "count": 483,
+        "confidence": "high",
+        "sources": [
+          "nav-workspace",
+          "nav-header",
+          "nav-drawer"
+        ],
+        "lch": "lch(3.54% 37.75 291.88)",
+        "oklch": "oklch(17.44% 0.105 264.13)",
+        "role": "surface",
+        "onColor": "#ffffff",
+        "hover": "#000649"
+      },
+      {
+        "color": "rgb(0, 3, 31)",
+        "normalized": "#00031f",
+        "count": 224,
+        "confidence": "high",
+        "sources": [
+          "hero",
+          "module-columns",
+          "fdn-zdcm-feature-accordion"
+        ],
+        "lch": "lch(1.34% 16.24 282.65)",
+        "oklch": "oklch(12.3% 0.065 263.44)",
+        "role": "surface",
+        "onColor": "#ffffff",
+        "hover": "#000425"
+      },
+      {
+        "color": "rgb(11, 92, 255)",
+        "normalized": "#0b5cff",
+        "count": 152,
+        "confidence": "high",
+        "sources": [
+          "nav-skip",
+          "accessibility-overview",
+          "zdcm-logo-white"
+        ],
+        "lch": "lch(43.96% 93.2 288.99)",
+        "oklch": "oklch(54.62% 0.251 262.48)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#0d6eff",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 136,
+        "confidence": "high",
+        "sources": [
+          "fdn-logo-slide",
+          "module-columns",
+          "swiper"
+        ],
+        "lch": "lch(0% 0 0)",
+        "oklch": "oklch(0% 0 0)",
+        "role": "surface",
+        "onColor": "#ffffff",
+        "hover": "#000000"
+      },
+      {
+        "color": "rgb(105, 107, 110)",
+        "normalized": "#696b6e",
+        "count": 69,
+        "confidence": "high",
+        "sources": [
+          "divider"
+        ],
+        "lch": "lch(45.12% 1.98 260.77)",
+        "oklch": "oklch(52.7% 0.005 258.34)",
+        "role": "neutral",
+        "onColor": "#ffffff",
+        "hover": "#7e8084"
+      },
+      {
+        "color": "rgb(209, 222, 242)",
+        "normalized": "#d1def2",
+        "count": 18,
+        "confidence": "high",
+        "sources": [
+          "fdn-button"
+        ],
+        "lch": "lch(87.94% 11.46 262.22)",
+        "oklch": "oklch(89.69% 0.031 258.94)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#b2bdce",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(106, 170, 228)",
+        "normalized": "#6aaae4",
+        "count": 1,
+        "confidence": "high",
+        "sources": [],
+        "lch": "lch(67.07% 37.16 256.31)",
+        "oklch": "oklch(71.83% 0.108 247.23)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#5a91c2",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(1, 16, 103)",
+        "normalized": "#011067",
+        "count": 2,
+        "confidence": "low",
+        "sources": [
+          "gradient"
+        ],
+        "lch": "lch(10.56% 58.54 296.71)",
+        "oklch": "oklch(25.2% 0.148 264.46)"
+      },
+      {
+        "color": "rgb(16, 16, 16)",
+        "normalized": "#101010",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      }
+    ],
+    "cssVariables": {},
+    "detected": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 664,
+        "usageFrac": 0.35300372142477404,
+        "confidence": "high",
+        "sources": [
+          "nav-skip",
+          "accessibility-overview",
+          "[object",
+          "fdn-button",
+          "module-columns"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(0, 5, 61)",
+        "normalized": "#00053d",
+        "count": 483,
+        "usageFrac": 0.2567783094098884,
+        "confidence": "high",
+        "sources": [
+          "nav-workspace",
+          "nav-header",
+          "nav-drawer",
+          "nav-primary",
+          "nav-utils"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(0, 3, 31)",
+        "normalized": "#00031f",
+        "count": 224,
+        "usageFrac": 0.1190855927698033,
+        "confidence": "high",
+        "sources": [
+          "hero",
+          "module-columns",
+          "fdn-zdcm-feature-accordion",
+          "cta-container",
+          "fdn-autoimage"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(11, 92, 255)",
+        "normalized": "#0b5cff",
+        "count": 152,
+        "usageFrac": 0.08080808080808081,
+        "confidence": "high",
+        "sources": [
+          "nav-skip",
+          "accessibility-overview",
+          "zdcm-logo-white",
+          "fdn-alert-banner",
+          "fdn-button"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 136,
+        "usageFrac": 0.07230196703880915,
+        "confidence": "high",
+        "sources": [
+          "fdn-logo-slide",
+          "module-columns",
+          "swiper",
+          "swiper-wrapper",
+          "swiper-slide"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(24, 24, 25)",
+        "normalized": "#181819",
+        "count": 108,
+        "usageFrac": 0.05741626794258373,
+        "confidence": "high",
+        "sources": [
+          "rating-score",
+          "star",
+          "rating-text"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(105, 107, 110)",
+        "normalized": "#696b6e",
+        "count": 69,
+        "usageFrac": 0.03668261562998405,
+        "confidence": "high",
+        "sources": [
+          "divider"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(209, 222, 242)",
+        "normalized": "#d1def2",
+        "count": 18,
+        "usageFrac": 0.009569377990430622,
+        "confidence": "high",
+        "sources": [
+          "fdn-button"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(230, 240, 255)",
+        "normalized": "#e6f0ff",
+        "count": 12,
+        "usageFrac": 0.006379585326953748,
+        "confidence": "high",
+        "sources": [
+          "nav-footer"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(243, 248, 255)",
+        "normalized": "#f3f8ff",
+        "count": 5,
+        "usageFrac": 0.002658160552897395,
+        "confidence": "high",
+        "sources": [
+          "fdn-button"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(224, 224, 230)",
+        "normalized": "#e0e0e6",
+        "count": 4,
+        "usageFrac": 0.002126528442317916,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(23, 34, 246)",
+        "normalized": "#1722f6",
+        "count": 2,
+        "usageFrac": 0.001063264221158958,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(68, 136, 255)",
+        "normalized": "#4488ff",
+        "count": 2,
+        "usageFrac": 0.001063264221158958,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(106, 170, 228)",
+        "normalized": "#6aaae4",
+        "count": 1,
+        "usageFrac": 0.000531632110579479,
+        "confidence": "high",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(102, 153, 204)",
+        "normalized": "#6699cc",
+        "count": 1,
+        "usageFrac": 0.000531632110579479,
+        "confidence": "high",
+        "sources": [],
+        "isToken": false
+      }
+    ],
+    "_raw": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 136
+      },
+      {
+        "color": "rgb(0, 5, 61)",
+        "normalized": "#00053d",
+        "count": 483
+      },
+      {
+        "color": "rgb(11, 92, 255)",
+        "normalized": "#0b5cff",
+        "count": 152
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 664
+      },
+      {
+        "color": "rgb(105, 107, 110)",
+        "normalized": "#696b6e",
+        "count": 69
+      },
+      {
+        "color": "rgb(0, 3, 31)",
+        "normalized": "#00031f",
+        "count": 224
+      },
+      {
+        "color": "rgb(24, 24, 25)",
+        "normalized": "#181819",
+        "count": 108
+      }
+    ]
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "heading-1",
+        "family": "Happy Face Semi Bold",
+        "fallbacks": "Helvetica, Arial, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans",
+        "size": "54px (3.38rem)",
+        "weight": 500,
+        "lineHeight": "1.12",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Happy Face Semi Bold",
+        "fallbacks": null,
+        "size": "46px (2.88rem)",
+        "weight": 400,
+        "lineHeight": "1.14",
+        "spacing": "-1.4px",
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Happy Face Semi Bold",
+        "fallbacks": null,
+        "size": "46px (2.88rem)",
+        "weight": 400,
+        "lineHeight": "1.14",
+        "spacing": "-1.4px",
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Happy Face Semi Bold",
+        "fallbacks": "Helvetica, Arial, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans",
+        "size": "46px (2.88rem)",
+        "weight": 500,
+        "lineHeight": "1.14",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Happy Face Semi Bold",
+        "fallbacks": "Helvetica, Arial, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans",
+        "size": "46px (2.88rem)",
+        "weight": 500,
+        "lineHeight": "1.14",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "Happy Face Semi Bold",
+        "fallbacks": "Helvetica, Arial, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans",
+        "size": "32px (2.00rem)",
+        "weight": 500,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Happy Face Semi Bold",
+        "fallbacks": "Helvetica, Arial, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans",
+        "size": "28px (1.75rem)",
+        "weight": 500,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "26px (1.63rem)",
+        "weight": 600,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "26px (1.63rem)",
+        "weight": 600,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "24px (1.50rem)",
+        "weight": 700,
+        "lineHeight": "1.00",
+        "spacing": "-0.48px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "24px (1.50rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "22px (1.38rem)",
+        "weight": 450,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "22px (1.38rem)",
+        "weight": 450,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "20px (1.25rem)",
+        "weight": 600,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "20px (1.25rem)",
+        "weight": 500,
+        "lineHeight": "1.15",
+        "spacing": "-0.4px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "18px (1.13rem)",
+        "weight": 600,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "18px (1.13rem)",
+        "weight": 400,
+        "lineHeight": "1.40",
+        "spacing": "-0.56px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "18px (1.13rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.20",
+        "spacing": "-0.28px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.35",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.20",
+        "spacing": "-0.28px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.05",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": "-0.64px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": "-0.64px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 700,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 700,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": "0.16px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "ui-sans-serif",
+        "fallbacks": "system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "15px (0.94rem)",
+        "weight": 600,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "15px (0.94rem)",
+        "weight": 500,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "15px (0.94rem)",
+        "weight": 500,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "15px (0.94rem)",
+        "weight": 450,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "15px (0.94rem)",
+        "weight": 600,
+        "lineHeight": "1.20",
+        "spacing": "-0.45px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "14.4px (0.90rem)",
+        "weight": 400,
+        "lineHeight": "2.64",
+        "spacing": "0.144px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "14.4px (0.90rem)",
+        "weight": 700,
+        "lineHeight": "1.00",
+        "spacing": "0.144px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "14.4px (0.90rem)",
+        "weight": 900,
+        "lineHeight": "1.32",
+        "spacing": "2.88px",
+        "transform": "uppercase"
+      },
+      {
+        "context": "body",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.20",
+        "spacing": "-0.28px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Happy Face Semi Bold",
+        "fallbacks": "Helvetica, Arial, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.35",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "icozm",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 700,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 700,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-4",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 700,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-4",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "13.6px (0.85rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "13.6px (0.85rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "13px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "12.992px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "12.992px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "1.20",
+        "spacing": "-0.24px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "12px (0.75rem)",
+        "weight": 600,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "12px (0.75rem)",
+        "weight": 500,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "12px (0.75rem)",
+        "weight": 500,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "1.20",
+        "spacing": "-0.24px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "12px (0.75rem)",
+        "weight": 500,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "12px (0.75rem)",
+        "weight": 700,
+        "lineHeight": "1.00",
+        "spacing": "0.96px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "12px (0.75rem)",
+        "weight": 900,
+        "lineHeight": "1.58",
+        "spacing": "2.4px",
+        "transform": "uppercase"
+      },
+      {
+        "context": "link",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "10px (0.63rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "10px (0.63rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "8px (0.50rem)",
+        "weight": 400,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "0px (0.00rem)",
+        "weight": 400,
+        "lineHeight": "NaN",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Almaden Sans",
+        "fallbacks": "Helvetica, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, Arial",
+        "size": "0px (0.00rem)",
+        "weight": 400,
+        "lineHeight": "NaN",
+        "spacing": null,
+        "transform": null
+      }
+    ],
+    "sources": {
+      "googleFonts": [],
+      "adobeFonts": false,
+      "variableFonts": false,
+      "selfHostedFonts": [
+        "AlmadenSans-Bold-WebXL.woff2",
+        "AlmadenSans-Medium-WebXL.woff2",
+        "AlmadenSans-Regular-WebXL.woff2",
+        "AlmadenSans-SemiBold-WebXL.woff2",
+        "HappyDisplay-SemiBold.woff2",
+        "icozm.ttf"
+      ],
+      "customFonts": [
+        "AlmadenSans-Bold-WebXL.woff2",
+        "AlmadenSans-Medium-WebXL.woff2",
+        "AlmadenSans-Regular-WebXL.woff2",
+        "AlmadenSans-SemiBold-WebXL.woff2",
+        "HappyDisplay-SemiBold.woff2",
+        "icozm.ttf"
+      ]
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "1px",
+        "display": "1px",
+        "rem": "0.06rem",
+        "count": 44,
+        "numericValue": 1
+      },
+      {
+        "px": "2px",
+        "display": "2px",
+        "rem": "0.13rem",
+        "count": 4,
+        "numericValue": 2
+      },
+      {
+        "px": "4px",
+        "display": "4px",
+        "rem": "0.25rem",
+        "count": 48,
+        "numericValue": 4
+      },
+      {
+        "px": "5px",
+        "display": "5px",
+        "rem": "0.31rem",
+        "count": 12,
+        "numericValue": 5
+      },
+      {
+        "px": "6px",
+        "display": "6px",
+        "rem": "0.38rem",
+        "count": 124,
+        "numericValue": 6
+      },
+      {
+        "px": "8px",
+        "display": "8px",
+        "rem": "0.50rem",
+        "count": 214,
+        "numericValue": 8
+      },
+      {
+        "px": "10px",
+        "display": "10px",
+        "rem": "0.63rem",
+        "count": 86,
+        "numericValue": 10
+      },
+      {
+        "px": "11px",
+        "display": "11px",
+        "rem": "0.69rem",
+        "count": 4,
+        "numericValue": 11
+      },
+      {
+        "px": "11.2px",
+        "display": "11.2px",
+        "rem": "0.70rem",
+        "count": 8,
+        "numericValue": 11.2
+      },
+      {
+        "px": "12px",
+        "display": "12px",
+        "rem": "0.75rem",
+        "count": 202,
+        "numericValue": 12
+      },
+      {
+        "px": "14px",
+        "display": "14px",
+        "rem": "0.88rem",
+        "count": 37,
+        "numericValue": 14
+      },
+      {
+        "px": "16px",
+        "display": "16px",
+        "rem": "1.00rem",
+        "count": 158,
+        "numericValue": 16
+      },
+      {
+        "px": "16.796px",
+        "display": "16.796px",
+        "rem": "1.05rem",
+        "count": 4,
+        "numericValue": 16.796
+      },
+      {
+        "px": "17.442px",
+        "display": "17.442px",
+        "rem": "1.09rem",
+        "count": 4,
+        "numericValue": 17.442
+      },
+      {
+        "px": "20px",
+        "display": "20px",
+        "rem": "1.25rem",
+        "count": 66,
+        "numericValue": 20
+      },
+      {
+        "px": "24px",
+        "display": "24px",
+        "rem": "1.50rem",
+        "count": 4,
+        "numericValue": 24
+      },
+      {
+        "px": "30px",
+        "display": "30px",
+        "rem": "1.88rem",
+        "count": 6,
+        "numericValue": 30
+      },
+      {
+        "px": "32px",
+        "display": "32px",
+        "rem": "2.00rem",
+        "count": 23,
+        "numericValue": 32
+      },
+      {
+        "px": "40px",
+        "display": "40px",
+        "rem": "2.50rem",
+        "count": 31,
+        "numericValue": 40
+      },
+      {
+        "px": "60px",
+        "display": "60px",
+        "rem": "3.75rem",
+        "count": 18,
+        "numericValue": 60
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "0px 0px 20px 20px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "0px 0px 16px 16px",
+        "count": 4,
+        "elements": [
+          "img"
+        ],
+        "confidence": "medium",
+        "numericValue": 0
+      },
+      {
+        "value": "1px",
+        "count": 11,
+        "elements": [
+          "span"
+        ],
+        "confidence": "high",
+        "numericValue": 1
+      },
+      {
+        "value": "2px",
+        "count": 15,
+        "elements": [
+          "Close",
+          "div",
+          "button",
+          "Back"
+        ],
+        "confidence": "high",
+        "numericValue": 2
+      },
+      {
+        "value": "2.5px",
+        "count": 2,
+        "elements": [
+          "region"
+        ],
+        "confidence": "low",
+        "numericValue": 2.5
+      },
+      {
+        "value": "3px",
+        "count": 4,
+        "elements": [
+          "div",
+          "button"
+        ],
+        "confidence": "medium",
+        "numericValue": 3
+      },
+      {
+        "value": "4px",
+        "count": 2,
+        "elements": [
+          "img"
+        ],
+        "confidence": "low",
+        "numericValue": 4
+      },
+      {
+        "value": "8px",
+        "count": 197,
+        "elements": [
+          "button",
+          "div",
+          "languageitem",
+          "menuitem",
+          "More products and services"
+        ],
+        "confidence": "high",
+        "numericValue": 8
+      },
+      {
+        "value": "10px",
+        "count": 6,
+        "elements": [
+          "Open search",
+          "input",
+          "button",
+          "span"
+        ],
+        "confidence": "medium",
+        "numericValue": 10
+      },
+      {
+        "value": "12px",
+        "count": 39,
+        "elements": [
+          "button",
+          "a",
+          "region",
+          "language",
+          "menu"
+        ],
+        "confidence": "high",
+        "numericValue": 12
+      },
+      {
+        "value": "12px 12px 0px 0px",
+        "count": 3,
+        "elements": [
+          "img"
+        ],
+        "confidence": "low",
+        "numericValue": 12
+      },
+      {
+        "value": "15px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 15
+      },
+      {
+        "value": "16px",
+        "count": 5,
+        "elements": [
+          "video",
+          "My Notes",
+          "Zoom wins Emmy",
+          "Eric Yuan on accessible AI: Free AI tools for business",
+          "Zoom launches AI app for frontline workers"
+        ],
+        "confidence": "medium",
+        "numericValue": 16
+      },
+      {
+        "value": "17px",
+        "count": 1,
+        "elements": [
+          "Filter"
+        ],
+        "confidence": "low",
+        "numericValue": 17
+      },
+      {
+        "value": "20px 20px 0px 0px",
+        "count": 4,
+        "elements": [
+          "Product navigation",
+          "AI navigation",
+          "main",
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 20
+      },
+      {
+        "value": "20px",
+        "count": 30,
+        "elements": [
+          "div",
+          "group",
+          "span"
+        ],
+        "confidence": "high",
+        "numericValue": 20
+      },
+      {
+        "value": "24px",
+        "count": 1,
+        "elements": [
+          "image"
+        ],
+        "confidence": "low",
+        "numericValue": 24
+      },
+      {
+        "value": "28px",
+        "count": 1,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low",
+        "numericValue": 28
+      },
+      {
+        "value": "50px",
+        "count": 1,
+        "elements": [
+          "Cookie list search"
+        ],
+        "confidence": "low",
+        "numericValue": 50
+      },
+      {
+        "value": "100px",
+        "count": 3,
+        "elements": [
+          "div",
+          "button"
+        ],
+        "confidence": "low",
+        "numericValue": 100
+      },
+      {
+        "value": "999px",
+        "count": 1,
+        "elements": [
+          "Pause video"
+        ],
+        "confidence": "low",
+        "numericValue": 999
+      },
+      {
+        "value": "50%",
+        "count": 16,
+        "elements": [
+          "Previous slide",
+          "div",
+          "Next slide",
+          "button"
+        ],
+        "confidence": "high",
+        "numericValue": 50
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "0px 0px 1px",
+        "style": "none none solid",
+        "color": "rgb(105, 107, 110)",
+        "count": 16,
+        "elements": [
+          "div",
+          "p"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "2px",
+        "style": "outset",
+        "color": "rgb(0, 0, 0)",
+        "count": 15,
+        "elements": [
+          "button"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(11, 92, 255)",
+        "count": 14,
+        "elements": [
+          "button",
+          "a"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "none none solid",
+        "color": "rgb(0, 5, 61)",
+        "count": 5,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(14, 114, 237)",
+        "count": 5,
+        "elements": [
+          "button"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 1px 1px",
+        "style": "none solid solid",
+        "color": "rgb(0, 0, 0)",
+        "count": 3,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(255, 255, 255)",
+        "count": 3,
+        "elements": [
+          "span"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 1px 0px 0px",
+        "style": "none solid none none",
+        "color": "rgb(0, 5, 61)",
+        "count": 2,
+        "elements": [
+          "ul"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(209, 222, 242)",
+        "count": 2,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(230, 240, 255)",
+        "count": 1,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(230, 240, 255)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(0, 5, 61)",
+        "count": 1,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(180, 208, 248)",
+        "count": 1,
+        "elements": [
+          "card"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "none none solid",
+        "color": "rgb(0, 0, 0)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(50, 174, 136)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(216, 216, 216)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(209, 209, 209)",
+        "count": 1,
+        "elements": [
+          "input"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(187, 187, 187)",
+        "count": 1,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(216, 216, 216)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [
+    {
+      "shadow": "rgba(0, 0, 0, 0.2) 0px -9px 75px 0px, rgba(0, 0, 0, 0.15) 0px -2.01px 20px 0px, rgba(0, 0, 0, 0.1) 0px -0.599px 10px 0px",
+      "count": 4,
+      "confidence": "medium"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.05) 0px 4px 10px 0px",
+      "count": 4,
+      "confidence": "medium"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.2) 0px 4px 8px 0px",
+      "count": 2,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.05) 0px 6px 80px 0px, rgba(0, 0, 0, 0.03) 0px 1.34px 17.869px 0px, rgba(0, 0, 0, 0.02) 0px 0.399px 5.32px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.07) 0px 9px 80px 0px, rgba(0, 0, 0, 0.04) 0px 2.01px 17.869px 0px, rgba(0, 0, 0, 0.03) 0px 0.599px 5.32px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.04) 0px 33px 26px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.16) 0px 16px 64px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.2) 0px 0px 18px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgb(153, 153, 153) 0px 2px 10px -3px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgb(199, 197, 199) -3px -3px 5px -2px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgb(199, 197, 199) 0px 0px 12px 2px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(19, 22, 25, 0.1) 0px 4px 8px 0px, rgba(19, 22, 25, 0.1) 0px 2px 4px 0px",
+      "count": 1,
+      "confidence": "low"
+    }
+  ],
+  "gradients": [
+    {
+      "gradient": "linear-gradient(360deg, rgb(1, 16, 103), rgb(11, 92, 255))",
+      "type": "linear",
+      "stopColors": [
+        "rgb(1, 16, 103)",
+        "rgb(11, 92, 255)"
+      ],
+      "count": 2
+    },
+    {
+      "gradient": "linear-gradient(360deg, rgb(1, 16, 103), rgb(11, 92, 255) 80%, rgb(11, 92, 255))",
+      "type": "linear",
+      "stopColors": [
+        "rgb(1, 16, 103)",
+        "rgb(11, 92, 255)",
+        "rgb(11, 92, 255)"
+      ],
+      "count": 2
+    },
+    {
+      "gradient": "radial-gradient(circle, rgb(255, 255, 255) 1.5px, rgba(0, 0, 0, 0) 0px)",
+      "type": "radial",
+      "stopColors": [
+        "rgb(255, 255, 255)",
+        "rgba(0, 0, 0, 0)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "radial-gradient(400% 240% at 50% 100%, rgb(255, 255, 255), rgb(255, 255, 255) 10%, 15%, rgb(199, 197, 253) 16%, rgba(154, 103, 250, 0.6) 17%, 21%, rgb(38, 76, 171) 28%, 35%, rgb(0, 3, 29) 45%, rgb(0, 3, 29))",
+      "type": "radial",
+      "stopColors": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(199, 197, 253)",
+        "rgba(154, 103, 250, 0.6)",
+        "rgb(38, 76, 171)",
+        "rgb(0, 3, 29)",
+        "rgb(0, 3, 29)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(-81.05deg, rgb(251, 50, 126) 0%, rgb(11, 92, 255) 100%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(251, 50, 126)",
+        "rgb(11, 92, 255)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(90deg, rgb(23, 34, 246) 0%, rgb(108, 176, 255) 50%, rgb(141, 93, 247) 100%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(23, 34, 246)",
+        "rgb(108, 176, 255)",
+        "rgb(141, 93, 247)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(346deg, rgb(0, 5, 61) 40.29%, rgb(0, 1, 17) 101.94%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(0, 5, 61)",
+        "rgb(0, 1, 17)"
+      ],
+      "count": 1
+    }
+  ],
+  "motion": {
+    "durations": [
+      {
+        "value": "0.001s",
+        "ms": 1,
+        "count": 955
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease",
+        "type": "ease",
+        "count": 964
+      },
+      {
+        "value": "ease-in-out",
+        "type": "ease-in-out",
+        "count": 30
+      },
+      {
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "type": "custom",
+        "count": 15
+      },
+      {
+        "value": "ease-in",
+        "type": "ease-in",
+        "count": 9
+      },
+      {
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "type": "ease-out",
+        "count": 1
+      }
+    ],
+    "animations": [
+      {
+        "name": "fadeIn",
+        "duration": "0.001s",
+        "easing": "ease-out",
+        "count": 1,
+        "contexts": [
+          "other"
+        ]
+      },
+      {
+        "name": "autoslider",
+        "duration": "0.001s",
+        "easing": "linear",
+        "count": 1,
+        "contexts": [
+          "other"
+        ]
+      },
+      {
+        "name": "otFloatingBtnIntro",
+        "duration": "0.001s",
+        "easing": "ease",
+        "count": 1,
+        "contexts": [
+          "button"
+        ]
+      }
+    ],
+    "contexts": {
+      "nav": {
+        "count": 245,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "max-width",
+          "opacity"
+        ]
+      },
+      "link": {
+        "count": 181,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "transform",
+          "box-shadow",
+          "background"
+        ]
+      },
+      "button": {
+        "count": 32,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "background",
+          "color",
+          "transform",
+          "box-shadow"
+        ]
+      },
+      "hero": {
+        "count": 16,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "media": {
+        "count": 18,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "card": {
+        "count": 70,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "-webkit-transform",
+          "opacity",
+          "max-height",
+          "padding"
+        ]
+      },
+      "overlay": {
+        "count": 10,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "max-height"
+        ]
+      }
+    },
+    "interactiveDeltas": []
+  },
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(230, 240, 255)",
+            "color": "rgb(0, 5, 61)",
+            "padding": "16px 30px 16px 12px",
+            "borderRadius": "12px",
+            "border": "0px none rgb(0, 5, 61)",
+            "fontSize": "16px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "16px",
+        "text": "Popular",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(230, 240, 255)",
+            "color": "rgb(0, 5, 61)",
+            "padding": "4px 20px",
+            "borderRadius": "12px",
+            "border": "1px solid rgb(230, 240, 255)",
+            "fontSize": "14px",
+            "fontWeight": "600"
+          }
+        },
+        "fontWeight": "600",
+        "fontSize": "14px",
+        "text": "Contact Sales",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(11, 92, 255)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "4px 20px",
+            "borderRadius": "12px",
+            "border": "1px solid rgb(11, 92, 255)",
+            "fontSize": "14px",
+            "fontWeight": "600"
+          }
+        },
+        "fontWeight": "600",
+        "fontSize": "14px",
+        "text": "Sign Up Free",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(0, 5, 61)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "4px 20px",
+            "borderRadius": "12px",
+            "border": "1px solid rgb(0, 5, 61)",
+            "fontSize": "16px",
+            "fontWeight": "600"
+          }
+        },
+        "fontWeight": "600",
+        "fontSize": "16px",
+        "text": "Explore products Explore products",
+        "confidence": "medium"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(243, 248, 255)",
+            "color": "rgb(0, 5, 61)",
+            "padding": "4px 20px",
+            "borderRadius": "12px",
+            "border": "1px solid rgb(209, 222, 242)",
+            "fontSize": "16px",
+            "fontWeight": "600"
+          }
+        },
+        "fontWeight": "600",
+        "fontSize": "16px",
+        "text": "Find your plan Find your plan",
+        "confidence": "medium"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(11, 92, 255)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "4px 16px",
+            "borderRadius": "10px",
+            "border": "1px solid rgb(11, 92, 255)",
+            "fontSize": "16px",
+            "fontWeight": "600"
+          }
+        },
+        "fontWeight": "600",
+        "fontSize": "16px",
+        "text": "Get started today Get started today",
+        "confidence": "medium"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(243, 248, 255)",
+            "color": "rgb(0, 5, 61)",
+            "padding": "4px 16px",
+            "borderRadius": "10px",
+            "border": "1px solid rgb(209, 222, 242)",
+            "fontSize": "16px",
+            "fontWeight": "600"
+          }
+        },
+        "fontWeight": "600",
+        "fontSize": "16px",
+        "text": "Find your plan Find your plan",
+        "confidence": "medium"
+      }
+    ],
+    "inputs": {
+      "text": [],
+      "checkbox": [],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "rgb(56, 96, 190)",
+            "textDecoration": "none"
+          }
+        }
+      },
+      {
+        "color": "rgb(11, 92, 255)",
+        "textDecoration": "none",
+        "fontWeight": "700",
+        "states": {
+          "default": {
+            "color": "rgb(11, 92, 255)",
+            "textDecoration": "underline"
+          },
+          "hover": {
+            "color": "rgb(56, 96, 190)",
+            "textDecoration": "none"
+          }
+        }
+      },
+      {
+        "color": "rgb(0, 5, 61)",
+        "textDecoration": "none",
+        "fontWeight": "600",
+        "states": {
+          "default": {
+            "color": "rgb(0, 5, 61)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "rgb(56, 96, 190)",
+            "textDecoration": "none"
+          }
+        }
+      },
+      {
+        "color": "rgb(0, 3, 31)",
+        "textDecoration": "none",
+        "fontWeight": "500",
+        "states": {
+          "default": {
+            "color": "rgb(0, 3, 31)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "rgb(56, 96, 190)",
+            "textDecoration": "none"
+          }
+        }
+      }
+    ],
+    "badges": {
+      "all": [],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": []
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "400px"
+    },
+    {
+      "px": "425px"
+    },
+    {
+      "px": "426px"
+    },
+    {
+      "px": "476px"
+    },
+    {
+      "px": "530px"
+    },
+    {
+      "px": "550px"
+    },
+    {
+      "px": "560px"
+    },
+    {
+      "px": "600px"
+    },
+    {
+      "px": "640px"
+    },
+    {
+      "px": "767px"
+    },
+    {
+      "px": "768px"
+    },
+    {
+      "px": "896px"
+    },
+    {
+      "px": "1024px"
+    },
+    {
+      "px": "1025px"
+    }
+  ],
+  "iconSystem": [],
+  "frameworks": []
+}

@@ -1,0 +1,388 @@
+{
+  "url": "https://www.ikea.com",
+  "captured": "2026-08-10T14:02:58+00:00",
+  "named_tokens": {
+    "light": {
+      "--ikea-font": "\"Noto IKEA\",\"Noto Sans\",\"Roboto\",\"Open Sans\",system-ui,sans-serif",
+      "--background-color": "#fffefb",
+      "--color-background": "#fffefb",
+      "--container-max-width": "90rem",
+      "--container-spacing-desktop": "1.5rem",
+      "--container-spacing-tablet": "1rem",
+      "--container-spacing-mobile": "1rem",
+      "--vertical-spacing-desktop": "10.5rem",
+      "--vertical-spacing-tablet": "5rem",
+      "--vertical-spacing-mobile": "4rem",
+      "--grid-gap": "1.5rem",
+      "--grid-gap-mobile": "1rem",
+      "--radius": ".5rem",
+      "--focus-visible-relative-for-accessibility": "relative",
+      "--text-x-direction": "1",
+      "--color-logo": "#fae6e6",
+      "--color-off-white": "#fffefb",
+      "--color-border": "#f0ede8",
+      "--color-footer": "#806e6e",
+      "--color-light": "#ffffff",
+      "--color-ikea-blue": "#0058a3",
+      "--color-ikea-yellow": "#ffdb00",
+      "--color-ikea-yellow-hover": "#ffe53a",
+      "--color-ikea-yellow-light": "#fff094",
+      "--color-text-dark": "rgba(0, 0, 0, .74)",
+      "--color-text-darker": "#111111",
+      "--color-text-black": "#000",
+      "--color-grey": "#dfdfdf",
+      "--color-grey-dark": "#999999",
+      "--color-grey-dim": "#484848",
+      "--dotnet-border-color": "#ccc",
+      "--dotnet-border-style": ".0625rem solid var(--dotnet-border-color)",
+      "--text-color": "#111111",
+      "--main-bg-onetrust": "#ffffff",
+      "--secondary-bg-onetrust": "#f5f5f5",
+      "--confirm-onetrust": "#0058a3",
+      "--link-onetrust": "#3860be",
+      "--dark-onetrust": "#111",
+      "--light-onetrust": "#fff",
+      "--light-dark-onetrust": "#929292",
+      "--border-onetrust": "#ddd",
+      "--box-border-radius": ".5rem",
+      "--content-border-radius": ".125rem",
+      "--breadcrumbs-spacing-top": "2rem",
+      "--breadcrumbs-spacing-bottom": "3rem",
+      "--breadcrumbs-spacing-horizontal": "var(--navigation-spacing-desktop, 1.5rem)",
+      "--breadcrumbs-text-color": "var(--text-color, #111)",
+      "--breadcrumbs-background": "#fffefb",
+      "--navigation-max-width": "90rem",
+      "--navigation-spacing-desktop": "1.5rem",
+      "--navigation-spacing-tablet": "1rem",
+      "--navigation-spacing-mobile": "1rem",
+      "--navigation-height": "6rem",
+      "--mobile-menu-width": "25.625rem",
+      "--spacing-before-footer-default-desktop": "0",
+      "--spacing-before-footer-default-tablet": "0",
+      "--spacing-before-footer-default-mobile": "0",
+      "--hover-width": "3.75rem",
+      "--video-btn-width": "3.75rem",
+      "--mini-picker-start-position": "-6.25rem",
+      "--square-height-two-columns": "calc((var(--container-max-width) - (var(--container-spacing-desktop) * 2) - var(--grid-gap)) / 2)",
+      "--portrait-height-two-columns": "calc(var(--square-height-two-columns) * 1.1)",
+      "--square-height-one-column": "calc(100vw - 2rem)",
+      "--portrait-height-one-column": "calc(var(--square-height-one-column) * 1.1)",
+      "--spacing-value": "3.25rem"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {
+      "--background-color": "#fffefb",
+      "--border-onetrust": "#ddd",
+      "--breadcrumbs-background": "#fffefb",
+      "--color-background": "#fffefb",
+      "--color-border": "#f0ede8",
+      "--color-footer": "#806e6e",
+      "--color-grey": "#dfdfdf",
+      "--color-grey-dark": "#999999",
+      "--color-grey-dim": "#484848",
+      "--color-ikea-blue": "#0058a3",
+      "--color-ikea-yellow": "#ffdb00",
+      "--color-ikea-yellow-hover": "#ffe53a",
+      "--color-ikea-yellow-light": "#fff094",
+      "--color-light": "#ffffff",
+      "--color-logo": "#fae6e6",
+      "--color-off-white": "#fffefb",
+      "--color-text-black": "#000",
+      "--color-text-darker": "#111111",
+      "--confirm-onetrust": "#0058a3",
+      "--dark-onetrust": "#111",
+      "--dotnet-border-color": "#ccc",
+      "--light-dark-onetrust": "#929292",
+      "--light-onetrust": "#fff",
+      "--link-onetrust": "#3860be",
+      "--main-bg-onetrust": "#ffffff",
+      "--secondary-bg-onetrust": "#f5f5f5",
+      "--text-color": "#111111"
+    },
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "soft corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "soft",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "modal": 2147483647,
+    "banner": 2147483645,
+    "header": 11,
+    "menu": 11,
+    "overlay": 0
+  },
+  "z_index_rows": [
+    {
+      "role": "banner",
+      "selector": "#onetrust-consent-sdk #onetrust-banner-sdk.otFloatingRoundedCorner.otRelFont.ot-",
+      "value": "100"
+    },
+    {
+      "role": "header",
+      "selector": ".header.svelte-nax5jc",
+      "value": "11"
+    },
+    {
+      "role": "overlay",
+      "selector": ".overlay.svelte-11jc7se",
+      "value": "var(--z-index)"
+    },
+    {
+      "role": "menu",
+      "selector": ".mobile-menu.svelte-117r2qw",
+      "value": "11"
+    },
+    {
+      "role": "header",
+      "selector": ".header.svelte-nax5jc",
+      "value": "11"
+    },
+    {
+      "role": "overlay",
+      "selector": ".overlay.svelte-11jc7se",
+      "value": "var(--z-index)"
+    },
+    {
+      "role": "menu",
+      "selector": ".mobile-menu.svelte-117r2qw",
+      "value": "11"
+    },
+    {
+      "role": "menu",
+      "selector": ".region-picker.svelte-1ukgyo6 .menu",
+      "value": "2"
+    },
+    {
+      "role": "menu",
+      "selector": ".region-picker.svelte-1ukgyo6 .menu",
+      "value": "2"
+    },
+    {
+      "role": "modal",
+      "selector": "#onetrust-consent-sdk .ot-general-modal",
+      "value": "2147483647"
+    },
+    {
+      "role": "banner",
+      "selector": "#onetrust-banner-sdk.otFloatingRoundedCorner",
+      "value": "2147483645"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-banner-sdk.otFloatingRoundedCorner.otRelFont.ot-",
+      "change": "max-height: calc(95svh - var(--navigation-height, 80px))"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-banner-sdk.otFloatingRoundedCorner.otRelFont.ot-",
+      "change": "padding-top: 1.25rem"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-banner-sdk.otFloatingRoundedCorner.otRelFont.ot-",
+      "change": "padding-right: 0.9375rem"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-banner-sdk.otFloatingRoundedCorner.otRelFont.ot-",
+      "change": "padding-bottom: 1.25rem"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-banner-sdk.otFloatingRoundedCorner.otRelFont.ot-",
+      "change": "padding-left: 0.9375rem"
+    },
+    {
+      "at": "screen and (max-height: 25rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-banner-sdk.otFloatingRoundedCorner.otRelFont.ot-",
+      "change": "position: initial"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-banner-sdk.otFloatingRoundedCorner.otRelFont.ot-",
+      "change": "width: 100%"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-banner-sdk.otFloatingRoundedCorner.otRelFont.ot-",
+      "change": "max-width: 100%"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-banner-sdk.otFloatingRoundedCorner.otRelFont.ot-",
+      "change": "width: 100%"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-banner-sdk.otFloatingRoundedCorner.otRelFont.ot-",
+      "change": "max-width: 100%"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-banner-sdk.otFloatingRoundedCorner.otRelFont.ot-",
+      "change": "padding-top: 0.4375rem"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-banner-sdk.otFloatingRoundedCorner.otRelFont.ot-",
+      "change": "padding-right: 1.125rem"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-banner-sdk.otFloatingRoundedCorner.otRelFont.ot-",
+      "change": "padding-bottom: 0.75rem"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-banner-sdk.otFloatingRoundedCorner.otRelFont.ot-",
+      "change": "padding-left: 1.125rem"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-banner-sdk.otFloatingRoundedCorner.otRelFont.ot-",
+      "change": "padding-top: 0px"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-banner-sdk.otFloatingRoundedCorner.otRelFont.ot-",
+      "change": "padding-right: 0.625rem"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-banner-sdk.otFloatingRoundedCorner.otRelFont.ot-",
+      "change": "padding-bottom: 0px"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-banner-sdk.otFloatingRoundedCorner.otRelFont.ot-",
+      "change": "padding-left: 1.25rem"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-banner-sdk.otFloatingRoundedCorner.otRelFont.ot-",
+      "change": "padding-top: 0.625rem"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-banner-sdk.otFloatingRoundedCorner.otRelFont.ot-",
+      "change": "padding-right: 0.9375rem"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-banner-sdk.otFloatingRoundedCorner.otRelFont.ot-",
+      "change": "padding-bottom: 0.9375rem"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-banner-sdk.otFloatingRoundedCorner.otRelFont.ot-",
+      "change": "padding-left: 1.25rem"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-pc-sdk.otPcPanel #ot-pc-content",
+      "change": "padding-top: 0px"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-pc-sdk.otPcPanel #ot-pc-content",
+      "change": "padding-right: 0.625rem"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-pc-sdk.otPcPanel #ot-pc-content",
+      "change": "padding-bottom: 0px"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-pc-sdk.otPcPanel #ot-pc-content",
+      "change": "padding-left: 1.25rem"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-pc-sdk.otPcPanel .ot-accordion-layout .ot-acc-gr",
+      "change": "width: 100%"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-pc-sdk.otPcPanel .ot-accordion-layout .ot-acc-gr",
+      "change": "max-width: 100%"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-pc-sdk.otPcPanel .ot-btn-container",
+      "change": "flex-direction: column"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-pc-sdk.otPcPanel .ot-btn-container",
+      "change": "margin-left: 1.25rem"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-pc-sdk.otPcPanel .ot-btn-container",
+      "change": "margin-right: 1.25rem"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-pc-sdk.otPcPanel .ot-btn-container .ot-pc-refuse",
+      "change": "width: 100%"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-pc-sdk.otPcPanel .ot-btn-container .ot-pc-refuse",
+      "change": "max-width: 100%"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-pc-sdk.otPcPanel .ot-btn-container .save-prefere",
+      "change": "width: 100%"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-pc-sdk.otPcPanel .ot-btn-container .save-prefere",
+      "change": "max-width: 100%"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-pc-sdk.otPcPanel .ot-btn-container .save-prefere",
+      "change": "margin-top: 0.625rem"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-pc-sdk.otPcPanel #ot-pc-lst #ot-pc-hdr #filter-a",
+      "change": "width: 100%"
+    },
+    {
+      "at": "only screen and (max-width: 33.125rem)",
+      "selector": "#onetrust-consent-sdk #onetrust-pc-sdk.otPcPanel #ot-pc-lst #ot-pc-hdr #filter-a",
+      "change": "max-width: 100%"
+    },
+    {
+      "at": "(hover: hover) and (pointer: fine)",
+      "selector": ".breadcrumbs-inner::-webkit-scrollbar",
+      "change": "height: 2.5rem"
+    },
+    {
+      "at": "(hover: none)",
+      "selector": ".breadcrumbs-inner::-webkit-scrollbar",
+      "change": "display: none"
+    }
+  ]
+}

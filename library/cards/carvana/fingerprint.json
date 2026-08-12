@@ -1,0 +1,1658 @@
+{
+  "url": "https://www.carvana.com/",
+  "extractedAt": "2026-08-09T12:44:40.792Z",
+  "meta": {
+    "snapshotId": "ab481aa4-08fe-47c0-8480-820933464e16",
+    "httpStatus": 200,
+    "dembrandtVersion": "0.27.1",
+    "schemaVersion": "1.5.0",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "fontsReady": true,
+    "flags": {
+      "mobile": true
+    }
+  },
+  "siteName": "Carvana",
+  "logo": {
+    "source": "img",
+    "context": "header",
+    "url": "https://assets.fastly.carvana.io/partner-header-logos-assets/combo-desktop-carvana.svg",
+    "width": 146,
+    "height": 32,
+    "rect": {
+      "x": 100,
+      "y": 23,
+      "width": 146,
+      "height": 32
+    },
+    "natural": {
+      "width": 146,
+      "height": 32
+    },
+    "alt": "Carvana",
+    "type": "wordmark",
+    "reversed": false,
+    "background": "#ffffff",
+    "safeZone": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "position": {
+      "top": 18,
+      "left": 100
+    }
+  },
+  "logoInstances": [
+    {
+      "source": "img",
+      "context": "header",
+      "url": "https://assets.fastly.carvana.io/partner-header-logos-assets/combo-desktop-carvana.svg",
+      "width": 146,
+      "height": 32,
+      "rect": {
+        "x": 100,
+        "y": 23,
+        "width": 146,
+        "height": 32
+      },
+      "natural": {
+        "width": 146,
+        "height": 32
+      },
+      "alt": "Carvana",
+      "type": "wordmark",
+      "reversed": false,
+      "background": "#ffffff",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 18,
+        "left": 100
+      }
+    },
+    {
+      "source": "svg",
+      "context": "footer",
+      "inline": true,
+      "url": "https://www.carvana.com/",
+      "color": "#ffffff",
+      "ariaLabel": null,
+      "markup": "<svg width=\"64\" height=\"64\" viewBox=\"0 0 64 64\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" style=\"color: rgb(255, 255, 255);\"><path d=\"M63.8079 31.9886C63.8079 38.3153 61.9367 44.4999 58.4311 49.7604C54.9254 55.0209 49.9427 59.121 44.1131 61.5421C38.2834 63.9633 31.8686 64.5967 25.6798 63.3625C19.491 62.1282 13.8063 59.0816 9.34445 54.6079C4.8826 50.1342 1.84406 44.4344 0.61304 38.2292C-0.61798 32.024 0.013822 25.5922 2.42856 19.7471C4.84329 13.9019 8.93248 8.90599 14.1791 5.39104C19.4256 1.87609 25.5939 0 31.9039 0C40.3654 0 48.4803 3.3702 54.4634 9.36922C60.4466 15.3682 63.8079 23.5047 63.8079 31.9886Z\" fill=\"#228BE6\"></path><path d=\"M45.3316 31.4329C44.6984 30.5825 44.1221 29.691 43.6065 28.7642L43.7432 28.7322C43.7432 28.7322 47.0293 28.5539 46.4437 27.4183C46.4437 27.4183 45.8033 26.0474 43.3923 26.0474C43.2849 26.0451 43.1776 26.0504 43.071 26.0634C42.9525 26.0634 42.8066 26.1114 42.7428 26.9431C40.7488 23.2096 39.361 22.435 39.361 22.435C39.0145 22.232 38.6309 22.1007 38.233 22.0488C37.5493 21.9186 32.3079 21.8706 31.8864 21.8706H31.8544C31.4215 21.8706 26.1983 21.9186 25.5078 22.0488C25.1051 22.0956 24.7168 22.2272 24.3684 22.435C24.3684 22.435 22.9829 23.2096 20.9889 26.9431C20.916 26.1114 20.761 26.0634 20.6516 26.0634C20.54 26.0634 20.4374 26.0474 20.3326 26.0474C17.9193 26.0474 17.288 27.4183 17.288 27.4183C16.6955 28.5608 19.9794 28.7322 19.9794 28.7322L20.1229 28.7642C19.613 29.6918 19.0404 30.5835 18.4092 31.4329C18.0427 31.8501 17.7282 32.3105 17.4726 32.8038C17.2879 33.3035 17.2005 33.8341 17.2151 34.3667C17.2402 35.2373 17.3359 39.0508 17.3359 39.0508V43.849C17.3289 43.9089 17.3338 43.9696 17.3504 44.0276C17.3669 44.0856 17.3947 44.1397 17.4322 44.1869C17.4697 44.234 17.5161 44.2733 17.5688 44.3023C17.6215 44.3314 17.6795 44.3498 17.7392 44.3563H21.513C21.5726 44.3503 21.6304 44.3326 21.6831 44.3042C21.7358 44.2758 21.7825 44.2373 21.8203 44.1908C21.8582 44.1443 21.8866 44.0908 21.9039 44.0334C21.9211 43.9759 21.9269 43.9156 21.9209 43.8559V43.2595H41.8313V43.8559C41.8191 43.9754 41.8543 44.0949 41.9294 44.1886C42.0045 44.2823 42.1133 44.3425 42.2324 44.3563H45.997C46.1161 44.3425 46.2249 44.2823 46.3 44.1886C46.375 44.0949 46.4103 43.9754 46.3981 43.8559V39.0576C46.3981 39.0576 46.4938 35.2441 46.5189 34.3736C46.5435 33.8403 46.4558 33.3077 46.2614 32.8107C46.0358 32.2623 45.4273 31.5608 45.3316 31.4329ZM22.3653 27.7565C22.3653 27.7565 23.8078 24.5165 24.9541 23.1296C24.9541 23.1296 27.0848 23.0313 29.947 23.0085L29.8582 23.237V23.7282C29.8576 23.7728 29.8659 23.8171 29.8826 23.8584C29.8994 23.8997 29.9242 23.9372 29.9556 23.9687C29.9871 24.0002 30.0245 24.0251 30.0657 24.0419C30.1069 24.0587 30.151 24.067 30.1955 24.0664H33.5112C33.5561 24.0676 33.6009 24.0598 33.6427 24.0433C33.6846 24.0268 33.7227 24.0021 33.7548 23.9705C33.7869 23.939 33.8123 23.9013 33.8296 23.8596C33.8469 23.818 33.8556 23.7733 33.8553 23.7282V23.237L33.7687 23.0085C36.6286 23.0313 38.7594 23.1296 38.7594 23.1296C39.8988 24.5165 41.3482 27.7565 41.3482 27.7565C41.5555 28.2797 41.1203 28.2798 41.1203 28.2798H22.6023C22.6023 28.2798 22.158 28.2797 22.3653 27.7565ZM18.8787 35.6737C18.1586 35.4886 18.0788 35.0453 18.0788 35.0453C18.0149 34.3996 18.0927 33.7476 18.3067 33.1352C18.5482 32.4977 19.1727 32.4246 19.6284 32.4497C20.1754 32.4657 21.7774 33.4916 21.7774 33.4916C23.0034 34.1268 23.1789 36.3203 23.1789 36.3203C21.7326 36.2023 20.2959 35.9862 18.8787 35.6737ZM39.1992 36.4391C36.9887 36.6242 33.8074 36.6425 31.8681 36.6425C29.9288 36.6425 26.7475 36.6242 24.5439 36.4391C24.5439 36.4391 23.9104 35.0933 24.8652 35.0682C25.002 35.0682 27.846 34.9631 31.8681 34.9562C35.8903 34.9494 38.7434 35.0613 38.871 35.0682C39.8259 35.0842 39.1924 36.43 39.1924 36.43L39.1992 36.4391ZM45.6575 35.0545C45.6575 35.0545 45.5777 35.4978 44.8576 35.6828C43.4398 35.9832 42.0054 36.1984 40.562 36.3272C40.562 36.3272 40.7374 34.1337 41.9635 33.4985C41.9635 33.4985 43.5586 32.4725 44.1033 32.4566C44.5591 32.4406 45.1926 32.5137 45.425 33.142C45.6431 33.7511 45.7202 34.4019 45.6506 35.0453L45.6575 35.0545Z\" fill=\"white\"></path><path d=\"M31.935 14.8106C30.2293 14.7997 28.5252 14.9181 26.8373 15.1648C26.0525 15.2594 25.2852 15.4656 24.5584 15.7772L24.6951 15.8411C25.2141 16.0515 25.7543 16.2048 26.3063 16.2981C28.1665 16.6198 30.052 16.7728 31.9396 16.7551C33.6416 16.7661 35.3419 16.6478 37.026 16.4009C37.8115 16.3048 38.579 16.0955 39.3048 15.7795L39.1704 15.7155C38.6563 15.5071 38.1215 15.3539 37.5752 15.2585C35.7124 14.9395 33.8247 14.7896 31.935 14.8106ZM31.935 17.9387C30.1737 17.9498 28.4141 17.8284 26.6709 17.5754C25.2192 17.324 24.1869 17.075 23.5694 16.5266C23.4621 16.4329 23.3753 16.3179 23.3145 16.189C23.2537 16.06 23.2202 15.9198 23.2162 15.7772C23.2185 15.6352 23.2512 15.4954 23.3121 15.3673C23.3731 15.2392 23.4608 15.1257 23.5694 15.0346C23.7567 14.8636 23.9707 14.7247 24.2029 14.6233C24.8072 14.3726 25.4391 14.1946 26.0852 14.0932C28.0198 13.7652 29.9799 13.6123 31.9419 13.6362C33.7009 13.6251 35.4583 13.7465 37.1992 13.9995C38.6577 14.2486 39.6831 14.4976 40.3076 15.0551C40.4156 15.1471 40.5034 15.2607 40.5654 15.3885C40.6273 15.5163 40.6622 15.6557 40.6676 15.7977C40.6624 15.9408 40.6278 16.0812 40.5658 16.2102C40.5038 16.3392 40.4159 16.4539 40.3076 16.5472C40.1205 16.7115 39.91 16.8471 39.6831 16.9493C39.0773 17.2 38.4451 17.3809 37.7985 17.4886C35.8609 17.8097 33.8989 17.9603 31.935 17.9387Z\" fill=\"#FAB005\"></path></svg>",
+      "dataUri": "data:image/svg+xml;utf8,%3Csvg%20width%3D%2264%22%20height%3D%2264%22%20viewBox%3D%220%200%2064%2064%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20aria-hidden%3D%22true%22%20style%3D%22color%3A%20rgb(255%2C%20255%2C%20255)%3B%22%3E%3Cpath%20d%3D%22M63.8079%2031.9886C63.8079%2038.3153%2061.9367%2044.4999%2058.4311%2049.7604C54.9254%2055.0209%2049.9427%2059.121%2044.1131%2061.5421C38.2834%2063.9633%2031.8686%2064.5967%2025.6798%2063.3625C19.491%2062.1282%2013.8063%2059.0816%209.34445%2054.6079C4.8826%2050.1342%201.84406%2044.4344%200.61304%2038.2292C-0.61798%2032.024%200.013822%2025.5922%202.42856%2019.7471C4.84329%2013.9019%208.93248%208.90599%2014.1791%205.39104C19.4256%201.87609%2025.5939%200%2031.9039%200C40.3654%200%2048.4803%203.3702%2054.4634%209.36922C60.4466%2015.3682%2063.8079%2023.5047%2063.8079%2031.9886Z%22%20fill%3D%22%23228BE6%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M45.3316%2031.4329C44.6984%2030.5825%2044.1221%2029.691%2043.6065%2028.7642L43.7432%2028.7322C43.7432%2028.7322%2047.0293%2028.5539%2046.4437%2027.4183C46.4437%2027.4183%2045.8033%2026.0474%2043.3923%2026.0474C43.2849%2026.0451%2043.1776%2026.0504%2043.071%2026.0634C42.9525%2026.0634%2042.8066%2026.1114%2042.7428%2026.9431C40.7488%2023.2096%2039.361%2022.435%2039.361%2022.435C39.0145%2022.232%2038.6309%2022.1007%2038.233%2022.0488C37.5493%2021.9186%2032.3079%2021.8706%2031.8864%2021.8706H31.8544C31.4215%2021.8706%2026.1983%2021.9186%2025.5078%2022.0488C25.1051%2022.0956%2024.7168%2022.2272%2024.3684%2022.435C24.3684%2022.435%2022.9829%2023.2096%2020.9889%2026.9431C20.916%2026.1114%2020.761%2026.0634%2020.6516%2026.0634C20.54%2026.0634%2020.4374%2026.0474%2020.3326%2026.0474C17.9193%2026.0474%2017.288%2027.4183%2017.288%2027.4183C16.6955%2028.5608%2019.9794%2028.7322%2019.9794%2028.7322L20.1229%2028.7642C19.613%2029.6918%2019.0404%2030.5835%2018.4092%2031.4329C18.0427%2031.8501%2017.7282%2032.3105%2017.4726%2032.8038C17.2879%2033.3035%2017.2005%2033.8341%2017.2151%2034.3667C17.2402%2035.2373%2017.3359%2039.0508%2017.3359%2039.0508V43.849C17.3289%2043.9089%2017.3338%2043.9696%2017.3504%2044.0276C17.3669%2044.0856%2017.3947%2044.1397%2017.4322%2044.1869C17.4697%2044.234%2017.5161%2044.2733%2017.5688%2044.3023C17.6215%2044.3314%2017.6795%2044.3498%2017.7392%2044.3563H21.513C21.5726%2044.3503%2021.6304%2044.3326%2021.6831%2044.3042C21.7358%2044.2758%2021.7825%2044.2373%2021.8203%2044.1908C21.8582%2044.1443%2021.8866%2044.0908%2021.9039%2044.0334C21.9211%2043.9759%2021.9269%2043.9156%2021.9209%2043.8559V43.2595H41.8313V43.8559C41.8191%2043.9754%2041.8543%2044.0949%2041.9294%2044.1886C42.0045%2044.2823%2042.1133%2044.3425%2042.2324%2044.3563H45.997C46.1161%2044.3425%2046.2249%2044.2823%2046.3%2044.1886C46.375%2044.0949%2046.4103%2043.9754%2046.3981%2043.8559V39.0576C46.3981%2039.0576%2046.4938%2035.2441%2046.5189%2034.3736C46.5435%2033.8403%2046.4558%2033.3077%2046.2614%2032.8107C46.0358%2032.2623%2045.4273%2031.5608%2045.3316%2031.4329ZM22.3653%2027.7565C22.3653%2027.7565%2023.8078%2024.5165%2024.9541%2023.1296C24.9541%2023.1296%2027.0848%2023.0313%2029.947%2023.0085L29.8582%2023.237V23.7282C29.8576%2023.7728%2029.8659%2023.8171%2029.8826%2023.8584C29.8994%2023.8997%2029.9242%2023.9372%2029.9556%2023.9687C29.9871%2024.0002%2030.0245%2024.0251%2030.0657%2024.0419C30.1069%2024.0587%2030.151%2024.067%2030.1955%2024.0664H33.5112C33.5561%2024.0676%2033.6009%2024.0598%2033.6427%2024.0433C33.6846%2024.0268%2033.7227%2024.0021%2033.7548%2023.9705C33.7869%2023.939%2033.8123%2023.9013%2033.8296%2023.8596C33.8469%2023.818%2033.8556%2023.7733%2033.8553%2023.7282V23.237L33.7687%2023.0085C36.6286%2023.0313%2038.7594%2023.1296%2038.7594%2023.1296C39.8988%2024.5165%2041.3482%2027.7565%2041.3482%2027.7565C41.5555%2028.2797%2041.1203%2028.2798%2041.1203%2028.2798H22.6023C22.6023%2028.2798%2022.158%2028.2797%2022.3653%2027.7565ZM18.8787%2035.6737C18.1586%2035.4886%2018.0788%2035.0453%2018.0788%2035.0453C18.0149%2034.3996%2018.0927%2033.7476%2018.3067%2033.1352C18.5482%2032.4977%2019.1727%2032.4246%2019.6284%2032.4497C20.1754%2032.4657%2021.7774%2033.4916%2021.7774%2033.4916C23.0034%2034.1268%2023.1789%2036.3203%2023.1789%2036.3203C21.7326%2036.2023%2020.2959%2035.9862%2018.8787%2035.6737ZM39.1992%2036.4391C36.9887%2036.6242%2033.8074%2036.6425%2031.8681%2036.6425C29.9288%2036.6425%2026.7475%2036.6242%2024.5439%2036.4391C24.5439%2036.4391%2023.9104%2035.0933%2024.8652%2035.0682C25.002%2035.0682%2027.846%2034.9631%2031.8681%2034.9562C35.8903%2034.9494%2038.7434%2035.0613%2038.871%2035.0682C39.8259%2035.0842%2039.1924%2036.43%2039.1924%2036.43L39.1992%2036.4391ZM45.6575%2035.0545C45.6575%2035.0545%2045.5777%2035.4978%2044.8576%2035.6828C43.4398%2035.9832%2042.0054%2036.1984%2040.562%2036.3272C40.562%2036.3272%2040.7374%2034.1337%2041.9635%2033.4985C41.9635%2033.4985%2043.5586%2032.4725%2044.1033%2032.4566C44.5591%2032.4406%2045.1926%2032.5137%2045.425%2033.142C45.6431%2033.7511%2045.7202%2034.4019%2045.6506%2035.0453L45.6575%2035.0545Z%22%20fill%3D%22white%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M31.935%2014.8106C30.2293%2014.7997%2028.5252%2014.9181%2026.8373%2015.1648C26.0525%2015.2594%2025.2852%2015.4656%2024.5584%2015.7772L24.6951%2015.8411C25.2141%2016.0515%2025.7543%2016.2048%2026.3063%2016.2981C28.1665%2016.6198%2030.052%2016.7728%2031.9396%2016.7551C33.6416%2016.7661%2035.3419%2016.6478%2037.026%2016.4009C37.8115%2016.3048%2038.579%2016.0955%2039.3048%2015.7795L39.1704%2015.7155C38.6563%2015.5071%2038.1215%2015.3539%2037.5752%2015.2585C35.7124%2014.9395%2033.8247%2014.7896%2031.935%2014.8106ZM31.935%2017.9387C30.1737%2017.9498%2028.4141%2017.8284%2026.6709%2017.5754C25.2192%2017.324%2024.1869%2017.075%2023.5694%2016.5266C23.4621%2016.4329%2023.3753%2016.3179%2023.3145%2016.189C23.2537%2016.06%2023.2202%2015.9198%2023.2162%2015.7772C23.2185%2015.6352%2023.2512%2015.4954%2023.3121%2015.3673C23.3731%2015.2392%2023.4608%2015.1257%2023.5694%2015.0346C23.7567%2014.8636%2023.9707%2014.7247%2024.2029%2014.6233C24.8072%2014.3726%2025.4391%2014.1946%2026.0852%2014.0932C28.0198%2013.7652%2029.9799%2013.6123%2031.9419%2013.6362C33.7009%2013.6251%2035.4583%2013.7465%2037.1992%2013.9995C38.6577%2014.2486%2039.6831%2014.4976%2040.3076%2015.0551C40.4156%2015.1471%2040.5034%2015.2607%2040.5654%2015.3885C40.6273%2015.5163%2040.6622%2015.6557%2040.6676%2015.7977C40.6624%2015.9408%2040.6278%2016.0812%2040.5658%2016.2102C40.5038%2016.3392%2040.4159%2016.4539%2040.3076%2016.5472C40.1205%2016.7115%2039.91%2016.8471%2039.6831%2016.9493C39.0773%2017.2%2038.4451%2017.3809%2037.7985%2017.4886C35.8609%2017.8097%2033.8989%2017.9603%2031.935%2017.9387Z%22%20fill%3D%22%23FAB005%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E",
+      "svgColors": [
+        "#228be6",
+        "#ffffff",
+        "#fab005"
+      ],
+      "width": 64,
+      "height": 64,
+      "rect": {
+        "x": 324,
+        "y": 6301,
+        "width": 64,
+        "height": 64
+      },
+      "natural": {
+        "width": 64,
+        "height": 64
+      },
+      "type": "logomark",
+      "reversed": true,
+      "background": "#151d29",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 6296.3125,
+        "left": 324
+      }
+    }
+  ],
+  "favicons": [
+    {
+      "type": "apple-touch-icon",
+      "url": "https://assets.fastly.carvana.io/icons/apple/apple-touch-icon.png",
+      "sizes": "180x180"
+    },
+    {
+      "type": "icon",
+      "url": "https://assets.fastly.carvana.io/icons/favicon-32x32.png",
+      "sizes": "32x32"
+    },
+    {
+      "type": "icon",
+      "url": "https://assets.fastly.carvana.io/icons/favicon-16x16.png",
+      "sizes": "16x16"
+    },
+    {
+      "type": "icon",
+      "url": "https://assets.fastly.carvana.io/icons/favicon.ico",
+      "sizes": null
+    }
+  ],
+  "colors": {
+    "semantic": {
+      "primary": "rgb(16, 107, 199)",
+      "secondary": "rgb(13, 55, 94)",
+      "background": "rgb(228, 236, 240)",
+      "text": "rgb(0, 0, 0)",
+      "accent": "rgb(169, 227, 75)"
+    },
+    "palette": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 627,
+        "confidence": "high",
+        "sources": [
+          "md0rscicnqygatzn8epz",
+          "t87cfilo95vdki9k5bud",
+          "eluvqvjmu9islsbyjwxq"
+        ],
+        "lch": "lch(0% 0 0)",
+        "oklch": "oklch(0% 0 0)",
+        "role": "surface",
+        "onColor": "#ffffff",
+        "hover": "#000000"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 444,
+        "confidence": "high",
+        "sources": [
+          "logo",
+          "md0rscicnqygatzn8epz",
+          "ela1rpwc9ldu6dzv9cjy",
+          "pjguxzf43ofy5pvprmtg"
+        ],
+        "lch": "lch(100% 0.03 53.35)",
+        "oklch": "oklch(100% 0 89.88)",
+        "role": "surface",
+        "onColor": "#000000",
+        "hover": "#d9d9d9"
+      },
+      {
+        "color": "rgb(16, 107, 199)",
+        "normalized": "#106bc7",
+        "count": 202,
+        "confidence": "high",
+        "sources": [
+          "[object",
+          "relative",
+          "absolute"
+        ],
+        "lch": "lch(44.4% 55.88 272.89)",
+        "oklch": "oklch(53.1% 0.163 254.34)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#1380ef",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(10, 34, 55)",
+        "normalized": "#0a2237",
+        "count": 119,
+        "confidence": "high",
+        "sources": [
+          "ela1rpwc9ldu6dzv9cjy",
+          "dhx5wzitvcjevx4uzhjg",
+          "qqptq9vfeajvnlav87aj"
+        ],
+        "lch": "lch(12.26% 16.95 259.95)",
+        "oklch": "oklch(24.51% 0.05 247.91)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#0c2942",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(71, 85, 105)",
+        "normalized": "#475569",
+        "count": 30,
+        "confidence": "high",
+        "sources": [],
+        "lch": "lch(35.54% 13.58 262.94)",
+        "oklch": "oklch(44.55% 0.037 257.28)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#55667e",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(190, 203, 218)",
+        "normalized": "#becbda",
+        "count": 23,
+        "confidence": "high",
+        "sources": [
+          "ela1rpwc9ldu6dzv9cjy",
+          "carouselbutton-module_carousel",
+          "[object"
+        ],
+        "lch": "lch(81.03% 9.35 255.57)",
+        "oklch": "oklch(83.68% 0.025 251.93)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#a2adb9",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(0, 76, 143)",
+        "normalized": "#004c8f",
+        "count": 3,
+        "confidence": "medium",
+        "sources": [],
+        "lch": "lch(31.45% 43.54 271.51)",
+        "oklch": "oklch(41.67% 0.128 252.91)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#005bac",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(132, 150, 174)",
+        "normalized": "#8496ae",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [],
+        "lch": "lch(61.28% 15.07 260.38)",
+        "oklch": "oklch(66.73% 0.041 255.67)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#708094",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(165, 216, 255)",
+        "normalized": "#a5d8ff",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "flex"
+        ],
+        "lch": "lch(83.79% 26.7 247.79)",
+        "oklch": "oklch(86.02% 0.076 241.66)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#8cb8d9",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(169, 227, 75)",
+        "normalized": "#a9e34b",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [],
+        "lch": "lch(84.13% 73.72 118.9)",
+        "oklch": "oklch(84.74% 0.188 127.98)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#90c140"
+      },
+      {
+        "color": "#228be6",
+        "normalized": "#228be6",
+        "count": 10,
+        "confidence": "high",
+        "sources": [
+          "logo"
+        ],
+        "lch": "lch(55.75% 55.3 265.95)",
+        "oklch": "oklch(62.59% 0.164 250.29)"
+      },
+      {
+        "color": "#fab005",
+        "normalized": "#fab005",
+        "count": 10,
+        "confidence": "high",
+        "sources": [
+          "logo"
+        ],
+        "lch": "lch(77.52% 81.89 75.85)",
+        "oklch": "oklch(80.69% 0.167 78.12)"
+      },
+      {
+        "color": "#0d375e",
+        "normalized": "#0d375e",
+        "count": 10,
+        "confidence": "high",
+        "sources": [
+          "logo"
+        ],
+        "lch": "lch(21.97% 27.89 265.52)",
+        "oklch": "oklch(33.09% 0.082 250.66)"
+      },
+      {
+        "color": "rgb(16, 16, 16)",
+        "normalized": "#101010",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      },
+      {
+        "color": "rgb(246, 247, 249)",
+        "normalized": "#f6f7f9",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      },
+      {
+        "color": "rgb(226, 232, 240)",
+        "normalized": "#e2e8f0",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      }
+    ],
+    "cssVariables": {
+      "--color-text-critical": {
+        "value": "#b02525",
+        "hex": "#b02525",
+        "lch": "lch(39.75% 66.63 33.98)",
+        "oklch": "oklch(49.57% 0.175 26.46)"
+      },
+      "--cvna-color-special-marketplace-purple": {
+        "value": "#9b51e0",
+        "hex": "#9b51e0",
+        "lch": "lch(49.14% 80.03 309.42)",
+        "oklch": "oklch(59.16% 0.211 304.51)"
+      },
+      "--cvna-color-green-2": {
+        "value": "#2f9e44",
+        "hex": "#2f9e44",
+        "lch": "lch(57.55% 59.58 141.67)",
+        "oklch": "oklch(61.72% 0.162 146.43)"
+      },
+      "--text-primary-visited": {
+        "value": "#702682",
+        "hex": "#702682",
+        "lch": "lch(30.27% 56.67 319.49)",
+        "oklch": "oklch(42.1% 0.157 319.11)"
+      },
+      "--color-brand-tertiary": {
+        "value": "#fab005",
+        "hex": "#fab005",
+        "lch": "lch(77.52% 81.89 75.85)",
+        "oklch": "oklch(80.69% 0.167 78.12)"
+      },
+      "--color-lime-150": {
+        "value": "#e7ffc1",
+        "hex": "#e7ffc1",
+        "lch": "lch(97.11% 31.29 120.24)",
+        "oklch": "oklch(96.74% 0.084 125.13)"
+      },
+      "--cvna-color-red-2": {
+        "value": "#e03131",
+        "hex": "#e03131",
+        "lch": "lch(50.66% 80.19 34.13)",
+        "oklch": "oklch(59.28% 0.211 26.53)"
+      },
+      "--color-blue-3": {
+        "value": "#018dc0",
+        "hex": "#018dc0",
+        "lch": "lch(54.34% 40.55 242.97)",
+        "oklch": "oklch(60.54% 0.125 233.08)"
+      },
+      "--text-critical-hover": {
+        "value": "#7d1a1a",
+        "hex": "#7d1a1a",
+        "lch": "lch(27.75% 50.51 33.23)",
+        "oklch": "oklch(38.87% 0.134 26.07)"
+      },
+      "--cvna-color-yellow-2": {
+        "value": "#feb948",
+        "hex": "#feb948",
+        "lch": "lch(80.31% 67.32 74.16)",
+        "oklch": "oklch(83.09% 0.148 76.07)"
+      },
+      "--text-critical-active": {
+        "value": "#5b1313",
+        "hex": "#5b1313",
+        "lch": "lch(19.37% 38.8 32.2)",
+        "oklch": "oklch(31.39% 0.104 25.53)"
+      },
+      "--color-green-3": {
+        "value": "#237032",
+        "hex": "#237032",
+        "lch": "lch(41.51% 44.28 142.43)",
+        "oklch": "oklch(48.3% 0.121 146.9)"
+      },
+      "--color-blue-2": {
+        "value": "#00aed9",
+        "hex": "#00aed9",
+        "lch": "lch(65.4% 42.5 230.77)",
+        "oklch": "oklch(69.74% 0.131 223.72)"
+      },
+      "--cvna-color-yellow-3": {
+        "value": "#eb9f23",
+        "hex": "#eb9f23",
+        "lch": "lch(71.85% 72.88 71.98)",
+        "oklch": "oklch(75.93% 0.153 72.78)"
+      },
+      "--text-inverse-visited": {
+        "value": "#eebefa",
+        "hex": "#eebefa",
+        "lch": "lch(82.77% 34.18 317.83)",
+        "oklch": "oklch(86.3% 0.096 319.46)"
+      },
+      "--cvna-color-red-4": {
+        "value": "#f65b5b",
+        "hex": "#f65b5b",
+        "lch": "lch(60.46% 69.05 29.15)",
+        "oklch": "oklch(67.57% 0.19 23.71)"
+      }
+    },
+    "detected": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 627,
+        "usageFrac": 0.41911764705882354,
+        "confidence": "high",
+        "sources": [
+          "md0rscicnqygatzn8epz",
+          "t87cfilo95vdki9k5bud",
+          "eluvqvjmu9islsbyjwxq",
+          "ax9yjhthdvq1l94hty_a",
+          "jewqebef5rpuns00qt9f"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 444,
+        "usageFrac": 0.2967914438502674,
+        "confidence": "high",
+        "sources": [
+          "md0rscicnqygatzn8epz",
+          "ela1rpwc9ldu6dzv9cjy",
+          "pjguxzf43ofy5pvprmtg",
+          "text-text-inverse",
+          "carouselbutton-module_carousel"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(16, 107, 199)",
+        "normalized": "#106bc7",
+        "count": 202,
+        "usageFrac": 0.13502673796791445,
+        "confidence": "high",
+        "sources": [
+          "[object",
+          "relative",
+          "absolute",
+          "w-[35px]",
+          "-mr-4"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(10, 34, 55)",
+        "normalized": "#0a2237",
+        "count": 119,
+        "usageFrac": 0.07954545454545454,
+        "confidence": "high",
+        "sources": [
+          "ela1rpwc9ldu6dzv9cjy",
+          "dhx5wzitvcjevx4uzhjg",
+          "qqptq9vfeajvnlav87aj",
+          "[object",
+          "pjguxzf43ofy5pvprmtg"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(71, 85, 105)",
+        "normalized": "#475569",
+        "count": 30,
+        "usageFrac": 0.020053475935828877,
+        "confidence": "high",
+        "sources": [],
+        "isToken": true
+      },
+      {
+        "color": "rgb(190, 203, 218)",
+        "normalized": "#becbda",
+        "count": 23,
+        "usageFrac": 0.01537433155080214,
+        "confidence": "high",
+        "sources": [
+          "ela1rpwc9ldu6dzv9cjy",
+          "carouselbutton-module_carousel",
+          "[object",
+          "w-fit"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(13, 55, 94)",
+        "normalized": "#0d375e",
+        "count": 18,
+        "usageFrac": 0.012032085561497326,
+        "confidence": "high",
+        "sources": [
+          "m-0",
+          "sc-jeacwc",
+          "carouselbutton-module_carousel",
+          "flex"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(246, 247, 249)",
+        "normalized": "#f6f7f9",
+        "count": 15,
+        "usageFrac": 0.010026737967914439,
+        "confidence": "high",
+        "sources": [
+          "carouselbutton-module_carousel",
+          "group/tile"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(30, 41, 59)",
+        "normalized": "#1e293b",
+        "count": 7,
+        "usageFrac": 0.004679144385026738,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(226, 232, 240)",
+        "normalized": "#e2e8f0",
+        "count": 3,
+        "usageFrac": 0.002005347593582888,
+        "confidence": "high",
+        "sources": [
+          "md0rscicnqygatzn8epz",
+          "dhx5wzitvcjevx4uzhjg",
+          "flex"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(0, 76, 143)",
+        "normalized": "#004c8f",
+        "count": 3,
+        "usageFrac": 0.002005347593582888,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": true
+      },
+      {
+        "color": "rgb(228, 236, 240)",
+        "normalized": "#e4ecf0",
+        "count": 1,
+        "usageFrac": 0.0006684491978609625,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(132, 150, 174)",
+        "normalized": "#8496ae",
+        "count": 1,
+        "usageFrac": 0.0006684491978609625,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": true
+      },
+      {
+        "color": "rgb(165, 216, 255)",
+        "normalized": "#a5d8ff",
+        "count": 1,
+        "usageFrac": 0.0006684491978609625,
+        "confidence": "medium",
+        "sources": [
+          "flex"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(169, 227, 75)",
+        "normalized": "#a9e34b",
+        "count": 1,
+        "usageFrac": 0.0006684491978609625,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": true
+      },
+      {
+        "color": "rgb(21, 29, 41)",
+        "normalized": "#151d29",
+        "count": 1,
+        "usageFrac": 0.0006684491978609625,
+        "confidence": "medium",
+        "sources": [
+          "_peibl2cr_r51jg1n1e_"
+        ],
+        "isToken": true
+      }
+    ],
+    "_raw": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 627
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 444
+      },
+      {
+        "color": "rgb(13, 55, 94)",
+        "normalized": "#0d375e",
+        "count": 18
+      },
+      {
+        "color": "rgb(10, 34, 55)",
+        "normalized": "#0a2237",
+        "count": 119
+      },
+      {
+        "color": "rgb(190, 203, 218)",
+        "normalized": "#becbda",
+        "count": 23
+      },
+      {
+        "color": "rgb(16, 107, 199)",
+        "normalized": "#106bc7",
+        "count": 202
+      },
+      {
+        "color": "rgb(246, 247, 249)",
+        "normalized": "#f6f7f9",
+        "count": 15
+      },
+      {
+        "color": "rgb(71, 85, 105)",
+        "normalized": "#475569",
+        "count": 30
+      }
+    ]
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "display",
+        "family": "Brandon for Carvana",
+        "fallbacks": null,
+        "size": "72px (4.50rem)",
+        "weight": 900,
+        "lineHeight": "0.94",
+        "spacing": "-1.44px",
+        "transform": "uppercase"
+      },
+      {
+        "context": "display",
+        "family": "Brandon for Carvana",
+        "fallbacks": null,
+        "size": "56px (3.50rem)",
+        "weight": 900,
+        "lineHeight": "0.93",
+        "spacing": "-1.12px",
+        "transform": "uppercase"
+      },
+      {
+        "context": "heading-2",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "28px (1.75rem)",
+        "weight": 600,
+        "lineHeight": "1.14",
+        "spacing": "-0.56px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "28px (1.75rem)",
+        "weight": 600,
+        "lineHeight": "1.14",
+        "spacing": "-0.56px",
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "24px (1.50rem)",
+        "weight": 600,
+        "lineHeight": "1.17",
+        "spacing": "-0.24px",
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "20px (1.25rem)",
+        "weight": 600,
+        "lineHeight": "1.30",
+        "spacing": "-0.2px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Brandon Text",
+        "fallbacks": "Helvetica Neue, Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Brandon Text",
+        "fallbacks": "Helvetica Neue, Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Brandon Text",
+        "fallbacks": "Helvetica Neue, Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "inter",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "13.3333px (0.83rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Brandon Text",
+        "fallbacks": "Helvetica Neue, Helvetica, Arial",
+        "size": "13.3333px (0.83rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "12px (0.75rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Inter",
+        "fallbacks": null,
+        "size": "12px (0.75rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "inter",
+        "fallbacks": null,
+        "size": "10.7px (0.67rem)",
+        "weight": 600,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      }
+    ],
+    "sources": {
+      "googleFonts": [
+        "Inter"
+      ],
+      "adobeFonts": false,
+      "variableFonts": false,
+      "selfHostedFonts": [
+        "BrandonText-Regular.woff2",
+        "BrandonforCarvana-Black.woff2",
+        "Inter-400.woff2",
+        "Inter-500.woff2",
+        "Inter-600.woff2"
+      ],
+      "customFonts": [
+        "BrandonText-Regular.woff2",
+        "BrandonforCarvana-Black.woff2",
+        "Inter-400.woff2",
+        "Inter-500.woff2",
+        "Inter-600.woff2"
+      ]
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "1px",
+        "display": "1px",
+        "rem": "0.06rem",
+        "count": 16,
+        "numericValue": 1
+      },
+      {
+        "px": "2px",
+        "display": "2px",
+        "rem": "0.13rem",
+        "count": 29,
+        "numericValue": 2
+      },
+      {
+        "px": "4px",
+        "display": "4px",
+        "rem": "0.25rem",
+        "count": 3,
+        "numericValue": 4
+      },
+      {
+        "px": "6px",
+        "display": "6px",
+        "rem": "0.38rem",
+        "count": 2,
+        "numericValue": 6
+      },
+      {
+        "px": "7px",
+        "display": "7px",
+        "rem": "0.44rem",
+        "count": 2,
+        "numericValue": 7
+      },
+      {
+        "px": "8px",
+        "display": "8px",
+        "rem": "0.50rem",
+        "count": 13,
+        "numericValue": 8
+      },
+      {
+        "px": "10px",
+        "display": "10px",
+        "rem": "0.63rem",
+        "count": 10,
+        "numericValue": 10
+      },
+      {
+        "px": "12px",
+        "display": "12px",
+        "rem": "0.75rem",
+        "count": 52,
+        "numericValue": 12
+      },
+      {
+        "px": "16px",
+        "display": "16px",
+        "rem": "1.00rem",
+        "count": 20,
+        "numericValue": 16
+      },
+      {
+        "px": "24px",
+        "display": "24px",
+        "rem": "1.50rem",
+        "count": 24,
+        "numericValue": 24
+      },
+      {
+        "px": "30px",
+        "display": "30px",
+        "rem": "1.88rem",
+        "count": 1,
+        "numericValue": 30
+      },
+      {
+        "px": "40px",
+        "display": "40px",
+        "rem": "2.50rem",
+        "count": 4,
+        "numericValue": 40
+      },
+      {
+        "px": "64px",
+        "display": "64px",
+        "rem": "4.00rem",
+        "count": 7,
+        "numericValue": 64
+      },
+      {
+        "px": "80px",
+        "display": "80px",
+        "rem": "5.00rem",
+        "count": 4,
+        "numericValue": 80
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "3px",
+        "count": 2,
+        "elements": [
+          "img"
+        ],
+        "confidence": "low",
+        "numericValue": 3
+      },
+      {
+        "value": "4px",
+        "count": 1,
+        "elements": [
+          "img"
+        ],
+        "confidence": "low",
+        "numericValue": 4
+      },
+      {
+        "value": "6px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 6
+      },
+      {
+        "value": "8px",
+        "count": 4,
+        "elements": [
+          "div",
+          "input"
+        ],
+        "confidence": "medium",
+        "numericValue": 8
+      },
+      {
+        "value": "12px",
+        "count": 12,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high",
+        "numericValue": 12
+      },
+      {
+        "value": "16px",
+        "count": 16,
+        "elements": [
+          "a",
+          "div"
+        ],
+        "confidence": "high",
+        "numericValue": 16
+      },
+      {
+        "value": "24px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 24
+      },
+      {
+        "value": "99999px",
+        "count": 34,
+        "elements": [
+          "button",
+          "div",
+          "a",
+          "Open chat support",
+          "Previous slides"
+        ],
+        "confidence": "high",
+        "numericValue": 99999
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "2px",
+        "style": "solid",
+        "color": "rgb(190, 203, 218)",
+        "count": 3,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "2px",
+        "style": "solid",
+        "color": "rgb(13, 55, 94)",
+        "count": 3,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "solid",
+        "color": "rgb(0, 0, 0)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(190, 203, 218)",
+        "count": 1,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(132, 150, 174)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [
+    {
+      "shadow": "rgb(255, 255, 255) 0px 0px 0px 2px inset",
+      "count": 10,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(36, 41, 46, 0.04) 0px 8px 28px 0px, rgba(36, 41, 46, 0.08) 0px 4px 8px 0px",
+      "count": 6,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgba(1, 1, 63, 0.1) 0px 2px 19px -4px",
+      "count": 1,
+      "confidence": "low"
+    }
+  ],
+  "gradients": [
+    {
+      "gradient": "linear-gradient(0deg, color(srgb 0.647059 0.847059 1 / 0) 89.17%, rgb(165, 216, 255) 100%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(165, 216, 255)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(color(srgb 0.647059 0.847059 1 / 0) 79.81%, rgb(165, 216, 255) 94.16%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(165, 216, 255)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(rgb(26, 26, 26) 14.17%, rgba(26, 26, 26, 0.61) 49.32%, rgba(26, 26, 26, 0) 78.39%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(26, 26, 26)",
+        "rgba(26, 26, 26, 0.61)",
+        "rgba(26, 26, 26, 0)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "radial-gradient(circle at -3% 117%, rgb(10, 34, 55) 0px, rgba(0, 0, 0, 0) 50%)",
+      "type": "radial",
+      "stopColors": [
+        "rgb(10, 34, 55)",
+        "rgba(0, 0, 0, 0)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "radial-gradient(circle at 75% 50%, rgb(10, 34, 55) 0px, rgba(0, 0, 0, 0) 40%)",
+      "type": "radial",
+      "stopColors": [
+        "rgb(10, 34, 55)",
+        "rgba(0, 0, 0, 0)"
+      ],
+      "count": 1
+    }
+  ],
+  "motion": {
+    "durations": [
+      {
+        "value": "0.001s",
+        "ms": 1,
+        "count": 950
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease",
+        "type": "ease",
+        "count": 890
+      },
+      {
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "type": "custom",
+        "count": 59
+      },
+      {
+        "value": "ease-in-out",
+        "type": "ease-in-out",
+        "count": 1
+      }
+    ],
+    "animations": [
+      {
+        "name": "AffordableCarsCard_slotMachine__ZYkVX",
+        "duration": "0.001s",
+        "easing": "cubic-bezier(0.25",
+        "count": 5,
+        "contexts": [
+          "card"
+        ]
+      },
+      {
+        "name": "AffordableCarsCard_fadeIn__Ymups",
+        "duration": "0.001s",
+        "easing": "linear",
+        "count": 1,
+        "contexts": [
+          "card"
+        ]
+      },
+      {
+        "name": "Cards_priceTagDangle__q7vK5",
+        "duration": "0.001s",
+        "easing": "ease-in-out",
+        "count": 1,
+        "contexts": [
+          "other"
+        ]
+      },
+      {
+        "name": "Cards_delivery__gMOQG",
+        "duration": "0.001s",
+        "easing": "ease-in-out",
+        "count": 1,
+        "contexts": [
+          "other"
+        ]
+      },
+      {
+        "name": "FuelEfficientCard_nissanLeaf__kd1KF",
+        "duration": "0.001s",
+        "easing": "ease-in-out",
+        "count": 1,
+        "contexts": [
+          "card"
+        ]
+      },
+      {
+        "name": "FuelEfficientCard_mitsubishiOutlander__nxcZ7",
+        "duration": "0.001s",
+        "easing": "ease-in-out",
+        "count": 1,
+        "contexts": [
+          "card"
+        ]
+      },
+      {
+        "name": "FuelEfficientCard_fordMustangMachE__ZIHyJ",
+        "duration": "0.001s",
+        "easing": "ease-in-out",
+        "count": 1,
+        "contexts": [
+          "card"
+        ]
+      },
+      {
+        "name": "Cards_haulerSlide__S1ihs",
+        "duration": "0.001s",
+        "easing": "ease-in-out",
+        "count": 1,
+        "contexts": [
+          "card"
+        ]
+      }
+    ],
+    "contexts": {
+      "hero": {
+        "count": 7,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "nav": {
+        "count": 5,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "link": {
+        "count": 146,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "button": {
+        "count": 19,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "modal": {
+        "count": 5,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "card": {
+        "count": 86,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "color",
+          "background-color",
+          "border-color",
+          "outline-color"
+        ]
+      },
+      "input": {
+        "count": 1,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      }
+    },
+    "interactiveDeltas": [
+      {
+        "tag": "div",
+        "text": "",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgb(255, 255, 255)",
+            "to": "rgb(246, 247, 249)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Search Cars",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgb(255, 255, 255)",
+            "to": "rgb(246, 247, 249)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Sell/Trade",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgb(255, 255, 255)",
+            "to": "rgb(246, 247, 249)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Financing",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgb(255, 255, 255)",
+            "to": "rgb(246, 247, 249)"
+          }
+        }
+      },
+      {
+        "tag": "button",
+        "text": "Get Pre-Qualified",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgb(255, 255, 255)",
+            "to": "rgb(226, 232, 240)"
+          },
+          "color": {
+            "from": "rgb(16, 107, 199)",
+            "to": "rgb(0, 76, 143)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Get Your Offer",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgb(255, 255, 255)",
+            "to": "rgb(226, 232, 240)"
+          },
+          "color": {
+            "from": "rgb(16, 107, 199)",
+            "to": "rgb(0, 76, 143)"
+          }
+        }
+      },
+      {
+        "tag": "button",
+        "text": "",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgb(255, 255, 255)",
+            "to": "rgb(226, 232, 240)"
+          }
+        }
+      }
+    ]
+  },
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(16, 107, 199)",
+            "padding": "10px 16px",
+            "borderRadius": "99999px",
+            "border": "0px none rgb(16, 107, 199)",
+            "fontSize": "14px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "14px",
+        "text": "Get Pre-Qualified",
+        "confidence": "high"
+      }
+    ],
+    "inputs": {
+      "text": [],
+      "checkbox": [],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(0, 0, 0)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "var(--text-inverse, #ffffff)"
+          }
+        }
+      },
+      {
+        "color": "rgb(10, 34, 55)",
+        "textDecoration": "none",
+        "fontWeight": "600",
+        "states": {
+          "default": {
+            "color": "rgb(10, 34, 55)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "var(--text-inverse, #ffffff)",
+            "textDecoration": "none"
+          }
+        }
+      },
+      {
+        "color": "rgb(16, 107, 199)",
+        "textDecoration": "none",
+        "fontWeight": "500",
+        "states": {
+          "default": {
+            "color": "rgb(16, 107, 199)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "var(--text-inverse, #ffffff)"
+          }
+        }
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "underline",
+        "fontWeight": "500",
+        "states": {
+          "default": {
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "underline"
+          },
+          "hover": {
+            "color": "var(--text-inverse, #ffffff)"
+          }
+        }
+      }
+    ],
+    "badges": {
+      "all": [],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": []
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "375px"
+    },
+    {
+      "px": "376px"
+    },
+    {
+      "px": "414px"
+    },
+    {
+      "px": "768px"
+    },
+    {
+      "px": "1024px"
+    },
+    {
+      "px": "1280px"
+    },
+    {
+      "px": "1440px"
+    }
+  ],
+  "iconSystem": [],
+  "frameworks": [
+    {
+      "name": "Tailwind CSS",
+      "confidence": "high",
+      "evidence": "arbitrary values (e.g., top-[117px]), responsive/state modifiers"
+    }
+  ]
+}

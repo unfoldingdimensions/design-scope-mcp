@@ -1,0 +1,114 @@
+{
+  "url": "https://www.squarespace.com",
+  "captured": "2026-08-10T05:05:01+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "outline": {
+          "before": "rgb(0, 0, 0) none 3px",
+          "after": "rgb(0, 0, 0) none 0px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "outline": {
+          "before": "rgb(0, 0, 0) none 3px",
+          "after": "rgb(0, 0, 0) none 0px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "div.global-navigation__header",
+      "diffs": {
+        "background": "rgba(0, 0, 0, 0) → rgb(0, 0, 0)"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 556,
+    "tabs": 160,
+    "accordions": 101,
+    "carousels": 299,
+    "observers": 1,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "ul",
+      "classes": "global-navigation__solutions-submenu-pills",
+      "text": "PhotographersGraphic DesignersArtistsInterior DesignersArchi",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "a",
+      "classes": "cta cta--inline cta--light global-navigation__solutions-submenu-pill",
+      "text": "Photographers",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "a",
+      "classes": "cta cta--inline cta--light global-navigation__solutions-submenu-pill",
+      "text": "Graphic Designers",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "a",
+      "classes": "cta cta--inline cta--light global-navigation__solutions-submenu-pill",
+      "text": "Artists",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "a",
+      "classes": "cta cta--inline cta--light global-navigation__solutions-submenu-pill",
+      "text": "Interior Designers",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "a",
+      "classes": "cta cta--inline cta--light global-navigation__solutions-submenu-pill",
+      "text": "Architects",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "a",
+      "classes": "cta cta--inline cta--light global-navigation__solutions-submenu-pill",
+      "text": "Fashion & Apparel",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "ul",
+      "classes": "global-navigation__solutions-submenu-pills",
+      "text": "ConsultantsProfessional CoachesReal Estate AgentsLegal Servi",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

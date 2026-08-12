@@ -1,0 +1,98 @@
+{
+  "url": "https://coda.io",
+  "captured": "2026-08-10T09:29:38+00:00",
+  "hover_diffs": [
+    {
+      "selector": "button",
+      "index": 1,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(41, 40, 39, 0.06)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(41, 40, 39, 0.06)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(41, 40, 39, 0.06)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(41, 40, 39, 0.06)"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 5,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(20, 20, 19)",
+          "after": "rgb(41, 40, 39)"
+        },
+        "boxShadow": {
+          "before": "rgb(41, 40, 39) 0px 0px 0px 1.5px inset",
+          "after": "rgba(0, 20, 20, 0.2) 0px 8px 24px 0px"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 6,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(20, 20, 19)",
+          "after": "rgb(41, 40, 39)"
+        },
+        "boxShadow": {
+          "before": "rgb(41, 40, 39) 0px 0px 0px 1.5px inset",
+          "after": "rgba(0, 20, 20, 0.2) 0px 8px 24px 0px"
+        }
+      },
+      "before_png": "hover-before-06.png",
+      "after_png": "hover-after-06.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 314,
+    "tabs": 0,
+    "accordions": 4,
+    "carousels": 0,
+    "observers": 2,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": []
+}

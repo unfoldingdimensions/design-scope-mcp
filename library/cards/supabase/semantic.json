@@ -1,0 +1,186 @@
+{
+  "url": "https://supabase.com",
+  "captured": "2026-08-10T07:03:57+00:00",
+  "named_tokens": {
+    "light": {
+      "--normal-bg": "#fff",
+      "--normal-border": "var(--gray4)",
+      "--normal-text": "var(--gray12)",
+      "--success-bg": "hsl(143, 85%, 96%)",
+      "--success-border": "hsl(145, 92%, 91%)",
+      "--success-text": "hsl(140, 100%, 27%)",
+      "--info-bg": "hsl(208, 100%, 97%)",
+      "--info-border": "hsl(221, 91%, 91%)",
+      "--info-text": "hsl(210, 92%, 45%)",
+      "--warning-bg": "hsl(49, 100%, 97%)",
+      "--warning-border": "hsl(49, 91%, 91%)",
+      "--warning-text": "hsl(31, 92%, 45%)",
+      "--error-bg": "hsl(359, 100%, 97%)",
+      "--error-border": "hsl(359, 100%, 94%)",
+      "--error-text": "hsl(360, 100%, 45%)"
+    },
+    "dark": {
+      "--normal-bg": "#fff",
+      "--normal-border": "var(--gray3)",
+      "--normal-text": "var(--gray12)",
+      "--success-bg": "hsl(150, 100%, 6%)",
+      "--success-border": "hsl(147, 100%, 12%)",
+      "--success-text": "hsl(150, 86%, 65%)",
+      "--info-bg": "hsl(215, 100%, 6%)",
+      "--info-border": "hsl(223, 100%, 12%)",
+      "--info-text": "hsl(216, 87%, 65%)",
+      "--warning-bg": "hsl(64, 100%, 6%)",
+      "--warning-border": "hsl(60, 100%, 12%)",
+      "--warning-text": "hsl(46, 87%, 65%)",
+      "--error-bg": "hsl(358, 76%, 10%)",
+      "--error-border": "hsl(357, 89%, 16%)",
+      "--error-text": "hsl(358, 100%, 81%)"
+    }
+  },
+  "semantic_colors": {
+    "light": {
+      "--normal-bg": "#fff"
+    },
+    "dark": {
+      "--normal-bg": "#fff"
+    },
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "soft corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "soft",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "toast": 999999999
+  },
+  "z_index_rows": [
+    {
+      "role": "toast",
+      "selector": ":where([data-sonner-toaster])",
+      "value": "999999999"
+    },
+    {
+      "role": "toast",
+      "selector": ":where([data-sonner-toast])",
+      "value": "var(--z-index)"
+    },
+    {
+      "role": "toast",
+      "selector": ":where([data-sonner-toast]) :where([data-close-button])",
+      "value": "1"
+    },
+    {
+      "role": "toast",
+      "selector": ":where([data-sonner-toast][data-swiping=\"true\"])::before",
+      "value": "-1"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster]",
+      "change": "position: fixed"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster]",
+      "change": "right: var(--mobile-offset)"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster]",
+      "change": "left: var(--mobile-offset)"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster]",
+      "change": "width: 100%"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster] [data-sonner-toast]",
+      "change": "left: 0px"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster] [data-sonner-toast]",
+      "change": "right: 0px"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster] [data-sonner-toast]",
+      "change": "width: calc(100% - var(--mobile-offset) * 2)"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster][data-x-position=\"left\"]",
+      "change": "left: var(--mobile-offset)"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster][data-y-position=\"bottom\"]",
+      "change": "bottom: 20px"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster][data-y-position=\"top\"]",
+      "change": "top: 20px"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster][data-x-position=\"center\"]",
+      "change": "left: var(--mobile-offset)"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster][data-x-position=\"center\"]",
+      "change": "right: var(--mobile-offset)"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": "[data-sonner-toast], [data-sonner-toast] > *, .sonner-loading-bar",
+      "change": "transition-behavior: normal"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": "[data-sonner-toast], [data-sonner-toast] > *, .sonner-loading-bar",
+      "change": "transition-duration: 0s"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": "[data-sonner-toast], [data-sonner-toast] > *, .sonner-loading-bar",
+      "change": "transition-timing-function: ease"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": "[data-sonner-toast], [data-sonner-toast] > *, .sonner-loading-bar",
+      "change": "transition-delay: 0s"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": "[data-sonner-toast], [data-sonner-toast] > *, .sonner-loading-bar",
+      "change": "transition-property: none"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": "[data-sonner-toast], [data-sonner-toast] > *, .sonner-loading-bar",
+      "change": "animation-duration: auto"
+    },
+    {
+      "at": "(hover: hover) and (pointer: fine)",
+      "selector": "[data-vaul-drawer]",
+      "change": "user-select: none"
+    }
+  ]
+}

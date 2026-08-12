@@ -1,0 +1,273 @@
+{
+  "url": "https://www.base.org",
+  "captured": "2026-08-10T13:05:52+00:00",
+  "named_tokens": {
+    "light": {
+      "--background": "#fff",
+      "--foreground": "#171717",
+      "--base-blue-p3": "#002ef4",
+      "--base-blue-light-p3": "#0057ea",
+      "--base-blue-ultra-light-p3": "#0086ed"
+    },
+    "dark": {
+      "--lightningcss-light": "",
+      "--lightningcss-dark": "initial",
+      "--background": "#111",
+      "--foreground": "#ededed"
+    }
+  },
+  "semantic_colors": {
+    "light": {
+      "--background": "#fff",
+      "--foreground": "#171717"
+    },
+    "dark": {
+      "--background": "#111",
+      "--foreground": "#ededed"
+    },
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "sharp corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "sharp",
+    "type_mood": [
+      "mono accents"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "modal": 2147483647,
+    "banner": 2147483645
+  },
+  "z_index_rows": [
+    {
+      "role": "modal",
+      "selector": "#onetrust-consent-sdk .ot-general-modal",
+      "value": "2147483647"
+    },
+    {
+      "role": "banner",
+      "selector": "#onetrust-banner-sdk.otFloatingRounded",
+      "value": "2147483645"
+    },
+    {
+      "role": "banner",
+      "selector": "#onetrust-banner-sdk.otFlat",
+      "value": "2147483645"
+    },
+    {
+      "role": "banner",
+      "selector": "#onetrust-banner-sdk.otFlat",
+      "value": "2147483645"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "640px",
+      "selector": ".\\!container",
+      "change": "max-width: 640px"
+    },
+    {
+      "at": "640px",
+      "selector": ".container",
+      "change": "max-width: 640px"
+    },
+    {
+      "at": "768px",
+      "selector": ".\\!container",
+      "change": "max-width: 768px"
+    },
+    {
+      "at": "768px",
+      "selector": ".container",
+      "change": "max-width: 768px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".\\!container",
+      "change": "max-width: 1024px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".container",
+      "change": "max-width: 1024px"
+    },
+    {
+      "at": "1280px",
+      "selector": ".\\!container",
+      "change": "max-width: 1280px"
+    },
+    {
+      "at": "1280px",
+      "selector": ".container",
+      "change": "max-width: 1280px"
+    },
+    {
+      "at": "1536px",
+      "selector": ".\\!container",
+      "change": "max-width: 1536px"
+    },
+    {
+      "at": "1536px",
+      "selector": ".container",
+      "change": "max-width: 1536px"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".marquee-scroll-track",
+      "change": "animation-duration: auto"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".marquee-scroll-track",
+      "change": "animation-timing-function: ease"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".marquee-scroll-track",
+      "change": "animation-delay: 0s"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".marquee-scroll-track",
+      "change": "animation-iteration-count: 1"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".marquee-scroll-track",
+      "change": "animation-direction: normal"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".marquee-scroll-track",
+      "change": "animation-fill-mode: none"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".motion-reduce\\:transition-none",
+      "change": "transition-property: none"
+    },
+    {
+      "at": "1024px",
+      "selector": ".max-lg\\:px-3",
+      "change": "padding-left: 0.75rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".max-lg\\:px-3",
+      "change": "padding-right: 0.75rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".max-lg\\:py-2",
+      "change": "padding-top: 0.5rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".max-lg\\:py-2",
+      "change": "padding-bottom: 0.5rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".max-lg\\:dark\\:border-white\\/\\[\\.08\\]:is(.dark *)",
+      "change": "border-top-color: rgba(255, 255, 255, 0.08)"
+    },
+    {
+      "at": "1024px",
+      "selector": ".max-lg\\:dark\\:border-white\\/\\[\\.08\\]:is(.dark *)",
+      "change": "border-right-color: rgba(255, 255, 255, 0.08)"
+    },
+    {
+      "at": "1024px",
+      "selector": ".max-lg\\:dark\\:border-white\\/\\[\\.08\\]:is(.dark *)",
+      "change": "border-bottom-color: rgba(255, 255, 255, 0.08)"
+    },
+    {
+      "at": "1024px",
+      "selector": ".max-lg\\:dark\\:border-white\\/\\[\\.08\\]:is(.dark *)",
+      "change": "border-left-color: rgba(255, 255, 255, 0.08)"
+    },
+    {
+      "at": "640px",
+      "selector": ".max-sm\\:flex-col",
+      "change": "flex-direction: column"
+    },
+    {
+      "at": "640px",
+      "selector": ".max-sm\\:items-start",
+      "change": "align-items: flex-start"
+    },
+    {
+      "at": "640px",
+      "selector": ".sm\\:inset-6",
+      "change": "top: 1.5rem"
+    },
+    {
+      "at": "640px",
+      "selector": ".sm\\:inset-6",
+      "change": "bottom: 1.5rem"
+    },
+    {
+      "at": "640px",
+      "selector": ".sm\\:inset-6",
+      "change": "left: 1.5rem"
+    },
+    {
+      "at": "640px",
+      "selector": ".sm\\:inset-6",
+      "change": "right: 1.5rem"
+    },
+    {
+      "at": "640px",
+      "selector": ".sm\\:inset-8",
+      "change": "top: 2rem"
+    },
+    {
+      "at": "640px",
+      "selector": ".sm\\:inset-8",
+      "change": "bottom: 2rem"
+    },
+    {
+      "at": "640px",
+      "selector": ".sm\\:inset-8",
+      "change": "left: 2rem"
+    },
+    {
+      "at": "640px",
+      "selector": ".sm\\:inset-8",
+      "change": "right: 2rem"
+    },
+    {
+      "at": "640px",
+      "selector": ".sm\\:col-span-1",
+      "change": "grid-column-start: span 1"
+    },
+    {
+      "at": "640px",
+      "selector": ".sm\\:col-span-1",
+      "change": "grid-column-end: span 1"
+    },
+    {
+      "at": "640px",
+      "selector": ".sm\\:col-start-1",
+      "change": "grid-column-start: 1"
+    },
+    {
+      "at": "640px",
+      "selector": ".sm\\:col-start-2",
+      "change": "grid-column-start: 2"
+    },
+    {
+      "at": "768px",
+      "selector": ".md\\:pointer-events-none",
+      "change": "pointer-events: none"
+    }
+  ]
+}

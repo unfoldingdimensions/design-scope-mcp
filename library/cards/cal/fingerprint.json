@@ -1,0 +1,1534 @@
+{
+  "url": "https://cal.com/",
+  "extractedAt": "2026-08-09T12:18:51.595Z",
+  "meta": {
+    "snapshotId": "63a501a3-bc2a-4421-b3a6-8f6f4b648699",
+    "httpStatus": 200,
+    "dembrandtVersion": "0.27.1",
+    "schemaVersion": "1.5.0",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "fontsReady": true,
+    "flags": {
+      "mobile": true
+    }
+  },
+  "siteName": "Cal.com",
+  "logo": {
+    "source": "img",
+    "context": "header",
+    "url": "https://cal.openstatus.dev/badge/v2",
+    "width": 202,
+    "height": 34,
+    "rect": {
+      "x": 494,
+      "y": 8126,
+      "width": 178,
+      "height": 30
+    },
+    "natural": {
+      "width": 202,
+      "height": 34
+    },
+    "alt": "Logo",
+    "type": "wordmark",
+    "reversed": false,
+    "background": "#ffffff",
+    "safeZone": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "position": {
+      "top": 8126.359375,
+      "left": 494
+    }
+  },
+  "logoInstances": [
+    {
+      "source": "img",
+      "context": "header",
+      "url": "https://cal.openstatus.dev/badge/v2",
+      "width": 202,
+      "height": 34,
+      "rect": {
+        "x": 494,
+        "y": 8126,
+        "width": 178,
+        "height": 30
+      },
+      "natural": {
+        "width": 202,
+        "height": 34
+      },
+      "alt": "Logo",
+      "type": "wordmark",
+      "reversed": false,
+      "background": "#ffffff",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 8126.359375,
+        "left": 494
+      }
+    }
+  ],
+  "favicons": [
+    {
+      "type": "icon",
+      "url": "https://framerusercontent.com/images/KLEuLsreYtfUbTcK9TjmfF0QoGY.png",
+      "sizes": null
+    },
+    {
+      "type": "icon",
+      "url": "https://framerusercontent.com/images/KLEuLsreYtfUbTcK9TjmfF0QoGY.png",
+      "sizes": null
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://framerusercontent.com/images/63tSo3fa0ylcjt88Er8WTEPS6Dw.png",
+      "sizes": null
+    },
+    {
+      "type": "og:image",
+      "url": "https://framerusercontent.com/images/pPSh5HDe1qaySb4R7xBgMHudhU.png",
+      "sizes": null
+    },
+    {
+      "type": "twitter:image",
+      "url": "https://framerusercontent.com/images/pPSh5HDe1qaySb4R7xBgMHudhU.png",
+      "sizes": null
+    }
+  ],
+  "colors": {
+    "semantic": {
+      "background": "rgb(244, 244, 244)",
+      "text": "rgb(0, 0, 0)",
+      "primary": "rgb(55, 65, 81)"
+    },
+    "palette": [
+      {
+        "color": "rgb(137, 137, 137)",
+        "normalized": "#898989",
+        "count": 330,
+        "confidence": "high",
+        "sources": [],
+        "lch": "lch(57.09% 0.02 53.35)",
+        "oklch": "oklch(63.01% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#000000",
+        "hover": "#747474"
+      },
+      {
+        "color": "rgb(36, 36, 36)",
+        "normalized": "#242424",
+        "count": 222,
+        "confidence": "high",
+        "sources": [],
+        "lch": "lch(14.2% 0.01 53.35)",
+        "oklch": "oklch(26.03% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#ffffff",
+        "hover": "#2b2b2b"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 169,
+        "confidence": "high",
+        "sources": [
+          "framer-mbfc6",
+          "framer-10twttb",
+          "framer-7ht8f"
+        ],
+        "lch": "lch(100% 0.03 53.35)",
+        "oklch": "oklch(100% 0 89.88)",
+        "role": "surface",
+        "onColor": "#000000",
+        "hover": "#d9d9d9"
+      },
+      {
+        "color": "rgb(211, 211, 211)",
+        "normalized": "#d3d3d3",
+        "count": 18,
+        "confidence": "medium",
+        "sources": [],
+        "lch": "lch(84.56% 0.02 53.35)",
+        "oklch": "oklch(86.69% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#000000",
+        "hover": "#b3b3b3"
+      },
+      {
+        "color": "rgb(55, 65, 81)",
+        "normalized": "#374151",
+        "count": 17,
+        "confidence": "medium",
+        "sources": [],
+        "lch": "lch(27.13% 11.16 265.13)",
+        "oklch": "oklch(37.29% 0.031 259.73)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#424e61",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(0, 153, 255)",
+        "normalized": "#0099ff",
+        "count": 6,
+        "confidence": "medium",
+        "sources": [
+          "framer-text"
+        ],
+        "lch": "lch(60.69% 61.28 265.15)",
+        "oklch": "oklch(66.9% 0.184 248.81)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#0082d9",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(16, 16, 16)",
+        "normalized": "#101010",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      },
+      {
+        "color": "rgba(17, 17, 17, 0.5)",
+        "normalized": "#111111",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      }
+    ],
+    "cssVariables": {
+      "--sj-tw-ring-color": {
+        "value": "rgba(59,130,246,.5)",
+        "hex": "#3b82f6",
+        "lch": "lch(54.62% 66.35 277.59 / 0.5)",
+        "oklch": "oklch(62.31% 0.188 259.81 / 0.5)"
+      }
+    },
+    "detected": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 3952,
+        "usageFrac": 0.7104080532087004,
+        "confidence": "high",
+        "sources": [
+          "framer-mbfc6"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(0, 0, 238)",
+        "normalized": "#0000ee",
+        "count": 448,
+        "usageFrac": 0.08053208700341542,
+        "confidence": "high",
+        "sources": [
+          "framer-10wfx14",
+          "framer-15zhtc3",
+          "framer-1fe30l3",
+          "framer-it7a3j",
+          "framer-h6cn3"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(137, 137, 137)",
+        "normalized": "#898989",
+        "count": 330,
+        "usageFrac": 0.059320510515908684,
+        "confidence": "high",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(36, 36, 36)",
+        "normalized": "#242424",
+        "count": 222,
+        "usageFrac": 0.03990652525615675,
+        "confidence": "high",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 169,
+        "usageFrac": 0.030379291749056264,
+        "confidence": "high",
+        "sources": [
+          "framer-mbfc6",
+          "framer-10twttb",
+          "framer-7ht8f"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(17, 17, 17)",
+        "normalized": "#111111",
+        "count": 108,
+        "usageFrac": 0.019413985259751933,
+        "confidence": "high",
+        "sources": [
+          "framer-text"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(41, 41, 41)",
+        "normalized": "#292929",
+        "count": 93,
+        "usageFrac": 0.01671759841811972,
+        "confidence": "high",
+        "sources": [
+          "input",
+          "title"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(224, 224, 224)",
+        "normalized": "#e0e0e0",
+        "count": 64,
+        "usageFrac": 0.011504583857630774,
+        "confidence": "high",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(244, 244, 244)",
+        "normalized": "#f4f4f4",
+        "count": 32,
+        "usageFrac": 0.005752291928815387,
+        "confidence": "high",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(225, 226, 227)",
+        "normalized": "#e1e2e3",
+        "count": 26,
+        "usageFrac": 0.004673737192162502,
+        "confidence": "high",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(211, 211, 211)",
+        "normalized": "#d3d3d3",
+        "count": 18,
+        "usageFrac": 0.0032356642099586556,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(55, 65, 81)",
+        "normalized": "#374151",
+        "count": 17,
+        "usageFrac": 0.0030559050871831746,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(16, 16, 16)",
+        "normalized": "#101010",
+        "count": 16,
+        "usageFrac": 0.0028761459644076936,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(229, 231, 235)",
+        "normalized": "#e5e7eb",
+        "count": 15,
+        "usageFrac": 0.002696386841632213,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(245, 245, 245)",
+        "normalized": "#f5f5f5",
+        "count": 9,
+        "usageFrac": 0.0016178321049793278,
+        "confidence": "medium",
+        "sources": [
+          "framer-mbfc6"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(107, 114, 128)",
+        "normalized": "#6b7280",
+        "count": 6,
+        "usageFrac": 0.0010785547366528852,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(156, 163, 175)",
+        "normalized": "#9ca3af",
+        "count": 6,
+        "usageFrac": 0.0010785547366528852,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgba(20, 20, 20, 0.6)",
+        "normalized": "#141414",
+        "count": 6,
+        "usageFrac": 0.0010785547366528852,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(0, 153, 255)",
+        "normalized": "#0099ff",
+        "count": 6,
+        "usageFrac": 0.0010785547366528852,
+        "confidence": "medium",
+        "sources": [
+          "framer-text"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(120, 38, 177)",
+        "normalized": "#7826b1",
+        "count": 4,
+        "usageFrac": 0.0007190364911019234,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(170, 97, 241)",
+        "normalized": "#aa61f1",
+        "count": 4,
+        "usageFrac": 0.0007190364911019234,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(243, 244, 246)",
+        "normalized": "#f3f4f6",
+        "count": 3,
+        "usageFrac": 0.0005392773683264426,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(136, 44, 47)",
+        "normalized": "#882c2f",
+        "count": 2,
+        "usageFrac": 0.0003595182455509617,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(216, 91, 95)",
+        "normalized": "#d85b5f",
+        "count": 2,
+        "usageFrac": 0.0003595182455509617,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(2, 97, 162)",
+        "normalized": "#0261a2",
+        "count": 2,
+        "usageFrac": 0.0003595182455509617,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(12, 155, 235)",
+        "normalized": "#0c9beb",
+        "count": 2,
+        "usageFrac": 0.0003595182455509617,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(233, 221, 253)",
+        "normalized": "#e9ddfd",
+        "count": 1,
+        "usageFrac": 0.00017975912277548085,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      }
+    ],
+    "_raw": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 3952
+      },
+      {
+        "color": "rgb(0, 0, 238)",
+        "normalized": "#0000ee",
+        "count": 448
+      },
+      {
+        "color": "rgb(41, 41, 41)",
+        "normalized": "#292929",
+        "count": 93
+      },
+      {
+        "color": "rgb(17, 17, 17)",
+        "normalized": "#111111",
+        "count": 108
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 169
+      },
+      {
+        "color": "rgb(137, 137, 137)",
+        "normalized": "#898989",
+        "count": 330
+      },
+      {
+        "color": "rgb(36, 36, 36)",
+        "normalized": "#242424",
+        "count": 222
+      },
+      {
+        "color": "rgb(224, 224, 224)",
+        "normalized": "#e0e0e0",
+        "count": 64
+      }
+    ]
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "display",
+        "family": "Cal Sans",
+        "fallbacks": null,
+        "size": "64px (4.00rem)",
+        "weight": 600,
+        "lineHeight": "1.10",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Cal Sans",
+        "fallbacks": null,
+        "size": "48px (3.00rem)",
+        "weight": 600,
+        "lineHeight": "1.10",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Cal Sans",
+        "fallbacks": null,
+        "size": "24px (1.50rem)",
+        "weight": 600,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Cal Sans",
+        "fallbacks": "Cal Sans Placeholder",
+        "size": "20px (1.25rem)",
+        "weight": 400,
+        "lineHeight": "1.20",
+        "spacing": "0.2px",
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Cal Sans",
+        "fallbacks": null,
+        "size": "20px (1.25rem)",
+        "weight": 600,
+        "lineHeight": "1.00",
+        "spacing": "0.2px",
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Cal Sans",
+        "fallbacks": null,
+        "size": "20px (1.25rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "Cal Sans UI Variable Light",
+        "fallbacks": "Cal Sans UI Variable Light Placeholder",
+        "size": "18px (1.13rem)",
+        "weight": 300,
+        "lineHeight": "1.30",
+        "spacing": "-0.2px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Cal Sans UI Variable Light",
+        "fallbacks": "Cal Sans UI Variable Light Placeholder",
+        "size": "18px (1.13rem)",
+        "weight": 300,
+        "lineHeight": "1.50",
+        "spacing": "-0.2px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Cal Sans UI Variable Light",
+        "fallbacks": "Cal Sans UI Variable Light Placeholder",
+        "size": "16px (1.00rem)",
+        "weight": 300,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Inter",
+        "fallbacks": "Inter Placeholder",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Cal Sans",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.10",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Cal Sans UI Variable Light",
+        "fallbacks": "Cal Sans UI Variable Light Placeholder",
+        "size": "16px (1.00rem)",
+        "weight": 300,
+        "lineHeight": "1.50",
+        "spacing": "-0.2px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Cal Sans UI Variable Light",
+        "fallbacks": "Cal Sans UI Variable Light Placeholder",
+        "size": "16px (1.00rem)",
+        "weight": 300,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Cal Sans UI Variable Light",
+        "fallbacks": "Cal Sans UI Variable Light Placeholder",
+        "size": "14px (0.88rem)",
+        "weight": 300,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Cal Sans UI Variable Light",
+        "fallbacks": "Cal Sans UI Variable Light Placeholder",
+        "size": "14px (0.88rem)",
+        "weight": 300,
+        "lineHeight": "1.50",
+        "spacing": "-0.2px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Cal Sans UI Variable Light",
+        "fallbacks": "Cal Sans UI Variable Light Placeholder",
+        "size": "14px (0.88rem)",
+        "weight": 300,
+        "lineHeight": "1.50",
+        "spacing": "-0.2px",
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Inter",
+        "fallbacks": "Inter Placeholder",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.14",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Roboto Mono",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "Matter SemiBold",
+        "fallbacks": "Matter SemiBold Placeholder",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Matter Medium",
+        "fallbacks": "Matter Medium Placeholder",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Matter Regular",
+        "fallbacks": "Matter Regular Placeholder",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "CUSTOMV2;Cal Sans UI Regular",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Cal Sans UI Variable Light",
+        "fallbacks": "Cal Sans UI Variable Light Placeholder",
+        "size": "14px (0.88rem)",
+        "weight": 300,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "sans-serif",
+        "fallbacks": null,
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Cal Sans UI Variable Light",
+        "fallbacks": "Cal Sans UI Variable Light Placeholder",
+        "size": "12px (0.75rem)",
+        "weight": 300,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Inter",
+        "fallbacks": "Inter Placeholder",
+        "size": "12px (0.75rem)",
+        "weight": 500,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "sans-serif",
+        "fallbacks": null,
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Matter Regular",
+        "fallbacks": "Matter Regular Placeholder",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "Cal Sans",
+        "fallbacks": null,
+        "size": "12px (0.75rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Matter Regular",
+        "fallbacks": "Matter Regular Placeholder",
+        "size": "10px (0.63rem)",
+        "weight": 400,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Inter",
+        "fallbacks": "Inter Placeholder",
+        "size": "9.71px (0.61rem)",
+        "weight": 500,
+        "lineHeight": "1.14",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Inter",
+        "fallbacks": "Inter Placeholder",
+        "size": "9.71px (0.61rem)",
+        "weight": 400,
+        "lineHeight": "1.14",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Matter Regular",
+        "fallbacks": "Matter Regular Placeholder",
+        "size": "8px (0.50rem)",
+        "weight": 400,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      }
+    ],
+    "sources": {
+      "googleFonts": [
+        "Inter"
+      ],
+      "adobeFonts": false,
+      "variableFonts": true,
+      "variableAxes": [
+        {
+          "axis": "GEOM",
+          "min": 0,
+          "max": 50,
+          "count": 74
+        },
+        {
+          "axis": "wght",
+          "min": 300,
+          "max": 570,
+          "count": 74
+        }
+      ],
+      "selfHostedFonts": [
+        "GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+        "JnSOH7RupDCN6KVnC1gWkQOKE.woff2",
+        "P2duH7wVRqqnKRek7vOcXAA9g.woff2",
+        "d3tHnaQIAeqiE5hGcRw4mmgWYU.woff2",
+        "dcBhZgAFiyqqQO8SkGjomdakHJ8.woff2",
+        "s54IhrL41P21N6p7LExqluES5w.woff2",
+        "vQyevYAyHtARFwPqUzQGpnDs.woff2",
+        "yDtI2UI8XcEg1W2je9XPN3Noo.woff2",
+        "yoAzpZteCckGFkoe6BbYQH90ReE.woff2"
+      ],
+      "customFonts": [
+        "GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+        "JnSOH7RupDCN6KVnC1gWkQOKE.woff2",
+        "P2duH7wVRqqnKRek7vOcXAA9g.woff2",
+        "d3tHnaQIAeqiE5hGcRw4mmgWYU.woff2",
+        "dcBhZgAFiyqqQO8SkGjomdakHJ8.woff2",
+        "s54IhrL41P21N6p7LExqluES5w.woff2",
+        "vQyevYAyHtARFwPqUzQGpnDs.woff2",
+        "yDtI2UI8XcEg1W2je9XPN3Noo.woff2",
+        "yoAzpZteCckGFkoe6BbYQH90ReE.woff2"
+      ]
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "1px",
+        "display": "1px",
+        "rem": "0.06rem",
+        "count": 7,
+        "numericValue": 1
+      },
+      {
+        "px": "2px",
+        "display": "2px",
+        "rem": "0.13rem",
+        "count": 79,
+        "numericValue": 2
+      },
+      {
+        "px": "2.77551px",
+        "display": "2.77551px",
+        "rem": "0.17rem",
+        "count": 2,
+        "numericValue": 2.77551
+      },
+      {
+        "px": "3px",
+        "display": "3px",
+        "rem": "0.19rem",
+        "count": 1,
+        "numericValue": 3
+      },
+      {
+        "px": "4px",
+        "display": "4px",
+        "rem": "0.25rem",
+        "count": 123,
+        "numericValue": 4
+      },
+      {
+        "px": "6px",
+        "display": "6px",
+        "rem": "0.38rem",
+        "count": 28,
+        "numericValue": 6
+      },
+      {
+        "px": "8px",
+        "display": "8px",
+        "rem": "0.50rem",
+        "count": 68,
+        "numericValue": 8
+      },
+      {
+        "px": "12px",
+        "display": "12px",
+        "rem": "0.75rem",
+        "count": 19,
+        "numericValue": 12
+      },
+      {
+        "px": "16px",
+        "display": "16px",
+        "rem": "1.00rem",
+        "count": 30,
+        "numericValue": 16
+      },
+      {
+        "px": "20px",
+        "display": "20px",
+        "rem": "1.25rem",
+        "count": 20,
+        "numericValue": 20
+      },
+      {
+        "px": "24px",
+        "display": "24px",
+        "rem": "1.50rem",
+        "count": 111,
+        "numericValue": 24
+      },
+      {
+        "px": "28px",
+        "display": "28px",
+        "rem": "1.75rem",
+        "count": 8,
+        "numericValue": 28
+      },
+      {
+        "px": "80px",
+        "display": "80px",
+        "rem": "5.00rem",
+        "count": 2,
+        "numericValue": 80
+      },
+      {
+        "px": "96px",
+        "display": "96px",
+        "rem": "6.00rem",
+        "count": 1,
+        "numericValue": 96
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "2px",
+        "count": 35,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high",
+        "numericValue": 2
+      },
+      {
+        "value": "4px",
+        "count": 39,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high",
+        "numericValue": 4
+      },
+      {
+        "value": "6px",
+        "count": 10,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 6
+      },
+      {
+        "value": "6.94px",
+        "count": 7,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 6.94
+      },
+      {
+        "value": "7px",
+        "count": 11,
+        "elements": [
+          "a",
+          "img"
+        ],
+        "confidence": "high",
+        "numericValue": 7
+      },
+      {
+        "value": "8px",
+        "count": 86,
+        "elements": [
+          "button",
+          "div",
+          "img",
+          "input"
+        ],
+        "confidence": "high",
+        "numericValue": 8
+      },
+      {
+        "value": "10px",
+        "count": 2,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 10
+      },
+      {
+        "value": "12px",
+        "count": 61,
+        "elements": [
+          "a",
+          "div",
+          "img"
+        ],
+        "confidence": "high",
+        "numericValue": 12
+      },
+      {
+        "value": "12px 12px 0px 0px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 12
+      },
+      {
+        "value": "12px 12px 12px 0px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 12
+      },
+      {
+        "value": "16px",
+        "count": 48,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high",
+        "numericValue": 16
+      },
+      {
+        "value": "29px",
+        "count": 32,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high",
+        "numericValue": 29
+      },
+      {
+        "value": "40px",
+        "count": 2,
+        "elements": [
+          "Previous",
+          "Next"
+        ],
+        "confidence": "low",
+        "numericValue": 40
+      },
+      {
+        "value": "100px",
+        "count": 61,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high",
+        "numericValue": 100
+      },
+      {
+        "value": "120px",
+        "count": 2,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 120
+      },
+      {
+        "value": "1000px",
+        "count": 4,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 1000
+      },
+      {
+        "value": "9999px",
+        "count": 7,
+        "elements": [
+          "a"
+        ],
+        "confidence": "medium",
+        "numericValue": 9999
+      },
+      {
+        "value": "8.10041% / 26.087%",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 8.10041
+      },
+      {
+        "value": "100%",
+        "count": 8,
+        "elements": [
+          "div",
+          "img"
+        ],
+        "confidence": "medium",
+        "numericValue": 100
+      },
+      {
+        "value": "1250%",
+        "count": 2,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 1250
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(118, 118, 118)",
+        "count": 1,
+        "elements": [
+          "select"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgba(20, 20, 20, 0.15)",
+        "count": 1,
+        "elements": [
+          "input"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [
+    {
+      "shadow": "rgba(0, 0, 0, 0.16) 0px 1px 1.9px 0px inset",
+      "count": 64,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgba(19, 19, 22, 0.7) 0px 1px 5px -4px, rgba(34, 42, 53, 0.08) 0px 0px 0px 1px, rgba(34, 42, 53, 0.05) 0px 4px 8px 0px",
+      "count": 24,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgba(36, 36, 36, 0.7) 0px 1px 5px -4px, rgba(36, 36, 36, 0.05) 0px 4px 8px 0px",
+      "count": 19,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgba(255, 255, 255, 0.15) 0px 2px 0px 0px inset",
+      "count": 8,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgba(19, 19, 22, 0.7) 0px 1px 5px -4px, rgba(34, 42, 53, 0.1) 0px 0px 0px 1px, rgba(34, 42, 53, 0.05) 0px 4px 8px 0px",
+      "count": 8,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgba(34, 42, 53, 0.05) 0px 4px 8px 0px",
+      "count": 7,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgb(255, 255, 255) 0px 2px 0px 0px inset",
+      "count": 7,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 1px 3px 0px, rgba(0, 0, 0, 0) 0px 0px 2px 0px",
+      "count": 6,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 0px 2px 0px",
+      "count": 2,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.15) 0px 4px 12px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.1) 0px 0.693878px 2.08163px 0px, rgba(0, 0, 0, 0.06) 0px 0px 1.38776px 0px",
+      "count": 1,
+      "confidence": "low"
+    }
+  ],
+  "gradients": [
+    {
+      "gradient": "linear-gradient(rgb(41, 41, 41) 0%, rgb(36, 36, 36) 100%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(41, 41, 41)",
+        "rgb(36, 36, 36)"
+      ],
+      "count": 4
+    },
+    {
+      "gradient": "linear-gradient(rgb(252, 252, 252) 0%, rgb(255, 255, 255) 100%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(252, 252, 252)",
+        "rgb(255, 255, 255)"
+      ],
+      "count": 2
+    },
+    {
+      "gradient": "linear-gradient(rgb(247, 247, 248) 0%, rgb(234, 234, 235) 100%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(247, 247, 248)",
+        "rgb(234, 234, 235)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "radial-gradient(50% 50%, rgba(255, 255, 255, 0) 87.1499%, rgb(255, 255, 255) 100%)",
+      "type": "radial",
+      "stopColors": [
+        "rgba(255, 255, 255, 0)",
+        "rgb(255, 255, 255)"
+      ],
+      "count": 1
+    }
+  ],
+  "motion": {
+    "durations": [
+      {
+        "value": "0.001s",
+        "ms": 1,
+        "count": 2818
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease",
+        "type": "ease",
+        "count": 2818
+      }
+    ],
+    "animations": [],
+    "contexts": {
+      "link": {
+        "count": 57,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "input": {
+        "count": 1,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      }
+    },
+    "interactiveDeltas": [
+      {
+        "tag": "a",
+        "text": "Sign in",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(17, 17, 17)",
+            "to": "rgba(17, 17, 17, 0.5)"
+          }
+        }
+      }
+    ]
+  },
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(245, 245, 245)",
+            "color": "rgb(0, 0, 238)",
+            "padding": "4px 8px 4px 12px",
+            "borderRadius": "9999px",
+            "border": "0px none rgb(0, 0, 238)",
+            "boxShadow": "rgba(34, 42, 53, 0.05) 0px 4px 8px 0px",
+            "fontSize": "12px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "12px",
+        "text": "Cal.com launches v6.7",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(255, 255, 255, 0.8)",
+            "color": "rgb(0, 0, 238)",
+            "padding": "0px 10px",
+            "borderRadius": "7px",
+            "border": "0px none rgb(0, 0, 238)",
+            "fontSize": "12px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "12px",
+        "text": "iPhone",
+        "confidence": "medium"
+      }
+    ],
+    "inputs": {
+      "text": [],
+      "checkbox": [],
+      "radio": [],
+      "select": [
+        {
+          "specificType": "select-one",
+          "states": {
+            "default": {
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(118, 118, 118)",
+              "borderRadius": "0px",
+              "padding": "0px",
+              "boxShadow": "none",
+              "outline": "rgb(0, 0, 0) none 3px"
+            },
+            "focus": {
+              "outline": "var(--framer-focus-outline,none)"
+            }
+          }
+        }
+      ]
+    },
+    "links": [
+      {
+        "color": "rgb(0, 0, 238)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(0, 0, 238)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "var(--framer-link-hover-text-color,var(--framer-link-text-color,var(--framer-text-color,#000)))",
+            "textDecoration": "var(--framer-link-hover-text-decoration,var(--framer-link-text-decoration,var(--framer-text-decoration,none)))"
+          }
+        }
+      },
+      {
+        "color": "rgb(17, 17, 17)",
+        "textDecoration": "none",
+        "fontWeight": "300",
+        "states": {
+          "default": {
+            "color": "rgb(17, 17, 17)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "var(--framer-link-hover-text-color,var(--framer-link-text-color,var(--framer-text-color,#000)))",
+            "textDecoration": "var(--framer-link-hover-text-decoration,var(--framer-link-text-decoration,var(--framer-text-decoration,none)))"
+          }
+        }
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(0, 0, 0)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "var(--framer-link-hover-text-color,var(--framer-link-text-color,var(--framer-text-color,#000)))",
+            "textDecoration": "var(--framer-link-hover-text-decoration,var(--framer-link-text-decoration,var(--framer-text-decoration,none)))"
+          }
+        }
+      },
+      {
+        "color": "rgb(0, 153, 255)",
+        "textDecoration": "none",
+        "fontWeight": "300",
+        "states": {
+          "default": {
+            "color": "rgb(0, 153, 255)",
+            "textDecoration": "underline"
+          },
+          "hover": {
+            "color": "var(--framer-link-hover-text-color,var(--framer-link-text-color,var(--framer-text-color,#000)))",
+            "textDecoration": "var(--framer-link-hover-text-decoration,var(--framer-link-text-decoration,var(--framer-text-decoration,none)))"
+          }
+        }
+      }
+    ],
+    "badges": {
+      "all": [],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": []
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "98px"
+    },
+    {
+      "px": "640px"
+    },
+    {
+      "px": "768px"
+    },
+    {
+      "px": "809px"
+    },
+    {
+      "px": "810px"
+    },
+    {
+      "px": "1024px"
+    },
+    {
+      "px": "1199px"
+    }
+  ],
+  "iconSystem": [],
+  "frameworks": []
+}

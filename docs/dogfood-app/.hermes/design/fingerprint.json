@@ -1,0 +1,79 @@
+{
+  "target": "<project>/docs/dogfood-app",
+  "framework": "plain-html",
+  "docs": {},
+  "tokens": {
+    "colors": [
+      "#1e293b",
+      "#4f46e5",
+      "#6366f1",
+      "#64748b",
+      "#94a3b8",
+      "#a855f7",
+      "#e0e7ff",
+      "#e2e8f0",
+      "#f8fafc",
+      "#ffffff"
+    ],
+    "font_families": [
+      "Inter, system-ui, sans-serif"
+    ],
+    "spacing": [
+      "0",
+      "0 auto",
+      "10px 18px",
+      "14px 32px",
+      "24px",
+      "28px",
+      "32px",
+      "48px 24px",
+      "72px 24px"
+    ],
+    "radii": [
+      "12px",
+      "8px"
+    ]
+  },
+  "typography": {
+    "sizes": [
+      "13px",
+      "14px",
+      "16px",
+      "18px",
+      "28px",
+      "40px",
+      "44px"
+    ],
+    "families": [
+      "Inter, system-ui, sans-serif"
+    ]
+  },
+  "components": [],
+  "screens": [
+    "index.html"
+  ],
+  "interactions": {
+    "total": 4,
+    "hover": 2,
+    "focus": 0,
+    "active": 0,
+    "transitions": 2,
+    "keyframes": [],
+    "examples": [
+      "transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)"
+    ]
+  },
+  "themes": {
+    "count": 1,
+    "toggle": null,
+    "names": [
+      "light"
+    ]
+  },
+  "antislop_hints": [
+    "indigo-600-class generic tech hue",
+    "gradient present (check if hero)",
+    "bounce easing detected"
+  ],
+  "basis": "source-files"
+}

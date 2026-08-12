@@ -1,0 +1,65 @@
+{
+  "url": "https://www.coinbase.com",
+  "hovers": [
+    {
+      "selector": "a[href]",
+      "file": "hover-01.png",
+      "box": {
+        "x": 32,
+        "y": 12,
+        "width": 44,
+        "height": 44
+      }
+    },
+    {
+      "selector": "a[href]",
+      "file": "hover-02.png",
+      "box": {
+        "x": 92,
+        "y": 12,
+        "width": 185,
+        "height": 44
+      }
+    },
+    {
+      "selector": "button",
+      "file": "hover-03.png",
+      "box": {
+        "x": 1089,
+        "y": 12,
+        "width": 44,
+        "height": 44
+      }
+    },
+    {
+      "selector": "button",
+      "file": "hover-04.png",
+      "box": {
+        "x": 1141,
+        "y": 12,
+        "width": 44,
+        "height": 44
+      }
+    },
+    {
+      "selector": "[role=button]",
+      "file": "hover-05.png",
+      "box": {
+        "x": 281,
+        "y": 12,
+        "width": 134,
+        "height": 44
+      }
+    },
+    {
+      "selector": "[role=button]",
+      "file": "hover-06.png",
+      "box": {
+        "x": 419,
+        "y": 12,
+        "width": 137,
+        "height": 44
+      }
+    }
+  ]
+}

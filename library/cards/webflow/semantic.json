@@ -1,0 +1,540 @@
+{
+  "url": "https://webflow.com",
+  "captured": "2026-08-10T07:04:07+00:00",
+  "named_tokens": {
+    "light": {
+      "--colors--background": "white",
+      "--_typography---paragraph-body--font": "\"WF Visual Sans Variable\",Arial,sans-serif",
+      "--colors--text": "#080808",
+      "--_typography---paragraph-body--font-size": "1rem",
+      "--_typography---paragraph-body--line-height": "1.6",
+      "--_typography---paragraph-body--font-weight": "400",
+      "--_typography---paragraph-body--letter-spacing": "0em",
+      "--_typography---h1--bottom-margin": "clamp(1.25*1rem,((1.25 - ((1.5 - 1.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1.5 - 1.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1.5*1rem)",
+      "--_typography---h1--font": "\"WF Visual Sans Variable\",Arial,sans-serif",
+      "--_typography---h1--font-size": "clamp(2.75*1rem,((2.75 - ((5 - 2.75)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((5 - 2.75)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),5*1rem)",
+      "--_typography---h1--line-height": "1.04",
+      "--_typography---h1--font-weight": "600",
+      "--_typography---h1--letter-spacing": "-.01em",
+      "--_typography---h2--bottom-margin": "clamp(1.25*1rem,((1.25 - ((1.5 - 1.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1.5 - 1.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1.5*1rem)",
+      "--_typography---h2--font": "\"WF Visual Sans Variable\",Arial,sans-serif",
+      "--_typography---h2--font-size": "clamp(2*1rem,((2 - ((3.5 - 2)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((3.5 - 2)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),3.5*1rem)",
+      "--_typography---h2--line-height": "1.04",
+      "--_typography---h2--font-weight": "600",
+      "--_typography---h2--letter-spacing": "0em",
+      "--_typography---h3--bottom-margin": "clamp(.625*1rem,((.625 - ((1 - .625)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1 - .625)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1*1rem)",
+      "--_typography---h3--font": "\"WF Visual Sans Variable\",Arial,sans-serif",
+      "--_typography---h3--font-size": "clamp(1.75*1rem,((1.75 - ((2.5 - 1.75)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((2.5 - 1.75)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),2.5*1rem)",
+      "--_typography---h3--line-height": "1.2",
+      "--_typography---h3--font-weight": "600",
+      "--_typography---h3--letter-spacing": "0em",
+      "--_typography---h4--bottom-margin": "clamp(.375*1rem,((.375 - ((.5 - .375)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((.5 - .375)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),.5*1rem)",
+      "--_typography---h4--font": "\"WF Visual Sans Variable\",Arial,sans-serif",
+      "--_typography---h4--font-size": "clamp(1.375*1rem,((1.375 - ((2 - 1.375)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((2 - 1.375)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),2*1rem)",
+      "--_typography---h4--line-height": "1.2",
+      "--_typography---h4--font-weight": "600",
+      "--_typography---h4--letter-spacing": "0em",
+      "--_typography---h5--bottom-margin": "clamp(.625*1rem,((.625 - ((1 - .625)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1 - .625)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1*1rem)",
+      "--_typography---h5--font": "\"WF Visual Sans Variable\",Arial,sans-serif",
+      "--_typography---h5--font-size": "clamp(1.25*1rem,((1.25 - ((1.5 - 1.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1.5 - 1.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1.5*1rem)",
+      "--_typography---h5--line-height": "1.3",
+      "--_typography---h5--font-weight": "600",
+      "--_typography---h5--letter-spacing": "0em",
+      "--_typography---h6--bottom-margin": "clamp(.375*1rem,((.375 - ((.5 - .375)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((.5 - .375)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),.5*1rem)",
+      "--_typography---h6--font": "\"WF Visual Sans Variable\",Arial,sans-serif",
+      "--_typography---h6--font-size": "clamp(1.125*1rem,((1.125 - ((1.25 - 1.125)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1.25 - 1.125)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1.25*1rem)",
+      "--_typography---h6--line-height": "1.4",
+      "--_typography---h6--font-weight": "600",
+      "--_typography---h6--letter-spacing": "0em",
+      "--_typography---paragraph-body--bottom-margin": "clamp(.625*1rem,((.625 - ((1 - .625)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1 - .625)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1*1rem)",
+      "--colors--primary-accent": "#146ef5",
+      "--_layout---section-spacing--small": "clamp(3*1rem,((3 - ((5 - 3)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((5 - 3)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),5*1rem)",
+      "--colors--border": "#d8d8d8",
+      "--_layout---spacing--margin-xl": "clamp(2.25*1rem,((2.25 - ((3 - 2.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((3 - 2.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),3*1rem)",
+      "--colors--secondary-background": "#f0f0f0",
+      "--_layout---spacing--margin-md": "clamp(1.25*1rem,((1.25 - ((1.5 - 1.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1.5 - 1.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1.5*1rem)",
+      "--_layout---section-spacing--medium": "clamp(3*1rem,((3 - ((9 - 3)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((9 - 3)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),9*1rem)",
+      "--_components---nav--height": "4.25rem",
+      "--_layout---spacing--margin-sm": "clamp(.625*1rem,((.625 - ((1 - .625)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1 - .625)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1*1rem)",
+      "--_layout---section-spacing--extra-large": "clamp(10*1rem,((10 - ((28 - 10)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((28 - 10)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),28*1rem)",
+      "--_layout---spacing--margin-lg": "clamp(1.75*1rem,((1.75 - ((2 - 1.75)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((2 - 1.75)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),2*1rem)",
+      "--_layout---container--max-width": "calc(var(--_layout---fluid--max)*1rem)",
+      "--_layout---grid--gap-md": "clamp(1.25*1rem,((1.25 - ((1.5 - 1.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1.5 - 1.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1.5*1rem)",
+      "--_layout---grid--gap-main": "clamp(1.75*1rem,((1.75 - ((2 - 1.75)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((2 - 1.75)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),2*1rem)",
+      "--_layout---grid--gap-sm": "clamp(.625*1rem,((.625 - ((1 - .625)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1 - .625)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1*1rem)",
+      "--_layout---grid--gap-lg": "clamp(2.25*1rem,((2.25 - ((3 - 2.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((3 - 2.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),3*1rem)",
+      "--_layout---grid--gap-xs": "clamp(.375*1rem,((.375 - ((.5 - .375)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((.5 - .375)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),.5*1rem)",
+      "--_layout---grid--gap-xl": "clamp(2.5*1rem,((2.5 - ((5 - 2.5)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((5 - 2.5)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),5*1rem)",
+      "--_color---secondary--purple": "#7a3dff",
+      "--_color---secondary--pink": "#ed52cb",
+      "--_components---button--vertical-padding": "1em",
+      "--_components---button--horizontal-padding": "1.5em",
+      "--_components---button--border-radius": ".25rem",
+      "--_components---button--font": "\"WF Visual Sans Variable\",Arial,sans-serif",
+      "--_color---neutral--white": "white",
+      "--_components---button--font-size": "1rem",
+      "--_components---button--line-height": "1.2em",
+      "--_components---button--font-weight": "500",
+      "--_components---button--letter-spacing": "-.01em",
+      "--_color---primary--webflow-blue": "#146ef5",
+      "--colors--text-secondary": "#5a5a5a",
+      "--_color---neutral--gray-700": "#363636",
+      "--_components---card--border-radius": ".5rem",
+      "--_layout---spacing--margin-xs": "clamp(.375*1rem,((.375 - ((.5 - .375)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((.5 - .375)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),.5*1rem)",
+      "--_components---card--padding": "clamp(1*1rem,((1 - ((1.5 - 1)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1.5 - 1)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1.5*1rem)",
+      "--_components---input--bottom-margin": "clamp(1.25*1rem,((1.25 - ((1.5 - 1.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1.5 - 1.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1.5*1rem)",
+      "--_size---0-5rem<deleted|variable-70a8c3ac-c656-f79e-479c-716ec38165c2>": ".5rem",
+      "--_color---neutral--gray-400": "#898989",
+      "--_components---input--border-radius": ".25rem",
+      "--_components---input--font": "\"WF Visual Sans Variable\",Arial,sans-serif",
+      "--_components---input--font-size": "1rem",
+      "--_components---input--line-height": "1.5em",
+      "--_components---input--font-weight": "400",
+      "--_components---input--letter-spacing": "0em",
+      "--_components---input-label--font": "\"WF Visual Sans Variable\",Arial,sans-serif",
+      "--_components---input-label--font-size": ".9rem",
+      "--_components---input-label--line-height": "1.4em",
+      "--_components---input-label--font-weight": "500",
+      "--_typography---caption--letter-spacing": "0em",
+      "--_color---neutral--black": "#080808",
+      "--_typography---eyebrow--bottom-margin": "clamp(.625*1rem,((.625 - ((1 - .625)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1 - .625)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1*1rem)",
+      "--_typography---eyebrow--font": "\"WF Visual Sans Variable\",Arial,sans-serif",
+      "--_typography---eyebrow--font-size": "clamp(1*1rem,((1 - ((1.25 - 1)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1.25 - 1)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1.25*1rem)",
+      "--_typography---eyebrow--line-height": "1.4",
+      "--_typography---eyebrow--font-weight": "500",
+      "--_typography---eyebrow--letter-spacing": "0em",
+      "--_typography---paragraph-sm--bottom-margin": "clamp(.625*1rem,((.625 - ((1 - .625)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1 - .625)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1*1rem)",
+      "--_typography---paragraph-sm--font": "\"WF Visual Sans Variable\",Arial,sans-serif",
+      "--_typography---paragraph-sm--font-size": ".875rem",
+      "--_typography---paragraph-sm--line-height": "1.6",
+      "--_typography---paragraph-sm--font-weight": "400",
+      "--_typography---paragraph-sm--letter-spacing": "0em",
+      "--_typography---paragraph-lg--bottom-margin": "clamp(.625*1rem,((.625 - ((1 - .625)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1 - .625)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1*1rem)",
+      "--_typography---paragraph-lg--font": "\"WF Visual Sans Variable\",Arial,sans-serif",
+      "--_typography---paragraph-lg--font-size": "clamp(1.1*1rem,((1.1 - ((1.25 - 1.1)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1.25 - 1.1)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1.25*1rem)",
+      "--_typography---paragraph-lg--line-height": "1.5",
+      "--_typography---paragraph-lg--font-weight": "400",
+      "--_typography---paragraph-lg--letter-spacing": "0em",
+      "--_typography---paragraph-xl--bottom-margin": "clamp(1.25*1rem,((1.25 - ((1.5 - 1.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1.5 - 1.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1.5*1rem)",
+      "--_typography---paragraph-xl--font": "\"WF Visual Sans Variable\",Arial,sans-serif",
+      "--_typography---paragraph-xl--font-size": "clamp(1.5*1rem,((1.5 - ((2 - 1.5)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((2 - 1.5)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),2*1rem)",
+      "--_typography---paragraph-xl--line-height": "1.4",
+      "--_typography---paragraph-xl--font-weight": "400",
+      "--_color---neutral--gray-100": "#f0f0f0",
+      "--colors--primary-accent-text": "color-mix(in hsl,var(--colors--primary-accent)92%,var(--colors--text)8%)",
+      "--_typography---type-paragraph-lg--font-size-md<deleted|variable-cdbe9950-9272-2284-ccf6-60cab96acd5f>": "1.25rem",
+      "--_typography---type-paragraph-lg--font-size-sm<deleted|variable-841c9cf1-74b8-7850-db1d-b82cdc8d3013>": "1.1rem",
+      "--_typography---type-paragraph-lg--font-size-xs<deleted|variable-dab72a89-1875-a2f7-1d85-bd05f81dd817>": "1.1rem",
+      "--_typography---type-paragraph-sm--font-size-md<deleted|variable-94c5336e-6e13-9026-329b-a7b4ba64e183>": ".9rem",
+      "--_typography---type-paragraph-sm--font-size-sm<deleted|variable-dce65071-f183-75c5-98aa-d8afc83560a0>": ".9rem",
+      "--_typography---type-paragraph-sm--font-size-xs<deleted|variable-5ffbcc90-83d8-60d2-b7ba-601684d03f16>": ".9rem",
+      "--colors--primary-accent-background": "color-mix(in hsl,var(--colors--primary-accent)10%,transparent 90%)",
+      "--_typography---subheading-xl--font-size": "clamp(1.375*1rem,((1.375 - ((2 - 1.375)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((2 - 1.375)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),2*1rem)",
+      "--_layout---fluid--max": "90",
+      "--_layout---fluid--min": "20",
+      "--_size---0-25rem<deleted|variable-2d47388d-3251-c56b-03c9-35dfc0a59c39>": ".25rem",
+      "--_size---1rem<deleted|variable-461c7c57-ec3c-d23c-768b-c6de52a540e5>": "1rem",
+      "--_color---neutral--gray-600": "#5a5a5a",
+      "--_size---0-75rem<deleted|variable-51df6ead-a71c-263d-332f-348c569f6d5f>": ".75rem",
+      "--_size---5rem<deleted|variable-ff14b77f-fe78-09a6-d1f0-e9e7c84aae7c>": "5rem",
+      "--_typography---caption--bottom-margin": "clamp(.625*1rem,((.625 - ((1 - .625)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1 - .625)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1*1rem)",
+      "--_typography---caption--font": "\"WF Visual Sans Variable\",Arial,sans-serif",
+      "--_typography---caption--font-size": ".8rem",
+      "--_typography---caption--line-height": "1.2",
+      "--_typography---caption--font-weight": "550",
+      "--_typography---paragraph-xxl--font": "\"WF Visual Sans Variable\",Arial,sans-serif",
+      "--_typography---paragraph-xxl--font-size": "clamp(2*1rem,((2 - ((3.5 - 2)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((3.5 - 2)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),3.5*1rem)",
+      "--_typography---paragraph-xxl--line-height": "1.2",
+      "--_typography---paragraph-xxl--font-weight": "400",
+      "--_typography---paragraph-xxl--letter-spacing": "0em",
+      "--_color---neutral--gray-800": "#222",
+      "--_color---neutral--gray-900": "#171717",
+      "--_color---neutral--gray-500": "#757575",
+      "--_color---neutral--gray-300": "#ababab",
+      "--_color---neutral--gray-200": "#d8d8d8",
+      "--_layout---section-spacing--large": "clamp(3*1rem,((3 - ((15 - 3)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((15 - 3)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),15*1rem)",
+      "--_typography---h0--bottom-margin": "clamp(1.25*1rem,((1.25 - ((1.5 - 1.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1.5 - 1.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1.5*1rem)",
+      "--_typography---h0--font": "\"WF Visual Sans Variable\",Arial,sans-serif",
+      "--_typography---h0--font-size": "clamp(3*1rem,((3 - ((7 - 3)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((7 - 3)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),7*1rem)",
+      "--_typography---h0--line-height": "1.04",
+      "--_typography---h0--font-weight": "600",
+      "--_typography---h0--letter-spacing": "0em",
+      "--_typography---subheading-xxl--font": "\"WF Visual Sans Variable\",Arial,sans-serif",
+      "--_typography---subheading-xxl--font-size": "clamp(1.75*1rem,((1.75 - ((2.5 - 1.75)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((2.5 - 1.75)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),2.5*1rem)",
+      "--_typography---subheading-xxl--line-height": "1.2",
+      "--_typography---subheading-xxl--font-weight": "500",
+      "--_typography---subheading-xxl--letter-spacing": "0em",
+      "--_typography---subheading-lg--font": "\"WF Visual Sans Variable\",Arial,sans-serif",
+      "--_typography---subheading-lg--font-size": "clamp(1.25*1rem,((1.25 - ((1.5 - 1.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1.5 - 1.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1.5*1rem)",
+      "--_typography---subheading-lg--line-height": "1.3",
+      "--_typography---subheading-lg--font-weight": "500",
+      "--_typography---subheading-lg--letter-spacing": "0em",
+      "--_typography---subheading--font": "\"WF Visual Sans Variable\",Arial,sans-serif",
+      "--_typography---subheading--font-size": "clamp(1.125*1rem,((1.125 - ((1.25 - 1.125)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1.25 - 1.125)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1.25*1rem)",
+      "--_typography---subheading--line-height": "1.4",
+      "--_typography---subheading--font-weight": "500",
+      "--_typography---subheading--letter-spacing": "0px",
+      "--_typography---paragraph-xs--font": "\"WF Visual Sans Variable\",Arial,sans-serif",
+      "--_typography---paragraph-xs--font-size": ".75rem",
+      "--_typography---paragraph-xs--line-height": "1.6",
+      "--_typography---paragraph-xs--font-weight": "400",
+      "--_typography---paragraph-xs--letter-spacing": "0em",
+      "--_color---secondary--orange": "#ff6b00",
+      "--_typography---subheading-xxl--bottom-margin": "clamp(.625*1rem,((.625 - ((1 - .625)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1 - .625)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1*1rem)",
+      "--_typography---subheading-xl--bottom-margin": "clamp(.375*1rem,((.375 - ((.5 - .375)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((.5 - .375)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),.5*1rem)",
+      "--_typography---subheading-xl--font": "\"WF Visual Sans Variable\",Arial,sans-serif",
+      "--_typography---subheading-xl--line-height": "1.3",
+      "--_typography---subheading-xl--font-weight": "500",
+      "--_typography---subheading-xl--letter-spacing": "0em",
+      "--_typography---subheading-lg--bottom-margin": "clamp(.375*1rem,((.375 - ((.5 - .375)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((.5 - .375)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),.5*1rem)",
+      "--_typography---subheading--bottom-margin": "clamp(.375*1rem,((.375 - ((.5 - .375)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((.5 - .375)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),.5*1rem)",
+      "--_color---secondary--green": "#00d722",
+      "--_color---primary--blue-600": "#0055d4",
+      "--_components---image--float-size": "max(-2vw,-3.5rem)",
+      "--_typography---paragraph-xs--bottom-margin": "clamp(.625*1rem,((.625 - ((1 - .625)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1 - .625)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1*1rem)",
+      "--_color---secondary--red": "#ee1d36",
+      "--_typography---fonts--primary-font": "\"WF Visual Sans Variable\",Arial,sans-serif",
+      "--_components---input-label--letter-spacing": "0em",
+      "--_color---primary--blue-400": "#3b89ff",
+      "--_color---secondary--yellow": "#ffae13",
+      "--_color---blue-300": "#006acc",
+      "--_typography---paragraph-xxl--bottom-margin": "clamp(1.25*1rem,((1.25 - ((1.5 - 1.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min))*var(--_layout---fluid--min)))*1rem + ((1.5 - 1.25)/(var(--_layout---fluid--max) - var(--_layout---fluid--min)))*100vw),1.5*1rem)",
+      "--_typography---paragraph-xl--letter-spacing": "0em",
+      "--transition-duration-1": "150ms",
+      "--transition-duration-2": "300ms",
+      "--transition-duration-3": "450ms",
+      "--transition-duration-4": "750ms",
+      "--transition-duration-5": "1200ms",
+      "--transition-duration-6": "1950ms",
+      "--transition-duration-7": "3150ms",
+      "--transition-timing-inoutquad": "cubic-bezier(0.455, 0.03, 0.515, 0.955)",
+      "--transition-timing-inoutcubic": "cubic-bezier(0.645, 0.045, 0.355, 1)",
+      "--transition-timing-inoutquart": "cubic-bezier(0.77, 0, 0.175, 1)",
+      "--animation-duration-1": "0.3s",
+      "--animation-duration-2": "0.45s",
+      "--animation-duration-3": "0.75s",
+      "--animation-duration-4": "1.2s",
+      "--animation-delay-d0": "0s",
+      "--animation-delay-d1": "0.3s",
+      "--animation-delay-d2": "0.45s",
+      "--animation-delay-d3": "0.75s",
+      "--animation-delay-d4": "1.2s",
+      "--animation-delay-d5": "1.95s",
+      "--animation-delay-d6": "2.7s",
+      "--animation-delay-d7": "3.45s"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {
+      "--colors--border": "#d8d8d8",
+      "--colors--primary-accent": "#146ef5",
+      "--colors--secondary-background": "#f0f0f0",
+      "--colors--text": "#080808",
+      "--colors--text-secondary": "#5a5a5a"
+    },
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "soft corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "soft",
+    "type_mood": [
+      "mono accents"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "nav": 2147483647,
+    "dropdown": 99999,
+    "modal": 9999,
+    "overlay": 2,
+    "menu": 2
+  },
+  "z_index_rows": [
+    {
+      "role": "nav",
+      "selector": ".w-slider-nav",
+      "value": "2"
+    },
+    {
+      "role": "dropdown",
+      "selector": ".w-dropdown",
+      "value": "900"
+    },
+    {
+      "role": "nav",
+      "selector": ".w-nav",
+      "value": "1000"
+    },
+    {
+      "role": "nav",
+      "selector": ".w-nav[data-animation=\"over-left\"] .w-nav-overlay, .w-nav[data-animation=\"over-l",
+      "value": "1"
+    },
+    {
+      "role": "nav",
+      "selector": ".w-nav[data-animation=\"over-right\"] .w-nav-overlay, .w-nav[data-animation=\"over-",
+      "value": "1"
+    },
+    {
+      "role": "nav",
+      "selector": ".section.cc-themed.cc-platform-sub-nav",
+      "value": "10"
+    },
+    {
+      "role": "nav",
+      "selector": ".nav",
+      "value": "999"
+    },
+    {
+      "role": "nav",
+      "selector": ".nav.cc-secondary",
+      "value": "998"
+    },
+    {
+      "role": "nav",
+      "selector": ".nav.cc-developers",
+      "value": "998"
+    },
+    {
+      "role": "nav",
+      "selector": ".nav-dropdown_content",
+      "value": "2"
+    },
+    {
+      "role": "nav",
+      "selector": ".nav-skip-link",
+      "value": "9998"
+    },
+    {
+      "role": "overlay",
+      "selector": ".u-img-overlay:where(.w-variant-0b2621f2-1de1-11b7-0087-66311d6f907e)",
+      "value": "2"
+    },
+    {
+      "role": "menu",
+      "selector": ".autoplay-tabs_menu-button:where(.w-variant-5c205f4b-5683-7020-5603-8be95174245b",
+      "value": "2"
+    },
+    {
+      "role": "nav",
+      "selector": ".nav-setting_dropdown-content.w--open",
+      "value": "4"
+    },
+    {
+      "role": "overlay",
+      "selector": ".home-hero_video-overlay",
+      "value": "2"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "991px",
+      "selector": ".w-container",
+      "change": "max-width: 728px"
+    },
+    {
+      "at": "991px",
+      "selector": ".w-hidden-main",
+      "change": "display: inherit"
+    },
+    {
+      "at": "991px",
+      "selector": ".w-hidden-medium",
+      "change": "display: none"
+    },
+    {
+      "at": "991px",
+      "selector": ".w-col-medium-1",
+      "change": "width: 8.33333%"
+    },
+    {
+      "at": "991px",
+      "selector": ".w-col-medium-2",
+      "change": "width: 16.6667%"
+    },
+    {
+      "at": "991px",
+      "selector": ".w-col-medium-3",
+      "change": "width: 25%"
+    },
+    {
+      "at": "991px",
+      "selector": ".w-col-medium-4",
+      "change": "width: 33.3333%"
+    },
+    {
+      "at": "991px",
+      "selector": ".w-col-medium-5",
+      "change": "width: 41.6667%"
+    },
+    {
+      "at": "991px",
+      "selector": ".w-col-medium-6",
+      "change": "width: 50%"
+    },
+    {
+      "at": "991px",
+      "selector": ".w-col-medium-7",
+      "change": "width: 58.3333%"
+    },
+    {
+      "at": "991px",
+      "selector": ".w-col-medium-8",
+      "change": "width: 66.6667%"
+    },
+    {
+      "at": "991px",
+      "selector": ".w-col-medium-9",
+      "change": "width: 75%"
+    },
+    {
+      "at": "767px",
+      "selector": ".w-hidden-main, .w-hidden-medium",
+      "change": "display: inherit"
+    },
+    {
+      "at": "767px",
+      "selector": ".w-hidden-small",
+      "change": "display: none"
+    },
+    {
+      "at": "767px",
+      "selector": ".w-row, .w-container .w-row",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "767px",
+      "selector": ".w-row, .w-container .w-row",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "767px",
+      "selector": ".w-col",
+      "change": "width: 100%"
+    },
+    {
+      "at": "767px",
+      "selector": ".w-col",
+      "change": "left: auto"
+    },
+    {
+      "at": "767px",
+      "selector": ".w-col",
+      "change": "right: auto"
+    },
+    {
+      "at": "767px",
+      "selector": ".w-col-small-1",
+      "change": "width: 8.33333%"
+    },
+    {
+      "at": "767px",
+      "selector": ".w-col-small-2",
+      "change": "width: 16.6667%"
+    },
+    {
+      "at": "767px",
+      "selector": ".w-col-small-3",
+      "change": "width: 25%"
+    },
+    {
+      "at": "767px",
+      "selector": ".w-col-small-4",
+      "change": "width: 33.3333%"
+    },
+    {
+      "at": "767px",
+      "selector": ".w-col-small-5",
+      "change": "width: 41.6667%"
+    },
+    {
+      "at": "479px",
+      "selector": ".w-container",
+      "change": "max-width: none"
+    },
+    {
+      "at": "479px",
+      "selector": ".w-hidden-main, .w-hidden-medium, .w-hidden-small",
+      "change": "display: inherit"
+    },
+    {
+      "at": "479px",
+      "selector": ".w-hidden-tiny",
+      "change": "display: none"
+    },
+    {
+      "at": "479px",
+      "selector": ".w-col",
+      "change": "width: 100%"
+    },
+    {
+      "at": "479px",
+      "selector": ".w-col-tiny-1",
+      "change": "width: 8.33333%"
+    },
+    {
+      "at": "479px",
+      "selector": ".w-col-tiny-2",
+      "change": "width: 16.6667%"
+    },
+    {
+      "at": "479px",
+      "selector": ".w-col-tiny-3",
+      "change": "width: 25%"
+    },
+    {
+      "at": "479px",
+      "selector": ".w-col-tiny-4",
+      "change": "width: 33.3333%"
+    },
+    {
+      "at": "479px",
+      "selector": ".w-col-tiny-5",
+      "change": "width: 41.6667%"
+    },
+    {
+      "at": "479px",
+      "selector": ".w-col-tiny-6",
+      "change": "width: 50%"
+    },
+    {
+      "at": "479px",
+      "selector": ".w-col-tiny-7",
+      "change": "width: 58.3333%"
+    },
+    {
+      "at": "479px",
+      "selector": ".w-col-tiny-8",
+      "change": "width: 66.6667%"
+    },
+    {
+      "at": "768px",
+      "selector": ".w-lightbox-content",
+      "change": "height: 96vh"
+    },
+    {
+      "at": "768px",
+      "selector": ".w-lightbox-content",
+      "change": "margin-top: 2vh"
+    },
+    {
+      "at": "768px",
+      "selector": ".w-lightbox-view, .w-lightbox-view::before",
+      "change": "height: 96vh"
+    },
+    {
+      "at": "768px",
+      "selector": ".w-lightbox-group, .w-lightbox-group .w-lightbox-view, .w-lightbox-group .w-ligh",
+      "change": "height: 84vh"
+    }
+  ]
+}

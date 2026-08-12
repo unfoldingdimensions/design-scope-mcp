@@ -1,0 +1,328 @@
+{
+  "url": "https://www.whoop.com",
+  "captured": "2026-08-10T15:39:12+00:00",
+  "named_tokens": {
+    "light": {
+      "--color-accent": "74 83 255",
+      "--color-accent-foreground": "255 255 255",
+      "--font-base-sans-serif": "\"proxima-nova\",\"Arial\",\"Helvetica\",sans-serif"
+    },
+    "dark": {
+      "--module-background": "#000",
+      "--module-text-color": "#fff",
+      "--image-portrait-background": "#191919"
+    }
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {
+      "--image-portrait-background": "#191919",
+      "--module-background": "#000",
+      "--module-text-color": "#fff"
+    },
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "generous corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "generous",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "drawer": 2147483010,
+    "overlay": 1000,
+    "dialog": 1000,
+    "modal": 1000,
+    "header": 800,
+    "menu": 300,
+    "nav": 300
+  },
+  "z_index_rows": [
+    {
+      "role": "drawer",
+      "selector": ".z-drawer",
+      "value": "2147483010"
+    },
+    {
+      "role": "header",
+      "selector": ".map-component_map-header__fH7j9",
+      "value": "300"
+    },
+    {
+      "role": "header",
+      "selector": ".map-component_map-sub-header__L3HWb",
+      "value": "3"
+    },
+    {
+      "role": "overlay",
+      "selector": ".video-player_video-pause-overlay__kRPi5",
+      "value": "100"
+    },
+    {
+      "role": "overlay",
+      "selector": ".drawer_drawer__dialog-overlay__yHhhM",
+      "value": "1000"
+    },
+    {
+      "role": "dialog",
+      "selector": ".drawer_drawer__dialog-content__G4ko_",
+      "value": "1000"
+    },
+    {
+      "role": "modal",
+      "selector": ".overlay-modal_overlay-modal__dialog-overlay__6jLOx",
+      "value": "1000"
+    },
+    {
+      "role": "modal",
+      "selector": ".overlay-modal_overlay-modal__dialog-content__22ruH",
+      "value": "1000"
+    },
+    {
+      "role": "header",
+      "selector": ".default-layout_layout__header__CJiou",
+      "value": "800"
+    },
+    {
+      "role": "menu",
+      "selector": ".mega-menu_header__AeHpS",
+      "value": "300"
+    },
+    {
+      "role": "nav",
+      "selector": ".mega-menu_header__mobile-navigation__xXiIg",
+      "value": "300"
+    },
+    {
+      "role": "header",
+      "selector": ".comparison-chart-region_comparison-chart-header-row__xrmUW",
+      "value": "100"
+    },
+    {
+      "role": "header",
+      "selector": ".comparison-chart-header-desktop_comparison-chart-header-row__cUvOi",
+      "value": "100"
+    },
+    {
+      "role": "modal",
+      "selector": ".partners-image-modal_modal-text__9yNVI",
+      "value": "1"
+    },
+    {
+      "role": "modal",
+      "selector": ".athletes-video-card_modal-text__vre83",
+      "value": "1"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "(min-width: 40.0625rem)",
+      "selector": ".\\!container",
+      "change": "max-width: 40.0625rem"
+    },
+    {
+      "at": "(min-width: 40.0625rem)",
+      "selector": ".container",
+      "change": "max-width: 40.0625rem"
+    },
+    {
+      "at": "(min-width: 63rem)",
+      "selector": ".\\!container",
+      "change": "max-width: 63rem"
+    },
+    {
+      "at": "(min-width: 63rem)",
+      "selector": ".container",
+      "change": "max-width: 63rem"
+    },
+    {
+      "at": "(min-width: 80rem)",
+      "selector": ".\\!container",
+      "change": "max-width: 80rem"
+    },
+    {
+      "at": "(min-width: 80rem)",
+      "selector": ".container",
+      "change": "max-width: 80rem"
+    },
+    {
+      "at": "(min-width: 85.375rem)",
+      "selector": ".\\!container",
+      "change": "max-width: 85.375rem"
+    },
+    {
+      "at": "(min-width: 85.375rem)",
+      "selector": ".container",
+      "change": "max-width: 85.375rem"
+    },
+    {
+      "at": "(min-width: 90rem)",
+      "selector": ".\\!container",
+      "change": "max-width: 90rem"
+    },
+    {
+      "at": "(min-width: 90rem)",
+      "selector": ".container",
+      "change": "max-width: 90rem"
+    },
+    {
+      "at": "(min-width: 120rem)",
+      "selector": ".\\!container",
+      "change": "max-width: 120rem"
+    },
+    {
+      "at": "(min-width: 120rem)",
+      "selector": ".container",
+      "change": "max-width: 120rem"
+    },
+    {
+      "at": "(min-width: 40.0625rem)",
+      "selector": ".sm\\:mt-0",
+      "change": "margin-top: 0px"
+    },
+    {
+      "at": "(min-width: 40.0625rem)",
+      "selector": ".sm\\:hidden",
+      "change": "display: none"
+    },
+    {
+      "at": "(min-width: 40.0625rem)",
+      "selector": ".sm\\:h-\\[142px\\]",
+      "change": "height: 142px"
+    },
+    {
+      "at": "(min-width: 40.0625rem)",
+      "selector": ".sm\\:h-\\[240px\\]",
+      "change": "height: 240px"
+    },
+    {
+      "at": "(min-width: 40.0625rem)",
+      "selector": ".sm\\:h-\\[380px\\]",
+      "change": "height: 380px"
+    },
+    {
+      "at": "(min-width: 40.0625rem)",
+      "selector": ".sm\\:h-\\[420px\\]",
+      "change": "height: 420px"
+    },
+    {
+      "at": "(min-width: 40.0625rem)",
+      "selector": ".sm\\:w-\\[168px\\]",
+      "change": "width: 168px"
+    },
+    {
+      "at": "(min-width: 40.0625rem)",
+      "selector": ".sm\\:w-\\[535px\\]",
+      "change": "width: 535px"
+    },
+    {
+      "at": "(min-width: 40.0625rem)",
+      "selector": ".sm\\:w-auto",
+      "change": "width: auto"
+    },
+    {
+      "at": "(min-width: 40.0625rem)",
+      "selector": ".sm\\:max-w-xl",
+      "change": "max-width: 36rem"
+    },
+    {
+      "at": "(min-width: 40.0625rem)",
+      "selector": ".sm\\:grid-cols-2",
+      "change": "grid-template-columns: repeat(2, minmax(0px, 1fr))"
+    },
+    {
+      "at": "(min-width: 40.0625rem)",
+      "selector": ".sm\\:flex-row",
+      "change": "flex-direction: row"
+    },
+    {
+      "at": "(min-width: 63rem)",
+      "selector": ".md\\:absolute",
+      "change": "position: absolute"
+    },
+    {
+      "at": "(min-width: 63rem)",
+      "selector": ".md\\:relative",
+      "change": "position: relative"
+    },
+    {
+      "at": "(min-width: 63rem)",
+      "selector": ".md\\:left-10",
+      "change": "left: 2.5rem"
+    },
+    {
+      "at": "(min-width: 63rem)",
+      "selector": ".md\\:start-6",
+      "change": "inset-inline-start: 1.5rem"
+    },
+    {
+      "at": "(min-width: 63rem)",
+      "selector": ".md\\:top-1\\/2",
+      "change": "top: 50%"
+    },
+    {
+      "at": "(min-width: 63rem)",
+      "selector": ".md\\:top-10",
+      "change": "top: 2.5rem"
+    },
+    {
+      "at": "(min-width: 63rem)",
+      "selector": ".md\\:order-1",
+      "change": "order: 1"
+    },
+    {
+      "at": "(min-width: 63rem)",
+      "selector": ".md\\:order-2",
+      "change": "order: 2"
+    },
+    {
+      "at": "(min-width: 63rem)",
+      "selector": ".md\\:col-span-2",
+      "change": "grid-column-start: span 2"
+    },
+    {
+      "at": "(min-width: 63rem)",
+      "selector": ".md\\:col-span-2",
+      "change": "grid-column-end: span 2"
+    },
+    {
+      "at": "(min-width: 63rem)",
+      "selector": ".md\\:col-start-1",
+      "change": "grid-column-start: 1"
+    },
+    {
+      "at": "(min-width: 63rem)",
+      "selector": ".md\\:col-start-2",
+      "change": "grid-column-start: 2"
+    },
+    {
+      "at": "(min-width: 80rem)",
+      "selector": ".lg\\:col-span-8",
+      "change": "grid-column-start: span 8"
+    },
+    {
+      "at": "(min-width: 80rem)",
+      "selector": ".lg\\:col-span-8",
+      "change": "grid-column-end: span 8"
+    },
+    {
+      "at": "(min-width: 80rem)",
+      "selector": ".lg\\:col-start-3",
+      "change": "grid-column-start: 3"
+    },
+    {
+      "at": "(min-width: 80rem)",
+      "selector": ".lg\\:-mb-16",
+      "change": "margin-bottom: -4rem"
+    }
+  ]
+}

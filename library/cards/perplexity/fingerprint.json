@@ -1,0 +1,1092 @@
+{
+  "url": "https://www.perplexity.ai/",
+  "extractedAt": "2026-08-09T10:51:53.481Z",
+  "meta": {
+    "snapshotId": "eb255bbb-915a-4e1d-a639-01a912b5a2c3",
+    "httpStatus": 200,
+    "dembrandtVersion": "0.27.1",
+    "schemaVersion": "1.5.0",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "fontsReady": false,
+    "pendingFonts": [
+      "Apple SD Gothic Neo",
+      "Hiragino Sans",
+      "PingFang SC"
+    ],
+    "flags": {
+      "mobile": true
+    }
+  },
+  "siteName": "Perplexity AI",
+  "logo": {
+    "source": "svg",
+    "context": "header",
+    "inline": true,
+    "url": "https://www.perplexity.ai/",
+    "color": "#27251e",
+    "ariaLabel": "Perplexity",
+    "markup": "<svg viewBox=\"0 0 30 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"h-auto w-full\" role=\"img\" aria-label=\"Perplexity\" style=\"color: rgb(39, 37, 30);\"><use href=\"#pplx-logo-mark\"></use></svg>",
+    "dataUri": "data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%2030%2032%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20class%3D%22h-auto%20w-full%22%20role%3D%22img%22%20aria-label%3D%22Perplexity%22%20style%3D%22color%3A%20rgb(39%2C%2037%2C%2030)%3B%22%3E%3Cuse%20href%3D%22%23pplx-logo-mark%22%3E%3C%2Fuse%3E%3C%2Fsvg%3E",
+    "svgColors": [],
+    "width": 20,
+    "height": 21.328125,
+    "rect": {
+      "x": 18,
+      "y": 18,
+      "width": 20,
+      "height": 21
+    },
+    "natural": {
+      "width": 30,
+      "height": 32
+    },
+    "type": "logomark",
+    "reversed": false,
+    "background": "#fdfbfa",
+    "safeZone": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "position": {
+      "top": 18,
+      "left": 18
+    }
+  },
+  "logoInstances": [],
+  "favicons": [
+    {
+      "type": "icon",
+      "url": "https://www.perplexity.ai/favicon.svg",
+      "sizes": null
+    },
+    {
+      "type": "icon",
+      "url": "https://www.perplexity.ai/favicon.png",
+      "sizes": "192x192"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://www.perplexity.ai/apple-touch-icon.png",
+      "sizes": null
+    },
+    {
+      "type": "alternate icon",
+      "url": "https://www.perplexity.ai/favicon.ico",
+      "sizes": null
+    },
+    {
+      "type": "og:image",
+      "url": "https://ppl-ai-public.s3.amazonaws.com/static/img/pplx-default-preview.png",
+      "sizes": null
+    },
+    {
+      "type": "twitter:image",
+      "url": "https://ppl-ai-public.s3.amazonaws.com/static/img/pplx-default-preview.png",
+      "sizes": null
+    }
+  ],
+  "manifest": {
+    "themeColor": "#FCFCF9",
+    "darkThemeColor": "#100E12"
+  },
+  "colors": {
+    "semantic": {
+      "background": "rgb(252, 252, 249)",
+      "text": "rgb(0, 0, 0)",
+      "primary": "rgb(1, 106, 113)"
+    },
+    "palette": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 158,
+        "confidence": "high",
+        "sources": [
+          "flex",
+          "reset",
+          "group/collapsible-sidebar-sect"
+        ],
+        "lch": "lch(0% 0 0)",
+        "oklch": "oklch(0% 0 0)",
+        "role": "surface",
+        "onColor": "#ffffff",
+        "hover": "#000000"
+      },
+      {
+        "color": "rgb(39, 37, 30)",
+        "normalized": "#27251e",
+        "count": 116,
+        "confidence": "high",
+        "sources": [
+          "size-5",
+          "[object",
+          "flex"
+        ],
+        "lch": "lch(14.71% 5.04 91.93)",
+        "oklch": "oklch(26.42% 0.013 93.9)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#2f2c24"
+      },
+      {
+        "color": "rgb(253, 251, 250)",
+        "normalized": "#fdfbfa",
+        "count": 19,
+        "confidence": "high",
+        "sources": [
+          "inline-flex",
+          "reset"
+        ],
+        "lch": "lch(98.75% 0.94 52.57)",
+        "oklch": "oklch(98.93% 0.003 48.72)",
+        "role": "surface",
+        "onColor": "#000000",
+        "hover": "#d7d5d5"
+      },
+      {
+        "color": "rgb(1, 106, 113)",
+        "normalized": "#016a71",
+        "count": 7,
+        "confidence": "high",
+        "sources": [
+          "inline-flex"
+        ],
+        "lch": "lch(40.15% 27.26 205.49)",
+        "oklch": "oklch(47.77% 0.081 202.8)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#017f88",
+        "variantOf": "primary"
+      },
+      {
+        "color": "#FCFCF9",
+        "normalized": "#fcfcf9",
+        "count": 10,
+        "confidence": "high",
+        "sources": [
+          "manifest:theme_color"
+        ]
+      },
+      {
+        "color": "rgba(39, 26, 0, 0.07)",
+        "normalized": "#271a00",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      },
+      {
+        "color": "rgb(214, 213, 212)",
+        "normalized": "#d6d5d4",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      }
+    ],
+    "cssVariables": {
+      "--decoration-indigo-bg-strong": {
+        "value": "#3053b3",
+        "hex": "#3053b3",
+        "lch": "lch(37.1% 57.66 284.19)",
+        "oklch": "oklch(47.29% 0.158 265.55)"
+      },
+      "--decoration-orange-bg-strong": {
+        "value": "#97431a",
+        "hex": "#97431a",
+        "lch": "lch(39.53% 53.27 49.96)",
+        "oklch": "oklch(48.66% 0.124 43.67)"
+      },
+      "--tw-ring-color": {
+        "value": "#3b82f680",
+        "hex": "#3b82f6",
+        "lch": "lch(54.62% 66.35 277.59 / 0.5019607843137255)",
+        "oklch": "oklch(62.31% 0.188 259.81 / 0.5019607843137255)"
+      },
+      "--decoration-green-bg-subtle": {
+        "value": "#016b1d29",
+        "hex": "#016b1d",
+        "lch": "lch(38.93% 52.75 139.82 / 0.1607843137254902)",
+        "oklch": "oklch(45.92% 0.141 145.59 / 0.1607843137254902)"
+      },
+      "--decoration-gold-bg-strong": {
+        "value": "#825503",
+        "hex": "#825503",
+        "lch": "lch(40.39% 49.92 72.56)",
+        "oklch": "oklch(48.74% 0.102 73.35)"
+      },
+      "--negative-bg-subtle": {
+        "value": "#a235440e",
+        "hex": "#a23544",
+        "lch": "lch(39.48% 49.47 20.39 / 0.054901960784313725)",
+        "oklch": "oklch(49.18% 0.143 16.18 / 0.054901960784313725)"
+      },
+      "--decoration-blue-bg-strong": {
+        "value": "#006495",
+        "hex": "#006495",
+        "lch": "lch(39.51% 35.99 252.67)",
+        "oklch": "oklch(48% 0.11 240.16)"
+      },
+      "--decoration-lime-bg-subtle": {
+        "value": "#53630029",
+        "hex": "#536300",
+        "lch": "lch(39.36% 47.48 108.94 / 0.1607843137254902)",
+        "oklch": "oklch(46.94% 0.112 120.06 / 0.1607843137254902)"
+      },
+      "--decoration-magenta-bg-subtle": {
+        "value": "#a12c7b29",
+        "hex": "#a12c7b",
+        "lch": "lch(39.47% 56.34 342.07 / 0.1607843137254902)",
+        "oklch": "oklch(49.92% 0.173 343.81 / 0.1607843137254902)"
+      },
+      "--decoration-purple-bg-subtle": {
+        "value": "#7a3abb29",
+        "hex": "#7a3abb",
+        "lch": "lch(38.51% 74.38 308.85 / 0.1607843137254902)",
+        "oklch": "oklch(49.85% 0.193 302.6 / 0.1607843137254902)"
+      },
+      "--action-solid-accent-bg-active": {
+        "value": "#0f3639",
+        "hex": "#0f3639",
+        "lch": "lch(20.04% 14.58 204.98)",
+        "oklch": "oklch(30.72% 0.043 202.34)"
+      }
+    },
+    "detected": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 158,
+        "usageFrac": 0.5096774193548387,
+        "confidence": "high",
+        "sources": [
+          "flex",
+          "reset",
+          "group/collapsible-sidebar-sect",
+          "group/sidebar-sub-menu",
+          "relative"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(39, 37, 30)",
+        "normalized": "#27251e",
+        "count": 116,
+        "usageFrac": 0.3741935483870968,
+        "confidence": "high",
+        "sources": [
+          "size-5",
+          "[object",
+          "flex",
+          "reset",
+          "relative"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(253, 251, 250)",
+        "normalized": "#fdfbfa",
+        "count": 19,
+        "usageFrac": 0.06129032258064516,
+        "confidence": "high",
+        "sources": [
+          "inline-flex",
+          "reset"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(1, 106, 113)",
+        "normalized": "#016a71",
+        "count": 7,
+        "usageFrac": 0.02258064516129032,
+        "confidence": "high",
+        "sources": [
+          "inline-flex"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgba(214, 213, 212, 0.65)",
+        "normalized": "#d6d5d4",
+        "count": 5,
+        "usageFrac": 0.016129032258064516,
+        "confidence": "medium",
+        "sources": [
+          "reset"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(243, 240, 236)",
+        "normalized": "#f3f0ec",
+        "count": 2,
+        "usageFrac": 0.0064516129032258064,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 2,
+        "usageFrac": 0.0064516129032258064,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": true
+      },
+      {
+        "color": "rgb(252, 252, 249)",
+        "normalized": "#fcfcf9",
+        "count": 1,
+        "usageFrac": 0.0032258064516129032,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      }
+    ],
+    "_raw": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 158
+      },
+      {
+        "color": "rgb(253, 251, 250)",
+        "normalized": "#fdfbfa",
+        "count": 19
+      },
+      {
+        "color": "rgb(39, 37, 30)",
+        "normalized": "#27251e",
+        "count": 116
+      }
+    ]
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "body",
+        "family": "pplxSans",
+        "fallbacks": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Hiragino Sans, Yu Gothic, Meiryo, PingFang SC, Microsoft YaHei, PingFang TC, Microsoft JhengHei, PingFang HK, Microsoft JhengHei, PingFang MO, Microsoft JhengHei, Apple SD Gothic Neo, Malgun Gothic, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "24px (1.50rem)",
+        "weight": 400,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "pplxSans",
+        "fallbacks": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Hiragino Sans, Yu Gothic, Meiryo, PingFang SC, Microsoft YaHei, PingFang TC, Microsoft JhengHei, PingFang HK, Microsoft JhengHei, PingFang MO, Microsoft JhengHei, Apple SD Gothic Neo, Malgun Gothic, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "pplxSans",
+        "fallbacks": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Hiragino Sans, Yu Gothic, Meiryo, PingFang SC, Microsoft YaHei, PingFang TC, Microsoft JhengHei, PingFang HK, Microsoft JhengHei, PingFang MO, Microsoft JhengHei, Apple SD Gothic Neo, Malgun Gothic, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "pplxSans",
+        "fallbacks": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Hiragino Sans, Yu Gothic, Meiryo, PingFang SC, Microsoft YaHei, PingFang TC, Microsoft JhengHei, PingFang HK, Microsoft JhengHei, PingFang MO, Microsoft JhengHei, Apple SD Gothic Neo, Malgun Gothic, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "pplxSans",
+        "fallbacks": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Hiragino Sans, Yu Gothic, Meiryo, PingFang SC, Microsoft YaHei, PingFang TC, Microsoft JhengHei, PingFang HK, Microsoft JhengHei, PingFang MO, Microsoft JhengHei, Apple SD Gothic Neo, Malgun Gothic, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "pplxSans",
+        "fallbacks": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Hiragino Sans, Yu Gothic, Meiryo, PingFang SC, Microsoft YaHei, PingFang TC, Microsoft JhengHei, PingFang HK, Microsoft JhengHei, PingFang MO, Microsoft JhengHei, Apple SD Gothic Neo, Malgun Gothic, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "14px (0.88rem)",
+        "weight": 480,
+        "lineHeight": "2.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "pplxSans",
+        "fallbacks": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Hiragino Sans, Yu Gothic, Meiryo, PingFang SC, Microsoft YaHei, PingFang TC, Microsoft JhengHei, PingFang HK, Microsoft JhengHei, PingFang MO, Microsoft JhengHei, Apple SD Gothic Neo, Malgun Gothic, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "pplxSans",
+        "fallbacks": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Hiragino Sans, Yu Gothic, Meiryo, PingFang SC, Microsoft YaHei, PingFang TC, Microsoft JhengHei, PingFang HK, Microsoft JhengHei, PingFang MO, Microsoft JhengHei, Apple SD Gothic Neo, Malgun Gothic, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "14px (0.88rem)",
+        "weight": 480,
+        "lineHeight": "2.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "pplxSans",
+        "fallbacks": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Hiragino Sans, Yu Gothic, Meiryo, PingFang SC, Microsoft YaHei, PingFang TC, Microsoft JhengHei, PingFang HK, Microsoft JhengHei, PingFang MO, Microsoft JhengHei, Apple SD Gothic Neo, Malgun Gothic, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "pplxSans",
+        "fallbacks": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Hiragino Sans, Yu Gothic, Meiryo, PingFang SC, Microsoft YaHei, PingFang TC, Microsoft JhengHei, PingFang HK, Microsoft JhengHei, PingFang MO, Microsoft JhengHei, Apple SD Gothic Neo, Malgun Gothic, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "12px (0.75rem)",
+        "weight": 640,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "pplxSans",
+        "fallbacks": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Hiragino Sans, Yu Gothic, Meiryo, PingFang SC, Microsoft YaHei, PingFang TC, Microsoft JhengHei, PingFang HK, Microsoft JhengHei, PingFang MO, Microsoft JhengHei, Apple SD Gothic Neo, Malgun Gothic, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "12px (0.75rem)",
+        "weight": 440,
+        "lineHeight": "2.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "pplxSans",
+        "fallbacks": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Hiragino Sans, Yu Gothic, Meiryo, PingFang SC, Microsoft YaHei, PingFang TC, Microsoft JhengHei, PingFang HK, Microsoft JhengHei, PingFang MO, Microsoft JhengHei, Apple SD Gothic Neo, Malgun Gothic, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "12px (0.75rem)",
+        "weight": 480,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "pplxSans",
+        "fallbacks": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Hiragino Sans, Yu Gothic, Meiryo, PingFang SC, Microsoft YaHei, PingFang TC, Microsoft JhengHei, PingFang HK, Microsoft JhengHei, PingFang MO, Microsoft JhengHei, Apple SD Gothic Neo, Malgun Gothic, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "12px (0.75rem)",
+        "weight": 480,
+        "lineHeight": "2.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "pplxSans",
+        "fallbacks": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Hiragino Sans, Yu Gothic, Meiryo, PingFang SC, Microsoft YaHei, PingFang TC, Microsoft JhengHei, PingFang HK, Microsoft JhengHei, PingFang MO, Microsoft JhengHei, Apple SD Gothic Neo, Malgun Gothic, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "11px (0.69rem)",
+        "weight": 480,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      }
+    ],
+    "sources": {
+      "googleFonts": [],
+      "adobeFonts": false,
+      "variableFonts": false,
+      "variableAxes": [
+        {
+          "axis": "DRKM",
+          "min": 0,
+          "max": 0,
+          "count": 48
+        },
+        {
+          "axis": "slnt",
+          "min": 0,
+          "max": 0,
+          "count": 48
+        }
+      ],
+      "selfHostedFonts": [
+        "FKGroteskNeue.woff2",
+        "PPLX-Sans-Beta-v2-VF.woff2",
+        "PPLX-Serif-Beta-v2-VF.woff2"
+      ],
+      "customFonts": [
+        "FKGroteskNeue.woff2",
+        "PPLX-Sans-Beta-v2-VF.woff2",
+        "PPLX-Serif-Beta-v2-VF.woff2"
+      ]
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "0.5px",
+        "display": "0.5px",
+        "rem": "0.03rem",
+        "count": 8,
+        "numericValue": 0.5
+      },
+      {
+        "px": "1px",
+        "display": "1px",
+        "rem": "0.06rem",
+        "count": 4,
+        "numericValue": 1
+      },
+      {
+        "px": "2px",
+        "display": "2px",
+        "rem": "0.13rem",
+        "count": 5,
+        "numericValue": 2
+      },
+      {
+        "px": "3px",
+        "display": "3px",
+        "rem": "0.19rem",
+        "count": 2,
+        "numericValue": 3
+      },
+      {
+        "px": "4px",
+        "display": "4px",
+        "rem": "0.25rem",
+        "count": 6,
+        "numericValue": 4
+      },
+      {
+        "px": "8px",
+        "display": "8px",
+        "rem": "0.50rem",
+        "count": 10,
+        "numericValue": 8
+      },
+      {
+        "px": "12px",
+        "display": "12px",
+        "rem": "0.75rem",
+        "count": 3,
+        "numericValue": 12
+      },
+      {
+        "px": "16px",
+        "display": "16px",
+        "rem": "1.00rem",
+        "count": 9,
+        "numericValue": 16
+      },
+      {
+        "px": "32px",
+        "display": "32px",
+        "rem": "2.00rem",
+        "count": 1,
+        "numericValue": 32
+      },
+      {
+        "px": "108px",
+        "display": "108px",
+        "rem": "6.75rem",
+        "count": 1,
+        "numericValue": 108
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "0px 0px 16px 16px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "4px",
+        "count": 1,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low",
+        "numericValue": 4
+      },
+      {
+        "value": "6px",
+        "count": 8,
+        "elements": [
+          "div",
+          "Create project",
+          "Projects options",
+          "Collapse Projects",
+          "Collapse Sessions"
+        ],
+        "confidence": "medium",
+        "numericValue": 6
+      },
+      {
+        "value": "8px",
+        "count": 10,
+        "elements": [
+          "div",
+          "Projects",
+          "Sessions",
+          "Use incognito: create anonymous sessions that aren't saved to your history and expire after 24 hours",
+          "Apps and more"
+        ],
+        "confidence": "medium",
+        "numericValue": 8
+      },
+      {
+        "value": "11px",
+        "count": 2,
+        "elements": [
+          "card"
+        ],
+        "confidence": "low",
+        "numericValue": 11
+      },
+      {
+        "value": "12px",
+        "count": 13,
+        "elements": [
+          "a",
+          "Collapse sidebar",
+          "New",
+          "div",
+          "Computer"
+        ],
+        "confidence": "high",
+        "numericValue": 12
+      },
+      {
+        "value": "15px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 15
+      },
+      {
+        "value": "16px",
+        "count": 4,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 16
+      },
+      {
+        "value": "9999px",
+        "count": 18,
+        "elements": [
+          "div",
+          "Dismiss privacy notice update",
+          "Open sidebar",
+          "Add files or tools",
+          "span"
+        ],
+        "confidence": "high",
+        "numericValue": 9999
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgba(39, 26, 0, 0.14)",
+        "count": 5,
+        "elements": [
+          "button",
+          "div"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "solid",
+        "color": "rgba(39, 26, 0, 0.07)",
+        "count": 2,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid",
+        "color": "rgba(39, 26, 0, 0.07)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 1px 0px 0px",
+        "style": "solid",
+        "color": "rgba(39, 26, 0, 0.07)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "oklch(0.2642 0.013 93.9 / 0.2)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.08) 0px 1px 2px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 0px 0px 1px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "oklch(0.5525 0.085 207.66 / 0) 0px 0px 36px 4px",
+      "count": 1,
+      "confidence": "low"
+    }
+  ],
+  "gradients": [
+    {
+      "gradient": "linear-gradient(rgb(253, 251, 250), rgba(0, 0, 0, 0))",
+      "type": "linear",
+      "stopColors": [
+        "rgb(253, 251, 250)",
+        "rgba(0, 0, 0, 0)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "radial-gradient(110.21% 173.1% at 0% -79.81%, rgba(61, 149, 149, 0.1) 0%, rgba(61, 149, 149, 0) 100%)",
+      "type": "radial",
+      "stopColors": [
+        "rgba(61, 149, 149, 0.1)",
+        "rgba(61, 149, 149, 0)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "radial-gradient(120.49% 162.23% at 150.32% -44.82%, rgba(61, 149, 149, 0.15) 0%, rgba(61, 149, 149, 0) 100%)",
+      "type": "radial",
+      "stopColors": [
+        "rgba(61, 149, 149, 0.15)",
+        "rgba(61, 149, 149, 0)"
+      ],
+      "count": 1
+    }
+  ],
+  "motion": {
+    "durations": [
+      {
+        "value": "0.001s",
+        "ms": 1,
+        "count": 1645
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease",
+        "type": "ease",
+        "count": 1626
+      },
+      {
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "type": "custom",
+        "count": 10
+      },
+      {
+        "value": "cubic-bezier(0, 0, 0.2, 1)",
+        "type": "ease-out",
+        "count": 8
+      },
+      {
+        "value": "ease-out",
+        "type": "ease-out",
+        "count": 1
+      }
+    ],
+    "animations": [],
+    "contexts": {
+      "nav": {
+        "count": 16,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "card": {
+        "count": 84,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "opacity",
+          "transform",
+          "background-color",
+          "border-color"
+        ]
+      },
+      "link": {
+        "count": 7,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "media": {
+        "count": 32,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "button": {
+        "count": 18,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "cubic-bezier(0, 0, 0.2, 1)",
+        "easingType": "ease-out",
+        "props": [
+          "color",
+          "background-color",
+          "border-color",
+          "opacity"
+        ]
+      },
+      "modal": {
+        "count": 1,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      }
+    },
+    "interactiveDeltas": [
+      {
+        "tag": "a",
+        "text": "",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgba(0, 0, 0, 0)",
+            "to": "rgba(39, 26, 0, 0.035)"
+          }
+        }
+      },
+      {
+        "tag": "button",
+        "text": "",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgba(0, 0, 0, 0)",
+            "to": "rgba(39, 26, 0, 0.035)"
+          }
+        }
+      },
+      {
+        "tag": "button",
+        "text": "",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgba(0, 0, 0, 0)",
+            "to": "rgba(39, 26, 0, 0.07)"
+          }
+        }
+      },
+      {
+        "tag": "button",
+        "text": "",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgba(0, 0, 0, 0)",
+            "to": "rgba(39, 26, 0, 0.07)"
+          }
+        }
+      },
+      {
+        "tag": "button",
+        "text": "",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgba(0, 0, 0, 0)",
+            "to": "rgba(39, 26, 0, 0.07)"
+          }
+        }
+      }
+    ]
+  },
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(39, 26, 0, 0.035)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "16px",
+            "borderRadius": "11px",
+            "border": "0px solid rgba(39, 26, 0, 0.14)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "text": "Search anythingGet fast and accurate ans",
+        "confidence": "high"
+      }
+    ],
+    "inputs": {
+      "text": [
+        {
+          "specificType": "div",
+          "states": {
+            "default": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(39, 37, 30)",
+              "border": "0px solid rgba(39, 26, 0, 0.14)",
+              "borderRadius": "0px",
+              "padding": "0px",
+              "boxShadow": "none",
+              "outline": "rgba(0, 0, 0, 0) solid 2px"
+            },
+            "focus": {}
+          }
+        }
+      ],
+      "checkbox": [],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(0, 0, 0)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "inherit",
+            "textDecoration": "underline"
+          }
+        }
+      }
+    ],
+    "badges": {
+      "all": [],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": []
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "640px"
+    },
+    {
+      "px": "768px"
+    },
+    {
+      "px": "900px"
+    },
+    {
+      "px": "970px"
+    },
+    {
+      "px": "1024px"
+    },
+    {
+      "px": "1224px"
+    },
+    {
+      "px": "1280px"
+    },
+    {
+      "px": "1536px"
+    }
+  ],
+  "iconSystem": [],
+  "frameworks": [
+    {
+      "name": "Tailwind CSS",
+      "confidence": "high",
+      "evidence": "arbitrary values (e.g., top-[117px]), responsive/state modifiers"
+    },
+    {
+      "name": "Radix UI",
+      "confidence": "high",
+      "evidence": "1 Radix primitives"
+    },
+    {
+      "name": "shadcn/ui",
+      "confidence": "medium",
+      "evidence": "Tailwind + Radix + component patterns"
+    }
+  ]
+}

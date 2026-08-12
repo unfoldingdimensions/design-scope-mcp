@@ -1,0 +1,513 @@
+{
+  "url": "https://www.riotgames.com",
+  "captured": "2026-08-10T16:38:05+00:00",
+  "named_tokens": {
+    "light": {
+      "--osano-clear-dialog-background": "rgba(0,0,0,0)",
+      "--osano-button-border-color": "#fff",
+      "--osano-dialog-type": "bar",
+      "--osano-display-position": "bottom",
+      "--osano-info-dialog-position": "right",
+      "--osano-widget-position": "right",
+      "--osano-opt-out-widget-position": "left",
+      "--osano-button-background-color": "#f0f0f0",
+      "--osano-button-foreground-color": "#141212",
+      "--osano-dialog-background-color": "#141212",
+      "--osano-dialog-foreground-color": "#FFFFFF",
+      "--osano-info-dialog-overlay-color": "rgba(0,0,0,0.45)",
+      "--osano-link-color": "#f0f0f0",
+      "--osano-toggle-off-track-color": "#7a3ff1",
+      "--osano-toggle-off-thumb-color": "#FFFFFF",
+      "--osano-toggle-on-track-color": "#37CD8F",
+      "--osano-toggle-on-thumb-color": "#FFFFFF",
+      "--osano-widget-color": "#37cd8f",
+      "--osano-widget-outline-color": "#29246a",
+      "--osano-widget-fill-color": "#fff",
+      "--osano-focus-outline-color": "Highlight",
+      "--osano-button-close-color": "#FFFFFF",
+      "--osano-button-accept-background-color": "#f0f0f0",
+      "--osano-button-accept-border-color": "var(--osano-button-border-color, var(--osano-button-foreground-color))",
+      "--osano-button-accept-foreground-color": "#141212",
+      "--osano-button-deny-background-color": "#f0f0f0",
+      "--osano-button-deny-border-color": "var(--osano-button-border-color, var(--osano-button-foreground-color))",
+      "--osano-button-deny-foreground-color": "#141212",
+      "--osano-button-reject-all-background-color": "#f0f0f0",
+      "--osano-button-reject-all-background-color-hover": "var(--osano-button-background-color-hover, var(--osano-button-background-color-contrast))",
+      "--osano-button-reject-all-border-color": "var(--osano-button-border-color, var(--osano-button-foreground-color))",
+      "--osano-button-reject-all-foreground-color": "#141212",
+      "--osano-button-manage-background-color": "#f0f0f0",
+      "--osano-button-manage-border-color": "var(--osano-button-border-color, var(--osano-button-foreground-color))",
+      "--osano-button-manage-foreground-color": "#141212",
+      "--osano-info-dialog-link-color": "#f0f0f0",
+      "--osano-info-dialog-button-close-color": "var(--osano-info-dialog-foreground-color, var(--osano-dialog-foreground-color))",
+      "--osano-info-dialog-toggle-off-track-color": "#7a3ff1",
+      "--osano-info-dialog-toggle-off-thumb-color": "#FFFFFF",
+      "--osano-info-dialog-toggle-on-track-color": "#37CD8F",
+      "--osano-info-dialog-toggle-on-thumb-color": "#FFFFFF",
+      "--osano-info-dialog-button-background-color": "#f0f0f0",
+      "--osano-info-dialog-button-border-color": "var(--osano-info-dialog-button-foreground-color, var(--osano-button-foreground-color))",
+      "--osano-info-dialog-button-foreground-color": "#141212",
+      "--osano-dialog-gpc-background-color": "#141212",
+      "--osano-dialog-gpc-border-color": "#FFFFFF",
+      "--osano-dialog-gpc-foreground-color": "#FFFFFF",
+      "--osano-dialog-gpc-color": "#37cd84",
+      "--osano-info-dialog-gpc-background-color": "var(--osano-info-dialog-background-color, var(--osano-dialog-background-color))",
+      "--osano-info-dialog-gpc-border-color": "var(--osano-info-dialog-foreground-color, var(--osano-dialog-foreground-color))",
+      "--osano-info-dialog-gpc-foreground-color": "var(--osano-info-dialog-foreground-color, var(--osano-dialog-foreground-color))",
+      "--osano-info-dialog-gpc-color": "#37cd84",
+      "--osano-gpc-background-color": "#ffffff",
+      "--osano-gpc-border-color": "#058a5e",
+      "--osano-gpc-foreground-color": "#058a5e",
+      "--osano-gpc-color": "#37cd84",
+      "--osano-gpc-background-color-hover": "#ffffff",
+      "--osano-info-dialog-foreground-color": "#FFFFFF",
+      "--osano-toggle-off-background-color": "#d2cfff",
+      "--osano-toggle-button-off-color": "#ffffff",
+      "--osano-toggle-on-background-color": "#37cd8f",
+      "--osano-toggle-button-on-color": "#f4f4f4",
+      "--osano-button-background-color-contrast": "#dcdcdc",
+      "--osano-button-foreground-color-contrast": "#282626",
+      "--osano-dialog-background-color-contrast": "#282626",
+      "--osano-dialog-foreground-color-contrast": "#ebebeb",
+      "--osano-link-color-contrast": "#dcdcdc",
+      "--osano-toggle-off-track-color-contrast": "#8e53ff",
+      "--osano-toggle-off-track-color-disabled": "#ba7fff",
+      "--osano-toggle-off-thumb-color-contrast": "#ebebeb",
+      "--osano-toggle-off-thumb-color-disabled": "#bfbfbf",
+      "--osano-toggle-on-track-color-contrast": "#23b97b",
+      "--osano-toggle-on-track-color-disabled": "#008d4f",
+      "--osano-toggle-on-thumb-color-contrast": "#ebebeb",
+      "--osano-toggle-on-thumb-color-disabled": "#bfbfbf",
+      "--osano-gpc-background-color-contrast": "#ebebeb",
+      "--osano-button-background-color-hover": "var(--osano-button-background-color-contrast, #dcdcdc)",
+      "--osano-button-foreground-color-hover": "var(--osano-button-foreground-color-contrast, #282626)",
+      "--osano-button-background-color-focus": "var(--osano-button-foreground-color-hover, var(--osano-button-foreground-color-contrast))",
+      "--osano-button-foreground-color-focus": "var(--osano-button-background-color-hover, var(--osano-button-background-color-contrast))",
+      "--osano-toggle-off-track-color-hover": "var(--osano-toggle-off-track-color-contrast, #8e53ff)",
+      "--osano-toggle-off-thumb-color-hover": "var(--osano-toggle-off-thumb-color-contrast, #ebebeb)",
+      "--osano-toggle-off-track-color-focus": "var(--osano-toggle-off-thumb-color-hover, var(--osano-toggle-off-thumb-color-contrast))",
+      "--osano-toggle-off-thumb-color-focus": "var(--osano-toggle-off-track-color-hover, var(--osano-toggle-off-track-color-contrast))",
+      "--osano-toggle-on-track-color-hover": "var(--osano-toggle-on-track-color-contrast, #23b97b)",
+      "--osano-toggle-on-thumb-color-hover": "var(--osano-toggle-on-thumb-color-contrast, #ebebeb)",
+      "--osano-toggle-on-track-color-focus": "var(--osano-toggle-on-thumb-color-hover, var(--osano-toggle-on-thumb-color-contrast))",
+      "--osano-toggle-on-thumb-color-focus": "var(--osano-toggle-on-track-color-hover, var(--osano-toggle-on-track-color-contrast))",
+      "--osano-button-accept-background-color-contrast": "var(--osano-button-background-color-contrast, #dcdcdc)",
+      "--osano-button-accept-foreground-color-contrast": "var(--osano-button-foreground-color-contrast, #282626)",
+      "--osano-button-accept-background-color-hover": "var(--osano-button-background-color-hover, var(--osano-button-background-color-contrast))",
+      "--osano-button-accept-foreground-color-hover": "var(--osano-button-accept-foreground-color-contrast, var(--osano-button-foreground-color-contrast))",
+      "--osano-button-accept-background-color-focus": "var(--osano-button-accept-foreground-color-hover, var(--osano-button-accept-foreground-color-contrast))",
+      "--osano-button-accept-foreground-color-focus": "var(--osano-button-accept-background-color-hover, var(--osano-button-background-color-hover))",
+      "--osano-button-deny-background-color-contrast": "var(--osano-button-background-color-contrast, #dcdcdc)",
+      "--osano-button-deny-foreground-color-contrast": "var(--osano-button-foreground-color-contrast, #282626)",
+      "--osano-button-deny-background-color-hover": "var(--osano-button-background-color-hover, var(--osano-button-background-color-contrast))",
+      "--osano-button-deny-foreground-color-hover": "var(--osano-button-deny-foreground-color-contrast, var(--osano-button-foreground-color-contrast))",
+      "--osano-button-deny-background-color-focus": "var(--osano-button-deny-foreground-color-hover, var(--osano-button-deny-foreground-color-contrast))",
+      "--osano-button-deny-foreground-color-focus": "var(--osano-button-deny-background-color-hover, var(--osano-button-background-color-hover))",
+      "--osano-button-reject-all-background-color-contrast": "var(--osano-button-background-color-contrast, #dcdcdc)",
+      "--osano-button-reject-all-foreground-color-contrast": "var(--osano-button-foreground-color-contrast, #282626)",
+      "--osano-button-reject-all-foreground-color-hover": "var(--osano-button-reject-all-foreground-color-contrast, var(--osano-button-foreground-color-contrast))",
+      "--osano-button-reject-all-background-color-focus": "var(--osano-button-reject-all-foreground-color-hover, var(--osano-button-reject-all-foreground-color-contrast))",
+      "--osano-button-reject-all-foreground-color-focus": "var(--osano-button-reject-all-background-color-hover, var(--osano-button-background-color-hover))",
+      "--osano-button-manage-background-color-contrast": "var(--osano-button-background-color-contrast, #dcdcdc)",
+      "--osano-button-manage-foreground-color-contrast": "var(--osano-button-foreground-color-contrast, #282626)",
+      "--osano-button-manage-background-color-hover": "var(--osano-button-background-color-hover, var(--osano-button-background-color-contrast))",
+      "--osano-button-manage-foreground-color-hover": "var(--osano-button-manage-foreground-color-contrast, var(--osano-button-foreground-color-contrast))",
+      "--osano-button-manage-background-color-focus": "var(--osano-button-manage-foreground-color-hover, var(--osano-button-manage-foreground-color-contrast))",
+      "--osano-button-manage-foreground-color-focus": "var(--osano-button-manage-background-color-hover, var(--osano-button-background-color-hover))",
+      "--osano-info-dialog-background-color": "#141212",
+      "--osano-info-dialog-button-background-color-contrast": "var(--osano-button-background-color-contrast, #dcdcdc)",
+      "--osano-info-dialog-button-foreground-color-contrast": "var(--osano-button-foreground-color-contrast, #282626)",
+      "--osano-info-dialog-button-background-color-hover": "var(--osano-button-background-color-hover, var(--osano-button-background-color-contrast))",
+      "--osano-info-dialog-button-foreground-color-hover": "var(--osano-info-dialog-button-foreground-color-contrast, var(--osano-button-foreground-color-contrast))",
+      "--osano-info-dialog-button-background-color-focus": "var(--osano-info-dialog-button-foreground-color-hover, var(--osano-info-dialog-button-foreground-color-contrast))",
+      "--osano-info-dialog-button-foreground-color-focus": "var(--osano-info-dialog-button-background-color-hover, var(--osano-button-background-color-hover))",
+      "--osano-info-dialog-toggle-off-track-color-contrast": "var(--osano-toggle-off-track-color-contrast, #8e53ff)",
+      "--osano-info-dialog-toggle-off-thumb-color-contrast": "var(--osano-toggle-off-thumb-color-contrast, #ebebeb)",
+      "--osano-info-dialog-toggle-off-track-color-hover": "var(--osano-info-dialog-toggle-off-track-color-contrast, var(--osano-toggle-off-track-color-contrast))",
+      "--osano-info-dialog-toggle-off-thumb-color-hover": "var(--osano-info-dialog-toggle-off-thumb-color-contrast, var(--osano-toggle-off-thumb-color-contrast))",
+      "--osano-info-dialog-toggle-off-track-color-focus": "var(--osano-info-dialog-toggle-off-thumb-color-hover, var(--osano-info-dialog-toggle-off-thumb-color-contrast))",
+      "--osano-info-dialog-toggle-off-thumb-color-focus": "var(--osano-info-dialog-toggle-off-track-color-hover, var(--osano-info-dialog-toggle-off-track-color-contrast))",
+      "--osano-info-dialog-toggle-off-track-color-disabled": "var(--osano-toggle-off-track-color-disabled, #ba7fff)",
+      "--osano-info-dialog-toggle-off-thumb-color-disabled": "var(--osano-toggle-off-thumb-color-disabled, #bfbfbf)",
+      "--osano-info-dialog-toggle-on-track-color-contrast": "var(--osano-toggle-on-track-color-contrast, #23b97b)",
+      "--osano-info-dialog-toggle-on-thumb-color-contrast": "var(--osano-toggle-on-thumb-color-contrast, #ebebeb)",
+      "--osano-info-dialog-toggle-on-track-color-hover": "var(--osano-info-dialog-toggle-on-track-color-contrast, var(--osano-toggle-on-track-color-contrast))",
+      "--osano-info-dialog-toggle-on-thumb-color-hover": "var(--osano-info-dialog-toggle-on-thumb-color-contrast, var(--osano-toggle-on-thumb-color-contrast))",
+      "--osano-info-dialog-toggle-on-track-color-focus": "var(--osano-info-dialog-toggle-on-thumb-color-hover, var(--osano-info-dialog-toggle-on-thumb-color-contrast))",
+      "--osano-info-dialog-toggle-on-thumb-color-focus": "var(--osano-info-dialog-toggle-on-track-color-hover, var(--osano-info-dialog-toggle-on-track-color-contrast))",
+      "--osano-info-dialog-toggle-on-track-color-disabled": "var(--osano-toggle-on-track-color-disabled, #008d4f)",
+      "--osano-info-dialog-toggle-on-thumb-color-disabled": "var(--osano-toggle-on-thumb-color-disabled, #bfbfbf)",
+      "--osano-info-dialog-link-color-contrast": "var(--osano-link-color-contrast, #dcdcdc)",
+      "--color-bg-gradient": "rgba(163, 38, 41, 0.2)"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {
+      "--osano-button-accept-background-color": "#f0f0f0",
+      "--osano-button-accept-foreground-color": "#141212",
+      "--osano-button-background-color": "#f0f0f0",
+      "--osano-button-background-color-contrast": "#dcdcdc",
+      "--osano-button-border-color": "#fff",
+      "--osano-button-close-color": "#FFFFFF",
+      "--osano-button-deny-background-color": "#f0f0f0",
+      "--osano-button-deny-foreground-color": "#141212",
+      "--osano-button-foreground-color": "#141212",
+      "--osano-button-foreground-color-contrast": "#282626",
+      "--osano-button-manage-background-color": "#f0f0f0",
+      "--osano-button-manage-foreground-color": "#141212",
+      "--osano-button-reject-all-background-color": "#f0f0f0",
+      "--osano-button-reject-all-foreground-color": "#141212",
+      "--osano-dialog-background-color": "#141212",
+      "--osano-dialog-background-color-contrast": "#282626",
+      "--osano-dialog-foreground-color": "#FFFFFF",
+      "--osano-dialog-foreground-color-contrast": "#ebebeb",
+      "--osano-dialog-gpc-background-color": "#141212",
+      "--osano-dialog-gpc-border-color": "#FFFFFF",
+      "--osano-dialog-gpc-color": "#37cd84",
+      "--osano-dialog-gpc-foreground-color": "#FFFFFF",
+      "--osano-gpc-background-color": "#ffffff",
+      "--osano-gpc-background-color-contrast": "#ebebeb",
+      "--osano-gpc-background-color-hover": "#ffffff",
+      "--osano-gpc-border-color": "#058a5e",
+      "--osano-gpc-color": "#37cd84",
+      "--osano-gpc-foreground-color": "#058a5e",
+      "--osano-info-dialog-background-color": "#141212",
+      "--osano-info-dialog-button-background-color": "#f0f0f0",
+      "--osano-info-dialog-button-foreground-color": "#141212",
+      "--osano-info-dialog-foreground-color": "#FFFFFF",
+      "--osano-info-dialog-gpc-color": "#37cd84",
+      "--osano-info-dialog-link-color": "#f0f0f0",
+      "--osano-info-dialog-toggle-off-thumb-color": "#FFFFFF",
+      "--osano-info-dialog-toggle-off-track-color": "#7a3ff1",
+      "--osano-info-dialog-toggle-on-thumb-color": "#FFFFFF",
+      "--osano-info-dialog-toggle-on-track-color": "#37CD8F",
+      "--osano-link-color": "#f0f0f0",
+      "--osano-link-color-contrast": "#dcdcdc",
+      "--osano-toggle-button-off-color": "#ffffff",
+      "--osano-toggle-button-on-color": "#f4f4f4",
+      "--osano-toggle-off-background-color": "#d2cfff",
+      "--osano-toggle-off-thumb-color": "#FFFFFF",
+      "--osano-toggle-off-thumb-color-contrast": "#ebebeb",
+      "--osano-toggle-off-thumb-color-disabled": "#bfbfbf",
+      "--osano-toggle-off-track-color": "#7a3ff1",
+      "--osano-toggle-off-track-color-contrast": "#8e53ff",
+      "--osano-toggle-off-track-color-disabled": "#ba7fff",
+      "--osano-toggle-on-background-color": "#37cd8f",
+      "--osano-toggle-on-thumb-color": "#FFFFFF",
+      "--osano-toggle-on-thumb-color-contrast": "#ebebeb",
+      "--osano-toggle-on-thumb-color-disabled": "#bfbfbf",
+      "--osano-toggle-on-track-color": "#37CD8F",
+      "--osano-toggle-on-track-color-contrast": "#23b97b",
+      "--osano-toggle-on-track-color-disabled": "#008d4f",
+      "--osano-widget-color": "#37cd8f",
+      "--osano-widget-fill-color": "#fff",
+      "--osano-widget-outline-color": "#29246a"
+    },
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "soft corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "soft",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "dialog": 2147483638,
+    "tooltip": 2147483636,
+    "nav": 3000001,
+    "overlay": 3000001,
+    "sidebar": 10,
+    "header": 3,
+    "dropdown": 1
+  },
+  "z_index_rows": [
+    {
+      "role": "dialog",
+      "selector": ".osano-cm-dialog",
+      "value": "2147483637"
+    },
+    {
+      "role": "dialog",
+      "selector": ".osano-cm-info-dialog",
+      "value": "2147483638"
+    },
+    {
+      "role": "header",
+      "selector": ".osano-cm-header",
+      "value": "1"
+    },
+    {
+      "role": "header",
+      "selector": ".osano-cm-info-dialog-header",
+      "value": "1"
+    },
+    {
+      "role": "tooltip",
+      "selector": ".osano-cm-opt-out-honored-wrapper__tooltip",
+      "value": "2147483636"
+    },
+    {
+      "role": "nav",
+      "selector": ".navigation--primary",
+      "value": "1"
+    },
+    {
+      "role": "overlay",
+      "selector": ".text-with-video__video-overlay",
+      "value": "1"
+    },
+    {
+      "role": "nav",
+      "selector": ".a11y-navigation a",
+      "value": "3000001"
+    },
+    {
+      "role": "overlay",
+      "selector": ".card-cover-alt__overlay-link",
+      "value": "1"
+    },
+    {
+      "role": "overlay",
+      "selector": ".card-cover__overlay-link",
+      "value": "1"
+    },
+    {
+      "role": "overlay",
+      "selector": ".card__overlay-link",
+      "value": "1"
+    },
+    {
+      "role": "header",
+      "selector": ".community-pact__hero-header",
+      "value": "3"
+    },
+    {
+      "role": "sidebar",
+      "selector": ".community-pact__sidebar-wrapper",
+      "value": "10"
+    },
+    {
+      "role": "header",
+      "selector": ".community-pact__content-header::before",
+      "value": "0"
+    },
+    {
+      "role": "header",
+      "selector": ".community-pact__content-header-heading",
+      "value": "1"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar",
+      "change": "flex-direction: row"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-button",
+      "change": "flex-grow: 1"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-button",
+      "change": "flex-shrink: 1"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-button",
+      "change": "flex-basis: 100%"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-button",
+      "change": "width: auto"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-button",
+      "change": "margin-top: 0.25em"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-button",
+      "change": "margin-right: 0.5em"
+    },
+    {
+      "at": "376px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-dialog__list",
+      "change": "flex-direction: row"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-dialog__list",
+      "change": "margin-top: 0.5em"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-dialog__list",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-dialog__list",
+      "change": "margin-bottom: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-dialog__list",
+      "change": "margin-left: auto"
+    },
+    {
+      "at": "768px",
+      "selector": "[dir=\"rtl\"] .osano-cm-dialog--type_bar .osano-cm-dialog__list",
+      "change": "margin-top: 0.5em"
+    },
+    {
+      "at": "768px",
+      "selector": "[dir=\"rtl\"] .osano-cm-dialog--type_bar .osano-cm-dialog__list",
+      "change": "margin-right: auto"
+    },
+    {
+      "at": "768px",
+      "selector": "[dir=\"rtl\"] .osano-cm-dialog--type_bar .osano-cm-dialog__list",
+      "change": "margin-bottom: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": "[dir=\"rtl\"] .osano-cm-dialog--type_bar .osano-cm-dialog__list",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-dialog__buttons",
+      "change": "position: sticky"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-dialog__buttons",
+      "change": "top: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-dialog__buttons",
+      "change": "width: auto"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-dialog__buttons",
+      "change": "max-width: 30vw"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-dialog__buttons",
+      "change": "min-width: 16em"
+    },
+    {
+      "at": "768px",
+      "selector": ".osano-cm-dialog--type_bar .osano-cm-dialog__buttons",
+      "change": "margin-top: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": "[dir=\"rtl\"] .osano-cm-dialog--type_bar .osano-cm-dialog__buttons",
+      "change": "margin-top: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": "[dir=\"rtl\"] .osano-cm-dialog--type_bar .osano-cm-dialog__buttons",
+      "change": "margin-right: 0.5em"
+    },
+    {
+      "at": "768px",
+      "selector": "[dir=\"rtl\"] .osano-cm-dialog--type_bar .osano-cm-dialog__buttons",
+      "change": "margin-bottom: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": "[dir=\"rtl\"] .osano-cm-dialog--type_bar .osano-cm-dialog__buttons",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "800px",
+      "selector": ".osano-cm-dialog--type_box.osano-cm-dialog--wide",
+      "change": "max-width: calc(-4em + 100vw)"
+    },
+    {
+      "at": "550px",
+      "selector": ".content-center--6-12-reverse-gutter",
+      "change": "max-width: 630px"
+    },
+    {
+      "at": "550px",
+      "selector": ".content-center--8-12-reverse-gutter",
+      "change": "max-width: 873.333px"
+    },
+    {
+      "at": "550px",
+      "selector": ".content-gutter",
+      "change": "padding-left: 40px"
+    },
+    {
+      "at": "550px",
+      "selector": ".content-gutter",
+      "change": "padding-right: 40px"
+    },
+    {
+      "at": "550px",
+      "selector": ".content-gutter--tablet",
+      "change": "padding-left: 40px"
+    },
+    {
+      "at": "550px",
+      "selector": ".content-gutter--tablet",
+      "change": "padding-right: 40px"
+    },
+    {
+      "at": "960px",
+      "selector": ".content-gutter--desktop",
+      "change": "padding-left: 40px"
+    },
+    {
+      "at": "960px",
+      "selector": ".content-gutter--desktop",
+      "change": "padding-right: 40px"
+    },
+    {
+      "at": "960px",
+      "selector": ".content-gutter--not-desktop",
+      "change": "padding-left: 0px"
+    },
+    {
+      "at": "960px",
+      "selector": ".content-gutter--not-desktop",
+      "change": "padding-right: 0px"
+    },
+    {
+      "at": "960px",
+      "selector": ".content-gutter--large",
+      "change": "padding-left: 40px"
+    },
+    {
+      "at": "960px",
+      "selector": ".content-gutter--large",
+      "change": "padding-right: 40px"
+    },
+    {
+      "at": "1280px",
+      "selector": ".content-gutter--large",
+      "change": "padding-left: 80px"
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "url": "https://www.hotjar.com",
+  "captured": "2026-08-10T10:42:54+00:00",
+  "named_tokens": {
+    "light": {
+      "--swiper-theme-color": "#007aff",
+      "--font-NewEdgeRounded": "'__NewEdgeRounded_5045de', '__NewEdgeRounded_Fallback_5045de'",
+      "--font-Inter": "'__Inter_697da2', '__Inter_Fallback_697da2'"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {
+      "--swiper-theme-color": "#007aff"
+    },
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "sharp corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "sharp",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "modal": 2147483647,
+    "banner": 2147483645
+  },
+  "z_index_rows": [
+    {
+      "role": "modal",
+      "selector": "#onetrust-consent-sdk .ot-general-modal",
+      "value": "2147483647"
+    },
+    {
+      "role": "banner",
+      "selector": "#onetrust-banner-sdk.otFloatingRoundedCorner",
+      "value": "2147483645"
+    },
+    {
+      "role": "modal",
+      "selector": "#onetrust-pc-sdk #ot-fltr-modal",
+      "value": "2147483646"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "640px",
+      "selector": ".container",
+      "change": "max-width: 640px"
+    },
+    {
+      "at": "768px",
+      "selector": ".container",
+      "change": "max-width: 768px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".container",
+      "change": "max-width: 1024px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".container",
+      "change": "padding-right: 3rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".container",
+      "change": "padding-left: 3rem"
+    },
+    {
+      "at": "1280px",
+      "selector": ".container",
+      "change": "max-width: 1280px"
+    },
+    {
+      "at": "1536px",
+      "selector": ".container",
+      "change": "max-width: 1536px"
+    },
+    {
+      "at": "768px",
+      "selector": ".prose :where(p):not(:where([class~=\"not-prose\"], [class~=\"not-prose\"] *))",
+      "change": "font-size: 1.125rem"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".text-h1",
+      "change": "font-size: calc(-3rem + 10.9375vw)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".text-h1",
+      "change": "font-size: 4rem"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".text-h1.is-large",
+      "change": "font-size: calc(-4.5rem + 14.0625vw)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".text-h1.is-large",
+      "change": "font-size: 4.5rem"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".text-h2",
+      "change": "font-size: calc(-3rem + 9.375vw)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".text-h2",
+      "change": "font-size: 3rem"
+    },
+    {
+      "at": "768px",
+      "selector": ".text-h2",
+      "change": "line-height: 1.1"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".text-h3",
+      "change": "font-size: calc(-1.5rem + 6.25vw)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".text-h3",
+      "change": "font-size: 2.5rem"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".text-h6",
+      "change": "font-size: calc(0.125rem + 1.95312vw)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".text-h6",
+      "change": "font-size: 1.375rem"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".text-h7",
+      "change": "font-size: calc(0.625rem + 0.78125vw)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".text-h7",
+      "change": "font-size: 1.125rem"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".text-20",
+      "change": "font-size: calc(0.5rem + 1.17188vw)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".text-20",
+      "change": "font-size: 1.25rem"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".text-18",
+      "change": "font-size: calc(0.625rem + 0.78125vw)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".text-18",
+      "change": "font-size: 1.125rem"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".text-16",
+      "change": "font-size: calc(0.75rem + 0.390625vw)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".text-16",
+      "change": "font-size: 1rem"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".text-14",
+      "change": "font-size: calc(0.875rem + 0vw)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".text-14",
+      "change": "font-size: 0.875rem"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".text-12",
+      "change": "font-size: calc(1rem - 0.390625vw)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".text-12",
+      "change": "font-size: 0.75rem"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".prose.prose-16 p",
+      "change": "font-size: calc(0.75rem + 0.390625vw)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".prose.prose-16 p",
+      "change": "font-size: 1rem"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".main-menu-item",
+      "change": "font-size: calc(0.5625rem + 0.585938vw)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".main-menu-item",
+      "change": "font-size: 0.9375rem"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".submenu-card-heading",
+      "change": "font-size: calc(0.75rem + 0.390625vw)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".submenu-card-heading",
+      "change": "font-size: 1rem"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".submenu-card-heading.heading-14",
+      "change": "font-size: calc(0.8125rem + 0.195312vw)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".submenu-card-heading.heading-14",
+      "change": "font-size: 0.9375rem"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".submenu-heading",
+      "change": "font-size: calc(0.6875rem + 0vw)"
+    }
+  ]
+}

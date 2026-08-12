@@ -1,0 +1,284 @@
+{
+  "url": "https://pika.art",
+  "captured": "2026-08-10T08:42:34+00:00",
+  "named_tokens": {
+    "light": {
+      "--navbar-top": "0px",
+      "--navbar-top-mobile": "0px",
+      "--navbar-height": "3rem",
+      "--marketing-navbar-height": "4.38rem",
+      "--footer-height": "3.5rem",
+      "--max-width": "1312px",
+      "--max-width-marketing": "113.5rem",
+      "--scrollbar-thickness": "6px",
+      "--content-light-primary": "#fff",
+      "--content-light-secondary": "#fcfaf7d9",
+      "--content-light-tertiary": "#fcfaf7b3",
+      "--content-light-quaternary": "#fcfaf780",
+      "--content-dark-primary": "#0d0d0d",
+      "--content-dark-secondary": "#222",
+      "--content-accent-primary": "#cfc3ff",
+      "--content-accent-tertiary": "#cfc3ff80",
+      "--surface-light-2": "#fcfaf7",
+      "--surface-light-5": "#ffffff1a",
+      "--surface-light-6": "#ffffff0d",
+      "--surface-dark-1": "#222",
+      "--surface-dark-2": "#0d0d0d",
+      "--surface-dark-3": "#000",
+      "--surface-dark-4": "#0d0d0d40",
+      "--surface-dark-5": "#0d0d0d1a",
+      "--surface-dark-6": "#0d0d0d0d",
+      "--lavender": "#cfc3ff",
+      "--color-brand-red": "#ff4c62",
+      "--peach": "#ffedd2",
+      "--marigold": "#ffd184",
+      "--butter": "#fefbcf",
+      "--butter-bright": "#fff785",
+      "--ivory": "#fdf7ef",
+      "--spacing-none": "0px",
+      "--spacing-sm": "12px",
+      "--spacing-xxl": "48px"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {
+      "--butter": "#fefbcf",
+      "--butter-bright": "#fff785",
+      "--color-brand-red": "#ff4c62",
+      "--content-accent-primary": "#cfc3ff",
+      "--content-accent-tertiary": "#cfc3ff80",
+      "--content-dark-primary": "#0d0d0d",
+      "--content-dark-secondary": "#222",
+      "--content-light-primary": "#fff",
+      "--content-light-quaternary": "#fcfaf780",
+      "--content-light-secondary": "#fcfaf7d9",
+      "--content-light-tertiary": "#fcfaf7b3",
+      "--ivory": "#fdf7ef",
+      "--lavender": "#cfc3ff",
+      "--marigold": "#ffd184",
+      "--peach": "#ffedd2"
+    },
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "generous corners",
+      "elevated (soft shadows)"
+    ],
+    "flat": false,
+    "corner_style": "generous",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {},
+  "z_index_rows": [],
+  "responsive": [
+    {
+      "at": "1024px",
+      "selector": ".notion-h3",
+      "change": "font-size: 1.375rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".notion-h3",
+      "change": "line-height: var(--tw-leading,1.5rem)"
+    },
+    {
+      "at": "1024px",
+      "selector": ".notion-h3",
+      "change": "letter-spacing: var(--tw-tracking,.01375rem)"
+    },
+    {
+      "at": "1024px",
+      "selector": ".notion-h3",
+      "change": "font-weight: var(--tw-font-weight,900)"
+    },
+    {
+      "at": "1024px",
+      "selector": ".notion-h2",
+      "change": "font-size: 1.625rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".notion-h2",
+      "change": "line-height: var(--tw-leading,1.75rem)"
+    },
+    {
+      "at": "1024px",
+      "selector": ".notion-h2",
+      "change": "letter-spacing: var(--tw-tracking,.01625rem)"
+    },
+    {
+      "at": "1024px",
+      "selector": ".notion-h2",
+      "change": "font-weight: var(--tw-font-weight,900)"
+    },
+    {
+      "at": "1024px",
+      "selector": ".notion-h1",
+      "change": "font-size: 2rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".notion-h1",
+      "change": "line-height: var(--tw-leading,2.25rem)"
+    },
+    {
+      "at": "1024px",
+      "selector": ".notion-h1",
+      "change": "letter-spacing: var(--tw-tracking,.02rem)"
+    },
+    {
+      "at": "1024px",
+      "selector": ".notion-h1",
+      "change": "font-weight: var(--tw-font-weight,900)"
+    },
+    {
+      "at": "428px",
+      "selector": ".notion-toggle",
+      "change": "min-width: 0px"
+    },
+    {
+      "at": "428px",
+      "selector": ".notion-toggle",
+      "change": "padding-top: 8px"
+    },
+    {
+      "at": "428px",
+      "selector": ".notion-toggle",
+      "change": "padding-bottom: 8px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".notion-toggle div .notion-h",
+      "change": "font-size: 0.875rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".notion-toggle div .notion-h",
+      "change": "line-height: var(--tw-leading,1.25rem)"
+    },
+    {
+      "at": "1024px",
+      "selector": ".notion-toggle div .notion-h",
+      "change": "letter-spacing: var(--tw-tracking,-.0175rem)"
+    },
+    {
+      "at": "800px",
+      "selector": "#notion-new-layout-page .notion-toggle div .notion-h",
+      "change": "font-size: 24px"
+    },
+    {
+      "at": "800px",
+      "selector": "#notion-new-layout-page .notion-toggle div .notion-h",
+      "change": "line-height: 1.75"
+    },
+    {
+      "at": "800px",
+      "selector": "#notion-new-layout-page .notion-text, #notion-new-layout-page .notion-list",
+      "change": "font-size: 24px"
+    },
+    {
+      "at": "800px",
+      "selector": "#notion-new-layout-page .notion-text, #notion-new-layout-page .notion-list",
+      "change": "line-height: 1.75"
+    },
+    {
+      "at": "1024px",
+      "selector": ".notion-toggle summary",
+      "change": "font-size: 1.375rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".notion-toggle summary",
+      "change": "line-height: var(--tw-leading,1.5rem)"
+    },
+    {
+      "at": "1024px",
+      "selector": ".notion-toggle summary",
+      "change": "letter-spacing: var(--tw-tracking,.01375rem)"
+    },
+    {
+      "at": "1024px",
+      "selector": ".notion-toggle summary",
+      "change": "font-weight: var(--tw-font-weight,900)"
+    },
+    {
+      "at": "800px",
+      "selector": "#notion-new-layout-page .notion-toggle summary .notion-h",
+      "change": "font-size: 1.625rem"
+    },
+    {
+      "at": "800px",
+      "selector": "#notion-new-layout-page .notion-toggle summary .notion-h",
+      "change": "letter-spacing: var(--tw-tracking,.01625rem)"
+    },
+    {
+      "at": "800px",
+      "selector": "#notion-new-layout-page .notion-toggle summary .notion-h",
+      "change": "font-weight: var(--tw-font-weight,900)"
+    },
+    {
+      "at": "800px",
+      "selector": "#notion-new-layout-page .notion-toggle summary .notion-h",
+      "change": "line-height: var(--leading-normal)"
+    },
+    {
+      "at": "800px",
+      "selector": "#notion-new-layout-page .notion-h",
+      "change": "font-size: 2rem"
+    },
+    {
+      "at": "800px",
+      "selector": "#notion-new-layout-page .notion-h",
+      "change": "line-height: var(--tw-leading,2.25rem)"
+    },
+    {
+      "at": "800px",
+      "selector": "#notion-new-layout-page .notion-h",
+      "change": "letter-spacing: var(--tw-tracking,.02rem)"
+    },
+    {
+      "at": "800px",
+      "selector": "#notion-new-layout-page .notion-h",
+      "change": "font-weight: var(--tw-font-weight,900)"
+    },
+    {
+      "at": "(pointer: coarse)",
+      "selector": ".full-opacity-on-touchscreen",
+      "change": "opacity: 100"
+    },
+    {
+      "at": "(pointer: coarse)",
+      "selector": ".hidden-on-touchscreen",
+      "change": "display: none"
+    },
+    {
+      "at": "1024px",
+      "selector": "#api-page .notion-h3",
+      "change": "font-size: 32px"
+    },
+    {
+      "at": "1024px",
+      "selector": "#api-page .notion-h3",
+      "change": "line-height: 48px"
+    },
+    {
+      "at": "1024px",
+      "selector": "#api-page .notion-text, #api-page .notion-list",
+      "change": "font-size: 24px"
+    },
+    {
+      "at": "1024px",
+      "selector": "#api-page .notion-text, #api-page .notion-list",
+      "change": "line-height: 42px"
+    }
+  ]
+}

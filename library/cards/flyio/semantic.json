@@ -1,0 +1,270 @@
+{
+  "url": "https://fly.io",
+  "captured": "2026-08-10T07:17:28+00:00",
+  "named_tokens": {
+    "light": {
+      "--dot-size": "6px"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "soft corners",
+      "elevated (soft shadows)"
+    ],
+    "flat": false,
+    "corner_style": "soft",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "modal": 1000,
+    "tooltip": 650,
+    "overlay": 400,
+    "menu": 40
+  },
+  "z_index_rows": [
+    {
+      "role": "overlay",
+      "selector": ".leaflet-overlay-pane",
+      "value": "400"
+    },
+    {
+      "role": "tooltip",
+      "selector": ".leaflet-tooltip-pane",
+      "value": "650"
+    },
+    {
+      "role": "tooltip",
+      "selector": "[data-tooltip-content]",
+      "value": "10"
+    },
+    {
+      "role": "modal",
+      "selector": ".phx-modal",
+      "value": "1000"
+    },
+    {
+      "role": "tooltip",
+      "selector": ".has-tooltip:hover .tooltip",
+      "value": "100"
+    },
+    {
+      "role": "menu",
+      "selector": "[data-menu-state=\"on\"] .\\[\\[data-menu-state\\=on\\]_\\&\\]\\:z-40",
+      "value": "40"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "print",
+      "selector": ".leaflet-control",
+      "change": "print-color-adjust: exact"
+    },
+    {
+      "at": "(forced-colors: active)",
+      "selector": "[type=\"checkbox\"]:checked",
+      "change": "appearance: auto"
+    },
+    {
+      "at": "(forced-colors: active)",
+      "selector": "[type=\"radio\"]:checked",
+      "change": "appearance: auto"
+    },
+    {
+      "at": "(forced-colors: active)",
+      "selector": "[type=\"checkbox\"]:indeterminate",
+      "change": "appearance: auto"
+    },
+    {
+      "at": "480px",
+      "selector": ".container",
+      "change": "max-width: 480px"
+    },
+    {
+      "at": "640px",
+      "selector": ".container",
+      "change": "max-width: 640px"
+    },
+    {
+      "at": "768px",
+      "selector": ".container",
+      "change": "max-width: 768px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".container",
+      "change": "max-width: 1024px"
+    },
+    {
+      "at": "1200px",
+      "selector": ".container",
+      "change": "max-width: 1200px"
+    },
+    {
+      "at": "1200px",
+      "selector": ".docs .api-section",
+      "change": "display: grid"
+    },
+    {
+      "at": "1200px",
+      "selector": ".docs .api-section",
+      "change": "max-width: none"
+    },
+    {
+      "at": "1200px",
+      "selector": ".docs .api-section > :not([hidden]) ~ :not([hidden])",
+      "change": "margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)))"
+    },
+    {
+      "at": "1200px",
+      "selector": ".docs .api-section > :not([hidden]) ~ :not([hidden])",
+      "change": "margin-bottom: calc(0px * var(--tw-space-y-reverse))"
+    },
+    {
+      "at": "1200px",
+      "selector": ".docs .api-info",
+      "change": "padding-right: 4rem"
+    },
+    {
+      "at": "768px",
+      "selector": ".post-cover",
+      "change": "margin-bottom: 3.5rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".post-cover",
+      "change": "margin-top: -0.75rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".post-cover",
+      "change": "margin-bottom: 4rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".post-cover",
+      "change": "min-height: 25rem"
+    },
+    {
+      "at": "1200px",
+      "selector": ".post-cover",
+      "change": "margin-left: -2rem"
+    },
+    {
+      "at": "1200px",
+      "selector": ".post-cover",
+      "change": "max-width: 48rem"
+    },
+    {
+      "at": "1400px",
+      "selector": ".post-cover",
+      "change": "margin-left: -4rem"
+    },
+    {
+      "at": "1400px",
+      "selector": ".post-cover",
+      "change": "max-width: 52rem"
+    },
+    {
+      "at": "640px",
+      "selector": ".post section h2:not([class]), .post section h3:not([class]), .post section h4:n",
+      "change": "margin-top: 4rem"
+    },
+    {
+      "at": "640px",
+      "selector": ".post section h2",
+      "change": "font-size: 1.875rem"
+    },
+    {
+      "at": "640px",
+      "selector": ".post section h2",
+      "change": "line-height: 1.325"
+    },
+    {
+      "at": "640px",
+      "selector": ".post section h3",
+      "change": "font-size: 1.5rem"
+    },
+    {
+      "at": "640px",
+      "selector": ".post section h3",
+      "change": "line-height: 1.325"
+    },
+    {
+      "at": "1024px",
+      "selector": ".post div.highlight-wrapper",
+      "change": "margin-left: -2rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".post div.highlight-wrapper",
+      "change": "margin-right: -2rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".post.infra-log div.highlight-wrapper",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".post.infra-log div.highlight-wrapper",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".post article p img, .post article li img, .post article p video, .post article ",
+      "change": "margin-left: -2rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".post article p img, .post article li img, .post article p video, .post article ",
+      "change": "margin-right: -2rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".post article p img, .post article li img, .post article p video, .post article ",
+      "change": "max-width: 52rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".post.infra-log article p img, .post.infra-log article li img, .post.infra-log a",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".post.infra-log article p img, .post.infra-log article li img, .post.infra-log a",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".post article .callout",
+      "change": "margin-left: -2rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".post article .callout",
+      "change": "margin-right: -2rem"
+    },
+    {
+      "at": "1024px",
+      "selector": ".post.infra-log article .callout",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".post.infra-log article .callout",
+      "change": "margin-right: 0px"
+    }
+  ]
+}

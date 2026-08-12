@@ -1,0 +1,102 @@
+{
+  "url": "https://www.loom.com",
+  "captured": "2026-08-09T16:55:28+00:00",
+  "hover_diffs": [
+    {
+      "selector": "button",
+      "index": 1,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(5, 21, 36, 0.08)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "div.thd-shadow-nav",
+      "diffs": {
+        "sel": "div.thd-shadow-nav → div.NewHeader_shadowIsShowing__pY1uw"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 112,
+    "tabs": 8,
+    "accordions": 4,
+    "carousels": 9,
+    "observers": 2,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 9
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "div",
+      "classes": "SanityPortableText_portableText__mUFJ4 text-thd-color-black thd-body-lg thd-max-",
+      "text": "Easily record and share AI-powered video messages with your ",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "div",
+      "classes": "SanityPortableText_portableText__mUFJ4 text-thd-color-white thd-body-lg thd-max-",
+      "text": "Record a quick walkthrough and let Loom’s AI turn it into a ",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "div",
+      "classes": "SanityPortableText_portableText__mUFJ4 text-thd-color-black thd-body-lg thd-max-",
+      "text": "Record in a few clicks. Share anywhere. Collaborate better.",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "div",
+      "classes": "SanityPortableText_portableText__mUFJ4 text-thd-color-black thd-body-md thd-max-",
+      "text": "Easily record your screen and camera. Record on any device u",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "div",
+      "classes": "SanityPortableText_portableText__mUFJ4 text-thd-color-black thd-body-md thd-max-",
+      "text": "Loom’s intuitive editor lets you trim, stitch clips, add eye",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "div",
+      "classes": "SanityPortableText_portableText__mUFJ4 text-thd-color-black thd-body-md thd-max-",
+      "text": "From Google Workspace to Slack, Loom videos seamlessly integ",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "div",
+      "classes": "SanityPortableText_portableText__mUFJ4 text-thd-color-black thd-body-md thd-max-",
+      "text": "Easily collaborate by adding emojis, comments, tasks and CTA",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "div",
+      "classes": "SanityPortableText_portableText__mUFJ4 text-thd-color-white thd-body-lg thd-max-",
+      "text": "Loom for Enterprise helps teams securely manage and organize",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "url": "https://sunsama.com",
+  "captured": "2026-08-10T11:35:33+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "outline": {
+          "before": "rgb(51, 51, 51) none 3px",
+          "after": "rgb(51, 51, 51) none 0px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "outline": {
+          "before": "rgb(32, 34, 40) none 3px",
+          "after": "rgb(32, 34, 40) none 0px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 3,
+      "diffs": {
+        "outline": {
+          "before": "rgb(32, 34, 40) none 3px",
+          "after": "rgb(32, 34, 40) none 0px"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 4,
+      "diffs": {
+        "outline": {
+          "before": "rgb(32, 34, 40) none 3px",
+          "after": "rgb(32, 34, 40) none 0px"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 113,
+    "tabs": 3,
+    "accordions": 0,
+    "carousels": 5,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 20
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "div",
+      "classes": "compare-table",
+      "text": "Work isf***ing chaoticAlways on, working late, never doneCon",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "div",
+      "classes": "comparison-table",
+      "text": "Calendar integrationTimeboxingAuto‑schedulingTask app integr",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "div",
+      "classes": "pricechart-table_component new",
+      "text": "Calendar integrationTimeboxingAuto‑schedulingTask app integr",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

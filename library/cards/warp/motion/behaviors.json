@@ -1,0 +1,158 @@
+{
+  "url": "https://www.warp.dev",
+  "captured": "2026-08-10T07:49:19+00:00",
+  "hover_diffs": [
+    {
+      "selector": "button",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "lab(66.9891 -2.04185 -1.96892)",
+          "after": "lab(96.5815 -2.55355 -2.46191)"
+        },
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "oklab(0.969998 -0.00766945 -0.006405 / 0.05)"
+        },
+        "borderColor": {
+          "before": "lab(66.9891 -2.04185 -1.96892)",
+          "after": "lab(96.5815 -2.55355 -2.46191)"
+        },
+        "outline": {
+          "before": "lab(66.9891 -2.04185 -1.96892) none 3px",
+          "after": "lab(96.5815 -2.55355 -2.46191) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "oklab(0.07 -0.00536231 -0.00449951 / 0.05)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "oklab(0.07 -0.00536231 -0.00449951 / 0.05)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "oklab(0.07 -0.00536231 -0.00449951 / 0.05)"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "div.fixed",
+      "diffs": {
+        "sel": "div.fixed → nav.hidden",
+        "position": "fixed → sticky"
+      }
+    },
+    {
+      "selector": "nav.hidden",
+      "diffs": {
+        "sel": "nav.hidden → nav.grid",
+        "position": "sticky → static"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 175,
+    "tabs": 9,
+    "accordions": 8,
+    "carousels": 4,
+    "observers": 19,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 4
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "span",
+      "classes": "tabular-nums",
+      "text": "64k",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "span",
+      "classes": "text-[14px] leading-5 tabular-nums",
+      "text": "4",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "span",
+      "classes": "text-[14px] leading-5 tabular-nums",
+      "text": "1",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "span",
+      "classes": "text-[14px] leading-5 tabular-nums",
+      "text": "3",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "span",
+      "classes": "text-[14px] leading-5 tabular-nums",
+      "text": "2",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "span",
+      "classes": "text-[14px] leading-5 tabular-nums",
+      "text": "4",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "p",
+      "classes": "shrink-0 tabular-nums text-[var(--color-muted)]",
+      "text": "1 / 3",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "p",
+      "classes": "shrink-0 tabular-nums text-[var(--color-muted)]",
+      "text": "2 / 3",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

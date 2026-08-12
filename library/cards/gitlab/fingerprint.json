@@ -1,0 +1,1901 @@
+{
+  "url": "https://about.gitlab.com/",
+  "extractedAt": "2026-08-09T11:13:28.808Z",
+  "meta": {
+    "snapshotId": "6010b55b-6192-4355-ab66-ecf818433def",
+    "httpStatus": 200,
+    "dembrandtVersion": "0.27.1",
+    "schemaVersion": "1.5.0",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "fontsReady": true,
+    "flags": {
+      "mobile": true
+    }
+  },
+  "siteName": "GitLab",
+  "logo": {
+    "source": "svg",
+    "context": "header",
+    "inline": true,
+    "url": "https://about.gitlab.com/",
+    "color": "#0000ee",
+    "ariaLabel": null,
+    "markup": "<svg fill=\"none\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\" style=\"color: rgb(0, 0, 238);\">\n    <path fill=\"#E24329\" d=\"M31.462 12.779l-.045-.115-4.35-11.35a1.137 1.137 0 00-.447-.541 1.163 1.163 0 00-1.343.071c-.187.15-.322.356-.386.587l-2.94 9.001h-11.9l-2.941-9a1.138 1.138 0 00-1.045-.84 1.153 1.153 0 00-1.13.72L.579 12.68l-.045.113a8.09 8.09 0 002.68 9.34l.016.012.038.03 6.635 4.967 3.28 2.484 1.994 1.51a1.35 1.35 0 001.627 0l1.994-1.51 3.282-2.484 6.673-4.997.018-.013a8.088 8.088 0 002.69-9.352z\"></path>\n    <path fill=\"#FC6D26\" d=\"M31.462 12.779l-.045-.115a14.748 14.748 0 00-5.856 2.634l-9.553 7.24A11225.6 11225.6 0 0022.1 27.14l6.673-4.997.019-.013a8.09 8.09 0 002.67-9.352z\"></path>\n    <path fill=\"#FCA326\" d=\"M9.908 27.14l3.275 2.485 1.994 1.51a1.35 1.35 0 001.627 0l1.994-1.51 3.282-2.484s-2.835-2.14-6.092-4.603l-6.08 4.603z\"></path>\n    <path fill=\"#FC6D26\" d=\"M6.435 15.305A14.712 14.712 0 00.58 12.672l-.045.113a8.09 8.09 0 002.68 9.347l.016.012.038.03 6.635 4.967 6.105-4.603-9.573-7.233z\"></path>\n  </svg>",
+    "dataUri": "data:image/svg+xml;utf8,%3Csvg%20fill%3D%22none%22%20viewBox%3D%220%200%2032%2032%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%20rgb(0%2C%200%2C%20238)%3B%22%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%23E24329%22%20d%3D%22M31.462%2012.779l-.045-.115-4.35-11.35a1.137%201.137%200%2000-.447-.541%201.163%201.163%200%2000-1.343.071c-.187.15-.322.356-.386.587l-2.94%209.001h-11.9l-2.941-9a1.138%201.138%200%2000-1.045-.84%201.153%201.153%200%2000-1.13.72L.579%2012.68l-.045.113a8.09%208.09%200%20002.68%209.34l.016.012.038.03%206.635%204.967%203.28%202.484%201.994%201.51a1.35%201.35%200%20001.627%200l1.994-1.51%203.282-2.484%206.673-4.997.018-.013a8.088%208.088%200%20002.69-9.352z%22%3E%3C%2Fpath%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%23FC6D26%22%20d%3D%22M31.462%2012.779l-.045-.115a14.748%2014.748%200%2000-5.856%202.634l-9.553%207.24A11225.6%2011225.6%200%200022.1%2027.14l6.673-4.997.019-.013a8.09%208.09%200%20002.67-9.352z%22%3E%3C%2Fpath%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%23FCA326%22%20d%3D%22M9.908%2027.14l3.275%202.485%201.994%201.51a1.35%201.35%200%20001.627%200l1.994-1.51%203.282-2.484s-2.835-2.14-6.092-4.603l-6.08%204.603z%22%3E%3C%2Fpath%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%23FC6D26%22%20d%3D%22M6.435%2015.305A14.712%2014.712%200%2000.58%2012.672l-.045.113a8.09%208.09%200%20002.68%209.347l.016.012.038.03%206.635%204.967%206.105-4.603-9.573-7.233z%22%3E%3C%2Fpath%3E%0A%20%20%3C%2Fsvg%3E",
+    "svgColors": [
+      "#e24329",
+      "#fc6d26",
+      "#fca326"
+    ],
+    "width": 32,
+    "height": 32,
+    "rect": {
+      "x": 32,
+      "y": 224,
+      "width": 32,
+      "height": 32
+    },
+    "natural": {
+      "width": 32,
+      "height": 32
+    },
+    "type": "logomark",
+    "reversed": false,
+    "background": "#ffffff",
+    "safeZone": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "position": {
+      "top": 17.984375,
+      "left": 32
+    }
+  },
+  "logoInstances": [
+    {
+      "source": "svg",
+      "context": "header",
+      "inline": true,
+      "url": "https://about.gitlab.com/",
+      "color": "#0000ee",
+      "ariaLabel": null,
+      "markup": "<svg fill=\"none\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\" style=\"color: rgb(0, 0, 238);\">\n    <path fill=\"#E24329\" d=\"M31.462 12.779l-.045-.115-4.35-11.35a1.137 1.137 0 00-.447-.541 1.163 1.163 0 00-1.343.071c-.187.15-.322.356-.386.587l-2.94 9.001h-11.9l-2.941-9a1.138 1.138 0 00-1.045-.84 1.153 1.153 0 00-1.13.72L.579 12.68l-.045.113a8.09 8.09 0 002.68 9.34l.016.012.038.03 6.635 4.967 3.28 2.484 1.994 1.51a1.35 1.35 0 001.627 0l1.994-1.51 3.282-2.484 6.673-4.997.018-.013a8.088 8.088 0 002.69-9.352z\"></path>\n    <path fill=\"#FC6D26\" d=\"M31.462 12.779l-.045-.115a14.748 14.748 0 00-5.856 2.634l-9.553 7.24A11225.6 11225.6 0 0022.1 27.14l6.673-4.997.019-.013a8.09 8.09 0 002.67-9.352z\"></path>\n    <path fill=\"#FCA326\" d=\"M9.908 27.14l3.275 2.485 1.994 1.51a1.35 1.35 0 001.627 0l1.994-1.51 3.282-2.484s-2.835-2.14-6.092-4.603l-6.08 4.603z\"></path>\n    <path fill=\"#FC6D26\" d=\"M6.435 15.305A14.712 14.712 0 00.58 12.672l-.045.113a8.09 8.09 0 002.68 9.347l.016.012.038.03 6.635 4.967 6.105-4.603-9.573-7.233z\"></path>\n  </svg>",
+      "dataUri": "data:image/svg+xml;utf8,%3Csvg%20fill%3D%22none%22%20viewBox%3D%220%200%2032%2032%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%20rgb(0%2C%200%2C%20238)%3B%22%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%23E24329%22%20d%3D%22M31.462%2012.779l-.045-.115-4.35-11.35a1.137%201.137%200%2000-.447-.541%201.163%201.163%200%2000-1.343.071c-.187.15-.322.356-.386.587l-2.94%209.001h-11.9l-2.941-9a1.138%201.138%200%2000-1.045-.84%201.153%201.153%200%2000-1.13.72L.579%2012.68l-.045.113a8.09%208.09%200%20002.68%209.34l.016.012.038.03%206.635%204.967%203.28%202.484%201.994%201.51a1.35%201.35%200%20001.627%200l1.994-1.51%203.282-2.484%206.673-4.997.018-.013a8.088%208.088%200%20002.69-9.352z%22%3E%3C%2Fpath%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%23FC6D26%22%20d%3D%22M31.462%2012.779l-.045-.115a14.748%2014.748%200%2000-5.856%202.634l-9.553%207.24A11225.6%2011225.6%200%200022.1%2027.14l6.673-4.997.019-.013a8.09%208.09%200%20002.67-9.352z%22%3E%3C%2Fpath%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%23FCA326%22%20d%3D%22M9.908%2027.14l3.275%202.485%201.994%201.51a1.35%201.35%200%20001.627%200l1.994-1.51%203.282-2.484s-2.835-2.14-6.092-4.603l-6.08%204.603z%22%3E%3C%2Fpath%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%23FC6D26%22%20d%3D%22M6.435%2015.305A14.712%2014.712%200%2000.58%2012.672l-.045.113a8.09%208.09%200%20002.68%209.347l.016.012.038.03%206.635%204.967%206.105-4.603-9.573-7.233z%22%3E%3C%2Fpath%3E%0A%20%20%3C%2Fsvg%3E",
+      "svgColors": [
+        "#e24329",
+        "#fc6d26",
+        "#fca326"
+      ],
+      "width": 32,
+      "height": 32,
+      "rect": {
+        "x": 32,
+        "y": 224,
+        "width": 32,
+        "height": 32
+      },
+      "natural": {
+        "width": 32,
+        "height": 32
+      },
+      "type": "logomark",
+      "reversed": false,
+      "background": "#ffffff",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 17.984375,
+        "left": 32
+      }
+    }
+  ],
+  "favicons": [
+    {
+      "type": "icon",
+      "url": "https://gitlab.com/images/ico/favicon.ico",
+      "sizes": null
+    },
+    {
+      "type": "icon",
+      "url": "https://gitlab.com/images/ico/favicon-32x32.png",
+      "sizes": "32x32"
+    },
+    {
+      "type": "icon",
+      "url": "https://gitlab.com/images/ico/favicon-192x192.png",
+      "sizes": "192x192"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://gitlab.com/images/ico/favicon-192x192.png",
+      "sizes": null
+    },
+    {
+      "type": "og:image",
+      "url": "https://res.cloudinary.com/about-gitlab-com/image/upload/w_1200,h_630,c_fill,g_auto,f_png,q_auto/v1758207578/whxaklh4tf6nonryosrs.png",
+      "sizes": null
+    },
+    {
+      "type": "twitter:image",
+      "url": "https://res.cloudinary.com/about-gitlab-com/image/upload/w_1200,h_630,c_fill,g_auto,f_png,q_auto/v1758207578/whxaklh4tf6nonryosrs.png",
+      "sizes": null
+    }
+  ],
+  "colors": {
+    "semantic": {
+      "secondary": "rgb(255, 255, 255)",
+      "primary": "rgb(23, 19, 33)",
+      "background": "rgb(255, 255, 255)",
+      "text": "rgb(23, 19, 33)",
+      "accent": "rgb(252, 109, 38)"
+    },
+    "palette": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 611,
+        "confidence": "high",
+        "sources": [
+          "navigation",
+          "slp-btn",
+          "slp-text-heading5-bold"
+        ],
+        "lch": "lch(100% 0.03 53.35)",
+        "oklch": "oklch(100% 0 89.88)",
+        "role": "surface",
+        "onColor": "#000000",
+        "hover": "#d9d9d9"
+      },
+      {
+        "color": "rgb(23, 19, 33)",
+        "normalized": "#171321",
+        "count": 430,
+        "confidence": "high",
+        "sources": [
+          "navigation",
+          "slp-btn",
+          "banner"
+        ],
+        "lch": "lch(6.77% 10.22 298.09)",
+        "oklch": "oklch(19.88% 0.028 296.89)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#1c1728",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(116, 113, 122)",
+        "normalized": "#74717a",
+        "count": 112,
+        "confidence": "high",
+        "sources": [
+          "slp-text-body1"
+        ],
+        "lch": "lch(48.14% 5.23 299.65)",
+        "oklch": "oklch(55.43% 0.014 301.08)",
+        "role": "neutral",
+        "onColor": "#ffffff",
+        "hover": "#8b8892"
+      },
+      {
+        "color": "rgb(119, 89, 194)",
+        "normalized": "#7759c2",
+        "count": 90,
+        "confidence": "high",
+        "sources": [
+          "banner--release",
+          "logo"
+        ],
+        "lch": "lch(44.99% 60.28 301.11)",
+        "oklch": "oklch(54.6% 0.158 293.68)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#8f6be9",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(252, 109, 38)",
+        "normalized": "#fc6d26",
+        "count": 72,
+        "confidence": "high",
+        "sources": [
+          "logo",
+          "slp-text-heading5-bold",
+          "async-icon-wrapper",
+          "slp-icon"
+        ],
+        "lch": "lch(63.95% 83.01 50)",
+        "oklch": "oklch(70.17% 0.191 42.95)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#d65d20"
+      },
+      {
+        "color": "rgb(0, 0, 238)",
+        "normalized": "#0000ee",
+        "count": 14,
+        "confidence": "high",
+        "sources": [],
+        "lch": "lch(27.25% 124.51 301.37)",
+        "oklch": "oklch(42.9% 0.297 264.05)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#0000ff",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(209, 208, 211)",
+        "normalized": "#d1d0d3",
+        "count": 8,
+        "confidence": "high",
+        "sources": [
+          "slp-text-body2"
+        ],
+        "lch": "lch(83.63% 1.55 300.04)",
+        "oklch": "oklch(85.93% 0.004 301.41)",
+        "role": "neutral",
+        "onColor": "#000000",
+        "hover": "#b2b1b3"
+      },
+      {
+        "color": "#e24329",
+        "normalized": "#e24329",
+        "count": 10,
+        "confidence": "high",
+        "sources": [
+          "logo"
+        ],
+        "lch": "lch(53.04% 80 40.01)",
+        "oklch": "oklch(61.12% 0.2 31.96)"
+      },
+      {
+        "color": "#fca326",
+        "normalized": "#fca326",
+        "count": 10,
+        "confidence": "high",
+        "sources": [
+          "logo"
+        ],
+        "lch": "lch(74.85% 76.95 68.94)",
+        "oklch": "oklch(78.66% 0.162 68.46)"
+      },
+      {
+        "color": "rgba(255, 212, 216, 0.45)",
+        "normalized": "#ffd4d8",
+        "count": 2,
+        "confidence": "low",
+        "sources": [
+          "gradient"
+        ],
+        "lch": "lch(88.74% 16.49 14)",
+        "oklch": "oklch(90.76% 0.049 11.77)"
+      },
+      {
+        "color": "rgb(16, 16, 16)",
+        "normalized": "#101010",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      },
+      {
+        "color": "rgb(242, 241, 245)",
+        "normalized": "#f2f1f5",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      }
+    ],
+    "cssVariables": {},
+    "detected": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 611,
+        "usageFrac": 0.44083694083694086,
+        "confidence": "high",
+        "sources": [
+          "navigation",
+          "slp-btn",
+          "slp-text-heading5-bold",
+          "slp-text-heading1-bold",
+          "slp-text-heading4"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(23, 19, 33)",
+        "normalized": "#171321",
+        "count": 430,
+        "usageFrac": 0.31024531024531027,
+        "confidence": "high",
+        "sources": [
+          "navigation",
+          "slp-btn",
+          "banner",
+          "slp-ml-8",
+          "homepage-hero-v2"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(116, 113, 122)",
+        "normalized": "#74717a",
+        "count": 112,
+        "usageFrac": 0.08080808080808081,
+        "confidence": "high",
+        "sources": [
+          "slp-text-body1"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(119, 89, 194)",
+        "normalized": "#7759c2",
+        "count": 90,
+        "usageFrac": 0.06493506493506493,
+        "confidence": "high",
+        "sources": [
+          "banner--release",
+          "logo"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(252, 109, 38)",
+        "normalized": "#fc6d26",
+        "count": 72,
+        "usageFrac": 0.05194805194805195,
+        "confidence": "high",
+        "sources": [
+          "slp-text-heading5-bold",
+          "async-icon-wrapper",
+          "slp-icon",
+          "[object"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 30,
+        "usageFrac": 0.021645021645021644,
+        "confidence": "high",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(31, 28, 46)",
+        "normalized": "#1f1c2e",
+        "count": 17,
+        "usageFrac": 0.012265512265512266,
+        "confidence": "high",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(0, 0, 238)",
+        "normalized": "#0000ee",
+        "count": 14,
+        "usageFrac": 0.010101010101010102,
+        "confidence": "high",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(209, 208, 211)",
+        "normalized": "#d1d0d3",
+        "count": 8,
+        "usageFrac": 0.005772005772005772,
+        "confidence": "high",
+        "sources": [
+          "slp-text-body2"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(6, 10, 15)",
+        "normalized": "#060a0f",
+        "count": 1,
+        "usageFrac": 0.0007215007215007215,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(235, 234, 236)",
+        "normalized": "#ebeaec",
+        "count": 1,
+        "usageFrac": 0.0007215007215007215,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      }
+    ],
+    "_raw": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 30
+      },
+      {
+        "color": "rgb(23, 19, 33)",
+        "normalized": "#171321",
+        "count": 430
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 611
+      },
+      {
+        "color": "rgb(0, 0, 238)",
+        "normalized": "#0000ee",
+        "count": 14
+      },
+      {
+        "color": "rgb(116, 113, 122)",
+        "normalized": "#74717a",
+        "count": 112
+      },
+      {
+        "color": "rgb(119, 89, 194)",
+        "normalized": "#7759c2",
+        "count": 90
+      },
+      {
+        "color": "rgb(252, 109, 38)",
+        "normalized": "#fc6d26",
+        "count": 72
+      },
+      {
+        "color": "rgb(31, 28, 46)",
+        "normalized": "#1f1c2e",
+        "count": 17
+      }
+    ]
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "display",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "96px (6.00rem)",
+        "weight": 660,
+        "lineHeight": "1.04",
+        "spacing": "-2.88px",
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "96px (6.00rem)",
+        "weight": 660,
+        "lineHeight": "1.04",
+        "spacing": "-2.88px",
+        "transform": null
+      },
+      {
+        "context": "display",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "64px (4.00rem)",
+        "weight": 660,
+        "lineHeight": "1.06",
+        "spacing": "-1.92px",
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "40px (2.50rem)",
+        "weight": 660,
+        "lineHeight": "1.05",
+        "spacing": "-0.8px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "32px (2.00rem)",
+        "weight": 400,
+        "lineHeight": "1.13",
+        "spacing": "-0.64px",
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "32px (2.00rem)",
+        "weight": 400,
+        "lineHeight": "1.13",
+        "spacing": "-0.64px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "24px (1.50rem)",
+        "weight": 580,
+        "lineHeight": "1.17",
+        "spacing": "-0.48px",
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "24px (1.50rem)",
+        "weight": 580,
+        "lineHeight": "1.17",
+        "spacing": "-0.48px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "24px (1.50rem)",
+        "weight": 400,
+        "lineHeight": "1.17",
+        "spacing": "-0.48px",
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "24px (1.50rem)",
+        "weight": 700,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "21.92px (1.37rem)",
+        "weight": 600,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "18px (1.13rem)",
+        "weight": 400,
+        "lineHeight": "1.56",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "18px (1.13rem)",
+        "weight": 660,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "18px (1.13rem)",
+        "weight": 660,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "18px (1.13rem)",
+        "weight": 660,
+        "lineHeight": "1.56",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 700,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "14.4px (0.90rem)",
+        "weight": 400,
+        "lineHeight": "2.64",
+        "spacing": "0.144px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "14.4px (0.90rem)",
+        "weight": 700,
+        "lineHeight": "1.00",
+        "spacing": "0.144px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "14.4px (0.90rem)",
+        "weight": 600,
+        "lineHeight": null,
+        "spacing": "0.144px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.57",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 700,
+        "lineHeight": "1.57",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 660,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.57",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 660,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 700,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-4",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 700,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "13.6px (0.85rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "13.3333px (0.83rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "13.008px (0.81rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "13.008px (0.81rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "13.008px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "1.10",
+        "spacing": "0.13008px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "12.8px (0.80rem)",
+        "weight": 400,
+        "lineHeight": "1.10",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "0px (0.00rem)",
+        "weight": 660,
+        "lineHeight": "NaN",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "0px (0.00rem)",
+        "weight": 660,
+        "lineHeight": "NaN",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "GitLab Sans",
+        "fallbacks": null,
+        "size": "0px (0.00rem)",
+        "weight": 400,
+        "lineHeight": "Infinity",
+        "spacing": null,
+        "transform": null
+      }
+    ],
+    "sources": {
+      "googleFonts": [],
+      "adobeFonts": false,
+      "variableFonts": false,
+      "selfHostedFonts": [
+        "GitLabMono.woff2",
+        "GitLabSans.woff2",
+        "Inter-Regular.f1f0c35b32.woff2",
+        "Inter-SemiBold.fcb100c760.woff2"
+      ],
+      "customFonts": [
+        "GitLabMono.woff2",
+        "GitLabSans.woff2",
+        "Inter-Regular.f1f0c35b32.woff2",
+        "Inter-SemiBold.fcb100c760.woff2"
+      ]
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "1px",
+        "display": "1px",
+        "rem": "0.06rem",
+        "count": 4,
+        "numericValue": 1
+      },
+      {
+        "px": "4px",
+        "display": "4px",
+        "rem": "0.25rem",
+        "count": 2,
+        "numericValue": 4
+      },
+      {
+        "px": "5px",
+        "display": "5px",
+        "rem": "0.31rem",
+        "count": 14,
+        "numericValue": 5
+      },
+      {
+        "px": "8px",
+        "display": "8px",
+        "rem": "0.50rem",
+        "count": 229,
+        "numericValue": 8
+      },
+      {
+        "px": "10px",
+        "display": "10px",
+        "rem": "0.63rem",
+        "count": 32,
+        "numericValue": 10
+      },
+      {
+        "px": "11px",
+        "display": "11px",
+        "rem": "0.69rem",
+        "count": 51,
+        "numericValue": 11
+      },
+      {
+        "px": "12px",
+        "display": "12px",
+        "rem": "0.75rem",
+        "count": 35,
+        "numericValue": 12
+      },
+      {
+        "px": "13.008px",
+        "display": "13.008px",
+        "rem": "0.81rem",
+        "count": 7,
+        "numericValue": 13.008
+      },
+      {
+        "px": "16px",
+        "display": "16px",
+        "rem": "1.00rem",
+        "count": 51,
+        "numericValue": 16
+      },
+      {
+        "px": "20px",
+        "display": "20px",
+        "rem": "1.25rem",
+        "count": 14,
+        "numericValue": 20
+      },
+      {
+        "px": "24px",
+        "display": "24px",
+        "rem": "1.50rem",
+        "count": 38,
+        "numericValue": 24
+      },
+      {
+        "px": "32px",
+        "display": "32px",
+        "rem": "2.00rem",
+        "count": 41,
+        "numericValue": 32
+      },
+      {
+        "px": "40px",
+        "display": "40px",
+        "rem": "2.50rem",
+        "count": 2,
+        "numericValue": 40
+      },
+      {
+        "px": "48px",
+        "display": "48px",
+        "rem": "3.00rem",
+        "count": 12,
+        "numericValue": 48
+      },
+      {
+        "px": "64px",
+        "display": "64px",
+        "rem": "4.00rem",
+        "count": 3,
+        "numericValue": 64
+      },
+      {
+        "px": "82px",
+        "display": "82px",
+        "rem": "5.13rem",
+        "count": 4,
+        "numericValue": 82
+      },
+      {
+        "px": "96px",
+        "display": "96px",
+        "rem": "6.00rem",
+        "count": 5,
+        "numericValue": 96
+      },
+      {
+        "px": "118px",
+        "display": "118px",
+        "rem": "7.38rem",
+        "count": 10,
+        "numericValue": 118
+      },
+      {
+        "px": "154px",
+        "display": "154px",
+        "rem": "9.63rem",
+        "count": 3,
+        "numericValue": 154
+      },
+      {
+        "px": "160px",
+        "display": "160px",
+        "rem": "10.00rem",
+        "count": 2,
+        "numericValue": 160
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "0px 0px 2px 2px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "2px",
+        "count": 14,
+        "elements": [
+          "div",
+          "Close preference center",
+          "Strictly Necessary Cookies - Cookie Details button opens Cookie List menu",
+          "Functionality Cookies - Cookie Details button opens Cookie List menu",
+          "Performance and Analytics Cookies - Cookie Details button opens Cookie List menu"
+        ],
+        "confidence": "high",
+        "numericValue": 2
+      },
+      {
+        "value": "3px",
+        "count": 9,
+        "elements": [
+          "div",
+          "tabpanel"
+        ],
+        "confidence": "medium",
+        "numericValue": 3
+      },
+      {
+        "value": "4px",
+        "count": 39,
+        "elements": [
+          "button",
+          "Home",
+          "menuitem",
+          "Search",
+          "Main Menu"
+        ],
+        "confidence": "high",
+        "numericValue": 4
+      },
+      {
+        "value": "8px",
+        "count": 50,
+        "elements": [
+          "button",
+          "menuitemradio"
+        ],
+        "confidence": "high",
+        "numericValue": 8
+      },
+      {
+        "value": "14px",
+        "count": 3,
+        "elements": [
+          "card"
+        ],
+        "confidence": "low",
+        "numericValue": 14
+      },
+      {
+        "value": "16px",
+        "count": 30,
+        "elements": [
+          "div",
+          "menu",
+          "card",
+          "listitem"
+        ],
+        "confidence": "high",
+        "numericValue": 16
+      },
+      {
+        "value": "17px",
+        "count": 1,
+        "elements": [
+          "Filter Cookie List"
+        ],
+        "confidence": "low",
+        "numericValue": 17
+      },
+      {
+        "value": "20px",
+        "count": 5,
+        "elements": [
+          "span"
+        ],
+        "confidence": "medium",
+        "numericValue": 20
+      },
+      {
+        "value": "32px",
+        "count": 1,
+        "elements": [
+          "card"
+        ],
+        "confidence": "low",
+        "numericValue": 32
+      },
+      {
+        "value": "50px",
+        "count": 1,
+        "elements": [
+          "Cookie list search"
+        ],
+        "confidence": "low",
+        "numericValue": 50
+      },
+      {
+        "value": "999px",
+        "count": 5,
+        "elements": [
+          "tab"
+        ],
+        "confidence": "medium",
+        "numericValue": 999
+      },
+      {
+        "value": "50%",
+        "count": 5,
+        "elements": [
+          "Previous",
+          "img",
+          "Next"
+        ],
+        "confidence": "medium",
+        "numericValue": 50
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(23, 19, 33)",
+        "count": 13,
+        "elements": [
+          "button"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(232, 231, 235)",
+        "count": 6,
+        "elements": [
+          "div",
+          "menu"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 0px 1px 10px",
+        "style": "none none solid solid",
+        "color": "rgb(23, 19, 33)",
+        "count": 6,
+        "elements": [
+          "tab"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(255, 255, 255)",
+        "count": 5,
+        "elements": [
+          "span"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "2px",
+        "style": "inset",
+        "color": "rgb(23, 19, 33)",
+        "count": 3,
+        "elements": [
+          "iframe"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 0px 1px",
+        "style": "none none none solid",
+        "color": "rgb(23, 19, 33)",
+        "count": 2,
+        "elements": [
+          "aside"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(209, 208, 211)",
+        "count": 2,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "none none solid",
+        "color": "rgb(23, 19, 33)",
+        "count": 2,
+        "elements": [
+          "presentation",
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "none none solid",
+        "color": "rgb(116, 113, 122)",
+        "count": 1,
+        "elements": [
+          "input"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "none none solid",
+        "color": "rgb(255, 255, 255)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(50, 174, 136)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 0px 10px",
+        "style": "none none none solid",
+        "color": "rgb(23, 19, 33)",
+        "count": 1,
+        "elements": [
+          "tab"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(112, 112, 112)",
+        "count": 1,
+        "elements": [
+          "input"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(187, 187, 187)",
+        "count": 1,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(56, 96, 190)",
+        "count": 1,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(216, 216, 216)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 81px 23px 0px, rgba(0, 0, 0, 0.01) 0px 52px 21px 0px, rgba(0, 0, 0, 0.03) 0px 29px 17px 0px, rgba(0, 0, 0, 0.04) 0px 13px 13px 0px, rgba(0, 0, 0, 0.05) 0px 3px 7px 0px",
+      "count": 6,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.08) 0px -4px 20px 0px",
+      "count": 4,
+      "confidence": "medium"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 2px 4px 0px, rgba(50, 50, 93, 0.1) 0px 7px 14px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgb(199, 197, 199) -3px -3px 5px -2px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgb(199, 197, 199) 0px 0px 12px 2px",
+      "count": 1,
+      "confidence": "low"
+    }
+  ],
+  "gradients": [
+    {
+      "gradient": "linear-gradient(90deg, rgb(238, 231, 253) 2.53%, rgba(246, 243, 254, 0.83) 50.98%, rgba(255, 212, 216, 0.45))",
+      "type": "linear",
+      "stopColors": [
+        "rgb(238, 231, 253)",
+        "rgba(246, 243, 254, 0.83)",
+        "rgba(255, 212, 216, 0.45)"
+      ],
+      "count": 4
+    },
+    {
+      "gradient": "radial-gradient(72% 85% at 104% 55%, rgb(238, 92, 18) 0px, rgba(241, 105, 28, 0.95) 10%, rgba(244, 125, 55, 0.8) 22%, rgba(247, 155, 95, 0.55) 36%, rgba(250, 184, 137, 0.3), rgba(252, 206, 171, 0) 68%)",
+      "type": "radial",
+      "stopColors": [
+        "rgb(238, 92, 18)",
+        "rgba(241, 105, 28, 0.95)",
+        "rgba(244, 125, 55, 0.8)",
+        "rgba(247, 155, 95, 0.55)",
+        "rgba(250, 184, 137, 0.3)",
+        "rgba(252, 206, 171, 0)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "radial-gradient(85% 100% at 96% 45%, rgba(246, 145, 70, 0.7) 0px, rgba(250, 177, 117, 0.45), rgba(253, 205, 160, 0.2) 44%, rgba(255, 225, 195, 0) 64%)",
+      "type": "radial",
+      "stopColors": [
+        "rgba(246, 145, 70, 0.7)",
+        "rgba(250, 177, 117, 0.45)",
+        "rgba(253, 205, 160, 0.2)",
+        "rgba(255, 225, 195, 0)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "radial-gradient(55% 60% at 92% 8%, rgba(252, 215, 176, 0.5) 0px, rgba(253, 229, 201, 0.22) 35%, rgba(255, 240, 220, 0) 65%)",
+      "type": "radial",
+      "stopColors": [
+        "rgba(252, 215, 176, 0.5)",
+        "rgba(253, 229, 201, 0.22)",
+        "rgba(255, 240, 220, 0)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "radial-gradient(62% 78% at 6% 102%, rgba(246, 95, 110, 0.92) 0px, rgba(248, 120, 135, 0.72) 12%, rgba(250, 150, 160, 0.5) 28%, rgba(252, 185, 190, 0.26), rgba(255, 214, 214, 0.08) 64%, rgba(255, 219, 219, 0) 78%)",
+      "type": "radial",
+      "stopColors": [
+        "rgba(246, 95, 110, 0.92)",
+        "rgba(248, 120, 135, 0.72)",
+        "rgba(250, 150, 160, 0.5)",
+        "rgba(252, 185, 190, 0.26)",
+        "rgba(255, 214, 214, 0.08)",
+        "rgba(255, 219, 219, 0)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "radial-gradient(45% 85% at -5% 70%, rgba(248, 130, 145, 0.5) 0px, rgba(251, 175, 185, 0.25) 30%, rgba(255, 219, 219, 0) 62%)",
+      "type": "radial",
+      "stopColors": [
+        "rgba(248, 130, 145, 0.5)",
+        "rgba(251, 175, 185, 0.25)",
+        "rgba(255, 219, 219, 0)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "radial-gradient(25% 90% at 68% 70%, rgba(255, 200, 170, 0.18) 0px, rgba(255, 220, 200, 0.06) 40%, rgba(255, 230, 220, 0) 70%)",
+      "type": "radial",
+      "stopColors": [
+        "rgba(255, 200, 170, 0.18)",
+        "rgba(255, 220, 200, 0.06)",
+        "rgba(255, 230, 220, 0)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(rgba(23, 19, 33, 0), rgba(23, 19, 33, 0) 179px, rgb(23, 19, 33) 822px, rgb(23, 19, 33))",
+      "type": "linear",
+      "stopColors": [
+        "rgba(23, 19, 33, 0)",
+        "rgba(23, 19, 33, 0)",
+        "rgb(23, 19, 33)",
+        "rgb(23, 19, 33)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "radial-gradient(circle, rgba(255, 255, 255, 0.16) 1.6px, rgba(0, 0, 0, 0) 2.4px)",
+      "type": "radial",
+      "stopColors": [
+        "rgba(255, 255, 255, 0.16)",
+        "rgba(0, 0, 0, 0)"
+      ],
+      "count": 1
+    }
+  ],
+  "motion": {
+    "durations": [
+      {
+        "value": "0.001s",
+        "ms": 1,
+        "count": 963
+      },
+      {
+        "value": "0.3s",
+        "ms": 300,
+        "count": 17
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease",
+        "type": "ease",
+        "count": 903
+      },
+      {
+        "value": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+        "type": "spring",
+        "count": 34
+      },
+      {
+        "value": "ease-in-out",
+        "type": "ease-in-out",
+        "count": 28
+      },
+      {
+        "value": "cubic-bezier(0.7, 0, 0.3, 1)",
+        "type": "ease-in",
+        "count": 14
+      },
+      {
+        "value": "ease-out",
+        "type": "ease-out",
+        "count": 2
+      },
+      {
+        "value": "cubic-bezier(0.25, 1, 0.5, 1)",
+        "type": "custom",
+        "count": 1
+      }
+    ],
+    "animations": [
+      {
+        "name": "scale-up-231740bb",
+        "duration": "0.001s",
+        "easing": "linear",
+        "count": 4,
+        "contexts": [
+          "card"
+        ]
+      },
+      {
+        "name": "scroll-e78804a6",
+        "duration": "0.001s",
+        "easing": "linear",
+        "count": 3,
+        "contexts": [
+          "other"
+        ]
+      }
+    ],
+    "contexts": {
+      "hero": {
+        "count": 20,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "nav": {
+        "count": 123,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "transform",
+          "color",
+          "opacity",
+          "visibility"
+        ]
+      },
+      "button": {
+        "count": 85,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "background-color",
+          "color"
+        ]
+      },
+      "media": {
+        "count": 42,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "transform"
+        ]
+      },
+      "link": {
+        "count": 116,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "transform",
+          "background-color",
+          "background"
+        ]
+      },
+      "card": {
+        "count": 136,
+        "durations": [
+          "0.001s",
+          "0.3s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "color"
+        ]
+      }
+    },
+    "interactiveDeltas": [
+      {
+        "tag": "button",
+        "text": "Platform",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(116, 113, 122)",
+            "to": "rgb(23, 19, 33)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "PlatformThe intelligent orches",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgba(0, 0, 0, 0)",
+            "to": "rgb(242, 241, 245)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "GitLab Duo Agent PlatformAgent",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgba(0, 0, 0, 0)",
+            "to": "rgb(242, 241, 245)"
+          }
+        }
+      }
+    ]
+  },
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(23, 19, 33)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "11px 16px",
+            "borderRadius": "4px",
+            "border": "1px solid rgb(23, 19, 33)",
+            "fontSize": "18px",
+            "fontWeight": "660"
+          }
+        },
+        "fontWeight": "660",
+        "fontSize": "18px",
+        "text": "Try for free",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(23, 19, 33)",
+            "padding": "11px 16px",
+            "borderRadius": "4px",
+            "border": "1px solid rgb(23, 19, 33)",
+            "fontSize": "18px",
+            "fontWeight": "660"
+          }
+        },
+        "fontWeight": "660",
+        "fontSize": "18px",
+        "text": "Meet GitLab Duo Agent Platform",
+        "confidence": "medium"
+      }
+    ],
+    "inputs": {
+      "text": [],
+      "checkbox": [],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgb(0, 0, 238)",
+        "textDecoration": "none",
+        "fontWeight": "660",
+        "states": {
+          "default": {
+            "color": "rgb(0, 0, 238)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "rgb(24, 131, 253)",
+            "textDecoration": "underline"
+          }
+        }
+      },
+      {
+        "color": "rgb(116, 113, 122)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(116, 113, 122)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "rgb(23, 19, 33)",
+            "textDecoration": "underline"
+          }
+        }
+      },
+      {
+        "color": "rgb(23, 19, 33)",
+        "textDecoration": "none",
+        "fontWeight": "660",
+        "states": {
+          "default": {
+            "color": "rgb(23, 19, 33)",
+            "textDecoration": "underline rgba(0, 0, 0, 0)"
+          },
+          "hover": {
+            "color": "rgb(24, 131, 253)",
+            "textDecoration": "underline"
+          }
+        }
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none",
+        "fontWeight": "660",
+        "states": {
+          "default": {
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "underline"
+          },
+          "hover": {
+            "color": "rgb(24, 131, 253)",
+            "textDecoration": "underline"
+          }
+        }
+      },
+      {
+        "color": "rgb(119, 89, 194)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(119, 89, 194)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "rgb(24, 131, 253)",
+            "textDecoration": "underline"
+          }
+        }
+      }
+    ],
+    "badges": {
+      "all": [],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": []
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "0px"
+    },
+    {
+      "px": "320px"
+    },
+    {
+      "px": "375px"
+    },
+    {
+      "px": "400px"
+    },
+    {
+      "px": "425px"
+    },
+    {
+      "px": "426px"
+    },
+    {
+      "px": "450px"
+    },
+    {
+      "px": "475px"
+    },
+    {
+      "px": "500px"
+    },
+    {
+      "px": "530px"
+    },
+    {
+      "px": "546px"
+    },
+    {
+      "px": "550px"
+    },
+    {
+      "px": "576px"
+    },
+    {
+      "px": "600px"
+    },
+    {
+      "px": "610px"
+    },
+    {
+      "px": "640px"
+    },
+    {
+      "px": "767px"
+    },
+    {
+      "px": "768px"
+    },
+    {
+      "px": "769px"
+    },
+    {
+      "px": "829px"
+    },
+    {
+      "px": "880px"
+    },
+    {
+      "px": "890px"
+    },
+    {
+      "px": "896px"
+    },
+    {
+      "px": "897px"
+    },
+    {
+      "px": "1023px"
+    },
+    {
+      "px": "1024px"
+    },
+    {
+      "px": "1025px"
+    },
+    {
+      "px": "1026px"
+    },
+    {
+      "px": "1170px"
+    },
+    {
+      "px": "1200px"
+    },
+    {
+      "px": "1220px"
+    },
+    {
+      "px": "1280px"
+    },
+    {
+      "px": "1300px"
+    },
+    {
+      "px": "1400px"
+    },
+    {
+      "px": "1440px"
+    },
+    {
+      "px": "1550px"
+    }
+  ],
+  "iconSystem": [],
+  "frameworks": []
+}

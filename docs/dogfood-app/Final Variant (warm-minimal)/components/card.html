@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- design-scope final variant component: Card -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Card — component</title>
+<link rel="stylesheet" href="../assets/tokens.css">
+<style>
+  body { font-family: var(--font, system-ui); background: var(--bg); color: var(--text);
+         padding: 32px; margin: 0; }
+  .demo-grid { display: grid; gap: 24px; max-width: 720px; }
+  .demo-section h2 { font-size: 15px; font-weight: 600; color: var(--text-muted); margin: 0 0 12px; }
+  .demo-row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  .demo-block { background: var(--surface); border: 1px solid var(--border);
+                 border-radius: var(--radius, 8px); padding: 20px; }
+  .note { font-size: 12px; color: var(--text-muted); font-family: var(--mono, monospace); }
+  
+  .card { background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius, 12px); padding: 20px; flex: 1; min-width: 220px;
+    transition: transform .2s var(--ease, ease), box-shadow .2s var(--ease, ease); }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,.08); }
+  .card h3 { font-size: 16px; margin: 0 0 6px; }
+  .card p { font-size: 13px; color: var(--text-muted); margin: 0; line-height: 1.5; }
+
+</style>
+</head>
+<body>
+<div class="demo-grid">
+  <div class="note">Component: Card · tokens: assets/tokens.css · self-contained</div>
+  <div class="demo-section"><h2>Card — surface + hover lift</h2>
+  <div class="demo-row">
+    <div class="card"><h3>Card title</h3><p>Hover lifts with the captured easing.</p></div>
+    <div class="card"><h3>Another card</h3><p>Equal heights per row, no dead space.</p></div>
+  </div>
+  <div class="note">Uses --radius (20px-style surface) and --ease-snap motion. Hover: translateY(-2px) + soft shadow.</div>
+</div>
+
+</div>
+<script src="../assets/theme.js"></script>
+</body>
+</html>

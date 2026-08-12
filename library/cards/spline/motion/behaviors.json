@@ -1,0 +1,111 @@
+{
+  "url": "https://spline.design",
+  "captured": "2026-08-10T09:20:39+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgba(255, 255, 255, 0.7)",
+          "after": "rgb(255, 255, 255)"
+        },
+        "borderColor": {
+          "before": "rgba(255, 255, 255, 0.7)",
+          "after": "rgb(255, 255, 255)"
+        },
+        "outline": {
+          "before": "rgba(255, 255, 255, 0.7) none 3px",
+          "after": "rgb(255, 255, 255) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgba(255, 255, 255, 0.7)",
+          "after": "rgb(255, 255, 255)"
+        },
+        "borderColor": {
+          "before": "rgba(255, 255, 255, 0.7)",
+          "after": "rgb(255, 255, 255)"
+        },
+        "outline": {
+          "before": "rgba(255, 255, 255, 0.7) none 3px",
+          "after": "rgb(255, 255, 255) none 3px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "color": {
+          "before": "rgba(255, 255, 255, 0.7)",
+          "after": "rgb(255, 255, 255)"
+        },
+        "borderColor": {
+          "before": "rgba(255, 255, 255, 0.7)",
+          "after": "rgb(255, 255, 255)"
+        },
+        "outline": {
+          "before": "rgba(255, 255, 255, 0.7) none 3px",
+          "after": "rgb(255, 255, 255) none 3px"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "color": {
+          "before": "rgba(255, 255, 255, 0.7)",
+          "after": "rgb(255, 255, 255)"
+        },
+        "borderColor": {
+          "before": "rgba(255, 255, 255, 0.7)",
+          "after": "rgb(255, 255, 255)"
+        },
+        "outline": {
+          "before": "rgba(255, 255, 255, 0.7) none 3px",
+          "after": "rgb(255, 255, 255) none 3px"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "ul.Menu-module-scss-module__X4tN8q__nav",
+      "diffs": {
+        "background": "rgba(0, 0, 0, 0.8) → rgba(30, 30, 35, 0.8)"
+      }
+    },
+    {
+      "selector": "ul.Menu-module-scss-module__X4tN8q__nav",
+      "diffs": {
+        "background": "rgba(0, 0, 0, 0.8) → rgba(30, 30, 35, 0.8)"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 96,
+    "tabs": 0,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 2
+  },
+  "states": []
+}

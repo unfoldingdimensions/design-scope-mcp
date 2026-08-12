@@ -1,0 +1,55 @@
+{
+  "url": "https://www.zoom.com",
+  "hovers": [
+    {
+      "selector": "a[href]",
+      "file": "hover-01.png",
+      "box": {
+        "x": 24,
+        "y": 26,
+        "width": 114,
+        "height": 26
+      }
+    },
+    {
+      "selector": "a[href]",
+      "file": "hover-02.png",
+      "box": {
+        "x": 453,
+        "y": 22,
+        "width": 66,
+        "height": 34
+      }
+    },
+    {
+      "selector": "button",
+      "file": "hover-03.png",
+      "box": {
+        "x": 162,
+        "y": 21,
+        "width": 95,
+        "height": 36
+      }
+    },
+    {
+      "selector": "[role=button]",
+      "file": "hover-04.png",
+      "box": {
+        "x": 1364,
+        "y": 824,
+        "width": 56,
+        "height": 56
+      }
+    },
+    {
+      "selector": "nav a",
+      "file": "hover-05.png",
+      "box": {
+        "x": 453,
+        "y": 22,
+        "width": 66,
+        "height": 34
+      }
+    }
+  ]
+}

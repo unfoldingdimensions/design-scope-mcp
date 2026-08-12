@@ -1,0 +1,42 @@
+{
+  "url": "https://motion.dev",
+  "captured": "2026-08-10T07:32:23+00:00",
+  "hover_diffs": [
+    {
+      "selector": "button",
+      "index": 1,
+      "diffs": {
+        "opacity": {
+          "before": "1",
+          "after": "0.7"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "borderColor": {
+          "before": "oklch(0.88 0.18 96)",
+          "after": "oklch(0.94 0.008 96)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 117,
+    "tabs": 0,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 10
+  },
+  "states": []
+}

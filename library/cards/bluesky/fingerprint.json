@@ -1,0 +1,973 @@
+{
+  "url": "https://bsky.app/profile/propublica.org/post/3mslg2nlt322n",
+  "extractedAt": "2026-08-09T12:41:27.062Z",
+  "meta": {
+    "snapshotId": "b37ccdfb-cd77-4f38-bd4d-57973e52c737",
+    "httpStatus": 200,
+    "dembrandtVersion": "0.27.1",
+    "schemaVersion": "1.5.0",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "fontsReady": true,
+    "flags": {
+      "mobile": true
+    }
+  },
+  "siteName": "Bluesky Social",
+  "logo": {
+    "source": "svg",
+    "context": "header",
+    "inline": true,
+    "url": "https://bsky.app/",
+    "color": "#000000",
+    "ariaLabel": null,
+    "markup": "<svg fill=\"none\" viewBox=\"0 0 64 57\" width=\"32\" style=\"width: 32px; height: 28.5px; color: rgb(0, 0, 0);\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"#006AFF\" d=\"M13.873 3.805C21.21 9.332 29.103 20.537 32 26.55v15.882c0-.338-.13.044-.41.867-1.512 4.456-7.418 21.847-20.923 7.944-7.111-7.32-3.819-14.64 9.125-16.85-7.405 1.264-15.73-.825-18.014-9.015C1.12 23.022 0 8.51 0 6.55 0-3.268 8.579-.182 13.873 3.805ZM50.127 3.805C42.79 9.332 34.897 20.537 32 26.55v15.882c0-.338.13.044.41.867 1.512 4.456 7.418 21.847 20.923 7.944 7.111-7.32 3.819-14.64-9.125-16.85 7.405 1.264 15.73-.825 18.014-9.015C62.88 23.022 64 8.51 64 6.55c0-9.818-8.578-6.732-13.873-2.745Z\"></path></svg>",
+    "dataUri": "data:image/svg+xml;utf8,%3Csvg%20fill%3D%22none%22%20viewBox%3D%220%200%2064%2057%22%20width%3D%2232%22%20style%3D%22width%3A%2032px%3B%20height%3A%2028.5px%3B%20color%3A%20rgb(0%2C%200%2C%200)%3B%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20fill%3D%22%23006AFF%22%20d%3D%22M13.873%203.805C21.21%209.332%2029.103%2020.537%2032%2026.55v15.882c0-.338-.13.044-.41.867-1.512%204.456-7.418%2021.847-20.923%207.944-7.111-7.32-3.819-14.64%209.125-16.85-7.405%201.264-15.73-.825-18.014-9.015C1.12%2023.022%200%208.51%200%206.55%200-3.268%208.579-.182%2013.873%203.805ZM50.127%203.805C42.79%209.332%2034.897%2020.537%2032%2026.55v15.882c0-.338.13.044.41.867%201.512%204.456%207.418%2021.847%2020.923%207.944%207.111-7.32%203.819-14.64-9.125-16.85%207.405%201.264%2015.73-.825%2018.014-9.015C62.88%2023.022%2064%208.51%2064%206.55c0-9.818-8.578-6.732-13.873-2.745Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E",
+    "svgColors": [
+      "#006aff"
+    ],
+    "width": 32,
+    "height": 28.5,
+    "rect": {
+      "x": 431,
+      "y": 36,
+      "width": 32,
+      "height": 29
+    },
+    "natural": {
+      "width": 64,
+      "height": 57
+    },
+    "type": "logomark",
+    "reversed": false,
+    "background": "#ffffff",
+    "safeZone": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "position": {
+      "top": 36,
+      "left": 431
+    }
+  },
+  "logoInstances": [
+    {
+      "source": "svg",
+      "context": "header",
+      "inline": true,
+      "url": "https://bsky.app/",
+      "color": "#000000",
+      "ariaLabel": null,
+      "markup": "<svg fill=\"none\" viewBox=\"0 0 64 57\" width=\"32\" style=\"width: 32px; height: 28.5px; color: rgb(0, 0, 0);\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"#006AFF\" d=\"M13.873 3.805C21.21 9.332 29.103 20.537 32 26.55v15.882c0-.338-.13.044-.41.867-1.512 4.456-7.418 21.847-20.923 7.944-7.111-7.32-3.819-14.64 9.125-16.85-7.405 1.264-15.73-.825-18.014-9.015C1.12 23.022 0 8.51 0 6.55 0-3.268 8.579-.182 13.873 3.805ZM50.127 3.805C42.79 9.332 34.897 20.537 32 26.55v15.882c0-.338.13.044.41.867 1.512 4.456 7.418 21.847 20.923 7.944 7.111-7.32 3.819-14.64-9.125-16.85 7.405 1.264 15.73-.825 18.014-9.015C62.88 23.022 64 8.51 64 6.55c0-9.818-8.578-6.732-13.873-2.745Z\"></path></svg>",
+      "dataUri": "data:image/svg+xml;utf8,%3Csvg%20fill%3D%22none%22%20viewBox%3D%220%200%2064%2057%22%20width%3D%2232%22%20style%3D%22width%3A%2032px%3B%20height%3A%2028.5px%3B%20color%3A%20rgb(0%2C%200%2C%200)%3B%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20fill%3D%22%23006AFF%22%20d%3D%22M13.873%203.805C21.21%209.332%2029.103%2020.537%2032%2026.55v15.882c0-.338-.13.044-.41.867-1.512%204.456-7.418%2021.847-20.923%207.944-7.111-7.32-3.819-14.64%209.125-16.85-7.405%201.264-15.73-.825-18.014-9.015C1.12%2023.022%200%208.51%200%206.55%200-3.268%208.579-.182%2013.873%203.805ZM50.127%203.805C42.79%209.332%2034.897%2020.537%2032%2026.55v15.882c0-.338.13.044.41.867%201.512%204.456%207.418%2021.847%2020.923%207.944%207.111-7.32%203.819-14.64-9.125-16.85%207.405%201.264%2015.73-.825%2018.014-9.015C62.88%2023.022%2064%208.51%2064%206.55c0-9.818-8.578-6.732-13.873-2.745Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E",
+      "svgColors": [
+        "#006aff"
+      ],
+      "width": 32,
+      "height": 28.5,
+      "rect": {
+        "x": 431,
+        "y": 36,
+        "width": 32,
+        "height": 29
+      },
+      "natural": {
+        "width": 64,
+        "height": 57
+      },
+      "type": "logomark",
+      "reversed": false,
+      "background": "#ffffff",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 36,
+        "left": 431
+      }
+    }
+  ],
+  "favicons": [
+    {
+      "type": "apple-touch-icon",
+      "url": "https://web-cdn.bsky.app/static/apple-touch-icon.png",
+      "sizes": "180x180"
+    },
+    {
+      "type": "icon",
+      "url": "https://web-cdn.bsky.app/static/favicon-32x32.png",
+      "sizes": "32x32"
+    },
+    {
+      "type": "icon",
+      "url": "https://web-cdn.bsky.app/static/favicon-16x16.png",
+      "sizes": "16x16"
+    },
+    {
+      "type": "mask-icon",
+      "url": "https://web-cdn.bsky.app/static/safari-pinned-tab.svg",
+      "sizes": null
+    },
+    {
+      "type": "og:image",
+      "url": "https://bsky.app/static/social-card-default-gradient.png",
+      "sizes": null
+    }
+  ],
+  "manifest": {
+    "themeColor": "#FFFFFF"
+  },
+  "colors": {
+    "semantic": {
+      "background": "rgb(255, 255, 255)",
+      "text": "rgb(0, 0, 0)",
+      "primary": "rgb(0, 106, 255)"
+    },
+    "palette": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 4952,
+        "confidence": "high",
+        "sources": [
+          "css-g5y9jx",
+          "css-1jxf684",
+          "css-146c3p1"
+        ],
+        "lch": "lch(0% 0 0)",
+        "oklch": "oklch(0% 0 0)",
+        "role": "surface",
+        "onColor": "#ffffff",
+        "hover": "#000000"
+      },
+      {
+        "color": "rgb(64, 81, 104)",
+        "normalized": "#405168",
+        "count": 179,
+        "confidence": "high",
+        "sources": [
+          "css-146c3p1",
+          "css-1jxf684"
+        ],
+        "lch": "lch(33.73% 15.79 262.7)",
+        "oklch": "oklch(43.02% 0.044 256.09)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#4d617d",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 17,
+        "confidence": "high",
+        "sources": [
+          "css-g5y9jx",
+          "manifest:theme_color"
+        ],
+        "lch": "lch(100% 0.03 53.35)",
+        "oklch": "oklch(100% 0 89.88)",
+        "role": "surface",
+        "onColor": "#000000",
+        "hover": "#d9d9d9"
+      },
+      {
+        "color": "rgb(135, 152, 176)",
+        "normalized": "#8798b0",
+        "count": 20,
+        "confidence": "medium",
+        "sources": [],
+        "lch": "lch(62.11% 14.86 261.55)",
+        "oklch": "oklch(67.45% 0.041 257)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#738196",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(0, 106, 255)",
+        "normalized": "#006aff",
+        "count": 5,
+        "confidence": "high",
+        "sources": [
+          "logo",
+          "css-1jxf684",
+          "css-g5y9jx"
+        ],
+        "lch": "lch(47.49% 85.14 284.71)",
+        "oklch": "oklch(57.1% 0.236 260.26)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#007fff",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(35, 46, 62)",
+        "normalized": "#232e3e",
+        "count": 1,
+        "confidence": "high",
+        "sources": [
+          "css-g5y9jx"
+        ],
+        "lch": "lch(18.47% 11.85 264.63)",
+        "oklch": "oklch(29.84% 0.033 257.67)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#2a374a",
+        "variantOf": "primary"
+      }
+    ],
+    "cssVariables": {
+      "--rc-focus-color": {
+        "value": "#08f",
+        "hex": "#0088ff",
+        "lch": "lch(55.8% 69.01 273.42)",
+        "oklch": "oklch(63.21% 0.202 254.09)"
+      }
+    },
+    "detected": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 4952,
+        "usageFrac": 0.7355912061794415,
+        "confidence": "high",
+        "sources": [
+          "css-g5y9jx",
+          "css-1jxf684",
+          "css-146c3p1",
+          "css-11aywtz"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(102, 123, 153)",
+        "normalized": "#667b99",
+        "count": 1320,
+        "usageFrac": 0.19607843137254902,
+        "confidence": "high",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(64, 81, 104)",
+        "normalized": "#405168",
+        "count": 179,
+        "usageFrac": 0.02658942364824718,
+        "confidence": "high",
+        "sources": [
+          "css-146c3p1",
+          "css-1jxf684"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(220, 226, 234)",
+        "normalized": "#dce2ea",
+        "count": 134,
+        "usageFrac": 0.01990493166963755,
+        "confidence": "high",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(249, 250, 251)",
+        "normalized": "#f9fafb",
+        "count": 79,
+        "usageFrac": 0.011734997029114676,
+        "confidence": "high",
+        "sources": [
+          "css-g5y9jx"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(135, 152, 176)",
+        "normalized": "#8798b0",
+        "count": 20,
+        "usageFrac": 0.0029708853238265003,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 17,
+        "usageFrac": 0.0025252525252525255,
+        "confidence": "high",
+        "sources": [
+          "css-g5y9jx"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(82, 101, 128)",
+        "normalized": "#526580",
+        "count": 16,
+        "usageFrac": 0.0023767082590612004,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(17, 24, 34)",
+        "normalized": "#111822",
+        "count": 6,
+        "usageFrac": 0.00089126559714795,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(0, 106, 255)",
+        "normalized": "#006aff",
+        "count": 5,
+        "usageFrac": 0.0007427213309566251,
+        "confidence": "high",
+        "sources": [
+          "css-1jxf684",
+          "css-g5y9jx"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(239, 242, 246)",
+        "normalized": "#eff2f6",
+        "count": 2,
+        "usageFrac": 0.00029708853238265005,
+        "confidence": "high",
+        "sources": [
+          "css-g5y9jx"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(242, 242, 242)",
+        "normalized": "#f2f2f2",
+        "count": 1,
+        "usageFrac": 0.00014854426619132502,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(35, 46, 62)",
+        "normalized": "#232e3e",
+        "count": 1,
+        "usageFrac": 0.00014854426619132502,
+        "confidence": "high",
+        "sources": [
+          "css-g5y9jx"
+        ],
+        "isToken": false
+      }
+    ],
+    "_raw": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 4952
+      },
+      {
+        "color": "rgb(220, 226, 234)",
+        "normalized": "#dce2ea",
+        "count": 134
+      },
+      {
+        "color": "rgb(64, 81, 104)",
+        "normalized": "#405168",
+        "count": 179
+      },
+      {
+        "color": "rgb(102, 123, 153)",
+        "normalized": "#667b99",
+        "count": 1320
+      }
+    ]
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "link",
+        "family": "InterVariable",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji",
+        "size": "16.9px (1.06rem)",
+        "weight": 400,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "InterVariable",
+        "fallbacks": "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Liberation Sans, Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "InterVariable",
+        "fallbacks": "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Liberation Sans, Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "InterVariable",
+        "fallbacks": "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Liberation Sans, Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "InterVariable",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji",
+        "size": "15px (0.94rem)",
+        "weight": 600,
+        "lineHeight": "1.13",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "InterVariable",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji",
+        "size": "15px (0.94rem)",
+        "weight": 400,
+        "lineHeight": "1.13",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "InterVariable",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji",
+        "size": "15px (0.94rem)",
+        "weight": 400,
+        "lineHeight": "1.13",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "InterVariable",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji",
+        "size": "15px (0.94rem)",
+        "weight": 600,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "InterVariable",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji",
+        "size": "13.1px (0.82rem)",
+        "weight": 400,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "InterVariable",
+        "fallbacks": "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji",
+        "size": "13.1px (0.82rem)",
+        "weight": 400,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null
+      }
+    ],
+    "sources": {
+      "googleFonts": [],
+      "adobeFonts": false,
+      "variableFonts": true,
+      "selfHostedFonts": [
+        "InterVariable.c504db5c06caaf7cdfba.woff2"
+      ],
+      "customFonts": [
+        "InterVariable.c504db5c06caaf7cdfba.woff2"
+      ]
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "1px",
+        "display": "1px",
+        "rem": "0.06rem",
+        "count": 78,
+        "numericValue": 1
+      },
+      {
+        "px": "2px",
+        "display": "2px",
+        "rem": "0.13rem",
+        "count": 256,
+        "numericValue": 2
+      },
+      {
+        "px": "4px",
+        "display": "4px",
+        "rem": "0.25rem",
+        "count": 334,
+        "numericValue": 4
+      },
+      {
+        "px": "5px",
+        "display": "5px",
+        "rem": "0.31rem",
+        "count": 1562,
+        "numericValue": 5
+      },
+      {
+        "px": "6px",
+        "display": "6px",
+        "rem": "0.38rem",
+        "count": 26,
+        "numericValue": 6
+      },
+      {
+        "px": "8px",
+        "display": "8px",
+        "rem": "0.50rem",
+        "count": 333,
+        "numericValue": 8
+      },
+      {
+        "px": "11px",
+        "display": "11px",
+        "rem": "0.69rem",
+        "count": 2,
+        "numericValue": 11
+      },
+      {
+        "px": "12px",
+        "display": "12px",
+        "rem": "0.75rem",
+        "count": 8,
+        "numericValue": 12
+      },
+      {
+        "px": "13px",
+        "display": "13px",
+        "rem": "0.81rem",
+        "count": 2,
+        "numericValue": 13
+      },
+      {
+        "px": "14px",
+        "display": "14px",
+        "rem": "0.88rem",
+        "count": 2,
+        "numericValue": 14
+      },
+      {
+        "px": "16px",
+        "display": "16px",
+        "rem": "1.00rem",
+        "count": 7,
+        "numericValue": 16
+      },
+      {
+        "px": "20px",
+        "display": "20px",
+        "rem": "1.25rem",
+        "count": 3,
+        "numericValue": 20
+      },
+      {
+        "px": "66.5684px",
+        "display": "66.5684px",
+        "rem": "4.16rem",
+        "count": 1,
+        "numericValue": 66.5684
+      },
+      {
+        "px": "75px",
+        "display": "75px",
+        "rem": "4.69rem",
+        "count": 4,
+        "numericValue": 75
+      },
+      {
+        "px": "76.2px",
+        "display": "76.2px",
+        "rem": "4.76rem",
+        "count": 1,
+        "numericValue": 76.2
+      },
+      {
+        "px": "81.9672px",
+        "display": "81.9672px",
+        "rem": "5.12rem",
+        "count": 1,
+        "numericValue": 81.9672
+      },
+      {
+        "px": "84.8px",
+        "display": "84.8px",
+        "rem": "5.30rem",
+        "count": 1,
+        "numericValue": 84.8
+      },
+      {
+        "px": "86.6485px",
+        "display": "86.6485px",
+        "rem": "5.42rem",
+        "count": 1,
+        "numericValue": 86.6485
+      },
+      {
+        "px": "98.6744px",
+        "display": "98.6744px",
+        "rem": "6.17rem",
+        "count": 1,
+        "numericValue": 98.6744
+      },
+      {
+        "px": "100px",
+        "display": "100px",
+        "rem": "6.25rem",
+        "count": 34,
+        "numericValue": 100
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "0px 12px 0px 0px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "0px 0px 0px 12px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "0px 0px 12px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "6px",
+        "count": 1,
+        "elements": [
+          "combobox"
+        ],
+        "confidence": "low",
+        "numericValue": 6
+      },
+      {
+        "value": "8px",
+        "count": 36,
+        "elements": [
+          "div",
+          "button"
+        ],
+        "confidence": "high",
+        "numericValue": 8
+      },
+      {
+        "value": "9px",
+        "count": 258,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high",
+        "numericValue": 9
+      },
+      {
+        "value": "10px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 10
+      },
+      {
+        "value": "11px",
+        "count": 2,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 11
+      },
+      {
+        "value": "12px",
+        "count": 227,
+        "elements": [
+          "div",
+          "link",
+          "button"
+        ],
+        "confidence": "high",
+        "numericValue": 12
+      },
+      {
+        "value": "12px 0px 0px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 12
+      },
+      {
+        "value": "21px",
+        "count": 259,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high",
+        "numericValue": 21
+      },
+      {
+        "value": "999px",
+        "count": 923,
+        "elements": [
+          "link",
+          "button",
+          "div"
+        ],
+        "confidence": "high",
+        "numericValue": 999
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(220, 226, 234)",
+        "count": 226,
+        "elements": [
+          "div",
+          "button"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid",
+        "color": "rgb(220, 226, 234)",
+        "count": 172,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "0px 1px",
+        "style": "solid",
+        "color": "rgb(220, 226, 234)",
+        "count": 2,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "solid",
+        "color": "rgb(220, 226, 234)",
+        "count": 2,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px",
+        "style": "solid",
+        "color": "rgb(220, 226, 234)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [
+    {
+      "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 32px 0px",
+      "count": 5,
+      "confidence": "medium"
+    }
+  ],
+  "gradients": [],
+  "motion": {
+    "durations": [
+      {
+        "value": "0.001s",
+        "ms": 1,
+        "count": 467
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease",
+        "type": "ease",
+        "count": 458
+      },
+      {
+        "value": "cubic-bezier(0.17, 0.73, 0.14, 1)",
+        "type": "ease-out",
+        "count": 9
+      }
+    ],
+    "animations": [],
+    "contexts": {},
+    "interactiveDeltas": []
+  },
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(35, 46, 62)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "8px 14px",
+            "borderRadius": "999px",
+            "border": "0px solid rgb(0, 0, 0)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "text": "Follow",
+        "confidence": "high"
+      }
+    ],
+    "inputs": {
+      "text": [
+        {
+          "specificType": "div",
+          "states": {
+            "default": {
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "0px solid rgb(0, 0, 0)",
+              "borderRadius": "6px",
+              "padding": "5px 4px 5px 8px",
+              "boxShadow": "none",
+              "outline": "rgb(0, 0, 0) none 3px"
+            },
+            "focus": null
+          }
+        },
+        {
+          "specificType": "text",
+          "states": {
+            "default": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "border": "0px solid rgb(0, 0, 0)",
+              "borderRadius": "0px",
+              "padding": "11px 4px",
+              "boxShadow": "none",
+              "outline": "rgb(0, 0, 0) none 3px"
+            },
+            "focus": null
+          }
+        }
+      ],
+      "checkbox": [],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(0, 0, 0)",
+            "textDecoration": "none"
+          },
+          "hover": null
+        }
+      },
+      {
+        "color": "rgb(0, 106, 255)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(0, 106, 255)",
+            "textDecoration": "none"
+          },
+          "hover": null
+        }
+      },
+      {
+        "color": "rgb(64, 81, 104)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(64, 81, 104)",
+            "textDecoration": "none"
+          },
+          "hover": null
+        }
+      }
+    ],
+    "badges": {
+      "all": [],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": []
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "600px"
+    }
+  ],
+  "iconSystem": [],
+  "frameworks": []
+}

@@ -1,0 +1,127 @@
+{
+  "url": "https://www.capterra.com",
+  "captured": "2026-08-10T11:01:57+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "borderColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgb(32, 32, 32)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgb(32, 32, 32)",
+          "after": "rgb(89, 89, 89)"
+        },
+        "borderColor": {
+          "before": "rgb(32, 32, 32)",
+          "after": "rgb(89, 89, 89)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "color": {
+          "before": "rgb(32, 32, 32)",
+          "after": "rgb(89, 89, 89)"
+        },
+        "borderColor": {
+          "before": "rgb(32, 32, 32)",
+          "after": "rgb(89, 89, 89)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "borderColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgb(32, 32, 32)"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": "button",
+      "index": 5,
+      "diffs": {
+        "borderColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgb(32, 32, 32)"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 414,
+    "tabs": 6,
+    "accordions": 11,
+    "carousels": 0,
+    "observers": 28,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "button",
+      "classes": "inline-flex items-center justify-center gap-2 rounded-t-lg text-sm leading-5 whi",
+      "text": "Project Management",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "button",
+      "classes": "inline-flex items-center justify-center gap-2 rounded-t-lg text-sm leading-5 whi",
+      "text": "Accounting",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "button",
+      "classes": "inline-flex items-center justify-center gap-2 rounded-t-lg text-sm leading-5 whi",
+      "text": "Human Resources",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "button",
+      "classes": "inline-flex items-center justify-center gap-2 rounded-t-lg text-sm leading-5 whi",
+      "text": "CRM",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "button",
+      "classes": "inline-flex items-center justify-center gap-2 rounded-t-lg text-sm leading-5 whi",
+      "text": "Construction Management",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    }
+  ]
+}

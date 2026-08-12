@@ -1,0 +1,66 @@
+{
+  "url": "https://www.brex.com",
+  "captured": "2026-08-10T03:42:18+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "outline": {
+          "before": "rgb(21, 25, 30) none 3px",
+          "after": "rgb(16, 16, 16) auto 1px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "borderColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgb(208, 210, 221)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "borderColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgb(208, 210, 221)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "borderColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgb(208, 210, 221)"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 111,
+    "tabs": 0,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": []
+}

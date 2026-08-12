@@ -1,0 +1,65 @@
+{
+  "url": "https://www.nike.com",
+  "hovers": [
+    {
+      "selector": "a[href]",
+      "file": "hover-01.png",
+      "box": {
+        "x": 1205,
+        "y": 9,
+        "width": 26,
+        "height": 18
+      }
+    },
+    {
+      "selector": "a[href]",
+      "file": "hover-02.png",
+      "box": {
+        "x": 48,
+        "y": 36,
+        "width": 59,
+        "height": 60
+      }
+    },
+    {
+      "selector": "button",
+      "file": "hover-03.png",
+      "box": {
+        "x": 1258,
+        "y": 8,
+        "width": 56,
+        "height": 20
+      }
+    },
+    {
+      "selector": "button",
+      "file": "hover-04.png",
+      "box": {
+        "x": 1342,
+        "y": 8,
+        "width": 46,
+        "height": 20
+      }
+    },
+    {
+      "selector": "[role=button]",
+      "file": "hover-05.png",
+      "box": {
+        "x": 496,
+        "y": 54,
+        "width": 121,
+        "height": 24
+      }
+    },
+    {
+      "selector": "[role=button]",
+      "file": "hover-06.png",
+      "box": {
+        "x": 640,
+        "y": 54,
+        "width": 32,
+        "height": 24
+      }
+    }
+  ]
+}

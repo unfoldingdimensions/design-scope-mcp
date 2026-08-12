@@ -1,0 +1,94 @@
+{
+  "url": "https://www.alchemy.com",
+  "captured": "2026-08-10T13:26:15+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgb(239, 244, 249)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgb(2, 6, 23)",
+          "after": "rgb(100, 116, 139)"
+        },
+        "outline": {
+          "before": "rgb(2, 6, 23) none 3px",
+          "after": "rgb(100, 116, 139) none 3px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "color": {
+          "before": "rgb(2, 6, 23)",
+          "after": "rgb(100, 116, 139)"
+        },
+        "outline": {
+          "before": "rgb(2, 6, 23) none 3px",
+          "after": "rgb(100, 116, 139) none 3px"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "color": {
+          "before": "rgb(2, 6, 23)",
+          "after": "rgb(100, 116, 139)"
+        },
+        "outline": {
+          "before": "rgb(2, 6, 23) none 3px",
+          "after": "rgb(100, 116, 139) none 3px"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": "button",
+      "index": 5,
+      "diffs": {
+        "color": {
+          "before": "rgb(2, 6, 23)",
+          "after": "rgb(100, 116, 139)"
+        },
+        "outline": {
+          "before": "rgb(2, 6, 23) none 3px",
+          "after": "rgb(100, 116, 139) none 3px"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 133,
+    "tabs": 0,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": []
+}

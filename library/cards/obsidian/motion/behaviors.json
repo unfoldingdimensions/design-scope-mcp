@@ -1,0 +1,186 @@
+{
+  "url": "https://obsidian.md",
+  "captured": "2026-08-10T11:51:59+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(238, 238, 238)",
+          "after": "rgb(167, 139, 250)"
+        },
+        "outline": {
+          "before": "rgb(238, 238, 238) none 3px",
+          "after": "rgb(167, 139, 250) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgb(188, 188, 188)",
+          "after": "rgb(255, 255, 255)"
+        },
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgb(38, 38, 38)"
+        },
+        "outline": {
+          "before": "rgb(188, 188, 188) none 3px",
+          "after": "rgb(255, 255, 255) none 3px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 3,
+      "diffs": {
+        "color": {
+          "before": "rgb(188, 188, 188)",
+          "after": "rgb(255, 255, 255)"
+        },
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgb(38, 38, 38)"
+        },
+        "outline": {
+          "before": "rgb(188, 188, 188) none 3px",
+          "after": "rgb(255, 255, 255) none 3px"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 4,
+      "diffs": {
+        "color": {
+          "before": "rgb(188, 188, 188)",
+          "after": "rgb(255, 255, 255)"
+        },
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgb(38, 38, 38)"
+        },
+        "outline": {
+          "before": "rgb(188, 188, 188) none 3px",
+          "after": "rgb(255, 255, 255) none 3px"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": "button",
+      "index": 5,
+      "diffs": {
+        "color": {
+          "before": "rgb(188, 188, 188)",
+          "after": "rgb(255, 255, 255)"
+        },
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgb(38, 38, 38)"
+        },
+        "outline": {
+          "before": "rgb(188, 188, 188) none 3px",
+          "after": "rgb(255, 255, 255) none 3px"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "header.header",
+      "diffs": {
+        "background": "rgba(0, 0, 0, 0) → rgb(15, 15, 15)"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 137,
+    "tabs": 21,
+    "accordions": 2,
+    "carousels": 0,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "div",
+      "classes": "app-tab-bar flex-1 app-border lg:border-e",
+      "text": "Writing is telepathy\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\tEvergreen notes",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "div",
+      "classes": "app-tab is-active",
+      "text": "Writing is telepathy",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "svg",
+      "classes": "[object SVGAnimatedString]",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "div",
+      "classes": "app-tab",
+      "text": "Evergreen notes",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "div",
+      "classes": "app-tab-new",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "svg",
+      "classes": "[object SVGAnimatedString]",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "div",
+      "classes": "app-tab-bar hidden lg:flex w-[38%]",
+      "text": "Graph of Writing is t...",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "div",
+      "classes": "app-tab is-active",
+      "text": "Graph of Writing is t...",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

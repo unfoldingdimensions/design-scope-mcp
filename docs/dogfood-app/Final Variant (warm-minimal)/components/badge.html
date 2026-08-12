@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- design-scope final variant component: Badge -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Badge — component</title>
+<link rel="stylesheet" href="../assets/tokens.css">
+<style>
+  body { font-family: var(--font, system-ui); background: var(--bg); color: var(--text);
+         padding: 32px; margin: 0; }
+  .demo-grid { display: grid; gap: 24px; max-width: 720px; }
+  .demo-section h2 { font-size: 15px; font-weight: 600; color: var(--text-muted); margin: 0 0 12px; }
+  .demo-row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  .demo-block { background: var(--surface); border: 1px solid var(--border);
+                 border-radius: var(--radius, 8px); padding: 20px; }
+  .note { font-size: 12px; color: var(--text-muted); font-family: var(--mono, monospace); }
+  
+  .badge { font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 999px;
+    background: var(--surface); border: 1px solid var(--border); color: var(--text-muted); }
+  .badge-success { color: var(--success, #16a34a); border-color: color-mix(in srgb, var(--success, #16a34a) 40%, transparent); }
+  .badge-warning { color: var(--warning, #d97706); border-color: color-mix(in srgb, var(--warning, #d97706) 40%, transparent); }
+  .badge-error { color: var(--danger, #dc2626); border-color: color-mix(in srgb, var(--danger, #dc2626) 40%, transparent); }
+
+</style>
+</head>
+<body>
+<div class="demo-grid">
+  <div class="note">Component: Badge · tokens: assets/tokens.css · self-contained</div>
+  <div class="demo-section"><h2>Badge — status palette</h2>
+  <div class="demo-row">
+    <span class="badge">Neutral</span>
+    <span class="badge badge-success">Success</span>
+    <span class="badge badge-warning">Warning</span>
+    <span class="badge badge-error">Error</span>
+  </div>
+  <div class="note">Semantic roles: success/warning/error map to tokens (--success/--warning/--danger defaults shown).</div>
+</div>
+
+</div>
+<script src="../assets/theme.js"></script>
+</body>
+</html>

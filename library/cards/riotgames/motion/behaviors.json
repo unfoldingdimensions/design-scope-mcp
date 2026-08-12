@@ -1,0 +1,111 @@
+{
+  "url": "https://www.riotgames.com",
+  "captured": "2026-08-10T16:35:40+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(240, 240, 240)",
+          "after": "rgb(220, 220, 220)"
+        },
+        "borderColor": {
+          "before": "rgb(240, 240, 240)",
+          "after": "rgb(220, 220, 220)"
+        },
+        "outline": {
+          "before": "rgb(240, 240, 240) none 3px",
+          "after": "rgb(220, 220, 220) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgb(209, 54, 58)",
+          "after": "rgb(43, 42, 41)"
+        },
+        "borderColor": {
+          "before": "rgb(209, 54, 58)",
+          "after": "rgb(43, 42, 41)"
+        },
+        "outline": {
+          "before": "rgb(209, 54, 58) none 3px",
+          "after": "rgb(43, 42, 41) none 0px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(240, 240, 240)",
+          "after": "rgb(220, 220, 220)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 83,
+    "tabs": 3,
+    "accordions": 0,
+    "carousels": 9,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "div",
+      "classes": "widget__wrapper widget__wrapper--homepageheronew js-widget js-widget--desktop vi",
+      "text": ":root {\n              --color-bg-gradient: rgba(163, 38, 41,",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "div",
+      "classes": "widget__wrapper widget__wrapper--whatshappening js-widget js-widget--desktop vis",
+      "text": "What's happening?See moreWhat would a “League Classic Viego”",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "button",
+      "classes": "content-showcase__carousel__button content-showcase__carousel__button--disabled",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "button",
+      "classes": "content-showcase__carousel__button content-showcase__carousel__button--next",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "div",
+      "classes": "widget__wrapper widget__wrapper--careers js-widget js-widget--desktop visible--d",
+      "text": "We’re hiring!Team up with Riot to forge your path and craft ",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

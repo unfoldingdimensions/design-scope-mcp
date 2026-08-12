@@ -1,0 +1,179 @@
+{
+  "url": "https://www.binance.com",
+  "captured": "2026-08-10T12:46:13+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(234, 236, 239)",
+          "after": "rgb(240, 185, 11)"
+        },
+        "borderColor": {
+          "before": "rgb(234, 236, 239)",
+          "after": "rgb(240, 185, 11)"
+        },
+        "outline": {
+          "before": "rgb(234, 236, 239) none 0px",
+          "after": "rgb(240, 185, 11) none 0px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgb(234, 236, 239)",
+          "after": "rgb(240, 185, 11)"
+        },
+        "borderColor": {
+          "before": "rgb(234, 236, 239)",
+          "after": "rgb(240, 185, 11)"
+        },
+        "outline": {
+          "before": "rgb(234, 236, 239) none 0px",
+          "after": "rgb(240, 185, 11) none 0px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 3,
+      "diffs": {
+        "color": {
+          "before": "rgb(234, 236, 239)",
+          "after": "rgb(240, 185, 11)"
+        },
+        "borderColor": {
+          "before": "rgb(234, 236, 239)",
+          "after": "rgb(240, 185, 11)"
+        },
+        "outline": {
+          "before": "rgb(234, 236, 239) none 0px",
+          "after": "rgb(240, 185, 11) none 0px"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "opacity": {
+          "before": "1",
+          "after": "0.8"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": "button",
+      "index": 5,
+      "diffs": {
+        "opacity": {
+          "before": "1",
+          "after": "0.8"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    },
+    {
+      "selector": "button",
+      "index": 6,
+      "diffs": {
+        "opacity": {
+          "before": "1",
+          "after": "0.9"
+        }
+      },
+      "before_png": "hover-before-06.png",
+      "after_png": "hover-after-06.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 175,
+    "tabs": 55,
+    "accordions": 4,
+    "carousels": 0,
+    "observers": 2,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "div",
+      "classes": "bg-bg1 smooth_style mobile: tablet:py-8 py-8",
+      "text": "326,822,348USERSTRUST USThe World’s Leading Cryptocurrency E",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "div",
+      "classes": "flex w-full flex-col px-[0px] tablet:px-xl desktop:flex-row desktop:items-start ",
+      "text": "326,822,348USERSTRUST USThe World’s Leading Cryptocurrency E",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "div",
+      "classes": "my-auto flex h-full w-1/2 flex-1 flex-col  pt-xl mobile:pt-[0] tablet:pt-[0] mob",
+      "text": "326,822,348USERSTRUST USThe World’s Leading Cryptocurrency E",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "div",
+      "classes": "w-[461px] mobile:w-full tablet:w-full",
+      "text": "Industry-Leading Security\n        @keyframes slideUpFromBott",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "div",
+      "classes": "mt-[0px] flex h-fit w-full flex-col mobile:gap-xl noH5:gap-m ml-[0px] desktop:ml",
+      "text": "PopularNew ListingStockstCommoditiesBTCBitcoin$65,000.22+0.0",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "div",
+      "classes": "relative rounded-[20px] mobile:p-0 noH5:px-xl noH5:pb-l noH5:bg-Vessel mobile:bg",
+      "text": "PopularNew ListingStockstCommoditiesBTCBitcoin$65,000.22+0.0",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "div",
+      "classes": "bn-tabs bn-tabs__default coin-list-content relative mobile:gap-[12px] noH5:gap-[",
+      "text": "PopularNew ListingStockstCommoditiesBTCBitcoin$65,000.22+0.0",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "div",
+      "classes": "bn-tab-list bn-tab-list__default",
+      "text": "PopularNew ListingStockstCommodities",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

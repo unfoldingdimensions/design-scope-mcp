@@ -1,0 +1,151 @@
+{
+  "url": "https://www.ynab.com",
+  "captured": "2026-08-10T12:42:26+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(51, 51, 51)",
+          "after": "rgb(56, 60, 163)"
+        },
+        "borderColor": {
+          "before": "rgb(51, 51, 51)",
+          "after": "rgb(56, 60, 163)"
+        },
+        "outline": {
+          "before": "rgb(51, 51, 51) none 3px",
+          "after": "rgb(56, 60, 163) none 0px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(117, 131, 255)",
+          "after": "rgb(65, 210, 152)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(117, 131, 255)",
+          "after": "rgb(65, 210, 152)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "opacity": {
+          "before": "1",
+          "after": "0.9"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": "button",
+      "index": 5,
+      "diffs": {
+        "opacity": {
+          "before": "1",
+          "after": "0.9"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 139,
+    "tabs": 14,
+    "accordions": 11,
+    "carousels": 85,
+    "observers": 2,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 66
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "li",
+      "classes": "nav_list-item hide-tablet",
+      "text": "What is YNAB?FeaturesWhy YNAB Is DifferentOur 34-Day TrialTh",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "div",
+      "classes": "nav_dropdown-shadow elevation-four hide-tablet",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "li",
+      "classes": "nav_list-item hide-tablet",
+      "text": "LearnFree WorkshopsBlogHelp Center",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "div",
+      "classes": "nav_dropdown-shadow elevation-four hide-tablet",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "li",
+      "classes": "nav_list-item hide-tablet",
+      "text": "Share YNABRefer A FriendGift a YNAB SubscriptionSubscription",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "div",
+      "classes": "nav_dropdown-shadow elevation-four hide-tablet",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "li",
+      "classes": "nav_list-item hide-tablet",
+      "text": "Pricing",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "li",
+      "classes": "nav_list-item hide-tablet",
+      "text": "Log In",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

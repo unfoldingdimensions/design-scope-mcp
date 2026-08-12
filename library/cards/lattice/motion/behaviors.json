@@ -1,0 +1,211 @@
+{
+  "url": "https://www.lattice.com",
+  "captured": "2026-08-10T09:47:12+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(4, 102, 69)",
+          "after": "rgb(24, 122, 89)"
+        },
+        "borderColor": {
+          "before": "rgb(4, 102, 69)",
+          "after": "rgb(24, 122, 89)"
+        },
+        "outline": {
+          "before": "rgba(0, 0, 0, 0) none 3px",
+          "after": "rgb(24, 122, 89) none 3px"
+        },
+        "textDecoration": {
+          "before": "underline color(srgb 0.0156863 0.4 0.270588 / 0.5)",
+          "after": "underline"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "outline": {
+          "before": "rgba(0, 0, 0, 0) none 3px",
+          "after": "rgb(4, 102, 69) none 0px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 3,
+      "diffs": {
+        "outline": {
+          "before": "rgba(0, 0, 0, 0) none 3px",
+          "after": "rgb(0, 31, 31) none 0px"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "color": {
+          "before": "rgb(69, 82, 82)",
+          "after": "rgb(0, 31, 31)"
+        },
+        "borderColor": {
+          "before": "rgb(69, 82, 82)",
+          "after": "rgb(0, 31, 31)"
+        },
+        "outline": {
+          "before": "rgb(69, 82, 82) none 3px",
+          "after": "rgb(0, 31, 31) none 3px"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": ".card",
+      "index": 5,
+      "diffs": {
+        "boxShadow": {
+          "before": "rgba(0, 0, 0, 0) 0px 64px 64px -32px, rgba(0, 0, 0, 0) 0px 32px 32px -16px, rgba(0, 0, 0, 0) 0px 16px 16px -8px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 12px 12px -6px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 6px 6px -3px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 3px 3px -1.5px, color(srgb 0 0.121569 0.121569 / 0.08) 0px 1px 1px -0.5px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 0px 0px 1px",
+          "after": "color(srgb 0 0.121569 0.121569 / 0.04) 0px 64px 64px -32px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 32px 32px -16px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 16px 16px -8px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 12px 12px -6px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 6px 6px -3px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 3px 3px -1.5px, color(srgb 0 0.121569 0.121569 / 0.08) 0px 1px 1px -0.5px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 0px 0px 1px"
+        },
+        "transform": {
+          "before": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000833333, 0, 0, 0, 1)",
+          "after": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000833333, 0, 0, 8, 0.993333)"
+        },
+        "outline": {
+          "before": "rgba(0, 0, 0, 0) none 3px",
+          "after": "rgb(0, 31, 31) none 0px"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    },
+    {
+      "selector": ".card",
+      "index": 6,
+      "diffs": {
+        "boxShadow": {
+          "before": "rgba(0, 0, 0, 0) 0px 64px 64px -32px, rgba(0, 0, 0, 0) 0px 32px 32px -16px, rgba(0, 0, 0, 0) 0px 16px 16px -8px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 12px 12px -6px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 6px 6px -3px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 3px 3px -1.5px, color(srgb 0 0.121569 0.121569 / 0.08) 0px 1px 1px -0.5px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 0px 0px 1px",
+          "after": "color(srgb 0 0.121569 0.121569 / 0.04) 0px 64px 64px -32px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 32px 32px -16px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 16px 16px -8px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 12px 12px -6px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 6px 6px -3px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 3px 3px -1.5px, color(srgb 0 0.121569 0.121569 / 0.08) 0px 1px 1px -0.5px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 0px 0px 1px"
+        },
+        "transform": {
+          "before": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000833333, 0, 0, 0, 1)",
+          "after": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000833333, 0, 0, 8, 0.993333)"
+        },
+        "outline": {
+          "before": "rgba(0, 0, 0, 0) none 3px",
+          "after": "rgb(0, 31, 31) none 0px"
+        }
+      },
+      "before_png": "hover-before-06.png",
+      "after_png": "hover-after-06.png"
+    },
+    {
+      "selector": ".card",
+      "index": 7,
+      "diffs": {
+        "boxShadow": {
+          "before": "rgba(0, 0, 0, 0) 0px 64px 64px -32px, rgba(0, 0, 0, 0) 0px 32px 32px -16px, rgba(0, 0, 0, 0) 0px 16px 16px -8px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 12px 12px -6px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 6px 6px -3px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 3px 3px -1.5px, color(srgb 0 0.121569 0.121569 / 0.08) 0px 1px 1px -0.5px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 0px 0px 1px",
+          "after": "color(srgb 0 0.121569 0.121569 / 0.04) 0px 64px 64px -32px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 32px 32px -16px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 16px 16px -8px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 12px 12px -6px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 6px 6px -3px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 3px 3px -1.5px, color(srgb 0 0.121569 0.121569 / 0.08) 0px 1px 1px -0.5px, color(srgb 0 0.121569 0.121569 / 0.04) 0px 0px 0px 1px"
+        },
+        "transform": {
+          "before": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000833333, 0, 0, 0, 1)",
+          "after": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000833333, 0, 0, 8, 0.993333)"
+        },
+        "outline": {
+          "before": "rgba(0, 0, 0, 0) none 3px",
+          "after": "rgb(0, 31, 31) none 0px"
+        }
+      },
+      "before_png": "hover-before-07.png",
+      "after_png": "hover-after-07.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 161,
+    "tabs": 40,
+    "accordions": 0,
+    "carousels": 105,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 104
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "div",
+      "classes": "pills",
+      "text": "Platform overview\n  /* Chevron animation */\n  .pill:hover .a",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "a",
+      "classes": "pill w-variant-51361f88-ea0a-a884-5f49-b245ef734f43 w-inline-block",
+      "text": "Platform overview\n  /* Chevron animation */\n  .pill:hover .a",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "div",
+      "classes": "pill-icon",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "div",
+      "classes": "pill-text",
+      "text": "Platform overview",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "a",
+      "classes": "pill w-variant-4cea7636-9947-2fa9-30c6-580a6c03b2dc w-inline-block",
+      "text": "AI Agent\n  /* Chevron animation */\n  .pill:hover .arrow,\n  .",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "div",
+      "classes": "pill-icon",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "div",
+      "classes": "pill-text",
+      "text": "AI Agent",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "a",
+      "classes": "pill w-variant-51361f88-ea0a-a884-5f49-b245ef734f43 w-inline-block",
+      "text": "Habits\n  /* Chevron animation */\n  .pill:hover .arrow,\n  .pi",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

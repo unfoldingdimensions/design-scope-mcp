@@ -1,0 +1,277 @@
+{
+  "url": "https://stability.ai",
+  "captured": "2026-08-10T08:37:23+00:00",
+  "named_tokens": {
+    "light": {},
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "generous corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "generous",
+    "type_mood": [
+      "serif-led"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "modal": 2147483647,
+    "banner": 2147483645,
+    "header": 1
+  },
+  "z_index_rows": [
+    {
+      "role": "modal",
+      "selector": "#onetrust-consent-sdk .ot-general-modal",
+      "value": "2147483647"
+    },
+    {
+      "role": "banner",
+      "selector": "#onetrust-banner-sdk.otFloatingRounded",
+      "value": "2147483645"
+    },
+    {
+      "role": "modal",
+      "selector": "#fhCloseToggleModal",
+      "value": "5"
+    },
+    {
+      "role": "modal",
+      "selector": ".fhCloseToggleModal1",
+      "value": "1"
+    },
+    {
+      "role": "modal",
+      "selector": ".fhCloseToggleModal2",
+      "value": "2"
+    },
+    {
+      "role": "modal",
+      "selector": ".fhmodal",
+      "value": "1"
+    },
+    {
+      "role": "header",
+      "selector": ".fhheader",
+      "value": "1"
+    },
+    {
+      "role": "modal",
+      "selector": ".fhmodal",
+      "value": "999999999"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "426px",
+      "selector": "#onetrust-pc-sdk p",
+      "change": "font-size: 0.75em"
+    },
+    {
+      "at": "600px",
+      "selector": "#onetrust-consent-sdk .ot-general-modal",
+      "change": "min-width: 100%"
+    },
+    {
+      "at": "600px",
+      "selector": "#onetrust-consent-sdk .ot-signature-health .ot-signature-health-form",
+      "change": "width: 100%"
+    },
+    {
+      "at": "600px",
+      "selector": "#onetrust-consent-sdk .ot-input-field-cont .ot-signature-input",
+      "change": "width: 100%"
+    },
+    {
+      "at": "400px",
+      "selector": "#onetrust-banner-sdk .ot-sdk-container, #onetrust-pc-sdk .ot-sdk-container, #ot-",
+      "change": "width: 90%"
+    },
+    {
+      "at": "400px",
+      "selector": "#onetrust-banner-sdk .ot-sdk-container, #onetrust-pc-sdk .ot-sdk-container, #ot-",
+      "change": "padding-top: 0px"
+    },
+    {
+      "at": "400px",
+      "selector": "#onetrust-banner-sdk .ot-sdk-container, #onetrust-pc-sdk .ot-sdk-container, #ot-",
+      "change": "padding-right: 0px"
+    },
+    {
+      "at": "400px",
+      "selector": "#onetrust-banner-sdk .ot-sdk-container, #onetrust-pc-sdk .ot-sdk-container, #ot-",
+      "change": "padding-bottom: 0px"
+    },
+    {
+      "at": "400px",
+      "selector": "#onetrust-banner-sdk .ot-sdk-container, #onetrust-pc-sdk .ot-sdk-container, #ot-",
+      "change": "padding-left: 0px"
+    },
+    {
+      "at": "550px",
+      "selector": "#onetrust-banner-sdk .ot-sdk-container, #onetrust-pc-sdk .ot-sdk-container, #ot-",
+      "change": "width: 100%"
+    },
+    {
+      "at": "550px",
+      "selector": "#onetrust-banner-sdk .ot-sdk-column, #onetrust-banner-sdk .ot-sdk-columns, #onet",
+      "change": "margin-left: 4%"
+    },
+    {
+      "at": "550px",
+      "selector": "#onetrust-banner-sdk .ot-sdk-column:first-child, #onetrust-banner-sdk .ot-sdk-co",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "550px",
+      "selector": "#onetrust-banner-sdk .ot-sdk-two.ot-sdk-columns, #onetrust-pc-sdk .ot-sdk-two.ot",
+      "change": "width: 13.3333%"
+    },
+    {
+      "at": "550px",
+      "selector": "#onetrust-banner-sdk .ot-sdk-three.ot-sdk-columns, #onetrust-pc-sdk .ot-sdk-thre",
+      "change": "width: 22%"
+    },
+    {
+      "at": "550px",
+      "selector": "#onetrust-banner-sdk .ot-sdk-four.ot-sdk-columns, #onetrust-pc-sdk .ot-sdk-four.",
+      "change": "width: 30.6667%"
+    },
+    {
+      "at": "550px",
+      "selector": "#onetrust-banner-sdk .ot-sdk-eight.ot-sdk-columns, #onetrust-pc-sdk .ot-sdk-eigh",
+      "change": "width: 65.3333%"
+    },
+    {
+      "at": "550px",
+      "selector": "#onetrust-banner-sdk .ot-sdk-nine.ot-sdk-columns, #onetrust-pc-sdk .ot-sdk-nine.",
+      "change": "width: 74%"
+    },
+    {
+      "at": "550px",
+      "selector": "#onetrust-banner-sdk .ot-sdk-ten.ot-sdk-columns, #onetrust-pc-sdk .ot-sdk-ten.ot",
+      "change": "width: 82.6667%"
+    },
+    {
+      "at": "550px",
+      "selector": "#onetrust-banner-sdk .ot-sdk-eleven.ot-sdk-columns, #onetrust-pc-sdk .ot-sdk-ele",
+      "change": "width: 91.3333%"
+    },
+    {
+      "at": "550px",
+      "selector": "#onetrust-banner-sdk .ot-sdk-twelve.ot-sdk-columns, #onetrust-pc-sdk .ot-sdk-twe",
+      "change": "width: 100%"
+    },
+    {
+      "at": "550px",
+      "selector": "#onetrust-banner-sdk .ot-sdk-twelve.ot-sdk-columns, #onetrust-pc-sdk .ot-sdk-twe",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "550px",
+      "selector": "#onetrust-banner-sdk h1, #onetrust-pc-sdk h1, #ot-sdk-cookie-policy h1",
+      "change": "font-size: 1.5rem"
+    },
+    {
+      "at": "550px",
+      "selector": "#onetrust-banner-sdk h2, #onetrust-pc-sdk h2, #ot-sdk-cookie-policy h2",
+      "change": "font-size: 1.5rem"
+    },
+    {
+      "at": "550px",
+      "selector": "#onetrust-banner-sdk h3, #onetrust-pc-sdk h3, #ot-sdk-cookie-policy h3",
+      "change": "font-size: 1.5rem"
+    },
+    {
+      "at": "550px",
+      "selector": "#onetrust-banner-sdk h4, #onetrust-pc-sdk h4, #ot-sdk-cookie-policy h4",
+      "change": "font-size: 1.5rem"
+    },
+    {
+      "at": "550px",
+      "selector": "#onetrust-banner-sdk h5, #onetrust-pc-sdk h5, #ot-sdk-cookie-policy h5",
+      "change": "font-size: 1.5rem"
+    },
+    {
+      "at": "550px",
+      "selector": "#onetrust-banner-sdk h6, #onetrust-pc-sdk h6, #ot-sdk-cookie-policy h6",
+      "change": "font-size: 1.5rem"
+    },
+    {
+      "at": "425px",
+      "selector": "#onetrust-banner-sdk #onetrust-button-group",
+      "change": "margin-top: 0px"
+    },
+    {
+      "at": "425px",
+      "selector": "#onetrust-banner-sdk button",
+      "change": "padding-top: 0px"
+    },
+    {
+      "at": "425px",
+      "selector": "#onetrust-banner-sdk button",
+      "change": "padding-right: 20px"
+    },
+    {
+      "at": "425px",
+      "selector": "#onetrust-banner-sdk button",
+      "change": "padding-bottom: 0px"
+    },
+    {
+      "at": "425px",
+      "selector": "#onetrust-banner-sdk button",
+      "change": "padding-left: 20px"
+    },
+    {
+      "at": "425px",
+      "selector": "#onetrust-banner-sdk #onetrust-close-btn-container",
+      "change": "right: 15px"
+    },
+    {
+      "at": "425px",
+      "selector": "#onetrust-banner-sdk #onetrust-policy-title",
+      "change": "padding-left: 15px"
+    },
+    {
+      "at": "425px",
+      "selector": "#onetrust-banner-sdk #onetrust-button-group-parent, #onetrust-banner-sdk .ot-dpd",
+      "change": "padding-top: 0px"
+    },
+    {
+      "at": "425px",
+      "selector": "#onetrust-banner-sdk #onetrust-button-group-parent, #onetrust-banner-sdk .ot-dpd",
+      "change": "padding-right: 15px"
+    },
+    {
+      "at": "425px",
+      "selector": "#onetrust-banner-sdk #onetrust-button-group-parent, #onetrust-banner-sdk .ot-dpd",
+      "change": "padding-bottom: 0px"
+    },
+    {
+      "at": "425px",
+      "selector": "#onetrust-banner-sdk #onetrust-button-group-parent, #onetrust-banner-sdk .ot-dpd",
+      "change": "padding-left: 15px"
+    },
+    {
+      "at": "425px",
+      "selector": "#onetrust-banner-sdk #onetrust-policy-text, #onetrust-banner-sdk .ot-gv-list-han",
+      "change": "padding-top: 0px"
+    },
+    {
+      "at": "550px",
+      "selector": "#onetrust-banner-sdk .ot-close-icon",
+      "change": "padding-top: 0px"
+    }
+  ]
+}

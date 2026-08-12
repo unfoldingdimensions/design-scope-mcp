@@ -1,0 +1,115 @@
+{
+  "url": "https://www.airtable.com",
+  "captured": "2026-08-10T09:24:36+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "opacity": {
+          "before": "1",
+          "after": "0.75"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgb(24, 29, 38)",
+          "after": "rgb(37, 79, 173)"
+        },
+        "borderColor": {
+          "before": "rgb(24, 29, 38)",
+          "after": "rgb(37, 79, 173)"
+        },
+        "outline": {
+          "before": "rgb(24, 29, 38) none 3px",
+          "after": "rgb(37, 79, 173) none 3px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 210,
+    "tabs": 34,
+    "accordions": 20,
+    "carousels": 5,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 2
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "div",
+      "classes": "BkEyebrow-module_bkEyebrow__0D4HU BkEyebrow-module_pill__96MGT v2-module_spotlig",
+      "text": "NEW",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "div",
+      "classes": "BkEyebrow-module_bkEyebrow__0D4HU BkEyebrow-module_pill__96MGT v2-module_spotlig",
+      "text": "NEW",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "div",
+      "classes": "PortableTextBody-module__4x3unq__rootInherit",
+      "text": "Build AI-powered workflows that unify data, maximize collabo",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "p",
+      "classes": "PortableTextBody-module__4x3unq__block",
+      "text": "Build AI-powered workflows that unify data, maximize collabo",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "span",
+      "classes": "PortableTextBody-module__4x3unq__block",
+      "text": "Production apps at prototype speed",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "div",
+      "classes": "PortableTextBody-module__4x3unq__root",
+      "text": "Streamline your team’s critical data through conversational ",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "p",
+      "classes": "PortableTextBody-module__4x3unq__block",
+      "text": "Streamline your team’s critical data through conversational ",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "span",
+      "classes": "PortableTextBody-module__4x3unq__block",
+      "text": "Don’t just ask AI. Deploy it.",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

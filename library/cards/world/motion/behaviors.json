@@ -1,0 +1,114 @@
+{
+  "url": "https://world.org",
+  "captured": "2026-08-10T12:56:02+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "borderColor": {
+          "before": "rgb(225, 223, 218)",
+          "after": "rgb(157, 155, 150)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(24, 24, 24)",
+          "after": "rgb(66, 65, 64)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "borderColor": {
+          "before": "rgb(225, 223, 218)",
+          "after": "rgb(157, 155, 150)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(24, 24, 24)",
+          "after": "rgb(66, 65, 64)"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 5,
+      "diffs": {
+        "opacity": {
+          "before": "1",
+          "after": "0.9"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 6,
+      "diffs": {
+        "opacity": {
+          "before": "1",
+          "after": "0.9"
+        }
+      },
+      "before_png": "hover-before-06.png",
+      "after_png": "hover-after-06.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "header.print:hidden",
+      "diffs": {
+        "background": "rgba(0, 0, 0, 0) → rgb(249, 249, 248)"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 96,
+    "tabs": 2,
+    "accordions": 0,
+    "carousels": 2,
+    "observers": 2,
+    "scrollSnap": 1,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "div",
+      "classes": "rly-editable-field-container-no-hover ",
+      "text": "Cookie Preferences",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "div",
+      "classes": "rly-editable-field-container-no-hover rly-editable-description-container ",
+      "text": "We use cookies to enhance site navigation, analyze site usag",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

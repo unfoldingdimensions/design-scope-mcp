@@ -1,0 +1,151 @@
+{
+  "url": "https://webflow.com",
+  "captured": "2026-08-09T16:48:19+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "boxShadow": {
+          "before": "rgba(0, 0, 0, 0) 0px 0px 0px 100px inset",
+          "after": "rgba(0, 0, 0, 0.15) 0px 0px 0px 100px inset"
+        },
+        "outline": {
+          "before": "rgb(255, 255, 255) none 3px",
+          "after": "rgb(255, 255, 255) none 0px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "outline": {
+          "before": "rgb(8, 8, 8) none 3px",
+          "after": "rgb(8, 8, 8) none 0px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "color": {
+          "before": "rgb(8, 8, 8)",
+          "after": "color(srgb 0.0745341 0.399346 0.886564)"
+        },
+        "borderColor": {
+          "before": "rgb(8, 8, 8) rgb(8, 8, 8) rgba(0, 0, 0, 0)",
+          "after": "color(srgb 0.0745341 0.399346 0.886564) color(srgb 0.0745341 0.399346 0.886564) rgba(0, 0, 0, 0)"
+        },
+        "outline": {
+          "before": "rgb(8, 8, 8) none 3px",
+          "after": "color(srgb 0.0745341 0.399346 0.886564) none 3px"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 4,
+      "diffs": {
+        "color": {
+          "before": "rgb(8, 8, 8)",
+          "after": "color(srgb 0.0745341 0.399346 0.886564)"
+        },
+        "borderColor": {
+          "before": "rgb(8, 8, 8) rgb(8, 8, 8) rgba(0, 0, 0, 0)",
+          "after": "color(srgb 0.0745341 0.399346 0.886564) color(srgb 0.0745341 0.399346 0.886564) rgba(0, 0, 0, 0)"
+        },
+        "outline": {
+          "before": "rgb(8, 8, 8) none 3px",
+          "after": "color(srgb 0.0745341 0.399346 0.886564) none 3px"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 322,
+    "tabs": 62,
+    "accordions": 201,
+    "carousels": 37,
+    "observers": 6,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 2
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "img",
+      "classes": "g-modal-image-img cc-tablet",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "div",
+      "classes": "pill cc-category",
+      "text": "New",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "div",
+      "classes": "pill cc-category",
+      "text": "2.0",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "div",
+      "classes": "pill cc-category",
+      "text": "2.0",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "summary",
+      "classes": "mm-summary",
+      "text": "“@audienceType”: “Marketer”",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "p",
+      "classes": "machine-mode-text cc-tab-1",
+      "text": "\"name\": \"Build\",“description”: “Bring team members and AI ag",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "p",
+      "classes": "machine-mode-text cc-tab-1",
+      "text": "\"name\": \"Publish\",“description”: “Create and manage content ",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "p",
+      "classes": "machine-mode-text cc-tab-1",
+      "text": "\"name\": \"Optimize\",“description”: “Turn every page into a re",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

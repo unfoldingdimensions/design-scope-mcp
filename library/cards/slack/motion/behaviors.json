@@ -1,0 +1,109 @@
+{
+  "url": "https://slack.com",
+  "captured": "2026-08-10T06:06:36+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "outline": {
+          "before": "rgb(18, 100, 163) none 3px",
+          "after": "rgb(18, 100, 163) none 0px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "nav.c-nav",
+      "diffs": {
+        "position": "absolute → fixed"
+      }
+    },
+    {
+      "selector": "div.c-nav__row",
+      "diffs": {
+        "boxShadow": "none → rgba(0, 0, 0, 0.08) 0px 4px 40px 0px",
+        "background": "rgba(0, 0, 0, 0) → rgb(255, 255, 255)"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 345,
+    "tabs": 5,
+    "accordions": 124,
+    "carousels": 167,
+    "observers": 2,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "div",
+      "classes": "c-button__nav-primary-tablet mobile-y-search-container",
+      "text": "Get started",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "a",
+      "classes": "c-button v--primary v--left c-button__nav-primary-tablet",
+      "text": "Get started",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "button",
+      "classes": "c-video-control c-video-control--light",
+      "text": "Pause animationPlay animation",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "div",
+      "classes": "o-content-container c-switcher-desktop o-two-columns v--tablet u-hide-on-mobile ",
+      "text": "Update deals just by asking SlackbotNEWSummarise a conversat",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "button",
+      "classes": "c-switcher-nav-item__heading-row",
+      "text": "Update deals just by asking SlackbotNEW",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "button",
+      "classes": "c-switcher-nav-item__heading-row",
+      "text": "Summarise a conversation you missed",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "button",
+      "classes": "c-switcher-nav-item__heading-row",
+      "text": "Get fast answers with ClaudeNEW",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "button",
+      "classes": "c-switcher-nav-item__heading-row",
+      "text": "Turn on AI note-taking in huddles",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "url": "https://deno.com",
+  "captured": "2026-08-10T07:38:51+00:00",
+  "named_tokens": {
+    "light": {
+      "--color-canvas-default-transparent": "rgba(255,255,255,0)",
+      "--color-prettylights-syntax-comment": "#57606a",
+      "--color-prettylights-syntax-constant": "#0550ae",
+      "--color-prettylights-syntax-entity": "#6639ba",
+      "--color-prettylights-syntax-storage-modifier-import": "#24292f",
+      "--color-prettylights-syntax-entity-tag": "#116329",
+      "--color-prettylights-syntax-keyword": "#cf222e",
+      "--color-prettylights-syntax-string": "#0a3069",
+      "--color-prettylights-syntax-variable": "#953800",
+      "--color-prettylights-syntax-string-regexp": "#116329",
+      "--color-prettylights-syntax-markup-deleted-text": "#82071e",
+      "--color-prettylights-syntax-markup-deleted-bg": "#ffebe9",
+      "--color-prettylights-syntax-markup-inserted-text": "#116329",
+      "--color-prettylights-syntax-markup-inserted-bg": "#dafbe1",
+      "--color-prettylights-syntax-constant-other-reference-link": "#0a3069",
+      "--color-fg-default": "#1f2328",
+      "--color-fg-muted": "#656d76",
+      "--color-canvas-default": "#fff",
+      "--color-canvas-subtle": "#f6f8fa",
+      "--color-border-default": "#d0d7de",
+      "--color-border-muted": "#d8dee4",
+      "--color-neutral-muted": "rgba(175,184,193,.2)",
+      "--color-accent-fg": "#0969da",
+      "--color-accent-emphasis": "#0969da",
+      "--color-danger-fg": "#d1242f"
+    },
+    "dark": {
+      "--color-canvas-default-transparent": "rgba(255,255,255,0)",
+      "--color-prettylights-syntax-comment": "#57606a",
+      "--color-prettylights-syntax-constant": "#0550ae",
+      "--color-prettylights-syntax-entity": "#6639ba",
+      "--color-prettylights-syntax-storage-modifier-import": "#24292f",
+      "--color-prettylights-syntax-entity-tag": "#116329",
+      "--color-prettylights-syntax-keyword": "#cf222e",
+      "--color-prettylights-syntax-string": "#0a3069",
+      "--color-prettylights-syntax-variable": "#953800",
+      "--color-prettylights-syntax-string-regexp": "#116329",
+      "--color-prettylights-syntax-markup-deleted-text": "#82071e",
+      "--color-prettylights-syntax-markup-deleted-bg": "#ffebe9",
+      "--color-prettylights-syntax-markup-inserted-text": "#116329",
+      "--color-prettylights-syntax-markup-inserted-bg": "#dafbe1",
+      "--color-prettylights-syntax-constant-other-reference-link": "#0a3069",
+      "--color-fg-default": "#1f2328",
+      "--color-fg-muted": "#656d76",
+      "--color-canvas-default": "#fff",
+      "--color-canvas-subtle": "#f6f8fa",
+      "--color-border-default": "#d0d7de",
+      "--color-border-muted": "#d8dee4",
+      "--color-neutral-muted": "rgba(175,184,193,.2)",
+      "--color-accent-fg": "#0969da",
+      "--color-accent-emphasis": "#0969da",
+      "--color-danger-fg": "#d1242f"
+    }
+  },
+  "semantic_colors": {
+    "light": {
+      "--color-accent-emphasis": "#0969da",
+      "--color-accent-fg": "#0969da",
+      "--color-border-default": "#d0d7de",
+      "--color-border-muted": "#d8dee4",
+      "--color-canvas-default": "#fff",
+      "--color-canvas-subtle": "#f6f8fa",
+      "--color-danger-fg": "#d1242f",
+      "--color-fg-default": "#1f2328",
+      "--color-fg-muted": "#656d76",
+      "--color-prettylights-syntax-comment": "#57606a",
+      "--color-prettylights-syntax-constant": "#0550ae",
+      "--color-prettylights-syntax-constant-other-reference-link": "#0a3069",
+      "--color-prettylights-syntax-entity": "#6639ba",
+      "--color-prettylights-syntax-entity-tag": "#116329",
+      "--color-prettylights-syntax-keyword": "#cf222e",
+      "--color-prettylights-syntax-markup-deleted-bg": "#ffebe9",
+      "--color-prettylights-syntax-markup-deleted-text": "#82071e",
+      "--color-prettylights-syntax-markup-inserted-bg": "#dafbe1",
+      "--color-prettylights-syntax-markup-inserted-text": "#116329",
+      "--color-prettylights-syntax-storage-modifier-import": "#24292f",
+      "--color-prettylights-syntax-string": "#0a3069",
+      "--color-prettylights-syntax-string-regexp": "#116329",
+      "--color-prettylights-syntax-variable": "#953800"
+    },
+    "dark": {
+      "--color-accent-emphasis": "#0969da",
+      "--color-accent-fg": "#0969da",
+      "--color-border-default": "#d0d7de",
+      "--color-border-muted": "#d8dee4",
+      "--color-canvas-default": "#fff",
+      "--color-canvas-subtle": "#f6f8fa",
+      "--color-danger-fg": "#d1242f",
+      "--color-fg-default": "#1f2328",
+      "--color-fg-muted": "#656d76",
+      "--color-prettylights-syntax-comment": "#57606a",
+      "--color-prettylights-syntax-constant": "#0550ae",
+      "--color-prettylights-syntax-constant-other-reference-link": "#0a3069",
+      "--color-prettylights-syntax-entity": "#6639ba",
+      "--color-prettylights-syntax-entity-tag": "#116329",
+      "--color-prettylights-syntax-keyword": "#cf222e",
+      "--color-prettylights-syntax-markup-deleted-bg": "#ffebe9",
+      "--color-prettylights-syntax-markup-deleted-text": "#82071e",
+      "--color-prettylights-syntax-markup-inserted-bg": "#dafbe1",
+      "--color-prettylights-syntax-markup-inserted-text": "#116329",
+      "--color-prettylights-syntax-storage-modifier-import": "#24292f",
+      "--color-prettylights-syntax-string": "#0a3069",
+      "--color-prettylights-syntax-string-regexp": "#116329",
+      "--color-prettylights-syntax-variable": "#953800"
+    },
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "soft corners",
+      "elevated (soft shadows)"
+    ],
+    "flat": false,
+    "corner_style": "soft",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {},
+  "z_index_rows": [],
+  "responsive": [
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".animate-slide-in-up",
+      "change": "animation-duration: 0.75s"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".animate-slide-in-up",
+      "change": "animation-timing-function: cubic-bezier(0, 0, 0, 1)"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".animate-slide-in-up",
+      "change": "animation-delay: 0s"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".animate-slide-in-up",
+      "change": "animation-iteration-count: 1"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".animate-slide-in-up",
+      "change": "animation-direction: normal"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".animate-slide-in-up",
+      "change": "animation-fill-mode: forwards"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".animate-scroll-fade-in-slide-up",
+      "change": "animation-name: fadeIn"
+    },
+    {
+      "at": "1024px",
+      "selector": ".markdown-body.break pre > code",
+      "change": "white-space-collapse: break-spaces"
+    },
+    {
+      "at": "1024px",
+      "selector": ".markdown-body.break pre > code",
+      "change": "text-wrap-mode: wrap"
+    },
+    {
+      "at": "1024px",
+      "selector": ".markdown-body.break pre > code",
+      "change": "word-break: break-word"
+    },
+    {
+      "at": "768px",
+      "selector": ".markdown-body .highlight pre, .markdown-body pre",
+      "change": "padding-top: 2rem"
+    },
+    {
+      "at": "768px",
+      "selector": ".markdown-body .highlight pre, .markdown-body pre",
+      "change": "padding-right: 2rem"
+    },
+    {
+      "at": "768px",
+      "selector": ".markdown-body .highlight pre, .markdown-body pre",
+      "change": "padding-bottom: 2rem"
+    },
+    {
+      "at": "768px",
+      "selector": ".markdown-body .highlight pre, .markdown-body pre",
+      "change": "padding-left: 2rem"
+    }
+  ]
+}

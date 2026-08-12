@@ -1,0 +1,223 @@
+{
+  "url": "https://deepgram.com",
+  "captured": "2026-08-10T09:12:48+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "oklch(1 0 0)",
+          "after": "rgb(56, 237, 172)"
+        },
+        "borderColor": {
+          "before": "oklch(1 0 0)",
+          "after": "rgb(56, 237, 172)"
+        },
+        "outline": {
+          "before": "oklch(1 0 0) none 3px",
+          "after": "rgb(56, 237, 172) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "oklch(1 0 0)",
+          "after": "rgb(56, 237, 172)"
+        },
+        "borderColor": {
+          "before": "oklch(1 0 0)",
+          "after": "rgb(56, 237, 172)"
+        },
+        "outline": {
+          "before": "oklch(1 0 0) none 3px",
+          "after": "rgb(56, 237, 172) none 3px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 3,
+      "diffs": {
+        "color": {
+          "before": "oklch(1 0 0)",
+          "after": "rgb(11, 11, 12)"
+        },
+        "outline": {
+          "before": "oklch(1 0 0) none 3px",
+          "after": "rgb(11, 11, 12) none 3px"
+        },
+        "backgroundImage": {
+          "before": "linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), linear-gradient(90deg, rgb(0, 143, 193), rgb(0, 240, 153), rgb(0, 143, 193), rgb(0, 240, 153))",
+          "after": "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), linear-gradient(90deg, rgb(0, 143, 193), rgb(0, 240, 153), rgb(0, 143, 193), rgb(0, 240, 153))"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "color": {
+          "before": "oklch(1 0 0)",
+          "after": "rgb(56, 237, 172)"
+        },
+        "borderColor": {
+          "before": "oklch(1 0 0)",
+          "after": "rgb(56, 237, 172)"
+        },
+        "outline": {
+          "before": "oklch(1 0 0) none 3px",
+          "after": "rgb(56, 237, 172) none 3px"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": "button",
+      "index": 5,
+      "diffs": {
+        "color": {
+          "before": "oklch(1 0 0)",
+          "after": "rgb(56, 237, 172)"
+        },
+        "borderColor": {
+          "before": "oklch(1 0 0)",
+          "after": "rgb(56, 237, 172)"
+        },
+        "outline": {
+          "before": "oklch(1 0 0) none 3px",
+          "after": "rgb(56, 237, 172) none 3px"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    },
+    {
+      "selector": "button",
+      "index": 6,
+      "diffs": {
+        "color": {
+          "before": "oklch(1 0 0)",
+          "after": "rgb(56, 237, 172)"
+        },
+        "borderColor": {
+          "before": "oklch(1 0 0)",
+          "after": "rgb(56, 237, 172)"
+        },
+        "outline": {
+          "before": "oklch(1 0 0) none 3px",
+          "after": "rgb(56, 237, 172) none 3px"
+        }
+      },
+      "before_png": "hover-before-06.png",
+      "after_png": "hover-after-06.png"
+    },
+    {
+      "selector": "button",
+      "index": 7,
+      "diffs": {
+        "color": {
+          "before": "oklch(1 0 0)",
+          "after": "rgb(56, 237, 172)"
+        },
+        "borderColor": {
+          "before": "oklch(1 0 0)",
+          "after": "rgb(56, 237, 172)"
+        },
+        "outline": {
+          "before": "oklch(1 0 0) none 3px",
+          "after": "rgb(56, 237, 172) none 3px"
+        }
+      },
+      "before_png": "hover-before-07.png",
+      "after_png": "hover-after-07.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 181,
+    "tabs": 14,
+    "accordions": 11,
+    "carousels": 7,
+    "observers": 4,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 7
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "div",
+      "classes": "slidebox-tabs-list -mx-0.5 -my-1 mb-6 w-full overflow-x-scroll px-0.5 py-1",
+      "text": "Speech to TextText to SpeechVoice AgentAudio Intelligence",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "button",
+      "classes": "slidebox-tab",
+      "text": "Speech to Text",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "button",
+      "classes": "slidebox-tab",
+      "text": "Text to Speech",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "button",
+      "classes": "slidebox-tab",
+      "text": "Voice Agent",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "button",
+      "classes": "slidebox-tab",
+      "text": "Audio Intelligence",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "div",
+      "classes": "stt-model-tabs",
+      "text": "Flux: Voice AgentsNova: Transcription",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "div",
+      "classes": "stt-model-tab-wrapper",
+      "text": "Flux: Voice Agents",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "button",
+      "classes": "stt-model-tab active",
+      "text": "Flux: Voice Agents",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

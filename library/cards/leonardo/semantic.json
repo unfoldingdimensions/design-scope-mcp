@@ -1,0 +1,295 @@
+{
+  "url": "https://leonardo.ai",
+  "captured": "2026-08-10T08:43:33+00:00",
+  "named_tokens": {
+    "light": {
+      "--radius": ".625rem",
+      "--background": "#000",
+      "--foreground": "oklch(14.5% 0 0)",
+      "--card": "oklch(100% 0 0)",
+      "--card-foreground": "oklch(14.5% 0 0)",
+      "--popover": "oklch(100% 0 0)",
+      "--popover-foreground": "oklch(14.5% 0 0)",
+      "--primary": "oklch(20.5% 0 0)",
+      "--primary-foreground": "oklch(98.5% 0 0)",
+      "--secondary": "oklch(97% 0 0)",
+      "--secondary-foreground": "oklch(20.5% 0 0)",
+      "--muted": "oklch(97% 0 0)",
+      "--muted-foreground": "oklch(55.6% 0 0)",
+      "--accent": "oklch(97% 0 0)",
+      "--accent-foreground": "oklch(20.5% 0 0)",
+      "--destructive": "oklch(57.7% .245 27.325)",
+      "--border": "oklch(92.2% 0 0)",
+      "--input": "oklch(92.2% 0 0)",
+      "--ring": "oklch(70.8% 0 0)",
+      "--chart-1": "oklch(64.6% .222 41.116)",
+      "--chart-2": "oklch(60% .118 184.704)",
+      "--chart-3": "oklch(39.8% .07 227.392)",
+      "--chart-4": "oklch(82.8% .189 84.429)",
+      "--chart-5": "oklch(76.9% .188 70.08)",
+      "--sidebar": "oklch(98.5% 0 0)",
+      "--sidebar-foreground": "oklch(14.5% 0 0)",
+      "--sidebar-primary": "oklch(20.5% 0 0)",
+      "--sidebar-primary-foreground": "oklch(98.5% 0 0)",
+      "--sidebar-accent": "oklch(97% 0 0)",
+      "--sidebar-accent-foreground": "oklch(20.5% 0 0)",
+      "--sidebar-border": "oklch(92.2% 0 0)",
+      "--sidebar-ring": "oklch(70.8% 0 0)",
+      "--pagination-bullet-size": "4px",
+      "--pagination-bullet-active-width": "26px",
+      "--pagination-bullet-active-height": "4px",
+      "--pagination-bullet-margin": "6px",
+      "--pagination-bullet-color": "#fff",
+      "--pagination-bullet-opacity": ".35",
+      "--pagination-bullet-opacity-hover": ".65",
+      "--pagination-bullet-margin-top": "20px",
+      "--swiper-theme-color": "#007aff",
+      "--swiper-drag-scale": ".97",
+      "--swiper-drag-scale-image": "1.075",
+      "--swiper-scale-duration": ".5s",
+      "--swiper-scale-easing": "ease-out"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {
+      "--background": "#000",
+      "--pagination-bullet-color": "#fff",
+      "--swiper-theme-color": "#007aff"
+    },
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "soft"
+    ],
+    "rhythm": [
+      "generous corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "generous",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "nav": 10
+  },
+  "z_index_rows": [
+    {
+      "role": "nav",
+      "selector": ".NavArrow-module__odz7aq__navArrow",
+      "value": "10"
+    },
+    {
+      "role": "nav",
+      "selector": ".NavArrow-module__odz7aq__chevron",
+      "value": "1"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "1024px",
+      "selector": ".link::after",
+      "change": "height: 1.5px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".link:hover::after",
+      "change": "transform: scaleX(1)"
+    },
+    {
+      "at": "1024px",
+      "selector": ".link.reversed:hover::after",
+      "change": "transform: scaleX(0.4)"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".GooeyBackground-module__dED0xW__blob",
+      "change": "border-top-left-radius: 50% 100%"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".GooeyBackground-module__dED0xW__blob",
+      "change": "border-top-right-radius: 50% 100%"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".GooeyBackground-module__dED0xW__blob",
+      "change": "border-bottom-right-radius: 50% 0%"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".GooeyBackground-module__dED0xW__blob",
+      "change": "border-bottom-left-radius: 50% 0%"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".GooeyBackground-module__dED0xW__blob",
+      "change": "transform: translate(-50%, -15%) scaleX(7.5) scaleY(1.15)"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".GooeyBackground-module__dED0xW__fill",
+      "change": "transform: translate(-50%, -15%) scaleX(1.3) scaleY(1.3)"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".GooeyBackground-module__dED0xW__rootPill .GooeyBackground-module__dED0xW__blob",
+      "change": "border-top-left-radius: 999px"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".GooeyBackground-module__dED0xW__rootPill .GooeyBackground-module__dED0xW__blob",
+      "change": "border-top-right-radius: 999px"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".GooeyBackground-module__dED0xW__rootPill .GooeyBackground-module__dED0xW__blob",
+      "change": "border-bottom-right-radius: 999px"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".GooeyBackground-module__dED0xW__rootPill .GooeyBackground-module__dED0xW__blob",
+      "change": "border-bottom-left-radius: 999px"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".GooeyBackground-module__dED0xW__rootPill .GooeyBackground-module__dED0xW__blob",
+      "change": "transform: translate(-50%, -8%) scaleX(3.8) scaleY(1.05)"
+    },
+    {
+      "at": "640px",
+      "selector": ".ContactForm-module__C6mdZa__form",
+      "change": "padding-top: calc(var(--spacing,.25rem)*10)"
+    },
+    {
+      "at": "1160px",
+      "selector": ".ContactForm-module__C6mdZa__form",
+      "change": "padding-top: calc(var(--spacing,.25rem)*16)"
+    },
+    {
+      "at": "640px",
+      "selector": ".ContactForm-module__C6mdZa__row",
+      "change": "grid-template-columns: repeat(12, minmax(0px, 1fr))"
+    },
+    {
+      "at": "640px",
+      "selector": ".ContactForm-module__C6mdZa__col6",
+      "change": "grid-column-start: span 6"
+    },
+    {
+      "at": "640px",
+      "selector": ".ContactForm-module__C6mdZa__col6",
+      "change": "grid-column-end: span 6"
+    },
+    {
+      "at": "640px",
+      "selector": ".ContactForm-module__C6mdZa__col8",
+      "change": "grid-column-start: span 8"
+    },
+    {
+      "at": "640px",
+      "selector": ".ContactForm-module__C6mdZa__col8",
+      "change": "grid-column-end: span 8"
+    },
+    {
+      "at": "640px",
+      "selector": ".ContactForm-module__C6mdZa__col4",
+      "change": "grid-column-start: span 4"
+    },
+    {
+      "at": "640px",
+      "selector": ".ContactForm-module__C6mdZa__col4",
+      "change": "grid-column-end: span 4"
+    },
+    {
+      "at": "640px",
+      "selector": ".ContactForm-module__C6mdZa__fieldLabel",
+      "change": "font-size: var(--text-16,clamp(11px,.888rem,24px))"
+    },
+    {
+      "at": "640px",
+      "selector": ".ContactForm-module__C6mdZa__fieldLabel",
+      "change": "line-height: var(--tw-leading,var(--text-16--line-height,1.25))"
+    },
+    {
+      "at": "1160px",
+      "selector": ".ContactForm-module__C6mdZa__fieldLabel",
+      "change": "font-size: var(--text-18,clamp(11px,1rem,26px))"
+    },
+    {
+      "at": "1160px",
+      "selector": ".ContactForm-module__C6mdZa__fieldLabel",
+      "change": "line-height: var(--tw-leading,var(--text-18--line-height,1.15))"
+    },
+    {
+      "at": "640px",
+      "selector": ".ContactForm-module__C6mdZa__field[data-select=\"true\"]:not([data-active=\"true\"])",
+      "change": "font-size: var(--text-16,clamp(11px,.888rem,24px))"
+    },
+    {
+      "at": "640px",
+      "selector": ".ContactForm-module__C6mdZa__field[data-select=\"true\"]:not([data-active=\"true\"])",
+      "change": "line-height: var(--tw-leading,var(--text-16--line-height,1.25))"
+    },
+    {
+      "at": "1160px",
+      "selector": ".ContactForm-module__C6mdZa__field[data-select=\"true\"]:not([data-active=\"true\"])",
+      "change": "font-size: var(--text-18,clamp(11px,1rem,26px))"
+    },
+    {
+      "at": "1160px",
+      "selector": ".ContactForm-module__C6mdZa__field[data-select=\"true\"]:not([data-active=\"true\"])",
+      "change": "line-height: var(--tw-leading,var(--text-18--line-height,1.15))"
+    },
+    {
+      "at": "1160px",
+      "selector": ".ContactForm-module__C6mdZa__fieldControl .ContactForm-module__C6mdZa__input, .C",
+      "change": "font-size: var(--text-18,clamp(11px,1rem,26px))"
+    },
+    {
+      "at": "1160px",
+      "selector": ".ContactForm-module__C6mdZa__fieldControl .ContactForm-module__C6mdZa__input, .C",
+      "change": "line-height: var(--tw-leading,var(--text-18--line-height,1.15))"
+    },
+    {
+      "at": "1024px",
+      "selector": ".Hero-module__dsxt1a__heroWrapper",
+      "change": "height: 240vh"
+    },
+    {
+      "at": "1024px",
+      "selector": ".Hero-module__dsxt1a__heroSectionDesktop",
+      "change": "background-color: rgba(0, 0, 0, 0)"
+    },
+    {
+      "at": "1024px",
+      "selector": ".Hero-module__dsxt1a__heroSectionDesktop",
+      "change": "justify-content: center"
+    },
+    {
+      "at": "1024px",
+      "selector": ".Hero-module__dsxt1a__heroSectionDesktop",
+      "change": "align-items: center"
+    },
+    {
+      "at": "1024px",
+      "selector": ".Hero-module__dsxt1a__heroSectionDesktop",
+      "change": "width: 100%"
+    },
+    {
+      "at": "1024px",
+      "selector": ".Hero-module__dsxt1a__heroSectionDesktop",
+      "change": "height: 100vh"
+    },
+    {
+      "at": "1024px",
+      "selector": ".Hero-module__dsxt1a__heroSectionDesktop",
+      "change": "min-height: 600px"
+    }
+  ]
+}

@@ -1,0 +1,1810 @@
+{
+  "url": "https://replicate.com/",
+  "extractedAt": "2026-08-09T11:28:29.902Z",
+  "meta": {
+    "snapshotId": "afbdec57-f846-4968-8e30-686589c6ce14",
+    "httpStatus": 200,
+    "dembrandtVersion": "0.27.1",
+    "schemaVersion": "1.5.0",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "fontsReady": true,
+    "flags": {
+      "mobile": true
+    }
+  },
+  "siteName": "Replicate",
+  "logo": {
+    "source": "svg",
+    "context": "header",
+    "inline": true,
+    "url": "https://replicate.com/",
+    "color": "#000000",
+    "ariaLabel": null,
+    "markup": "<svg fill=\"currentColor\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 120\" style=\"color: rgb(0, 0, 0);\"><title>Replicate wordmark</title><polygon points=\"86.96 0 86.96 10.74 12.03 10.74 12.03 95.41 0 95.41 0 0 86.96 0\"></polygon><polygon points=\"86.96 20.37 86.96 31.11 34.75 31.11 34.75 95.41 22.71 95.41 22.71 20.37 86.96 20.37\"></polygon><polygon points=\"86.96 40.67 86.96 51.47 57.46 51.47 57.46 95.41 45.42 95.41 45.42 40.67 86.96 40.67\"></polygon><path d=\"m121.21,39.62c14.32,0,26.35,9.5,26.35,27.16,0,1.17,0,2.16-.12,3.95h-43.02c.56,8.95,7.78,14.87,16.85,14.87,7.65,0,12.78-3.52,15.61-8.33l9.2,6.54c-4.94,7.78-13.45,12.71-24.93,12.71-16.6,0-28.57-11.79-28.57-28.45.06-16.11,12.03-28.45,28.64-28.45m-16.17,22.28h30.43c-1.3-7.9-7.65-12.16-14.69-12.16s-14.13,4.07-15.74,12.16\"></path><path d=\"m159.78,40.67h12.03v7.34c3.09-4.38,9.75-8.39,17.59-8.39,15,0,26.35,12.78,26.35,28.45s-11.36,28.45-26.35,28.45c-7.9,0-14.57-4.07-17.59-8.46v30.18h-12.03V40.67Zm27.46,9.87c-9.75,0-16.42,7.65-16.42,17.53s6.67,17.53,16.42,17.53,16.29-7.65,16.29-17.53-6.67-17.53-16.29-17.53\"></path><rect x=\"228.04\" y=\"13.33\" width=\"12.03\" height=\"82.02\"></rect><path d=\"m262.3,28.76c-4.38,0-8.08-3.58-8.08-8.08s3.7-7.96,8.08-7.96,7.96,3.64,7.96,7.96c0,4.51-3.46,8.08-7.96,8.08m-5.99,11.91h12.03v54.68h-12.03v-54.68Z\"></path><path d=\"m309.45,96.46c-16.42,0-28.88-12.28-28.88-28.45s12.47-28.45,28.88-28.45c11.29,0,20.8,6.05,25.49,15.12l-10.49,5.68c-2.65-5.55-7.96-9.63-15-9.63-9.75,0-16.6,7.53-16.6,17.28s6.91,17.28,16.6,17.28c6.97,0,12.34-4.07,15-9.63l10.49,5.68c-4.69,9.13-14.26,15.12-25.49,15.12\"></path><path d=\"m368.39,39.62c7.9,0,14.44,4.07,17.53,8.39v-7.34h12.03v54.68h-12.03v-7.34c-3.09,4.38-9.63,8.46-17.53,8.46-15,0-26.35-12.78-26.35-28.45s11.36-28.39,26.35-28.39m2.22,10.92c-9.75,0-16.29,7.65-16.29,17.53s6.54,17.53,16.29,17.53,16.29-7.65,16.29-17.53-6.6-17.53-16.29-17.53\"></path><polygon points=\"418.56 95.41 418.56 51.41 407.14 51.41 407.14 40.67 418.56 40.67 418.56 25.49 430.6 25.49 430.6 40.67 451.33 40.67 451.33 51.41 430.6 51.41 430.6 84.61 451.33 84.61 451.33 95.41 418.56 95.41\"></polygon><path d=\"m485.65,39.62c14.32,0,26.35,9.5,26.35,27.16,0,1.17,0,2.16-.12,3.95h-43.02c.56,8.95,7.78,14.87,16.85,14.87,7.65,0,12.78-3.52,15.61-8.33l9.2,6.54c-4.94,7.78-13.45,12.71-24.93,12.71-16.6,0-28.57-11.79-28.57-28.45.12-16.11,12.03-28.45,28.64-28.45m-16.17,22.28h30.43c-1.3-7.9-7.65-12.16-14.69-12.16s-14.07,4.07-15.74,12.16\"></path></svg>",
+    "dataUri": "data:image/svg+xml;utf8,%3Csvg%20fill%3D%22currentColor%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20120%22%20style%3D%22color%3A%20rgb(0%2C%200%2C%200)%3B%22%3E%3Ctitle%3EReplicate%20wordmark%3C%2Ftitle%3E%3Cpolygon%20points%3D%2286.96%200%2086.96%2010.74%2012.03%2010.74%2012.03%2095.41%200%2095.41%200%200%2086.96%200%22%3E%3C%2Fpolygon%3E%3Cpolygon%20points%3D%2286.96%2020.37%2086.96%2031.11%2034.75%2031.11%2034.75%2095.41%2022.71%2095.41%2022.71%2020.37%2086.96%2020.37%22%3E%3C%2Fpolygon%3E%3Cpolygon%20points%3D%2286.96%2040.67%2086.96%2051.47%2057.46%2051.47%2057.46%2095.41%2045.42%2095.41%2045.42%2040.67%2086.96%2040.67%22%3E%3C%2Fpolygon%3E%3Cpath%20d%3D%22m121.21%2C39.62c14.32%2C0%2C26.35%2C9.5%2C26.35%2C27.16%2C0%2C1.17%2C0%2C2.16-.12%2C3.95h-43.02c.56%2C8.95%2C7.78%2C14.87%2C16.85%2C14.87%2C7.65%2C0%2C12.78-3.52%2C15.61-8.33l9.2%2C6.54c-4.94%2C7.78-13.45%2C12.71-24.93%2C12.71-16.6%2C0-28.57-11.79-28.57-28.45.06-16.11%2C12.03-28.45%2C28.64-28.45m-16.17%2C22.28h30.43c-1.3-7.9-7.65-12.16-14.69-12.16s-14.13%2C4.07-15.74%2C12.16%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22m159.78%2C40.67h12.03v7.34c3.09-4.38%2C9.75-8.39%2C17.59-8.39%2C15%2C0%2C26.35%2C12.78%2C26.35%2C28.45s-11.36%2C28.45-26.35%2C28.45c-7.9%2C0-14.57-4.07-17.59-8.46v30.18h-12.03V40.67Zm27.46%2C9.87c-9.75%2C0-16.42%2C7.65-16.42%2C17.53s6.67%2C17.53%2C16.42%2C17.53%2C16.29-7.65%2C16.29-17.53-6.67-17.53-16.29-17.53%22%3E%3C%2Fpath%3E%3Crect%20x%3D%22228.04%22%20y%3D%2213.33%22%20width%3D%2212.03%22%20height%3D%2282.02%22%3E%3C%2Frect%3E%3Cpath%20d%3D%22m262.3%2C28.76c-4.38%2C0-8.08-3.58-8.08-8.08s3.7-7.96%2C8.08-7.96%2C7.96%2C3.64%2C7.96%2C7.96c0%2C4.51-3.46%2C8.08-7.96%2C8.08m-5.99%2C11.91h12.03v54.68h-12.03v-54.68Z%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22m309.45%2C96.46c-16.42%2C0-28.88-12.28-28.88-28.45s12.47-28.45%2C28.88-28.45c11.29%2C0%2C20.8%2C6.05%2C25.49%2C15.12l-10.49%2C5.68c-2.65-5.55-7.96-9.63-15-9.63-9.75%2C0-16.6%2C7.53-16.6%2C17.28s6.91%2C17.28%2C16.6%2C17.28c6.97%2C0%2C12.34-4.07%2C15-9.63l10.49%2C5.68c-4.69%2C9.13-14.26%2C15.12-25.49%2C15.12%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22m368.39%2C39.62c7.9%2C0%2C14.44%2C4.07%2C17.53%2C8.39v-7.34h12.03v54.68h-12.03v-7.34c-3.09%2C4.38-9.63%2C8.46-17.53%2C8.46-15%2C0-26.35-12.78-26.35-28.45s11.36-28.39%2C26.35-28.39m2.22%2C10.92c-9.75%2C0-16.29%2C7.65-16.29%2C17.53s6.54%2C17.53%2C16.29%2C17.53%2C16.29-7.65%2C16.29-17.53-6.6-17.53-16.29-17.53%22%3E%3C%2Fpath%3E%3Cpolygon%20points%3D%22418.56%2095.41%20418.56%2051.41%20407.14%2051.41%20407.14%2040.67%20418.56%2040.67%20418.56%2025.49%20430.6%2025.49%20430.6%2040.67%20451.33%2040.67%20451.33%2051.41%20430.6%2051.41%20430.6%2084.61%20451.33%2084.61%20451.33%2095.41%20418.56%2095.41%22%3E%3C%2Fpolygon%3E%3Cpath%20d%3D%22m485.65%2C39.62c14.32%2C0%2C26.35%2C9.5%2C26.35%2C27.16%2C0%2C1.17%2C0%2C2.16-.12%2C3.95h-43.02c.56%2C8.95%2C7.78%2C14.87%2C16.85%2C14.87%2C7.65%2C0%2C12.78-3.52%2C15.61-8.33l9.2%2C6.54c-4.94%2C7.78-13.45%2C12.71-24.93%2C12.71-16.6%2C0-28.57-11.79-28.57-28.45.12-16.11%2C12.03-28.45%2C28.64-28.45m-16.17%2C22.28h30.43c-1.3-7.9-7.65-12.16-14.69-12.16s-14.07%2C4.07-15.74%2C12.16%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E",
+    "svgColors": [],
+    "width": 138,
+    "height": 32.34375,
+    "rect": {
+      "x": 64,
+      "y": 60,
+      "width": 138,
+      "height": 32
+    },
+    "natural": {
+      "width": 512,
+      "height": 120
+    },
+    "type": "wordmark",
+    "reversed": false,
+    "background": "#ffffff",
+    "safeZone": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "position": {
+      "top": 59.828125,
+      "left": 64
+    }
+  },
+  "logoInstances": [
+    {
+      "source": "svg",
+      "context": "header",
+      "inline": true,
+      "url": "https://replicate.com/",
+      "color": "#000000",
+      "ariaLabel": null,
+      "markup": "<svg fill=\"currentColor\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 120\" style=\"color: rgb(0, 0, 0);\"><title>Replicate wordmark</title><polygon points=\"86.96 0 86.96 10.74 12.03 10.74 12.03 95.41 0 95.41 0 0 86.96 0\"></polygon><polygon points=\"86.96 20.37 86.96 31.11 34.75 31.11 34.75 95.41 22.71 95.41 22.71 20.37 86.96 20.37\"></polygon><polygon points=\"86.96 40.67 86.96 51.47 57.46 51.47 57.46 95.41 45.42 95.41 45.42 40.67 86.96 40.67\"></polygon><path d=\"m121.21,39.62c14.32,0,26.35,9.5,26.35,27.16,0,1.17,0,2.16-.12,3.95h-43.02c.56,8.95,7.78,14.87,16.85,14.87,7.65,0,12.78-3.52,15.61-8.33l9.2,6.54c-4.94,7.78-13.45,12.71-24.93,12.71-16.6,0-28.57-11.79-28.57-28.45.06-16.11,12.03-28.45,28.64-28.45m-16.17,22.28h30.43c-1.3-7.9-7.65-12.16-14.69-12.16s-14.13,4.07-15.74,12.16\"></path><path d=\"m159.78,40.67h12.03v7.34c3.09-4.38,9.75-8.39,17.59-8.39,15,0,26.35,12.78,26.35,28.45s-11.36,28.45-26.35,28.45c-7.9,0-14.57-4.07-17.59-8.46v30.18h-12.03V40.67Zm27.46,9.87c-9.75,0-16.42,7.65-16.42,17.53s6.67,17.53,16.42,17.53,16.29-7.65,16.29-17.53-6.67-17.53-16.29-17.53\"></path><rect x=\"228.04\" y=\"13.33\" width=\"12.03\" height=\"82.02\"></rect><path d=\"m262.3,28.76c-4.38,0-8.08-3.58-8.08-8.08s3.7-7.96,8.08-7.96,7.96,3.64,7.96,7.96c0,4.51-3.46,8.08-7.96,8.08m-5.99,11.91h12.03v54.68h-12.03v-54.68Z\"></path><path d=\"m309.45,96.46c-16.42,0-28.88-12.28-28.88-28.45s12.47-28.45,28.88-28.45c11.29,0,20.8,6.05,25.49,15.12l-10.49,5.68c-2.65-5.55-7.96-9.63-15-9.63-9.75,0-16.6,7.53-16.6,17.28s6.91,17.28,16.6,17.28c6.97,0,12.34-4.07,15-9.63l10.49,5.68c-4.69,9.13-14.26,15.12-25.49,15.12\"></path><path d=\"m368.39,39.62c7.9,0,14.44,4.07,17.53,8.39v-7.34h12.03v54.68h-12.03v-7.34c-3.09,4.38-9.63,8.46-17.53,8.46-15,0-26.35-12.78-26.35-28.45s11.36-28.39,26.35-28.39m2.22,10.92c-9.75,0-16.29,7.65-16.29,17.53s6.54,17.53,16.29,17.53,16.29-7.65,16.29-17.53-6.6-17.53-16.29-17.53\"></path><polygon points=\"418.56 95.41 418.56 51.41 407.14 51.41 407.14 40.67 418.56 40.67 418.56 25.49 430.6 25.49 430.6 40.67 451.33 40.67 451.33 51.41 430.6 51.41 430.6 84.61 451.33 84.61 451.33 95.41 418.56 95.41\"></polygon><path d=\"m485.65,39.62c14.32,0,26.35,9.5,26.35,27.16,0,1.17,0,2.16-.12,3.95h-43.02c.56,8.95,7.78,14.87,16.85,14.87,7.65,0,12.78-3.52,15.61-8.33l9.2,6.54c-4.94,7.78-13.45,12.71-24.93,12.71-16.6,0-28.57-11.79-28.57-28.45.12-16.11,12.03-28.45,28.64-28.45m-16.17,22.28h30.43c-1.3-7.9-7.65-12.16-14.69-12.16s-14.07,4.07-15.74,12.16\"></path></svg>",
+      "dataUri": "data:image/svg+xml;utf8,%3Csvg%20fill%3D%22currentColor%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20120%22%20style%3D%22color%3A%20rgb(0%2C%200%2C%200)%3B%22%3E%3Ctitle%3EReplicate%20wordmark%3C%2Ftitle%3E%3Cpolygon%20points%3D%2286.96%200%2086.96%2010.74%2012.03%2010.74%2012.03%2095.41%200%2095.41%200%200%2086.96%200%22%3E%3C%2Fpolygon%3E%3Cpolygon%20points%3D%2286.96%2020.37%2086.96%2031.11%2034.75%2031.11%2034.75%2095.41%2022.71%2095.41%2022.71%2020.37%2086.96%2020.37%22%3E%3C%2Fpolygon%3E%3Cpolygon%20points%3D%2286.96%2040.67%2086.96%2051.47%2057.46%2051.47%2057.46%2095.41%2045.42%2095.41%2045.42%2040.67%2086.96%2040.67%22%3E%3C%2Fpolygon%3E%3Cpath%20d%3D%22m121.21%2C39.62c14.32%2C0%2C26.35%2C9.5%2C26.35%2C27.16%2C0%2C1.17%2C0%2C2.16-.12%2C3.95h-43.02c.56%2C8.95%2C7.78%2C14.87%2C16.85%2C14.87%2C7.65%2C0%2C12.78-3.52%2C15.61-8.33l9.2%2C6.54c-4.94%2C7.78-13.45%2C12.71-24.93%2C12.71-16.6%2C0-28.57-11.79-28.57-28.45.06-16.11%2C12.03-28.45%2C28.64-28.45m-16.17%2C22.28h30.43c-1.3-7.9-7.65-12.16-14.69-12.16s-14.13%2C4.07-15.74%2C12.16%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22m159.78%2C40.67h12.03v7.34c3.09-4.38%2C9.75-8.39%2C17.59-8.39%2C15%2C0%2C26.35%2C12.78%2C26.35%2C28.45s-11.36%2C28.45-26.35%2C28.45c-7.9%2C0-14.57-4.07-17.59-8.46v30.18h-12.03V40.67Zm27.46%2C9.87c-9.75%2C0-16.42%2C7.65-16.42%2C17.53s6.67%2C17.53%2C16.42%2C17.53%2C16.29-7.65%2C16.29-17.53-6.67-17.53-16.29-17.53%22%3E%3C%2Fpath%3E%3Crect%20x%3D%22228.04%22%20y%3D%2213.33%22%20width%3D%2212.03%22%20height%3D%2282.02%22%3E%3C%2Frect%3E%3Cpath%20d%3D%22m262.3%2C28.76c-4.38%2C0-8.08-3.58-8.08-8.08s3.7-7.96%2C8.08-7.96%2C7.96%2C3.64%2C7.96%2C7.96c0%2C4.51-3.46%2C8.08-7.96%2C8.08m-5.99%2C11.91h12.03v54.68h-12.03v-54.68Z%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22m309.45%2C96.46c-16.42%2C0-28.88-12.28-28.88-28.45s12.47-28.45%2C28.88-28.45c11.29%2C0%2C20.8%2C6.05%2C25.49%2C15.12l-10.49%2C5.68c-2.65-5.55-7.96-9.63-15-9.63-9.75%2C0-16.6%2C7.53-16.6%2C17.28s6.91%2C17.28%2C16.6%2C17.28c6.97%2C0%2C12.34-4.07%2C15-9.63l10.49%2C5.68c-4.69%2C9.13-14.26%2C15.12-25.49%2C15.12%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22m368.39%2C39.62c7.9%2C0%2C14.44%2C4.07%2C17.53%2C8.39v-7.34h12.03v54.68h-12.03v-7.34c-3.09%2C4.38-9.63%2C8.46-17.53%2C8.46-15%2C0-26.35-12.78-26.35-28.45s11.36-28.39%2C26.35-28.39m2.22%2C10.92c-9.75%2C0-16.29%2C7.65-16.29%2C17.53s6.54%2C17.53%2C16.29%2C17.53%2C16.29-7.65%2C16.29-17.53-6.6-17.53-16.29-17.53%22%3E%3C%2Fpath%3E%3Cpolygon%20points%3D%22418.56%2095.41%20418.56%2051.41%20407.14%2051.41%20407.14%2040.67%20418.56%2040.67%20418.56%2025.49%20430.6%2025.49%20430.6%2040.67%20451.33%2040.67%20451.33%2051.41%20430.6%2051.41%20430.6%2084.61%20451.33%2084.61%20451.33%2095.41%20418.56%2095.41%22%3E%3C%2Fpolygon%3E%3Cpath%20d%3D%22m485.65%2C39.62c14.32%2C0%2C26.35%2C9.5%2C26.35%2C27.16%2C0%2C1.17%2C0%2C2.16-.12%2C3.95h-43.02c.56%2C8.95%2C7.78%2C14.87%2C16.85%2C14.87%2C7.65%2C0%2C12.78-3.52%2C15.61-8.33l9.2%2C6.54c-4.94%2C7.78-13.45%2C12.71-24.93%2C12.71-16.6%2C0-28.57-11.79-28.57-28.45.12-16.11%2C12.03-28.45%2C28.64-28.45m-16.17%2C22.28h30.43c-1.3-7.9-7.65-12.16-14.69-12.16s-14.07%2C4.07-15.74%2C12.16%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E",
+      "svgColors": [],
+      "width": 138,
+      "height": 32.34375,
+      "rect": {
+        "x": 64,
+        "y": 60,
+        "width": 138,
+        "height": 32
+      },
+      "natural": {
+        "width": 512,
+        "height": 120
+      },
+      "type": "wordmark",
+      "reversed": false,
+      "background": "#ffffff",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 59.828125,
+        "left": 64
+      }
+    },
+    {
+      "source": "svg",
+      "context": "footer",
+      "inline": true,
+      "url": "https://replicate.com/",
+      "color": "#000000",
+      "ariaLabel": null,
+      "markup": "<svg fill=\"currentColor\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 120\" style=\"color: rgb(0, 0, 0);\"><title>Replicate wordmark</title><polygon points=\"86.96 0 86.96 10.74 12.03 10.74 12.03 95.41 0 95.41 0 0 86.96 0\"></polygon><polygon points=\"86.96 20.37 86.96 31.11 34.75 31.11 34.75 95.41 22.71 95.41 22.71 20.37 86.96 20.37\"></polygon><polygon points=\"86.96 40.67 86.96 51.47 57.46 51.47 57.46 95.41 45.42 95.41 45.42 40.67 86.96 40.67\"></polygon><path d=\"m121.21,39.62c14.32,0,26.35,9.5,26.35,27.16,0,1.17,0,2.16-.12,3.95h-43.02c.56,8.95,7.78,14.87,16.85,14.87,7.65,0,12.78-3.52,15.61-8.33l9.2,6.54c-4.94,7.78-13.45,12.71-24.93,12.71-16.6,0-28.57-11.79-28.57-28.45.06-16.11,12.03-28.45,28.64-28.45m-16.17,22.28h30.43c-1.3-7.9-7.65-12.16-14.69-12.16s-14.13,4.07-15.74,12.16\"></path><path d=\"m159.78,40.67h12.03v7.34c3.09-4.38,9.75-8.39,17.59-8.39,15,0,26.35,12.78,26.35,28.45s-11.36,28.45-26.35,28.45c-7.9,0-14.57-4.07-17.59-8.46v30.18h-12.03V40.67Zm27.46,9.87c-9.75,0-16.42,7.65-16.42,17.53s6.67,17.53,16.42,17.53,16.29-7.65,16.29-17.53-6.67-17.53-16.29-17.53\"></path><rect x=\"228.04\" y=\"13.33\" width=\"12.03\" height=\"82.02\"></rect><path d=\"m262.3,28.76c-4.38,0-8.08-3.58-8.08-8.08s3.7-7.96,8.08-7.96,7.96,3.64,7.96,7.96c0,4.51-3.46,8.08-7.96,8.08m-5.99,11.91h12.03v54.68h-12.03v-54.68Z\"></path><path d=\"m309.45,96.46c-16.42,0-28.88-12.28-28.88-28.45s12.47-28.45,28.88-28.45c11.29,0,20.8,6.05,25.49,15.12l-10.49,5.68c-2.65-5.55-7.96-9.63-15-9.63-9.75,0-16.6,7.53-16.6,17.28s6.91,17.28,16.6,17.28c6.97,0,12.34-4.07,15-9.63l10.49,5.68c-4.69,9.13-14.26,15.12-25.49,15.12\"></path><path d=\"m368.39,39.62c7.9,0,14.44,4.07,17.53,8.39v-7.34h12.03v54.68h-12.03v-7.34c-3.09,4.38-9.63,8.46-17.53,8.46-15,0-26.35-12.78-26.35-28.45s11.36-28.39,26.35-28.39m2.22,10.92c-9.75,0-16.29,7.65-16.29,17.53s6.54,17.53,16.29,17.53,16.29-7.65,16.29-17.53-6.6-17.53-16.29-17.53\"></path><polygon points=\"418.56 95.41 418.56 51.41 407.14 51.41 407.14 40.67 418.56 40.67 418.56 25.49 430.6 25.49 430.6 40.67 451.33 40.67 451.33 51.41 430.6 51.41 430.6 84.61 451.33 84.61 451.33 95.41 418.56 95.41\"></polygon><path d=\"m485.65,39.62c14.32,0,26.35,9.5,26.35,27.16,0,1.17,0,2.16-.12,3.95h-43.02c.56,8.95,7.78,14.87,16.85,14.87,7.65,0,12.78-3.52,15.61-8.33l9.2,6.54c-4.94,7.78-13.45,12.71-24.93,12.71-16.6,0-28.57-11.79-28.57-28.45.12-16.11,12.03-28.45,28.64-28.45m-16.17,22.28h30.43c-1.3-7.9-7.65-12.16-14.69-12.16s-14.07,4.07-15.74,12.16\"></path></svg>",
+      "dataUri": "data:image/svg+xml;utf8,%3Csvg%20fill%3D%22currentColor%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20120%22%20style%3D%22color%3A%20rgb(0%2C%200%2C%200)%3B%22%3E%3Ctitle%3EReplicate%20wordmark%3C%2Ftitle%3E%3Cpolygon%20points%3D%2286.96%200%2086.96%2010.74%2012.03%2010.74%2012.03%2095.41%200%2095.41%200%200%2086.96%200%22%3E%3C%2Fpolygon%3E%3Cpolygon%20points%3D%2286.96%2020.37%2086.96%2031.11%2034.75%2031.11%2034.75%2095.41%2022.71%2095.41%2022.71%2020.37%2086.96%2020.37%22%3E%3C%2Fpolygon%3E%3Cpolygon%20points%3D%2286.96%2040.67%2086.96%2051.47%2057.46%2051.47%2057.46%2095.41%2045.42%2095.41%2045.42%2040.67%2086.96%2040.67%22%3E%3C%2Fpolygon%3E%3Cpath%20d%3D%22m121.21%2C39.62c14.32%2C0%2C26.35%2C9.5%2C26.35%2C27.16%2C0%2C1.17%2C0%2C2.16-.12%2C3.95h-43.02c.56%2C8.95%2C7.78%2C14.87%2C16.85%2C14.87%2C7.65%2C0%2C12.78-3.52%2C15.61-8.33l9.2%2C6.54c-4.94%2C7.78-13.45%2C12.71-24.93%2C12.71-16.6%2C0-28.57-11.79-28.57-28.45.06-16.11%2C12.03-28.45%2C28.64-28.45m-16.17%2C22.28h30.43c-1.3-7.9-7.65-12.16-14.69-12.16s-14.13%2C4.07-15.74%2C12.16%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22m159.78%2C40.67h12.03v7.34c3.09-4.38%2C9.75-8.39%2C17.59-8.39%2C15%2C0%2C26.35%2C12.78%2C26.35%2C28.45s-11.36%2C28.45-26.35%2C28.45c-7.9%2C0-14.57-4.07-17.59-8.46v30.18h-12.03V40.67Zm27.46%2C9.87c-9.75%2C0-16.42%2C7.65-16.42%2C17.53s6.67%2C17.53%2C16.42%2C17.53%2C16.29-7.65%2C16.29-17.53-6.67-17.53-16.29-17.53%22%3E%3C%2Fpath%3E%3Crect%20x%3D%22228.04%22%20y%3D%2213.33%22%20width%3D%2212.03%22%20height%3D%2282.02%22%3E%3C%2Frect%3E%3Cpath%20d%3D%22m262.3%2C28.76c-4.38%2C0-8.08-3.58-8.08-8.08s3.7-7.96%2C8.08-7.96%2C7.96%2C3.64%2C7.96%2C7.96c0%2C4.51-3.46%2C8.08-7.96%2C8.08m-5.99%2C11.91h12.03v54.68h-12.03v-54.68Z%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22m309.45%2C96.46c-16.42%2C0-28.88-12.28-28.88-28.45s12.47-28.45%2C28.88-28.45c11.29%2C0%2C20.8%2C6.05%2C25.49%2C15.12l-10.49%2C5.68c-2.65-5.55-7.96-9.63-15-9.63-9.75%2C0-16.6%2C7.53-16.6%2C17.28s6.91%2C17.28%2C16.6%2C17.28c6.97%2C0%2C12.34-4.07%2C15-9.63l10.49%2C5.68c-4.69%2C9.13-14.26%2C15.12-25.49%2C15.12%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22m368.39%2C39.62c7.9%2C0%2C14.44%2C4.07%2C17.53%2C8.39v-7.34h12.03v54.68h-12.03v-7.34c-3.09%2C4.38-9.63%2C8.46-17.53%2C8.46-15%2C0-26.35-12.78-26.35-28.45s11.36-28.39%2C26.35-28.39m2.22%2C10.92c-9.75%2C0-16.29%2C7.65-16.29%2C17.53s6.54%2C17.53%2C16.29%2C17.53%2C16.29-7.65%2C16.29-17.53-6.6-17.53-16.29-17.53%22%3E%3C%2Fpath%3E%3Cpolygon%20points%3D%22418.56%2095.41%20418.56%2051.41%20407.14%2051.41%20407.14%2040.67%20418.56%2040.67%20418.56%2025.49%20430.6%2025.49%20430.6%2040.67%20451.33%2040.67%20451.33%2051.41%20430.6%2051.41%20430.6%2084.61%20451.33%2084.61%20451.33%2095.41%20418.56%2095.41%22%3E%3C%2Fpolygon%3E%3Cpath%20d%3D%22m485.65%2C39.62c14.32%2C0%2C26.35%2C9.5%2C26.35%2C27.16%2C0%2C1.17%2C0%2C2.16-.12%2C3.95h-43.02c.56%2C8.95%2C7.78%2C14.87%2C16.85%2C14.87%2C7.65%2C0%2C12.78-3.52%2C15.61-8.33l9.2%2C6.54c-4.94%2C7.78-13.45%2C12.71-24.93%2C12.71-16.6%2C0-28.57-11.79-28.57-28.45.12-16.11%2C12.03-28.45%2C28.64-28.45m-16.17%2C22.28h30.43c-1.3-7.9-7.65-12.16-14.69-12.16s-14.07%2C4.07-15.74%2C12.16%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E",
+      "svgColors": [],
+      "width": 138,
+      "height": 32.34375,
+      "rect": {
+        "x": 64,
+        "y": 7408,
+        "width": 138,
+        "height": 32
+      },
+      "natural": {
+        "width": 512,
+        "height": 120
+      },
+      "type": "wordmark",
+      "reversed": false,
+      "background": "#ffffff",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 7408,
+        "left": 64
+      }
+    }
+  ],
+  "favicons": [
+    {
+      "type": "icon",
+      "url": "https://static.replicateassets.com/fe/e288f9a0d0c8928629c5d924f083e98eed845bf1/favicon-CKiqAkf2.png",
+      "sizes": null
+    }
+  ],
+  "colors": {
+    "semantic": {
+      "primary": "rgb(32, 32, 32)",
+      "background": "rgb(255, 255, 255)",
+      "text": "rgb(32, 32, 32)",
+      "accent": "rgb(234, 40, 4)"
+    },
+    "palette": [
+      {
+        "color": "rgb(32, 32, 32)",
+        "normalized": "#202020",
+        "count": 2043,
+        "confidence": "high",
+        "sources": [
+          "v2-header-wrapper-with-banner",
+          "v2-banner",
+          "v2-banner-content"
+        ],
+        "lch": "lch(12.25% 0.01 53.35)",
+        "oklch": "oklch(24.35% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#ffffff",
+        "hover": "#262626"
+      },
+      {
+        "color": "rgb(100, 100, 100)",
+        "normalized": "#646464",
+        "count": 436,
+        "confidence": "high",
+        "sources": [
+          "v2-dropdown-item",
+          "v2-menu-item-label"
+        ],
+        "lch": "lch(42.37% 0.01 53.35)",
+        "oklch": "oklch(50.32% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#ffffff",
+        "hover": "#787878"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 382,
+        "confidence": "high",
+        "sources": [
+          "v2-banner",
+          "v2-header",
+          "v2-header-inner"
+        ],
+        "lch": "lch(100% 0.03 53.35)",
+        "oklch": "oklch(100% 0 89.88)",
+        "role": "surface",
+        "onColor": "#000000",
+        "hover": "#d9d9d9"
+      },
+      {
+        "color": "rgb(234, 40, 4)",
+        "normalized": "#ea2804",
+        "count": 129,
+        "confidence": "high",
+        "sources": [
+          "text-r8-xs",
+          "absolute",
+          "border-branding-red"
+        ],
+        "lch": "lch(51.65% 95.97 42.46)",
+        "oklch": "oklch(60.2% 0.229 31.59)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#c72203"
+      },
+      {
+        "color": "rgb(187, 187, 187)",
+        "normalized": "#bbbbbb",
+        "count": 82,
+        "confidence": "high",
+        "sources": [],
+        "lch": "lch(75.88% 0.02 53.35)",
+        "oklch": "oklch(79.21% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#000000",
+        "hover": "#9f9f9f"
+      },
+      {
+        "color": "rgb(255, 107, 252)",
+        "normalized": "#ff6bfc",
+        "count": 2,
+        "confidence": "low",
+        "sources": [
+          "gradient"
+        ],
+        "lch": "lch(68.53% 83.56 326.88)",
+        "oklch": "oklch(76.05% 0.242 328.43)"
+      },
+      {
+        "color": "rgb(246, 244, 127)",
+        "normalized": "#f6f47f",
+        "count": 2,
+        "confidence": "low",
+        "sources": [
+          "gradient"
+        ],
+        "lch": "lch(94.59% 56.96 100.77)",
+        "oklch": "oklch(94.52% 0.14 107.92)"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0.06)",
+        "normalized": "#000000",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      },
+      {
+        "color": "rgb(141, 141, 141)",
+        "normalized": "#8d8d8d",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      }
+    ],
+    "cssVariables": {
+      "--tw-ring-color": {
+        "value": "rgb(59 130 246 / .5)",
+        "hex": "#3b82f6",
+        "lch": "lch(54.62% 66.35 277.59 / 0.5)",
+        "oklch": "oklch(62.31% 0.188 259.81 / 0.5)"
+      }
+    },
+    "detected": [
+      {
+        "color": "rgb(32, 32, 32)",
+        "normalized": "#202020",
+        "count": 2043,
+        "usageFrac": 0.5598794190189093,
+        "confidence": "high",
+        "sources": [
+          "v2-header-wrapper-with-banner",
+          "v2-banner",
+          "v2-banner-content",
+          "v2-banner-link",
+          "v2-banner-logo"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(100, 100, 100)",
+        "normalized": "#646464",
+        "count": 436,
+        "usageFrac": 0.11948479035352151,
+        "confidence": "high",
+        "sources": [
+          "v2-dropdown-item",
+          "v2-menu-item-label"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 382,
+        "usageFrac": 0.10468621540147986,
+        "confidence": "high",
+        "sources": [
+          "v2-banner",
+          "v2-header",
+          "v2-header-inner",
+          "v2-header-transparent-backdrop",
+          "v2-header-container"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(234, 40, 4)",
+        "normalized": "#ea2804",
+        "count": 129,
+        "usageFrac": 0.03535215127432173,
+        "confidence": "high",
+        "sources": [
+          "text-r8-xs",
+          "absolute",
+          "border-branding-red",
+          "text-r8-2xl",
+          "border-t"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(36, 41, 46)",
+        "normalized": "#24292e",
+        "count": 128,
+        "usageFrac": 0.03507810359002467,
+        "confidence": "high",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(252, 252, 252)",
+        "normalized": "#fcfcfc",
+        "count": 82,
+        "usageFrac": 0.02247191011235955,
+        "confidence": "high",
+        "sources": [
+          "[object",
+          "v2-menu-item-label",
+          "visually-hidden",
+          "bg-r8-gray-1",
+          "absolute"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(187, 187, 187)",
+        "normalized": "#bbbbbb",
+        "count": 82,
+        "usageFrac": 0.02247191011235955,
+        "confidence": "high",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 74,
+        "usageFrac": 0.020279528637983008,
+        "confidence": "high",
+        "sources": [
+          "v2-marketing-logo",
+          "v2-marketing-logo-wordmark",
+          "[object",
+          "r8-btn",
+          "text-white/90"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(3, 47, 98)",
+        "normalized": "#032f62",
+        "count": 54,
+        "usageFrac": 0.014798574952041656,
+        "confidence": "high",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(240, 240, 240)",
+        "normalized": "#f0f0f0",
+        "count": 42,
+        "usageFrac": 0.011510002740476843,
+        "confidence": "high",
+        "sources": [
+          "v2-banner"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(249, 249, 249)",
+        "normalized": "#f9f9f9",
+        "count": 41,
+        "usageFrac": 0.011235955056179775,
+        "confidence": "high",
+        "sources": [
+          "flex-shrink"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(215, 58, 73)",
+        "normalized": "#d73a49",
+        "count": 38,
+        "usageFrac": 0.010413812003288572,
+        "confidence": "high",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(217, 217, 217)",
+        "normalized": "#d9d9d9",
+        "count": 28,
+        "usageFrac": 0.007673335160317895,
+        "confidence": "high",
+        "sources": [
+          "v2-header-inner"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(0, 92, 197)",
+        "normalized": "#005cc5",
+        "count": 24,
+        "usageFrac": 0.006577144423129624,
+        "confidence": "high",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(111, 66, 193)",
+        "normalized": "#6f42c1",
+        "count": 16,
+        "usageFrac": 0.004384762948753083,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(131, 131, 131)",
+        "normalized": "#838383",
+        "count": 14,
+        "usageFrac": 0.0038366675801589476,
+        "confidence": "high",
+        "sources": [
+          "r8-search-combobox-icon-left",
+          "[object",
+          "r8-search-combobox-icon-right",
+          "r8-search-combobox-kbd-hint"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(221, 68, 37)",
+        "normalized": "#dd4425",
+        "count": 8,
+        "usageFrac": 0.0021923814743765417,
+        "confidence": "high",
+        "sources": [
+          "r8-btn"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(227, 98, 9)",
+        "normalized": "#e36209",
+        "count": 8,
+        "usageFrac": 0.0021923814743765417,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(115, 92, 15)",
+        "normalized": "#735c0f",
+        "count": 6,
+        "usageFrac": 0.001644286105782406,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(158, 108, 0)",
+        "normalized": "#9e6c00",
+        "count": 4,
+        "usageFrac": 0.0010961907371882709,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 252, 252)",
+        "normalized": "#fffcfc",
+        "count": 3,
+        "usageFrac": 0.000822143052891203,
+        "confidence": "high",
+        "sources": [
+          "r8-btn"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(254, 252, 233)",
+        "normalized": "#fefce9",
+        "count": 2,
+        "usageFrac": 0.0005480953685941354,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(106, 115, 125)",
+        "normalized": "#6a737d",
+        "count": 2,
+        "usageFrac": 0.0005480953685941354,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(232, 232, 232)",
+        "normalized": "#e8e8e8",
+        "count": 1,
+        "usageFrac": 0.0002740476842970677,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(224, 224, 224)",
+        "normalized": "#e0e0e0",
+        "count": 1,
+        "usageFrac": 0.0002740476842970677,
+        "confidence": "low",
+        "sources": [
+          "site-footer-bottom"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(43, 154, 102)",
+        "normalized": "#2b9a66",
+        "count": 1,
+        "usageFrac": 0.0002740476842970677,
+        "confidence": "low",
+        "sources": [
+          "r8-platform-status-badge--indi"
+        ],
+        "isToken": false
+      }
+    ],
+    "_raw": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 74
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 382
+      },
+      {
+        "color": "rgb(32, 32, 32)",
+        "normalized": "#202020",
+        "count": 2043
+      },
+      {
+        "color": "rgb(240, 240, 240)",
+        "normalized": "#f0f0f0",
+        "count": 42
+      },
+      {
+        "color": "rgb(217, 217, 217)",
+        "normalized": "#d9d9d9",
+        "count": 28
+      },
+      {
+        "color": "rgb(100, 100, 100)",
+        "normalized": "#646464",
+        "count": 436
+      },
+      {
+        "color": "rgb(252, 252, 252)",
+        "normalized": "#fcfcfc",
+        "count": 82
+      },
+      {
+        "color": "rgb(36, 41, 46)",
+        "normalized": "#24292e",
+        "count": 128
+      },
+      {
+        "color": "rgb(215, 58, 73)",
+        "normalized": "#d73a49",
+        "count": 38
+      },
+      {
+        "color": "rgb(0, 92, 197)",
+        "normalized": "#005cc5",
+        "count": 24
+      },
+      {
+        "color": "rgb(249, 249, 249)",
+        "normalized": "#f9f9f9",
+        "count": 41
+      },
+      {
+        "color": "rgb(187, 187, 187)",
+        "normalized": "#bbbbbb",
+        "count": 82
+      },
+      {
+        "color": "rgb(234, 40, 4)",
+        "normalized": "#ea2804",
+        "count": 129
+      },
+      {
+        "color": "rgb(3, 47, 98)",
+        "normalized": "#032f62",
+        "count": 54
+      }
+    ]
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "display",
+        "family": "rb-freigeist-neue",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "128px (8.00rem)",
+        "weight": 700,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "rb-freigeist-neue",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "72px (4.50rem)",
+        "weight": 700,
+        "lineHeight": "1.00",
+        "spacing": "-1.8px",
+        "transform": null
+      },
+      {
+        "context": "display",
+        "family": "rb-freigeist-neue",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "72px (4.50rem)",
+        "weight": 700,
+        "lineHeight": "1.00",
+        "spacing": "-1.8px",
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "rb-freigeist-neue",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "48px (3.00rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "rb-freigeist-neue",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "48px (3.00rem)",
+        "weight": 700,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "basier-square",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "38.4px (2.40rem)",
+        "weight": 400,
+        "lineHeight": "0.83",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "rb-freigeist-neue",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "30px (1.88rem)",
+        "weight": 600,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "rb-freigeist-neue",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "30px (1.88rem)",
+        "weight": 600,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-4",
+        "family": "rb-freigeist-neue",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "30px (1.88rem)",
+        "weight": 600,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "basier-square",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "24px (1.50rem)",
+        "weight": 400,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "basier-square",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "20px (1.25rem)",
+        "weight": 400,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "basier-square",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "20px (1.25rem)",
+        "weight": 400,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "basier-square",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "18px (1.13rem)",
+        "weight": 400,
+        "lineHeight": "1.56",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "rb-freigeist-neue",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "18px (1.13rem)",
+        "weight": 600,
+        "lineHeight": "1.56",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "basier-square",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "18px (1.13rem)",
+        "weight": 400,
+        "lineHeight": "1.56",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "basier-square",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "18px (1.13rem)",
+        "weight": 600,
+        "lineHeight": "1.56",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "basier-square",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "basier-square",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "basier-square",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "basier-square",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "basier-square",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "rb-freigeist-neue",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "basier-square",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "basier-square",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "basier-square",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "basier-square",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "basier-square",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "jetbrains-mono",
+        "fallbacks": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "jetbrains-mono",
+        "fallbacks": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "basier-square",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.43",
+        "spacing": "-0.35px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "basier-square",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": "-0.35px",
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "basier-square",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": "lowercase"
+      },
+      {
+        "context": "caption",
+        "family": "basier-square",
+        "fallbacks": "ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "jetbrains-mono",
+        "fallbacks": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New",
+        "size": "11px (0.69rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      }
+    ],
+    "sources": {
+      "googleFonts": [],
+      "adobeFonts": false,
+      "variableFonts": false,
+      "selfHostedFonts": [
+        "JetBrainsMono-Regular.woff2",
+        "RBFreigeistNeue-Bold.woff2",
+        "RBFreigeistNeue-Regular.woff2",
+        "RBFreigeistNeue-SemiBold.woff2",
+        "basiersquare-regular-webfont.woff2",
+        "basiersquare-semibold-webfont.woff2"
+      ],
+      "customFonts": [
+        "JetBrainsMono-Regular.woff2",
+        "RBFreigeistNeue-Bold.woff2",
+        "RBFreigeistNeue-Regular.woff2",
+        "RBFreigeistNeue-SemiBold.woff2",
+        "basiersquare-regular-webfont.woff2",
+        "basiersquare-semibold-webfont.woff2"
+      ]
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "1px",
+        "display": "1px",
+        "rem": "0.06rem",
+        "count": 8,
+        "numericValue": 1
+      },
+      {
+        "px": "2px",
+        "display": "2px",
+        "rem": "0.13rem",
+        "count": 157,
+        "numericValue": 2
+      },
+      {
+        "px": "4px",
+        "display": "4px",
+        "rem": "0.25rem",
+        "count": 28,
+        "numericValue": 4
+      },
+      {
+        "px": "6px",
+        "display": "6px",
+        "rem": "0.38rem",
+        "count": 78,
+        "numericValue": 6
+      },
+      {
+        "px": "8px",
+        "display": "8px",
+        "rem": "0.50rem",
+        "count": 107,
+        "numericValue": 8
+      },
+      {
+        "px": "10px",
+        "display": "10px",
+        "rem": "0.63rem",
+        "count": 6,
+        "numericValue": 10
+      },
+      {
+        "px": "12px",
+        "display": "12px",
+        "rem": "0.75rem",
+        "count": 6,
+        "numericValue": 12
+      },
+      {
+        "px": "16px",
+        "display": "16px",
+        "rem": "1.00rem",
+        "count": 196,
+        "numericValue": 16
+      },
+      {
+        "px": "24px",
+        "display": "24px",
+        "rem": "1.50rem",
+        "count": 12,
+        "numericValue": 24
+      },
+      {
+        "px": "32px",
+        "display": "32px",
+        "rem": "2.00rem",
+        "count": 14,
+        "numericValue": 32
+      },
+      {
+        "px": "48px",
+        "display": "48px",
+        "rem": "3.00rem",
+        "count": 2,
+        "numericValue": 48
+      },
+      {
+        "px": "64px",
+        "display": "64px",
+        "rem": "4.00rem",
+        "count": 5,
+        "numericValue": 64
+      },
+      {
+        "px": "96px",
+        "display": "96px",
+        "rem": "6.00rem",
+        "count": 8,
+        "numericValue": 96
+      },
+      {
+        "px": "160px",
+        "display": "160px",
+        "rem": "10.00rem",
+        "count": 1,
+        "numericValue": 160
+      },
+      {
+        "px": "192px",
+        "display": "192px",
+        "rem": "12.00rem",
+        "count": 1,
+        "numericValue": 192
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "2px",
+        "count": 2,
+        "elements": [
+          "span"
+        ],
+        "confidence": "low",
+        "numericValue": 2
+      },
+      {
+        "value": "4px 4px 0px 0px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 4
+      },
+      {
+        "value": "9999px",
+        "count": 199,
+        "elements": [
+          "a",
+          "label",
+          "div",
+          "img",
+          "svg"
+        ],
+        "confidence": "high",
+        "numericValue": 9999
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(32, 32, 32)",
+        "count": 62,
+        "elements": [
+          "button",
+          "label",
+          "div"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "0px 1px 0px 0px",
+        "style": "solid",
+        "color": "rgb(32, 32, 32)",
+        "count": 41,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(0, 0, 0)",
+        "count": 13,
+        "elements": [
+          "button",
+          "a"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid",
+        "color": "rgba(255, 255, 255, 0.2)",
+        "count": 7,
+        "elements": [
+          "ul",
+          "li"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px 0px 0px 1px",
+        "style": "solid",
+        "color": "rgb(234, 40, 4)",
+        "count": 6,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 0px 0px 1px",
+        "style": "solid",
+        "color": "rgb(234, 40, 4)",
+        "count": 5,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(221, 68, 37)",
+        "count": 4,
+        "elements": [
+          "button"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "solid",
+        "color": "rgb(217, 217, 217)",
+        "count": 2,
+        "elements": [
+          "div",
+          "tablist"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid",
+        "color": "rgb(224, 224, 224)",
+        "count": 2,
+        "elements": [
+          "hr",
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "solid",
+        "color": "rgb(32, 32, 32)",
+        "count": 2,
+        "elements": [
+          "span",
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "dashed",
+        "color": "rgb(234, 40, 4)",
+        "count": 2,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(224, 224, 224)",
+        "count": 2,
+        "elements": [
+          "menu"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "solid",
+        "color": "rgb(240, 240, 240)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "2px",
+        "style": "solid",
+        "color": "rgb(252, 252, 252)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(252, 252, 252)",
+        "count": 1,
+        "elements": [
+          "label"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid",
+        "color": "rgb(234, 40, 4)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(228, 199, 103) 0px 1px 2px 0px",
+      "count": 2,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.25) 0px 25px 50px -12px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgb(255, 255, 255) 0px 0px 0px 0px, rgb(196, 232, 209) 0px 0px 0px 2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+      "count": 1,
+      "confidence": "low"
+    }
+  ],
+  "gradients": [
+    {
+      "gradient": "linear-gradient(to right bottom, rgb(255, 107, 252), rgb(234, 40, 4), rgb(246, 244, 127))",
+      "type": "linear",
+      "stopColors": [
+        "rgb(255, 107, 252)",
+        "rgb(234, 40, 4)",
+        "rgb(246, 244, 127)"
+      ],
+      "count": 17
+    },
+    {
+      "gradient": "radial-gradient(75% 100% at 50% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0) 100%)",
+      "type": "radial",
+      "stopColors": [
+        "rgba(255, 255, 255, 0.4)",
+        "rgba(255, 255, 255, 0.4)",
+        "rgba(255, 255, 255, 0)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(rgb(255, 255, 255) 5%, rgba(0, 0, 0, 0) 30%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(255, 255, 255)",
+        "rgba(0, 0, 0, 0)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(to right bottom, rgb(255, 107, 252), rgb(229, 79, 226), rgb(234, 40, 4))",
+      "type": "linear",
+      "stopColors": [
+        "rgb(255, 107, 252)",
+        "rgb(229, 79, 226)",
+        "rgb(234, 40, 4)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(to right bottom, rgb(255, 107, 252), rgb(234, 40, 4), rgb(249, 126, 130))",
+      "type": "linear",
+      "stopColors": [
+        "rgb(255, 107, 252)",
+        "rgb(234, 40, 4)",
+        "rgb(249, 126, 130)"
+      ],
+      "count": 1
+    }
+  ],
+  "motion": {
+    "durations": [
+      {
+        "value": "0.001s",
+        "ms": 1,
+        "count": 2036
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease",
+        "type": "ease",
+        "count": 1990
+      },
+      {
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "type": "custom",
+        "count": 45
+      },
+      {
+        "value": "linear",
+        "type": "linear",
+        "count": 1
+      }
+    ],
+    "animations": [
+      {
+        "name": "scroll-x",
+        "duration": "0.001s",
+        "easing": "linear",
+        "count": 6,
+        "contexts": [
+          "other"
+        ]
+      }
+    ],
+    "contexts": {
+      "hero": {
+        "count": 12,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "border-color"
+        ]
+      },
+      "link": {
+        "count": 106,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "color",
+          "background-color",
+          "border-color",
+          "text-decoration-color"
+        ]
+      },
+      "button": {
+        "count": 32,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "input": {
+        "count": 8,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "nav": {
+        "count": 8,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "card": {
+        "count": 176,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "modal": {
+        "count": 1,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      }
+    },
+    "interactiveDeltas": [
+      {
+        "tag": "a",
+        "text": "Pricing",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(100, 100, 100)",
+            "to": "rgb(32, 32, 32)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Enterprise",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(100, 100, 100)",
+            "to": "rgb(32, 32, 32)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Docs",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(100, 100, 100)",
+            "to": "rgb(32, 32, 32)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Blog",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(100, 100, 100)",
+            "to": "rgb(32, 32, 32)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Sign in",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(100, 100, 100)",
+            "to": "rgb(32, 32, 32)"
+          }
+        }
+      }
+    ]
+  },
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "12px 16px",
+            "borderRadius": "0px",
+            "border": "1px solid rgb(0, 0, 0)",
+            "fontSize": "18px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "18px",
+        "text": "Get started for free",
+        "confidence": "medium"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(32, 32, 32)",
+            "padding": "8px 12px",
+            "borderRadius": "0px",
+            "border": "1px solid rgb(32, 32, 32)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "text": "Push a model",
+        "confidence": "medium"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(255, 252, 252)",
+            "color": "rgb(221, 68, 37)",
+            "padding": "8px 12px",
+            "borderRadius": "0px",
+            "border": "1px solid rgb(221, 68, 37)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "text": "Explore models",
+        "confidence": "medium"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(221, 68, 37)",
+            "padding": "8px 12px",
+            "borderRadius": "0px",
+            "border": "1px solid rgb(221, 68, 37)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "text": "Learn more about our enterprise plans",
+        "confidence": "medium"
+      }
+    ],
+    "inputs": {
+      "text": [
+        {
+          "specificType": "text",
+          "states": {
+            "default": {
+              "backgroundColor": "rgba(255, 255, 255, 0.1)",
+              "color": "rgb(32, 32, 32)",
+              "border": "1px solid rgba(0, 0, 0, 0)",
+              "borderRadius": "0px",
+              "padding": "6px 56px 6px 28px",
+              "boxShadow": "none",
+              "outline": "rgb(187, 187, 187) solid 1px"
+            },
+            "focus": null
+          }
+        }
+      ],
+      "checkbox": [],
+      "radio": [
+        {
+          "specificType": "radio",
+          "states": {
+            "default": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(252, 252, 252)",
+              "border": "0px none rgb(252, 252, 252)",
+              "borderRadius": "0px",
+              "padding": "0px",
+              "boxShadow": "none",
+              "outline": "rgb(252, 252, 252) none 3px"
+            },
+            "focus": null
+          }
+        },
+        {
+          "specificType": "radio",
+          "states": {
+            "default": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(32, 32, 32)",
+              "border": "0px none rgb(32, 32, 32)",
+              "borderRadius": "0px",
+              "padding": "0px",
+              "boxShadow": "none",
+              "outline": "rgb(32, 32, 32) none 3px"
+            },
+            "focus": null
+          }
+        }
+      ],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgb(32, 32, 32)",
+        "textDecoration": "none",
+        "fontWeight": "600",
+        "states": {
+          "default": {
+            "color": "rgb(32, 32, 32)",
+            "textDecoration": "underline dotted rgb(187, 187, 187)"
+          },
+          "hover": null
+        }
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(0, 0, 0)",
+            "textDecoration": "none"
+          },
+          "hover": null
+        }
+      },
+      {
+        "color": "rgb(100, 100, 100)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(100, 100, 100)",
+            "textDecoration": "none"
+          },
+          "hover": null
+        }
+      },
+      {
+        "color": "rgb(252, 252, 252)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(252, 252, 252)",
+            "textDecoration": "none"
+          },
+          "hover": null
+        }
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "none"
+          },
+          "hover": null
+        }
+      },
+      {
+        "color": "rgb(221, 68, 37)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(221, 68, 37)",
+            "textDecoration": "none"
+          },
+          "hover": null
+        }
+      },
+      {
+        "color": "rgb(234, 40, 4)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(234, 40, 4)",
+            "textDecoration": "none"
+          },
+          "hover": null
+        }
+      }
+    ],
+    "badges": {
+      "all": [
+        {
+          "backgroundColor": "rgb(43, 154, 102)",
+          "color": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "borderRadius": "9999px",
+          "border": "0px solid rgb(255, 255, 255)",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "20px",
+          "textTransform": "none",
+          "letterSpacing": "normal",
+          "variant": "neutral",
+          "styleType": "filled",
+          "isRounded": true,
+          "classes": "r8-platform-status-badge--indicator",
+          "confidence": "high"
+        }
+      ],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": [
+          {
+            "backgroundColor": "rgb(43, 154, 102)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "0px",
+            "borderRadius": "9999px",
+            "border": "0px solid rgb(255, 255, 255)",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "20px",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "variant": "neutral",
+            "styleType": "filled",
+            "isRounded": true,
+            "classes": "r8-platform-status-badge--indicator",
+            "confidence": "high"
+          }
+        ]
+      }
+    }
+  },
+  "breakpoints": [],
+  "iconSystem": [],
+  "frameworks": [
+    {
+      "name": "Tailwind CSS",
+      "confidence": "high",
+      "evidence": "arbitrary values (e.g., top-[117px]), responsive/state modifiers"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- design-scope final variant component: Stat -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stat — component</title>
+<link rel="stylesheet" href="../assets/tokens.css">
+<style>
+  body { font-family: var(--font, system-ui); background: var(--bg); color: var(--text);
+         padding: 32px; margin: 0; }
+  .demo-grid { display: grid; gap: 24px; max-width: 720px; }
+  .demo-section h2 { font-size: 15px; font-weight: 600; color: var(--text-muted); margin: 0 0 12px; }
+  .demo-row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  .demo-block { background: var(--surface); border: 1px solid var(--border);
+                 border-radius: var(--radius, 8px); padding: 20px; }
+  .note { font-size: 12px; color: var(--text-muted); font-family: var(--mono, monospace); }
+  
+  .stat { flex: 1; text-align: center; background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius, 12px); padding: 24px 16px; min-width: 140px; }
+  .num { font-size: 32px; font-weight: 700; color: var(--text); letter-spacing: -0.02em; }
+  .num.accent { color: var(--accent); }
+  .label { font-size: 13px; color: var(--text-muted); margin-top: 4px; }
+
+</style>
+</head>
+<body>
+<div class="demo-grid">
+  <div class="note">Component: Stat · tokens: assets/tokens.css · self-contained</div>
+  <div class="demo-section"><h2>Stat — number + label</h2>
+  <div class="demo-row">
+    <div class="stat"><div class="num">99.9%</div><div class="label">Uptime</div></div>
+    <div class="stat"><div class="num">10B+</div><div class="label">Events</div></div>
+    <div class="stat"><div class="num accent">4.9★</div><div class="label">Rating</div></div>
+  </div>
+  <div class="note">Numbers demoted to text color by default; the accent variant is reserved for ONE key metric.</div>
+</div>
+
+</div>
+<script src="../assets/theme.js"></script>
+</body>
+</html>

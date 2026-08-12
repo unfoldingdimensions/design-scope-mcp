@@ -1,0 +1,287 @@
+{
+  "url": "https://www.onemedical.com",
+  "captured": "2026-08-10T15:53:13+00:00",
+  "named_tokens": {
+    "light": {},
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "generous corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "generous",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "nav": 100,
+    "drawer": 4,
+    "overlay": 4
+  },
+  "z_index_rows": [
+    {
+      "role": "nav",
+      "selector": ".footer .navigation__location",
+      "value": "3"
+    },
+    {
+      "role": "drawer",
+      "selector": ".footer__drawer",
+      "value": "2"
+    },
+    {
+      "role": "drawer",
+      "selector": ".footer__drawer-close",
+      "value": "2"
+    },
+    {
+      "role": "drawer",
+      "selector": ".footer__drawer",
+      "value": "4"
+    },
+    {
+      "role": "nav",
+      "selector": ".navigation",
+      "value": "100"
+    },
+    {
+      "role": "nav",
+      "selector": ".navigation__wrapper",
+      "value": "2"
+    },
+    {
+      "role": "nav",
+      "selector": ".navigation__location-drawer",
+      "value": "1"
+    },
+    {
+      "role": "nav",
+      "selector": ".navigation__menu-icon-burger",
+      "value": "1"
+    },
+    {
+      "role": "nav",
+      "selector": ".navigation__menu-icon::after, .navigation__menu-icon::before",
+      "value": "1"
+    },
+    {
+      "role": "overlay",
+      "selector": ".fixed-black-overlay",
+      "value": "4"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "525px",
+      "selector": ".global-banner.-font-color-white img.global-banner__logo.-before",
+      "change": "width: 100%"
+    },
+    {
+      "at": "525px",
+      "selector": ".global-banner.-font-color-white img.global-banner__logo.-before",
+      "change": "max-width: 50px"
+    },
+    {
+      "at": "525px",
+      "selector": ".global-banner.-font-color-white img.global-banner__logo.-before",
+      "change": "top: 3px"
+    },
+    {
+      "at": "525px",
+      "selector": ".global-banner.-font-color-white img.global-banner__logo.-before",
+      "change": "position: relative"
+    },
+    {
+      "at": "525px",
+      "selector": ".global-banner.-font-color-white img.global-banner__logo.-before",
+      "change": "padding-right: 7px"
+    },
+    {
+      "at": "525px",
+      "selector": ".hornbill-2023 .page-hero-minimized__subcopy",
+      "change": "margin-bottom: 85px"
+    },
+    {
+      "at": "525px",
+      "selector": ".template-insurance-grid .form-select-menu-list",
+      "change": "max-height: 200px"
+    },
+    {
+      "at": "375px",
+      "selector": ".col-sm-1",
+      "change": "flex-grow: 0"
+    },
+    {
+      "at": "375px",
+      "selector": ".col-sm-1",
+      "change": "flex-shrink: 0"
+    },
+    {
+      "at": "375px",
+      "selector": ".col-sm-1",
+      "change": "flex-basis: 7.14286vw"
+    },
+    {
+      "at": "375px",
+      "selector": ".col-sm-1",
+      "change": "width: 7.14286vw"
+    },
+    {
+      "at": "375px",
+      "selector": ".col-sm-offset-0",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "375px",
+      "selector": ".col-sm-offset-right-0",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "375px",
+      "selector": ".col-sm-offset-top-0",
+      "change": "margin-top: 0px"
+    },
+    {
+      "at": "375px",
+      "selector": ".col-sm-offset-1",
+      "change": "margin-left: 7.14286vw"
+    },
+    {
+      "at": "375px",
+      "selector": ".col-sm-offset-right-1",
+      "change": "margin-right: 7.14286vw"
+    },
+    {
+      "at": "375px",
+      "selector": ".col-sm-offset-top-1",
+      "change": "margin-top: 7.14286vw"
+    },
+    {
+      "at": "375px",
+      "selector": ".col-sm-2",
+      "change": "flex-grow: 0"
+    },
+    {
+      "at": "375px",
+      "selector": ".col-sm-2",
+      "change": "flex-shrink: 0"
+    },
+    {
+      "at": "1160px",
+      "selector": ".col-nb-1",
+      "change": "flex-grow: 0"
+    },
+    {
+      "at": "1160px",
+      "selector": ".col-nb-1",
+      "change": "flex-shrink: 0"
+    },
+    {
+      "at": "1160px",
+      "selector": ".col-nb-1",
+      "change": "flex-basis: 7.14286vw"
+    },
+    {
+      "at": "1160px",
+      "selector": ".col-nb-1",
+      "change": "width: 7.14286vw"
+    },
+    {
+      "at": "1160px",
+      "selector": ".col-nb-offset-0",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "1160px",
+      "selector": ".col-nb-offset-right-0",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "1160px",
+      "selector": ".col-nb-offset-top-0",
+      "change": "margin-top: 0px"
+    },
+    {
+      "at": "1160px",
+      "selector": ".col-nb-offset-1",
+      "change": "margin-left: 7.14286vw"
+    },
+    {
+      "at": "1160px",
+      "selector": ".col-nb-offset-right-1",
+      "change": "margin-right: 7.14286vw"
+    },
+    {
+      "at": "1160px",
+      "selector": ".col-nb-offset-top-1",
+      "change": "margin-top: 7.14286vw"
+    },
+    {
+      "at": "1160px",
+      "selector": ".col-nb-2",
+      "change": "flex-grow: 0"
+    },
+    {
+      "at": "1160px",
+      "selector": ".col-nb-2",
+      "change": "flex-shrink: 0"
+    },
+    {
+      "at": "1024px",
+      "selector": ".col-tbl-1",
+      "change": "flex-grow: 0"
+    },
+    {
+      "at": "1024px",
+      "selector": ".col-tbl-1",
+      "change": "flex-shrink: 0"
+    },
+    {
+      "at": "1024px",
+      "selector": ".col-tbl-1",
+      "change": "flex-basis: 7.14286vw"
+    },
+    {
+      "at": "1024px",
+      "selector": ".col-tbl-1",
+      "change": "width: 7.14286vw"
+    },
+    {
+      "at": "1024px",
+      "selector": ".col-tbl-offset-0",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".col-tbl-offset-right-0",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".col-tbl-offset-top-0",
+      "change": "margin-top: 0px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".col-tbl-offset-1",
+      "change": "margin-left: 7.14286vw"
+    },
+    {
+      "at": "1024px",
+      "selector": ".col-tbl-offset-right-1",
+      "change": "margin-right: 7.14286vw"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "url": "https://amplitude.com",
+  "captured": "2026-08-10T10:32:41+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgb(243, 243, 243)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(30, 97, 240)",
+          "after": "rgb(23, 9, 233)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "nav.relative",
+      "diffs": {
+        "background": "rgba(0, 0, 0, 0) → rgba(245, 247, 249, 0.9)",
+        "backdropFilter": "none → blur(30px)"
+      }
+    },
+    {
+      "selector": "nav.relative",
+      "diffs": {
+        "background": "rgba(0, 0, 0, 0) → rgba(245, 247, 249, 0.9)",
+        "backdropFilter": "none → blur(30px)"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 275,
+    "tabs": 14,
+    "accordions": 0,
+    "carousels": 1,
+    "observers": 19,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 1
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "button",
+      "classes": "ccc-notify-button ccc-link ccc-tabbable ccc-accept-button",
+      "text": "Accept",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "button",
+      "classes": "ccc-notify-button ccc-link ccc-tabbable ccc-reject-button",
+      "text": "Reject",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "button",
+      "classes": "ccc-notify-button ccc-link ccc-tabbable ccc-notify-link",
+      "text": "Settings",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "button",
+      "classes": "relative h-12 px-3 text-[15px] md:text-[16px] font-semibold leading-[22px] text-",
+      "text": "Agent Analytics",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "button",
+      "classes": "relative h-12 px-3 text-[15px] md:text-[16px] font-semibold leading-[22px] text-",
+      "text": "Global Chat",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "button",
+      "classes": "relative h-12 px-3 text-[15px] md:text-[16px] font-semibold leading-[22px] text-",
+      "text": "AI-powered Replays",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "button",
+      "classes": "relative h-12 px-3 text-[15px] md:text-[16px] font-semibold leading-[22px] text-",
+      "text": "AI Data Governance",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "button",
+      "classes": "h-10 rounded-full px-4 text-[16px] font-semibold leading-[22px] transition-color",
+      "text": "MCP",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    }
+  ]
+}

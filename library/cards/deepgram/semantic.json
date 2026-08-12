@@ -1,0 +1,346 @@
+{
+  "url": "https://deepgram.com",
+  "captured": "2026-08-10T09:13:40+00:00",
+  "named_tokens": {
+    "light": {
+      "--docsearch-primary-color": "#5468ff",
+      "--docsearch-text-color": "#1c1e21",
+      "--docsearch-spacing": "12px",
+      "--docsearch-icon-stroke-width": "1.4",
+      "--docsearch-highlight-color": "#5468ff",
+      "--docsearch-muted-color": "#969faf",
+      "--docsearch-container-background": "#656c85cc",
+      "--docsearch-logo-color": "#5468ff",
+      "--docsearch-modal-width": "560px",
+      "--docsearch-modal-height": "600px",
+      "--docsearch-modal-background": "#f5f6f7",
+      "--docsearch-modal-shadow": "inset 1px 1px 0 0 #ffffff80,0 3px 8px 0 #555a64",
+      "--docsearch-searchbox-height": "56px",
+      "--docsearch-searchbox-background": "#ebedf0",
+      "--docsearch-searchbox-focus-background": "#fff",
+      "--docsearch-searchbox-shadow": "inset 0 0 0 2px var(--docsearch-primary-color)",
+      "--docsearch-hit-height": "56px",
+      "--docsearch-hit-color": "#444950",
+      "--docsearch-hit-active-color": "#fff",
+      "--docsearch-hit-background": "#fff",
+      "--docsearch-hit-shadow": "0 1px 3px 0 #d4d9e1",
+      "--docsearch-key-gradient": "linear-gradient(-225deg,#d5dbe4,#f8f8f8)",
+      "--docsearch-key-shadow": "inset 0 -2px 0 0 #cdcde6,inset 0 0 1px 1px #fff,0 1px 2px 1px #1e235a66",
+      "--docsearch-key-pressed-shadow": "inset 0 -2px 0 0 #cdcde6,inset 0 0 1px 1px #fff,0 1px 1px 0 #1e235a66",
+      "--docsearch-footer-height": "44px",
+      "--docsearch-footer-background": "#fff",
+      "--docsearch-footer-shadow": "0 -1px 0 0 #e0e3e8,0 -3px 6px 0 #45629b1f",
+      "--z-header": "200",
+      "--z-overlay": "300",
+      "--z-lightbox": "1000",
+      "--deepgram-primary": "#13ef95",
+      "--deepgram-secondary": "#201cff",
+      "--deepgram-background": "#0b0b0c",
+      "--deepgram-modal-background": "#1a1a1f",
+      "--deepgram-translucent-background": "#00000080",
+      "--deepgram-header-background": "#1a1a1f",
+      "--deepgram-sidebar-background": "#0b0b0c",
+      "--deepgram-card-background": "#1a1a1f",
+      "--deepgram-border": "#2c2c33",
+      "--deepgram-text": "#fbfbff",
+      "--deepgram-muted": "#949498",
+      "--hsf-global__font-family": "\"inter\"",
+      "--hsf-global__font-size": "18px",
+      "--hsf-global__color": "#fff",
+      "--hsf-background__background-color": "#000",
+      "--hsf-field-label__color": "#fff"
+    },
+    "dark": {
+      "--docsearch-text-color": "#f5f6f7",
+      "--docsearch-container-background": "#090a11cc",
+      "--docsearch-modal-background": "#15172a",
+      "--docsearch-modal-shadow": "inset 1px 1px 0 0 #2c2e40,0 3px 8px 0 #000309",
+      "--docsearch-searchbox-background": "#090a11",
+      "--docsearch-searchbox-focus-background": "#000",
+      "--docsearch-hit-color": "#bec3c9",
+      "--docsearch-hit-shadow": "none",
+      "--docsearch-hit-background": "#090a11",
+      "--docsearch-key-gradient": "linear-gradient(-26.5deg,#565872,#31355b)",
+      "--docsearch-key-shadow": "inset 0 -2px 0 0 #282d55,inset 0 0 1px 1px #51577d,0 2px 2px 0 #0304094d",
+      "--docsearch-key-pressed-shadow": "inset 0 -2px 0 0 #282d55,inset 0 0 1px 1px #51577d,0 1px 1px 0 #0304094d",
+      "--docsearch-footer-background": "#1e2136",
+      "--docsearch-footer-shadow": "inset 0 1px 0 0 #494c6a80,0 -4px 8px 0 #0003",
+      "--docsearch-logo-color": "#fff",
+      "--docsearch-muted-color": "#7f8497"
+    }
+  },
+  "semantic_colors": {
+    "light": {
+      "--deepgram-background": "#0b0b0c",
+      "--deepgram-border": "#2c2c33",
+      "--deepgram-card-background": "#1a1a1f",
+      "--deepgram-header-background": "#1a1a1f",
+      "--deepgram-modal-background": "#1a1a1f",
+      "--deepgram-muted": "#949498",
+      "--deepgram-primary": "#13ef95",
+      "--deepgram-secondary": "#201cff",
+      "--deepgram-sidebar-background": "#0b0b0c",
+      "--deepgram-text": "#fbfbff",
+      "--deepgram-translucent-background": "#00000080",
+      "--docsearch-container-background": "#656c85cc",
+      "--docsearch-footer-background": "#fff",
+      "--docsearch-highlight-color": "#5468ff",
+      "--docsearch-hit-active-color": "#fff",
+      "--docsearch-hit-background": "#fff",
+      "--docsearch-hit-color": "#444950",
+      "--docsearch-logo-color": "#5468ff",
+      "--docsearch-modal-background": "#f5f6f7",
+      "--docsearch-muted-color": "#969faf",
+      "--docsearch-primary-color": "#5468ff",
+      "--docsearch-searchbox-background": "#ebedf0",
+      "--docsearch-searchbox-focus-background": "#fff",
+      "--docsearch-text-color": "#1c1e21"
+    },
+    "dark": {
+      "--docsearch-container-background": "#090a11cc",
+      "--docsearch-footer-background": "#1e2136",
+      "--docsearch-hit-background": "#090a11",
+      "--docsearch-hit-color": "#bec3c9",
+      "--docsearch-logo-color": "#fff",
+      "--docsearch-modal-background": "#15172a",
+      "--docsearch-muted-color": "#7f8497",
+      "--docsearch-searchbox-background": "#090a11",
+      "--docsearch-searchbox-focus-background": "#000",
+      "--docsearch-text-color": "#f5f6f7"
+    },
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "generous corners",
+      "elevated (soft shadows)"
+    ],
+    "flat": false,
+    "corner_style": "generous",
+    "type_mood": [
+      "mono accents"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "modal": 5,
+    "overlay": 2
+  },
+  "z_index_rows": [
+    {
+      "role": "modal",
+      "selector": ".image-gallery.fullscreen-modal",
+      "value": "5"
+    },
+    {
+      "role": "overlay",
+      "selector": ".rfm-overlay::before, .rfm-overlay::after",
+      "value": "2"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": ".DocSearch-Button-Key",
+      "change": "transition-behavior: normal"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": ".DocSearch-Button-Key",
+      "change": "transition-duration: 0s"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": ".DocSearch-Button-Key",
+      "change": "transition-timing-function: ease"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": ".DocSearch-Button-Key",
+      "change": "transition-delay: 0s"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": ".DocSearch-Button-Key",
+      "change": "transition-property: none"
+    },
+    {
+      "at": "768px",
+      "selector": ".DocSearch-Button-Keys, .DocSearch-Button-Placeholder",
+      "change": "display: none"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Reset",
+      "change": "animation-duration: auto"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Reset",
+      "change": "animation-timing-function: ease"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Reset",
+      "change": "animation-delay: 0s"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Reset",
+      "change": "animation-iteration-count: 1"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Reset",
+      "change": "animation-direction: normal"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Reset",
+      "change": "animation-fill-mode: none"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Hit--deleting",
+      "change": "transition-behavior: normal"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Hit--deleting",
+      "change": "transition-duration: 0s"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Hit--deleting",
+      "change": "transition-timing-function: ease"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Hit--deleting",
+      "change": "transition-delay: 0s"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Hit--deleting",
+      "change": "transition-property: none"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Hit--favoriting",
+      "change": "transition-behavior: normal"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Hit--favoriting",
+      "change": "transition-duration: 0s"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Hit--favoriting",
+      "change": "transition-timing-function: ease"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Hit--favoriting",
+      "change": "transition-delay: 0s"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Hit--favoriting",
+      "change": "transition-property: none"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Hit-action-button:focus, .DocSearch-Hit-action-button:hover",
+      "change": "transition-behavior: normal"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Hit-action-button:focus, .DocSearch-Hit-action-button:hover",
+      "change": "transition-duration: 0s"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Hit-action-button:focus, .DocSearch-Hit-action-button:hover",
+      "change": "transition-timing-function: ease"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Hit-action-button:focus, .DocSearch-Hit-action-button:hover",
+      "change": "transition-delay: 0s"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Hit-action-button:focus, .DocSearch-Hit-action-button:hover",
+      "change": "transition-property: none"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Hit-action-button:focus, .DocSearch-Hit-action-button:hover",
+      "change": "background-image: initial"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Hit-action-button:focus, .DocSearch-Hit-action-button:hover",
+      "change": "background-position-x: initial"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Hit-action-button:focus, .DocSearch-Hit-action-button:hover",
+      "change": "background-position-y: initial"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Hit-action-button:focus, .DocSearch-Hit-action-button:hover",
+      "change": "background-size: initial"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Hit-action-button:focus, .DocSearch-Hit-action-button:hover",
+      "change": "background-repeat: initial"
+    },
+    {
+      "at": "screen and (prefers-reduced-motion: redu",
+      "selector": ".DocSearch-Hit-action-button:focus, .DocSearch-Hit-action-button:hover",
+      "change": "background-attachment: initial"
+    },
+    {
+      "at": "768px",
+      "selector": ".DocSearch-Dropdown",
+      "change": "height: 100%"
+    },
+    {
+      "at": "768px",
+      "selector": ".DocSearch-Container",
+      "change": "height: calc(var(--docsearch-vh, 1vh)*100)"
+    },
+    {
+      "at": "768px",
+      "selector": ".DocSearch-Container",
+      "change": "position: absolute"
+    },
+    {
+      "at": "768px",
+      "selector": ".DocSearch-Footer",
+      "change": "border-top-left-radius: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": ".DocSearch-Footer",
+      "change": "border-top-right-radius: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": ".DocSearch-Footer",
+      "change": "border-bottom-right-radius: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": ".DocSearch-Footer",
+      "change": "border-bottom-left-radius: 0px"
+    }
+  ]
+}

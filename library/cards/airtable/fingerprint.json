@@ -1,0 +1,2996 @@
+{
+  "url": "https://www.airtable.com/",
+  "extractedAt": "2026-08-09T11:52:07.668Z",
+  "meta": {
+    "snapshotId": "c937b6b9-e9c2-4c91-b6a9-895506c96c6f",
+    "httpStatus": 200,
+    "dembrandtVersion": "0.27.1",
+    "schemaVersion": "1.5.0",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "fontsReady": true,
+    "flags": {
+      "mobile": true
+    }
+  },
+  "siteName": "Airtable",
+  "logo": {
+    "source": "svg",
+    "context": "header",
+    "inline": true,
+    "url": "https://www.airtable.com/",
+    "color": "#181d26",
+    "ariaLabel": null,
+    "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" fill=\"none\" viewBox=\"0 0 27 23\" style=\"color: rgb(24, 29, 38);\"><path fill=\"currentColor\" d=\"m25.28 7.199-10.42 4.316a1.56 1.56 0 0 0-.965 1.444v8.412c0 .556.566.934 1.08.722l10.42-4.316c.584-.242.965-.812.965-1.444V7.922a.782.782 0 0 0-1.08-.722zM0 7.92v7.031c0 .557.566.935 1.08.723l10.23-4.238L1.08 7.199A.78.78 0 0 0 0 7.921M1.745 5.925l10.24 4.24a3.13 3.13 0 0 0 2.39 0l10.242-4.242a.781.781 0 0 0 0-1.444L14.376.238a3.13 3.13 0 0 0-2.392 0L1.745 4.478a.782.782 0 0 0 0 1.446z\"></path></svg>",
+    "dataUri": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22none%22%20viewBox%3D%220%200%2027%2023%22%20style%3D%22color%3A%20rgb(24%2C%2029%2C%2038)%3B%22%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22m25.28%207.199-10.42%204.316a1.56%201.56%200%200%200-.965%201.444v8.412c0%20.556.566.934%201.08.722l10.42-4.316c.584-.242.965-.812.965-1.444V7.922a.782.782%200%200%200-1.08-.722zM0%207.92v7.031c0%20.557.566.935%201.08.723l10.23-4.238L1.08%207.199A.78.78%200%200%200%200%207.921M1.745%205.925l10.24%204.24a3.13%203.13%200%200%200%202.39%200l10.242-4.242a.781.781%200%200%200%200-1.444L14.376.238a3.13%203.13%200%200%200-2.392%200L1.745%204.478a.782.782%200%200%200%200%201.446z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E",
+    "svgColors": [],
+    "width": 38.390625,
+    "height": 32,
+    "rect": {
+      "x": 48,
+      "y": 66,
+      "width": 38,
+      "height": 32
+    },
+    "natural": {
+      "width": 27,
+      "height": 23
+    },
+    "type": "logomark",
+    "reversed": false,
+    "background": "#ffffff",
+    "safeZone": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "position": {
+      "top": 65.890625,
+      "left": 48
+    }
+  },
+  "logoInstances": [
+    {
+      "source": "svg",
+      "context": "header",
+      "inline": true,
+      "url": "https://www.airtable.com/",
+      "color": "#181d26",
+      "ariaLabel": null,
+      "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" fill=\"none\" viewBox=\"0 0 27 23\" style=\"color: rgb(24, 29, 38);\"><path fill=\"currentColor\" d=\"m25.28 7.199-10.42 4.316a1.56 1.56 0 0 0-.965 1.444v8.412c0 .556.566.934 1.08.722l10.42-4.316c.584-.242.965-.812.965-1.444V7.922a.782.782 0 0 0-1.08-.722zM0 7.92v7.031c0 .557.566.935 1.08.723l10.23-4.238L1.08 7.199A.78.78 0 0 0 0 7.921M1.745 5.925l10.24 4.24a3.13 3.13 0 0 0 2.39 0l10.242-4.242a.781.781 0 0 0 0-1.444L14.376.238a3.13 3.13 0 0 0-2.392 0L1.745 4.478a.782.782 0 0 0 0 1.446z\"></path></svg>",
+      "dataUri": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22none%22%20viewBox%3D%220%200%2027%2023%22%20style%3D%22color%3A%20rgb(24%2C%2029%2C%2038)%3B%22%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22m25.28%207.199-10.42%204.316a1.56%201.56%200%200%200-.965%201.444v8.412c0%20.556.566.934%201.08.722l10.42-4.316c.584-.242.965-.812.965-1.444V7.922a.782.782%200%200%200-1.08-.722zM0%207.92v7.031c0%20.557.566.935%201.08.723l10.23-4.238L1.08%207.199A.78.78%200%200%200%200%207.921M1.745%205.925l10.24%204.24a3.13%203.13%200%200%200%202.39%200l10.242-4.242a.781.781%200%200%200%200-1.444L14.376.238a3.13%203.13%200%200%200-2.392%200L1.745%204.478a.782.782%200%200%200%200%201.446z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E",
+      "svgColors": [],
+      "width": 38.390625,
+      "height": 32,
+      "rect": {
+        "x": 48,
+        "y": 66,
+        "width": 38,
+        "height": 32
+      },
+      "natural": {
+        "width": 27,
+        "height": 23
+      },
+      "type": "logomark",
+      "reversed": false,
+      "background": "#ffffff",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 65.890625,
+        "left": 48
+      }
+    },
+    {
+      "source": "svg",
+      "context": "header",
+      "inline": true,
+      "url": "https://www.airtable.com/",
+      "color": "#181d26",
+      "ariaLabel": null,
+      "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"84\" height=\"19\" fill=\"none\" class=\"Brand-module_brandWordmark__KvMaL\" style=\"color: rgb(24, 29, 38);\"><path fill=\"currentColor\" d=\"M21.196.003h-3.232v3.232h3.232zM9.971.002H6.947L.6 16.422l-.6 1.5v.1h3.224l.05-.1.575-1.5.97-2.574h7.287l.965 2.574.55 1.5.05.1h3.274v-.1l-.6-1.5zM5.844 11.123l2.627-6.972 2.613 6.972zM18.118 5.175v12.846h2.924V5.05h-2.924zM27.665 5.2a4.5 4.5 0 0 0-1.45 1.125q-.287.334-.5.71V5.051h-2.923v12.97h2.923v-7.456a5.5 5.5 0 0 1 .575-1.316q.525-.874 1.5-1.362.975-.487 2.4-.237V4.851q-.225-.05-.8-.05-.9 0-1.725.4zM36.512 2.001h-2.775q.024 1.474-.124 2.062-.15.588-.612.787-.464.2-1.637.2V7.5h2.224v6.572q0 2.05 1.112 3.124t2.962 1.075a5.2 5.2 0 0 0 1.137-.125q.561-.125.812-.3v-2.45a2.6 2.6 0 0 1-.662.275q-.314.075-.662.075-.8 0-1.287-.463-.488-.462-.488-1.461V7.498h3.199V5.05h-3.199v-3.05zM49.247 5.375Q48.01 4.8 46.41 4.8c-1.066 0-1.936.175-2.71.525q-1.163.526-1.888 1.375a5 5 0 0 0-1.024 1.925l2.674.7q.15-.7.525-1.2t.987-.787 1.437-.288q.724 0 1.3.275.574.276.9.825.324.55.324 1.3v.449l-3.773.55q-1.45.224-2.462.737-1.013.512-1.55 1.35-.537.837-.537 1.961c0 .75.196 1.362.587 1.937q.587.862 1.612 1.35 1.025.486 2.324.487a4.72 4.72 0 0 0 2.8-.887 3.9 3.9 0 0 0 1-1.045v1.682h2.898V9.625q0-1.474-.675-2.575-.675-1.098-1.912-1.674m-.65 8.91a3.7 3.7 0 0 1-1.2 1.299q-.76.512-1.761.512-.926 0-1.487-.487a1.57 1.57 0 0 1-.562-1.237c0-.5.17-.928.512-1.237q.512-.463 1.538-.612l3.298-.575v1.577q-.132.387-.337.76M63.34 5.663Q61.968 4.8 60.243 4.8q-1.275 0-2.362.538-1.087.537-1.612 1.361V.002h-2.924v18.019h2.924v-1.675q.525.825 1.612 1.375t2.312.55q1.723 0 3.124-.875 1.4-.874 2.186-2.411.788-1.537.788-3.461 0-1.925-.788-3.461-.787-1.537-2.161-2.4m-.486 8.035q-.464.975-1.3 1.511a3.4 3.4 0 0 1-1.887.538q-.9 0-1.65-.437-.748-.438-1.212-1.225a4.04 4.04 0 0 1-.537-1.762v-1.65q.075-.975.537-1.737A3.3 3.3 0 0 1 58.03 7.75q.762-.424 1.737-.424c.65 0 1.27.174 1.812.524q.812.525 1.275 1.475.461.95.462 2.174 0 1.225-.462 2.2M67.465.1v17.921000000000003h2.924V0h-2.924zM83.62 8.736q-.488-1.66-1.913-2.799Q80.282 4.8 77.81 4.8q-1.824 0-3.274.863a5.9 5.9 0 0 0-2.25 2.399q-.8 1.538-.799 3.46c0 1.283.275 2.463.825 3.487a6 6 0 0 0 2.299 2.4q1.474.862 3.324.862 2.373 0 3.911-1.025a4.95 4.95 0 0 0 2.062-2.799l-2.85-.774q-.324 1.075-1.074 1.612t-1.975.537q-1.124 0-1.949-.525t-1.274-1.512a5.1 5.1 0 0 1-.424-1.712h9.546a8.3 8.3 0 0 0-.288-3.336m-9.142 1.237q.095-.468.257-.874.4-1 1.187-1.537.788-.538 1.887-.538.9 0 1.562.375t1.05 1.05q.387.676.463 1.524z\"></path></svg>",
+      "dataUri": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2284%22%20height%3D%2219%22%20fill%3D%22none%22%20class%3D%22Brand-module_brandWordmark__KvMaL%22%20style%3D%22color%3A%20rgb(24%2C%2029%2C%2038)%3B%22%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22M21.196.003h-3.232v3.232h3.232zM9.971.002H6.947L.6%2016.422l-.6%201.5v.1h3.224l.05-.1.575-1.5.97-2.574h7.287l.965%202.574.55%201.5.05.1h3.274v-.1l-.6-1.5zM5.844%2011.123l2.627-6.972%202.613%206.972zM18.118%205.175v12.846h2.924V5.05h-2.924zM27.665%205.2a4.5%204.5%200%200%200-1.45%201.125q-.287.334-.5.71V5.051h-2.923v12.97h2.923v-7.456a5.5%205.5%200%200%201%20.575-1.316q.525-.874%201.5-1.362.975-.487%202.4-.237V4.851q-.225-.05-.8-.05-.9%200-1.725.4zM36.512%202.001h-2.775q.024%201.474-.124%202.062-.15.588-.612.787-.464.2-1.637.2V7.5h2.224v6.572q0%202.05%201.112%203.124t2.962%201.075a5.2%205.2%200%200%200%201.137-.125q.561-.125.812-.3v-2.45a2.6%202.6%200%200%201-.662.275q-.314.075-.662.075-.8%200-1.287-.463-.488-.462-.488-1.461V7.498h3.199V5.05h-3.199v-3.05zM49.247%205.375Q48.01%204.8%2046.41%204.8c-1.066%200-1.936.175-2.71.525q-1.163.526-1.888%201.375a5%205%200%200%200-1.024%201.925l2.674.7q.15-.7.525-1.2t.987-.787%201.437-.288q.724%200%201.3.275.574.276.9.825.324.55.324%201.3v.449l-3.773.55q-1.45.224-2.462.737-1.013.512-1.55%201.35-.537.837-.537%201.961c0%20.75.196%201.362.587%201.937q.587.862%201.612%201.35%201.025.486%202.324.487a4.72%204.72%200%200%200%202.8-.887%203.9%203.9%200%200%200%201-1.045v1.682h2.898V9.625q0-1.474-.675-2.575-.675-1.098-1.912-1.674m-.65%208.91a3.7%203.7%200%200%201-1.2%201.299q-.76.512-1.761.512-.926%200-1.487-.487a1.57%201.57%200%200%201-.562-1.237c0-.5.17-.928.512-1.237q.512-.463%201.538-.612l3.298-.575v1.577q-.132.387-.337.76M63.34%205.663Q61.968%204.8%2060.243%204.8q-1.275%200-2.362.538-1.087.537-1.612%201.361V.002h-2.924v18.019h2.924v-1.675q.525.825%201.612%201.375t2.312.55q1.723%200%203.124-.875%201.4-.874%202.186-2.411.788-1.537.788-3.461%200-1.925-.788-3.461-.787-1.537-2.161-2.4m-.486%208.035q-.464.975-1.3%201.511a3.4%203.4%200%200%201-1.887.538q-.9%200-1.65-.437-.748-.438-1.212-1.225a4.04%204.04%200%200%201-.537-1.762v-1.65q.075-.975.537-1.737A3.3%203.3%200%200%201%2058.03%207.75q.762-.424%201.737-.424c.65%200%201.27.174%201.812.524q.812.525%201.275%201.475.461.95.462%202.174%200%201.225-.462%202.2M67.465.1v17.921000000000003h2.924V0h-2.924zM83.62%208.736q-.488-1.66-1.913-2.799Q80.282%204.8%2077.81%204.8q-1.824%200-3.274.863a5.9%205.9%200%200%200-2.25%202.399q-.8%201.538-.799%203.46c0%201.283.275%202.463.825%203.487a6%206%200%200%200%202.299%202.4q1.474.862%203.324.862%202.373%200%203.911-1.025a4.95%204.95%200%200%200%202.062-2.799l-2.85-.774q-.324%201.075-1.074%201.612t-1.975.537q-1.124%200-1.949-.525t-1.274-1.512a5.1%205.1%200%200%201-.424-1.712h9.546a8.3%208.3%200%200%200-.288-3.336m-9.142%201.237q.095-.468.257-.874.4-1%201.187-1.537.788-.538%201.887-.538.9%200%201.562.375t1.05%201.05q.387.676.463%201.524z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E",
+      "svgColors": [],
+      "width": 84,
+      "height": 19,
+      "rect": {
+        "x": 90,
+        "y": 72,
+        "width": 84,
+        "height": 19
+      },
+      "natural": {
+        "width": null,
+        "height": null
+      },
+      "type": "wordmark",
+      "reversed": false,
+      "background": "#ffffff",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 72.390625,
+        "left": 90.390625
+      }
+    },
+    {
+      "source": "svg",
+      "context": "footer",
+      "inline": true,
+      "url": "https://www.airtable.com/",
+      "color": "#181d26",
+      "ariaLabel": null,
+      "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"27\" fill=\"none\" viewBox=\"0 0 27 23\" style=\"color: rgb(24, 29, 38);\"><path fill=\"currentColor\" d=\"m25.28 7.199-10.42 4.316a1.56 1.56 0 0 0-.965 1.444v8.412c0 .556.566.934 1.08.722l10.42-4.316c.584-.242.965-.812.965-1.444V7.922a.782.782 0 0 0-1.08-.722zM0 7.92v7.031c0 .557.566.935 1.08.723l10.23-4.238L1.08 7.199A.78.78 0 0 0 0 7.921M1.745 5.925l10.24 4.24a3.13 3.13 0 0 0 2.39 0l10.242-4.242a.781.781 0 0 0 0-1.444L14.376.238a3.13 3.13 0 0 0-2.392 0L1.745 4.478a.782.782 0 0 0 0 1.446z\"></path></svg>",
+      "dataUri": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2232%22%20height%3D%2227%22%20fill%3D%22none%22%20viewBox%3D%220%200%2027%2023%22%20style%3D%22color%3A%20rgb(24%2C%2029%2C%2038)%3B%22%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22m25.28%207.199-10.42%204.316a1.56%201.56%200%200%200-.965%201.444v8.412c0%20.556.566.934%201.08.722l10.42-4.316c.584-.242.965-.812.965-1.444V7.922a.782.782%200%200%200-1.08-.722zM0%207.92v7.031c0%20.557.566.935%201.08.723l10.23-4.238L1.08%207.199A.78.78%200%200%200%200%207.921M1.745%205.925l10.24%204.24a3.13%203.13%200%200%200%202.39%200l10.242-4.242a.781.781%200%200%200%200-1.444L14.376.238a3.13%203.13%200%200%200-2.392%200L1.745%204.478a.782.782%200%200%200%200%201.446z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E",
+      "svgColors": [],
+      "width": 32,
+      "height": 27,
+      "rect": {
+        "x": 290,
+        "y": 7512,
+        "width": 32,
+        "height": 27
+      },
+      "natural": {
+        "width": 27,
+        "height": 23
+      },
+      "type": "logomark",
+      "reversed": false,
+      "background": "#ffffff",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 7512.40625,
+        "left": 290
+      }
+    },
+    {
+      "source": "img",
+      "context": "hero",
+      "url": "https://static.airtable.com/images/homepage-variant-b/logo-openai.webp",
+      "width": 128,
+      "height": 128,
+      "rect": {
+        "x": 776,
+        "y": 1573,
+        "width": 64,
+        "height": 64
+      },
+      "natural": {
+        "width": 128,
+        "height": 128
+      },
+      "alt": "OpenAI uses Airtable to surface product risks faster",
+      "type": "logomark",
+      "reversed": false,
+      "background": "#ffffff",
+      "safeZone": {
+        "top": 16,
+        "right": 16,
+        "bottom": 16,
+        "left": 0
+      },
+      "position": {
+        "top": 1572.734375,
+        "left": 776.328125
+      }
+    }
+  ],
+  "favicons": [
+    {
+      "type": "icon",
+      "url": "https://www.airtable.com/favicon.ico",
+      "sizes": null
+    },
+    {
+      "type": "og:image",
+      "url": "https://cdn.sanity.io/images/hlcyrtq5/production/00c20d5108d1335f5a243ddcd70ea4a2d6d9a844-1200x630.webp",
+      "sizes": null
+    },
+    {
+      "type": "twitter:image",
+      "url": "https://cdn.sanity.io/images/hlcyrtq5/production/00c20d5108d1335f5a243ddcd70ea4a2d6d9a844-1200x630.webp",
+      "sizes": null
+    }
+  ],
+  "colors": {
+    "semantic": {
+      "primary": "rgb(24, 29, 38)",
+      "background": "rgb(255, 255, 255)",
+      "text": "rgb(51, 51, 51)",
+      "accent": "rgb(220, 5, 59)"
+    },
+    "palette": [
+      {
+        "color": "rgb(24, 29, 38)",
+        "normalized": "#181d26",
+        "count": 181,
+        "confidence": "high",
+        "sources": [
+          "mainnav-module_mainnavwrapper_",
+          "[object",
+          "collapse-module_navcollapsewra"
+        ],
+        "lch": "lch(10.57% 6.97 267.37)",
+        "oklch": "oklch(22.99% 0.019 262.11)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#1d232e",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 252,
+        "confidence": "high",
+        "sources": [
+          "actionbutton-module_actionbutt",
+          "actionbutton-module_mediumandu",
+          "pausebutton-module-scss-module"
+        ],
+        "lch": "lch(100% 0.03 53.35)",
+        "oklch": "oklch(100% 0 89.88)",
+        "role": "surface",
+        "onColor": "#000000",
+        "hover": "#d9d9d9"
+      },
+      {
+        "color": "rgb(51, 56, 64)",
+        "normalized": "#333840",
+        "count": 113,
+        "confidence": "high",
+        "sources": [
+          "promocard-module_promobarwrap_",
+          "promocard-module_promobarinner",
+          "flex"
+        ],
+        "lch": "lch(23.28% 5.78 263.52)",
+        "oklch": "oklch(33.91% 0.016 259.81)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#3d434d",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(97, 102, 112)",
+        "normalized": "#616670",
+        "count": 48,
+        "confidence": "high",
+        "sources": [
+          "text-[13px]",
+          "text-[10.5px]",
+          "text-[9px]"
+        ],
+        "lch": "lch(43.01% 6.34 267.14)",
+        "oklch": "oklch(50.94% 0.017 264.41)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#747a86"
+      },
+      {
+        "color": "rgb(37, 79, 173)",
+        "normalized": "#254fad",
+        "count": 8,
+        "confidence": "high",
+        "sources": [
+          "[object"
+        ],
+        "lch": "lch(35.1% 57.12 283.2)",
+        "oklch": "oklch(45.53% 0.158 263.34)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#2c5fd0",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(151, 154, 160)",
+        "normalized": "#979aa0",
+        "count": 6,
+        "confidence": "medium",
+        "sources": [
+          "text-[10.5px]"
+        ],
+        "lch": "lch(63.49% 3.54 266.44)",
+        "oklch": "oklch(68.56% 0.009 264.5)",
+        "role": "neutral",
+        "onColor": "#000000",
+        "hover": "#808388"
+      },
+      {
+        "color": "rgb(220, 5, 59)",
+        "normalized": "#dc053b",
+        "count": 5,
+        "confidence": "medium",
+        "sources": [
+          "text-[11px]",
+          "risksummarycard-module-scss-mo"
+        ],
+        "lch": "lch(47.37% 80.9 26.05)",
+        "oklch": "oklch(56.72% 0.226 19.64)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#ff0647"
+      },
+      {
+        "color": "rgb(22, 110, 225)",
+        "normalized": "#166ee1",
+        "count": 2,
+        "confidence": "high",
+        "sources": [
+          "w-[20px]",
+          "bg-[#166ee1]"
+        ],
+        "lch": "lch(46.87% 67.36 278.6)",
+        "oklch": "oklch(55.73% 0.192 257.95)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#1a84ff",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(91, 3, 67)",
+        "normalized": "#5b0343",
+        "count": 1,
+        "confidence": "high",
+        "sources": [
+          "ctabannerbackground-module-scs"
+        ],
+        "lch": "lch(18.94% 42.92 341.46)",
+        "oklch": "oklch(31.75% 0.132 343.31)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#6d0450"
+      },
+      {
+        "color": "rgb(245, 98, 12)",
+        "normalized": "#f5620c",
+        "count": 2,
+        "confidence": "low",
+        "sources": [
+          "gradient"
+        ],
+        "lch": "lch(60.87% 87.96 51.05)",
+        "oklch": "oklch(67.57% 0.197 42.91)"
+      },
+      {
+        "color": "rgb(252, 71, 119)",
+        "normalized": "#fc4777",
+        "count": 2,
+        "confidence": "low",
+        "sources": [
+          "gradient"
+        ],
+        "lch": "lch(59.25% 72.41 12.85)",
+        "oklch": "oklch(67.05% 0.217 9.8)"
+      },
+      {
+        "color": "rgb(232, 72, 192)",
+        "normalized": "#e848c0",
+        "count": 2,
+        "confidence": "low",
+        "sources": [
+          "gradient"
+        ],
+        "lch": "lch(57.84% 75.95 337.57)",
+        "oklch": "oklch(66.53% 0.23 339.55)"
+      },
+      {
+        "color": "rgb(155, 103, 240)",
+        "normalized": "#9b67f0",
+        "count": 2,
+        "confidence": "low",
+        "sources": [
+          "gradient"
+        ],
+        "lch": "lch(54.34% 75.78 304.5)",
+        "oklch": "oklch(63.31% 0.198 298.01)"
+      },
+      {
+        "color": "rgb(69, 143, 255)",
+        "normalized": "#458fff",
+        "count": 2,
+        "confidence": "low",
+        "sources": [
+          "gradient"
+        ],
+        "lch": "lch(59.04% 63.84 275.01)",
+        "oklch": "oklch(65.94% 0.182 258.66)"
+      },
+      {
+        "color": "rgb(10, 178, 250)",
+        "normalized": "#0ab2fa",
+        "count": 2,
+        "confidence": "low",
+        "sources": [
+          "gradient"
+        ],
+        "lch": "lch(67.86% 50.77 247.91)",
+        "oklch": "oklch(72.33% 0.156 236.79)"
+      },
+      {
+        "color": "rgb(13, 189, 180)",
+        "normalized": "#0dbdb4",
+        "count": 2,
+        "confidence": "low",
+        "sources": [
+          "gradient"
+        ],
+        "lch": "lch(68.99% 42.7 189.79)",
+        "oklch": "oklch(72.04% 0.124 188.71)"
+      },
+      {
+        "color": "rgb(65, 69, 77)",
+        "normalized": "#41454d",
+        "count": 21,
+        "confidence": "high",
+        "sources": [],
+        "lch": "lch(29.14% 5.42 267.3)",
+        "oklch": "oklch(38.97% 0.015 264.39)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#4e535c",
+        "source": "mobile"
+      }
+    ],
+    "cssVariables": {},
+    "detected": [
+      {
+        "color": "rgb(22, 22, 22)",
+        "normalized": "#161616",
+        "count": 1709,
+        "usageFrac": 0.6103571428571428,
+        "confidence": "high",
+        "sources": [
+          "tabpanelmedia-module-scss-modu",
+          "[object",
+          "w-[420px]",
+          "flex",
+          "bg-[#e5e9f0]"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 252,
+        "usageFrac": 0.09,
+        "confidence": "high",
+        "sources": [
+          "actionbutton-module_actionbutt",
+          "actionbutton-module_mediumandu",
+          "pausebutton-module-scss-module",
+          "[object",
+          "tabpanelmedia-module-scss-modu"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(51, 51, 51)",
+        "normalized": "#333333",
+        "count": 204,
+        "usageFrac": 0.07285714285714286,
+        "confidence": "high",
+        "sources": [
+          "shelltypography-module_shellse",
+          "text-[12.5px]",
+          "text-[22px]",
+          "text-[15px]",
+          "marketingfooterv2-module_foote"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(24, 29, 38)",
+        "normalized": "#181d26",
+        "count": 181,
+        "usageFrac": 0.06464285714285714,
+        "confidence": "high",
+        "sources": [
+          "mainnav-module_mainnavwrapper_",
+          "[object",
+          "collapse-module_navcollapsewra",
+          "collapse-module_navcollapseinn",
+          "v2-module_drawercategorywrappe"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(51, 56, 64)",
+        "normalized": "#333840",
+        "count": 113,
+        "usageFrac": 0.040357142857142855,
+        "confidence": "high",
+        "sources": [
+          "promocard-module_promobarwrap_",
+          "promocard-module_promobarinner",
+          "flex",
+          "promocard-module_promolinkwrap",
+          "absolute"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(29, 31, 37)",
+        "normalized": "#1d1f25",
+        "count": 80,
+        "usageFrac": 0.02857142857142857,
+        "confidence": "high",
+        "sources": [
+          "text-[13px]",
+          "text-[10.5px]",
+          "text-[18px]",
+          "text-[9px]",
+          "text-[14px]"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(97, 102, 112)",
+        "normalized": "#616670",
+        "count": 48,
+        "usageFrac": 0.017142857142857144,
+        "confidence": "high",
+        "sources": [
+          "text-[13px]",
+          "text-[10.5px]",
+          "text-[9px]",
+          "text-[11.3px]"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(224, 220, 219)",
+        "normalized": "#e0dcdb",
+        "count": 47,
+        "usageFrac": 0.016785714285714286,
+        "confidence": "high",
+        "sources": [
+          "tabpanelmedia-module-scss-modu",
+          "howtobuildtabber-module-scss-m",
+          "integrationsshowcase-module-sc",
+          "tabpanellist-module-scss-modul",
+          "mcpserverpromo-module-scss-mod"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(65, 69, 77)",
+        "normalized": "#41454d",
+        "count": 21,
+        "usageFrac": 0.0075,
+        "confidence": "high",
+        "sources": [],
+        "isToken": true
+      },
+      {
+        "color": "rgb(229, 233, 240)",
+        "normalized": "#e5e9f0",
+        "count": 18,
+        "usageFrac": 0.0064285714285714285,
+        "confidence": "high",
+        "sources": [
+          "bg-[#e5e9f0]",
+          "h-[5px]",
+          "flex-1",
+          "rounded-full"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(102, 102, 102)",
+        "normalized": "#666666",
+        "count": 14,
+        "usageFrac": 0.005,
+        "confidence": "high",
+        "sources": [
+          "text-[9px]"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(4, 4, 4)",
+        "normalized": "#040404",
+        "count": 12,
+        "usageFrac": 0.004285714285714286,
+        "confidence": "high",
+        "sources": [
+          "bg-[#e5e9f0]"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 10,
+        "usageFrac": 0.0035714285714285713,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(37, 79, 173)",
+        "normalized": "#254fad",
+        "count": 8,
+        "usageFrac": 0.002857142857142857,
+        "confidence": "high",
+        "sources": [
+          "[object"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(246, 248, 252)",
+        "normalized": "#f6f8fc",
+        "count": 7,
+        "usageFrac": 0.0025,
+        "confidence": "medium",
+        "sources": [
+          "flex",
+          "bg-[#f6f8fc]",
+          "flex-1",
+          "rounded-b-[5px]"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(46, 47, 50)",
+        "normalized": "#2e2f32",
+        "count": 6,
+        "usageFrac": 0.002142857142857143,
+        "confidence": "medium",
+        "sources": [
+          "text-[10.5px]"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(151, 154, 160)",
+        "normalized": "#979aa0",
+        "count": 6,
+        "usageFrac": 0.002142857142857143,
+        "confidence": "medium",
+        "sources": [
+          "text-[10.5px]"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(56, 54, 48)",
+        "normalized": "#383630",
+        "count": 6,
+        "usageFrac": 0.002142857142857143,
+        "confidence": "medium",
+        "sources": [
+          "claudecard-module-scss-module_"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(220, 5, 59)",
+        "normalized": "#dc053b",
+        "count": 5,
+        "usageFrac": 0.0017857142857142857,
+        "confidence": "medium",
+        "sources": [
+          "text-[11px]",
+          "risksummarycard-module-scss-mo"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(4, 138, 14)",
+        "normalized": "#048a0e",
+        "count": 4,
+        "usageFrac": 0.0014285714285714286,
+        "confidence": "medium",
+        "sources": [
+          "text-[11px]",
+          "risksummarycard-module-scss-mo",
+          "text-[10.5px]"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(239, 239, 239)",
+        "normalized": "#efefef",
+        "count": 3,
+        "usageFrac": 0.0010714285714285715,
+        "confidence": "medium",
+        "sources": [
+          "flex-1"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 212, 224)",
+        "normalized": "#ffd4e0",
+        "count": 3,
+        "usageFrac": 0.0010714285714285715,
+        "confidence": "medium",
+        "sources": [
+          "rounded-full"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(162, 104, 17)",
+        "normalized": "#a26811",
+        "count": 3,
+        "usageFrac": 0.0010714285714285715,
+        "confidence": "medium",
+        "sources": [
+          "text-[11px]",
+          "risksummarycard-module-scss-mo"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(57, 202, 255)",
+        "normalized": "#39caff",
+        "count": 3,
+        "usageFrac": 0.0010714285714285715,
+        "confidence": "medium",
+        "sources": [
+          "absolute"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(154, 224, 149)",
+        "normalized": "#9ae095",
+        "count": 3,
+        "usageFrac": 0.0010714285714285715,
+        "confidence": "medium",
+        "sources": [
+          "bg-[#9ae095]",
+          "okrtreecard-module-scss-module"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(71, 0, 143)",
+        "normalized": "#47008f",
+        "count": 3,
+        "usageFrac": 0.0010714285714285715,
+        "confidence": "medium",
+        "sources": [
+          "aiplayscard-module-scss-module",
+          "mcpserverpromo-module-scss-mod"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(10, 10, 10)",
+        "normalized": "#0a0a0a",
+        "count": 2,
+        "usageFrac": 0.0007142857142857143,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(207, 245, 209)",
+        "normalized": "#cff5d1",
+        "count": 2,
+        "usageFrac": 0.0007142857142857143,
+        "confidence": "low",
+        "sources": [
+          "rounded-full"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(7, 162, 220)",
+        "normalized": "#07a2dc",
+        "count": 2,
+        "usageFrac": 0.0007142857142857143,
+        "confidence": "low",
+        "sources": [
+          "text-[14px]"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(49, 53, 62)",
+        "normalized": "#31353e",
+        "count": 2,
+        "usageFrac": 0.0007142857142857143,
+        "confidence": "low",
+        "sources": [
+          "text-[10.5px]"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(11, 29, 5)",
+        "normalized": "#0b1d05",
+        "count": 2,
+        "usageFrac": 0.0007142857142857143,
+        "confidence": "low",
+        "sources": [
+          "bg-[#9ae095]"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(22, 110, 225)",
+        "normalized": "#166ee1",
+        "count": 2,
+        "usageFrac": 0.0007142857142857143,
+        "confidence": "high",
+        "sources": [
+          "w-[20px]",
+          "bg-[#166ee1]"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(115, 112, 107)",
+        "normalized": "#73706b",
+        "count": 2,
+        "usageFrac": 0.0007142857142857143,
+        "confidence": "low",
+        "sources": [
+          "claudecard-module-scss-module_"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(240, 246, 255)",
+        "normalized": "#f0f6ff",
+        "count": 1,
+        "usageFrac": 0.00035714285714285714,
+        "confidence": "low",
+        "sources": [
+          "promocard-module_promobarwrap_"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 242, 250)",
+        "normalized": "#fff2fa",
+        "count": 1,
+        "usageFrac": 0.00035714285714285714,
+        "confidence": "low",
+        "sources": [
+          "flex"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 234, 182)",
+        "normalized": "#ffeab6",
+        "count": 1,
+        "usageFrac": 0.00035714285714285714,
+        "confidence": "low",
+        "sources": [
+          "rounded-full"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(247, 254, 255)",
+        "normalized": "#f7feff",
+        "count": 1,
+        "usageFrac": 0.00035714285714285714,
+        "confidence": "low",
+        "sources": [
+          "absolute"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(64, 65, 69)",
+        "normalized": "#404145",
+        "count": 1,
+        "usageFrac": 0.00035714285714285714,
+        "confidence": "low",
+        "sources": [
+          "tabpanelmedia-module-scss-modu"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(253, 78, 52)",
+        "normalized": "#fd4e34",
+        "count": 1,
+        "usageFrac": 0.00035714285714285714,
+        "confidence": "low",
+        "sources": [
+          "w-[31px]"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(213, 68, 1)",
+        "normalized": "#d54401",
+        "count": 1,
+        "usageFrac": 0.00035714285714285714,
+        "confidence": "low",
+        "sources": [
+          "text-[10.5px]"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 186, 5)",
+        "normalized": "#ffba05",
+        "count": 1,
+        "usageFrac": 0.00035714285714285714,
+        "confidence": "low",
+        "sources": [
+          "text-[10.5px]"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(196, 199, 205)",
+        "normalized": "#c4c7cd",
+        "count": 1,
+        "usageFrac": 0.00035714285714285714,
+        "confidence": "low",
+        "sources": [
+          "bg-[#c4c7cd]"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 214, 107)",
+        "normalized": "#ffd66b",
+        "count": 1,
+        "usageFrac": 0.00035714285714285714,
+        "confidence": "low",
+        "sources": [
+          "okrtreecard-module-scss-module"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(248, 246, 246)",
+        "normalized": "#f8f6f6",
+        "count": 1,
+        "usageFrac": 0.00035714285714285714,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgba(183, 183, 183, 0.5)",
+        "normalized": "#b7b7b7",
+        "count": 1,
+        "usageFrac": 0.00035714285714285714,
+        "confidence": "low",
+        "sources": [
+          "aiplayscard-module-scss-module"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgba(245, 241, 240, 0.86)",
+        "normalized": "#f5f1f0",
+        "count": 1,
+        "usageFrac": 0.00035714285714285714,
+        "confidence": "low",
+        "sources": [
+          "claudecard-module-scss-module_"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgba(212, 209, 201, 0.6)",
+        "normalized": "#d4d1c9",
+        "count": 1,
+        "usageFrac": 0.00035714285714285714,
+        "confidence": "low",
+        "sources": [
+          "claudecard-module-scss-module_"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(197, 138, 255)",
+        "normalized": "#c58aff",
+        "count": 1,
+        "usageFrac": 0.00035714285714285714,
+        "confidence": "low",
+        "sources": [
+          "mcpserverpromo-module-scss-mod"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(91, 3, 67)",
+        "normalized": "#5b0343",
+        "count": 1,
+        "usageFrac": 0.00035714285714285714,
+        "confidence": "high",
+        "sources": [
+          "ctabannerbackground-module-scs"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(248, 250, 252)",
+        "normalized": "#f8fafc",
+        "count": 1,
+        "usageFrac": 0.00035714285714285714,
+        "confidence": "low",
+        "sources": [
+          "marketingfooterv2-module_utili"
+        ],
+        "isToken": false
+      }
+    ],
+    "_raw": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 252
+      },
+      {
+        "color": "rgb(51, 51, 51)",
+        "normalized": "#333333",
+        "count": 204
+      },
+      {
+        "color": "rgb(24, 29, 38)",
+        "normalized": "#181d26",
+        "count": 181
+      },
+      {
+        "color": "rgb(51, 56, 64)",
+        "normalized": "#333840",
+        "count": 113
+      },
+      {
+        "color": "rgb(22, 22, 22)",
+        "normalized": "#161616",
+        "count": 1709
+      },
+      {
+        "color": "rgb(224, 220, 219)",
+        "normalized": "#e0dcdb",
+        "count": 47
+      },
+      {
+        "color": "rgb(29, 31, 37)",
+        "normalized": "#1d1f25",
+        "count": 80
+      },
+      {
+        "color": "rgb(97, 102, 112)",
+        "normalized": "#616670",
+        "count": 48
+      }
+    ]
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "display",
+        "family": "ATSeasonSans",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "96px (6.00rem)",
+        "weight": 550,
+        "lineHeight": "1.00",
+        "spacing": "-1.92px",
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "ATSeasonSans",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "64px (4.00rem)",
+        "weight": 500,
+        "lineHeight": "1.10",
+        "spacing": "-1.28px",
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "ATSeasonSans",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "48px (3.00rem)",
+        "weight": 500,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "ATSeasonSans",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "48px (3.00rem)",
+        "weight": 550,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "ATSeasonSans",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "48px (3.00rem)",
+        "weight": 500,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "ATSeasonSans",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "32.016px (2.00rem)",
+        "weight": 500,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "ATSeasonSans",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "32px (2.00rem)",
+        "weight": 500,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "ATSeasonSans",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "32px (2.00rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "ATSeasonSans",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "24px (1.50rem)",
+        "weight": 550,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "SF Pro Text",
+        "fallbacks": "-apple-system, BlinkMacSystemFont, Segoe UI",
+        "size": "22px (1.38rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Haas Groot Disp",
+        "fallbacks": "Haas, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue",
+        "size": "20px (1.25rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "ATSeasonSans",
+        "fallbacks": "Haas, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue",
+        "size": "20px (1.25rem)",
+        "weight": 400,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "ATSeasonSans",
+        "fallbacks": "Haas, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue",
+        "size": "20px (1.25rem)",
+        "weight": 400,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "ATSeasonSans",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "20px (1.25rem)",
+        "weight": 550,
+        "lineHeight": "1.35",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "ATSeasonSans",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "20px (1.25rem)",
+        "weight": 650,
+        "lineHeight": "1.35",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "ATSeasonSans",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "20px (1.25rem)",
+        "weight": 550,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "ATSeasonSans",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "20px (1.25rem)",
+        "weight": 550,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "ATSeasonSans",
+        "fallbacks": "Haas, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue",
+        "size": "20px (1.25rem)",
+        "weight": 550,
+        "lineHeight": "1.50",
+        "spacing": "0.1px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "ATSeasonSans",
+        "fallbacks": "Haas, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue",
+        "size": "20px (1.25rem)",
+        "weight": 550,
+        "lineHeight": "1.50",
+        "spacing": "0.1px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "ATSeasonSans",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "18.672px (1.17rem)",
+        "weight": 600,
+        "lineHeight": "1.35",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "ATSeasonSans",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "18.4px (1.15rem)",
+        "weight": 500,
+        "lineHeight": "1.35",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "ATSeasonSans",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "18px (1.13rem)",
+        "weight": 500,
+        "lineHeight": "1.35",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "SF Pro Text",
+        "fallbacks": "-apple-system, BlinkMacSystemFont, Segoe UI",
+        "size": "18px (1.13rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": "-0.18px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "ATSeasonSans",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "18px (1.13rem)",
+        "weight": 550,
+        "lineHeight": "1.35",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "ATSeasonSans",
+        "fallbacks": "Haas, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue",
+        "size": "16px (1.00rem)",
+        "weight": 650,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "ATSeasonSans",
+        "fallbacks": "Haas, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue",
+        "size": "16px (1.00rem)",
+        "weight": 650,
+        "lineHeight": "1.30",
+        "spacing": "0.16px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "ATSeasonSans",
+        "fallbacks": "Haas, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue",
+        "size": "16px (1.00rem)",
+        "weight": 650,
+        "lineHeight": "1.30",
+        "spacing": "0.16px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "ATSeasonSans",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.35",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "ATSeasonSans",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.35",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "ATSeasonSans",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.35",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Inter",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.55",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "ATSeasonSans",
+        "fallbacks": "Haas, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue",
+        "size": "16px (1.00rem)",
+        "weight": 550,
+        "lineHeight": "1.35",
+        "spacing": "0.16px",
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "SF Pro Text",
+        "fallbacks": "-apple-system, BlinkMacSystemFont, Segoe UI",
+        "size": "15px (0.94rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "ATSeasonSans",
+        "fallbacks": "Haas, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "ATSeasonSans",
+        "fallbacks": "Haas, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue",
+        "size": "14px (0.88rem)",
+        "weight": 650,
+        "lineHeight": "1.30",
+        "spacing": "0.14px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "ATSeasonSans",
+        "fallbacks": "Haas, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue",
+        "size": "14px (0.88rem)",
+        "weight": 650,
+        "lineHeight": "1.30",
+        "spacing": "0.14px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "ATSeasonSans",
+        "fallbacks": "Haas, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "ATSeasonSans",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "14px (0.88rem)",
+        "weight": 650,
+        "lineHeight": "1.35",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "ATSeasonSans",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "14px (0.88rem)",
+        "weight": 550,
+        "lineHeight": "1.35",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "SF Pro Text",
+        "fallbacks": "-apple-system, BlinkMacSystemFont, Segoe UI",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "SF Pro Text",
+        "fallbacks": "-apple-system, BlinkMacSystemFont, Segoe UI",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.21",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "ATSeasonSans",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "14px (0.88rem)",
+        "weight": 650,
+        "lineHeight": "1.35",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "ATSeasonSans",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.35",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "ATSeasonSans",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.35",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "ATSeasonSans",
+        "fallbacks": "Haas, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue",
+        "size": "14px (0.88rem)",
+        "weight": 650,
+        "lineHeight": "1.35",
+        "spacing": "0.28px",
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "SF Pro Text",
+        "fallbacks": "-apple-system, BlinkMacSystemFont, Segoe UI",
+        "size": "13px (0.81rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "SF Pro Text",
+        "fallbacks": "-apple-system, BlinkMacSystemFont, Segoe UI",
+        "size": "13px (0.81rem)",
+        "weight": 550,
+        "lineHeight": "1.54",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Inter",
+        "fallbacks": "-apple-system, BlinkMacSystemFont",
+        "size": "13px (0.81rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "SF Pro Text",
+        "fallbacks": "-apple-system, BlinkMacSystemFont, Segoe UI",
+        "size": "12.5px (0.78rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": "-0.1px",
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "SF Pro Text",
+        "fallbacks": "-apple-system, BlinkMacSystemFont, Segoe UI",
+        "size": "11.3px (0.71rem)",
+        "weight": 550,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "SF Pro Text",
+        "fallbacks": "-apple-system, BlinkMacSystemFont, Segoe UI",
+        "size": "11.3px (0.71rem)",
+        "weight": 550,
+        "lineHeight": "1.54",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "SF Pro Text",
+        "fallbacks": "-apple-system, BlinkMacSystemFont, Segoe UI",
+        "size": "11.3px (0.71rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "SF Pro Text",
+        "fallbacks": "-apple-system, BlinkMacSystemFont, Segoe UI",
+        "size": "11px (0.69rem)",
+        "weight": 500,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "SF Pro Text",
+        "fallbacks": "-apple-system, BlinkMacSystemFont, Segoe UI",
+        "size": "10.5px (0.66rem)",
+        "weight": 550,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "SF Pro Text",
+        "fallbacks": "-apple-system, BlinkMacSystemFont, Segoe UI",
+        "size": "10.5px (0.66rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "SF Pro Text",
+        "fallbacks": "-apple-system, BlinkMacSystemFont, Segoe UI",
+        "size": "10px (0.63rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "SF Pro Text",
+        "fallbacks": "-apple-system, BlinkMacSystemFont, Segoe UI",
+        "size": "10px (0.63rem)",
+        "weight": 550,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "SF Pro Text",
+        "fallbacks": "-apple-system, BlinkMacSystemFont, Segoe UI",
+        "size": "9px (0.56rem)",
+        "weight": 550,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "SF Pro Text",
+        "fallbacks": "-apple-system, BlinkMacSystemFont, Segoe UI",
+        "size": "9px (0.56rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      }
+    ],
+    "sources": {
+      "googleFonts": [],
+      "adobeFonts": false,
+      "variableFonts": false,
+      "selfHostedFonts": [
+        "ATSeasonSansVF.woff2",
+        "Haas-Grot-Disp-R-55-Roman.woff2",
+        "Inter-Regular.f1f0c35b32.woff2",
+        "Inter-SemiBold.fcb100c760.woff2",
+        "Inter-roman.var.b2129c009c.woff2",
+        "NeueHaasGrotTextRound-55Roman-Web.woff2",
+        "NeueHaasGrotTextRound-65Medium-Web.woff2",
+        "NeueHaasGrotTextRound-75Bold-Web.woff2"
+      ],
+      "customFonts": [
+        "ATSeasonSansVF.woff2",
+        "Haas-Grot-Disp-R-55-Roman.woff2",
+        "Inter-Regular.f1f0c35b32.woff2",
+        "Inter-SemiBold.fcb100c760.woff2",
+        "Inter-roman.var.b2129c009c.woff2",
+        "NeueHaasGrotTextRound-55Roman-Web.woff2",
+        "NeueHaasGrotTextRound-65Medium-Web.woff2",
+        "NeueHaasGrotTextRound-75Bold-Web.woff2"
+      ]
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "1px",
+        "display": "1px",
+        "rem": "0.06rem",
+        "count": 6,
+        "numericValue": 1
+      },
+      {
+        "px": "2px",
+        "display": "2px",
+        "rem": "0.13rem",
+        "count": 21,
+        "numericValue": 2
+      },
+      {
+        "px": "3px",
+        "display": "3px",
+        "rem": "0.19rem",
+        "count": 25,
+        "numericValue": 3
+      },
+      {
+        "px": "4px",
+        "display": "4px",
+        "rem": "0.25rem",
+        "count": 65,
+        "numericValue": 4
+      },
+      {
+        "px": "5px",
+        "display": "5px",
+        "rem": "0.31rem",
+        "count": 32,
+        "numericValue": 5
+      },
+      {
+        "px": "6px",
+        "display": "6px",
+        "rem": "0.38rem",
+        "count": 50,
+        "numericValue": 6
+      },
+      {
+        "px": "8px",
+        "display": "8px",
+        "rem": "0.50rem",
+        "count": 24,
+        "numericValue": 8
+      },
+      {
+        "px": "10px",
+        "display": "10px",
+        "rem": "0.63rem",
+        "count": 8,
+        "numericValue": 10
+      },
+      {
+        "px": "12px",
+        "display": "12px",
+        "rem": "0.75rem",
+        "count": 194,
+        "numericValue": 12
+      },
+      {
+        "px": "13px",
+        "display": "13px",
+        "rem": "0.81rem",
+        "count": 8,
+        "numericValue": 13
+      },
+      {
+        "px": "14px",
+        "display": "14px",
+        "rem": "0.88rem",
+        "count": 4,
+        "numericValue": 14
+      },
+      {
+        "px": "16px",
+        "display": "16px",
+        "rem": "1.00rem",
+        "count": 53,
+        "numericValue": 16
+      },
+      {
+        "px": "20px",
+        "display": "20px",
+        "rem": "1.25rem",
+        "count": 13,
+        "numericValue": 20
+      },
+      {
+        "px": "24px",
+        "display": "24px",
+        "rem": "1.50rem",
+        "count": 27,
+        "numericValue": 24
+      },
+      {
+        "px": "32px",
+        "display": "32px",
+        "rem": "2.00rem",
+        "count": 14,
+        "numericValue": 32
+      },
+      {
+        "px": "40px",
+        "display": "40px",
+        "rem": "2.50rem",
+        "count": 55,
+        "numericValue": 40
+      },
+      {
+        "px": "48px",
+        "display": "48px",
+        "rem": "3.00rem",
+        "count": 4,
+        "numericValue": 48
+      },
+      {
+        "px": "60px",
+        "display": "60px",
+        "rem": "3.75rem",
+        "count": 5,
+        "numericValue": 60
+      },
+      {
+        "px": "72px",
+        "display": "72px",
+        "rem": "4.50rem",
+        "count": 4,
+        "numericValue": 72
+      },
+      {
+        "px": "121.297px",
+        "display": "121.297px",
+        "rem": "7.58rem",
+        "count": 13,
+        "numericValue": 121.297
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "0px 0px 5px 5px",
+        "count": 4,
+        "elements": [
+          "card",
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 0
+      },
+      {
+        "value": "0px 5.336px 5.336px 0px",
+        "count": 4,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 0
+      },
+      {
+        "value": "0.6px",
+        "count": 4,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 0.6
+      },
+      {
+        "value": "2.5px",
+        "count": 7,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 2.5
+      },
+      {
+        "value": "3px",
+        "count": 10,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 3
+      },
+      {
+        "value": "3.333px",
+        "count": 1,
+        "elements": [
+          "span"
+        ],
+        "confidence": "low",
+        "numericValue": 3.333
+      },
+      {
+        "value": "4px",
+        "count": 19,
+        "elements": [
+          "a",
+          "img",
+          "Explore Airtable integrations",
+          "card",
+          "div"
+        ],
+        "confidence": "high",
+        "numericValue": 4
+      },
+      {
+        "value": "4px 0px 0px 4px",
+        "count": 3,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 4
+      },
+      {
+        "value": "5px",
+        "count": 16,
+        "elements": [
+          "img",
+          "div",
+          "button",
+          "badge"
+        ],
+        "confidence": "high",
+        "numericValue": 5
+      },
+      {
+        "value": "5px 5px 0px 0px",
+        "count": 4,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 5
+      },
+      {
+        "value": "5.336px",
+        "count": 8,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 5.336
+      },
+      {
+        "value": "5.336px 0px 0px 5.336px",
+        "count": 4,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 5.336
+      },
+      {
+        "value": "6px",
+        "count": 16,
+        "elements": [
+          "Open side menu",
+          "span",
+          "div",
+          "button",
+          "a"
+        ],
+        "confidence": "high",
+        "numericValue": 6
+      },
+      {
+        "value": "6.442px",
+        "count": 2,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 6.442
+      },
+      {
+        "value": "7px",
+        "count": 5,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 7
+      },
+      {
+        "value": "8px",
+        "count": 4,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 8
+      },
+      {
+        "value": "10px",
+        "count": 4,
+        "elements": [
+          "a",
+          "span",
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 10
+      },
+      {
+        "value": "12px",
+        "count": 6,
+        "elements": [
+          "a",
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 12
+      },
+      {
+        "value": "21px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 21
+      },
+      {
+        "value": "30.444px",
+        "count": 24,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high",
+        "numericValue": 30.444
+      },
+      {
+        "value": "54.8px",
+        "count": 2,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 54.8
+      },
+      {
+        "value": "999px",
+        "count": 12,
+        "elements": [
+          "div",
+          "tab",
+          "span"
+        ],
+        "confidence": "high",
+        "numericValue": 999
+      },
+      {
+        "value": "3.35544e+07px",
+        "count": 24,
+        "elements": [
+          "div",
+          "span",
+          "image"
+        ],
+        "confidence": "high",
+        "numericValue": 33554400
+      },
+      {
+        "value": "50%",
+        "count": 17,
+        "elements": [
+          "button",
+          "Pause background video",
+          "Pause demo video",
+          "div",
+          "span"
+        ],
+        "confidence": "high",
+        "numericValue": 50
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "0px 1px 1px 0px",
+        "style": "solid",
+        "color": "rgb(22, 22, 22)",
+        "count": 32,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgba(0, 0, 0, 0.08)",
+        "count": 14,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "0px 1px",
+        "style": "solid",
+        "color": "rgb(22, 22, 22)",
+        "count": 12,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(255, 255, 255)",
+        "count": 11,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "solid",
+        "color": "rgb(22, 22, 22)",
+        "count": 7,
+        "elements": [
+          "div",
+          "section",
+          "header"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(22, 22, 22)",
+        "count": 6,
+        "elements": [
+          "a",
+          "span"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 0px 1px 1px",
+        "style": "solid",
+        "color": "rgb(22, 22, 22)",
+        "count": 6,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(24, 29, 38)",
+        "count": 5,
+        "elements": [
+          "a"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgba(29, 31, 37, 0.1)",
+        "count": 5,
+        "elements": [
+          "div",
+          "span"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid",
+        "color": "rgb(224, 220, 219)",
+        "count": 4,
+        "elements": [
+          "tablist",
+          "div"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(239, 239, 239)",
+        "count": 3,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgba(0, 0, 0, 0.05)",
+        "count": 3,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 0px 1px",
+        "style": "solid solid none",
+        "color": "rgb(22, 22, 22)",
+        "count": 2,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgba(255, 255, 255, 0.3)",
+        "count": 2,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(224, 220, 219)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid solid none",
+        "color": "rgb(224, 220, 219)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgba(220, 5, 59, 0.1)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(57, 202, 255)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgba(0, 0, 0, 0.1)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgba(0, 0, 0, 0.12)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 1px 2px 0px",
+        "style": "none solid solid none",
+        "color": "rgb(22, 22, 22)",
+        "count": 1,
+        "elements": [
+          "tab"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 1px 1px",
+        "style": "none solid solid",
+        "color": "rgba(22, 22, 22, 0.42)",
+        "count": 1,
+        "elements": [
+          "tab"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 1px 1px",
+        "style": "none none solid solid",
+        "color": "rgba(22, 22, 22, 0.42)",
+        "count": 1,
+        "elements": [
+          "tab"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 1px 0px 0px",
+        "style": "solid solid none",
+        "color": "rgb(224, 220, 219)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 1px",
+        "style": "solid solid none",
+        "color": "rgb(224, 220, 219)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 1px 0px",
+        "style": "solid solid none",
+        "color": "rgb(224, 220, 219)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgba(212, 209, 201, 0.6)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px",
+        "style": "solid",
+        "color": "rgb(224, 220, 219)",
+        "count": 1,
+        "elements": [
+          "section"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 1px 0px 0px",
+        "style": "solid",
+        "color": "rgb(22, 22, 22)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [
+    {
+      "shadow": "rgba(0, 0, 0, 0.32) 0px 0px 0.8px 0px, rgba(0, 0, 0, 0.08) 0px 0px 1.6px 0px, rgba(0, 0, 0, 0.08) 0px 0.8px 2.4px 0px",
+      "count": 5,
+      "confidence": "medium"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.32) 0px 0px 0.44px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0.87px 0px, rgba(0, 0, 0, 0.08) 0px 0.87px 1.3px 0px",
+      "count": 5,
+      "confidence": "medium"
+    },
+    {
+      "shadow": "rgba(15, 48, 106, 0.05) 0px 0px 20px 0px",
+      "count": 4,
+      "confidence": "medium"
+    },
+    {
+      "shadow": "rgba(22, 22, 22, 0.1) 0px 24.013px 42.69px 0px, rgba(22, 22, 22, 0.08) 0px 5.336px 10.672px 0px, rgba(22, 22, 22, 0.24) 0px 0px 1.334px 0px",
+      "count": 4,
+      "confidence": "medium"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.32) 0px 0px 0.4px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0.8px 0px, rgba(0, 0, 0, 0.08) 0px 0.8px 1.2px 0px",
+      "count": 2,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(22, 22, 22, 0.1) 0px 15px 27px 0px, rgba(22, 22, 22, 0.08) 0px 3px 7px 0px, rgba(22, 22, 22, 0.24) 0px 0px 1px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.24) 0px 0px 0.8px 0px, rgba(0, 0, 0, 0.16) 0px 0px 1.6px 0px, rgba(0, 0, 0, 0.06) 0px 2.4px 3.1px 0px, rgba(0, 0, 0, 0.06) 0px 4.7px 6.3px 0px, rgba(0, 0, 0, 0.08) 0px 9.4px 12.6px 0px, rgba(0, 0, 0, 0.1) 0px 14px 25px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(22, 22, 22, 0.06) 0px 2px 16px 0px, rgba(22, 22, 22, 0.08) 0px 2px 4px 0px, rgba(22, 22, 22, 0.24) 0px 0px 1px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(22, 22, 22, 0.1) 0px 14.5px 26px 0px, rgba(22, 22, 22, 0.08) 0px 3.2px 6.5px 0px, rgba(22, 22, 22, 0.24) 0px 0px 0.8px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.24) 0px 0px 0.87px 0px, rgba(0, 0, 0, 0.16) 0px 0px 1.74px 0px, rgba(0, 0, 0, 0.06) 0px 2.6px 3.5px 0px, rgba(0, 0, 0, 0.06) 0px 5.2px 7px 0px, rgba(0, 0, 0, 0.08) 0px 10.5px 14px 0px, rgba(0, 0, 0, 0.1) 0px 15.7px 28px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.32) 0px 0px 0.87px 0px, rgba(0, 0, 0, 0.08) 0px 0px 1.74px 0px, rgba(45, 127, 249, 0.28) 0px 0.87px 2.6px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.06) 0px 2px 11px 0px",
+      "count": 1,
+      "confidence": "low"
+    }
+  ],
+  "gradients": [
+    {
+      "gradient": "linear-gradient(91.6deg, rgb(245, 98, 12) -3.95%, rgb(252, 71, 119) 14.34%, rgb(232, 72, 192) 28.2%, rgb(155, 103, 240) 52.43%, rgb(69, 143, 255) 68.27%, rgb(10, 178, 250) 86.46%, rgb(13, 189, 180) 101.9%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(245, 98, 12)",
+        "rgb(252, 71, 119)",
+        "rgb(232, 72, 192)",
+        "rgb(155, 103, 240)",
+        "rgb(69, 143, 255)",
+        "rgb(10, 178, 250)",
+        "rgb(13, 189, 180)"
+      ],
+      "count": 4
+    },
+    {
+      "gradient": "linear-gradient(rgb(235, 247, 252) 0%, rgb(199, 229, 242) 100%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(235, 247, 252)",
+        "rgb(199, 229, 242)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(rgb(248, 250, 252) 0%, rgb(224, 226, 230) 100%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(248, 250, 252)",
+        "rgb(224, 226, 230)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(rgb(235, 247, 247) 0%, rgb(199, 235, 233) 100%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(235, 247, 247)",
+        "rgb(199, 235, 233)"
+      ],
+      "count": 1
+    }
+  ],
+  "motion": {
+    "durations": [
+      {
+        "value": "0.001s",
+        "ms": 1,
+        "count": 2588
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease",
+        "type": "ease",
+        "count": 2401
+      },
+      {
+        "value": "ease-in",
+        "type": "ease-in",
+        "count": 114
+      },
+      {
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "type": "custom",
+        "count": 54
+      },
+      {
+        "value": "cubic-bezier(0, 0, 0.2, 1)",
+        "type": "ease-out",
+        "count": 20
+      },
+      {
+        "value": "ease-out",
+        "type": "ease-out",
+        "count": 18
+      },
+      {
+        "value": "ease-in-out",
+        "type": "ease-in-out",
+        "count": 9
+      },
+      {
+        "value": "linear",
+        "type": "linear",
+        "count": 4
+      }
+    ],
+    "animations": [
+      {
+        "name": "QuoteCarousel-module-scss-module__Vj4ZtW__word-blur-in",
+        "duration": "0.001s",
+        "easing": "cubic-bezier(0.4",
+        "count": 14,
+        "contexts": [
+          "other"
+        ]
+      },
+      {
+        "name": "IntegrationsShowcase-module-scss-module__TdgJfW__integrationsCounterOrbit",
+        "duration": "0.001s",
+        "easing": "linear",
+        "count": 12,
+        "contexts": [
+          "other"
+        ]
+      },
+      {
+        "name": "AIFieldConfigCard-module-scss-module__0fLAnG__stagger",
+        "duration": "0.001s",
+        "easing": "ease-out",
+        "count": 7,
+        "contexts": [
+          "card"
+        ]
+      },
+      {
+        "name": "RiskSummaryCard-module-scss-module__GaZC3a__stagger",
+        "duration": "0.001s",
+        "easing": "ease-out",
+        "count": 6,
+        "contexts": [
+          "card"
+        ]
+      },
+      {
+        "name": "RiskSummaryCard-module-scss-module__GaZC3a__barFill",
+        "duration": "0.001s",
+        "easing": "ease-out",
+        "count": 3,
+        "contexts": [
+          "card"
+        ]
+      },
+      {
+        "name": "IntegrationsShowcase-module-scss-module__TdgJfW__integrationsRingFlow",
+        "duration": "0.001s",
+        "easing": "linear",
+        "count": 2,
+        "contexts": [
+          "other"
+        ]
+      },
+      {
+        "name": "IntegrationsShowcase-module-scss-module__TdgJfW__integrationsOrbit",
+        "duration": "0.001s",
+        "easing": "linear",
+        "count": 1,
+        "contexts": [
+          "other"
+        ]
+      }
+    ],
+    "contexts": {
+      "nav": {
+        "count": 54,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "card": {
+        "count": 356,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "opacity",
+          "transform",
+          "color",
+          "filter"
+        ]
+      },
+      "link": {
+        "count": 149,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease-in",
+        "easingType": "ease-in",
+        "props": [
+          "background-color",
+          "border-color",
+          "color",
+          "transform"
+        ]
+      },
+      "button": {
+        "count": 49,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "background-color",
+          "color",
+          "border-color"
+        ]
+      },
+      "modal": {
+        "count": 273,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "opacity",
+          "background-color"
+        ]
+      },
+      "media": {
+        "count": 139,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "opacity",
+          "grid-template-rows"
+        ]
+      },
+      "hero": {
+        "count": 32,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "visibility"
+        ]
+      }
+    },
+    "interactiveDeltas": [
+      {
+        "tag": "a",
+        "text": "Try it now",
+        "pattern": "fade-out",
+        "delta": {
+          "opacity": {
+            "from": "1",
+            "to": "0.75"
+          }
+        }
+      },
+      {
+        "tag": "button",
+        "text": "Platform",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(24, 29, 38)",
+            "to": "rgb(37, 79, 173)"
+          }
+        }
+      }
+    ]
+  },
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(22, 22, 22)",
+            "padding": "16px 24px",
+            "borderRadius": "6px",
+            "border": "0px none rgb(22, 22, 22)",
+            "fontSize": "16px",
+            "fontWeight": "600"
+          }
+        },
+        "fontWeight": "600",
+        "fontSize": "16px",
+        "text": "Watch story",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(22, 22, 22)",
+            "padding": "16px 31px",
+            "borderRadius": "4px",
+            "border": "2px solid rgba(0, 0, 0, 0)",
+            "fontSize": "20px",
+            "fontWeight": "650"
+          }
+        },
+        "fontWeight": "650",
+        "fontSize": "20px",
+        "text": "Start building for free",
+        "confidence": "medium"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(22, 22, 22)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "12px 24px",
+            "borderRadius": "4px",
+            "border": "1px solid rgb(22, 22, 22)",
+            "fontSize": "20px",
+            "fontWeight": "550"
+          }
+        },
+        "fontWeight": "550",
+        "fontSize": "20px",
+        "text": "Get in touch",
+        "confidence": "medium"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(24, 29, 38)",
+            "color": "rgb(22, 22, 22)",
+            "padding": "12px 24px",
+            "borderRadius": "6px",
+            "border": "0px solid rgb(22, 22, 22)",
+            "fontSize": "20px",
+            "fontWeight": "550"
+          }
+        },
+        "fontWeight": "550",
+        "fontSize": "20px",
+        "text": "Start building for free",
+        "confidence": "medium"
+      }
+    ],
+    "inputs": {
+      "text": [],
+      "checkbox": [],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgb(37, 79, 173)",
+        "textDecoration": "none",
+        "fontWeight": "650",
+        "states": {
+          "default": {
+            "color": "rgb(37, 79, 173)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "textDecoration": "none",
+            "color": "var(--text\\/primary-inverse,#fff)"
+          }
+        }
+      },
+      {
+        "color": "rgb(24, 29, 38)",
+        "textDecoration": "underline",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(24, 29, 38)",
+            "textDecoration": "underline"
+          },
+          "hover": {
+            "color": "var(--text\\/primary-inverse,#fff)",
+            "textDecoration": "none"
+          }
+        }
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none",
+        "fontWeight": "650",
+        "states": {
+          "default": {
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "var(--text\\/primary-inverse,#fff)",
+            "textDecoration": "none"
+          }
+        }
+      },
+      {
+        "color": "rgb(22, 22, 22)",
+        "textDecoration": "none",
+        "fontWeight": "650",
+        "states": {
+          "default": {
+            "color": "rgb(22, 22, 22)",
+            "textDecoration": "underline"
+          },
+          "hover": {
+            "color": "var(--text\\/primary-inverse,#fff)",
+            "textDecoration": "none"
+          }
+        }
+      },
+      {
+        "color": "rgb(51, 56, 64)",
+        "textDecoration": "none",
+        "fontWeight": "550",
+        "states": {
+          "default": {
+            "color": "rgb(51, 56, 64)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "textDecoration": "none",
+            "color": "var(--text\\/primary-inverse,#fff)"
+          }
+        }
+      },
+      {
+        "color": "rgb(65, 69, 77)",
+        "textDecoration": "none",
+        "fontWeight": "550",
+        "states": {
+          "default": {
+            "color": "rgb(65, 69, 77)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "textDecoration": "none",
+            "color": "var(--text\\/primary-inverse,#fff)"
+          }
+        }
+      }
+    ],
+    "badges": {
+      "all": [
+        {
+          "backgroundColor": "rgb(197, 138, 255)",
+          "color": "rgb(71, 0, 143)",
+          "padding": "8px 12px",
+          "borderRadius": "4px",
+          "border": "0px solid rgb(71, 0, 143)",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "lineHeight": "18.9px",
+          "textTransform": "none",
+          "letterSpacing": "normal",
+          "variant": "neutral",
+          "styleType": "filled",
+          "isRounded": false,
+          "classes": "McpServerPromo-module-scss-module__Z3mgwa__badge",
+          "confidence": "high"
+        }
+      ],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": [
+          {
+            "backgroundColor": "rgb(197, 138, 255)",
+            "color": "rgb(71, 0, 143)",
+            "padding": "8px 12px",
+            "borderRadius": "4px",
+            "border": "0px solid rgb(71, 0, 143)",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "lineHeight": "18.9px",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "variant": "neutral",
+            "styleType": "filled",
+            "isRounded": false,
+            "classes": "McpServerPromo-module-scss-module__Z3mgwa__badge",
+            "confidence": "high"
+          }
+        ]
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "600px"
+    },
+    {
+      "px": "640px"
+    },
+    {
+      "px": "720px"
+    },
+    {
+      "px": "728px"
+    },
+    {
+      "px": "768px"
+    },
+    {
+      "px": "834px"
+    },
+    {
+      "px": "900px"
+    },
+    {
+      "px": "980px"
+    },
+    {
+      "px": "1000px"
+    },
+    {
+      "px": "1024px"
+    },
+    {
+      "px": "1080px"
+    },
+    {
+      "px": "1184px"
+    },
+    {
+      "px": "1280px"
+    },
+    {
+      "px": "1344px"
+    },
+    {
+      "px": "1600px"
+    },
+    {
+      "px": "1664px"
+    }
+  ],
+  "iconSystem": [
+    {
+      "name": "SVG Icons",
+      "type": "svg"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Tailwind CSS",
+      "confidence": "high",
+      "evidence": "arbitrary values (e.g., top-[117px]), responsive/state modifiers"
+    }
+  ]
+}

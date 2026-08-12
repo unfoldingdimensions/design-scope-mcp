@@ -1,0 +1,91 @@
+{
+  "url": "https://www.affirm.com",
+  "captured": "2026-08-10T12:18:55+00:00",
+  "hover_diffs": [
+    {
+      "selector": "button",
+      "index": 1,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(74, 74, 244)",
+          "after": "rgb(33, 33, 137)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(74, 74, 244)",
+          "after": "rgb(33, 33, 137)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 130,
+    "tabs": 7,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 2,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "div",
+      "classes": "ot-sdk-four ot-sdk-columns ot-tab-list",
+      "text": "Do Not Sell or Share My Personal DataYour PrivacyStrictly ne",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "li",
+      "classes": "ot-abt-tab",
+      "text": "Your Privacy",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "div",
+      "classes": "ot-active-menu category-menu-switch-handler",
+      "text": "Your Privacy",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "div",
+      "classes": "category-menu-switch-handler",
+      "text": "Strictly necessary cookies",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "div",
+      "classes": "category-menu-switch-handler",
+      "text": "Allow Selling, Sharing, Targeted Advertising",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "div",
+      "classes": "ot-tab-desc ot-sdk-eight ot-sdk-columns",
+      "text": "Your PrivacyWhen you visit our website, we store cookies on ",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

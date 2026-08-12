@@ -1,0 +1,2809 @@
+{
+  "url": "https://plaid.com/",
+  "extractedAt": "2026-08-09T12:30:43.158Z",
+  "meta": {
+    "snapshotId": "322abd77-782c-460a-9309-3cdcbd65d766",
+    "httpStatus": 200,
+    "dembrandtVersion": "0.27.1",
+    "schemaVersion": "1.5.0",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "fontsReady": true,
+    "flags": {
+      "mobile": true
+    }
+  },
+  "siteName": "Plaid",
+  "logo": {
+    "source": "svg",
+    "context": "header",
+    "inline": true,
+    "url": "https://plaid.com/",
+    "color": "#232424",
+    "ariaLabel": "Plaid",
+    "markup": "<svg height=\"48\" viewBox=\"0 0 77 29\" xmlns=\"http://www.w3.org/2000/svg\" aria-label=\"Plaid\" class=\"css-6ht02i\" style=\"color: rgb(35, 36, 36);\"><g fill=\"currentColor\" fill-rule=\"evenodd\"><path d=\"M37.3252 14.9546H36.2239V12.5005H37.2135C38.4162 12.5005 39.0177 12.9124 39.0177 13.7353C39.0177 14.5484 38.4537 14.9546 37.3252 14.9546ZM40.3753 10.9121C39.7365 10.3878 38.6455 10.126 37.1019 10.126H33.6211V20.617H36.2239V17.33H37.3893C38.8052 17.33 39.8431 17.0256 40.5028 16.417C41.2475 15.7359 41.6206 14.8291 41.6206 13.6961C41.6206 12.5218 41.2058 11.5939 40.3753 10.9121ZM46.0756 10.1256H43.3611V20.6173H49.2216V18.2421H46.0758L46.0756 10.1256ZM54.5063 16.9683L55.6241 13.382L56.7254 16.9683H54.5063ZM54.538 10.1256L50.275 20.6173H53.197L53.7559 19.0919H57.46L57.9707 20.6173H60.9256L56.6937 10.1256H54.538ZM62.2824 20.6173H64.9969V10.1256H62.2824V20.6173ZM71.1922 18.2422H70.0263V12.5005H71.2081C72.0385 12.5005 72.6766 12.7536 73.1239 13.2592C73.5712 13.7654 73.7944 14.4828 73.7944 15.4101C73.7944 17.2986 72.9266 18.2422 71.1922 18.2422ZM75.5353 12.0917C75.1737 11.588 74.7422 11.1849 74.2424 10.8806C73.4221 10.3769 72.3043 10.125 70.8885 10.125H67.3119V20.6167H71.4956C73.0068 20.6167 74.2209 20.135 75.1363 19.1701C76.0517 18.2052 76.5091 16.9261 76.5091 15.3319C76.5089 14.0633 76.1842 12.9835 75.5353 12.0917Z\"></path><path d=\"M25.7629 26.2628L28 17.5309L24.9691 14.5001L27.9999 11.4691L25.7628 2.73706L17.0309 0.5L14.0001 3.531L10.969 0.50014L2.23706 2.73734L0 11.4691L3.03128 14.4999L0.00014 17.531L2.2372 26.2629L10.9691 28.5L14.0001 25.469L17.031 28.4999L25.7629 26.2628ZM15.7321 23.7371L18.6186 20.8505L22.2912 24.5233L17.6956 25.7007L15.7321 23.7371ZM11.1136 9.88154L14.0003 6.99502L16.8868 9.8814L14.0001 12.7679L11.1136 9.88154ZM12.2682 14.5L9.38154 17.3865L6.49502 14.5L9.38154 11.6135L12.2682 14.5ZM18.6187 11.6133L21.5053 14.5L18.6186 17.3865L15.7321 14.5L18.6187 11.6133ZM16.8867 19.1186L14.0001 22.0051L11.1135 19.1185L14.0001 16.2319L16.8867 19.1186ZM10.3044 25.7007L5.70864 24.5233L9.38154 20.8504L12.2682 23.7371L10.3044 25.7007ZM4.76308 16.2319L7.6496 19.1185L3.9767 22.7914L2.7993 18.1957L4.76308 16.2319ZM3.9767 6.20836L7.64974 9.8814L4.76308 12.7681L2.7993 10.8041L3.9767 6.20836ZM12.2683 5.26294L9.38168 8.1496L5.70892 4.4767L10.3047 3.2993L12.2683 5.26294ZM17.6959 3.2993L22.2915 4.4767L18.6186 8.14946L15.7321 5.26294L17.6959 3.2993ZM23.2372 12.7681L20.3505 9.8814L24.0233 6.20878L25.2007 10.8046L23.2372 12.7681ZM24.0233 22.7914L20.3505 19.1186L23.2372 16.2321L25.2007 18.1957L24.0233 22.7914Z\"></path></g></svg>",
+    "dataUri": "data:image/svg+xml;utf8,%3Csvg%20height%3D%2248%22%20viewBox%3D%220%200%2077%2029%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20aria-label%3D%22Plaid%22%20class%3D%22css-6ht02i%22%20style%3D%22color%3A%20rgb(35%2C%2036%2C%2036)%3B%22%3E%3Cg%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M37.3252%2014.9546H36.2239V12.5005H37.2135C38.4162%2012.5005%2039.0177%2012.9124%2039.0177%2013.7353C39.0177%2014.5484%2038.4537%2014.9546%2037.3252%2014.9546ZM40.3753%2010.9121C39.7365%2010.3878%2038.6455%2010.126%2037.1019%2010.126H33.6211V20.617H36.2239V17.33H37.3893C38.8052%2017.33%2039.8431%2017.0256%2040.5028%2016.417C41.2475%2015.7359%2041.6206%2014.8291%2041.6206%2013.6961C41.6206%2012.5218%2041.2058%2011.5939%2040.3753%2010.9121ZM46.0756%2010.1256H43.3611V20.6173H49.2216V18.2421H46.0758L46.0756%2010.1256ZM54.5063%2016.9683L55.6241%2013.382L56.7254%2016.9683H54.5063ZM54.538%2010.1256L50.275%2020.6173H53.197L53.7559%2019.0919H57.46L57.9707%2020.6173H60.9256L56.6937%2010.1256H54.538ZM62.2824%2020.6173H64.9969V10.1256H62.2824V20.6173ZM71.1922%2018.2422H70.0263V12.5005H71.2081C72.0385%2012.5005%2072.6766%2012.7536%2073.1239%2013.2592C73.5712%2013.7654%2073.7944%2014.4828%2073.7944%2015.4101C73.7944%2017.2986%2072.9266%2018.2422%2071.1922%2018.2422ZM75.5353%2012.0917C75.1737%2011.588%2074.7422%2011.1849%2074.2424%2010.8806C73.4221%2010.3769%2072.3043%2010.125%2070.8885%2010.125H67.3119V20.6167H71.4956C73.0068%2020.6167%2074.2209%2020.135%2075.1363%2019.1701C76.0517%2018.2052%2076.5091%2016.9261%2076.5091%2015.3319C76.5089%2014.0633%2076.1842%2012.9835%2075.5353%2012.0917Z%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M25.7629%2026.2628L28%2017.5309L24.9691%2014.5001L27.9999%2011.4691L25.7628%202.73706L17.0309%200.5L14.0001%203.531L10.969%200.50014L2.23706%202.73734L0%2011.4691L3.03128%2014.4999L0.00014%2017.531L2.2372%2026.2629L10.9691%2028.5L14.0001%2025.469L17.031%2028.4999L25.7629%2026.2628ZM15.7321%2023.7371L18.6186%2020.8505L22.2912%2024.5233L17.6956%2025.7007L15.7321%2023.7371ZM11.1136%209.88154L14.0003%206.99502L16.8868%209.8814L14.0001%2012.7679L11.1136%209.88154ZM12.2682%2014.5L9.38154%2017.3865L6.49502%2014.5L9.38154%2011.6135L12.2682%2014.5ZM18.6187%2011.6133L21.5053%2014.5L18.6186%2017.3865L15.7321%2014.5L18.6187%2011.6133ZM16.8867%2019.1186L14.0001%2022.0051L11.1135%2019.1185L14.0001%2016.2319L16.8867%2019.1186ZM10.3044%2025.7007L5.70864%2024.5233L9.38154%2020.8504L12.2682%2023.7371L10.3044%2025.7007ZM4.76308%2016.2319L7.6496%2019.1185L3.9767%2022.7914L2.7993%2018.1957L4.76308%2016.2319ZM3.9767%206.20836L7.64974%209.8814L4.76308%2012.7681L2.7993%2010.8041L3.9767%206.20836ZM12.2683%205.26294L9.38168%208.1496L5.70892%204.4767L10.3047%203.2993L12.2683%205.26294ZM17.6959%203.2993L22.2915%204.4767L18.6186%208.14946L15.7321%205.26294L17.6959%203.2993ZM23.2372%2012.7681L20.3505%209.8814L24.0233%206.20878L25.2007%2010.8046L23.2372%2012.7681ZM24.0233%2022.7914L20.3505%2019.1186L23.2372%2016.2321L25.2007%2018.1957L24.0233%2022.7914Z%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+    "svgColors": [],
+    "width": 74.34375,
+    "height": 48,
+    "rect": {
+      "x": 298,
+      "y": 46,
+      "width": 74,
+      "height": 28
+    },
+    "natural": {
+      "width": 77,
+      "height": 29
+    },
+    "type": "wordmark",
+    "reversed": false,
+    "background": "#ffffff",
+    "safeZone": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "position": {
+      "top": 45.5,
+      "left": 297.828125
+    }
+  },
+  "logoInstances": [
+    {
+      "source": "svg",
+      "context": "header",
+      "inline": true,
+      "url": "https://plaid.com/",
+      "color": "#232424",
+      "ariaLabel": "Plaid",
+      "markup": "<svg height=\"48\" viewBox=\"0 0 77 29\" xmlns=\"http://www.w3.org/2000/svg\" aria-label=\"Plaid\" class=\"css-6ht02i\" style=\"color: rgb(35, 36, 36);\"><g fill=\"currentColor\" fill-rule=\"evenodd\"><path d=\"M37.3252 14.9546H36.2239V12.5005H37.2135C38.4162 12.5005 39.0177 12.9124 39.0177 13.7353C39.0177 14.5484 38.4537 14.9546 37.3252 14.9546ZM40.3753 10.9121C39.7365 10.3878 38.6455 10.126 37.1019 10.126H33.6211V20.617H36.2239V17.33H37.3893C38.8052 17.33 39.8431 17.0256 40.5028 16.417C41.2475 15.7359 41.6206 14.8291 41.6206 13.6961C41.6206 12.5218 41.2058 11.5939 40.3753 10.9121ZM46.0756 10.1256H43.3611V20.6173H49.2216V18.2421H46.0758L46.0756 10.1256ZM54.5063 16.9683L55.6241 13.382L56.7254 16.9683H54.5063ZM54.538 10.1256L50.275 20.6173H53.197L53.7559 19.0919H57.46L57.9707 20.6173H60.9256L56.6937 10.1256H54.538ZM62.2824 20.6173H64.9969V10.1256H62.2824V20.6173ZM71.1922 18.2422H70.0263V12.5005H71.2081C72.0385 12.5005 72.6766 12.7536 73.1239 13.2592C73.5712 13.7654 73.7944 14.4828 73.7944 15.4101C73.7944 17.2986 72.9266 18.2422 71.1922 18.2422ZM75.5353 12.0917C75.1737 11.588 74.7422 11.1849 74.2424 10.8806C73.4221 10.3769 72.3043 10.125 70.8885 10.125H67.3119V20.6167H71.4956C73.0068 20.6167 74.2209 20.135 75.1363 19.1701C76.0517 18.2052 76.5091 16.9261 76.5091 15.3319C76.5089 14.0633 76.1842 12.9835 75.5353 12.0917Z\"></path><path d=\"M25.7629 26.2628L28 17.5309L24.9691 14.5001L27.9999 11.4691L25.7628 2.73706L17.0309 0.5L14.0001 3.531L10.969 0.50014L2.23706 2.73734L0 11.4691L3.03128 14.4999L0.00014 17.531L2.2372 26.2629L10.9691 28.5L14.0001 25.469L17.031 28.4999L25.7629 26.2628ZM15.7321 23.7371L18.6186 20.8505L22.2912 24.5233L17.6956 25.7007L15.7321 23.7371ZM11.1136 9.88154L14.0003 6.99502L16.8868 9.8814L14.0001 12.7679L11.1136 9.88154ZM12.2682 14.5L9.38154 17.3865L6.49502 14.5L9.38154 11.6135L12.2682 14.5ZM18.6187 11.6133L21.5053 14.5L18.6186 17.3865L15.7321 14.5L18.6187 11.6133ZM16.8867 19.1186L14.0001 22.0051L11.1135 19.1185L14.0001 16.2319L16.8867 19.1186ZM10.3044 25.7007L5.70864 24.5233L9.38154 20.8504L12.2682 23.7371L10.3044 25.7007ZM4.76308 16.2319L7.6496 19.1185L3.9767 22.7914L2.7993 18.1957L4.76308 16.2319ZM3.9767 6.20836L7.64974 9.8814L4.76308 12.7681L2.7993 10.8041L3.9767 6.20836ZM12.2683 5.26294L9.38168 8.1496L5.70892 4.4767L10.3047 3.2993L12.2683 5.26294ZM17.6959 3.2993L22.2915 4.4767L18.6186 8.14946L15.7321 5.26294L17.6959 3.2993ZM23.2372 12.7681L20.3505 9.8814L24.0233 6.20878L25.2007 10.8046L23.2372 12.7681ZM24.0233 22.7914L20.3505 19.1186L23.2372 16.2321L25.2007 18.1957L24.0233 22.7914Z\"></path></g></svg>",
+      "dataUri": "data:image/svg+xml;utf8,%3Csvg%20height%3D%2248%22%20viewBox%3D%220%200%2077%2029%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20aria-label%3D%22Plaid%22%20class%3D%22css-6ht02i%22%20style%3D%22color%3A%20rgb(35%2C%2036%2C%2036)%3B%22%3E%3Cg%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M37.3252%2014.9546H36.2239V12.5005H37.2135C38.4162%2012.5005%2039.0177%2012.9124%2039.0177%2013.7353C39.0177%2014.5484%2038.4537%2014.9546%2037.3252%2014.9546ZM40.3753%2010.9121C39.7365%2010.3878%2038.6455%2010.126%2037.1019%2010.126H33.6211V20.617H36.2239V17.33H37.3893C38.8052%2017.33%2039.8431%2017.0256%2040.5028%2016.417C41.2475%2015.7359%2041.6206%2014.8291%2041.6206%2013.6961C41.6206%2012.5218%2041.2058%2011.5939%2040.3753%2010.9121ZM46.0756%2010.1256H43.3611V20.6173H49.2216V18.2421H46.0758L46.0756%2010.1256ZM54.5063%2016.9683L55.6241%2013.382L56.7254%2016.9683H54.5063ZM54.538%2010.1256L50.275%2020.6173H53.197L53.7559%2019.0919H57.46L57.9707%2020.6173H60.9256L56.6937%2010.1256H54.538ZM62.2824%2020.6173H64.9969V10.1256H62.2824V20.6173ZM71.1922%2018.2422H70.0263V12.5005H71.2081C72.0385%2012.5005%2072.6766%2012.7536%2073.1239%2013.2592C73.5712%2013.7654%2073.7944%2014.4828%2073.7944%2015.4101C73.7944%2017.2986%2072.9266%2018.2422%2071.1922%2018.2422ZM75.5353%2012.0917C75.1737%2011.588%2074.7422%2011.1849%2074.2424%2010.8806C73.4221%2010.3769%2072.3043%2010.125%2070.8885%2010.125H67.3119V20.6167H71.4956C73.0068%2020.6167%2074.2209%2020.135%2075.1363%2019.1701C76.0517%2018.2052%2076.5091%2016.9261%2076.5091%2015.3319C76.5089%2014.0633%2076.1842%2012.9835%2075.5353%2012.0917Z%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M25.7629%2026.2628L28%2017.5309L24.9691%2014.5001L27.9999%2011.4691L25.7628%202.73706L17.0309%200.5L14.0001%203.531L10.969%200.50014L2.23706%202.73734L0%2011.4691L3.03128%2014.4999L0.00014%2017.531L2.2372%2026.2629L10.9691%2028.5L14.0001%2025.469L17.031%2028.4999L25.7629%2026.2628ZM15.7321%2023.7371L18.6186%2020.8505L22.2912%2024.5233L17.6956%2025.7007L15.7321%2023.7371ZM11.1136%209.88154L14.0003%206.99502L16.8868%209.8814L14.0001%2012.7679L11.1136%209.88154ZM12.2682%2014.5L9.38154%2017.3865L6.49502%2014.5L9.38154%2011.6135L12.2682%2014.5ZM18.6187%2011.6133L21.5053%2014.5L18.6186%2017.3865L15.7321%2014.5L18.6187%2011.6133ZM16.8867%2019.1186L14.0001%2022.0051L11.1135%2019.1185L14.0001%2016.2319L16.8867%2019.1186ZM10.3044%2025.7007L5.70864%2024.5233L9.38154%2020.8504L12.2682%2023.7371L10.3044%2025.7007ZM4.76308%2016.2319L7.6496%2019.1185L3.9767%2022.7914L2.7993%2018.1957L4.76308%2016.2319ZM3.9767%206.20836L7.64974%209.8814L4.76308%2012.7681L2.7993%2010.8041L3.9767%206.20836ZM12.2683%205.26294L9.38168%208.1496L5.70892%204.4767L10.3047%203.2993L12.2683%205.26294ZM17.6959%203.2993L22.2915%204.4767L18.6186%208.14946L15.7321%205.26294L17.6959%203.2993ZM23.2372%2012.7681L20.3505%209.8814L24.0233%206.20878L25.2007%2010.8046L23.2372%2012.7681ZM24.0233%2022.7914L20.3505%2019.1186L23.2372%2016.2321L25.2007%2018.1957L24.0233%2022.7914Z%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+      "svgColors": [],
+      "width": 74.34375,
+      "height": 48,
+      "rect": {
+        "x": 298,
+        "y": 46,
+        "width": 74,
+        "height": 28
+      },
+      "natural": {
+        "width": 77,
+        "height": 29
+      },
+      "type": "wordmark",
+      "reversed": false,
+      "background": "#ffffff",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 45.5,
+        "left": 297.828125
+      }
+    }
+  ],
+  "favicons": [
+    {
+      "type": "apple-touch-icon",
+      "url": "https://plaid.com/assets/img/favicons/apple-touch-icon.png",
+      "sizes": "180x180"
+    },
+    {
+      "type": "icon",
+      "url": "https://plaid.com/assets/img/favicons/favicon-32x32.png",
+      "sizes": "32x32"
+    },
+    {
+      "type": "icon",
+      "url": "https://plaid.com/assets/img/favicons/favicon-16x16.png",
+      "sizes": "16x16"
+    },
+    {
+      "type": "mask-icon",
+      "url": "https://plaid.com/assets/img/favicons/safari-pinned-tab.svg",
+      "sizes": null
+    },
+    {
+      "type": "og:image",
+      "url": "https://plaid.com/assets/img/plaid-social-card-landscape.jpg",
+      "sizes": null
+    },
+    {
+      "type": "twitter:image",
+      "url": "https://plaid.com/assets/img/plaid-social-card.jpg",
+      "sizes": null
+    },
+    {
+      "type": "pwa",
+      "url": "https://plaid.com/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "type": "pwa",
+      "url": "https://plaid.com/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ],
+  "manifest": {
+    "themeColor": "#ffffff",
+    "backgroundColor": "#ffffff",
+    "name": "Plaid",
+    "shortName": "Plaid"
+  },
+  "colors": {
+    "semantic": {
+      "primary": "rgb(204, 248, 255)",
+      "background": "rgb(255, 255, 255)",
+      "text": "rgb(17, 17, 17)",
+      "accent": "rgb(163, 163, 255)"
+    },
+    "palette": [
+      {
+        "color": "rgb(17, 17, 17)",
+        "normalized": "#111111",
+        "count": 1185,
+        "confidence": "high",
+        "sources": [
+          "cms-section",
+          "cms-container",
+          "muigrid-root"
+        ],
+        "lch": "lch(5.06% 0 53.34)",
+        "oklch": "oklch(17.76% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#ffffff",
+        "hover": "#141414"
+      },
+      {
+        "color": "rgb(4, 60, 103)",
+        "normalized": "#043c67",
+        "count": 478,
+        "confidence": "high",
+        "sources": [
+          "icon-container",
+          "[object"
+        ],
+        "lch": "lch(23.96% 30.64 264.2)",
+        "oklch": "oklch(34.82% 0.092 248.58)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#05487c",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 444,
+        "confidence": "high",
+        "sources": [
+          "base-button-root",
+          "css-1jlacyh-container",
+          "css-1h8as5d",
+          "manifest:theme_color",
+          "manifest:background_color"
+        ],
+        "lch": "lch(100% 0.03 53.35)",
+        "oklch": "oklch(100% 0 89.88)",
+        "role": "surface",
+        "onColor": "#000000",
+        "hover": "#d9d9d9"
+      },
+      {
+        "color": "rgb(1, 46, 55)",
+        "normalized": "#012e37",
+        "count": 439,
+        "confidence": "high",
+        "sources": [
+          "css-xpgwdh-p-mm-new-legacy",
+          "css-iqyv6r"
+        ],
+        "lch": "lch(16.49% 15.89 219.9)",
+        "oklch": "oklch(27.75% 0.048 215.03)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#013742",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(0, 23, 46)",
+        "normalized": "#00172e",
+        "count": 23,
+        "confidence": "high",
+        "sources": [
+          "muibox-root",
+          "css-1h8as5d"
+        ],
+        "lch": "lch(7.04% 18.51 266.11)",
+        "oklch": "oklch(20.08% 0.056 249.19)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#001c37",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(197, 197, 197)",
+        "normalized": "#c5c5c5",
+        "count": 22,
+        "confidence": "high",
+        "sources": [],
+        "lch": "lch(79.52% 0.02 53.35)",
+        "oklch": "oklch(82.34% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#000000",
+        "hover": "#a7a7a7"
+      },
+      {
+        "color": "rgb(85, 85, 85)",
+        "normalized": "#555555",
+        "count": 12,
+        "confidence": "high",
+        "sources": [],
+        "lch": "lch(36.15% 0.01 53.35)",
+        "oklch": "oklch(44.95% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#ffffff",
+        "hover": "#666666"
+      },
+      {
+        "color": "rgb(163, 163, 255)",
+        "normalized": "#a3a3ff",
+        "count": 5,
+        "confidence": "medium",
+        "sources": [
+          "cta-circle"
+        ],
+        "lch": "lch(69.8% 48.96 289.36)",
+        "oklch": "oklch(75.22% 0.131 282.79)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#8b8bd9"
+      },
+      {
+        "color": "rgb(204, 248, 255)",
+        "normalized": "#ccf8ff",
+        "count": 1,
+        "confidence": "high",
+        "sources": [
+          "css-jtvxiw"
+        ],
+        "lch": "lch(94.65% 15.81 211.56)",
+        "oklch": "oklch(95.05% 0.046 208.22)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#add3d9",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(103, 72, 216)",
+        "normalized": "#6748d8",
+        "count": 2,
+        "confidence": "low",
+        "sources": [
+          "gradient"
+        ],
+        "lch": "lch(40.94% 82.18 300.39)",
+        "oklch": "oklch(52.08% 0.209 286.61)"
+      },
+      {
+        "color": "rgb(177, 78, 219)",
+        "normalized": "#b14edb",
+        "count": 2,
+        "confidence": "low",
+        "sources": [
+          "gradient"
+        ],
+        "lch": "lch(51.31% 79.37 315.81)",
+        "oklch": "oklch(61.07% 0.216 314.24)"
+      },
+      {
+        "color": "rgb(16, 16, 16)",
+        "normalized": "#101010",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      },
+      {
+        "color": "rgb(15, 15, 15)",
+        "normalized": "#0f0f0f",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      },
+      {
+        "color": "rgba(247, 250, 255, 0.5)",
+        "normalized": "#f7faff",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      },
+      {
+        "color": "rgb(2, 41, 75)",
+        "normalized": "#02294b",
+        "count": 99,
+        "confidence": "high",
+        "sources": [
+          "css-temqgu"
+        ],
+        "lch": "lch(15.64% 25.29 266.27)",
+        "oklch": "oklch(27.62% 0.075 249.97)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#02315a",
+        "variantOf": "primary",
+        "source": "mobile"
+      },
+      {
+        "color": "rgb(56, 56, 56)",
+        "normalized": "#383838",
+        "count": 4,
+        "confidence": "medium",
+        "sources": [],
+        "lch": "lch(23.52% 0.01 53.35)",
+        "oklch": "oklch(34.07% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#ffffff",
+        "hover": "#434343",
+        "source": "mobile"
+      },
+      {
+        "color": "rgb(0, 114, 207)",
+        "normalized": "#0072cf",
+        "count": 2,
+        "confidence": "medium",
+        "sources": [
+          "privacy-notice-link"
+        ],
+        "lch": "lch(46.77% 56.6 270.77)",
+        "oklch": "oklch(55.08% 0.167 252.44)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#0089f8",
+        "variantOf": "primary",
+        "source": "menu"
+      }
+    ],
+    "cssVariables": {
+      "--color-border-state-focused": {
+        "value": "#0072cf",
+        "hex": "#0072cf",
+        "lch": "lch(46.77% 56.6 270.77)",
+        "oklch": "oklch(55.08% 0.167 252.44)"
+      },
+      "--color-modal-progressbar-progress": {
+        "value": "#0a85ea",
+        "hex": "#0a85ea",
+        "lch": "lch(53.89% 60.37 269.32)",
+        "oklch": "oklch(61.21% 0.179 251.73)"
+      },
+      "--input-label-text-float-dark": {
+        "value": "#949494",
+        "hex": "#949494",
+        "lch": "lch(61.32% 0.02 53.35)",
+        "oklch": "oklch(66.65% 0 89.88)"
+      },
+      "--color-fill-state-pressed": {
+        "value": "#0061b3",
+        "hex": "#0061b3",
+        "lch": "lch(40.08% 51.18 271.28)",
+        "oklch": "oklch(49.24% 0.151 252.77)"
+      }
+    },
+    "detected": [
+      {
+        "color": "rgb(17, 17, 17)",
+        "normalized": "#111111",
+        "count": 1185,
+        "usageFrac": 0.3333333333333333,
+        "confidence": "high",
+        "sources": [
+          "cms-section",
+          "cms-container",
+          "muigrid-root",
+          "muistack-root",
+          "css-jtvxiw"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(17, 17, 18)",
+        "normalized": "#111112",
+        "count": 502,
+        "usageFrac": 0.14120956399437412,
+        "confidence": "high",
+        "sources": [
+          "base-button-root"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(4, 60, 103)",
+        "normalized": "#043c67",
+        "count": 478,
+        "usageFrac": 0.13445850914205346,
+        "confidence": "high",
+        "sources": [
+          "icon-container",
+          "[object"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 444,
+        "usageFrac": 0.1248945147679325,
+        "confidence": "high",
+        "sources": [
+          "base-button-root",
+          "css-1jlacyh-container",
+          "css-1h8as5d",
+          "cms-container",
+          "muigrid-root"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(1, 46, 55)",
+        "normalized": "#012e37",
+        "count": 439,
+        "usageFrac": 0.12348804500703235,
+        "confidence": "high",
+        "sources": [
+          "css-xpgwdh-p-mm-new-legacy",
+          "css-iqyv6r"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(35, 36, 36)",
+        "normalized": "#232424",
+        "count": 163,
+        "usageFrac": 0.04585091420534459,
+        "confidence": "high",
+        "sources": [
+          "css-yaluuo-p-mm-new-legacy",
+          "icon-container",
+          "[object"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(2, 41, 75)",
+        "normalized": "#02294b",
+        "count": 99,
+        "usageFrac": 0.027848101265822784,
+        "confidence": "high",
+        "sources": [
+          "css-temqgu"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(2, 40, 75)",
+        "normalized": "#02284b",
+        "count": 45,
+        "usageFrac": 0.012658227848101266,
+        "confidence": "high",
+        "sources": [
+          "cta-circle"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(10, 84, 196)",
+        "normalized": "#0a54c4",
+        "count": 30,
+        "usageFrac": 0.008438818565400843,
+        "confidence": "high",
+        "sources": [
+          "muibuttonbase-root"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(0, 23, 46)",
+        "normalized": "#00172e",
+        "count": 23,
+        "usageFrac": 0.006469760900140647,
+        "confidence": "high",
+        "sources": [
+          "muibox-root",
+          "css-1h8as5d"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(197, 197, 197)",
+        "normalized": "#c5c5c5",
+        "count": 22,
+        "usageFrac": 0.006188466947960619,
+        "confidence": "high",
+        "sources": [],
+        "isToken": true
+      },
+      {
+        "color": "rgb(216, 254, 243)",
+        "normalized": "#d8fef3",
+        "count": 14,
+        "usageFrac": 0.003938115330520394,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(85, 85, 85)",
+        "normalized": "#555555",
+        "count": 12,
+        "usageFrac": 0.0033755274261603376,
+        "confidence": "high",
+        "sources": [],
+        "isToken": true
+      },
+      {
+        "color": "rgb(118, 118, 118)",
+        "normalized": "#767676",
+        "count": 12,
+        "usageFrac": 0.0033755274261603376,
+        "confidence": "high",
+        "sources": [],
+        "isToken": true
+      },
+      {
+        "color": "rgb(92, 118, 149)",
+        "normalized": "#5c7695",
+        "count": 10,
+        "usageFrac": 0.0028129395218002813,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 8,
+        "usageFrac": 0.002250351617440225,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(75, 75, 75)",
+        "normalized": "#4b4b4b",
+        "count": 7,
+        "usageFrac": 0.001969057665260197,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(107, 119, 133)",
+        "normalized": "#6b7785",
+        "count": 6,
+        "usageFrac": 0.0016877637130801688,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(89, 91, 92)",
+        "normalized": "#595b5c",
+        "count": 6,
+        "usageFrac": 0.0016877637130801688,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgba(62, 62, 62, 0.5)",
+        "normalized": "#3e3e3e",
+        "count": 6,
+        "usageFrac": 0.0016877637130801688,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(242, 210, 17)",
+        "normalized": "#f2d211",
+        "count": 6,
+        "usageFrac": 0.0016877637130801688,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(163, 163, 255)",
+        "normalized": "#a3a3ff",
+        "count": 5,
+        "usageFrac": 0.0014064697609001407,
+        "confidence": "medium",
+        "sources": [
+          "cta-circle"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(56, 56, 56)",
+        "normalized": "#383838",
+        "count": 4,
+        "usageFrac": 0.0011251758087201125,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": true
+      },
+      {
+        "color": "rgb(55, 176, 244)",
+        "normalized": "#37b0f4",
+        "count": 4,
+        "usageFrac": 0.0011251758087201125,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(51, 51, 51)",
+        "normalized": "#333333",
+        "count": 4,
+        "usageFrac": 0.0011251758087201125,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(234, 239, 240)",
+        "normalized": "#eaeff0",
+        "count": 2,
+        "usageFrac": 0.0005625879043600563,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(5, 86, 92)",
+        "normalized": "#05565c",
+        "count": 2,
+        "usageFrac": 0.0005625879043600563,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(0, 62, 74)",
+        "normalized": "#003e4a",
+        "count": 2,
+        "usageFrac": 0.0005625879043600563,
+        "confidence": "low",
+        "sources": [
+          "css-ivvkr9"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(35, 95, 137)",
+        "normalized": "#235f89",
+        "count": 2,
+        "usageFrac": 0.0005625879043600563,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(0, 14, 37)",
+        "normalized": "#000e25",
+        "count": 2,
+        "usageFrac": 0.0005625879043600563,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(36, 85, 91)",
+        "normalized": "#24555b",
+        "count": 2,
+        "usageFrac": 0.0005625879043600563,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(63, 8, 73)",
+        "normalized": "#3f0849",
+        "count": 2,
+        "usageFrac": 0.0005625879043600563,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(221, 227, 233)",
+        "normalized": "#dde3e9",
+        "count": 1,
+        "usageFrac": 0.00028129395218002813,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(235, 240, 244)",
+        "normalized": "#ebf0f4",
+        "count": 1,
+        "usageFrac": 0.00028129395218002813,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(247, 250, 255)",
+        "normalized": "#f7faff",
+        "count": 1,
+        "usageFrac": 0.00028129395218002813,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(204, 248, 255)",
+        "normalized": "#ccf8ff",
+        "count": 1,
+        "usageFrac": 0.00028129395218002813,
+        "confidence": "high",
+        "sources": [
+          "css-jtvxiw"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(13, 13, 63)",
+        "normalized": "#0d0d3f",
+        "count": 1,
+        "usageFrac": 0.00028129395218002813,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(12, 17, 22)",
+        "normalized": "#0c1116",
+        "count": 1,
+        "usageFrac": 0.00028129395218002813,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(234, 221, 253)",
+        "normalized": "#eaddfd",
+        "count": 1,
+        "usageFrac": 0.00028129395218002813,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      }
+    ],
+    "_raw": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 444
+      },
+      {
+        "color": "rgb(17, 17, 17)",
+        "normalized": "#111111",
+        "count": 1185
+      },
+      {
+        "color": "rgb(35, 36, 36)",
+        "normalized": "#232424",
+        "count": 163
+      },
+      {
+        "color": "rgb(1, 46, 55)",
+        "normalized": "#012e37",
+        "count": 439
+      },
+      {
+        "color": "rgb(4, 60, 103)",
+        "normalized": "#043c67",
+        "count": 478
+      },
+      {
+        "color": "rgb(17, 17, 18)",
+        "normalized": "#111112",
+        "count": 502
+      },
+      {
+        "color": "rgb(2, 40, 75)",
+        "normalized": "#02284b",
+        "count": 45
+      },
+      {
+        "color": "rgb(2, 41, 75)",
+        "normalized": "#02294b",
+        "count": 99
+      }
+    ]
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "display",
+        "family": "Plaid Sans",
+        "fallbacks": "Cern, Avenir Next, Avenir, Proxima Nova, Jakarta Plus Sans, Futura, Avant Garde, Montserrat, Helvetica Neue, Helvetica, Nimbus Sans, system-ui, -apple-system, BlinkMacSystemFont, Arial, Segoe UI, Roboto, Oxygen",
+        "size": "76px (4.75rem)",
+        "weight": 500,
+        "lineHeight": "1.12",
+        "spacing": "-3.4px",
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Plaid Sans",
+        "fallbacks": "Cern, Avenir Next, Avenir, Proxima Nova, Jakarta Plus Sans, Futura, Avant Garde, Montserrat, Helvetica Neue, Helvetica, Nimbus Sans, system-ui, -apple-system, BlinkMacSystemFont, Arial, Segoe UI, Roboto, Oxygen",
+        "size": "70px (4.38rem)",
+        "weight": 500,
+        "lineHeight": "1.08",
+        "spacing": "-2px",
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Plaid Sans",
+        "fallbacks": "Cern, Avenir Next, Avenir, Proxima Nova, Jakarta Plus Sans, Futura, Avant Garde, Montserrat, Helvetica Neue, Helvetica, Nimbus Sans, system-ui, -apple-system, BlinkMacSystemFont, Arial, Segoe UI, Roboto, Oxygen",
+        "size": "70px (4.38rem)",
+        "weight": 500,
+        "lineHeight": "1.20",
+        "spacing": "-2.8px",
+        "transform": null
+      },
+      {
+        "context": "display",
+        "family": "Bowery Street",
+        "fallbacks": null,
+        "size": "70px (4.38rem)",
+        "weight": 300,
+        "lineHeight": "0.94",
+        "spacing": "-3.5px",
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Plaid Sans",
+        "fallbacks": "Cern, Avenir Next, Avenir, Proxima Nova, Jakarta Plus Sans, Futura, Avant Garde, Montserrat, Helvetica Neue, Helvetica, Nimbus Sans, system-ui, -apple-system, BlinkMacSystemFont, Arial, Segoe UI, Roboto, Oxygen",
+        "size": "70px (4.38rem)",
+        "weight": 500,
+        "lineHeight": "1.10",
+        "spacing": "-0.9px",
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Plaid Sans",
+        "fallbacks": "Cern, Avenir Next, Avenir, Proxima Nova, Jakarta Plus Sans, Futura, Avant Garde, Montserrat, Helvetica Neue, Helvetica, Nimbus Sans, system-ui, -apple-system, BlinkMacSystemFont, Arial, Segoe UI, Roboto, Oxygen",
+        "size": "58px (3.63rem)",
+        "weight": 500,
+        "lineHeight": "1.14",
+        "spacing": "-2px",
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Plaid Sans",
+        "fallbacks": "Cern, Avenir Next, Avenir, Proxima Nova, Jakarta Plus Sans, Futura, Avant Garde, Montserrat, Helvetica Neue, Helvetica, Nimbus Sans, system-ui, -apple-system, BlinkMacSystemFont, Arial, Segoe UI, Roboto, Oxygen",
+        "size": "50px (3.13rem)",
+        "weight": 500,
+        "lineHeight": "0.94",
+        "spacing": "-2px",
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "36px (2.25rem)",
+        "weight": 800,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Plaid Sans",
+        "fallbacks": "Cern, Avenir Next, Avenir, Proxima Nova, Jakarta Plus Sans, Futura, Avant Garde, Montserrat, Helvetica Neue, Helvetica, Nimbus Sans, system-ui, -apple-system, BlinkMacSystemFont, Arial, Segoe UI, Roboto, Oxygen",
+        "size": "30px (1.88rem)",
+        "weight": 500,
+        "lineHeight": "0.94",
+        "spacing": "-1.2px",
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Plaid Sans",
+        "fallbacks": "Cern, Avenir Next, Avenir, Proxima Nova, Jakarta Plus Sans, Futura, Avant Garde, Montserrat, Helvetica Neue, Helvetica, Nimbus Sans, system-ui, -apple-system, BlinkMacSystemFont, Arial, Segoe UI, Roboto, Oxygen",
+        "size": "30px (1.88rem)",
+        "weight": 500,
+        "lineHeight": "1.20",
+        "spacing": "-0.9px",
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "Plaid Sans",
+        "fallbacks": "Cern, Avenir Next, Avenir, Proxima Nova, Jakarta Plus Sans, Futura, Avant Garde, Montserrat, Helvetica Neue, Helvetica, Nimbus Sans, system-ui, -apple-system, BlinkMacSystemFont, Arial, Segoe UI, Roboto, Oxygen",
+        "size": "30px (1.88rem)",
+        "weight": 500,
+        "lineHeight": "1.20",
+        "spacing": "-0.6px",
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "Plaid Sans",
+        "fallbacks": "Cern, Avenir Next, Avenir, Proxima Nova, Jakarta Plus Sans, Futura, Avant Garde, Montserrat, Helvetica Neue, Helvetica, Nimbus Sans, system-ui, -apple-system, BlinkMacSystemFont, Arial, Segoe UI, Roboto, Oxygen",
+        "size": "29px (1.81rem)",
+        "weight": 500,
+        "lineHeight": "1.40",
+        "spacing": "-0.5px",
+        "transform": null
+      },
+      {
+        "context": "text",
+        "family": "Plaid Sans",
+        "fallbacks": "Cern, Avenir Next, Avenir, Proxima Nova, Jakarta Plus Sans, Futura, Avant Garde, Montserrat, Helvetica Neue, Helvetica, Nimbus Sans, system-ui, -apple-system, BlinkMacSystemFont, Arial, Segoe UI, Roboto, Oxygen",
+        "size": "29px (1.81rem)",
+        "weight": 600,
+        "lineHeight": "1.40",
+        "spacing": "-0.5px",
+        "transform": null
+      },
+      {
+        "context": "heading-5",
+        "family": "Inconsolata",
+        "fallbacks": null,
+        "size": "26.9px (1.68rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": "-0.061px",
+        "transform": null,
+        "fontFeatures": "\"clig\" 0, \"liga\" 0"
+      },
+      {
+        "context": "text",
+        "family": "Inconsolata",
+        "fallbacks": null,
+        "size": "26.9px (1.68rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": "-0.061px",
+        "transform": null,
+        "fontFeatures": "\"clig\" 0, \"liga\" 0"
+      },
+      {
+        "context": "text",
+        "family": "Plaid Sans",
+        "fallbacks": "Cern, Avenir Next, Avenir, Proxima Nova, Jakarta Plus Sans, Futura, Avant Garde, Montserrat, Helvetica Neue, Helvetica, Nimbus Sans, system-ui, -apple-system, BlinkMacSystemFont, Arial, Segoe UI, Roboto, Oxygen",
+        "size": "24px (1.50rem)",
+        "weight": 400,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "24px (1.50rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "24px (1.50rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Cern",
+        "fallbacks": "Helvetica Neue, Helvetica, Nimbus Sans, system-ui, -apple-system, BlinkMacSystemFont, Arial, Segoe UI, Roboto, Oxygen",
+        "size": "20px (1.25rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": "-0.75px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Cern",
+        "fallbacks": "Helvetica Neue, Helvetica, Nimbus Sans, system-ui, -apple-system, BlinkMacSystemFont, Arial, Segoe UI, Roboto, Oxygen",
+        "size": "20px (1.25rem)",
+        "weight": 600,
+        "lineHeight": "1.30",
+        "spacing": "-0.75px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Cern",
+        "fallbacks": "Helvetica Neue, Helvetica, Nimbus Sans, system-ui, -apple-system, BlinkMacSystemFont, Arial, Segoe UI, Roboto, Oxygen",
+        "size": "20px (1.25rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": "-0.75px",
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Plaid Sans",
+        "fallbacks": "Cern, Avenir Next, Avenir, Proxima Nova, Jakarta Plus Sans, Futura, Avant Garde, Montserrat, Helvetica Neue, Helvetica, Nimbus Sans, system-ui, -apple-system, BlinkMacSystemFont, Arial, Segoe UI, Roboto, Oxygen",
+        "size": "20px (1.25rem)",
+        "weight": 600,
+        "lineHeight": "1.10",
+        "spacing": "-0.4px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "20px (1.25rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Cern",
+        "fallbacks": "Helvetica Neue, Helvetica, Nimbus Sans, system-ui, -apple-system, BlinkMacSystemFont, Arial, Segoe UI, Roboto, Oxygen",
+        "size": "20px (1.25rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Cern",
+        "fallbacks": "Helvetica Neue, Helvetica, Nimbus Sans, system-ui, -apple-system, BlinkMacSystemFont, Arial, Segoe UI, Roboto, Oxygen",
+        "size": "20px (1.25rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "18px (1.13rem)",
+        "weight": 600,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "18px (1.13rem)",
+        "weight": 600,
+        "lineHeight": "1.56",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Cern",
+        "fallbacks": "Helvetica Neue, Helvetica, Nimbus Sans, system-ui, -apple-system, BlinkMacSystemFont, Arial, Segoe UI, Roboto, Oxygen",
+        "size": "18px (1.13rem)",
+        "weight": 400,
+        "lineHeight": "1.04",
+        "spacing": "-0.36px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Cern",
+        "fallbacks": "Helvetica Neue, Helvetica, Nimbus Sans, system-ui, -apple-system, BlinkMacSystemFont, Arial, Segoe UI, Roboto, Oxygen",
+        "size": "18px (1.13rem)",
+        "weight": 400,
+        "lineHeight": "1.04",
+        "spacing": "-0.36px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 700,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 700,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": "0.16px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "14.4px (0.90rem)",
+        "weight": 400,
+        "lineHeight": "2.64",
+        "spacing": "0.144px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "14.4px (0.90rem)",
+        "weight": 700,
+        "lineHeight": "1.00",
+        "spacing": "0.144px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-6",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.71",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"clig\" 0, \"liga\" 0"
+      },
+      {
+        "context": "heading-4",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 700,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-4",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "13.008px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "13.008px (0.81rem)",
+        "weight": 600,
+        "lineHeight": "1.20",
+        "spacing": "0.13008px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "12.992px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "12.992px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "12.906px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "12.796px (0.80rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "12px (0.75rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "12px (0.75rem)",
+        "weight": 700,
+        "lineHeight": "1.00",
+        "spacing": "0.12px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "10.2px (0.64rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Cern",
+        "fallbacks": "Helvetica, Arial",
+        "size": "8.5px (0.53rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      }
+    ],
+    "sources": {
+      "googleFonts": [],
+      "adobeFonts": false,
+      "variableFonts": false,
+      "selfHostedFonts": [
+        "BoweryStreet-Bold.woff2",
+        "BoweryStreet-Light.woff2",
+        "BoweryStreet-Medium.woff2",
+        "BoweryStreet-Regular.woff2",
+        "Inconsolata-Bold.woff2",
+        "Inconsolata-Regular.woff2",
+        "Inter-Regular.f1f0c35b32.woff2",
+        "Inter-SemiBold.fcb100c760.woff2",
+        "PlaidSans-Bold.woff2",
+        "PlaidSans-Medium.woff2",
+        "PlaidSans-Regular.woff2",
+        "PlaidSans-SemiBold.woff2",
+        "cern-bold.woff2",
+        "cern-extrabold.woff2",
+        "cern-italic.woff2",
+        "cern-medium.woff2",
+        "cern-regular.woff2",
+        "cern-semibold.woff2"
+      ],
+      "customFonts": [
+        "BoweryStreet-Bold.woff2",
+        "BoweryStreet-Light.woff2",
+        "BoweryStreet-Medium.woff2",
+        "BoweryStreet-Regular.woff2",
+        "Inconsolata-Bold.woff2",
+        "Inconsolata-Regular.woff2",
+        "Inter-Regular.f1f0c35b32.woff2",
+        "Inter-SemiBold.fcb100c760.woff2",
+        "PlaidSans-Bold.woff2",
+        "PlaidSans-Medium.woff2",
+        "PlaidSans-Regular.woff2",
+        "PlaidSans-SemiBold.woff2",
+        "cern-bold.woff2",
+        "cern-extrabold.woff2",
+        "cern-italic.woff2",
+        "cern-medium.woff2",
+        "cern-regular.woff2",
+        "cern-semibold.woff2"
+      ]
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "1px",
+        "display": "1px",
+        "rem": "0.06rem",
+        "count": 17,
+        "numericValue": 1
+      },
+      {
+        "px": "2px",
+        "display": "2px",
+        "rem": "0.13rem",
+        "count": 5,
+        "numericValue": 2
+      },
+      {
+        "px": "3px",
+        "display": "3px",
+        "rem": "0.19rem",
+        "count": 14,
+        "numericValue": 3
+      },
+      {
+        "px": "4px",
+        "display": "4px",
+        "rem": "0.25rem",
+        "count": 4,
+        "numericValue": 4
+      },
+      {
+        "px": "5px",
+        "display": "5px",
+        "rem": "0.31rem",
+        "count": 11,
+        "numericValue": 5
+      },
+      {
+        "px": "7px",
+        "display": "7px",
+        "rem": "0.44rem",
+        "count": 9,
+        "numericValue": 7
+      },
+      {
+        "px": "8px",
+        "display": "8px",
+        "rem": "0.50rem",
+        "count": 84,
+        "numericValue": 8
+      },
+      {
+        "px": "10px",
+        "display": "10px",
+        "rem": "0.63rem",
+        "count": 23,
+        "numericValue": 10
+      },
+      {
+        "px": "12px",
+        "display": "12px",
+        "rem": "0.75rem",
+        "count": 39,
+        "numericValue": 12
+      },
+      {
+        "px": "13.5px",
+        "display": "13.5px",
+        "rem": "0.84rem",
+        "count": 66,
+        "numericValue": 13.5
+      },
+      {
+        "px": "14px",
+        "display": "14px",
+        "rem": "0.88rem",
+        "count": 4,
+        "numericValue": 14
+      },
+      {
+        "px": "15px",
+        "display": "15px",
+        "rem": "0.94rem",
+        "count": 15,
+        "numericValue": 15
+      },
+      {
+        "px": "16px",
+        "display": "16px",
+        "rem": "1.00rem",
+        "count": 22,
+        "numericValue": 16
+      },
+      {
+        "px": "17px",
+        "display": "17px",
+        "rem": "1.06rem",
+        "count": 4,
+        "numericValue": 17
+      },
+      {
+        "px": "20px",
+        "display": "20px",
+        "rem": "1.25rem",
+        "count": 8,
+        "numericValue": 20
+      },
+      {
+        "px": "24px",
+        "display": "24px",
+        "rem": "1.50rem",
+        "count": 11,
+        "numericValue": 24
+      },
+      {
+        "px": "25px",
+        "display": "25px",
+        "rem": "1.56rem",
+        "count": 3,
+        "numericValue": 25
+      },
+      {
+        "px": "29px",
+        "display": "29px",
+        "rem": "1.81rem",
+        "count": 5,
+        "numericValue": 29
+      },
+      {
+        "px": "32px",
+        "display": "32px",
+        "rem": "2.00rem",
+        "count": 11,
+        "numericValue": 32
+      },
+      {
+        "px": "70px",
+        "display": "70px",
+        "rem": "4.38rem",
+        "count": 4,
+        "numericValue": 70
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "0px 8px 8px 0px",
+        "count": 1,
+        "elements": [
+          "image"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "1px",
+        "count": 8,
+        "elements": [
+          "span"
+        ],
+        "confidence": "medium",
+        "numericValue": 1
+      },
+      {
+        "value": "2px",
+        "count": 32,
+        "elements": [
+          "a",
+          "Close main menu modal",
+          "input",
+          "button",
+          "code"
+        ],
+        "confidence": "high",
+        "numericValue": 2
+      },
+      {
+        "value": "2.5px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 2.5
+      },
+      {
+        "value": "3px",
+        "count": 2,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 3
+      },
+      {
+        "value": "8px",
+        "count": 47,
+        "elements": [
+          "span",
+          "image",
+          "input",
+          "div",
+          "combobox"
+        ],
+        "confidence": "high",
+        "numericValue": 8
+      },
+      {
+        "value": "12px",
+        "count": 2,
+        "elements": [
+          "image"
+        ],
+        "confidence": "low",
+        "numericValue": 12
+      },
+      {
+        "value": "13px",
+        "count": 4,
+        "elements": [
+          "img"
+        ],
+        "confidence": "medium",
+        "numericValue": 13
+      },
+      {
+        "value": "16px",
+        "count": 35,
+        "elements": [
+          "div",
+          "modal"
+        ],
+        "confidence": "high",
+        "numericValue": 16
+      },
+      {
+        "value": "17px",
+        "count": 1,
+        "elements": [
+          "Filter Cookie List"
+        ],
+        "confidence": "low",
+        "numericValue": 17
+      },
+      {
+        "value": "20px",
+        "count": 83,
+        "elements": [
+          "img",
+          "div",
+          "span"
+        ],
+        "confidence": "high",
+        "numericValue": 20
+      },
+      {
+        "value": "20px 20px 0px 0px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 20
+      },
+      {
+        "value": "24px",
+        "count": 14,
+        "elements": [
+          "div",
+          "a",
+          "section"
+        ],
+        "confidence": "high",
+        "numericValue": 24
+      },
+      {
+        "value": "27.088px 27.088px 0px 0px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 27.088
+      },
+      {
+        "value": "35px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 35
+      },
+      {
+        "value": "40px",
+        "count": 3,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 40
+      },
+      {
+        "value": "40px 40px 0px 0px",
+        "count": 1,
+        "elements": [
+          "footer"
+        ],
+        "confidence": "low",
+        "numericValue": 40
+      },
+      {
+        "value": "46px",
+        "count": 3,
+        "elements": [
+          "a",
+          "button"
+        ],
+        "confidence": "low",
+        "numericValue": 46
+      },
+      {
+        "value": "50px",
+        "count": 2,
+        "elements": [
+          "div",
+          "Cookie list search"
+        ],
+        "confidence": "low",
+        "numericValue": 50
+      },
+      {
+        "value": "100px",
+        "count": 111,
+        "elements": [
+          "button",
+          "span",
+          "svg"
+        ],
+        "confidence": "high",
+        "numericValue": 100
+      },
+      {
+        "value": "999px",
+        "count": 6,
+        "elements": [
+          "button",
+          "link",
+          "a"
+        ],
+        "confidence": "medium",
+        "numericValue": 999
+      },
+      {
+        "value": "1000px",
+        "count": 2,
+        "elements": [
+          "Manage, Opens the preference center dialog",
+          "button"
+        ],
+        "confidence": "low",
+        "numericValue": 1000
+      },
+      {
+        "value": "50%",
+        "count": 5,
+        "elements": [
+          "span"
+        ],
+        "confidence": "medium",
+        "numericValue": 50
+      },
+      {
+        "value": "100%",
+        "count": 2,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low",
+        "numericValue": 100
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgba(17, 17, 17, 0.08)",
+        "count": 33,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(2, 41, 75)",
+        "count": 6,
+        "elements": [
+          "input",
+          "div"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(163, 163, 255)",
+        "count": 5,
+        "elements": [
+          "span"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(17, 17, 17)",
+        "count": 4,
+        "elements": [
+          "button"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 1px 1px",
+        "style": "none solid solid",
+        "color": "rgb(17, 17, 17)",
+        "count": 3,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(255, 255, 255)",
+        "count": 3,
+        "elements": [
+          "span"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 0px 1px",
+        "style": "none none none solid",
+        "color": "rgb(1, 46, 55)",
+        "count": 2,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "none none solid",
+        "color": "rgb(17, 17, 17)",
+        "count": 2,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(220, 220, 220)",
+        "count": 2,
+        "elements": [
+          "li"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(221, 227, 233)",
+        "count": 1,
+        "elements": [
+          "a"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(235, 240, 244)",
+        "count": 1,
+        "elements": [
+          "a"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "2px",
+        "style": "outset",
+        "color": "rgb(0, 0, 0)",
+        "count": 1,
+        "elements": [
+          "input"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 1px 0px 0px",
+        "style": "none solid none none",
+        "color": "rgb(17, 17, 17)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(220, 220, 220)",
+        "count": 1,
+        "elements": [
+          "menu"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(50, 174, 136)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(216, 216, 216)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(112, 112, 112)",
+        "count": 1,
+        "elements": [
+          "input"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(187, 187, 187)",
+        "count": 1,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(216, 216, 216)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [
+    {
+      "shadow": "rgba(208, 70, 246, 0) 0px 0px 25px 0px",
+      "count": 40,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgba(125, 125, 125, 0) 0px 86.756px 24.378px 0px, rgba(125, 125, 125, 0.01) 0px 55.209px 22.227px 0px, rgba(125, 125, 125, 0.05) 0px 30.831px 18.642px 0px, rgba(125, 125, 125, 0.09) 0px 13.623px 13.623px 0px, rgba(125, 125, 125, 0.1) 0px 3.585px 7.887px 0px",
+      "count": 37,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.2) 0px 0px 5px 0px",
+      "count": 5,
+      "confidence": "medium"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.15) 0px 1px 5px 0px",
+      "count": 2,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.2) 0px 4px 8px 0px",
+      "count": 2,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.06) 0px 2px 8px 0px, rgba(255, 255, 255, 0.12) 0px 0px 0px 1px inset, rgba(85, 85, 85, 0.12) 0px 6px 12px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.06) 0px 2px 6px 0px, rgba(255, 255, 255, 0.12) 0px 0px 0px 1px inset, rgba(85, 85, 85, 0.12) 0px 6px 12px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.15) 0px 1px 5px 0px inset",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.14) 0px 1px 16.5px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(139, 139, 249, 0.7) 0px 0px 70px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(86, 221, 247, 0.8) 0px 4px 150px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(243, 49, 247, 0.43) 0px 0px 36px 5px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(18, 18, 18, 0.08) 0px 2px 4px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.2) 0px 0px 18px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgb(153, 153, 153) 0px 2px 10px -3px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgb(199, 197, 199) -3px -3px 5px -2px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgb(199, 197, 199) 0px 0px 12px 2px",
+      "count": 1,
+      "confidence": "low"
+    }
+  ],
+  "gradients": [
+    {
+      "gradient": "linear-gradient(47.75deg, rgb(245, 245, 255), rgb(247, 250, 255) 50%, rgb(229, 252, 255))",
+      "type": "linear",
+      "stopColors": [
+        "rgb(245, 245, 255)",
+        "rgb(247, 250, 255)",
+        "rgb(229, 252, 255)"
+      ],
+      "count": 38
+    },
+    {
+      "gradient": "linear-gradient(46deg, rgb(230, 230, 255) 2.73%, rgb(229, 239, 254) 47.11%, rgb(204, 248, 255) 100%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(230, 230, 255)",
+        "rgb(229, 239, 254)",
+        "rgb(204, 248, 255)"
+      ],
+      "count": 5
+    },
+    {
+      "gradient": "linear-gradient(254deg, rgb(103, 72, 216) 12.14%, rgb(177, 78, 219) 96.16%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(103, 72, 216)",
+        "rgb(177, 78, 219)"
+      ],
+      "count": 4
+    },
+    {
+      "gradient": "linear-gradient(77deg, rgb(17, 17, 18) 0%, rgb(55, 56, 57) 100%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(17, 17, 18)",
+        "rgb(55, 56, 57)"
+      ],
+      "count": 3
+    },
+    {
+      "gradient": "linear-gradient(-210deg, rgb(7, 87, 140) 27.07%, rgb(14, 148, 216) 59.71%, rgb(66, 240, 205) 92.45%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(7, 87, 140)",
+        "rgb(14, 148, 216)",
+        "rgb(66, 240, 205)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(95deg, rgb(1, 23, 46) 27.81%, rgb(1, 46, 55) 76.6%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(1, 23, 46)",
+        "rgb(1, 46, 55)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "radial-gradient(circle at 0% 0%, rgb(134, 239, 90) 0.86%, rgb(16, 208, 183) 38.09%, rgb(255, 255, 255) 69.81%)",
+      "type": "radial",
+      "stopColors": [
+        "rgb(134, 239, 90)",
+        "rgb(16, 208, 183)",
+        "rgb(255, 255, 255)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(108deg, rgb(205, 245, 253) 0%, rgb(216, 254, 243) 50%, rgb(232, 254, 215) 100%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(205, 245, 253)",
+        "rgb(216, 254, 243)",
+        "rgb(232, 254, 215)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(to left bottom, rgb(245, 245, 255) 0%, rgb(247, 250, 255) 50%, rgb(229, 252, 255) 100%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(245, 245, 255)",
+        "rgb(247, 250, 255)",
+        "rgb(229, 252, 255)"
+      ],
+      "count": 1
+    },
+    {
+      "gradient": "linear-gradient(77deg, rgb(255, 255, 255) 0%, rgb(234, 239, 240) 100%)",
+      "type": "linear",
+      "stopColors": [
+        "rgb(255, 255, 255)",
+        "rgb(234, 239, 240)"
+      ],
+      "count": 1
+    }
+  ],
+  "motion": {
+    "durations": [
+      {
+        "value": "0.001s",
+        "ms": 1,
+        "count": 2119
+      },
+      {
+        "value": "0.3s",
+        "ms": 300,
+        "count": 1
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease",
+        "type": "ease",
+        "count": 2061
+      },
+      {
+        "value": "ease-in-out",
+        "type": "ease-in-out",
+        "count": 96
+      },
+      {
+        "value": "ease-out",
+        "type": "ease-out",
+        "count": 18
+      }
+    ],
+    "animations": [
+      {
+        "name": "animation-hg7nli",
+        "duration": "0.001s",
+        "easing": "linear",
+        "count": 5,
+        "contexts": [
+          "media"
+        ]
+      },
+      {
+        "name": "scroll",
+        "duration": "0.001s",
+        "easing": "linear",
+        "count": 2,
+        "contexts": [
+          "other"
+        ]
+      }
+    ],
+    "contexts": {
+      "nav": {
+        "count": 27,
+        "durations": [
+          "0.001s",
+          "0.3s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "transform",
+          "opacity",
+          "visibility",
+          "-webkit-transform"
+        ]
+      },
+      "link": {
+        "count": 88,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "box-shadow",
+          "-webkit-box-shadow",
+          "background-color",
+          "scale"
+        ]
+      },
+      "button": {
+        "count": 92,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "background-color",
+          "width"
+        ]
+      },
+      "media": {
+        "count": 68,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "opacity",
+          "visibility",
+          "transform",
+          "-webkit-transform"
+        ]
+      },
+      "card": {
+        "count": 163,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "transform",
+          "-webkit-transform",
+          "border",
+          "background"
+        ]
+      }
+    },
+    "interactiveDeltas": [
+      {
+        "tag": "button",
+        "text": "Use cases",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgba(0, 0, 0, 0)",
+            "to": "rgba(247, 250, 255, 0.5)"
+          }
+        }
+      },
+      {
+        "tag": "button",
+        "text": "Industries",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgba(0, 0, 0, 0)",
+            "to": "rgba(247, 250, 255, 0.5)"
+          }
+        }
+      },
+      {
+        "tag": "button",
+        "text": "Developers",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgba(0, 0, 0, 0)",
+            "to": "rgba(247, 250, 255, 0.5)"
+          }
+        }
+      },
+      {
+        "tag": "button",
+        "text": "Resources",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgba(0, 0, 0, 0)",
+            "to": "rgba(247, 250, 255, 0.5)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Pricing",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgba(0, 0, 0, 0)",
+            "to": "rgba(247, 250, 255, 0.5)"
+          }
+        }
+      }
+    ]
+  },
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(204, 248, 255)",
+            "color": "rgb(17, 17, 17)",
+            "padding": "0px",
+            "borderRadius": "24px",
+            "border": "0px none rgb(17, 17, 17)",
+            "boxShadow": "rgba(0, 0, 0, 0.14) 0px 1px 16.5px 0px",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "text": "See how AI's shaping financeWatch now",
+        "confidence": "medium"
+      }
+    ],
+    "inputs": {
+      "text": [
+        {
+          "specificType": "text",
+          "states": {
+            "default": {
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(75, 75, 75)",
+              "border": "1px solid rgb(2, 41, 75)",
+              "borderRadius": "8px",
+              "padding": "8px 8px 8px 16px",
+              "boxShadow": "none",
+              "outline": "rgb(75, 75, 75) none 3px"
+            },
+            "focus": {
+              "borderColor": "rgb(0, 0, 0)",
+              "outline": "rgb(0, 0, 0) solid 1px",
+              "backgroundColor": "rgb(30, 174, 219)",
+              "border": "1px solid rgb(0, 0, 0)",
+              "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 1000px inset",
+              "color": "rgb(255, 255, 255)"
+            }
+          }
+        },
+        {
+          "specificType": "text",
+          "states": {
+            "default": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "border": "0px none rgb(51, 51, 51)",
+              "borderRadius": "8px",
+              "padding": "0px",
+              "boxShadow": "none",
+              "outline": "rgb(51, 51, 51) none 0px"
+            },
+            "focus": {
+              "borderColor": "rgb(0, 0, 0)",
+              "outline": "rgb(0, 0, 0) solid 1px",
+              "backgroundColor": "rgb(30, 174, 219)",
+              "border": "1px solid rgb(0, 0, 0)",
+              "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 1000px inset",
+              "color": "rgb(255, 255, 255)"
+            }
+          }
+        }
+      ],
+      "checkbox": [],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgb(17, 17, 17)",
+        "textDecoration": "none",
+        "fontWeight": "600",
+        "states": {
+          "default": {
+            "color": "rgb(17, 17, 17)",
+            "textDecoration": "underline 1px rgb(17, 17, 17)"
+          },
+          "hover": {
+            "textDecoration": "none",
+            "color": "rgb(56, 96, 190)"
+          }
+        }
+      },
+      {
+        "color": "rgb(35, 36, 36)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(35, 36, 36)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "textDecoration": "none",
+            "color": "rgb(56, 96, 190)"
+          }
+        }
+      },
+      {
+        "color": "rgb(1, 46, 55)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(1, 46, 55)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "textDecoration": "none",
+            "color": "rgb(56, 96, 190)"
+          }
+        }
+      },
+      {
+        "color": "rgb(17, 17, 18)",
+        "textDecoration": "none",
+        "fontWeight": "600",
+        "states": {
+          "default": {
+            "color": "rgb(17, 17, 18)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "textDecoration": "none",
+            "color": "rgb(56, 96, 190)"
+          }
+        }
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none",
+        "fontWeight": "600",
+        "states": {
+          "default": {
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "1px"
+          },
+          "hover": {
+            "color": "rgb(56, 96, 190)",
+            "textDecoration": "none"
+          }
+        }
+      },
+      {
+        "color": "rgb(0, 62, 74)",
+        "textDecoration": "none",
+        "fontWeight": "600",
+        "states": {
+          "default": {
+            "color": "rgb(0, 62, 74)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "textDecoration": "none",
+            "color": "rgb(56, 96, 190)"
+          }
+        }
+      },
+      {
+        "color": "rgb(0, 23, 46)",
+        "textDecoration": "none",
+        "fontWeight": "600",
+        "states": {
+          "default": {
+            "color": "rgb(0, 23, 46)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "textDecoration": "none",
+            "color": "rgb(56, 96, 190)"
+          }
+        }
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "textDecoration": "none",
+        "fontWeight": "600",
+        "states": {
+          "default": {
+            "color": "rgba(0, 0, 0, 0)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "textDecoration": "none",
+            "color": "rgb(56, 96, 190)"
+          }
+        }
+      }
+    ],
+    "badges": {
+      "all": [],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": []
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "0px"
+    },
+    {
+      "px": "95px"
+    },
+    {
+      "px": "300px"
+    },
+    {
+      "px": "375px"
+    },
+    {
+      "px": "385px"
+    },
+    {
+      "px": "400px"
+    },
+    {
+      "px": "412px"
+    },
+    {
+      "px": "421px"
+    },
+    {
+      "px": "425px"
+    },
+    {
+      "px": "426px"
+    },
+    {
+      "px": "431px"
+    },
+    {
+      "px": "440px"
+    },
+    {
+      "px": "460px"
+    },
+    {
+      "px": "480px"
+    },
+    {
+      "px": "500px"
+    },
+    {
+      "px": "530px"
+    },
+    {
+      "px": "550px"
+    },
+    {
+      "px": "600px"
+    },
+    {
+      "px": "639px"
+    },
+    {
+      "px": "640px"
+    },
+    {
+      "px": "700px"
+    },
+    {
+      "px": "750px"
+    },
+    {
+      "px": "751px"
+    },
+    {
+      "px": "762px"
+    },
+    {
+      "px": "768px"
+    },
+    {
+      "px": "769px"
+    },
+    {
+      "px": "810px"
+    },
+    {
+      "px": "820px"
+    },
+    {
+      "px": "880px"
+    },
+    {
+      "px": "890px"
+    },
+    {
+      "px": "896px"
+    },
+    {
+      "px": "897px"
+    },
+    {
+      "px": "960px"
+    },
+    {
+      "px": "1023px"
+    },
+    {
+      "px": "1024px"
+    },
+    {
+      "px": "1078px"
+    },
+    {
+      "px": "1102px"
+    },
+    {
+      "px": "1224px"
+    },
+    {
+      "px": "1279px"
+    },
+    {
+      "px": "1280px"
+    },
+    {
+      "px": "1380px"
+    },
+    {
+      "px": "1440px"
+    },
+    {
+      "px": "1680px"
+    },
+    {
+      "px": "1727px"
+    },
+    {
+      "px": "1730px"
+    },
+    {
+      "px": "1919px"
+    },
+    {
+      "px": "2560px"
+    }
+  ],
+  "iconSystem": [],
+  "frameworks": [
+    {
+      "name": "Material UI (MUI)",
+      "confidence": "high",
+      "evidence": "601 MUI components"
+    }
+  ]
+}

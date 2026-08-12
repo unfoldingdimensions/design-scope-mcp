@@ -1,0 +1,123 @@
+{
+  "url": "https://cursor.com",
+  "captured": "2026-08-10T07:52:01+00:00",
+  "hover_diffs": [
+    {
+      "selector": "button",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(38, 37, 30)",
+          "after": "oklab(0.263084 -0.00230259 0.0124794 / 0.75)"
+        },
+        "outline": {
+          "before": "rgb(38, 37, 30) none 3px",
+          "after": "oklab(0.263084 -0.00230259 0.0124794 / 0.75) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 2,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "oklab(0.936422 -0.000823379 0.00672752 / 0.6)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 3,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "oklab(0.936422 -0.000823379 0.00672752 / 0.6)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 181,
+    "tabs": 21,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 0,
+    "scrollSnap": 10,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "span",
+      "classes": "flex items-center gap-0.5 tabular-nums",
+      "text": "+20-3",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "span",
+      "classes": "flex items-center gap-0.5 tabular-nums",
+      "text": "+135-21",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "tr",
+      "classes": "cursor-preview-table-row pointer-events-auto",
+      "text": "2026Secure codebase indexingPublished",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "tr",
+      "classes": "cursor-preview-table-row pointer-events-auto",
+      "text": "2026Semantic searchPublished",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "tr",
+      "classes": "cursor-preview-table-row pointer-events-auto",
+      "text": "2025Reinforcement learningPublished",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "tr",
+      "classes": "cursor-preview-table-row pointer-events-auto",
+      "text": "2024Shadow workspacesPublished",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "tr",
+      "classes": "cursor-preview-table-row pointer-events-auto",
+      "text": "2024Multi-agent collaborationPublished",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "tr",
+      "classes": "cursor-preview-table-row pointer-events-auto",
+      "text": "2023Context-aware completionsPublished",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

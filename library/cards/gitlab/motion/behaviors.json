@@ -1,0 +1,143 @@
+{
+  "url": "https://gitlab.com",
+  "captured": "2026-08-10T06:34:05+00:00",
+  "hover_diffs": [
+    {
+      "selector": "button",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(116, 113, 122)",
+          "after": "rgb(23, 19, 33)"
+        },
+        "borderColor": {
+          "before": "rgb(116, 113, 122)",
+          "after": "rgb(23, 19, 33)"
+        },
+        "outline": {
+          "before": "rgb(116, 113, 122) none 3px",
+          "after": "rgb(23, 19, 33) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgb(116, 113, 122)",
+          "after": "rgb(23, 19, 33)"
+        },
+        "borderColor": {
+          "before": "rgb(116, 113, 122)",
+          "after": "rgb(23, 19, 33)"
+        },
+        "outline": {
+          "before": "rgb(116, 113, 122) none 3px",
+          "after": "rgb(23, 19, 33) none 3px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "color": {
+          "before": "rgb(116, 113, 122)",
+          "after": "rgb(23, 19, 33)"
+        },
+        "borderColor": {
+          "before": "rgb(116, 113, 122)",
+          "after": "rgb(23, 19, 33)"
+        },
+        "outline": {
+          "before": "rgb(116, 113, 122) none 3px",
+          "after": "rgb(23, 19, 33) none 3px"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 237,
+    "tabs": 17,
+    "accordions": 0,
+    "carousels": 63,
+    "observers": 2,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 5
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "button",
+      "classes": "homepage-quote-carousel__nav-button homepage-quote-carousel__nav-button--previou",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "button",
+      "classes": "homepage-quote-carousel__nav-button homepage-quote-carousel__nav-button--next sl",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "button",
+      "classes": "homepage-quote-carousel__dot is-active",
+      "text": "",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "button",
+      "classes": "homepage-quote-carousel__dot",
+      "text": "",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "button",
+      "classes": "homepage-quote-carousel__dot",
+      "text": "",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "button",
+      "classes": "homepage-quote-carousel__dot",
+      "text": "",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "button",
+      "classes": "homepage-quote-carousel__dot",
+      "text": "",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "button",
+      "classes": "homepage-carousel__nav-button homepage-carousel__nav-button--previous slp-btn sl",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "url": "https://www.headspace.com",
+  "captured": "2026-08-10T07:05:46+00:00",
+  "named_tokens": {
+    "light": {},
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "generous corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "generous",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "modal": 2147483647,
+    "banner": 2147483645
+  },
+  "z_index_rows": [
+    {
+      "role": "modal",
+      "selector": "#onetrust-consent-sdk .ot-general-modal",
+      "value": "2147483647"
+    },
+    {
+      "role": "banner",
+      "selector": "#onetrust-banner-sdk.otFlat",
+      "value": "2147483645"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".css-75xqdg",
+      "change": "height: 5rem"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".css-75xqdg",
+      "change": "padding-top: 0px"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".css-75xqdg",
+      "change": "padding-right: 3rem"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".css-75xqdg",
+      "change": "padding-bottom: 0px"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".css-75xqdg",
+      "change": "padding-left: 3rem"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".css-1euzfgj",
+      "change": "row-gap: 1.5rem"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".css-1euzfgj",
+      "change": "column-gap: 1.5rem"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".css-1euzfgj",
+      "change": "row-gap: 1.5rem"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".css-1euzfgj",
+      "change": "column-gap: 1.5rem"
+    },
+    {
+      "at": "(min-width: 90rem)",
+      "selector": ".css-1euzfgj",
+      "change": "row-gap: 5rem"
+    },
+    {
+      "at": "(min-width: 90rem)",
+      "selector": ".css-1euzfgj",
+      "change": "column-gap: 5rem"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".css-kq5vqx",
+      "change": "min-width: 2rem"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".css-kq5vqx",
+      "change": "width: 2rem"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".css-kq5vqx",
+      "change": "min-width: 2rem"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".css-kq5vqx",
+      "change": "width: 2rem"
+    },
+    {
+      "at": "(min-width: 90rem)",
+      "selector": ".css-kq5vqx",
+      "change": "min-width: 9.5rem"
+    },
+    {
+      "at": "(min-width: 90rem)",
+      "selector": ".css-kq5vqx",
+      "change": "width: 9.5rem"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".css-wru0te",
+      "change": "height: 2.5rem"
+    },
+    {
+      "at": "(min-width: 90rem)",
+      "selector": ".css-wru0te",
+      "change": "height: 2rem"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".css-1gg327v",
+      "change": "display: none"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".css-1gg327v",
+      "change": "row-gap: 0px"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".css-1gg327v",
+      "change": "column-gap: 0px"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".css-1gg327v",
+      "change": "row-gap: 1.25rem"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".css-1gg327v",
+      "change": "column-gap: 1.25rem"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".css-ql5950",
+      "change": "grid-template-columns: repeat(2, 12rem)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".css-ql5950",
+      "change": "column-gap: 2.5rem"
+    },
+    {
+      "at": "(min-width: 90rem)",
+      "selector": ".css-ql5950",
+      "change": "grid-template-columns: repeat(4, 22%)"
+    },
+    {
+      "at": "(min-width: 90rem)",
+      "selector": ".css-ql5950",
+      "change": "column-gap: 1rem"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".css-lqz9c1",
+      "change": "grid-column-start: span 1"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".css-lqz9c1",
+      "change": "grid-column-end: span 1"
+    },
+    {
+      "at": "(min-width: 90rem)",
+      "selector": ".css-lqz9c1",
+      "change": "grid-column-start: span 1"
+    },
+    {
+      "at": "(min-width: 90rem)",
+      "selector": ".css-lqz9c1",
+      "change": "grid-column-end: span 1"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".css-8lw7ai",
+      "change": "grid-template-rows: repeat(6, max-content)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".css-8lw7ai",
+      "change": "column-gap: 2.5rem"
+    },
+    {
+      "at": "(min-width: 90rem)",
+      "selector": ".css-8lw7ai",
+      "change": "grid-template-rows: repeat(6, max-content)"
+    },
+    {
+      "at": "(min-width: 90rem)",
+      "selector": ".css-8lw7ai",
+      "change": "column-gap: 0px"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".css-9bv3bw",
+      "change": "grid-template-rows: repeat(5, max-content)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".css-9bv3bw",
+      "change": "column-gap: 2.5rem"
+    },
+    {
+      "at": "(min-width: 90rem)",
+      "selector": ".css-9bv3bw",
+      "change": "grid-template-rows: repeat(5, max-content)"
+    },
+    {
+      "at": "(min-width: 90rem)",
+      "selector": ".css-9bv3bw",
+      "change": "column-gap: 0px"
+    }
+  ]
+}

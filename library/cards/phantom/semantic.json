@@ -1,0 +1,318 @@
+{
+  "url": "https://phantom.app",
+  "captured": "2026-08-10T13:24:35+00:00",
+  "named_tokens": {
+    "light": {
+      "--tweet-skeleton-gradient": "linear-gradient( 270deg, #fafafa, #eaeaea, #eaeaea, #fafafa )",
+      "--tweet-border": "1px solid rgb(207, 217, 222)",
+      "--tweet-font-family": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+      "--tweet-font-color": "rgb(15, 20, 25)",
+      "--tweet-font-color-secondary": "rgb(83, 100, 113)",
+      "--tweet-bg-color": "#fff",
+      "--tweet-bg-color-hover": "rgb(247, 249, 249)",
+      "--tweet-quoted-bg-color-hover": "rgba(0, 0, 0, .03)",
+      "--tweet-color-blue-primary": "rgb(29, 155, 240)",
+      "--tweet-color-blue-primary-hover": "rgb(26, 140, 216)",
+      "--tweet-color-blue-secondary": "rgb(0, 111, 214)",
+      "--tweet-color-blue-secondary-hover": "rgba(0, 111, 214, .1)",
+      "--tweet-color-red-primary": "rgb(249, 24, 128)",
+      "--tweet-color-red-primary-hover": "rgba(249, 24, 128, .1)",
+      "--tweet-color-green-primary": "rgb(0, 186, 124)",
+      "--tweet-color-green-primary-hover": "rgba(0, 186, 124, .1)",
+      "--tweet-twitter-icon-color": "rgb(15, 20, 25)",
+      "--tweet-verified-old-color": "rgb(130, 154, 171)",
+      "--tweet-verified-blue-color": "rgb(29, 155, 240)"
+    },
+    "dark": {
+      "--tweet-skeleton-gradient": "linear-gradient( 270deg, #15202b, rgb(30, 39, 50), rgb(30, 39, 50), rgb(21, 32, 43) )",
+      "--tweet-border": "1px solid rgb(66, 83, 100)",
+      "--tweet-font-family": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+      "--tweet-font-color": "rgb(247, 249, 249)",
+      "--tweet-font-color-secondary": "rgb(139, 152, 165)",
+      "--tweet-bg-color": "rgb(21, 32, 43)",
+      "--tweet-bg-color-hover": "rgb(30, 39, 50)",
+      "--tweet-quoted-bg-color-hover": "rgba(255, 255, 255, .03)",
+      "--tweet-color-blue-primary": "rgb(29, 155, 240)",
+      "--tweet-color-blue-primary-hover": "rgb(26, 140, 216)",
+      "--tweet-color-blue-secondary": "rgb(107, 201, 251)",
+      "--tweet-color-blue-secondary-hover": "rgba(107, 201, 251, .1)",
+      "--tweet-color-red-primary": "rgb(249, 24, 128)",
+      "--tweet-color-red-primary-hover": "rgba(249, 24, 128, .1)",
+      "--tweet-color-green-primary": "rgb(0, 186, 124)",
+      "--tweet-color-green-primary-hover": "rgba(0, 186, 124, .1)",
+      "--tweet-twitter-icon-color": "rgb(247, 249, 249)",
+      "--tweet-verified-old-color": "rgb(130, 154, 171)",
+      "--tweet-verified-blue-color": "#fff"
+    }
+  },
+  "semantic_colors": {
+    "light": {
+      "--tweet-bg-color": "#fff",
+      "--tweet-bg-color-hover": "rgb(247, 249, 249)",
+      "--tweet-color-blue-primary": "rgb(29, 155, 240)",
+      "--tweet-color-blue-primary-hover": "rgb(26, 140, 216)",
+      "--tweet-color-blue-secondary": "rgb(0, 111, 214)",
+      "--tweet-color-green-primary": "rgb(0, 186, 124)",
+      "--tweet-color-red-primary": "rgb(249, 24, 128)",
+      "--tweet-font-color": "rgb(15, 20, 25)",
+      "--tweet-font-color-secondary": "rgb(83, 100, 113)",
+      "--tweet-twitter-icon-color": "rgb(15, 20, 25)",
+      "--tweet-verified-blue-color": "rgb(29, 155, 240)",
+      "--tweet-verified-old-color": "rgb(130, 154, 171)"
+    },
+    "dark": {
+      "--tweet-bg-color": "rgb(21, 32, 43)",
+      "--tweet-bg-color-hover": "rgb(30, 39, 50)",
+      "--tweet-color-blue-primary": "rgb(29, 155, 240)",
+      "--tweet-color-blue-primary-hover": "rgb(26, 140, 216)",
+      "--tweet-color-blue-secondary": "rgb(107, 201, 251)",
+      "--tweet-color-green-primary": "rgb(0, 186, 124)",
+      "--tweet-color-red-primary": "rgb(249, 24, 128)",
+      "--tweet-font-color": "rgb(247, 249, 249)",
+      "--tweet-font-color-secondary": "rgb(139, 152, 165)",
+      "--tweet-twitter-icon-color": "rgb(247, 249, 249)",
+      "--tweet-verified-blue-color": "#fff",
+      "--tweet-verified-old-color": "rgb(130, 154, 171)"
+    },
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "generous corners",
+      "elevated (soft shadows)"
+    ],
+    "flat": false,
+    "corner_style": "generous",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "modal": 2147483647,
+    "banner": 2147483645,
+    "tooltip": 1
+  },
+  "z_index_rows": [
+    {
+      "role": "modal",
+      "selector": "#onetrust-consent-sdk .ot-general-modal",
+      "value": "2147483647"
+    },
+    {
+      "role": "banner",
+      "selector": "#onetrust-banner-sdk.otFloatingRounded",
+      "value": "2147483645"
+    },
+    {
+      "role": "tooltip",
+      "selector": ".sp-status .sp-tooltip",
+      "value": "1"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "(pointer: fine)",
+      "selector": ".uwwrrn1px",
+      "change": "pointer-events: none"
+    },
+    {
+      "at": "(pointer: fine)",
+      "selector": ".uwwrrn1qc",
+      "change": "pointer-events: all"
+    },
+    {
+      "at": "(pointer: fine)",
+      "selector": ".uwwrrn1qr",
+      "change": "pointer-events: auto"
+    },
+    {
+      "at": "(pointer: fine)",
+      "selector": ".uwwrrn1r6",
+      "change": "pointer-events: painted"
+    },
+    {
+      "at": "(pointer: fine)",
+      "selector": ".uwwrrn1rl",
+      "change": "pointer-events: visible"
+    },
+    {
+      "at": "(pointer: fine)",
+      "selector": ".uwwrrn1s0",
+      "change": "pointer-events: revert"
+    },
+    {
+      "at": "(pointer: fine)",
+      "selector": ".uwwrrn1sf",
+      "change": "cursor: default"
+    },
+    {
+      "at": "(pointer: fine)",
+      "selector": ".uwwrrn1su",
+      "change": "cursor: inherit"
+    },
+    {
+      "at": "(pointer: fine)",
+      "selector": ".uwwrrn1t9",
+      "change": "cursor: pointer"
+    },
+    {
+      "at": "(pointer: fine)",
+      "selector": ".uwwrrn1to",
+      "change": "cursor: not-allowed"
+    },
+    {
+      "at": "(pointer: fine)",
+      "selector": ".uwwrrn1u3",
+      "change": "cursor: text"
+    },
+    {
+      "at": "(pointer: fine)",
+      "selector": ".uwwrrn1ui",
+      "change": "opacity: 0.4"
+    },
+    {
+      "at": "(pointer: coarse)",
+      "selector": ".uwwrrn1py",
+      "change": "pointer-events: none"
+    },
+    {
+      "at": "(pointer: coarse)",
+      "selector": ".uwwrrn1qd",
+      "change": "pointer-events: all"
+    },
+    {
+      "at": "(pointer: coarse)",
+      "selector": ".uwwrrn1qs",
+      "change": "pointer-events: auto"
+    },
+    {
+      "at": "(pointer: coarse)",
+      "selector": ".uwwrrn1r7",
+      "change": "pointer-events: painted"
+    },
+    {
+      "at": "(pointer: coarse)",
+      "selector": ".uwwrrn1rm",
+      "change": "pointer-events: visible"
+    },
+    {
+      "at": "(pointer: coarse)",
+      "selector": ".uwwrrn1s1",
+      "change": "pointer-events: revert"
+    },
+    {
+      "at": "(pointer: coarse)",
+      "selector": ".uwwrrn1sg",
+      "change": "cursor: default"
+    },
+    {
+      "at": "(pointer: coarse)",
+      "selector": ".uwwrrn1sv",
+      "change": "cursor: inherit"
+    },
+    {
+      "at": "(pointer: coarse)",
+      "selector": ".uwwrrn1ta",
+      "change": "cursor: pointer"
+    },
+    {
+      "at": "(pointer: coarse)",
+      "selector": ".uwwrrn1tp",
+      "change": "cursor: not-allowed"
+    },
+    {
+      "at": "(pointer: coarse)",
+      "selector": ".uwwrrn1u4",
+      "change": "cursor: text"
+    },
+    {
+      "at": "(pointer: coarse)",
+      "selector": ".uwwrrn1uj",
+      "change": "opacity: 0.4"
+    },
+    {
+      "at": "(pointer: none)",
+      "selector": ".uwwrrn1pz",
+      "change": "pointer-events: none"
+    },
+    {
+      "at": "(pointer: none)",
+      "selector": ".uwwrrn1qe",
+      "change": "pointer-events: all"
+    },
+    {
+      "at": "(pointer: none)",
+      "selector": ".uwwrrn1qt",
+      "change": "pointer-events: auto"
+    },
+    {
+      "at": "(pointer: none)",
+      "selector": ".uwwrrn1r8",
+      "change": "pointer-events: painted"
+    },
+    {
+      "at": "(pointer: none)",
+      "selector": ".uwwrrn1rn",
+      "change": "pointer-events: visible"
+    },
+    {
+      "at": "(pointer: none)",
+      "selector": ".uwwrrn1s2",
+      "change": "pointer-events: revert"
+    },
+    {
+      "at": "(pointer: none)",
+      "selector": ".uwwrrn1sh",
+      "change": "cursor: default"
+    },
+    {
+      "at": "(pointer: none)",
+      "selector": ".uwwrrn1sw",
+      "change": "cursor: inherit"
+    },
+    {
+      "at": "(pointer: none)",
+      "selector": ".uwwrrn1tb",
+      "change": "cursor: pointer"
+    },
+    {
+      "at": "(pointer: none)",
+      "selector": ".uwwrrn1tq",
+      "change": "cursor: not-allowed"
+    },
+    {
+      "at": "(pointer: none)",
+      "selector": ".uwwrrn1u5",
+      "change": "cursor: text"
+    },
+    {
+      "at": "(pointer: none)",
+      "selector": ".uwwrrn1uk",
+      "change": "opacity: 0.4"
+    },
+    {
+      "at": "(any-hover: none)",
+      "selector": ".uwwrrn1q0",
+      "change": "pointer-events: none"
+    },
+    {
+      "at": "(any-hover: none)",
+      "selector": ".uwwrrn1qf",
+      "change": "pointer-events: all"
+    },
+    {
+      "at": "(any-hover: none)",
+      "selector": ".uwwrrn1qu",
+      "change": "pointer-events: auto"
+    },
+    {
+      "at": "(any-hover: none)",
+      "selector": ".uwwrrn1r9",
+      "change": "pointer-events: painted"
+    }
+  ]
+}

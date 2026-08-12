@@ -1,0 +1,123 @@
+{
+  "url": "https://postmarkapp.com",
+  "captured": "2026-08-10T10:26:56+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(255, 255, 255, 0.2)"
+        },
+        "boxShadow": {
+          "before": "rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset",
+          "after": "rgba(255, 255, 255, 0.4) 0px 0px 0px 1px inset"
+        },
+        "outline": {
+          "before": "rgb(255, 255, 255) none 3px",
+          "after": "rgb(255, 255, 255) none 0px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgb(0, 123, 200)",
+          "after": "rgb(0, 0, 0)"
+        },
+        "borderColor": {
+          "before": "rgb(0, 123, 200)",
+          "after": "rgb(0, 0, 0)"
+        },
+        "outline": {
+          "before": "rgb(0, 123, 200) none 3px",
+          "after": "rgb(0, 0, 0) none 0px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 229,
+    "tabs": 26,
+    "accordions": 4,
+    "carousels": 2,
+    "observers": 2,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "nav",
+      "classes": "tabbed-nav tabbed-nav--libs home-snippets_nav",
+      "text": "More",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "ul",
+      "classes": "tabbed-nav_list",
+      "text": "More",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "li",
+      "classes": "tabbed-nav_item tabbed-nav_item--current",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "a",
+      "classes": "tabbed-nav_link",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "li",
+      "classes": "tabbed-nav_item",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "a",
+      "classes": "tabbed-nav_link",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "li",
+      "classes": "tabbed-nav_item",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "a",
+      "classes": "tabbed-nav_link",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

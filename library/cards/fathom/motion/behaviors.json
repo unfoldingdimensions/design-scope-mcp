@@ -1,0 +1,159 @@
+{
+  "url": "https://fathom.video",
+  "captured": "2026-08-10T08:44:15+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0.2)",
+          "after": "rgba(0, 0, 0, 0.36)"
+        },
+        "outline": {
+          "before": "rgb(0, 0, 0) none 3px",
+          "after": "rgb(0, 0, 0) none 0px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "outline": {
+          "before": "rgb(51, 51, 51) none 3px",
+          "after": "rgb(51, 51, 51) none 0px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(255, 255, 255, 0)",
+          "after": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "opacity": {
+          "before": "1",
+          "after": "0.8"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": "button",
+      "index": 5,
+      "diffs": {
+        "opacity": {
+          "before": "1",
+          "after": "0.8"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    },
+    {
+      "selector": "button",
+      "index": 6,
+      "diffs": {
+        "opacity": {
+          "before": "1",
+          "after": "0.8"
+        }
+      },
+      "before_png": "hover-before-06.png",
+      "after_png": "hover-after-06.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 112,
+    "tabs": 54,
+    "accordions": 67,
+    "carousels": 51,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": "smooth-scroll-lib",
+    "marquees": 8
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "div",
+      "classes": "cky-audit-table",
+      "text": "Cookie_cfuvidDurationsessionDescriptionCloudflare sets this ",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "ul",
+      "classes": "cky-cookie-des-table",
+      "text": "Cookie_cfuvidDurationsessionDescriptionCloudflare sets this ",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "ul",
+      "classes": "cky-cookie-des-table",
+      "text": "Cookiecookieyes-consentDuration1 yearDescriptionCookieYes se",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "ul",
+      "classes": "cky-cookie-des-table",
+      "text": "Cookieuc_sessionDurationsessionDescriptionThis cookie is set",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "ul",
+      "classes": "cky-cookie-des-table",
+      "text": "Cookie__cf_bmDuration1 hourDescriptionThis cookie, set by Cl",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "ul",
+      "classes": "cky-cookie-des-table",
+      "text": "CookiecookietestDurationsessionDescriptionThe cookietest coo",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "div",
+      "classes": "cky-audit-table",
+      "text": "Cookiemintlify-auth-keyDurationsessionDescriptionDescription",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "ul",
+      "classes": "cky-cookie-des-table",
+      "text": "Cookiemintlify-auth-keyDurationsessionDescriptionDescription",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

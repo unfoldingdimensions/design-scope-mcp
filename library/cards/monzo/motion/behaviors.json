@@ -1,0 +1,89 @@
+{
+  "url": "https://monzo.com",
+  "captured": "2026-08-10T03:47:06+00:00",
+  "hover_diffs": [],
+  "scroll_probe": [
+    {
+      "selector": "div.HeaderVariant_header__M43dc",
+      "diffs": {
+        "boxShadow": "rgba(0, 0, 0, 0) 0px 1px 1px 0px → rgba(0, 0, 0, 0.1) 0px 1px 1px 0px"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 184,
+    "tabs": 11,
+    "accordions": 10,
+    "carousels": 0,
+    "observers": 2,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "a",
+      "classes": "Marker_Marker__JfA2r Marker_Marker--selected__vmKzm",
+      "text": "Go to slide 1",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "a",
+      "classes": "Marker_Marker__JfA2r",
+      "text": "Go to slide 2",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "a",
+      "classes": "Marker_Marker__JfA2r",
+      "text": "Go to slide 3",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "a",
+      "classes": "Marker_Marker__JfA2r",
+      "text": "Go to slide 4",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "a",
+      "classes": "Marker_Marker__JfA2r",
+      "text": "Go to slide 5",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "a",
+      "classes": "Marker_Marker__JfA2r Marker_Marker--selected__vmKzm Marker_Marker--vertical__8tz",
+      "text": "",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "a",
+      "classes": "Marker_Marker__JfA2r Marker_Marker--vertical__8tz4Z",
+      "text": "",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "a",
+      "classes": "Marker_Marker__JfA2r Marker_Marker--vertical__8tz4Z",
+      "text": "",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    }
+  ]
+}

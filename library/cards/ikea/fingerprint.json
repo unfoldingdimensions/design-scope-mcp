@@ -1,0 +1,1343 @@
+{
+  "url": "https://www.ikea.com/",
+  "extractedAt": "2026-08-09T12:42:36.703Z",
+  "meta": {
+    "snapshotId": "6632128c-fa51-4fda-9444-5cdff2aa6243",
+    "httpStatus": 200,
+    "dembrandtVersion": "0.27.1",
+    "schemaVersion": "1.5.0",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "fontsReady": true,
+    "flags": {
+      "mobile": true
+    }
+  },
+  "siteName": "IKEA",
+  "logo": {
+    "source": "img",
+    "context": "header",
+    "url": "https://www.ikea.com/global/assets/logos/brand/ikea.svg",
+    "width": 98,
+    "height": 40,
+    "rect": {
+      "x": 264,
+      "y": 30,
+      "width": 89,
+      "height": 36
+    },
+    "natural": {
+      "width": 98,
+      "height": 40
+    },
+    "alt": "IKEA logotype",
+    "type": "wordmark",
+    "reversed": false,
+    "background": "#fffefb",
+    "safeZone": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "position": {
+      "top": 30,
+      "left": 264
+    }
+  },
+  "logoInstances": [
+    {
+      "source": "img",
+      "context": "header",
+      "url": "https://www.ikea.com/global/assets/logos/brand/ikea.svg",
+      "width": 98,
+      "height": 40,
+      "rect": {
+        "x": 264,
+        "y": 30,
+        "width": 89,
+        "height": 36
+      },
+      "natural": {
+        "width": 98,
+        "height": 40
+      },
+      "alt": "IKEA logotype",
+      "type": "wordmark",
+      "reversed": false,
+      "background": "#fffefb",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 30,
+        "left": 264
+      }
+    },
+    {
+      "source": "svg",
+      "context": "footer",
+      "inline": true,
+      "url": "https://www.ikea.com",
+      "color": "#111111",
+      "ariaLabel": null,
+      "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 940.41 382.04\" role=\"img\" aria-hidden=\"true\" class=\"logo svelte-1kruf9u\" style=\"color: rgb(17, 17, 17);\"><path class=\"frame svelte-1kruf9u\" d=\"M940.41,382.04H0V0h940.41v382.04ZM14.69,191.02c0,92.38,190.94,168.98,455.51,168.98s455.51-76.6,455.51-168.98S734.77,22.04,470.2,22.04,14.69,98.64,14.69,191.02\"></path><path class=\"letter svelte-1kruf9u\" d=\"M225.76,117.55c1.99,3.99,1.99,7.98,1.99,11.96v115.66c0,3.99,0,7.92-1.99,11.96h84.8c-1.99-3.99-1.99-7.98-1.99-11.96v-48.65s23.31,35.38,27.68,41.88c4.38,6.5,8.21,14.74,8.21,18.73h101.71c-3.99-3.99-7.23-7.84-9.97-11.96-5.31-7.99-46.09-70.1-46.09-70.1,0,0,27.57-33.53,32.4-39.45,5.46-6.7,12.23-14.08,18.31-18.07h-88.37c0,3.99-5.86,12.7-10.56,18.97-6.18,8.25-33.31,43.48-33.31,43.48v-50.48c0-3.99,0-7.97,1.99-11.96h-84.8Z\"></path><path class=\"letter svelte-1kruf9u\" d=\"M624.49,156.23c-3.99-1.94-7.98-1.94-11.96-1.94h-68.85v18.37h66.12v29.39h-66.12v18.37h68.85c3.99,0,7.98,0,11.96-1.99v38.73h-163.62c1.99-3.99,1.99-7.98,1.99-11.96v-115.66c0-3.99,0-7.97-1.99-11.96h163.62v38.68Z\"></path><path class=\"letter svelte-1kruf9u\" d=\"M859.71,245.14c-2.99-7.81-40.87-106.7-44.29-115.62-1.54-4.01-3.64-7.97-2.61-11.96h-118.21c.54,3.99-.9,7.98-2.35,11.96-3.27,9-39.66,109.32-41.97,115.68-1.46,4.01-2.89,7.96-6.33,11.95h69.97c-.6-3.99.86-7.98,2.28-11.96,1.43-4.03,2.87-7.99,2.87-7.99l.75-2.09h51.09s.67,1.77.8,2.08c1.83,4.76,3.19,7.99,3.19,7.99,1.56,3.99,3.14,7.97,2.69,11.96h88.68c-3.49-3.99-5.02-7.98-6.56-12M730.48,205.71c6.1-16.79,11.25-31.03,11.71-32.32,1.43-4,2.42-9.18,2.42-9.18,0,0,1.22,5.18,2.75,9.19.55,1.45,5.93,15.54,12.33,32.31h-29.21Z\"></path><path class=\"letter svelte-1kruf9u\" d=\"M183.67,129.51c0-3.99,0-7.98,1.99-11.96h-92.15c1.99,3.99,1.99,7.98,1.99,11.96v115.66c0,3.99,0,7.98-1.99,11.96h92.15c-1.99-3.99-1.99-7.98-1.99-11.96v-115.66Z\"></path></svg>",
+      "dataUri": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20940.41%20382.04%22%20role%3D%22img%22%20aria-hidden%3D%22true%22%20class%3D%22logo%20svelte-1kruf9u%22%20style%3D%22color%3A%20rgb(17%2C%2017%2C%2017)%3B%22%3E%3Cpath%20class%3D%22frame%20svelte-1kruf9u%22%20d%3D%22M940.41%2C382.04H0V0h940.41v382.04ZM14.69%2C191.02c0%2C92.38%2C190.94%2C168.98%2C455.51%2C168.98s455.51-76.6%2C455.51-168.98S734.77%2C22.04%2C470.2%2C22.04%2C14.69%2C98.64%2C14.69%2C191.02%22%3E%3C%2Fpath%3E%3Cpath%20class%3D%22letter%20svelte-1kruf9u%22%20d%3D%22M225.76%2C117.55c1.99%2C3.99%2C1.99%2C7.98%2C1.99%2C11.96v115.66c0%2C3.99%2C0%2C7.92-1.99%2C11.96h84.8c-1.99-3.99-1.99-7.98-1.99-11.96v-48.65s23.31%2C35.38%2C27.68%2C41.88c4.38%2C6.5%2C8.21%2C14.74%2C8.21%2C18.73h101.71c-3.99-3.99-7.23-7.84-9.97-11.96-5.31-7.99-46.09-70.1-46.09-70.1%2C0%2C0%2C27.57-33.53%2C32.4-39.45%2C5.46-6.7%2C12.23-14.08%2C18.31-18.07h-88.37c0%2C3.99-5.86%2C12.7-10.56%2C18.97-6.18%2C8.25-33.31%2C43.48-33.31%2C43.48v-50.48c0-3.99%2C0-7.97%2C1.99-11.96h-84.8Z%22%3E%3C%2Fpath%3E%3Cpath%20class%3D%22letter%20svelte-1kruf9u%22%20d%3D%22M624.49%2C156.23c-3.99-1.94-7.98-1.94-11.96-1.94h-68.85v18.37h66.12v29.39h-66.12v18.37h68.85c3.99%2C0%2C7.98%2C0%2C11.96-1.99v38.73h-163.62c1.99-3.99%2C1.99-7.98%2C1.99-11.96v-115.66c0-3.99%2C0-7.97-1.99-11.96h163.62v38.68Z%22%3E%3C%2Fpath%3E%3Cpath%20class%3D%22letter%20svelte-1kruf9u%22%20d%3D%22M859.71%2C245.14c-2.99-7.81-40.87-106.7-44.29-115.62-1.54-4.01-3.64-7.97-2.61-11.96h-118.21c.54%2C3.99-.9%2C7.98-2.35%2C11.96-3.27%2C9-39.66%2C109.32-41.97%2C115.68-1.46%2C4.01-2.89%2C7.96-6.33%2C11.95h69.97c-.6-3.99.86-7.98%2C2.28-11.96%2C1.43-4.03%2C2.87-7.99%2C2.87-7.99l.75-2.09h51.09s.67%2C1.77.8%2C2.08c1.83%2C4.76%2C3.19%2C7.99%2C3.19%2C7.99%2C1.56%2C3.99%2C3.14%2C7.97%2C2.69%2C11.96h88.68c-3.49-3.99-5.02-7.98-6.56-12M730.48%2C205.71c6.1-16.79%2C11.25-31.03%2C11.71-32.32%2C1.43-4%2C2.42-9.18%2C2.42-9.18%2C0%2C0%2C1.22%2C5.18%2C2.75%2C9.19.55%2C1.45%2C5.93%2C15.54%2C12.33%2C32.31h-29.21Z%22%3E%3C%2Fpath%3E%3Cpath%20class%3D%22letter%20svelte-1kruf9u%22%20d%3D%22M183.67%2C129.51c0-3.99%2C0-7.98%2C1.99-11.96h-92.15c1.99%2C3.99%2C1.99%2C7.98%2C1.99%2C11.96v115.66c0%2C3.99%2C0%2C7.98-1.99%2C11.96h92.15c-1.99-3.99-1.99-7.98-1.99-11.96v-115.66Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E",
+      "svgColors": [],
+      "width": 1210.953125,
+      "height": 491.953125,
+      "rect": {
+        "x": 355,
+        "y": 9474,
+        "width": 1211,
+        "height": 492
+      },
+      "natural": {
+        "width": 940.41,
+        "height": 382.04
+      },
+      "type": "wordmark",
+      "reversed": true,
+      "background": "#000000",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 9473.578125,
+        "left": 354.5
+      }
+    }
+  ],
+  "favicons": [
+    {
+      "type": "shortcut icon",
+      "url": "https://www.ikea.com/global/en/images/favicon.ico",
+      "sizes": null
+    },
+    {
+      "type": "og:image",
+      "url": "https://www.ikea.com/global/en/media/IKEA_com_Global_Thumbnail_3765094b99.jpg",
+      "sizes": null
+    },
+    {
+      "type": "twitter:image",
+      "url": "https://www.ikea.com/global/en/media/IKEA_com_Global_Thumbnail_3765094b99.jpg",
+      "sizes": null
+    }
+  ],
+  "colors": {
+    "semantic": {
+      "primary": "rgb(255, 219, 0)",
+      "secondary": "rgb(255, 255, 255)",
+      "background": "rgb(255, 254, 251)",
+      "text": "rgb(17, 17, 17)",
+      "accent": "rgb(0, 0, 238)"
+    },
+    "palette": [
+      {
+        "color": "rgb(17, 17, 17)",
+        "normalized": "#111111",
+        "count": 787,
+        "confidence": "high",
+        "sources": [
+          "hero-ready",
+          "header",
+          "skip-container"
+        ],
+        "lch": "lch(5.06% 0 53.34)",
+        "oklch": "oklch(17.76% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#ffffff",
+        "hover": "#141414"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 635,
+        "confidence": "high",
+        "sources": [
+          "link-content",
+          "relative",
+          "[object"
+        ],
+        "lch": "lch(100% 0.03 53.35)",
+        "oklch": "oklch(100% 0 89.88)",
+        "role": "surface",
+        "onColor": "#000000",
+        "hover": "#d9d9d9"
+      },
+      {
+        "color": "rgb(1, 89, 163)",
+        "normalized": "#0159a3",
+        "count": 112,
+        "confidence": "high",
+        "sources": [
+          "link"
+        ],
+        "lch": "lch(36.72% 47.12 270.49)",
+        "oklch": "oklch(46.24% 0.139 252.32)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#016bc4"
+      },
+      {
+        "color": "rgb(0, 0, 238)",
+        "normalized": "#0000ee",
+        "count": 32,
+        "confidence": "high",
+        "sources": [
+          "svelte-17qdrpe",
+          "link-wrapper"
+        ],
+        "lch": "lch(27.25% 124.51 301.37)",
+        "oklch": "oklch(42.9% 0.297 264.05)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#0000ff"
+      },
+      {
+        "color": "rgb(129, 129, 129)",
+        "normalized": "#818181",
+        "count": 16,
+        "confidence": "high",
+        "sources": [
+          "global-iconbtn"
+        ],
+        "lch": "lch(53.98% 0.02 53.35)",
+        "oklch": "oklch(60.32% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#000000",
+        "hover": "#6e6e6e"
+      },
+      {
+        "color": "rgb(255, 219, 0)",
+        "normalized": "#ffdb00",
+        "count": 4,
+        "confidence": "high",
+        "sources": [
+          "logo",
+          "accordion-toggle",
+          "carousel-container"
+        ],
+        "lch": "lch(88.46% 87.22 89.34)",
+        "oklch": "oklch(89.47% 0.184 97.03)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#d9ba00",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(255, 240, 148)",
+        "normalized": "#fff094",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [],
+        "lch": "lch(94.53% 46.43 94.76)",
+        "oklch": "oklch(94.74% 0.114 100.17)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#d9cc7e",
+        "variantOf": "primary"
+      },
+      {
+        "color": "#0058a3",
+        "normalized": "#0058a3",
+        "count": 10,
+        "confidence": "high",
+        "sources": [
+          "logo"
+        ],
+        "lch": "lch(36.4% 47.65 271.13)",
+        "oklch": "oklch(45.99% 0.14 252.67)"
+      },
+      {
+        "color": "#0058ab",
+        "normalized": "#0058ab",
+        "count": 10,
+        "confidence": "high",
+        "sources": [
+          "logo"
+        ],
+        "lch": "lch(36.86% 51.77 274.16)",
+        "oklch": "oklch(46.58% 0.151 254.53)"
+      },
+      {
+        "color": "rgb(85, 85, 85)",
+        "normalized": "#555555",
+        "count": 6,
+        "confidence": "medium",
+        "sources": [
+          "ot-close-icon"
+        ],
+        "lch": "lch(36.15% 0.01 53.35)",
+        "oklch": "oklch(44.95% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#ffffff",
+        "hover": "#666666",
+        "source": "menu"
+      }
+    ],
+    "cssVariables": {
+      "--color-grey-dim": {
+        "value": "#484848",
+        "hex": "#484848",
+        "lch": "lch(30.59% 0.01 53.35)",
+        "oklch": "oklch(40.17% 0 89.88)"
+      },
+      "--dotnet-border-color": {
+        "value": "#ccc",
+        "hex": "#cccccc",
+        "lch": "lch(82.05% 0.02 53.35)",
+        "oklch": "oklch(84.52% 0 89.88)"
+      }
+    },
+    "detected": [
+      {
+        "color": "rgb(17, 17, 17)",
+        "normalized": "#111111",
+        "count": 787,
+        "usageFrac": 0.49034267912772583,
+        "confidence": "high",
+        "sources": [
+          "hero-ready",
+          "header",
+          "skip-container",
+          "inner-container",
+          "left-container"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 635,
+        "usageFrac": 0.3956386292834891,
+        "confidence": "high",
+        "sources": [
+          "link-content",
+          "relative",
+          "[object",
+          "title-container",
+          "heading"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(1, 89, 163)",
+        "normalized": "#0159a3",
+        "count": 112,
+        "usageFrac": 0.06978193146417445,
+        "confidence": "high",
+        "sources": [
+          "link"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(0, 0, 238)",
+        "normalized": "#0000ee",
+        "count": 32,
+        "usageFrac": 0.019937694704049845,
+        "confidence": "high",
+        "sources": [
+          "svelte-17qdrpe",
+          "link-wrapper"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(129, 129, 129)",
+        "normalized": "#818181",
+        "count": 16,
+        "usageFrac": 0.009968847352024923,
+        "confidence": "high",
+        "sources": [
+          "global-iconbtn"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 7,
+        "usageFrac": 0.004361370716510903,
+        "confidence": "high",
+        "sources": [
+          "skip-content",
+          "search-input",
+          "container-spacing"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(255, 254, 251)",
+        "normalized": "#fffefb",
+        "count": 5,
+        "usageFrac": 0.003115264797507788,
+        "confidence": "high",
+        "sources": [
+          "hero-ready",
+          "header",
+          "skip-content",
+          "accordion-toggle"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(255, 219, 0)",
+        "normalized": "#ffdb00",
+        "count": 4,
+        "usageFrac": 0.0024922118380062306,
+        "confidence": "high",
+        "sources": [
+          "accordion-toggle",
+          "carousel-container"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(218, 218, 218)",
+        "normalized": "#dadada",
+        "count": 2,
+        "usageFrac": 0.0012461059190031153,
+        "confidence": "high",
+        "sources": [
+          "global-iconbtn"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 240, 148)",
+        "normalized": "#fff094",
+        "count": 1,
+        "usageFrac": 0.0006230529595015577,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": true
+      },
+      {
+        "color": "rgb(0, 65, 196)",
+        "normalized": "#0041c4",
+        "count": 1,
+        "usageFrac": 0.0006230529595015577,
+        "confidence": "low",
+        "sources": [
+          "item"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(217, 171, 255)",
+        "normalized": "#d9abff",
+        "count": 1,
+        "usageFrac": 0.0006230529595015577,
+        "confidence": "low",
+        "sources": [
+          "carousel-container"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(196, 222, 232)",
+        "normalized": "#c4dee8",
+        "count": 1,
+        "usageFrac": 0.0006230529595015577,
+        "confidence": "low",
+        "sources": [
+          "item"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(241, 242, 240)",
+        "normalized": "#f1f2f0",
+        "count": 1,
+        "usageFrac": 0.0006230529595015577,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      }
+    ],
+    "_raw": [
+      {
+        "color": "rgb(17, 17, 17)",
+        "normalized": "#111111",
+        "count": 787
+      },
+      {
+        "color": "rgb(0, 0, 238)",
+        "normalized": "#0000ee",
+        "count": 32
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 635
+      },
+      {
+        "color": "rgb(129, 129, 129)",
+        "normalized": "#818181",
+        "count": 16
+      },
+      {
+        "color": "rgb(1, 89, 163)",
+        "normalized": "#0159a3",
+        "count": 112
+      }
+    ]
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "display",
+        "family": "Noto IKEA",
+        "fallbacks": "Noto Sans, Roboto, Open Sans, system-ui",
+        "size": "72px (4.50rem)",
+        "weight": 700,
+        "lineHeight": "1.08",
+        "spacing": "-1.84px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Noto IKEA",
+        "fallbacks": "Noto Sans, Roboto, Open Sans, system-ui",
+        "size": "51px (3.19rem)",
+        "weight": 700,
+        "lineHeight": "1.08",
+        "spacing": "-1.48px",
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Noto IKEA",
+        "fallbacks": "Noto Sans, Roboto, Open Sans, system-ui",
+        "size": "51px (3.19rem)",
+        "weight": 700,
+        "lineHeight": "1.08",
+        "spacing": "-1.48px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Noto IKEA",
+        "fallbacks": "Noto Sans, Roboto, Open Sans, system-ui",
+        "size": "36px (2.25rem)",
+        "weight": 700,
+        "lineHeight": "1.20",
+        "spacing": "-0.96px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Noto IKEA",
+        "fallbacks": "Noto Sans, Roboto, Open Sans, system-ui",
+        "size": "36px (2.25rem)",
+        "weight": 700,
+        "lineHeight": "1.20",
+        "spacing": "-0.96px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Noto IKEA",
+        "fallbacks": "Noto Sans, Roboto, Open Sans, system-ui",
+        "size": "36px (2.25rem)",
+        "weight": 700,
+        "lineHeight": "1.20",
+        "spacing": "-0.96px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Noto IKEA",
+        "fallbacks": "Noto Sans, Roboto, Open Sans, system-ui",
+        "size": "36px (2.25rem)",
+        "weight": 400,
+        "lineHeight": "1.40",
+        "spacing": "-0.96px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Noto IKEA",
+        "fallbacks": "Noto Sans, Roboto, Open Sans, system-ui",
+        "size": "20px (1.25rem)",
+        "weight": 400,
+        "lineHeight": "1.62",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Noto IKEA",
+        "fallbacks": "Noto Sans, Roboto, Open Sans, system-ui",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Noto IKEA",
+        "fallbacks": "Noto Sans, Roboto, Open Sans, system-ui",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Noto IKEA",
+        "fallbacks": "Noto Sans, Roboto, Open Sans, system-ui",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Noto IKEA",
+        "fallbacks": "Noto Sans, Roboto, Open Sans, system-ui",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Noto IKEA",
+        "fallbacks": "Noto Sans, Roboto, Open Sans, system-ui",
+        "size": "16px (1.00rem)",
+        "weight": 700,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Noto IKEA",
+        "fallbacks": "Noto Sans, Roboto, Open Sans, system-ui",
+        "size": "15.4px (0.96rem)",
+        "weight": 600,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Noto IKEA",
+        "fallbacks": "Noto Sans, Roboto, Open Sans, system-ui",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.57",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Noto IKEA",
+        "fallbacks": "Noto Sans, Roboto, Open Sans, system-ui",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Noto IKEA",
+        "fallbacks": "Noto Sans, Roboto, Open Sans, system-ui",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.57",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Noto IKEA",
+        "fallbacks": "Noto Sans, Roboto, Open Sans, system-ui",
+        "size": "14px (0.88rem)",
+        "weight": 700,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Noto IKEA",
+        "fallbacks": "Noto Sans, Roboto, Open Sans, system-ui",
+        "size": "13.3333px (0.83rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Noto IKEA",
+        "fallbacks": "Noto Sans, Roboto, Open Sans, system-ui",
+        "size": "13.3333px (0.83rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Noto IKEA",
+        "fallbacks": "Noto Sans, Roboto, Open Sans, system-ui",
+        "size": "12px (0.75rem)",
+        "weight": 700,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      }
+    ],
+    "sources": {
+      "googleFonts": [],
+      "adobeFonts": false,
+      "variableFonts": false,
+      "selfHostedFonts": [
+        "noto-ikea-400.latin.5a052965.woff2",
+        "noto-ikea-700.latin.a3f10ed8.woff2"
+      ],
+      "customFonts": [
+        "noto-ikea-400.latin.5a052965.woff2",
+        "noto-ikea-700.latin.a3f10ed8.woff2"
+      ]
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "1px",
+        "display": "1px",
+        "rem": "0.06rem",
+        "count": 10,
+        "numericValue": 1
+      },
+      {
+        "px": "3px",
+        "display": "3px",
+        "rem": "0.19rem",
+        "count": 4,
+        "numericValue": 3
+      },
+      {
+        "px": "8px",
+        "display": "8px",
+        "rem": "0.50rem",
+        "count": 9,
+        "numericValue": 8
+      },
+      {
+        "px": "10px",
+        "display": "10px",
+        "rem": "0.63rem",
+        "count": 11,
+        "numericValue": 10
+      },
+      {
+        "px": "12px",
+        "display": "12px",
+        "rem": "0.75rem",
+        "count": 12,
+        "numericValue": 12
+      },
+      {
+        "px": "14px",
+        "display": "14px",
+        "rem": "0.88rem",
+        "count": 1,
+        "numericValue": 14
+      },
+      {
+        "px": "16px",
+        "display": "16px",
+        "rem": "1.00rem",
+        "count": 95,
+        "numericValue": 16
+      },
+      {
+        "px": "19.08px",
+        "display": "19.08px",
+        "rem": "1.19rem",
+        "count": 17,
+        "numericValue": 19.08
+      },
+      {
+        "px": "20px",
+        "display": "20px",
+        "rem": "1.25rem",
+        "count": 4,
+        "numericValue": 20
+      },
+      {
+        "px": "21px",
+        "display": "21px",
+        "rem": "1.31rem",
+        "count": 2,
+        "numericValue": 21
+      },
+      {
+        "px": "24px",
+        "display": "24px",
+        "rem": "1.50rem",
+        "count": 34,
+        "numericValue": 24
+      },
+      {
+        "px": "27.03px",
+        "display": "27.03px",
+        "rem": "1.69rem",
+        "count": 1,
+        "numericValue": 27.03
+      },
+      {
+        "px": "36px",
+        "display": "36px",
+        "rem": "2.25rem",
+        "count": 1,
+        "numericValue": 36
+      },
+      {
+        "px": "38.16px",
+        "display": "38.16px",
+        "rem": "2.38rem",
+        "count": 1,
+        "numericValue": 38.16
+      },
+      {
+        "px": "44px",
+        "display": "44px",
+        "rem": "2.75rem",
+        "count": 2,
+        "numericValue": 44
+      },
+      {
+        "px": "60px",
+        "display": "60px",
+        "rem": "3.75rem",
+        "count": 2,
+        "numericValue": 60
+      },
+      {
+        "px": "80px",
+        "display": "80px",
+        "rem": "5.00rem",
+        "count": 2,
+        "numericValue": 80
+      },
+      {
+        "px": "96px",
+        "display": "96px",
+        "rem": "6.00rem",
+        "count": 1,
+        "numericValue": 96
+      },
+      {
+        "px": "140px",
+        "display": "140px",
+        "rem": "8.75rem",
+        "count": 1,
+        "numericValue": 140
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "0px 0px 8px 8px",
+        "count": 3,
+        "elements": [
+          "region",
+          "Selected store: IKEA dot i n. To choose another store, open the accordion and use the search tool.",
+          "Selected store: IKEA dot i n. To choose another store, open the accordion and use the search tool"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "2.5px",
+        "count": 1,
+        "elements": [
+          "region"
+        ],
+        "confidence": "low",
+        "numericValue": 2.5
+      },
+      {
+        "value": "8px",
+        "count": 90,
+        "elements": [
+          "div",
+          "combobox",
+          "image",
+          "img",
+          "video"
+        ],
+        "confidence": "high",
+        "numericValue": 8
+      },
+      {
+        "value": "24px",
+        "count": 3,
+        "elements": [
+          "button",
+          "Cookie settings, Opens the preference center dialog"
+        ],
+        "confidence": "low",
+        "numericValue": 24
+      },
+      {
+        "value": "50%",
+        "count": 14,
+        "elements": [
+          "button",
+          "Previous slide",
+          "Next slide"
+        ],
+        "confidence": "high",
+        "numericValue": 50
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "1px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(255, 254, 251)",
+        "count": 4,
+        "elements": [
+          "button",
+          "region"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "none none solid",
+        "color": "rgb(17, 17, 17)",
+        "count": 4,
+        "elements": [
+          "a"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(17, 17, 17)",
+        "count": 3,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 1px 1px 0px",
+        "style": "none solid solid none",
+        "color": "rgb(0, 0, 0)",
+        "count": 1,
+        "elements": [
+          "a"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [
+    {
+      "shadow": "rgba(0, 0, 0, 0.1) 0px 4px 15px 0px",
+      "count": 1,
+      "confidence": "low"
+    }
+  ],
+  "gradients": [
+    {
+      "gradient": "linear-gradient(to top, rgba(0, 0, 0, 0.55) 80px, rgba(0, 0, 0, 0) 200px)",
+      "type": "linear",
+      "stopColors": [
+        "rgba(0, 0, 0, 0.55)",
+        "rgba(0, 0, 0, 0)"
+      ],
+      "count": 15
+    }
+  ],
+  "motion": {
+    "durations": [
+      {
+        "value": "0.001s",
+        "ms": 1,
+        "count": 1073
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease",
+        "type": "ease",
+        "count": 1054
+      },
+      {
+        "value": "ease-out",
+        "type": "ease-out",
+        "count": 27
+      },
+      {
+        "value": "ease-in",
+        "type": "ease-in",
+        "count": 6
+      },
+      {
+        "value": "linear",
+        "type": "linear",
+        "count": 3
+      },
+      {
+        "value": "cubic-bezier(1, 0.26, 0.51, 0.72)",
+        "type": "ease-in",
+        "count": 2
+      }
+    ],
+    "animations": [
+      {
+        "name": "svelte-13u5gie-rotate",
+        "duration": "0.001s",
+        "easing": "linear",
+        "count": 18,
+        "contexts": [
+          "other"
+        ]
+      },
+      {
+        "name": "svelte-uov1nl-popping",
+        "duration": "0.001s",
+        "easing": "ease-in-out",
+        "count": 16,
+        "contexts": [
+          "other"
+        ]
+      },
+      {
+        "name": "svelte-1uvttmx-growing",
+        "duration": "0.001s",
+        "easing": "ease",
+        "count": 15,
+        "contexts": [
+          "other"
+        ]
+      },
+      {
+        "name": "svelte-1uvttmx-swing",
+        "duration": "0.001s",
+        "easing": "ease",
+        "count": 15,
+        "contexts": [
+          "other"
+        ]
+      }
+    ],
+    "contexts": {
+      "hero": {
+        "count": 4,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "transform"
+        ]
+      },
+      "link": {
+        "count": 168,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "nav": {
+        "count": 11,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "transform"
+        ]
+      },
+      "button": {
+        "count": 20,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "transform",
+          "background"
+        ]
+      },
+      "input": {
+        "count": 3,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "modal": {
+        "count": 33,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "opacity"
+        ]
+      },
+      "card": {
+        "count": 37,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease-out",
+        "easingType": "ease-out",
+        "props": [
+          "transform"
+        ]
+      },
+      "media": {
+        "count": 24,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      }
+    },
+    "interactiveDeltas": []
+  },
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(255, 219, 0)",
+            "color": "rgb(17, 17, 17)",
+            "padding": "16px 50px",
+            "borderRadius": "0px 0px 8px 8px",
+            "border": "1px 0px 0px solid none none rgb(255, 254, 251) rgb(17, 17, 17) rgb(17, 17, 17)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "text": "Store: IKEA.in",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(17, 17, 17)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "0px",
+            "borderRadius": "50%",
+            "border": "0px none rgb(255, 255, 255)",
+            "fontSize": "13.3333px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "13.3333px",
+        "text": "Play video of bedcovers and cushions app",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(17, 17, 17)",
+            "padding": "0px",
+            "borderRadius": "50%",
+            "border": "0px none rgb(17, 17, 17)",
+            "fontSize": "13.3333px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "13.3333px",
+        "text": "Play video of a child riding a toy car i",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(255, 254, 251)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "20px",
+            "borderRadius": "0px",
+            "border": "0px 1px 1px 0px none solid solid none rgb(0, 0, 0)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "text": "Skip to main content",
+        "confidence": "high"
+      }
+    ],
+    "inputs": {
+      "text": [
+        {
+          "specificType": "search",
+          "states": {
+            "default": {
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "0px none rgb(0, 0, 0)",
+              "borderRadius": "8px",
+              "padding": "12px 0px 12px 42px",
+              "boxShadow": "none",
+              "outline": "rgb(0, 0, 0) none 3px"
+            },
+            "focus": {
+              "outline": "0px",
+              "backgroundColor": "rgb(30, 174, 219)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(0, 0, 0)",
+              "border": "1px solid rgb(0, 0, 0)"
+            }
+          }
+        }
+      ],
+      "checkbox": [],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "underline",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(0, 0, 0)",
+            "textDecoration": "underline"
+          },
+          "hover": {
+            "textDecoration": "none",
+            "color": "rgb(86, 86, 86)"
+          }
+        }
+      },
+      {
+        "color": "rgb(0, 0, 238)",
+        "textDecoration": "underline",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(0, 0, 238)",
+            "textDecoration": "underline"
+          },
+          "hover": {
+            "textDecoration": "none",
+            "color": "rgb(86, 86, 86)"
+          }
+        }
+      },
+      {
+        "color": "rgb(17, 17, 17)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(17, 17, 17)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "textDecoration": "none",
+            "color": "rgb(86, 86, 86)"
+          }
+        }
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "underline"
+          },
+          "hover": {
+            "textDecoration": "none",
+            "color": "rgb(86, 86, 86)"
+          }
+        }
+      }
+    ],
+    "badges": {
+      "all": [],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": []
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "400px"
+    },
+    {
+      "px": "425px"
+    },
+    {
+      "px": "426px"
+    },
+    {
+      "px": "530px"
+    },
+    {
+      "px": "550px"
+    },
+    {
+      "px": "600px"
+    },
+    {
+      "px": "768px"
+    },
+    {
+      "px": "896px"
+    }
+  ],
+  "iconSystem": [],
+  "frameworks": []
+}

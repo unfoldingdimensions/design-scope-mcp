@@ -1,0 +1,234 @@
+{
+  "url": "https://runwayml.com",
+  "captured": "2026-08-10T07:05:34+00:00",
+  "named_tokens": {
+    "light": {
+      "--tw-text-opacity": "1"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "soft corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "soft",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {},
+  "z_index_rows": [],
+  "responsive": [
+    {
+      "at": "640px",
+      "selector": ".\\!container",
+      "change": "max-width: 640px"
+    },
+    {
+      "at": "640px",
+      "selector": ".container",
+      "change": "max-width: 640px"
+    },
+    {
+      "at": "768px",
+      "selector": ".\\!container",
+      "change": "max-width: 768px"
+    },
+    {
+      "at": "768px",
+      "selector": ".container",
+      "change": "max-width: 768px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".\\!container",
+      "change": "max-width: 1024px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".container",
+      "change": "max-width: 1024px"
+    },
+    {
+      "at": "1280px",
+      "selector": ".\\!container",
+      "change": "max-width: 1280px"
+    },
+    {
+      "at": "1280px",
+      "selector": ".container",
+      "change": "max-width: 1280px"
+    },
+    {
+      "at": "1536px",
+      "selector": ".\\!container",
+      "change": "max-width: 1536px"
+    },
+    {
+      "at": "1536px",
+      "selector": ".container",
+      "change": "max-width: 1536px"
+    },
+    {
+      "at": "640px",
+      "selector": ".product-feature-rail-card",
+      "change": "width: 320px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".product-feature-rail-card",
+      "change": "width: calc(26.6667% - 0.8rem)"
+    },
+    {
+      "at": "768px",
+      "selector": ".max-md\\:\\!text-sm",
+      "change": "font-size: 0.875rem"
+    },
+    {
+      "at": "768px",
+      "selector": ".max-md\\:\\!text-sm",
+      "change": "line-height: 1.25rem"
+    },
+    {
+      "at": "640px",
+      "selector": ".sm\\:bottom-3",
+      "change": "bottom: 0.75rem"
+    },
+    {
+      "at": "640px",
+      "selector": ".sm\\:bottom-\\[10\\%\\]",
+      "change": "bottom: 10%"
+    },
+    {
+      "at": "640px",
+      "selector": ".sm\\:bottom-\\[40\\%\\]",
+      "change": "bottom: 40%"
+    },
+    {
+      "at": "640px",
+      "selector": ".sm\\:left-3",
+      "change": "left: 0.75rem"
+    },
+    {
+      "at": "640px",
+      "selector": ".sm\\:left-\\[18\\%\\]",
+      "change": "left: 18%"
+    },
+    {
+      "at": "640px",
+      "selector": ".sm\\:left-\\[35\\%\\]",
+      "change": "left: 35%"
+    },
+    {
+      "at": "640px",
+      "selector": ".sm\\:left-auto",
+      "change": "left: auto"
+    },
+    {
+      "at": "640px",
+      "selector": ".sm\\:right-4",
+      "change": "right: 1rem"
+    },
+    {
+      "at": "640px",
+      "selector": ".sm\\:right-\\[22\\%\\]",
+      "change": "right: 22%"
+    },
+    {
+      "at": "640px",
+      "selector": ".sm\\:top-20",
+      "change": "top: 5rem"
+    },
+    {
+      "at": "640px",
+      "selector": ".sm\\:top-\\[20\\%\\]",
+      "change": "top: 20%"
+    },
+    {
+      "at": "640px",
+      "selector": ".sm\\:top-\\[36px\\]",
+      "change": "top: 36px"
+    },
+    {
+      "at": "768px",
+      "selector": ".md\\:-left-16",
+      "change": "left: -4rem"
+    },
+    {
+      "at": "768px",
+      "selector": ".md\\:-top-14",
+      "change": "top: -3.5rem"
+    },
+    {
+      "at": "768px",
+      "selector": ".md\\:bottom-auto",
+      "change": "bottom: auto"
+    },
+    {
+      "at": "768px",
+      "selector": ".md\\:left-\\[9\\%\\]",
+      "change": "left: 9%"
+    },
+    {
+      "at": "768px",
+      "selector": ".md\\:left-auto",
+      "change": "left: auto"
+    },
+    {
+      "at": "768px",
+      "selector": ".md\\:right-0",
+      "change": "right: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": ".md\\:order-1",
+      "change": "order: 1"
+    },
+    {
+      "at": "768px",
+      "selector": ".md\\:order-2",
+      "change": "order: 2"
+    },
+    {
+      "at": "768px",
+      "selector": ".md\\:order-none",
+      "change": "order: 0"
+    },
+    {
+      "at": "768px",
+      "selector": ".md\\:col-span-1",
+      "change": "grid-column-start: span 1"
+    },
+    {
+      "at": "768px",
+      "selector": ".md\\:col-span-1",
+      "change": "grid-column-end: span 1"
+    },
+    {
+      "at": "768px",
+      "selector": ".md\\:col-span-2",
+      "change": "grid-column-start: span 2"
+    },
+    {
+      "at": "1024px",
+      "selector": ".lg\\:pointer-events-none",
+      "change": "pointer-events: none"
+    },
+    {
+      "at": "1024px",
+      "selector": ".lg\\:absolute",
+      "change": "position: absolute"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "url": "https://github.com",
+  "captured": "2026-08-10T05:56:48+00:00",
+  "hover_diffs": [
+    {
+      "selector": "button",
+      "index": 1,
+      "diffs": {
+        "opacity": {
+          "before": "1",
+          "after": "0.75"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "opacity": {
+          "before": "1",
+          "after": "0.75"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 185,
+    "tabs": 16,
+    "accordions": 6,
+    "carousels": 4,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 4
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "button",
+      "classes": "Toggle-button Toggle-button--selected",
+      "text": "Code",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "button",
+      "classes": "Toggle-button ",
+      "text": "Plan",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "button",
+      "classes": "Toggle-button ",
+      "text": "Collaborate",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "button",
+      "classes": "Toggle-button ",
+      "text": "Automate",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "button",
+      "classes": "Toggle-button ",
+      "text": "Secure",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "div",
+      "classes": "Primer_Brand__Pillar-module__Pillar___xLPAt Primer_Brand__Pillar-module__Pillar-",
+      "text": "Security debt, solved. Leverage security campaigns and Copil",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "p",
+      "classes": "Primer_Brand__Text-module__Text___XeGJJ Primer_Brand__Text-module__Text-font--mo",
+      "text": "Security debt, solved. Leverage security campaigns and Copil",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "div",
+      "classes": "Primer_Brand__Pillar-module__Pillar___xLPAt Primer_Brand__Pillar-module__Pillar-",
+      "text": "Dependencies you can depend on. Update vulnerable dependenci",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

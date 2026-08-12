@@ -1,0 +1,289 @@
+{
+  "url": "https://sentry.io",
+  "captured": "2026-08-10T07:08:42+00:00",
+  "named_tokens": {
+    "light": {
+      "--bg-primary": "#fff",
+      "--bg-secondary": "#f6f6f8",
+      "--text-primary": "#362d59",
+      "--text-secondary": "#9093c1",
+      "--border-color": "#ececf1"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {
+      "--bg-primary": "#fff",
+      "--bg-secondary": "#f6f6f8",
+      "--border-color": "#ececf1",
+      "--text-primary": "#362d59",
+      "--text-secondary": "#9093c1"
+    },
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "soft corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "soft",
+    "type_mood": [
+      "mono accents"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "modal": 99999,
+    "header": 12,
+    "nav": 0
+  },
+  "z_index_rows": [
+    {
+      "role": "nav",
+      "selector": ".btn.top-navigation, .btn-new.top-navigation",
+      "value": "0"
+    },
+    {
+      "role": "nav",
+      "selector": ".btn.top-navigation::before, .btn-new.top-navigation::before",
+      "value": "-1"
+    },
+    {
+      "role": "nav",
+      "selector": ".btn.top-navigation.dark-mode, .btn-new.top-navigation.dark-mode",
+      "value": "0"
+    },
+    {
+      "role": "nav",
+      "selector": ".btn.top-navigation.dark-mode::before, .btn-new.top-navigation.dark-mode::before",
+      "value": "-1"
+    },
+    {
+      "role": "nav",
+      "selector": ".btn.top-navigation.dark-mode, .btn-new.top-navigation.dark-mode",
+      "value": "0"
+    },
+    {
+      "role": "nav",
+      "selector": ".btn.top-navigation.dark-mode::before, .btn-new.top-navigation.dark-mode::before",
+      "value": "-1"
+    },
+    {
+      "role": "header",
+      "selector": ".lp-header[data-astro-cid-kfxvpa7p]",
+      "value": "12"
+    },
+    {
+      "role": "modal",
+      "selector": "._modalWrapper_55aq5_1",
+      "value": "99999"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "576px",
+      "selector": ".container[data-astro-cid-bdd4tvdo]",
+      "change": "max-width: var(--sm)"
+    },
+    {
+      "at": "768px",
+      "selector": ".container[data-astro-cid-bdd4tvdo]",
+      "change": "max-width: var(--md)"
+    },
+    {
+      "at": "768px",
+      "selector": ".container[data-astro-cid-bdd4tvdo].container-pt",
+      "change": "padding-top: 4rem"
+    },
+    {
+      "at": "768px",
+      "selector": ".container[data-astro-cid-bdd4tvdo].container-pb",
+      "change": "padding-bottom: 4rem"
+    },
+    {
+      "at": "992px",
+      "selector": ".container[data-astro-cid-bdd4tvdo]",
+      "change": "max-width: var(--lg)"
+    },
+    {
+      "at": "1152px",
+      "selector": ".container[data-astro-cid-bdd4tvdo]",
+      "change": "max-width: var(--xl)"
+    },
+    {
+      "at": "768px",
+      "selector": ".btn.snackbar, .btn-new.snackbar",
+      "change": "max-width: none"
+    },
+    {
+      "at": "768px",
+      "selector": ".btn.snackbar, .btn-new.snackbar",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": ".btn.snackbar, .btn-new.snackbar",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "992px",
+      "selector": ".btn.top-navigation.dark-mode, .btn-new.top-navigation.dark-mode",
+      "change": "background-image: linear-gradient(120deg, rgb(250, 127, 170) 0%, rgb(255, 150,"
+    },
+    {
+      "at": "992px",
+      "selector": ".btn.top-navigation.dark-mode, .btn-new.top-navigation.dark-mode",
+      "change": "background-repeat: initial"
+    },
+    {
+      "at": "992px",
+      "selector": ".btn.top-navigation.dark-mode, .btn-new.top-navigation.dark-mode",
+      "change": "background-attachment: initial"
+    },
+    {
+      "at": "992px",
+      "selector": ".btn.top-navigation.dark-mode, .btn-new.top-navigation.dark-mode",
+      "change": "background-origin: initial"
+    },
+    {
+      "at": "992px",
+      "selector": ".btn.top-navigation.dark-mode, .btn-new.top-navigation.dark-mode",
+      "change": "background-color: initial"
+    },
+    {
+      "at": "992px",
+      "selector": ".btn.top-navigation.dark-mode, .btn-new.top-navigation.dark-mode",
+      "change": "background-position-x: 98%"
+    },
+    {
+      "at": "992px",
+      "selector": ".btn.top-navigation.dark-mode::before, .btn-new.top-navigation.dark-mode::before",
+      "change": "content: \"\""
+    },
+    {
+      "at": "992px",
+      "selector": ".btn.top-navigation.dark-mode::before, .btn-new.top-navigation.dark-mode::before",
+      "change": "position: absolute"
+    },
+    {
+      "at": "992px",
+      "selector": ".btn.top-navigation.dark-mode::before, .btn-new.top-navigation.dark-mode::before",
+      "change": "z-index: -1"
+    },
+    {
+      "at": "992px",
+      "selector": ".btn.top-navigation.dark-mode::before, .btn-new.top-navigation.dark-mode::before",
+      "change": "top: 0px"
+    },
+    {
+      "at": "992px",
+      "selector": ".btn.top-navigation.dark-mode::before, .btn-new.top-navigation.dark-mode::before",
+      "change": "right: 0px"
+    },
+    {
+      "at": "992px",
+      "selector": ".btn.top-navigation.dark-mode::before, .btn-new.top-navigation.dark-mode::before",
+      "change": "bottom: 0px"
+    },
+    {
+      "at": "1151px",
+      "selector": ".btn.subnav.dark-mode, .btn-new.subnav.dark-mode",
+      "change": "color: rgb(255, 255, 255)"
+    },
+    {
+      "at": "768px",
+      "selector": ".chevron",
+      "change": "margin-right: -0.375em"
+    },
+    {
+      "at": "768px",
+      "selector": ".chevron",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "1152px",
+      "selector": "[data-astro-cid-q3yarpdy][data-collapsible-section] .chevron[data-astro-cid-q3ya",
+      "change": "transform: rotate(90deg)"
+    },
+    {
+      "at": "1151px",
+      "selector": "#mobileMenu[data-astro-cid-q3yarpdy] .p-4[data-astro-cid-q3yarpdy]",
+      "change": "padding-top: 0.5rem"
+    },
+    {
+      "at": "1151px",
+      "selector": "#mobileMenu[data-astro-cid-q3yarpdy] .p-4[data-astro-cid-q3yarpdy]",
+      "change": "padding-right: 0.5rem"
+    },
+    {
+      "at": "1151px",
+      "selector": "#mobileMenu[data-astro-cid-q3yarpdy] .p-4[data-astro-cid-q3yarpdy]",
+      "change": "padding-bottom: 0.5rem"
+    },
+    {
+      "at": "1151px",
+      "selector": "#mobileMenu[data-astro-cid-q3yarpdy] .p-4[data-astro-cid-q3yarpdy]",
+      "change": "padding-left: 0.5rem"
+    },
+    {
+      "at": "1151px",
+      "selector": "#mobileMenu[data-astro-cid-q3yarpdy] .mt-4[data-astro-cid-q3yarpdy]",
+      "change": "margin-top: 0.5rem"
+    },
+    {
+      "at": "768px",
+      "selector": "[data-astro-cid-q3yarpdy][data-collapsible-section] .collapsible-trigger[data-as",
+      "change": "margin-right: -0.375em"
+    },
+    {
+      "at": "768px",
+      "selector": "[data-astro-cid-q3yarpdy][data-collapsible-section] .collapsible-trigger[data-as",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "1152px",
+      "selector": ".nested-item[data-astro-cid-cvxggrkk]",
+      "change": "padding-left: 1.5rem"
+    },
+    {
+      "at": "1152px",
+      "selector": ".nested-item[data-astro-cid-cvxggrkk]::before",
+      "change": "left: 0px"
+    },
+    {
+      "at": "1152px",
+      "selector": ".nested-item[data-astro-cid-cvxggrkk]::before",
+      "change": "width: 1rem"
+    },
+    {
+      "at": "1152px",
+      "selector": "#mobileMenu[data-astro-cid-qrknsbgv], #mobileMenu[data-astro-cid-qrknsbgv].nav-e",
+      "change": "display: none"
+    },
+    {
+      "at": "1152px",
+      "selector": ".flex-col[data-astro-cid-rrixboex].xl\\:flex-row > div[data-astro-cid-rrixboex]",
+      "change": "flex-grow: 1"
+    },
+    {
+      "at": "1152px",
+      "selector": ".flex-col[data-astro-cid-rrixboex].xl\\:flex-row > div[data-astro-cid-rrixboex]",
+      "change": "flex-shrink: 1"
+    },
+    {
+      "at": "1152px",
+      "selector": ".flex-col[data-astro-cid-rrixboex].xl\\:flex-row > div[data-astro-cid-rrixboex]",
+      "change": "flex-basis: 0%"
+    },
+    {
+      "at": "1152px",
+      "selector": ".flex-col[data-astro-cid-rrixboex].xl\\:flex-row > div[data-astro-cid-rrixboex]",
+      "change": "min-width: 0px"
+    }
+  ]
+}

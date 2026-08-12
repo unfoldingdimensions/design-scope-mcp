@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- design-scope final variant component: Nav -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nav — component</title>
+<link rel="stylesheet" href="../assets/tokens.css">
+<style>
+  body { font-family: var(--font, system-ui); background: var(--bg); color: var(--text);
+         padding: 32px; margin: 0; }
+  .demo-grid { display: grid; gap: 24px; max-width: 720px; }
+  .demo-section h2 { font-size: 15px; font-weight: 600; color: var(--text-muted); margin: 0 0 12px; }
+  .demo-row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  .demo-block { background: var(--surface); border: 1px solid var(--border);
+                 border-radius: var(--radius, 8px); padding: 20px; }
+  .note { font-size: 12px; color: var(--text-muted); font-family: var(--mono, monospace); }
+  
+  .demo-nav { display: flex; align-items: center; justify-content: space-between;
+    border: 1px solid var(--border); border-radius: var(--radius, 10px); padding: 12px 16px;
+    background: var(--bg); }
+  .logo { font-weight: 700; }
+  .links a { color: var(--text-muted); text-decoration: none; font-size: 14px; margin-left: 18px;
+    transition: color .15s var(--ease, ease); }
+  .links a:hover { color: var(--text); }
+  .theme-btn { background: var(--surface); border: 1px solid var(--border); color: var(--text);
+    border-radius: var(--radius-control, 6px); padding: 6px 12px; font-size: 12px; cursor: pointer; }
+
+</style>
+</head>
+<body>
+<div class="demo-grid">
+  <div class="note">Component: Nav · tokens: assets/tokens.css · self-contained</div>
+  <div class="demo-section"><h2>Nav — logo + links + theme toggle</h2>
+  <nav class="demo-nav">
+    <span class="logo">brand</span>
+    <div class="links"><a href="#">Product</a><a href="#">Pricing</a><a href="#">Docs</a></div>
+    <button class="theme-btn" onclick="toggleTheme()">dark</button>
+  </nav>
+  <div class="note">Theme toggle flips [data-theme] on <html> — both themes use the tokens from assets/tokens.css.</div>
+</div>
+
+</div>
+<script src="../assets/theme.js"></script>
+</body>
+</html>

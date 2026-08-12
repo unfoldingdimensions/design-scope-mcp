@@ -1,0 +1,35 @@
+{
+  "url": "https://www.bybit.com",
+  "hovers": [
+    {
+      "selector": "button",
+      "file": "hover-01.png",
+      "box": {
+        "x": 573,
+        "y": 514,
+        "width": 147,
+        "height": 45
+      }
+    },
+    {
+      "selector": "button",
+      "file": "hover-02.png",
+      "box": {
+        "x": 236,
+        "y": 442,
+        "width": 44,
+        "height": 24
+      }
+    },
+    {
+      "selector": "[role=button]",
+      "file": "hover-03.png",
+      "box": {
+        "x": 236,
+        "y": 438,
+        "width": 44,
+        "height": 24
+      }
+    }
+  ]
+}

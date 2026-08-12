@@ -1,0 +1,159 @@
+{
+  "url": "https://www.carvana.com",
+  "captured": "2026-08-10T14:18:18+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(255, 255, 255)",
+          "after": "rgb(246, 247, 249)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(255, 255, 255)",
+          "after": "rgb(246, 247, 249)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 3,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(255, 255, 255)",
+          "after": "rgb(246, 247, 249)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "color": {
+          "before": "rgb(16, 107, 199)",
+          "after": "rgb(0, 76, 143)"
+        },
+        "backgroundColor": {
+          "before": "rgb(255, 255, 255)",
+          "after": "rgb(226, 232, 240)"
+        },
+        "borderColor": {
+          "before": "rgb(16, 107, 199)",
+          "after": "rgb(0, 76, 143)"
+        },
+        "outline": {
+          "before": "rgb(16, 107, 199) none 3px",
+          "after": "rgb(0, 76, 143) none 3px"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 5,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(255, 255, 255)",
+          "after": "rgb(246, 247, 249)"
+        },
+        "borderColor": {
+          "before": "rgb(190, 203, 218)",
+          "after": "rgb(132, 150, 174)"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 167,
+    "tabs": 0,
+    "accordions": 0,
+    "carousels": 12,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "button",
+      "classes": "CarouselButton-module_carouselButton__EjEq9__v5_5_2 CarouselButton-module_defaul",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "button",
+      "classes": "CarouselButton-module_carouselButton__EjEq9__v5_5_2 CarouselButton-module_defaul",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "button",
+      "classes": "CarouselButton-module_carouselButton__EjEq9__v5_5_2 CarouselButton-module_defaul",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "button",
+      "classes": "CarouselButton-module_carouselButton__EjEq9__v5_5_2 CarouselButton-module_defaul",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "button",
+      "classes": "CarouselButton-module_carouselButton__EjEq9__v5_5_2 CarouselButton-module_defaul",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "button",
+      "classes": "CarouselButton-module_carouselButton__EjEq9__v5_5_2 CarouselButton-module_defaul",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "button",
+      "classes": "Button-module_button__Ot0-q__v5_5_2 Button-module_buttonMd__CVoxB__v5_5_2 Button",
+      "text": "Get Your Terms",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "button",
+      "classes": "Button-module_button__Ot0-q__v5_5_2 Button-module_buttonMd__CVoxB__v5_5_2 Button",
+      "text": "Get Your Terms",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

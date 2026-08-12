@@ -1,0 +1,342 @@
+{
+  "url": "https://www.lonelyplanet.com",
+  "captured": "2026-08-10T15:21:43+00:00",
+  "named_tokens": {
+    "light": {
+      "--core-brand": "oklch(44% .1928 261.11)",
+      "--core-brand-guide": "#3a1fe6",
+      "--core-neutral-white": "#fff",
+      "--core-neutral-paper": "oklch(96% 0 0)",
+      "--core-neutral-newsprint": "oklch(89% .0042 91.45)",
+      "--core-neutral-ash": "oklch(50% 0 0)",
+      "--core-neutral-ink": "oklch(26% .0103 229.34)",
+      "--core-orange-aperol": "oklch(68% .2098 40.42)",
+      "--core-orange-rose": "oklch(89% .0387 25.84)",
+      "--core-orange-amaro": "oklch(34% .0955 44.54)",
+      "--core-pink-blossom": "oklch(82% .1446 336.15)",
+      "--core-pink-blush": "oklch(92% .0674 326.89)",
+      "--core-pink-dusk": "oklch(36% .1102 338.11)",
+      "--core-yellow-lemon": "oklch(87% .173 91.14)",
+      "--core-yellow-butter": "oklch(95% .035 72.9)",
+      "--core-yellow-cypress": "oklch(41% .0798 82.51)",
+      "--core-red-poppy": "oklch(63% .2577 29.23)",
+      "--core-red-redwood": "oklch(35% .142262 29.2339)",
+      "--core-red-sherbet": "oklch(91% .045 11.2)",
+      "--core-green-field": "oklch(81% .2338 134.37)",
+      "--core-green-valley": "oklch(31% .0612 127.12)",
+      "--core-green-sage": "oklch(87% .0481 125.63)",
+      "--core-blue-lagoon": "oklch(83% .0978 235.99)",
+      "--core-blue-midnight": "oklch(28% .1067 259.07)",
+      "--core-blue-powder": "oklch(95% .0335 225.44)",
+      "--font-family-arizona-flare": "\"ABC Arizona Flare\"",
+      "--font-family-abc-monument-grotesk-mono": "\"ABC Monument Grotesk Mono\"",
+      "--font-family-abc-monument-grotesk": "\"ABC Monument Grotesk\"",
+      "--font-family-american-grotesk": "\"American Grotesk\"",
+      "--font-family-american-grotesk-compressed": "\"American Grotesk Compressed\"",
+      "--font-family-sans": "\"ABC Monument Grotesk\"",
+      "--font-family-serif": "\"ABC Arizona Flare\"",
+      "--font-family-mono": "\"ABC Monument Grotesk Mono\"",
+      "--font-family-headline": "\"American Grotesk\"",
+      "--font-family-display": "\"American Grotesk Compressed\"",
+      "--font-weight-400": "400",
+      "--font-weight-700": "700",
+      "--font-weight-900": "900",
+      "--background-color-brand": "oklch(44% .1928 261.11)",
+      "--background-color-brand-hover": "oklch(28% .1067 259.07)",
+      "--background-color-brand-active": "oklch(28% .1067 259.07)",
+      "--text-color-on-brand": "#fff",
+      "--text-color-brand": "oklch(44% .1928 261.11)",
+      "--text-color-brand-hover": "#fff",
+      "--text-color-brand-active": "oklch(95% .0335 225.44)",
+      "--border-color-brand": "oklch(44% .1928 261.11)",
+      "--border-color-brand-hover": "oklch(28% .1067 259.07)",
+      "--border-color-brand-active": "oklch(28% .1067 259.07)",
+      "--background-color-primary": "#fff",
+      "--text-color-primary": "oklch(26% .0103 229.34)",
+      "--border-color-primary": "oklch(89% .0042 91.45)",
+      "--background-color-secondary": "oklch(96% 0 0)",
+      "--text-color-secondary": "oklch(50% 0 0)",
+      "--border-color-secondary": "oklch(50% 0 0)",
+      "--background-color-tertiary": "oklch(89% .0042 91.45)",
+      "--text-color-tertiary": "oklch(50% 0 0)",
+      "--border-color-tertiary": "oklch(50% 0 0)",
+      "--background-color-contrast": "oklch(26% .0103 229.34)",
+      "--text-color-contrast": "#fff",
+      "--border-color-contrast": "#fff",
+      "--background-color-action": "oklch(26% .0103 229.34)",
+      "--background-color-action-hover": "oklch(50% 0 0)",
+      "--background-color-action-active": "oklch(89% .0042 91.45)",
+      "--text-color-action": "#fff",
+      "--text-color-action-hover": "#fff",
+      "--text-color-action-active": "oklch(26% .0103 229.34)",
+      "--border-color-action": "oklch(50% 0 0)",
+      "--border-color-action-hover": "oklch(50% 0 0)",
+      "--border-color-action-active": "oklch(89% .0042 91.45)",
+      "--background-color-promo": "oklch(87% .173 91.14)",
+      "--text-color-promo": "oklch(26% .0103 229.34)",
+      "--border-color-promo": "oklch(26% .0103 229.34)",
+      "--color-accent-rose": "oklch(89% .0387 25.84)",
+      "--color-accent-sage": "oklch(87% .0481 125.63)",
+      "--color-accent-butter": "oklch(95% .035 72.9)",
+      "--color-accent-powder": "oklch(95% .0335 225.44)",
+      "--color-accent-blush": "oklch(92% .0674 326.89)",
+      "--color-accent-sherbet": "oklch(91% .045 11.2)",
+      "--color-bold-aperol": "oklch(68% .2098 40.42)",
+      "--color-bold-blossom": "oklch(82% .1446 336.15)",
+      "--color-bold-lemon": "oklch(87% .173 91.14)",
+      "--color-bold-lagoon": "oklch(83% .0978 235.99)",
+      "--color-bold-poppy": "oklch(63% .2577 29.23)",
+      "--color-bold-field": "oklch(81% .2338 134.37)",
+      "--container-layout": "min(120rem - 2rem, 100% - 2rem)"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {
+      "--background-color-primary": "#fff",
+      "--border-color-contrast": "#fff",
+      "--core-brand-guide": "#3a1fe6",
+      "--core-neutral-white": "#fff",
+      "--text-color-action": "#fff",
+      "--text-color-action-hover": "#fff",
+      "--text-color-brand-hover": "#fff",
+      "--text-color-contrast": "#fff",
+      "--text-color-on-brand": "#fff"
+    },
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "generous corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "generous",
+    "type_mood": [
+      "mono accents"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "modal": 2147483647,
+    "nav": 1
+  },
+  "z_index_rows": [
+    {
+      "role": "nav",
+      "selector": ".main-nav-item:where(.astro-4b4f4ci2).group::after",
+      "value": "1"
+    },
+    {
+      "role": "modal",
+      "selector": "#onetrust-consent-sdk .ot-general-modal",
+      "value": "2147483647"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "(hover: hover)",
+      "selector": "[data-mode~=\"shop\"] .btn-secondary:not(:disabled):hover",
+      "change": "background-color: var(--background-color-action-hover,var(--core-neutral-ash))"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": "[data-mode~=\"shop\"] .btn-secondary:not(:disabled):hover",
+      "change": "color: var(--text-color-action-hover,var(--core-neutral-white))"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": "[data-mode~=\"shop\"] .btn-secondary-inverse:not(:disabled):hover",
+      "change": "background-color: var(--background-color-action-hover,var(--core-neutral-ash))"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": "[data-mode~=\"shop\"] .btn-primary-inverse:not(:disabled):hover",
+      "change": "background-color: var(--background-color-secondary,var(--core-neutral-paper))"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": "[data-mode~=\"shop\"] .btn-primary-inverse:not(:disabled):hover",
+      "change": "color: var(--text-color-brand,var(--core-brand))"
+    },
+    {
+      "at": "(width >= 48rem)",
+      "selector": ".dangerHtml h1",
+      "change": "font-size: var(--text-42,2.625rem)"
+    },
+    {
+      "at": "(width >= 48rem)",
+      "selector": ".dangerHtml h1",
+      "change": "line-height: var(--tw-leading,var(--text-42--line-height,calc(2.875 / 2.6"
+    },
+    {
+      "at": "(width >= 48rem)",
+      "selector": ".dangerHtml h1",
+      "change": "font-size: var(--text-42,2.625rem)"
+    },
+    {
+      "at": "(width >= 48rem)",
+      "selector": ".dangerHtml h1",
+      "change": "line-height: var(--tw-leading,var(--text-42--line-height,calc(2.875 / 2.6"
+    },
+    {
+      "at": "(width >= 48rem)",
+      "selector": ".dangerHtml h2",
+      "change": "font-size: var(--text-36,2.25rem)"
+    },
+    {
+      "at": "(width >= 48rem)",
+      "selector": ".dangerHtml h2",
+      "change": "line-height: var(--tw-leading,var(--text-36--line-height,calc(2.5 / 2.25)"
+    },
+    {
+      "at": "(width >= 48rem)",
+      "selector": ".dangerHtml h2",
+      "change": "font-size: var(--text-36,2.25rem)"
+    },
+    {
+      "at": "(width >= 48rem)",
+      "selector": ".dangerHtml h2",
+      "change": "line-height: var(--tw-leading,var(--text-36--line-height,calc(2.5 / 2.25)"
+    },
+    {
+      "at": "(width >= 48rem)",
+      "selector": ".dangerHtml h3",
+      "change": "font-size: var(--text-32,2rem)"
+    },
+    {
+      "at": "(width >= 48rem)",
+      "selector": ".dangerHtml h3",
+      "change": "line-height: var(--tw-leading,var(--text-32--line-height,calc(2.25 / 2)))"
+    },
+    {
+      "at": "(width >= 48rem)",
+      "selector": ".dangerHtml h3",
+      "change": "font-size: var(--text-32,2rem)"
+    },
+    {
+      "at": "(width >= 48rem)",
+      "selector": ".dangerHtml h3",
+      "change": "line-height: var(--tw-leading,var(--text-32--line-height,calc(2.25 / 2)))"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".dangerHtml a:hover",
+      "change": "text-decoration-line: none"
+    },
+    {
+      "at": "1279px",
+      "selector": ".content-section:has(.video-active) [data-hero-cta]",
+      "change": "display: none"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".list-featured-item [data-media-section]",
+      "change": "transition-duration: 0.01ms"
+    },
+    {
+      "at": "1023px",
+      "selector": ".list-featured-sticky-stack .list-featured-row[data-row-type=\"item\"]",
+      "change": "height: 100dvh"
+    },
+    {
+      "at": "1023px",
+      "selector": ".list-featured-item",
+      "change": "flex-direction: column"
+    },
+    {
+      "at": "1023px",
+      "selector": ".list-featured-item",
+      "change": "height: 100%"
+    },
+    {
+      "at": "1023px",
+      "selector": ".list-featured-item",
+      "change": "min-height: 0px"
+    },
+    {
+      "at": "1023px",
+      "selector": ".list-featured-item",
+      "change": "overflow-x: hidden"
+    },
+    {
+      "at": "1023px",
+      "selector": ".list-featured-item",
+      "change": "overflow-y: hidden"
+    },
+    {
+      "at": "1023px",
+      "selector": ".list-featured-item [data-content-panel]",
+      "change": "flex-direction: column"
+    },
+    {
+      "at": "1023px",
+      "selector": ".list-featured-item [data-content-panel]",
+      "change": "flex-grow: 1"
+    },
+    {
+      "at": "1023px",
+      "selector": ".list-featured-item [data-content-panel]",
+      "change": "flex-shrink: 1"
+    },
+    {
+      "at": "1023px",
+      "selector": ".list-featured-item [data-content-panel]",
+      "change": "flex-basis: 0%"
+    },
+    {
+      "at": "1023px",
+      "selector": ".list-featured-item [data-content-panel]",
+      "change": "min-height: 0px"
+    },
+    {
+      "at": "1023px",
+      "selector": ".list-featured-item [data-media-section]",
+      "change": "flex-grow: 0"
+    },
+    {
+      "at": "1024px",
+      "selector": ".list-featured-item [data-info-section]",
+      "change": "overflow-y: auto"
+    },
+    {
+      "at": "1024px",
+      "selector": ".list-featured-embed-frame",
+      "change": "justify-content: center"
+    },
+    {
+      "at": "1024px",
+      "selector": ".list-featured-embed-frame",
+      "change": "align-items: center"
+    },
+    {
+      "at": "1024px",
+      "selector": ".list-featured-embed-frame",
+      "change": "width: 295px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".list-featured-embed-frame",
+      "change": "height: 556px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".list-featured-embed-frame",
+      "change": "overflow-x: hidden"
+    },
+    {
+      "at": "1024px",
+      "selector": ".list-featured-embed-scale",
+      "change": "transform-origin: 50% center"
+    },
+    {
+      "at": "1024px",
+      "selector": ".list-featured-embed-scale",
+      "change": "flex-shrink: 0"
+    }
+  ]
+}

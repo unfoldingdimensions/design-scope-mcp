@@ -1,0 +1,279 @@
+{
+  "url": "https://n8n.io",
+  "captured": "2026-08-10T10:08:29+00:00",
+  "named_tokens": {
+    "light": {
+      "--vc-clr-primary": "#000",
+      "--vc-clr-secondary": "#090f207f",
+      "--vc-clr-white": "#fff",
+      "--vc-icn-width": "100%",
+      "--vc-nav-background": "transparent",
+      "--vc-nav-border-radius": "0",
+      "--vc-nav-color": "#000",
+      "--vc-nav-color-hover": "#090f207f",
+      "--vc-nav-height": "30px",
+      "--vc-nav-width": "30px",
+      "--vc-pgn-active-color": "#000",
+      "--vc-pgn-background-color": "#090f207f",
+      "--vc-pgn-border-radius": "0",
+      "--vc-pgn-gap": "6px",
+      "--vc-pgn-height": "4px",
+      "--vc-png-bottom": "10px",
+      "--vc-png-left": "auto",
+      "--vc-png-right": "10px",
+      "--vc-pgn-width": "16px"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {
+      "--vc-clr-primary": "#000",
+      "--vc-clr-secondary": "#090f207f",
+      "--vc-clr-white": "#fff",
+      "--vc-nav-color": "#000",
+      "--vc-nav-color-hover": "#090f207f",
+      "--vc-pgn-active-color": "#000",
+      "--vc-pgn-background-color": "#090f207f"
+    },
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "rounded corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "rounded",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "header": 999998,
+    "nav": 0
+  },
+  "z_index_rows": [
+    {
+      "role": "nav",
+      "selector": ".navbar-wrapper[data-v-15bcd6e3]::before",
+      "value": "-1"
+    },
+    {
+      "role": "nav",
+      "selector": ".navbar-wrapper[data-v-15bcd6e3]::before",
+      "value": "-1"
+    },
+    {
+      "role": "header",
+      "selector": "#cookiescript_header",
+      "value": "999998"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".navbar-wrapper[data-v-15bcd6e3]::before",
+      "change": "background-color: rgba(255, 255, 255, 0.05)"
+    },
+    {
+      "at": "(min-width: 40rem)",
+      "selector": ".footer-bottom-bg[data-v-8c170c9d]",
+      "change": "top: calc(var(--spacing,.25rem)*-64)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".footer-bottom-bg[data-v-8c170c9d]",
+      "change": "top: calc(var(--spacing,.25rem)*-80)"
+    },
+    {
+      "at": "(min-width: 40rem)",
+      "selector": ".footer-bottom-links[data-v-8c170c9d]",
+      "change": "justify-content: flex-start"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".footer-bottom-links[data-v-8c170c9d] a:hover",
+      "change": "opacity: 1"
+    },
+    {
+      "at": "not all and (min-width: 40rem)",
+      "selector": ".footer-bottom-links[data-v-8c170c9d] a",
+      "change": "opacity: 0.8"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".bg-cover[data-v-a66d9883]",
+      "change": "background-image: linear-gradient(90deg, rgb(14, 9, 24) 10%, rgba(14, 9, 24, 0"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".bg-cover[data-v-a66d9883]",
+      "change": "background-position-x: initial, initial"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".bg-cover[data-v-a66d9883]",
+      "change": "background-position-y: initial, initial"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".bg-cover[data-v-a66d9883]",
+      "change": "background-size: initial, initial"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".bg-cover[data-v-a66d9883]",
+      "change": "background-repeat: initial, initial"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".bg-cover[data-v-a66d9883]",
+      "change": "background-attachment: initial, initial"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".btn-link[data-v-cdcfb68e]:hover:not(:disabled)",
+      "change": "opacity: 1"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".btn-tertiary[data-v-cdcfb68e]:hover:not(:disabled)",
+      "change": "background-color: rgba(188, 188, 188, 0.2)"
+    },
+    {
+      "at": "(min-width: 80rem)",
+      "selector": ".section-bg-layer[data-v-7e35d6f8]",
+      "change": "top: -18%"
+    },
+    {
+      "at": "(min-width: 80rem)",
+      "selector": ".section-bg-layer[data-v-7e35d6f8]",
+      "change": "right: -47%"
+    },
+    {
+      "at": "(min-width: 80rem)",
+      "selector": ".section-bg-layer[data-v-7e35d6f8]",
+      "change": "bottom: auto"
+    },
+    {
+      "at": "(min-width: 80rem)",
+      "selector": ".section-bg-layer[data-v-7e35d6f8]",
+      "change": "left: auto"
+    },
+    {
+      "at": "(min-width: 96rem)",
+      "selector": ".section-bg-layer[data-v-7e35d6f8]",
+      "change": "top: -22%"
+    },
+    {
+      "at": "(min-width: 96rem)",
+      "selector": ".section-bg-layer[data-v-7e35d6f8]",
+      "change": "right: -47%"
+    },
+    {
+      "at": "(min-width: 96rem)",
+      "selector": ".section-bg-layer[data-v-7e35d6f8]",
+      "change": "bottom: auto"
+    },
+    {
+      "at": "(min-width: 96rem)",
+      "selector": ".section-bg-layer[data-v-7e35d6f8]",
+      "change": "left: auto"
+    },
+    {
+      "at": "(min-width: 80rem)",
+      "selector": ".modal-body[data-v-b5f1478e]",
+      "change": "max-height: 90vh"
+    },
+    {
+      "at": "(min-width: 80rem)",
+      "selector": ".feedback-slides-wrapper",
+      "change": "mask-image: linear-gradient(to right,transparent .5rem,#000 var(--mask-o"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".effect-bg[data-v-d163dd42]",
+      "change": "transform: translate(-50%, -50%) rotate(12deg)"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".effect-bg[data-v-d163dd42]",
+      "change": "transform: translate(-50%, -50%) rotate(20deg)"
+    },
+    {
+      "at": "(min-width: 96rem)",
+      "selector": ".effect-bg[data-v-d163dd42]",
+      "change": "transform: translate(-50%, -50%) rotate(24deg)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".carousel__next:hover, .carousel__prev:hover",
+      "change": "color: var(--vc-nav-color-hover)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".carousel__pagination-button:hover",
+      "change": "background-color: var(--vc-pgn-active-color)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".btn-link[data-v-cdcfb68e]:hover:not(:disabled)",
+      "change": "opacity: 1"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".btn-tertiary[data-v-cdcfb68e]:hover:not(:disabled)",
+      "change": "background-color: rgba(188, 188, 188, 0.2)"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".bg-cover[data-v-a66d9883]",
+      "change": "background-image: linear-gradient(90deg, rgb(14, 9, 24) 10%, rgba(14, 9, 24, 0"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".bg-cover[data-v-a66d9883]",
+      "change": "background-position-x: initial, initial"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".bg-cover[data-v-a66d9883]",
+      "change": "background-position-y: initial, initial"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".bg-cover[data-v-a66d9883]",
+      "change": "background-size: initial, initial"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".bg-cover[data-v-a66d9883]",
+      "change": "background-repeat: initial, initial"
+    },
+    {
+      "at": "(min-width: 48rem)",
+      "selector": ".bg-cover[data-v-a66d9883]",
+      "change": "background-attachment: initial, initial"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".bg-video--mask-footer[data-v-55bbb788]",
+      "change": "mask-image: radial-gradient(60% 70%, rgb(255, 255, 255) 0px, rgba(255, 2"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".bg-video--mask-footer[data-v-55bbb788]",
+      "change": "-webkit-mask-position-x: 0%"
+    },
+    {
+      "at": "(min-width: 64rem)",
+      "selector": ".bg-video--mask-footer[data-v-55bbb788]",
+      "change": "-webkit-mask-position-y: 0%"
+    }
+  ]
+}

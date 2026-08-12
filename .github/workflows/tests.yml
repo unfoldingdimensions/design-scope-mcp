@@ -1,0 +1,22 @@
+name: tests
+
+on: [push, pull_request]
+
+jobs:
+  unit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Style search unit tests
+        run: python tests/test_style_search.py
+      - name: Semantic classifier tests
+        run: python tests/test_semantic_pass.py
+      - name: Style index tests
+        run: python tests/test_style_index.py
+      - name: Cross-module vocabulary consistency
+        run: python tests/test_vocabulary_consistency.py

@@ -1,0 +1,305 @@
+{
+  "url": "https://www.semrush.com",
+  "captured": "2026-08-10T11:00:58+00:00",
+  "named_tokens": {
+    "light": {
+      "--srf-factor-a-frac": "'frac' off",
+      "--srf-factor-a-funk-up-latin": "'ss01' off",
+      "--srf-factor-a-curly-arrows": "'ss03' off",
+      "--mp-white": "#fff",
+      "--mp-off-black": "#181e15",
+      "--mp-lavendar": "#c190ff",
+      "--mp-lavendar-hover": "#b072ff",
+      "--mp-mint": "#dceeeb",
+      "--mp-light-mint": "#f7fbfa",
+      "--mp-dark-grey": "#6c6e79",
+      "--mp-medium-grey": "#d1d2d5",
+      "--mp-light-grey": "#f0f1f2",
+      "--mp-off-white": "#f3f6f6",
+      "--mp-aqua": "#18f0bf",
+      "--mp-lime": "#89ff75",
+      "--mp-product-gradient": "linear-gradient(180deg, var(--mp-mint) 0%, #eee9ff 100%)",
+      "--mp-hero-gradient": "linear-gradient(180deg, var(--mp-mint) 0%, #e8e1ff 75%, var(--mp-white) 100%)",
+      "--mp-focus-color": "#008ff87f",
+      "--mp-focus-color-invert": "rgba(255, 255, 255, 0.7)",
+      "--mp-focus-border": "#006dca",
+      "--mp-vertical-padding": "60px",
+      "--mp-grid-margin": "16px",
+      "--mp-transition-duration": "200ms",
+      "--mp-transition-easing": "ease-in-out",
+      "--mp-border-radius": "100px",
+      "--mp-shadow-glass": "0 2px 12px 0 rgba(0, 0, 0, 0.05)",
+      "--mp-section-margin-top": "32px",
+      "--mp-button-height": "48px",
+      "--mp-max-container-width": "1440px",
+      "--swiper-theme-color": "#007aff"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {
+      "--mp-aqua": "#18f0bf",
+      "--mp-dark-grey": "#6c6e79",
+      "--mp-focus-border": "#006dca",
+      "--mp-focus-color": "#008ff87f",
+      "--mp-lavendar": "#c190ff",
+      "--mp-lavendar-hover": "#b072ff",
+      "--mp-light-grey": "#f0f1f2",
+      "--mp-light-mint": "#f7fbfa",
+      "--mp-lime": "#89ff75",
+      "--mp-medium-grey": "#d1d2d5",
+      "--mp-mint": "#dceeeb",
+      "--mp-off-black": "#181e15",
+      "--mp-off-white": "#f3f6f6",
+      "--mp-white": "#fff",
+      "--swiper-theme-color": "#007aff"
+    },
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "generous corners",
+      "elevated (soft shadows)"
+    ],
+    "flat": false,
+    "corner_style": "generous",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "nav": 1,
+    "menu": 1,
+    "header": 0,
+    "notification": 0
+  },
+  "z_index_rows": [
+    {
+      "role": "header",
+      "selector": "srf-header-2026 #srf-header",
+      "value": "var(--z-index-header)"
+    },
+    {
+      "role": "nav",
+      "selector": ".mp-slider-navigation .mp-button--icon::after",
+      "value": "1"
+    },
+    {
+      "role": "notification",
+      "selector": ".swiper .swiper-notification",
+      "value": "-1000"
+    },
+    {
+      "role": "menu",
+      "selector": ".srf-footer__menu-block-title::after",
+      "value": "1"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "(orientation: landscape)",
+      "selector": ".srf-layout__body",
+      "change": "padding-left: env(safe-area-inset-left)"
+    },
+    {
+      "at": "(orientation: landscape)",
+      "selector": ".srf-layout__body",
+      "change": "padding-right: env(safe-area-inset-right)"
+    },
+    {
+      "at": "767px",
+      "selector": "#srf-notice-bubble-container",
+      "change": "width: calc(100% - 24px)"
+    },
+    {
+      "at": "1200px",
+      "selector": ".s-container.-outer",
+      "change": "width: 970px"
+    },
+    {
+      "at": "767px",
+      "selector": "body",
+      "change": "font-size: 16px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".srf_top_banner__short",
+      "change": "display: none"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 #srf-header .srf-header__logo",
+      "change": "block-size: 28px"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 #srf-header .srf-header__logo",
+      "change": "inline-size: 120px"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 #srf-header:has([aria-expanded=\"true\"]) srf-header-menu",
+      "change": "display: none"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 srf-header-menu ul .srf-header__menu-item",
+      "change": "font-size: 18px"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 srf-header-menu ul .srf-header__menu-item",
+      "change": "letter-spacing: -0.36px"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 srf-header-menu ul .srf-header__menu-item",
+      "change": "line-height: 1.4"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 srf-header-menu ul .srf-header__menu-item",
+      "change": "margin-inline-end: 0px"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 srf-header-menu ul .srf-header__menu-item",
+      "change": "padding-inline-start: 0px"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 srf-header-menu ul .srf-header__menu-item",
+      "change": "padding-inline-end: 0px"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 srf-header-menu ul .srf-header__menu-item[aria-haspopup=\"true\"]:",
+      "change": "block-size: 24px"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 srf-header-menu ul .srf-header__menu-item[aria-haspopup=\"true\"]:",
+      "change": "inline-size: 24px"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 srf-header-menu ul .srf-header__menu-item[target=\"_blank\"]::afte",
+      "change": "background-size: 16px 16px"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 srf-header-menu ul .srf-header__menu-item[aria-haspopup=\"true\"]:",
+      "change": "transform: rotate(-90deg)"
+    },
+    {
+      "at": "768px",
+      "selector": "srf-header-2026 srf-header-menu ul .srf-header__menu-item[target=\"_blank\"]::afte",
+      "change": "background-size: 12px 12px"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 srf-header-menu",
+      "change": "flex-basis: 100%"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 srf-header-menu",
+      "change": "margin-block-start: 68px"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 srf-header-menu ul",
+      "change": "flex-direction: column"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 srf-header-menu ul",
+      "change": "align-items: stretch"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 srf-header-menu ul",
+      "change": "justify-items: stretch"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 srf-header-menu ul",
+      "change": "row-gap: 32px"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 srf-header-menu ul",
+      "change": "column-gap: 32px"
+    },
+    {
+      "at": "768px",
+      "selector": "srf-header-2026 srf-header-menu ul",
+      "change": "inline-size: fit-content"
+    },
+    {
+      "at": "767px",
+      "selector": "srf-header-2026 .srf-header__buttons",
+      "change": "display: none"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 #srf-header-mobile-menu-content .srf-header__buttons",
+      "change": "justify-content: flex-start"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 #srf-header-mobile-menu-content .srf-header__buttons",
+      "change": "margin-block-start: 68px"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 .srf-header__link-button[data-variant=\"primary-filled\"]",
+      "change": "background-color: var(--color-monotones-black)"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 .srf-header__link-button[data-variant=\"primary-filled\"]",
+      "change": "color: rgb(255, 255, 255)"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 .srf-header__link-button[data-variant=\"primary-filled\"]:hover",
+      "change": "background-color: rgb(42, 48, 37)"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 .srf-header__link-button[data-variant=\"primary-filled\"]:hover",
+      "change": "color: rgb(255, 255, 255)"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 .srf-header__link-button[data-variant=\"primary-filled\"]:active",
+      "change": "background-color: var(--color-monotones-black)"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 .srf-header__link-button[data-variant=\"primary-filled\"]:active",
+      "change": "color: rgb(255, 255, 255)"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 .srf-header__link-button[data-variant=\"primary-outlined\"]:hover",
+      "change": "background-color: rgba(0, 0, 0, 0.05)"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 .srf-header__link-button[data-variant=\"primary-outlined\"]:active",
+      "change": "background-color: rgba(0, 0, 0, 0.1)"
+    },
+    {
+      "at": "1279px",
+      "selector": "srf-header-2026 .srf-header__link-button",
+      "change": "block-size: 48px"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "url": "https://ethereum.org",
+  "captured": "2026-08-10T13:05:02+00:00",
+  "named_tokens": {
+    "light": {
+      "--page-pad": "calc(var(--spacing) * 4)",
+      "--space": "calc(var(--spacing) * 4)",
+      "--hero-pad": "calc(var(--spacing) * 8)",
+      "--docsearch-modal-background": "hsla(var(--background))",
+      "--docsearch-searchbox-height": "fit-content",
+      "--docsearch-highlight-color": "hsla(var(--primary-hover))",
+      "--docsearch-modal-width": "650px",
+      "--docsearch-hit-height": "fit-content",
+      "--docsearch-container-background": "hsla(var(--overlay))"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "soft corners",
+      "elevated (soft shadows)"
+    ],
+    "flat": false,
+    "corner_style": "soft",
+    "type_mood": [
+      "mono accents"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {},
+  "z_index_rows": [],
+  "responsive": [
+    {
+      "at": "768px",
+      "selector": "[data-rk] .ju367v1",
+      "change": "align-items: flex-start"
+    },
+    {
+      "at": "768px",
+      "selector": "[data-rk] .ju367v3",
+      "change": "align-items: flex-end"
+    },
+    {
+      "at": "768px",
+      "selector": "[data-rk] .ju367v5",
+      "change": "align-items: center"
+    },
+    {
+      "at": "768px",
+      "selector": "[data-rk] .ju367v7",
+      "change": "display: none"
+    },
+    {
+      "at": "768px",
+      "selector": "[data-rk] .ju367vd",
+      "change": "display: inline"
+    },
+    {
+      "at": "768px",
+      "selector": "[data-rk] ._1ckjpok1",
+      "change": "width: 360px"
+    },
+    {
+      "at": "768px",
+      "selector": "[data-rk] ._1ckjpok2",
+      "change": "width: 480px"
+    },
+    {
+      "at": "768px",
+      "selector": "[data-rk] ._1ckjpok4",
+      "change": "width: 368px"
+    },
+    {
+      "at": "768px",
+      "selector": "[data-rk] ._1ckjpok4",
+      "change": "min-width: 368px"
+    },
+    {
+      "at": "767px",
+      "selector": "[data-rk] ._1ckjpok7",
+      "change": "border-bottom-right-radius: 0px"
+    },
+    {
+      "at": "767px",
+      "selector": "[data-rk] ._1ckjpok7",
+      "change": "border-bottom-left-radius: 0px"
+    },
+    {
+      "at": "767px",
+      "selector": "[data-rk] ._1ckjpok7",
+      "change": "margin-top: -200px"
+    },
+    {
+      "at": "767px",
+      "selector": "[data-rk] ._1ckjpok7",
+      "change": "padding-bottom: 200px"
+    },
+    {
+      "at": "767px",
+      "selector": "[data-rk] ._1ckjpok7",
+      "change": "top: 200px"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".DocSearch-Button-Container svg:is(:where(.group):hover *)",
+      "change": "transition-property: transform, translate, scale, rotate"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".DocSearch-Button-Container svg:is(:where(.group):hover *)",
+      "change": "transition-timing-function: var(--tw-ease,var(--default-transition-timing-function))"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".DocSearch-Button-Container svg:is(:where(.group):hover *)",
+      "change": "transition-duration: 0.5s"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".DocSearch-Button-Container svg:is(:where(.group):hover *)",
+      "change": "rotate: 12deg"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ":is(.DocSearch-Search-Icon, .DocSearch-Button-Placeholder):is(:where(.group):hov",
+      "change": "color: hsla(var(--primary-hover))"
+    },
+    {
+      "at": "768px",
+      "selector": ".DocSearch-SearchBar input",
+      "change": "font-size: 1.25rem"
+    },
+    {
+      "at": "768px",
+      "selector": ".DocSearch-SearchBar input",
+      "change": "line-height: var(--tw-leading,1.4)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".DocSearch-Cancel:hover",
+      "change": "color: hsla(var(--primary))"
+    },
+    {
+      "at": "768px",
+      "selector": ".DocSearch-Cancel",
+      "change": "color: hsla(var(--primary-high-contrast))"
+    },
+    {
+      "at": "768px",
+      "selector": ".DocSearch-Dropdown",
+      "change": "max-height: calc(-16rem + 100vh)"
+    },
+    {
+      "at": "768px",
+      "selector": ".DocSearch-Dropdown",
+      "change": "padding-inline-start: calc(var(--spacing) * 8)"
+    },
+    {
+      "at": "768px",
+      "selector": ".DocSearch-Dropdown",
+      "change": "padding-inline-end: calc(var(--spacing) * 4)"
+    },
+    {
+      "at": "768px",
+      "selector": ".DocSearch-Dropdown",
+      "change": "overflow-y: auto"
+    },
+    {
+      "at": "768px",
+      "selector": ".DocSearch-Modal",
+      "change": "max-height: calc(100vh - 2 * var(--inset))"
+    }
+  ]
+}

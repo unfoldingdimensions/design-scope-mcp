@@ -1,0 +1,190 @@
+{
+  "url": "https://asana.com",
+  "captured": "2026-08-10T09:33:16+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(13, 14, 16)",
+          "after": "rgb(205, 72, 72)"
+        },
+        "borderColor": {
+          "before": "rgb(13, 14, 16)",
+          "after": "rgb(205, 72, 72)"
+        },
+        "outline": {
+          "before": "rgb(13, 14, 16) none 3px",
+          "after": "rgb(205, 72, 72) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgb(13, 13, 13)",
+          "after": "rgb(110, 110, 110)"
+        },
+        "borderColor": {
+          "before": "rgb(13, 13, 13)",
+          "after": "rgb(110, 110, 110)"
+        },
+        "outline": {
+          "before": "rgb(13, 13, 13) none 3px",
+          "after": "rgb(110, 110, 110) none 3px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "color": {
+          "before": "rgb(13, 13, 13)",
+          "after": "rgb(110, 110, 110)"
+        },
+        "borderColor": {
+          "before": "rgb(13, 13, 13)",
+          "after": "rgb(110, 110, 110)"
+        },
+        "outline": {
+          "before": "rgb(13, 13, 13) none 3px",
+          "after": "rgb(110, 110, 110) none 3px"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "color": {
+          "before": "rgb(13, 13, 13)",
+          "after": "rgb(110, 110, 110)"
+        },
+        "borderColor": {
+          "before": "rgb(13, 13, 13)",
+          "after": "rgb(110, 110, 110)"
+        },
+        "outline": {
+          "before": "rgb(13, 13, 13) none 3px",
+          "after": "rgb(110, 110, 110) none 3px"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": "button",
+      "index": 5,
+      "diffs": {
+        "color": {
+          "before": "rgb(13, 13, 13)",
+          "after": "rgb(110, 110, 110)"
+        },
+        "borderColor": {
+          "before": "rgb(13, 13, 13)",
+          "after": "rgb(110, 110, 110)"
+        },
+        "outline": {
+          "before": "rgb(13, 13, 13) none 3px",
+          "after": "rgb(110, 110, 110) none 3px"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "header.styles_header__ksTYs",
+      "diffs": {
+        "boxShadow": "none → rgba(36, 50, 66, 0.08) 0px 2px 12px 0px"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 259,
+    "tabs": 35,
+    "accordions": 4,
+    "carousels": 1,
+    "observers": 2,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "div",
+      "classes": "styles_header-tab-list__x1UOZ show-desktop",
+      "text": "Productschevron-down iconSolutionschevron-down iconLearning ",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "div",
+      "classes": "styles_flyout-tab-panels__wjXkc",
+      "text": "Productsawm iconAgentic Work Managementarrow-right iconFor c",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "div",
+      "classes": "styles_tab-panel__1FWir",
+      "text": "Productsawm iconAgentic Work Managementarrow-right iconFor c",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "div",
+      "classes": "styles_tab-section__8H59v",
+      "text": "Productsawm iconAgentic Work Managementarrow-right iconFor c",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "span",
+      "classes": "styles_tab-section__name__PSMMH",
+      "text": "Products",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "div",
+      "classes": "styles_tab-section__8H59v",
+      "text": "AI Platformait iconAI Teammatesarrow-right iconReady-to-go A",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "span",
+      "classes": "styles_tab-section__name__PSMMH",
+      "text": "AI Platform",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "div",
+      "classes": "styles_tab-section__8H59v",
+      "text": "Asana FoundationsAdmin and securityarrow-right iconApp integ",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

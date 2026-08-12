@@ -1,0 +1,55 @@
+{
+  "url": "https://www.midjourney.com",
+  "hovers": [
+    {
+      "selector": "a[href]",
+      "file": "hover-01.png",
+      "box": {
+        "x": 667,
+        "y": 9,
+        "width": 184,
+        "height": 18
+      }
+    },
+    {
+      "selector": "a[href]",
+      "file": "hover-02.png",
+      "box": {
+        "x": 336,
+        "y": 1936,
+        "width": 758,
+        "height": 47
+      }
+    },
+    {
+      "selector": "button",
+      "file": "hover-03.png",
+      "box": {
+        "x": 1404,
+        "y": 6,
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "selector": "[role=button]",
+      "file": "hover-04.png",
+      "box": {
+        "x": 304,
+        "y": -140,
+        "width": 196,
+        "height": 196
+      }
+    },
+    {
+      "selector": "[role=button]",
+      "file": "hover-05.png",
+      "box": {
+        "x": 304,
+        "y": 214,
+        "width": 196,
+        "height": 196
+      }
+    }
+  ]
+}

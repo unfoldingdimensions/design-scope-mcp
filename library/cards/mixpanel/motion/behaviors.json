@@ -1,0 +1,90 @@
+{
+  "url": "https://mixpanel.com",
+  "captured": "2026-08-10T10:34:48+00:00",
+  "hover_diffs": [
+    {
+      "selector": "[role=button]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(0, 0, 0)",
+          "after": "rgb(31, 32, 35)"
+        },
+        "backgroundColor": {
+          "before": "rgb(250, 250, 250)",
+          "after": "rgb(244, 243, 255)"
+        },
+        "borderColor": {
+          "before": "rgb(0, 0, 0) rgb(234, 234, 234) rgb(0, 0, 0) rgb(0, 0, 0)",
+          "after": "rgb(31, 32, 35) rgb(234, 234, 234) rgb(31, 32, 35) rgb(31, 32, 35)"
+        },
+        "outline": {
+          "before": "rgb(0, 0, 0) none 3px",
+          "after": "rgb(31, 32, 35) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgb(95, 65, 207)",
+          "after": "rgb(31, 32, 35)"
+        },
+        "backgroundColor": {
+          "before": "rgb(255, 255, 255)",
+          "after": "rgb(244, 243, 255)"
+        },
+        "borderColor": {
+          "before": "rgb(95, 65, 207) rgb(234, 234, 234) rgb(95, 65, 207) rgb(95, 65, 207)",
+          "after": "rgb(31, 32, 35) rgb(234, 234, 234) rgb(31, 32, 35) rgb(31, 32, 35)"
+        },
+        "outline": {
+          "before": "rgb(95, 65, 207) none 3px",
+          "after": "rgb(31, 32, 35) none 3px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 3,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(250, 250, 250)",
+          "after": "rgb(244, 243, 255)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 4,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(250, 250, 250)",
+          "after": "rgb(244, 243, 255)"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 98,
+    "tabs": 0,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 8
+  },
+  "states": []
+}

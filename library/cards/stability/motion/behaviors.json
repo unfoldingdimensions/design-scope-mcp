@@ -1,0 +1,151 @@
+{
+  "url": "https://stability.ai",
+  "captured": "2026-08-10T08:33:05+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "outline": {
+          "before": "rgb(255, 255, 255) none 3px",
+          "after": "rgb(255, 255, 255) none 0px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": ".card",
+      "index": 2,
+      "diffs": {
+        "outline": {
+          "before": "rgb(31, 31, 31) none 3px",
+          "after": "rgb(31, 31, 31) none 0px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": ".card",
+      "index": 3,
+      "diffs": {
+        "outline": {
+          "before": "rgb(31, 31, 31) none 3px",
+          "after": "rgb(31, 31, 31) none 0px"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": ".card",
+      "index": 4,
+      "diffs": {
+        "outline": {
+          "before": "rgb(31, 31, 31) none 3px",
+          "after": "rgb(31, 31, 31) none 0px"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": ".card",
+      "index": 5,
+      "diffs": {
+        "outline": {
+          "before": "rgb(31, 31, 31) none 3px",
+          "after": "rgb(31, 31, 31) none 0px"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "header.black-bold",
+      "diffs": {
+        "background": "rgba(0, 0, 0, 0) → rgba(30, 30, 30, 0.9)",
+        "backdropFilter": "none → blur(12px)"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 204,
+    "tabs": 4,
+    "accordions": 3,
+    "carousels": 53,
+    "observers": 4,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "body",
+      "classes": "tweak-blog-alternating-side-by-side-width-full tweak-blog-alternating-side-by-si",
+      "text": "#fhCloseToggleModal{width: 25px;height: 25px;background-colo",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "div",
+      "classes": "sai-sah-play-disc stab-glass gs-svg",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "div",
+      "classes": "sai-sah-pane-closeup stab-glass gs-svg",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "div",
+      "classes": "sai-sah-lens stab-glass gs-svg",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "button",
+      "classes": "\n    user-items-list-carousel__arrow-button\n    user-items-list-carousel__arrow-",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "button",
+      "classes": "\n    user-items-list-carousel__arrow-button\n    user-items-list-carousel__arrow-",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "button",
+      "classes": "\n    mobile-arrow-button\n    mobile-arrow-button--left\n  ",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "button",
+      "classes": "\n    mobile-arrow-button\n    mobile-arrow-button--right\n  ",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

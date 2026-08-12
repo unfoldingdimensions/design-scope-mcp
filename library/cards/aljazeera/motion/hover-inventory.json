@@ -1,0 +1,65 @@
+{
+  "url": "https://www.aljazeera.com",
+  "hovers": [
+    {
+      "selector": "a[href]",
+      "file": "hover-01.png",
+      "box": {
+        "x": 135,
+        "y": 286,
+        "width": 165,
+        "height": 60
+      }
+    },
+    {
+      "selector": "button",
+      "file": "hover-02.png",
+      "box": {
+        "x": 922,
+        "y": 302,
+        "width": 42,
+        "height": 27
+      }
+    },
+    {
+      "selector": "[role=button]",
+      "file": "hover-03.png",
+      "box": {
+        "x": 1255,
+        "y": 1626,
+        "width": 40,
+        "height": 40
+      }
+    },
+    {
+      "selector": "[role=button]",
+      "file": "hover-04.png",
+      "box": {
+        "x": 135,
+        "y": 1309,
+        "width": 574,
+        "height": 392
+      }
+    },
+    {
+      "selector": "[role=button]",
+      "file": "hover-05.png",
+      "box": {
+        "x": 714,
+        "y": 284,
+        "width": 191,
+        "height": 128
+      }
+    },
+    {
+      "selector": "nav a",
+      "file": "hover-06.png",
+      "box": {
+        "x": 360,
+        "y": 20,
+        "width": 45,
+        "height": 27
+      }
+    }
+  ]
+}

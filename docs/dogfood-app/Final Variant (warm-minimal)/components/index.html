@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Component gallery — Final Variant (warm-minimal)</title>
+<link rel="stylesheet" href="../assets/tokens.css">
+<style>
+  body { font-family: var(--font, system-ui); background: var(--bg); color: var(--text); padding: 32px; }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  .sub { color: var(--text-muted); font-size: 13px; margin-bottom: 24px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
+  .comp { display: flex; flex-direction: column; gap: 4px; text-decoration: none; color: var(--text);
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius, 10px);
+    padding: 18px; transition: border-color .15s var(--ease, ease), transform .15s var(--ease, ease); }
+  .comp:hover { border-color: var(--accent); transform: translateY(-1px); }
+  .comp-name { font-weight: 600; }
+  .comp-file { font-size: 12px; color: var(--text-muted); font-family: var(--mono, monospace); }
+</style></head><body>
+<h1>Component gallery</h1>
+<div class="sub">Final Variant (warm-minimal) — open each component to see all states</div>
+<div class="grid"><a class="comp" href="button.html"><span class="comp-name">Button</span><span class="comp-file">button.html</span></a><a class="comp" href="input.html"><span class="comp-name">Input</span><span class="comp-file">input.html</span></a><a class="comp" href="card.html"><span class="comp-name">Card</span><span class="comp-file">card.html</span></a><a class="comp" href="nav.html"><span class="comp-name">Nav</span><span class="comp-file">nav.html</span></a><a class="comp" href="badge.html"><span class="comp-name">Badge</span><span class="comp-file">badge.html</span></a><a class="comp" href="toast.html"><span class="comp-name">Toast</span><span class="comp-file">toast.html</span></a><a class="comp" href="empty-state.html"><span class="comp-name">Empty state</span><span class="comp-file">empty-state.html</span></a><a class="comp" href="stat.html"><span class="comp-name">Stat</span><span class="comp-file">stat.html</span></a><a class="comp" href="form.html"><span class="comp-name">Form</span><span class="comp-file">form.html</span></a></div>
+</body></html>

@@ -1,0 +1,115 @@
+{
+  "url": "https://www.atlassian.com",
+  "captured": "2026-08-10T05:48:47+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(41, 42, 46)",
+          "after": "rgb(24, 104, 219)"
+        },
+        "borderColor": {
+          "before": "rgb(41, 42, 46)",
+          "after": "rgb(24, 104, 219)"
+        },
+        "outline": {
+          "before": "rgb(41, 42, 46) none 3px",
+          "after": "rgb(24, 104, 219) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(9, 30, 66, 0.06)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 388,
+    "tabs": 14,
+    "accordions": 4,
+    "carousels": 0,
+    "observers": 2,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "div",
+      "classes": "_bfhk1afi _syaz5hrz _1e0c1txw _bozgpxbi _y4tixy5q _1q51utpp _85i5utpp _1wybdlk8 ",
+      "text": "Featured",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "div",
+      "classes": "_bfhk1kw7 _syaz1pfd _1e0c1txw _bozgpxbi _y4tixy5q _1q51utpp _85i5utpp _1wybdlk8 ",
+      "text": "Developers",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "div",
+      "classes": "_bfhk1kw7 _syaz1pfd _1e0c1txw _bozgpxbi _y4tixy5q _1q51utpp _85i5utpp _1wybdlk8 ",
+      "text": "Product Managers",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "div",
+      "classes": "_bfhk1kw7 _syaz1pfd _1e0c1txw _bozgpxbi _y4tixy5q _1q51utpp _85i5utpp _1wybdlk8 ",
+      "text": "IT professionals",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "div",
+      "classes": "_bfhk1kw7 _syaz1pfd _1e0c1txw _bozgpxbi _y4tixy5q _1q51utpp _85i5utpp _1wybdlk8 ",
+      "text": "Business Teams",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "div",
+      "classes": "_bfhk1kw7 _syaz1pfd _1e0c1txw _bozgpxbi _y4tixy5q _1q51utpp _85i5utpp _1wybdlk8 ",
+      "text": "Leadership Teams",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "div",
+      "classes": "_1e0cglyw _181n1txw _q8t51h6o tablet-nav-company-logo",
+      "text": "Atlassian",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "a",
+      "classes": "_1e0c1txw _16jlkb7n _1o9zkb7n _i0dlf1ug _4cvr1h6o _1bah1h6o _1rjcu2gc _o5721q9c ",
+      "text": "Teamwork",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    }
+  ]
+}

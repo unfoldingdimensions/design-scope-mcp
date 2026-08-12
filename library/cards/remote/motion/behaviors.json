@@ -1,0 +1,42 @@
+{
+  "url": "https://remote.com",
+  "captured": "2026-08-10T11:20:03+00:00",
+  "hover_diffs": [],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 180,
+    "tabs": 3,
+    "accordions": 69,
+    "carousels": 1,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "button",
+      "classes": "ccc-notify-button ccc-link ccc-tabbable ccc-accept-button",
+      "text": "Accept all",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "button",
+      "classes": "ccc-notify-button ccc-link ccc-tabbable ccc-reject-button",
+      "text": "Reject optional",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "button",
+      "classes": "ccc-notify-button ccc-link ccc-tabbable ccc-notify-link",
+      "text": "Settings",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "url": "https://mistral.ai",
+  "captured": "2026-08-10T08:10:31+00:00",
+  "named_tokens": {
+    "light": {
+      "--text-display": "2.5rem",
+      "--text-display--line-height": "3rem",
+      "--text-h1": "2.5rem",
+      "--text-h1--line-height": "3rem",
+      "--text-h2": "1.75rem",
+      "--text-h2--line-height": "2.5rem",
+      "--text-h3": "1.5rem",
+      "--text-h3--line-height": "1.75rem",
+      "--text-h4": "1.25rem",
+      "--text-h4--line-height": "1.5rem",
+      "--text-body-large": "1rem",
+      "--text-body-large--line-height": "1.5rem",
+      "--text-button-large": "1rem",
+      "--text-button-small": ".8125rem",
+      "--text-eyebrow": ".75rem",
+      "--text-eyebrow--line-height": "1rem",
+      "--text-eyebrow-small": ".75rem",
+      "--nav-height": "48px"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "soft corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "soft",
+    "type_mood": [
+      "mono accents"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "modal": 50000,
+    "overlay": 110,
+    "notification": 100,
+    "nav": 90,
+    "tooltip": 50
+  },
+  "z_index_rows": [
+    {
+      "role": "nav",
+      "selector": ".psv-navbar",
+      "value": "90"
+    },
+    {
+      "role": "notification",
+      "selector": ".psv-notification",
+      "value": "100"
+    },
+    {
+      "role": "overlay",
+      "selector": ".psv-overlay",
+      "value": "110"
+    },
+    {
+      "role": "tooltip",
+      "selector": ".psv-tooltip",
+      "value": "50"
+    },
+    {
+      "role": "modal",
+      "selector": ".axeptio_mount .modal_reorder_helper",
+      "value": "50000"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "768px",
+      "selector": ".js-slider-item[data-astro-cid-in4yqi4m]",
+      "change": "opacity: 0"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": "#loader[data-astro-cid-akgzzeks] svg[data-astro-cid-akgzzeks] path[data-astro-ci",
+      "change": "animation-duration: auto"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": "#loader[data-astro-cid-akgzzeks] svg[data-astro-cid-akgzzeks] path[data-astro-ci",
+      "change": "animation-timing-function: ease"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": "#loader[data-astro-cid-akgzzeks] svg[data-astro-cid-akgzzeks] path[data-astro-ci",
+      "change": "animation-delay: 0s"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": "#loader[data-astro-cid-akgzzeks] svg[data-astro-cid-akgzzeks] path[data-astro-ci",
+      "change": "animation-iteration-count: 1"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": "#loader[data-astro-cid-akgzzeks] svg[data-astro-cid-akgzzeks] path[data-astro-ci",
+      "change": "animation-direction: normal"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": "#loader[data-astro-cid-akgzzeks] svg[data-astro-cid-akgzzeks] path[data-astro-ci",
+      "change": "animation-fill-mode: none"
+    }
+  ]
+}

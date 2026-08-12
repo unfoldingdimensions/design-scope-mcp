@@ -1,0 +1,102 @@
+{
+  "url": "https://www.metabase.com",
+  "captured": "2026-08-10T10:44:38+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(80, 158, 227)",
+          "after": "rgb(28, 107, 176)"
+        },
+        "borderColor": {
+          "before": "rgb(80, 158, 227)",
+          "after": "rgb(28, 107, 176)"
+        },
+        "outline": {
+          "before": "rgb(80, 158, 227) none 3px",
+          "after": "rgb(28, 107, 176) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgb(40, 96, 159)",
+          "after": "rgb(26, 69, 112)"
+        },
+        "borderColor": {
+          "before": "rgb(40, 96, 159)",
+          "after": "rgb(26, 69, 112)"
+        },
+        "outline": {
+          "before": "rgb(40, 96, 159) none 3px",
+          "after": "rgb(26, 69, 112) none 3px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(7, 23, 34, 0.05)"
+        },
+        "opacity": {
+          "before": "0.5",
+          "after": "1"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(7, 23, 34, 0.05)"
+        },
+        "opacity": {
+          "before": "0.5",
+          "after": "1"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": "button",
+      "index": 5,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(7, 23, 34, 0.14)"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 305,
+    "tabs": 0,
+    "accordions": 0,
+    "carousels": 7,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 7
+  },
+  "states": []
+}

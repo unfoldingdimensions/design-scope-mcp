@@ -1,0 +1,107 @@
+{
+  "url": "https://www.krea.ai",
+  "captured": "2026-08-10T08:20:30+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "backgroundColor": {
+          "before": "oklch(0.579 0.2497 257.07)",
+          "after": "oklch(0.5515 0.2497 257.07)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "oklab(0.999994 0.0000455678 0.0000200868 / 0.1)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 3,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "oklab(0.999994 0.0000455678 0.0000200868 / 0.1)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "oklab(0.999994 0.0000455678 0.0000200868 / 0.1)"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": "button",
+      "index": 5,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(255, 255, 255)",
+          "after": "rgb(245, 245, 245)"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    },
+    {
+      "selector": "button",
+      "index": 6,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(38, 38, 38)",
+          "after": "rgb(32, 32, 32)"
+        }
+      },
+      "before_png": "hover-before-06.png",
+      "after_png": "hover-after-06.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 202,
+    "tabs": 3,
+    "accordions": 0,
+    "carousels": 11,
+    "observers": 6,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 9
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "button",
+      "classes": "relative flex items-center gap-2 px-6 py-2 font-sans text-base leading-[120%] fo",
+      "text": "Monthly",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "button",
+      "classes": "relative flex items-center gap-2 px-6 py-2 font-sans text-base leading-[120%] fo",
+      "text": "Yearly -40% off",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    }
+  ]
+}

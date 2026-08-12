@@ -1,0 +1,155 @@
+{
+  "url": "https://www.netflix.com",
+  "captured": "2026-08-10T05:02:59+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(229, 9, 20)",
+          "after": "rgb(193, 17, 25)"
+        },
+        "borderColor": {
+          "before": "rgb(255, 255, 255)",
+          "after": "rgb(0, 0, 0)"
+        },
+        "outline": {
+          "before": "rgb(255, 255, 255) none 3px",
+          "after": "rgb(255, 255, 255) none 0px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "outline": {
+          "before": "rgba(255, 255, 255, 0.7) none 3px",
+          "after": "rgba(255, 255, 255, 0.7) none 0px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 3,
+      "diffs": {
+        "outline": {
+          "before": "rgba(255, 255, 255, 0.7) none 3px",
+          "after": "rgba(255, 255, 255, 0.7) none 0px"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 4,
+      "diffs": {
+        "outline": {
+          "before": "rgba(255, 255, 255, 0.7) none 3px",
+          "after": "rgba(255, 255, 255, 0.7) none 0px"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": "button",
+      "index": 5,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(229, 9, 20)",
+          "after": "rgb(193, 17, 25)"
+        },
+        "borderColor": {
+          "before": "rgb(255, 255, 255)",
+          "after": "rgb(0, 0, 0)"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 66,
+    "tabs": 9,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 2,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "div",
+      "classes": "ot-sdk-four ot-sdk-columns ot-tab-list",
+      "text": "Privacy Preference CenterGeneral DescriptionEssential Cookie",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "li",
+      "classes": "ot-abt-tab",
+      "text": "General Description",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "div",
+      "classes": "ot-active-menu category-menu-switch-handler",
+      "text": "General Description",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "div",
+      "classes": "category-menu-switch-handler",
+      "text": "Essential Cookies",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "div",
+      "classes": "category-menu-switch-handler",
+      "text": "First Party Performance and Functionality Cookies",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "div",
+      "classes": "category-menu-switch-handler",
+      "text": "Third Party Performance and Functionality Cookies",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "div",
+      "classes": "category-menu-switch-handler",
+      "text": "Advertising Cookies",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "div",
+      "classes": "ot-tab-desc ot-sdk-eight ot-sdk-columns",
+      "text": "General DescriptionThis cookie tool will help you understand",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

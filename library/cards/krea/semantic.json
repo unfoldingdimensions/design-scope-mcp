@@ -1,0 +1,327 @@
+{
+  "url": "https://www.krea.ai",
+  "captured": "2026-08-10T08:20:50+00:00",
+  "named_tokens": {
+    "light": {
+      "--lightningcss-light": "initial",
+      "--lightningcss-dark": "",
+      "--radius": ".625rem",
+      "--background": "oklch(100% 0 0)",
+      "--foreground": "oklch(14.5% 0 0)",
+      "--card": "oklch(100% 0 0)",
+      "--card-foreground": "oklch(14.5% 0 0)",
+      "--popover": "oklch(100% 0 0)",
+      "--popover-foreground": "oklch(14.5% 0 0)",
+      "--primary": "oklch(0% 0 0)",
+      "--primary-foreground": "oklch(100% 0 0)",
+      "--secondary": "oklch(97% 0 0)",
+      "--secondary-foreground": "oklch(20.5% 0 0)",
+      "--muted": "oklch(97% 0 0)",
+      "--muted-foreground": "oklch(55.6% 0 0)",
+      "--accent": "oklch(97% 0 0)",
+      "--accent-foreground": "oklch(20.5% 0 0)",
+      "--destructive": "oklch(57.7% .245 27.325)",
+      "--border": "oklch(92.2% 0 0)",
+      "--input": "oklch(92.2% 0 0)",
+      "--ring": "oklch(70.8% 0 0)",
+      "--chart-1": "oklch(64.6% .222 41.116)",
+      "--chart-2": "oklch(60% .118 184.704)",
+      "--chart-3": "oklch(39.8% .07 227.392)",
+      "--chart-4": "oklch(82.8% .189 84.429)",
+      "--chart-5": "oklch(76.9% .188 70.08)",
+      "--sidebar": "oklch(98.5% 0 0)",
+      "--sidebar-foreground": "oklch(14.5% 0 0)",
+      "--sidebar-primary": "oklch(20.5% 0 0)",
+      "--sidebar-primary-foreground": "oklch(98.5% 0 0)",
+      "--sidebar-accent": "oklch(92.2% 0 0)",
+      "--sidebar-accent-foreground": "oklch(20.5% 0 0)",
+      "--sidebar-border": "oklch(92.2% 0 0)",
+      "--sidebar-ring": "oklch(70.8% 0 0)",
+      "--genius-divider": "oklch(89.7547% 0 0)",
+      "--overlay-chip": "oklch(100% 0 0/.1)",
+      "--overlay-chip-foreground": "oklch(100% 0 0/.7)",
+      "--scan-beam": "oklch(100% 0 0/.35)",
+      "--scan-line": "oklch(100% 0 0)",
+      "--shadow-elevation-color": "0deg 0% 77%",
+      "--shiki-foreground": "oklch(14.5% 0 0)",
+      "--shiki-background": "transparent",
+      "--shiki-token-comment": "oklch(55.6% 0 0)",
+      "--shiki-token-punctuation": "oklch(14.5% 0 0)",
+      "--shiki-token-keyword": "#cf222e",
+      "--shiki-token-constant": "#0550ae",
+      "--shiki-token-string": "#0a3069",
+      "--shiki-token-string-expression": "#116329",
+      "--shiki-token-function": "#8250df",
+      "--shiki-token-parameter": "#953800",
+      "--shiki-token-link": "#0a3069",
+      "--shiki-token-inserted": "#116329",
+      "--shiki-token-deleted": "#82071e",
+      "--shiki-token-changed": "#953800"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {
+      "--shiki-token-changed": "#953800",
+      "--shiki-token-constant": "#0550ae",
+      "--shiki-token-deleted": "#82071e",
+      "--shiki-token-function": "#8250df",
+      "--shiki-token-inserted": "#116329",
+      "--shiki-token-keyword": "#cf222e",
+      "--shiki-token-link": "#0a3069",
+      "--shiki-token-parameter": "#953800",
+      "--shiki-token-string": "#0a3069",
+      "--shiki-token-string-expression": "#116329"
+    },
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "soft"
+    ],
+    "rhythm": [
+      "soft corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "soft",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "toast": 999999999,
+    "menu": 60
+  },
+  "z_index_rows": [
+    {
+      "role": "toast",
+      "selector": "[data-sonner-toaster]",
+      "value": "999999999"
+    },
+    {
+      "role": "toast",
+      "selector": "[data-sonner-toast]",
+      "value": "var(--z-index)"
+    },
+    {
+      "role": "toast",
+      "selector": "[data-sonner-toast][data-styled=\"true\"] [data-close-button]",
+      "value": "1"
+    },
+    {
+      "role": "toast",
+      "selector": "[data-sonner-toast][data-swiping=\"true\"]::before",
+      "value": "-1"
+    },
+    {
+      "role": "menu",
+      "selector": "#root-scroll-container.header-mobile-menu-open",
+      "value": "60"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".fireworks-overlay.svelte-wmncy5",
+      "change": "display: none"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".trustpilot-rating-heart",
+      "change": "animation-duration: auto"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".trustpilot-rating-heart",
+      "change": "animation-timing-function: ease"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".trustpilot-rating-heart",
+      "change": "animation-delay: 0s"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".trustpilot-rating-heart",
+      "change": "animation-iteration-count: 1"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".trustpilot-rating-heart",
+      "change": "animation-direction: normal"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".trustpilot-rating-heart",
+      "change": "animation-fill-mode: none"
+    },
+    {
+      "at": "768px",
+      "selector": ".auth-form input",
+      "change": "font-size: 16px"
+    },
+    {
+      "at": "(hover: none) and (pointer: coarse)",
+      "selector": "[data-sonner-toaster][data-lifted=\"true\"]",
+      "change": "transform: none"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster]",
+      "change": "right: var(--mobile-offset-right)"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster]",
+      "change": "left: var(--mobile-offset-left)"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster]",
+      "change": "width: 100%"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster]",
+      "change": "position: fixed"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster][dir=\"rtl\"]",
+      "change": "left: calc(var(--mobile-offset-left) * -1)"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster] [data-sonner-toast]",
+      "change": "width: calc(100% - var(--mobile-offset-left) * 2)"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster] [data-sonner-toast]",
+      "change": "left: 0px"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster] [data-sonner-toast]",
+      "change": "right: 0px"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster][data-x-position=\"left\"]",
+      "change": "left: var(--mobile-offset-left)"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster][data-y-position=\"bottom\"]",
+      "change": "bottom: var(--mobile-offset-bottom)"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster][data-y-position=\"top\"]",
+      "change": "top: var(--mobile-offset-top)"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster][data-x-position=\"center\"]",
+      "change": "left: var(--mobile-offset-left)"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": "[data-sonner-toast], [data-sonner-toast] > *, .sonner-loading-bar",
+      "change": "transition-behavior: normal"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": "[data-sonner-toast], [data-sonner-toast] > *, .sonner-loading-bar",
+      "change": "transition-duration: 0s"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": "[data-sonner-toast], [data-sonner-toast] > *, .sonner-loading-bar",
+      "change": "transition-timing-function: ease"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": "[data-sonner-toast], [data-sonner-toast] > *, .sonner-loading-bar",
+      "change": "transition-delay: 0s"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": "[data-sonner-toast], [data-sonner-toast] > *, .sonner-loading-bar",
+      "change": "transition-property: none"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": "[data-sonner-toast], [data-sonner-toast] > *, .sonner-loading-bar",
+      "change": "animation-duration: auto"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".text-shimmer, [class*=\"text-shimmer-\"]",
+      "change": "animation-duration: auto"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".text-shimmer, [class*=\"text-shimmer-\"]",
+      "change": "animation-timing-function: ease"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".text-shimmer, [class*=\"text-shimmer-\"]",
+      "change": "animation-delay: 0s"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".text-shimmer, [class*=\"text-shimmer-\"]",
+      "change": "animation-iteration-count: 1"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".text-shimmer, [class*=\"text-shimmer-\"]",
+      "change": "animation-direction: normal"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".text-shimmer, [class*=\"text-shimmer-\"]",
+      "change": "animation-fill-mode: none"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": "a.svelte-16hkftz:hover",
+      "change": "text-decoration-line: underline"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".animate-marquee-left.svelte-1bdl1zz, .animate-marquee-right.svelte-1bdl1zz",
+      "change": "animation-play-state: paused"
+    },
+    {
+      "at": "1024px",
+      "selector": ".bento.svelte-jw9f8p",
+      "change": "grid-template-rows: repeat(21, minmax(80px, auto))"
+    },
+    {
+      "at": "1024px",
+      "selector": ".bento.svelte-jw9f8p",
+      "change": "grid-template-columns: repeat(4, 1fr)"
+    },
+    {
+      "at": "1024px",
+      "selector": ".bento.svelte-jw9f8p",
+      "change": "grid-template-areas: \"speed speed speed speed\" \"speed speed speed speed\" \"upscali"
+    },
+    {
+      "at": "640px",
+      "selector": "#root-scroll-container.hero-b-sticky-cta-space",
+      "change": "padding-bottom: 0px"
+    },
+    {
+      "at": "screen and (-ms-high-contrast:active)",
+      "selector": ".nsm7Bb-HzV7m-LgbsSe",
+      "change": "border-top-width: 2px"
+    }
+  ]
+}

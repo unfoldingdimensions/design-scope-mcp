@@ -1,0 +1,115 @@
+{
+  "url": "https://squareup.com",
+  "captured": "2026-08-10T12:08:16+00:00",
+  "hover_diffs": [
+    {
+      "selector": "button",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(255, 255, 255)",
+          "after": "rgb(0, 0, 0)"
+        },
+        "borderColor": {
+          "before": "rgb(255, 255, 255)",
+          "after": "rgb(0, 0, 0)"
+        },
+        "outline": {
+          "before": "rgb(255, 255, 255) none 3px",
+          "after": "rgb(0, 0, 0) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": ".card",
+      "index": 2,
+      "diffs": {
+        "transform": {
+          "before": "matrix(1.2, 0, 0, 1.2, 0, 0)",
+          "after": "matrix(1, 0, 0, 1, 0, 0)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 472,
+    "tabs": 4,
+    "accordions": 24,
+    "carousels": 1,
+    "observers": 57,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 1
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "summary",
+      "classes": "AccordionItem__summary svelte-vgdocd",
+      "text": "Take payments",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "summary",
+      "classes": "AccordionItem__summary svelte-vgdocd",
+      "text": "Manage your team",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "summary",
+      "classes": "AccordionItem__summary svelte-vgdocd",
+      "text": "Grow your customer base",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "summary",
+      "classes": "AccordionItem__summary svelte-vgdocd",
+      "text": "Control your cash flow²",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "summary",
+      "classes": "AccordionItem__summary svelte-vgdocd",
+      "text": "Connect your favorite apps",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "summary",
+      "classes": "AccordionItem__summary svelte-vgdocd",
+      "text": "Take payments",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "summary",
+      "classes": "AccordionItem__summary svelte-vgdocd",
+      "text": "Manage your team",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "summary",
+      "classes": "AccordionItem__summary svelte-vgdocd",
+      "text": "Grow your customer base",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

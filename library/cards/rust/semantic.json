@@ -1,0 +1,240 @@
+{
+  "url": "https://www.rust-lang.org",
+  "captured": "2026-08-10T07:34:09+00:00",
+  "named_tokens": {
+    "light": {},
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "soft corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "soft",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "header": 999999
+  },
+  "z_index_rows": [
+    {
+      "role": "header",
+      "selector": "header h1, section h2",
+      "value": "999999"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "screen and (-ms-high-contrast: active)",
+      "selector": ".hljs-addition, .hljs-attribute, .hljs-built_in, .hljs-bullet, .hljs-comment, .h",
+      "change": "color: highlight"
+    },
+    {
+      "at": "screen and (-ms-high-contrast: active)",
+      "selector": ".hljs-keyword, .hljs-selector-tag",
+      "change": "font-weight: bold"
+    },
+    {
+      "at": "screen and (min-width: 30em)",
+      "selector": ".aspect-ratio-ns",
+      "change": "height: 0px"
+    },
+    {
+      "at": "screen and (min-width: 30em)",
+      "selector": ".aspect-ratio-ns",
+      "change": "position: relative"
+    },
+    {
+      "at": "screen and (min-width: 30em)",
+      "selector": ".aspect-ratio--16x9-ns",
+      "change": "padding-bottom: 56.25%"
+    },
+    {
+      "at": "screen and (min-width: 30em)",
+      "selector": ".aspect-ratio--9x16-ns",
+      "change": "padding-bottom: 177.77%"
+    },
+    {
+      "at": "screen and (min-width: 30em)",
+      "selector": ".aspect-ratio--4x3-ns",
+      "change": "padding-bottom: 75%"
+    },
+    {
+      "at": "screen and (min-width: 30em)",
+      "selector": ".aspect-ratio--3x4-ns",
+      "change": "padding-bottom: 133.33%"
+    },
+    {
+      "at": "screen and (min-width: 30em)",
+      "selector": ".aspect-ratio--6x4-ns",
+      "change": "padding-bottom: 66.6%"
+    },
+    {
+      "at": "screen and (min-width: 30em)",
+      "selector": ".aspect-ratio--4x6-ns",
+      "change": "padding-bottom: 150%"
+    },
+    {
+      "at": "screen and (min-width: 30em)",
+      "selector": ".aspect-ratio--8x5-ns",
+      "change": "padding-bottom: 62.5%"
+    },
+    {
+      "at": "screen and (min-width: 30em)",
+      "selector": ".aspect-ratio--5x8-ns",
+      "change": "padding-bottom: 160%"
+    },
+    {
+      "at": "screen and (min-width: 30em)",
+      "selector": ".aspect-ratio--7x5-ns",
+      "change": "padding-bottom: 71.42%"
+    },
+    {
+      "at": "screen and (min-width: 30em)",
+      "selector": ".aspect-ratio--5x7-ns",
+      "change": "padding-bottom: 140%"
+    },
+    {
+      "at": "screen and (min-width: 30em) and (max-wi",
+      "selector": ".aspect-ratio-m",
+      "change": "height: 0px"
+    },
+    {
+      "at": "screen and (min-width: 30em) and (max-wi",
+      "selector": ".aspect-ratio-m",
+      "change": "position: relative"
+    },
+    {
+      "at": "screen and (min-width: 30em) and (max-wi",
+      "selector": ".aspect-ratio--16x9-m",
+      "change": "padding-bottom: 56.25%"
+    },
+    {
+      "at": "screen and (min-width: 30em) and (max-wi",
+      "selector": ".aspect-ratio--9x16-m",
+      "change": "padding-bottom: 177.77%"
+    },
+    {
+      "at": "screen and (min-width: 30em) and (max-wi",
+      "selector": ".aspect-ratio--4x3-m",
+      "change": "padding-bottom: 75%"
+    },
+    {
+      "at": "screen and (min-width: 30em) and (max-wi",
+      "selector": ".aspect-ratio--3x4-m",
+      "change": "padding-bottom: 133.33%"
+    },
+    {
+      "at": "screen and (min-width: 30em) and (max-wi",
+      "selector": ".aspect-ratio--6x4-m",
+      "change": "padding-bottom: 66.6%"
+    },
+    {
+      "at": "screen and (min-width: 30em) and (max-wi",
+      "selector": ".aspect-ratio--4x6-m",
+      "change": "padding-bottom: 150%"
+    },
+    {
+      "at": "screen and (min-width: 30em) and (max-wi",
+      "selector": ".aspect-ratio--8x5-m",
+      "change": "padding-bottom: 62.5%"
+    },
+    {
+      "at": "screen and (min-width: 30em) and (max-wi",
+      "selector": ".aspect-ratio--5x8-m",
+      "change": "padding-bottom: 160%"
+    },
+    {
+      "at": "screen and (min-width: 30em) and (max-wi",
+      "selector": ".aspect-ratio--7x5-m",
+      "change": "padding-bottom: 71.42%"
+    },
+    {
+      "at": "screen and (min-width: 30em) and (max-wi",
+      "selector": ".aspect-ratio--5x7-m",
+      "change": "padding-bottom: 140%"
+    },
+    {
+      "at": "screen and (min-width: 60em)",
+      "selector": ".aspect-ratio-l",
+      "change": "height: 0px"
+    },
+    {
+      "at": "screen and (min-width: 60em)",
+      "selector": ".aspect-ratio-l",
+      "change": "position: relative"
+    },
+    {
+      "at": "screen and (min-width: 60em)",
+      "selector": ".aspect-ratio--16x9-l",
+      "change": "padding-bottom: 56.25%"
+    },
+    {
+      "at": "screen and (min-width: 60em)",
+      "selector": ".aspect-ratio--9x16-l",
+      "change": "padding-bottom: 177.77%"
+    },
+    {
+      "at": "screen and (min-width: 60em)",
+      "selector": ".aspect-ratio--4x3-l",
+      "change": "padding-bottom: 75%"
+    },
+    {
+      "at": "screen and (min-width: 60em)",
+      "selector": ".aspect-ratio--3x4-l",
+      "change": "padding-bottom: 133.33%"
+    },
+    {
+      "at": "screen and (min-width: 60em)",
+      "selector": ".aspect-ratio--6x4-l",
+      "change": "padding-bottom: 66.6%"
+    },
+    {
+      "at": "screen and (min-width: 60em)",
+      "selector": ".aspect-ratio--4x6-l",
+      "change": "padding-bottom: 150%"
+    },
+    {
+      "at": "screen and (min-width: 60em)",
+      "selector": ".aspect-ratio--8x5-l",
+      "change": "padding-bottom: 62.5%"
+    },
+    {
+      "at": "screen and (min-width: 60em)",
+      "selector": ".aspect-ratio--5x8-l",
+      "change": "padding-bottom: 160%"
+    },
+    {
+      "at": "screen and (min-width: 60em)",
+      "selector": ".aspect-ratio--7x5-l",
+      "change": "padding-bottom: 71.42%"
+    },
+    {
+      "at": "screen and (min-width: 60em)",
+      "selector": ".aspect-ratio--5x7-l",
+      "change": "padding-bottom: 140%"
+    },
+    {
+      "at": "screen and (max-width: 30em)",
+      "selector": ".flex-20-s",
+      "change": "flex-grow: 0"
+    },
+    {
+      "at": "screen and (max-width: 30em)",
+      "selector": ".flex-20-s",
+      "change": "flex-shrink: 0"
+    }
+  ]
+}

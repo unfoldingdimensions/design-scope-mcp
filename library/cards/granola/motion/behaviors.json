@@ -1,0 +1,34 @@
+{
+  "url": "https://www.granola.ai",
+  "captured": "2026-08-10T08:56:53+00:00",
+  "hover_diffs": [],
+  "scroll_probe": [
+    {
+      "selector": "nav.navbar-pill",
+      "diffs": {
+        "boxShadow": "none → rgba(0, 0, 0, 0.04) 0px 1px 2px 0px, rgba(0, 0, 0, 0.06) 0px 6px 20px 0px",
+        "background": "rgba(0, 0, 0, 0) → rgb(255, 255, 255)"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 56,
+    "tabs": 1,
+    "accordions": 0,
+    "carousels": 1,
+    "observers": 9,
+    "scrollSnap": 7,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "nav",
+      "classes": "navbar-pill flex items-center flex-none h-14 text-content-primary",
+      "text": ".st0{fill:#1E1E1E;}FeaturesNotepadThe AI notepad for people ",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

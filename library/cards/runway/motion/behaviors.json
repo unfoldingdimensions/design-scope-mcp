@@ -1,0 +1,107 @@
+{
+  "url": "https://runwayml.com",
+  "captured": "2026-08-10T04:22:32+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(12, 12, 12)",
+          "after": "rgb(208, 212, 212)"
+        },
+        "outline": {
+          "before": "rgb(12, 12, 12) none 3px",
+          "after": "rgb(208, 212, 212) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgb(102, 110, 122)",
+          "after": "rgb(12, 12, 12)"
+        },
+        "outline": {
+          "before": "rgb(102, 110, 122) none 3px",
+          "after": "rgb(12, 12, 12) none 3px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 3,
+      "diffs": {
+        "color": {
+          "before": "rgb(102, 110, 122)",
+          "after": "rgb(12, 12, 12)"
+        },
+        "outline": {
+          "before": "rgb(102, 110, 122) none 3px",
+          "after": "rgb(12, 12, 12) none 3px"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 114,
+    "tabs": 6,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "button",
+      "classes": "cursor-pointer text-left",
+      "text": "How Runway is Used",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "button",
+      "classes": "cursor-pointer text-left",
+      "text": "Create with Agent",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "button",
+      "classes": "cursor-pointer text-left",
+      "text": "Build your own Workflows",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "button",
+      "classes": "cursor-pointer text-left",
+      "text": "Enterprise-grade",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "button",
+      "classes": "cursor-pointer text-left",
+      "text": "The World's Best Models",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    }
+  ]
+}

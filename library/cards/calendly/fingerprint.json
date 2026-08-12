@@ -1,0 +1,2418 @@
+{
+  "url": "https://calendly.com/",
+  "extractedAt": "2026-08-09T12:19:27.282Z",
+  "meta": {
+    "snapshotId": "d6677189-fb10-4d63-93ba-d259fecf923a",
+    "httpStatus": 200,
+    "dembrandtVersion": "0.27.1",
+    "schemaVersion": "1.5.0",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "fontsReady": true,
+    "flags": {
+      "mobile": true
+    }
+  },
+  "siteName": "Calendly.com",
+  "logo": {
+    "source": "img",
+    "context": "header",
+    "url": "https://marketing-assets.calendly.com/media/logo.svg",
+    "width": 300,
+    "height": 72,
+    "rect": {
+      "x": 280,
+      "y": 72,
+      "width": 133,
+      "height": 32
+    },
+    "natural": {
+      "width": 300,
+      "height": 72
+    },
+    "alt": "Calendly logo",
+    "type": "wordmark",
+    "reversed": false,
+    "background": "#ffffff",
+    "safeZone": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "position": {
+      "top": 71.59375,
+      "left": 280
+    }
+  },
+  "logoInstances": [
+    {
+      "source": "img",
+      "context": "header",
+      "url": "https://marketing-assets.calendly.com/media/logo.svg",
+      "width": 300,
+      "height": 72,
+      "rect": {
+        "x": 280,
+        "y": 72,
+        "width": 133,
+        "height": 32
+      },
+      "natural": {
+        "width": 300,
+        "height": 72
+      },
+      "alt": "Calendly logo",
+      "type": "wordmark",
+      "reversed": false,
+      "background": "#ffffff",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 71.59375,
+        "left": 280
+      }
+    }
+  ],
+  "favicons": [
+    {
+      "type": "icon",
+      "url": "https://calendly.com/media/favicon/favicon.ico",
+      "sizes": null
+    },
+    {
+      "type": "og:image",
+      "url": "https://images.ctfassets.net/k0lk9kiuza3o/6sN1GkuaBoQ67Nhkqa8Hgn/bcefc60aa064f94237bac2524bad875c/homepage.png",
+      "sizes": null
+    },
+    {
+      "type": "twitter:image",
+      "url": "https://images.ctfassets.net/k0lk9kiuza3o/6sN1GkuaBoQ67Nhkqa8Hgn/bcefc60aa064f94237bac2524bad875c/homepage.png",
+      "sizes": null
+    },
+    {
+      "type": "pwa",
+      "url": "https://calendly.com/media/favicon/icon-16x16.png",
+      "sizes": "16x16",
+      "purpose": "any"
+    },
+    {
+      "type": "pwa",
+      "url": "https://calendly.com/media/favicon/icon-32x32.png",
+      "sizes": "32x32",
+      "purpose": "any"
+    },
+    {
+      "type": "pwa",
+      "url": "https://calendly.com/media/favicon/icon-48x48.png",
+      "sizes": "48x48",
+      "purpose": "any"
+    },
+    {
+      "type": "pwa",
+      "url": "https://calendly.com/media/favicon/icon-72x72.png",
+      "sizes": "72x72",
+      "purpose": "any"
+    },
+    {
+      "type": "pwa",
+      "url": "https://calendly.com/media/favicon/icon-96x96.png",
+      "sizes": "96x96",
+      "purpose": "any"
+    },
+    {
+      "type": "pwa",
+      "url": "https://calendly.com/media/favicon/icon-144x144.png",
+      "sizes": "144x144",
+      "purpose": "any"
+    },
+    {
+      "type": "pwa",
+      "url": "https://calendly.com/media/favicon/icon-192x192.png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "type": "pwa",
+      "url": "https://calendly.com/media/favicon/icon-256x256.png",
+      "sizes": "256x256",
+      "purpose": "any"
+    },
+    {
+      "type": "pwa",
+      "url": "https://calendly.com/media/favicon/icon-384x384.png",
+      "sizes": "384x384",
+      "purpose": "any"
+    },
+    {
+      "type": "pwa",
+      "url": "https://calendly.com/media/favicon/icon-512x512.png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ],
+  "manifest": {
+    "themeColor": "#006BFF",
+    "backgroundColor": "#ffffff",
+    "name": "Calendly",
+    "shortName": "Calendly"
+  },
+  "colors": {
+    "semantic": {
+      "primary": "rgb(11, 53, 88)",
+      "background": "rgb(255, 255, 255)",
+      "text": "rgb(10, 10, 10)",
+      "accent": "rgb(255, 166, 0)"
+    },
+    "palette": [
+      {
+        "color": "rgb(10, 10, 10)",
+        "normalized": "#0a0a0a",
+        "count": 1437,
+        "confidence": "high",
+        "sources": [
+          "wrapper-sc-48fedc9c-0",
+          "flex-sc-c78b5868-0",
+          "[object"
+        ],
+        "lch": "lch(2.74% 0 53.34)",
+        "oklch": "oklch(14.48% 0 89.88)",
+        "role": "surface",
+        "onColor": "#ffffff",
+        "hover": "#0c0c0c"
+      },
+      {
+        "color": "rgba(204, 204, 204, 0.5)",
+        "normalized": "#cccccc",
+        "count": 687,
+        "confidence": "high",
+        "sources": [
+          "[object"
+        ],
+        "lch": "lch(82.05% 0.02 53.35)",
+        "oklch": "oklch(84.52% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#000000",
+        "hover": "#adadad"
+      },
+      {
+        "color": "rgb(11, 53, 88)",
+        "normalized": "#0b3558",
+        "count": 631,
+        "confidence": "high",
+        "sources": [
+          "flex-sc-c78b5868-0",
+          "[object",
+          "buttonbase-sc-39255da6-0"
+        ],
+        "lch": "lch(20.9% 25.78 262.62)",
+        "oklch": "oklch(32.09% 0.077 248.48)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#0d406a",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(248, 249, 251)",
+        "normalized": "#f8f9fb",
+        "count": 6,
+        "confidence": "high",
+        "sources": [
+          "flex-sc-c78b5868-0"
+        ],
+        "lch": "lch(97.89% 1.06 266.64)",
+        "oklch": "oklch(98.19% 0.003 264.54)",
+        "role": "surface",
+        "onColor": "#000000",
+        "hover": "#d3d4d5"
+      },
+      {
+        "color": "rgb(71, 103, 136)",
+        "normalized": "#476788",
+        "count": 62,
+        "confidence": "high",
+        "sources": [
+          "buttonbase-sc-39255da6-0",
+          "text-body-lg",
+          "paragraph-sc-2664db83-0"
+        ],
+        "lch": "lch(42.18% 22.72 258.04)",
+        "oklch": "oklch(50.31% 0.065 249.96)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#557ca3",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(0, 107, 255)",
+        "normalized": "#006bff",
+        "count": 35,
+        "confidence": "high",
+        "sources": [
+          "flex-sc-c78b5868-0",
+          "basicimage-sc-aa7a9f36-0",
+          "buttonbase-sc-39255da6-0",
+          "manifest:theme_color"
+        ],
+        "lch": "lch(47.75% 84.57 284.39)",
+        "oklch": "oklch(57.3% 0.235 260.11)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#0080ff",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(166, 187, 209)",
+        "normalized": "#a6bbd1",
+        "count": 16,
+        "confidence": "medium",
+        "sources": [],
+        "lch": "lch(74.81% 14.2 254.09)",
+        "oklch": "oklch(78.33% 0.039 249.56)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#8d9fb2",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(255, 166, 0)",
+        "normalized": "#ffa600",
+        "count": 7,
+        "confidence": "medium",
+        "sources": [
+          "flex-sc-c78b5868-0",
+          "paragraph-sc-2664db83-0",
+          "text-h1-fixed"
+        ],
+        "lch": "lch(75.82% 83.74 71.16)",
+        "oklch": "oklch(79.45% 0.171 71.19)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#d98d00"
+      },
+      {
+        "color": "rgb(187, 50, 213)",
+        "normalized": "#bb32d5",
+        "count": 7,
+        "confidence": "medium",
+        "sources": [
+          "flex-sc-c78b5868-0",
+          "paragraph-sc-2664db83-0",
+          "text-h1-fixed"
+        ],
+        "lch": "lch(48.73% 88.56 320.84)",
+        "oklch": "oklch(59.34% 0.247 320.57)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#e03cff"
+      },
+      {
+        "color": "rgb(130, 71, 245)",
+        "normalized": "#8247f5",
+        "count": 7,
+        "confidence": "medium",
+        "sources": [
+          "flex-sc-c78b5868-0",
+          "paragraph-sc-2664db83-0",
+          "text-h1-fixed"
+        ],
+        "lch": "lch(45.66% 96.06 304.21)",
+        "oklch": "oklch(56.86% 0.242 292.46)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#9c55ff"
+      },
+      {
+        "color": "rgb(0, 78, 186)",
+        "normalized": "#004eba",
+        "count": 6,
+        "confidence": "high",
+        "sources": [],
+        "lch": "lch(34.88% 65.49 283.5)",
+        "oklch": "oklch(45.62% 0.183 259.68)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#005edf",
+        "variantOf": "primary"
+      },
+      {
+        "color": "#ffffff",
+        "normalized": "#ffffff",
+        "count": 10,
+        "confidence": "high",
+        "sources": [
+          "manifest:background_color"
+        ]
+      },
+      {
+        "color": "rgb(10, 37, 64)",
+        "normalized": "#0a2540",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      },
+      {
+        "color": "rgb(230, 240, 255)",
+        "normalized": "#e6f0ff",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      },
+      {
+        "color": "rgb(240, 243, 248)",
+        "normalized": "#f0f3f8",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      },
+      {
+        "color": "rgb(0, 153, 255)",
+        "normalized": "#0099ff",
+        "count": 2,
+        "confidence": "high",
+        "sources": [
+          "buttonbase-sc-39255da6-0"
+        ],
+        "lch": "lch(60.69% 61.28 265.15)",
+        "oklch": "oklch(66.9% 0.184 248.81)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#0082d9",
+        "variantOf": "primary",
+        "source": "mobile"
+      }
+    ],
+    "cssVariables": {
+      "--color-action-primary-bg-pressed": {
+        "value": "#1e5ea7",
+        "hex": "#1e5ea7",
+        "lch": "lch(38.99% 45.83 271.26)",
+        "oklch": "oklch(48.19% 0.133 254.63)"
+      },
+      "--color-fd-diff-add-symbol": {
+        "value": "#0ac864",
+        "hex": "#0ac864",
+        "lch": "lch(71.04% 70.57 147.89)",
+        "oklch": "oklch(72.94% 0.194 151.23)"
+      },
+      "--color-primary-800": {
+        "value": "#004796",
+        "hex": "#004796",
+        "lch": "lch(30.32% 50.08 277.84)",
+        "oklch": "oklch(41.05% 0.144 256.69)"
+      },
+      "--color-primary-500": {
+        "value": "#09f",
+        "hex": "#0099ff",
+        "lch": "lch(60.69% 61.28 265.15)",
+        "oklch": "oklch(66.9% 0.184 248.81)"
+      },
+      "--color-fd-diff-remove": {
+        "value": "#c80a641f",
+        "hex": "#c80a64",
+        "lch": "lch(44.01% 69.15 3.91 / 0.12156862745098039)",
+        "oklch": "oklch(54.01% 0.214 2.41 / 0.12156862745098039)"
+      },
+      "--color-fd-idea": {
+        "value": "lab(64.7587% 46.0756 133.272)",
+        "hex": "#ef7e00",
+        "lch": "lch(65.09% 82.42 60.77)",
+        "oklch": "oklch(70.69% 0.173 55.95)"
+      },
+      "--color-fd-diff-add": {
+        "value": "#0eb4641a",
+        "hex": "#0eb464",
+        "lch": "lch(64.63% 61.22 151.14 / 0.10196078431372549)",
+        "oklch": "oklch(67.65% 0.169 153.77 / 0.10196078431372549)"
+      },
+      "--color-badge-neutral-text": {
+        "value": "#3d464e",
+        "hex": "#3d464e",
+        "lch": "lch(29.14% 6.52 249.67)",
+        "oklch": "oklch(38.91% 0.018 245.1)"
+      },
+      "--color-action-focus-border": {
+        "value": "#6bb1ff",
+        "hex": "#6bb1ff",
+        "lch": "lch(70.07% 46.41 263.14)",
+        "oklch": "oklch(74.69% 0.134 252.35)"
+      },
+      "--color-olive": {
+        "value": "#556425",
+        "hex": "#556425",
+        "lch": "lch(40.03% 35.46 112.51)",
+        "oklch": "oklch(47.62% 0.089 121.16)"
+      },
+      "--color-avocado": {
+        "value": "#343c17",
+        "hex": "#343c17",
+        "lch": "lch(23.85% 22.94 111.64)",
+        "oklch": "oklch(33.92% 0.058 119.74)"
+      },
+      "--color-jade": {
+        "value": "#5ddfd7",
+        "hex": "#5ddfd7",
+        "lch": "lch(81.54% 39.38 190.84)",
+        "oklch": "oklch(82.96% 0.115 189.58)"
+      },
+      "--color-fd-ring": {
+        "value": "#a3a3a3",
+        "hex": "#a3a3a3",
+        "lch": "lch(67% 0.02 53.35)",
+        "oklch": "oklch(71.55% 0 89.88)"
+      },
+      "--color-fd-muted-foreground": {
+        "value": "#737373",
+        "hex": "#737373",
+        "lch": "lch(48.44% 0.02 53.35)",
+        "oklch": "oklch(55.55% 0 89.88)"
+      },
+      "--color-fd-diff-remove-symbol": {
+        "value": "#e60a64",
+        "hex": "#e60a64",
+        "lch": "lch(50.21% 77.48 10.74)",
+        "oklch": "oklch(59.48% 0.235 7.85)"
+      },
+      "--color-aqua-500": {
+        "value": "#0ae8f0",
+        "hex": "#0ae8f0",
+        "lch": "lch(83.55% 48.45 201.48)",
+        "oklch": "oklch(84.61% 0.143 199.27)"
+      },
+      "--color-lilac": {
+        "value": "#b89ffa",
+        "hex": "#b89ffa",
+        "lch": "lch(70.4% 48.57 299.19)",
+        "oklch": "oklch(75.92% 0.13 295.78)"
+      }
+    },
+    "detected": [
+      {
+        "color": "rgb(10, 10, 10)",
+        "normalized": "#0a0a0a",
+        "count": 1437,
+        "usageFrac": 0.46459747817652763,
+        "confidence": "high",
+        "sources": [
+          "wrapper-sc-48fedc9c-0",
+          "flex-sc-c78b5868-0",
+          "[object",
+          "rfm-marquee-container",
+          "rfm-marquee"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgba(204, 204, 204, 0.5)",
+        "normalized": "#cccccc",
+        "count": 687,
+        "usageFrac": 0.22211445198836083,
+        "confidence": "high",
+        "sources": [
+          "[object"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(11, 53, 88)",
+        "normalized": "#0b3558",
+        "count": 631,
+        "usageFrac": 0.20400905269964437,
+        "confidence": "high",
+        "sources": [
+          "flex-sc-c78b5868-0",
+          "[object",
+          "buttonbase-sc-39255da6-0",
+          "heading-sc-83581531-0",
+          "text-[length:inherit]"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 142,
+        "usageFrac": 0.04591011962495958,
+        "confidence": "high",
+        "sources": [
+          "badge-arrow",
+          "[object",
+          "buttonbase-sc-39255da6-0",
+          "hidden!",
+          "flex-sc-c78b5868-0"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(71, 103, 136)",
+        "normalized": "#476788",
+        "count": 62,
+        "usageFrac": 0.02004526349822179,
+        "confidence": "high",
+        "sources": [
+          "buttonbase-sc-39255da6-0",
+          "text-body-lg",
+          "paragraph-sc-2664db83-0",
+          "wrapper-sc-48fedc9c-0"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(0, 107, 255)",
+        "normalized": "#006bff",
+        "count": 35,
+        "usageFrac": 0.011315874555447785,
+        "confidence": "high",
+        "sources": [
+          "flex-sc-c78b5868-0",
+          "basicimage-sc-aa7a9f36-0",
+          "buttonbase-sc-39255da6-0",
+          "paragraph-sc-2664db83-0",
+          "wrapper-sc-48fedc9c-0"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(212, 224, 237)",
+        "normalized": "#d4e0ed",
+        "count": 33,
+        "usageFrac": 0.01066925315227934,
+        "confidence": "high",
+        "sources": [
+          "flex-sc-c78b5868-0"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(166, 187, 209)",
+        "normalized": "#a6bbd1",
+        "count": 16,
+        "usageFrac": 0.005172971225347559,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(231, 237, 246)",
+        "normalized": "#e7edf6",
+        "count": 9,
+        "usageFrac": 0.002909796314258002,
+        "confidence": "high",
+        "sources": [
+          "buttonbase-sc-39255da6-0"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 166, 0)",
+        "normalized": "#ffa600",
+        "count": 7,
+        "usageFrac": 0.0022631749110895573,
+        "confidence": "medium",
+        "sources": [
+          "flex-sc-c78b5868-0",
+          "paragraph-sc-2664db83-0",
+          "text-h1-fixed"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(187, 50, 213)",
+        "normalized": "#bb32d5",
+        "count": 7,
+        "usageFrac": 0.0022631749110895573,
+        "confidence": "medium",
+        "sources": [
+          "flex-sc-c78b5868-0",
+          "paragraph-sc-2664db83-0",
+          "text-h1-fixed"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(130, 71, 245)",
+        "normalized": "#8247f5",
+        "count": 7,
+        "usageFrac": 0.0022631749110895573,
+        "confidence": "medium",
+        "sources": [
+          "flex-sc-c78b5868-0",
+          "paragraph-sc-2664db83-0",
+          "text-h1-fixed"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(248, 249, 251)",
+        "normalized": "#f8f9fb",
+        "count": 6,
+        "usageFrac": 0.0019398642095053346,
+        "confidence": "high",
+        "sources": [
+          "flex-sc-c78b5868-0"
+        ],
+        "isToken": true
+      },
+      {
+        "color": "rgb(0, 78, 186)",
+        "normalized": "#004eba",
+        "count": 6,
+        "usageFrac": 0.0019398642095053346,
+        "confidence": "high",
+        "sources": [],
+        "isToken": true
+      },
+      {
+        "color": "rgb(230, 240, 255)",
+        "normalized": "#e6f0ff",
+        "count": 3,
+        "usageFrac": 0.0009699321047526673,
+        "confidence": "high",
+        "sources": [],
+        "isToken": true
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 2,
+        "usageFrac": 0.0006466214031684449,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(240, 243, 248)",
+        "normalized": "#f0f3f8",
+        "count": 2,
+        "usageFrac": 0.0006466214031684449,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(25, 72, 112)",
+        "normalized": "#194870",
+        "count": 1,
+        "usageFrac": 0.00032331070158422246,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      }
+    ],
+    "_raw": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 142
+      },
+      {
+        "color": "rgb(10, 10, 10)",
+        "normalized": "#0a0a0a",
+        "count": 1437
+      },
+      {
+        "color": "rgb(11, 53, 88)",
+        "normalized": "#0b3558",
+        "count": 631
+      },
+      {
+        "color": "rgba(204, 204, 204, 0.5)",
+        "normalized": "#cccccc",
+        "count": 687
+      }
+    ]
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "heading-2",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "80px (5.00rem)",
+        "weight": 700,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "display",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "80px (5.00rem)",
+        "weight": 700,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "display",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "68px (4.25rem)",
+        "weight": 700,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "68px (4.25rem)",
+        "weight": 700,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "50px (3.13rem)",
+        "weight": 700,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "38px (2.38rem)",
+        "weight": 700,
+        "lineHeight": "1.21",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-4",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "28px (1.75rem)",
+        "weight": 600,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "28px (1.75rem)",
+        "weight": 600,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-4",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "28px (1.75rem)",
+        "weight": 700,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "28px (1.75rem)",
+        "weight": 700,
+        "lineHeight": "1.64",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-4",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "24px (1.50rem)",
+        "weight": 600,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "24px (1.50rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "20px (1.25rem)",
+        "weight": 400,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "20px (1.25rem)",
+        "weight": 600,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "20px (1.25rem)",
+        "weight": 500,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "18px (1.13rem)",
+        "weight": 600,
+        "lineHeight": "1.60",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "18px (1.13rem)",
+        "weight": 500,
+        "lineHeight": "1.60",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback",
+        "size": "18px (1.13rem)",
+        "weight": 600,
+        "lineHeight": "1.60",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "18px (1.13rem)",
+        "weight": 400,
+        "lineHeight": "1.60",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "18px (1.13rem)",
+        "weight": 400,
+        "lineHeight": "1.60",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "18px (1.13rem)",
+        "weight": 700,
+        "lineHeight": "1.60",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback",
+        "size": "18px (1.13rem)",
+        "weight": 600,
+        "lineHeight": "1.60",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-5",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "18px (1.13rem)",
+        "weight": 700,
+        "lineHeight": "1.60",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "18px (1.13rem)",
+        "weight": 700,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "18px (1.13rem)",
+        "weight": 700,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "16px (1.00rem)",
+        "weight": 500,
+        "lineHeight": "1.60",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "16px (1.00rem)",
+        "weight": 700,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.60",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.60",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.60",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-6",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.60",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "16px (1.00rem)",
+        "weight": 700,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": "1.28px",
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "16px (1.00rem)",
+        "weight": 700,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Gilroy",
+        "fallbacks": "Proxima Nova",
+        "size": "14.4px (0.90rem)",
+        "weight": 400,
+        "lineHeight": "2.64",
+        "spacing": "0.144px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "14.4px (0.90rem)",
+        "weight": 700,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-4",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "14.08px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "14px (0.88rem)",
+        "weight": 500,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": "uppercase"
+      },
+      {
+        "context": "ui",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Gilroy",
+        "fallbacks": "Proxima Nova",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Gilroy",
+        "fallbacks": "Proxima Nova",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.20",
+        "spacing": "0.14px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.40",
+        "spacing": "1.12px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "13.6px (0.85rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "13.6px (0.85rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "13.008px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "13.008px (0.81rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": "1.04064px",
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "12px (0.75rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback",
+        "size": "12px (0.75rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback",
+        "size": "12px (0.75rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "12px (0.75rem)",
+        "weight": 700,
+        "lineHeight": "1.00",
+        "spacing": "0.96px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "gilroy",
+        "fallbacks": "gilroy Fallback, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      }
+    ],
+    "sources": {
+      "googleFonts": [],
+      "adobeFonts": false,
+      "variableFonts": false,
+      "selfHostedFonts": [
+        "Gilroy_Bold-s.p.04bhoiwyq-juo.woff",
+        "Gilroy_Bold-s.p.13gv~l_fv7sra.woff2",
+        "Gilroy_Medium-s.p.0qvc.euvgjqei.woff2",
+        "Gilroy_Medium-s.p.121f28399vp96.woff",
+        "Gilroy_Regular-s.p.01odboa4cxtsh.woff2",
+        "Gilroy_Regular-s.p.0yn2ngkxudbp~.woff",
+        "Gilroy_SemiBold-s.p.08m0br4jnzobt.woff2",
+        "Gilroy_SemiBold-s.p.0~ptal6aajru3.woff"
+      ],
+      "customFonts": [
+        "Gilroy_Bold-s.p.04bhoiwyq-juo.woff",
+        "Gilroy_Bold-s.p.13gv~l_fv7sra.woff2",
+        "Gilroy_Medium-s.p.0qvc.euvgjqei.woff2",
+        "Gilroy_Medium-s.p.121f28399vp96.woff",
+        "Gilroy_Regular-s.p.01odboa4cxtsh.woff2",
+        "Gilroy_Regular-s.p.0yn2ngkxudbp~.woff",
+        "Gilroy_SemiBold-s.p.08m0br4jnzobt.woff2",
+        "Gilroy_SemiBold-s.p.0~ptal6aajru3.woff"
+      ]
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "1px",
+        "display": "1px",
+        "rem": "0.06rem",
+        "count": 4,
+        "numericValue": 1
+      },
+      {
+        "px": "2px",
+        "display": "2px",
+        "rem": "0.13rem",
+        "count": 20,
+        "numericValue": 2
+      },
+      {
+        "px": "4px",
+        "display": "4px",
+        "rem": "0.25rem",
+        "count": 36,
+        "numericValue": 4
+      },
+      {
+        "px": "5px",
+        "display": "5px",
+        "rem": "0.31rem",
+        "count": 13,
+        "numericValue": 5
+      },
+      {
+        "px": "6px",
+        "display": "6px",
+        "rem": "0.38rem",
+        "count": 14,
+        "numericValue": 6
+      },
+      {
+        "px": "8px",
+        "display": "8px",
+        "rem": "0.50rem",
+        "count": 17,
+        "numericValue": 8
+      },
+      {
+        "px": "10px",
+        "display": "10px",
+        "rem": "0.63rem",
+        "count": 44,
+        "numericValue": 10
+      },
+      {
+        "px": "11.2px",
+        "display": "11.2px",
+        "rem": "0.70rem",
+        "count": 8,
+        "numericValue": 11.2
+      },
+      {
+        "px": "12px",
+        "display": "12px",
+        "rem": "0.75rem",
+        "count": 47,
+        "numericValue": 12
+      },
+      {
+        "px": "15px",
+        "display": "15px",
+        "rem": "0.94rem",
+        "count": 5,
+        "numericValue": 15
+      },
+      {
+        "px": "16px",
+        "display": "16px",
+        "rem": "1.00rem",
+        "count": 52,
+        "numericValue": 16
+      },
+      {
+        "px": "20px",
+        "display": "20px",
+        "rem": "1.25rem",
+        "count": 3,
+        "numericValue": 20
+      },
+      {
+        "px": "24px",
+        "display": "24px",
+        "rem": "1.50rem",
+        "count": 40,
+        "numericValue": 24
+      },
+      {
+        "px": "32px",
+        "display": "32px",
+        "rem": "2.00rem",
+        "count": 30,
+        "numericValue": 32
+      },
+      {
+        "px": "36px",
+        "display": "36px",
+        "rem": "2.25rem",
+        "count": 10,
+        "numericValue": 36
+      },
+      {
+        "px": "40px",
+        "display": "40px",
+        "rem": "2.50rem",
+        "count": 4,
+        "numericValue": 40
+      },
+      {
+        "px": "48px",
+        "display": "48px",
+        "rem": "3.00rem",
+        "count": 20,
+        "numericValue": 48
+      },
+      {
+        "px": "64px",
+        "display": "64px",
+        "rem": "4.00rem",
+        "count": 3,
+        "numericValue": 64
+      },
+      {
+        "px": "72px",
+        "display": "72px",
+        "rem": "4.50rem",
+        "count": 7,
+        "numericValue": 72
+      },
+      {
+        "px": "96px",
+        "display": "96px",
+        "rem": "6.00rem",
+        "count": 5,
+        "numericValue": 96
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "0px 0px 16px 16px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "0px 0px 24px 24px",
+        "count": 2,
+        "elements": [
+          "svg"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "0px 16px 0px 8px",
+        "count": 2,
+        "elements": [
+          "span"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "1px",
+        "count": 8,
+        "elements": [
+          "span"
+        ],
+        "confidence": "medium",
+        "numericValue": 1
+      },
+      {
+        "value": "2px",
+        "count": 22,
+        "elements": [
+          "div",
+          "Cookie settings, Opens the preference center dialog",
+          "button",
+          "Close",
+          "Close preference center"
+        ],
+        "confidence": "high",
+        "numericValue": 2
+      },
+      {
+        "value": "3px",
+        "count": 11,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high",
+        "numericValue": 3
+      },
+      {
+        "value": "4px",
+        "count": 36,
+        "elements": [
+          "button",
+          "span",
+          "div"
+        ],
+        "confidence": "high",
+        "numericValue": 4
+      },
+      {
+        "value": "8px",
+        "count": 45,
+        "elements": [
+          "button",
+          "Show",
+          "div",
+          "Apple Brand Icon",
+          "Google Play Simple"
+        ],
+        "confidence": "high",
+        "numericValue": 8
+      },
+      {
+        "value": "12px",
+        "count": 23,
+        "elements": [
+          "icon-title-Zoom integration",
+          "icon-title-Salesforce integration",
+          "icon-title-Google Calendar integration",
+          "icon-title-Slack integration",
+          "icon-title-Microsoft Teams integration"
+        ],
+        "confidence": "high",
+        "numericValue": 12
+      },
+      {
+        "value": "16px",
+        "count": 8,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium",
+        "numericValue": 16
+      },
+      {
+        "value": "17px",
+        "count": 1,
+        "elements": [
+          "Filter Cookie List"
+        ],
+        "confidence": "low",
+        "numericValue": 17
+      },
+      {
+        "value": "20px",
+        "count": 3,
+        "elements": [
+          "span"
+        ],
+        "confidence": "low",
+        "numericValue": 20
+      },
+      {
+        "value": "24px",
+        "count": 41,
+        "elements": [
+          "div",
+          "Google suite",
+          "Microsoft suite",
+          "169% return on investment",
+          "160% increase in customers reached"
+        ],
+        "confidence": "high",
+        "numericValue": 24
+      },
+      {
+        "value": "24px 24px 0px 0px",
+        "count": 2,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 24
+      },
+      {
+        "value": "50px",
+        "count": 7,
+        "elements": [
+          "a",
+          "div",
+          "Cookie list search"
+        ],
+        "confidence": "medium",
+        "numericValue": 50
+      },
+      {
+        "value": "50%",
+        "count": 42,
+        "elements": [
+          "div",
+          "span",
+          "Goto Previous Page",
+          "Go to Next Page",
+          "button"
+        ],
+        "confidence": "high",
+        "numericValue": 50
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(212, 224, 237)",
+        "count": 22,
+        "elements": [
+          "div",
+          "a",
+          "button"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(0, 107, 255)",
+        "count": 20,
+        "elements": [
+          "button",
+          "a"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "none none solid",
+        "color": "rgb(10, 10, 10)",
+        "count": 14,
+        "elements": [
+          "header",
+          "div"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(212, 224, 237)",
+        "count": 14,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(11, 53, 88)",
+        "count": 6,
+        "elements": [
+          "button",
+          "span",
+          "a"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(71, 103, 136)",
+        "count": 3,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 2px",
+        "style": "none none solid",
+        "color": "rgb(10, 10, 10)",
+        "count": 3,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "2px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(212, 224, 237)",
+        "count": 3,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 1px 1px",
+        "style": "none solid solid",
+        "color": "rgb(10, 10, 10)",
+        "count": 3,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(255, 255, 255)",
+        "count": 3,
+        "elements": [
+          "span"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(231, 237, 246)",
+        "count": 1,
+        "elements": [
+          "ul"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(255, 166, 0)",
+        "count": 1,
+        "elements": [
+          "a"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(187, 50, 213)",
+        "count": 1,
+        "elements": [
+          "a"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(130, 71, 245)",
+        "count": 1,
+        "elements": [
+          "a"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(231, 237, 246)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(50, 174, 136)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(216, 216, 216)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(209, 209, 209)",
+        "count": 1,
+        "elements": [
+          "input"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(187, 187, 187)",
+        "count": 1,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(216, 216, 216)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [
+    {
+      "shadow": "rgba(71, 103, 136, 0.04) 0px 4px 5px 0px, rgba(71, 103, 136, 0.03) 0px 4px 10px 0px, rgba(71, 103, 136, 0.05) 0px 10px 20px 0px",
+      "count": 18,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgba(71, 103, 136, 0.04) 0px 4px 5px 0px, rgba(71, 103, 136, 0.03) 0px 8px 15px 0px, rgba(71, 103, 136, 0.08) 0px 30px 50px 0px",
+      "count": 15,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgba(184, 220, 255, 0.75) 0px 0px 8px 0px inset",
+      "count": 8,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgba(71, 103, 136, 0.04) 0px 4px 5px 0px, rgba(71, 103, 136, 0.03) 0px 8px 15px 0px, rgba(71, 103, 136, 0.06) 0px 15px 30px 0px",
+      "count": 3,
+      "confidence": "medium"
+    },
+    {
+      "shadow": "rgba(71, 103, 136, 0.04) 0px 4px 5px 0px, rgba(71, 103, 136, 0.04) 0px 10px 15px 0px, rgba(71, 103, 136, 0.1) 0px 40px 50px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.2) 0px 0px 18px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgb(153, 153, 153) 0px 2px 10px -3px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgb(199, 197, 199) -3px -3px 5px -2px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgb(199, 197, 199) 0px 0px 12px 2px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.06) 0px 1px 6px 0px, rgba(0, 0, 0, 0.16) 0px 2px 32px 0px",
+      "count": 1,
+      "confidence": "low"
+    }
+  ],
+  "gradients": [],
+  "motion": {
+    "durations": [
+      {
+        "value": "0.001s",
+        "ms": 1,
+        "count": 2700
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease",
+        "type": "ease",
+        "count": 2695
+      },
+      {
+        "value": "ease-in-out",
+        "type": "ease-in-out",
+        "count": 67
+      },
+      {
+        "value": "linear",
+        "type": "linear",
+        "count": 20
+      },
+      {
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "type": "custom",
+        "count": 1
+      }
+    ],
+    "animations": [
+      {
+        "name": "scroll",
+        "duration": "0.001s",
+        "easing": "linear",
+        "count": 2,
+        "contexts": [
+          "other"
+        ]
+      },
+      {
+        "name": "fePmJl",
+        "duration": "0.001s",
+        "easing": "ease-in-out",
+        "count": 1,
+        "contexts": [
+          "other"
+        ]
+      },
+      {
+        "name": "kUFUrl",
+        "duration": "0.001s",
+        "easing": "ease-in-out",
+        "count": 1,
+        "contexts": [
+          "other"
+        ]
+      }
+    ],
+    "contexts": {
+      "modal": {
+        "count": 2,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "opacity"
+        ]
+      },
+      "button": {
+        "count": 16,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "background-position",
+          "background-size"
+        ]
+      },
+      "nav": {
+        "count": 2,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "top"
+        ]
+      },
+      "hero": {
+        "count": 19,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "width",
+          "max-height"
+        ]
+      },
+      "link": {
+        "count": 34,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease-in-out",
+        "easingType": "ease-in-out",
+        "props": [
+          "background-position",
+          "background-size",
+          "background-color"
+        ]
+      },
+      "media": {
+        "count": 81,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "card": {
+        "count": 34,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "opacity",
+          "transform"
+        ]
+      }
+    },
+    "interactiveDeltas": [
+      {
+        "tag": "a",
+        "text": "See how it works",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgb(25, 72, 112)",
+            "to": "rgb(10, 37, 64)"
+          }
+        }
+      },
+      {
+        "tag": "button",
+        "text": "",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgba(0, 0, 0, 0)",
+            "to": "rgb(230, 240, 255)"
+          },
+          "color": {
+            "from": "rgb(255, 255, 255)",
+            "to": "rgb(0, 107, 255)"
+          }
+        }
+      },
+      {
+        "tag": "button",
+        "text": "",
+        "pattern": "transform",
+        "delta": {
+          "transform": "matrix(-1, 0, 0, -1, 0, 0)"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Solutions",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgba(0, 0, 0, 0)",
+            "to": "rgb(240, 243, 248)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Resources",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgba(0, 0, 0, 0)",
+            "to": "rgb(240, 243, 248)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Pricing",
+        "pattern": "color-shift",
+        "delta": {
+          "background": {
+            "from": "rgba(0, 0, 0, 0)",
+            "to": "rgb(240, 243, 248)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Talk to sales",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(11, 53, 88)",
+            "to": "rgb(71, 103, 136)"
+          }
+        }
+      }
+    ]
+  },
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(0, 107, 255)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "6px 16px 6px 6px",
+            "borderRadius": "8px",
+            "border": "1px solid rgb(0, 107, 255)",
+            "fontSize": "18px",
+            "fontWeight": "600"
+          }
+        },
+        "fontWeight": "600",
+        "fontSize": "18px",
+        "text": "Sign up with Google",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(11, 53, 88)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "6px 16px 6px 6px",
+            "borderRadius": "8px",
+            "border": "1px solid rgb(11, 53, 88)",
+            "fontSize": "18px",
+            "fontWeight": "600"
+          }
+        },
+        "fontWeight": "600",
+        "fontSize": "18px",
+        "text": "Sign up with Microsoft",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(25, 72, 112)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "4px 12px",
+            "borderRadius": "50px",
+            "border": "0px none rgb(255, 255, 255)",
+            "fontSize": "14px",
+            "fontWeight": "500"
+          }
+        },
+        "fontWeight": "500",
+        "fontSize": "14px",
+        "text": "See how it works",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(71, 103, 136)",
+            "padding": "10px 18px",
+            "borderRadius": "8px",
+            "border": "1px solid rgb(71, 103, 136)",
+            "fontSize": "18px",
+            "fontWeight": "600"
+          }
+        },
+        "fontWeight": "600",
+        "fontSize": "18px",
+        "text": "Get a demo",
+        "confidence": "medium"
+      }
+    ],
+    "inputs": {
+      "text": [],
+      "checkbox": [],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none",
+        "fontWeight": "500",
+        "states": {
+          "default": {
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "rgb(56, 96, 190)",
+            "textDecoration": "none"
+          }
+        }
+      },
+      {
+        "color": "rgb(0, 107, 255)",
+        "textDecoration": "none",
+        "fontWeight": "700",
+        "states": {
+          "default": {
+            "color": "rgb(0, 107, 255)",
+            "textDecoration": "underline"
+          },
+          "hover": {
+            "color": "rgb(56, 96, 190)",
+            "textDecoration": "none"
+          }
+        }
+      },
+      {
+        "color": "rgb(11, 53, 88)",
+        "textDecoration": "none",
+        "fontWeight": "600",
+        "states": {
+          "default": {
+            "color": "rgb(11, 53, 88)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "rgb(56, 96, 190)",
+            "textDecoration": "none"
+          }
+        }
+      },
+      {
+        "color": "rgb(71, 103, 136)",
+        "textDecoration": "none",
+        "fontWeight": "600",
+        "states": {
+          "default": {
+            "color": "rgb(71, 103, 136)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "rgb(56, 96, 190)",
+            "textDecoration": "none"
+          }
+        }
+      },
+      {
+        "color": "rgb(10, 10, 10)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(10, 10, 10)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "rgb(56, 96, 190)",
+            "textDecoration": "none"
+          }
+        }
+      }
+    ],
+    "badges": {
+      "all": [],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": []
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "320px"
+    },
+    {
+      "px": "385px"
+    },
+    {
+      "px": "389px"
+    },
+    {
+      "px": "400px"
+    },
+    {
+      "px": "420px"
+    },
+    {
+      "px": "425px"
+    },
+    {
+      "px": "426px"
+    },
+    {
+      "px": "480px"
+    },
+    {
+      "px": "530px"
+    },
+    {
+      "px": "550px"
+    },
+    {
+      "px": "567px"
+    },
+    {
+      "px": "576px"
+    },
+    {
+      "px": "600px"
+    },
+    {
+      "px": "640px"
+    },
+    {
+      "px": "768px"
+    },
+    {
+      "px": "769px"
+    },
+    {
+      "px": "834px"
+    },
+    {
+      "px": "896px"
+    },
+    {
+      "px": "900px"
+    },
+    {
+      "px": "992px"
+    },
+    {
+      "px": "1024px"
+    },
+    {
+      "px": "1200px"
+    },
+    {
+      "px": "1201px"
+    },
+    {
+      "px": "1440px"
+    },
+    {
+      "px": "1920px"
+    }
+  ],
+  "iconSystem": [
+    {
+      "name": "SVG Icons",
+      "type": "svg"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Tailwind CSS",
+      "confidence": "high",
+      "evidence": "arbitrary values (e.g., top-[117px]), responsive/state modifiers"
+    },
+    {
+      "name": "Headless UI",
+      "confidence": "high",
+      "evidence": "8 headless components with Tailwind"
+    }
+  ]
+}

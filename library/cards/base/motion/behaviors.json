@@ -1,0 +1,43 @@
+{
+  "url": "https://www.base.org",
+  "captured": "2026-08-10T13:05:24+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "backgroundColor": {
+          "before": "color(display-p3 0 0 1)",
+          "after": "rgb(0, 0, 204)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "header.fixed",
+      "diffs": {
+        "background": "rgba(255, 255, 255, 0) → rgb(255, 255, 255)"
+      }
+    },
+    {
+      "selector": "header.fixed",
+      "diffs": {
+        "background": "rgba(255, 255, 255, 0) → rgb(255, 255, 255)"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 75,
+    "tabs": 0,
+    "accordions": 0,
+    "carousels": 3,
+    "observers": 3,
+    "scrollSnap": 6,
+    "smoothScroll": null,
+    "marquees": 1
+  },
+  "states": []
+}

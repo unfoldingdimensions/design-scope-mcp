@@ -1,0 +1,131 @@
+{
+  "url": "https://supabase.com",
+  "captured": "2026-08-09T16:46:26+00:00",
+  "hover_diffs": [
+    {
+      "selector": "button",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "oklch(0.1 0 34)",
+          "after": "rgb(10, 132, 78)"
+        },
+        "outline": {
+          "before": "oklch(0.1 0 34) none 3px",
+          "after": "rgb(10, 132, 78) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "oklch(0.1 0 34)",
+          "after": "rgb(10, 132, 78)"
+        },
+        "outline": {
+          "before": "oklch(0.1 0 34) none 3px",
+          "after": "rgb(10, 132, 78) none 3px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "color": {
+          "before": "oklch(0.1 0 34)",
+          "after": "rgb(10, 132, 78)"
+        },
+        "outline": {
+          "before": "oklch(0.1 0 34) none 3px",
+          "after": "rgb(10, 132, 78) none 3px"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 142,
+    "tabs": 11,
+    "accordions": 0,
+    "carousels": 5,
+    "observers": 15,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 5
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "button",
+      "classes": "py-1.5 px-3 lg:py-2 lg:px-8 border rounded-full bg-alternative text-sm transitio",
+      "text": "Table Editor",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "button",
+      "classes": "py-1.5 px-3 lg:py-2 lg:px-8 border rounded-full bg-alternative text-sm opacity-8",
+      "text": "SQL Editor",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "button",
+      "classes": "py-1.5 px-3 lg:py-2 lg:px-8 border rounded-full bg-alternative text-sm opacity-8",
+      "text": "RLS Policies",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "button",
+      "classes": "flex items-center justify-center py-4 border-r border-border last:border-r-0 tra",
+      "text": "",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "button",
+      "classes": "flex items-center justify-center py-4 border-r border-border last:border-r-0 tra",
+      "text": "",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "button",
+      "classes": "flex items-center justify-center py-4 border-r border-border last:border-r-0 tra",
+      "text": "",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "button",
+      "classes": "flex items-center justify-center py-4 border-r border-border last:border-r-0 tra",
+      "text": "",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "button",
+      "classes": "flex items-center justify-center py-4 border-r border-border last:border-r-0 tra",
+      "text": "",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    }
+  ]
+}

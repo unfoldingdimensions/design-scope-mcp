@@ -1,0 +1,85 @@
+{
+  "url": "https://phantom.app",
+  "captured": "2026-08-10T13:23:33+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(226, 223, 254)",
+          "after": "rgb(171, 159, 242)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(44, 34, 80)",
+          "after": "rgb(60, 49, 91)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(226, 223, 254)",
+          "after": "rgb(171, 159, 242)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 4,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(226, 223, 254)",
+          "after": "rgb(171, 159, 242)"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 5,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(253, 252, 254)",
+          "after": "rgb(226, 223, 254)"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "nav._1wpz8pu4",
+      "diffs": {
+        "background": "rgb(253, 252, 254) → rgb(44, 34, 80)"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 77,
+    "tabs": 0,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 2,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": []
+}

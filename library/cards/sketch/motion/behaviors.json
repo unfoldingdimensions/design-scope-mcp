@@ -1,0 +1,37 @@
+{
+  "url": "https://www.sketch.com",
+  "captured": "2026-08-10T06:29:53+00:00",
+  "hover_diffs": [
+    {
+      "selector": "button",
+      "index": 1,
+      "diffs": {
+        "boxShadow": {
+          "before": "rgba(0, 0, 0, 0.05) 0px 1px 1px 0px inset, rgba(255, 255, 255, 0.5) 0px 1px 4px 0px inset, rgba(0, 0, 0, 0.94) 0px -2px 4px 0px inset, rgba(0, 0, 0, 0.2) 0px 1px 4px 0px",
+          "after": "rgba(0, 0, 0, 0.05) 0px 1px 1px 0px inset, rgba(255, 255, 255, 0.5) 0px 1px 4px 0px inset, rgba(0, 0, 0, 0.94) 0px -2px 4px 0px inset, rgba(0, 0, 0, 0.05) 0px 1px 4px 0px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "header.\n",
+      "diffs": {
+        "sel": "header.\n → header.main-nav"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 112,
+    "tabs": 0,
+    "accordions": 0,
+    "carousels": 4,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 2
+  },
+  "states": []
+}

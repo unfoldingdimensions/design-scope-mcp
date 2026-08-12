@@ -1,0 +1,308 @@
+{
+  "url": "https://calendly.com",
+  "captured": "2026-08-10T11:50:27+00:00",
+  "named_tokens": {
+    "light": {
+      "--text-ui-huge": "60px",
+      "--text-ui-h1": "48px",
+      "--text-ui-h2": "36px",
+      "--text-ui-h3": "28px",
+      "--text-ui-h4": "24px",
+      "--text-ui-h5": "22px",
+      "--text-ui-h6": "20px",
+      "--tracking-ui-tighter": "-1px",
+      "--tracking-ui-looser": "1px",
+      "--spacing-lg": "calc(var(--spacing) * 5)",
+      "--spacing-xl": "calc(var(--spacing) * 6)",
+      "--spacing-2xl": "calc(var(--spacing) * 8)",
+      "--spacing-3xl": "calc(var(--spacing) * 10)",
+      "--spacing-4xl": "calc(var(--spacing) * 12)",
+      "--spacing-5xl": "calc(var(--spacing) * 14)",
+      "--radius-ui-2xl": "calc(var(--spacing) * 6)",
+      "--radius-ui-3xl": "calc(var(--spacing) * 8)",
+      "--text-ui-body-xl": "18px",
+      "--text-ui-body-lg": "16px",
+      "--text-ui-body-md": "14px",
+      "--text-ui-body-sm": "12px",
+      "--tracking-ui-tight": "0px",
+      "--tracking-ui-loose": "0px",
+      "--spacing-xs": "calc(var(--spacing) * 1)",
+      "--spacing-sm": "calc(var(--spacing) * 2)",
+      "--spacing-md": "calc(var(--spacing) * 3)",
+      "--radius-ui-xs": "calc(var(--spacing) * 1)",
+      "--radius-ui-sm": "calc(var(--spacing) * 2)",
+      "--radius-ui-md": "calc(var(--spacing) * 3)",
+      "--radius-ui-lg": "calc(var(--spacing) * 4)",
+      "--radius-ui-xl": "calc(var(--spacing) * 5)",
+      "--spacing-gap-xxs": "calc(var(--spacing) * 1)",
+      "--spacing-gap-xs": "calc(var(--spacing) * 2)",
+      "--spacing-gap-sm": "calc(var(--spacing) * 3)",
+      "--spacing-gap-md": "calc(var(--spacing) * 4)",
+      "--spacing-gap-lg": "calc(var(--spacing) * 6)",
+      "--spacing-gap-xl": "calc(var(--spacing) * 8)",
+      "--spacing-gap-2xl": "calc(var(--spacing) * 12)",
+      "--spacing-gap-3xl": "calc(var(--spacing) * 14)"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "generous corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "generous",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "modal": 2147483647,
+    "banner": 2147483645,
+    "overlay": 500,
+    "header": 1
+  },
+  "z_index_rows": [
+    {
+      "role": "overlay",
+      "selector": "body .calendly-overlay",
+      "value": "calc(var(--header-z-index) + 500)"
+    },
+    {
+      "role": "header",
+      "selector": ".eahFUw.experiment-header ul > .Header-atoms__HeaderItem-sc-c42f2d71-4 > a:focus",
+      "value": "1"
+    },
+    {
+      "role": "header",
+      "selector": ".fPfBZo.experiment-header ul > .Header-atoms__HeaderItem-sc-c42f2d71-4 > a:focus",
+      "value": "1"
+    },
+    {
+      "role": "overlay",
+      "selector": ".rfm-overlay::before, .rfm-overlay::after",
+      "value": "2"
+    },
+    {
+      "role": "modal",
+      "selector": "#onetrust-consent-sdk .ot-general-modal",
+      "value": "2147483647"
+    },
+    {
+      "role": "banner",
+      "selector": "#onetrust-banner-sdk.otFloatingRounded",
+      "value": "2147483645"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "768px",
+      "selector": "html:has(.header-menu-open)",
+      "change": "overflow-x: hidden"
+    },
+    {
+      "at": "768px",
+      "selector": "html:has(.header-menu-open)",
+      "change": "overflow-y: hidden"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": "*, ::before, ::after",
+      "change": "animation-duration: 0.01ms"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": "*, ::before, ::after",
+      "change": "animation-iteration-count: 1"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": "*, ::before, ::after",
+      "change": "transition-property: opacity, color, background-color, border-color"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": "*, ::before, ::after",
+      "change": "transition-duration: 0.001ms"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": "*, ::before, ::after",
+      "change": "scroll-behavior: auto"
+    },
+    {
+      "at": "480px",
+      "selector": "div#lanyard_root * .ketch-text-ketch-l",
+      "change": "font-size: 1rem"
+    },
+    {
+      "at": "480px",
+      "selector": "div#lanyard_root * p.\\!ketch-text-ketch-l",
+      "change": "font-size: 1rem"
+    },
+    {
+      "at": "992px",
+      "selector": "div#lanyard_root h2.ketch-text-ketch-h1",
+      "change": "font-size: 2.375rem"
+    },
+    {
+      "at": "480px",
+      "selector": "div#lanyard_root h2.ketch-text-ketch-h1",
+      "change": "font-size: 1.75rem"
+    },
+    {
+      "at": "480px",
+      "selector": "div#lanyard_root h2.ketch-text-ketch-h1",
+      "change": "line-height: 1.4"
+    },
+    {
+      "at": "992px",
+      "selector": "div#lanyard_root h3.ketch-text-ketch-h2",
+      "change": "font-size: 1.5rem"
+    },
+    {
+      "at": "480px",
+      "selector": "div#lanyard_root h3.ketch-text-ketch-h2",
+      "change": "font-size: 1.25rem"
+    },
+    {
+      "at": "992px",
+      "selector": "div#lanyard_root * .ketch-text-ketch-h3",
+      "change": "font-size: 1.75rem"
+    },
+    {
+      "at": "992px",
+      "selector": "div#lanyard_root * .ketch-text-ketch-h3",
+      "change": "line-height: 1.4"
+    },
+    {
+      "at": "480px",
+      "selector": "div#lanyard_root * .ketch-text-ketch-h3",
+      "change": "font-size: 1.5rem"
+    },
+    {
+      "at": "480px",
+      "selector": "div#lanyard_root * p > span.ketch-text-ketch-m, div#lanyard_root * p > span.ketc",
+      "change": "font-size: 1rem"
+    },
+    {
+      "at": "768px",
+      "selector": "div#lanyard_root .ketch-flex.ketch-flex-col.ketch-gap-12.ketch-pb-4",
+      "change": "padding-bottom: 32px"
+    },
+    {
+      "at": "768px",
+      "selector": "div#lanyard_root nav[aria-label=\"Main navigation\"] div[role=\"presentation\"] butt",
+      "change": "color: rgb(255, 255, 255)"
+    },
+    {
+      "at": "768px",
+      "selector": "div#lanyard_root nav[aria-label=\"Main navigation\"] div[role=\"listbox\"]",
+      "change": "border-top-left-radius: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": "div#lanyard_root nav[aria-label=\"Main navigation\"] div[role=\"listbox\"]",
+      "change": "border-top-right-radius: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": "div#lanyard_root nav[aria-label=\"Main navigation\"] div[role=\"listbox\"]",
+      "change": "border-bottom-right-radius: 12px"
+    },
+    {
+      "at": "768px",
+      "selector": "div#lanyard_root nav[aria-label=\"Main navigation\"] div[role=\"listbox\"]",
+      "change": "border-bottom-left-radius: 12px"
+    },
+    {
+      "at": "768px",
+      "selector": "div#lanyard_root nav[aria-label=\"Main navigation\"] div[role=\"listbox\"] button p",
+      "change": "color: rgb(11, 53, 88)"
+    },
+    {
+      "at": "992px",
+      "selector": ".eKFVew",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "480px",
+      "selector": ".eKFVew",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "992px",
+      "selector": ".biElBZ",
+      "change": "row-gap: 16px"
+    },
+    {
+      "at": "992px",
+      "selector": ".biElBZ",
+      "change": "column-gap: 16px"
+    },
+    {
+      "at": "480px",
+      "selector": ".biElBZ",
+      "change": "flex-direction: column"
+    },
+    {
+      "at": "480px",
+      "selector": ".biElBZ",
+      "change": "row-gap: 12px"
+    },
+    {
+      "at": "480px",
+      "selector": ".biElBZ",
+      "change": "column-gap: 12px"
+    },
+    {
+      "at": "992px",
+      "selector": ".hJOCdg",
+      "change": "display: none"
+    },
+    {
+      "at": "768px",
+      "selector": ".dPCOWY",
+      "change": "row-gap: 24px"
+    },
+    {
+      "at": "768px",
+      "selector": ".dPCOWY",
+      "change": "column-gap: 24px"
+    },
+    {
+      "at": "480px",
+      "selector": ".dPCOWY",
+      "change": "-webkit-box-align: center"
+    },
+    {
+      "at": "480px",
+      "selector": ".dPCOWY",
+      "change": "align-items: center"
+    },
+    {
+      "at": "480px",
+      "selector": ".dPCOWY",
+      "change": "row-gap: 16px"
+    },
+    {
+      "at": "480px",
+      "selector": ".dPCOWY",
+      "change": "column-gap: 16px"
+    },
+    {
+      "at": "992px",
+      "selector": ".jWBws",
+      "change": "row-gap: 24px"
+    }
+  ]
+}

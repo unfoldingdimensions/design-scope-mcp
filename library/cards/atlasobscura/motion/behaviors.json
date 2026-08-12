@@ -1,0 +1,159 @@
+{
+  "url": "https://www.atlasobscura.com",
+  "captured": "2026-08-10T15:23:29+00:00",
+  "hover_diffs": [
+    {
+      "selector": "button",
+      "index": 1,
+      "diffs": {
+        "borderColor": {
+          "before": "rgb(215, 212, 208)",
+          "after": "rgb(215, 212, 208) rgb(215, 212, 208) rgba(0, 0, 0, 0)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgb(0, 0, 0)",
+          "after": "rgb(161, 106, 58)"
+        },
+        "outline": {
+          "before": "rgb(0, 0, 0) none 3px",
+          "after": "rgb(161, 106, 58) none 3px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 3,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(255, 255, 255)",
+          "after": "rgb(245, 244, 244)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 4,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(255, 255, 255)",
+          "after": "rgb(245, 244, 244)"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 5,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(255, 255, 255)",
+          "after": "rgb(245, 244, 244)"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 6,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(255, 255, 255)",
+          "after": "rgb(245, 244, 244)"
+        }
+      },
+      "before_png": "hover-before-06.png",
+      "after_png": "hover-after-06.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 410,
+    "tabs": 6,
+    "accordions": 5,
+    "carousels": 10,
+    "observers": 91,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "sl-tab-group",
+      "classes": "aon-sl-filter-tab-group",
+      "text": "Featured\n      \n      \n        Most Recent\n      \n      \n   ",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "sl-tab",
+      "classes": "aon-sl-filter-tab",
+      "text": "Featured",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "sl-tab",
+      "classes": "aon-sl-filter-tab",
+      "text": "Most Recent",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "button",
+      "classes": "splide__arrow splide__arrow--prev lg:top-20 xl:top-24 2xl:top-28 lg:left-6 xl:le",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "button",
+      "classes": "splide__arrow splide__arrow--next lg:top-20 xl:top-24 2xl:top-28 lg:right-6 xl:r",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "button",
+      "classes": "aon-toggle-button activity-button btn-aon has-done inactive",
+      "text": "Been Here?",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "button",
+      "classes": "aon-toggle-button activity-button btn-aon wants-to inactive",
+      "text": "Want to Visit?",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "button",
+      "classes": "aon-toggle-button activity-button list-button btn-aon in-list inactive",
+      "text": "Add to List",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

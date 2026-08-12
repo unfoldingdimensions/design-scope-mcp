@@ -1,0 +1,316 @@
+{
+  "url": "https://squareup.com",
+  "captured": "2026-08-10T12:09:21+00:00",
+  "named_tokens": {
+    "light": {},
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "soft corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "soft",
+    "type_mood": [
+      "mono accents"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "toast": 9999,
+    "modal": 1500,
+    "overlay": 100,
+    "header": 20,
+    "nav": 4,
+    "dropdown": 4,
+    "drawer": 1
+  },
+  "z_index_rows": [
+    {
+      "role": "modal",
+      "selector": ".unsupported-browser-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh)",
+      "value": "-1"
+    },
+    {
+      "role": "modal",
+      "selector": ".unsupported-browser-modal.svelte-1npysfh .ModalPartial[data-active=\"true\"]:wher",
+      "value": "1500"
+    },
+    {
+      "role": "modal",
+      "selector": ".unsupported-browser-modal.svelte-1npysfh .modal-scroll:where(.svelte-1npysfh)",
+      "value": "0"
+    },
+    {
+      "role": "overlay",
+      "selector": ".logo-lockup-overlay.svelte-64idkw",
+      "value": "100"
+    },
+    {
+      "role": "overlay",
+      "selector": ".developer-subtitle-overlay.svelte-64idkw",
+      "value": "100"
+    },
+    {
+      "role": "nav",
+      "selector": ".DesktopNav.svelte-1fba140",
+      "value": "3"
+    },
+    {
+      "role": "drawer",
+      "selector": ".Drawer.svelte-1wc7ujw",
+      "value": "1"
+    },
+    {
+      "role": "nav",
+      "selector": ".MobileNav.svelte-19f0mu0",
+      "value": "3"
+    },
+    {
+      "role": "header",
+      "selector": ".header.svelte-vmnw0q",
+      "value": "1"
+    },
+    {
+      "role": "nav",
+      "selector": ".cta-subnav-container.svelte-1lguc4e",
+      "value": "1"
+    },
+    {
+      "role": "dropdown",
+      "selector": ".Dropdown.svelte-hm34aa",
+      "value": "4"
+    },
+    {
+      "role": "nav",
+      "selector": ".cta-button-container.svelte-1ll27mu, .cta-subnav-menu-container.svelte-1ll27mu",
+      "value": "1"
+    },
+    {
+      "role": "nav",
+      "selector": ".DesktopNav.svelte-7xphtp",
+      "value": "3"
+    },
+    {
+      "role": "nav",
+      "selector": ".DesktopNav.svelte-7xphtp .dropdown-background:where(.svelte-7xphtp)",
+      "value": "-1"
+    },
+    {
+      "role": "nav",
+      "selector": ".MobileNav.svelte-rrwz9",
+      "value": "3"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "print",
+      "selector": ".mobile-global-nav-cta-button-container",
+      "change": "display: none"
+    },
+    {
+      "at": "1024px",
+      "selector": ".country-detection-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh) .mo",
+      "change": "display: inline-block"
+    },
+    {
+      "at": "1024px",
+      "selector": ".country-detection-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh) .mo",
+      "change": "width: auto"
+    },
+    {
+      "at": "1024px",
+      "selector": ".country-detection-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh) .mo",
+      "change": "min-height: 0px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".country-detection-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh) .mo",
+      "change": "border-top-left-radius: 5px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".country-detection-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh) .mo",
+      "change": "border-top-right-radius: 5px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".country-detection-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh) .mo",
+      "change": "border-bottom-right-radius: 5px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".country-detection-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh) .co",
+      "change": "width: var(--container-width-small)"
+    },
+    {
+      "at": "1024px",
+      "selector": ".locale-selector-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh) .moda",
+      "change": "display: inline-block"
+    },
+    {
+      "at": "1024px",
+      "selector": ".locale-selector-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh) .moda",
+      "change": "width: auto"
+    },
+    {
+      "at": "1024px",
+      "selector": ".locale-selector-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh) .moda",
+      "change": "min-height: 0px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".locale-selector-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh) .moda",
+      "change": "border-top-left-radius: 5px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".locale-selector-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh) .moda",
+      "change": "border-top-right-radius: 5px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".locale-selector-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh) .moda",
+      "change": "border-bottom-right-radius: 5px"
+    },
+    {
+      "at": "1024px",
+      "selector": ".locale-selector-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh) .cont",
+      "change": "width: var(--container-width-small)"
+    },
+    {
+      "at": "718px",
+      "selector": ".unsupported-browser-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh) .",
+      "change": "padding-top: 80px"
+    },
+    {
+      "at": "718px",
+      "selector": ".unsupported-browser-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh) .",
+      "change": "padding-right: 0px"
+    },
+    {
+      "at": "718px",
+      "selector": ".unsupported-browser-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh) .",
+      "change": "padding-bottom: 80px"
+    },
+    {
+      "at": "718px",
+      "selector": ".unsupported-browser-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh) .",
+      "change": "padding-left: 0px"
+    },
+    {
+      "at": "718px",
+      "selector": ".unsupported-browser-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh) .",
+      "change": "display: inline-block"
+    },
+    {
+      "at": "718px",
+      "selector": ".unsupported-browser-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh) .",
+      "change": "width: auto"
+    },
+    {
+      "at": "718px",
+      "selector": ".unsupported-browser-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh) .",
+      "change": "min-height: 0px"
+    },
+    {
+      "at": "718px",
+      "selector": ".unsupported-browser-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh) .",
+      "change": "border-top-left-radius: 5px"
+    },
+    {
+      "at": "718px",
+      "selector": ".unsupported-browser-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh) .",
+      "change": "border-top-right-radius: 5px"
+    },
+    {
+      "at": "718px",
+      "selector": ".unsupported-browser-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh) .",
+      "change": "border-bottom-right-radius: 5px"
+    },
+    {
+      "at": "718px",
+      "selector": ".unsupported-browser-modal.svelte-1npysfh .ModalPartial:where(.svelte-1npysfh) .",
+      "change": "width: 424px"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".primary.svelte-wxk8im:hover::before",
+      "change": "opacity: 1"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".primary.svelte-wxk8im:hover::before",
+      "change": "transform: scale(1)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".focus-highlight.svelte-1jfdg4a:hover::before",
+      "change": "opacity: 1"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".focus-highlight.svelte-1jfdg4a:hover::before",
+      "change": "transform: scale(1)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".focus-accessibility-redesign.svelte-1jfdg4a:hover span:where(.svelte-1jfdg4a)",
+      "change": "background-position-x: calc(0% + 0px)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".focus-accessibility-redesign.svelte-1jfdg4a:hover span:where(.svelte-1jfdg4a)",
+      "change": "background-position-y: calc(100% - 1.5px)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".focus-accessibility-redesign.svelte-1jfdg4a:hover span:where(.svelte-1jfdg4a)",
+      "change": "background-size: calc(100% + 0px) 1.5px"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".link.svelte-1gftcnf:hover::before",
+      "change": "opacity: 1"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".link.svelte-1gftcnf:hover::before",
+      "change": "transform: scale(1)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".focus-highlight.svelte-69xjik:hover::before",
+      "change": "opacity: 1"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".focus-highlight.svelte-69xjik:hover::before",
+      "change": "transform: scale(1)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".link-accessibility-redesign.svelte-69xjik:hover",
+      "change": "background-position-x: calc(0% + 10px)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".link-accessibility-redesign.svelte-69xjik:hover",
+      "change": "background-position-y: 100%"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".link-accessibility-redesign.svelte-69xjik:hover",
+      "change": "background-size: calc(100% - 20px) 2px"
+    }
+  ]
+}

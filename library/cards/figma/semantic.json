@@ -1,0 +1,379 @@
+{
+  "url": "https://www.figma.com",
+  "captured": "2026-08-10T07:03:40+00:00",
+  "named_tokens": {
+    "light": {
+      "--global-font-sans": "var(--font-figma-sans, 'figmaSans', 'figmaSans Fallback', SF Pro Display, system-ui, helvetica, sans-serif)",
+      "--global-font-mono": "var(--font-figma-mono, 'figmaMono', 'figmaMono Fallback', SF Mono, menlo, monospace)",
+      "--global-statsig-overlay": "#FFFFFF",
+      "--global-cursor-default": "default",
+      "--global-cursor-pointer": "pointer",
+      "--global-cursor-grab": "grab",
+      "--global-cursor-grabbing": "grabbing",
+      "--global-cursor-text": "text",
+      "--global-scrollbar-width": "0px",
+      "--f-max-content-width": "1440px",
+      "--f-columns": "1",
+      "--f-gutter": "24px",
+      "--f-col-width": "calc(100vw - var(--f-gutter) * 2)",
+      "--f-lego-block-padding": "5rem",
+      "--fig-grid-max-content-width": "95rem",
+      "--fig-grid-columns": "4",
+      "--fig-grid-margin": "1rem",
+      "--fig-grid-gutter": "1rem",
+      "--fig-grid-col-width": "calc((min(100vw - (var(--fig-grid-margin) * 2) - var(--global-scrollbar-width), var(--fig-grid-max-content-width)) - (var(--fig-grid-gutter) * (var(--fig-grid-columns) - 1))) / var(--fig-grid-columns))",
+      "--fig-section-block-padding": "var(--fig-space-40, 2.5rem)",
+      "--fig-typography-weight": "normal",
+      "--fig-typography-lh-none": "1",
+      "--fig-typography-lh-tight": "1.1",
+      "--fig-typography-lh-snug": "1.2",
+      "--fig-typography-lh-normal": "1.3",
+      "--fig-typography-lh-relaxed": "1.4",
+      "--fig-typography-lh-loose": "1.45",
+      "--fig-typography-ls-tight": "-0.078125rem",
+      "--fig-typography-ls-standard": "-0.04125rem",
+      "--fig-typography-ls-slight": "0rem",
+      "--fig-typography-ls-none": "0rem",
+      "--fig-typography-ls-wide": "0.03125rem",
+      "--fig-typography-variation-wdth-condensed": "96",
+      "--fig-typography-variation-wdth-narrow": "98",
+      "--fig-typography-variation-wdth-normal": "100",
+      "--fig-typography-variation-wght-regular": "400",
+      "--fig-typography-variation-wght-bold": "600",
+      "--fig-typography-variation-wght-bolder": "700",
+      "--fig-typography-variation-mono": "100",
+      "--fig-typography-variation-slnt-italic": "-6",
+      "--fig-typography-size-display1": "4.5rem",
+      "--fig-typography-size-display2": "2.75rem",
+      "--fig-typography-size-title1": "2.25rem",
+      "--fig-typography-size-title2": "2rem",
+      "--fig-typography-size-title3": "1.5rem",
+      "--fig-typography-size-title4": "1.375rem",
+      "--fig-typography-size-bodyXL": "1.125rem",
+      "--fig-typography-size-bodyL": "1rem",
+      "--fig-typography-size-body": "0.875rem",
+      "--fig-typography-size-caption": "0.875rem",
+      "--fig-typography-size-button": "1rem",
+      "--fig-typography-size-buttonS": "0.875rem",
+      "--fig-typography-size-badge": "0.75rem",
+      "--fig-typography-size-formInput": "0.875rem",
+      "--fig-typography-size-formLabel": "0.6875rem",
+      "--fig-space-none": "0",
+      "--fig-space-4": "0.25rem",
+      "--fig-space-6": "0.375rem",
+      "--fig-space-8": "0.5rem",
+      "--fig-space-12": "0.75rem",
+      "--fig-space-16": "1rem",
+      "--fig-space-24": "1.5rem",
+      "--fig-space-32": "2rem",
+      "--fig-space-40": "2.5rem",
+      "--fig-space-56": "3.5rem",
+      "--fig-space-64": "4rem",
+      "--fig-space-80": "5rem",
+      "--fig-space-120": "7.5rem",
+      "--fig-radius-2": "0.125rem",
+      "--fig-radius-4": "0.25rem",
+      "--fig-radius-8": "0.5rem",
+      "--fig-radius-12": "0.75rem",
+      "--fig-radius-16": "1rem",
+      "--fig-radius-24": "1.5rem",
+      "--fig-radius-28": "1.75rem",
+      "--fig-radius-full": "9999px",
+      "--fig-elevation-1": "0 0.25rem 2rem 0 color-mix(in oklch, #000000, transparent 90%)",
+      "--fig-elevation-1-shadow": "0 0.25rem 2rem color-mix(in oklch, #000000, transparent 90%)",
+      "--fig-elevation-2": "0 1.5rem 4.375rem 0 color-mix(in oklch, #000000, transparent 90%)",
+      "--fig-elevation-2-shadow": "0 1.5rem 4.375rem color-mix(in oklch, #000000, transparent 90%)",
+      "--fig-theme-bg": "#FFFFFF",
+      "--fig-theme-fg": "#000000",
+      "--fig-theme-fg-muted": "color-mix(in oklch, #000000, transparent 46%)",
+      "--fig-theme-card-bg": "color-mix(in oklch, #000000, transparent 96%)",
+      "--fig-theme-btn-primary-bg": "#000000",
+      "--fig-theme-btn-primary-bg-hover": "color-mix(in oklch, #000000, transparent 15%)",
+      "--fig-theme-btn-primary-fg": "#FFFFFF",
+      "--fig-theme-btn-secondary-bg": "color-mix(in oklch, #000000, transparent 100%)",
+      "--fig-theme-btn-secondary-fg": "#000000",
+      "--fig-theme-btn-transparent-bg": "color-mix(in oklch, #000000, transparent 96%)",
+      "--fig-theme-btn-transparent-bg-hover": "color-mix(in oklch, #000000, transparent 92%)",
+      "--fig-theme-btn-transparent-fg": "#000000",
+      "--fig-theme-btn-ghost-bg": "color-mix(in oklch, #000000, transparent 100%)",
+      "--fig-theme-btn-ghost-bg-hover": "color-mix(in oklch, #000000, transparent 96%)",
+      "--fig-theme-form-placeholder": "color-mix(in oklch, #000000, transparent 46%)",
+      "--fig-theme-form-input-bg": "color-mix(in oklch, #000000, transparent 92%)",
+      "--fig-theme-form-error-bg": "#972121",
+      "--fig-theme-form-error-fg": "#FFFFFF",
+      "--fig-theme-border": "color-mix(in oklch, #000000, transparent 84%)",
+      "--fig-theme-border-hover": "color-mix(in oklch, #000000, transparent 60%)",
+      "--fig-theme-badge-bg": "color-mix(in oklch, #000000, transparent 92%)",
+      "--fig-theme-badge-fg": "#000000"
+    },
+    "dark": {
+      "--fig-theme-bg": "#000000",
+      "--fig-theme-fg": "#FFFFFF",
+      "--fig-theme-fg-muted": "color-mix(in oklch, #FFFFFF, transparent 46%)",
+      "--fig-theme-card-bg": "color-mix(in oklch, #FFFFFF, transparent 92%)",
+      "--fig-theme-btn-primary-bg": "#FFFFFF",
+      "--fig-theme-btn-primary-bg-hover": "color-mix(in oklch, #FFFFFF, transparent 20%)",
+      "--fig-theme-btn-primary-fg": "#000000",
+      "--fig-theme-btn-secondary-bg": "color-mix(in oklch, #FFFFFF, transparent 100%)",
+      "--fig-theme-btn-secondary-fg": "#FFFFFF",
+      "--fig-theme-btn-transparent-bg": "color-mix(in oklch, #FFFFFF, transparent 96%)",
+      "--fig-theme-btn-transparent-bg-hover": "color-mix(in oklch, #FFFFFF, transparent 84%)",
+      "--fig-theme-btn-transparent-fg": "#FFFFFF",
+      "--fig-theme-btn-ghost-bg": "color-mix(in oklch, #FFFFFF, transparent 100%)",
+      "--fig-theme-btn-ghost-bg-hover": "color-mix(in oklch, #FFFFFF, transparent 96%)",
+      "--fig-theme-form-placeholder": "color-mix(in oklch, #FFFFFF, transparent 46%)",
+      "--fig-theme-form-input-bg": "color-mix(in oklch, #FFFFFF, transparent 92%)",
+      "--fig-theme-form-error-bg": "#FFB3B3",
+      "--fig-theme-form-error-fg": "#000000",
+      "--fig-theme-border": "color-mix(in oklch, #FFFFFF, transparent 84%)",
+      "--fig-theme-border-hover": "color-mix(in oklch, #FFFFFF, transparent 46%)",
+      "--fig-theme-badge-bg": "color-mix(in oklch, #FFFFFF, transparent 84%)",
+      "--fig-theme-badge-fg": "#FFFFFF"
+    }
+  },
+  "semantic_colors": {
+    "light": {
+      "--fig-theme-badge-fg": "#000000",
+      "--fig-theme-bg": "#FFFFFF",
+      "--fig-theme-btn-primary-bg": "#000000",
+      "--fig-theme-btn-primary-fg": "#FFFFFF",
+      "--fig-theme-btn-secondary-fg": "#000000",
+      "--fig-theme-btn-transparent-fg": "#000000",
+      "--fig-theme-fg": "#000000",
+      "--fig-theme-form-error-bg": "#972121",
+      "--fig-theme-form-error-fg": "#FFFFFF",
+      "--global-statsig-overlay": "#FFFFFF"
+    },
+    "dark": {
+      "--fig-theme-badge-fg": "#FFFFFF",
+      "--fig-theme-bg": "#000000",
+      "--fig-theme-btn-primary-bg": "#FFFFFF",
+      "--fig-theme-btn-primary-fg": "#000000",
+      "--fig-theme-btn-secondary-fg": "#FFFFFF",
+      "--fig-theme-btn-transparent-fg": "#FFFFFF",
+      "--fig-theme-fg": "#FFFFFF",
+      "--fig-theme-form-error-bg": "#FFB3B3",
+      "--fig-theme-form-error-fg": "#000000"
+    },
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "generous corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "generous",
+    "type_mood": [
+      "mono accents"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {},
+  "z_index_rows": [],
+  "responsive": [
+    {
+      "at": "(hover: hover) and (pointer: fine)",
+      "selector": "body",
+      "change": "cursor: var(--global-cursor-default)"
+    },
+    {
+      "at": "(hover: hover) and (pointer: fine)",
+      "selector": "p, h1, h2, h3, h4, h5, h6, input[type=\"text\"], input[type=\"tel\"], input[type=\"em",
+      "change": "cursor: var(--global-cursor-text)"
+    },
+    {
+      "at": "(hover: hover) and (pointer: fine)",
+      "selector": "a, a *, button:not(.tooltip-btn), button:not(.tooltip-btn) *, select, input[type",
+      "change": "cursor: var(--global-cursor-pointer)"
+    },
+    {
+      "at": "(hover: hover) and (pointer: fine)",
+      "selector": "button[aria-disabled=\"true\"]",
+      "change": "pointer-events: none"
+    },
+    {
+      "at": "960px",
+      "selector": "p strong, ul strong, ol strong",
+      "change": "font-weight: 540"
+    },
+    {
+      "at": "960px",
+      "selector": "p strong, ul strong, ol strong",
+      "change": "font-variation-settings: \"wdth\" 98, \"wght\" 540"
+    },
+    {
+      "at": "960px",
+      "selector": "p strong em, ul strong em, ol strong em",
+      "change": "font-variation-settings: \"wdth\" 98, \"wght\" 540, \"slnt\" -6"
+    },
+    {
+      "at": "1920px",
+      "selector": "p, ul, ol",
+      "change": "font-size: 1.25rem"
+    },
+    {
+      "at": "1920px",
+      "selector": "p strong, ul strong, ol strong",
+      "change": "font-weight: 550"
+    },
+    {
+      "at": "1920px",
+      "selector": "p strong, ul strong, ol strong",
+      "change": "font-variation-settings: \"wdth\" 98, \"wght\" 550"
+    },
+    {
+      "at": "1920px",
+      "selector": "p strong em, ul strong em, ol strong em",
+      "change": "font-variation-settings: \"wdth\" 98, \"wght\" 550, \"slnt\" -6"
+    },
+    {
+      "at": "1920px",
+      "selector": "p code, ul code, ol code",
+      "change": "font-family: var(--global-font-mono, 'figmaMono', 'figmaMono Fallback', S"
+    },
+    {
+      "at": "1920px",
+      "selector": "p code, ul code, ol code",
+      "change": "font-size: 1.125rem"
+    },
+    {
+      "at": "1920px",
+      "selector": "p code, ul code, ol code",
+      "change": "font-variation-settings: \"wdth\" 98, \"wght\" 330, \"MONO\" 100"
+    },
+    {
+      "at": "(hover: hover) and (pointer: fine)",
+      "selector": "body",
+      "change": "cursor: var(--global-cursor-default)"
+    },
+    {
+      "at": "(hover: hover) and (pointer: fine)",
+      "selector": "p, h1, h2, h3, h4, h5, h6, input[type=\"text\"], input[type=\"tel\"], input[type=\"em",
+      "change": "cursor: var(--global-cursor-text)"
+    },
+    {
+      "at": "(hover: hover) and (pointer: fine)",
+      "selector": "a, a *, button:not(.tooltip-btn), button:not(.tooltip-btn) *, select, input[type",
+      "change": "cursor: var(--global-cursor-pointer)"
+    },
+    {
+      "at": "(hover: hover) and (pointer: fine)",
+      "selector": "button[aria-disabled=\"true\"]",
+      "change": "pointer-events: none"
+    },
+    {
+      "at": "960px",
+      "selector": "p strong, ul strong, ol strong",
+      "change": "font-weight: 540"
+    },
+    {
+      "at": "960px",
+      "selector": "p strong, ul strong, ol strong",
+      "change": "font-variation-settings: \"wdth\" 98, \"wght\" 540"
+    },
+    {
+      "at": "960px",
+      "selector": "p strong em, ul strong em, ol strong em",
+      "change": "font-variation-settings: \"wdth\" 98, \"wght\" 540, \"slnt\" -6"
+    },
+    {
+      "at": "1920px",
+      "selector": "p, ul, ol",
+      "change": "font-size: 1.25rem"
+    },
+    {
+      "at": "1920px",
+      "selector": "p strong, ul strong, ol strong",
+      "change": "font-weight: 550"
+    },
+    {
+      "at": "1920px",
+      "selector": "p strong, ul strong, ol strong",
+      "change": "font-variation-settings: \"wdth\" 98, \"wght\" 550"
+    },
+    {
+      "at": "1920px",
+      "selector": "p strong em, ul strong em, ol strong em",
+      "change": "font-variation-settings: \"wdth\" 98, \"wght\" 550, \"slnt\" -6"
+    },
+    {
+      "at": "1920px",
+      "selector": "p code, ul code, ol code",
+      "change": "font-family: var(--global-font-mono, 'figmaMono', 'figmaMono Fallback', S"
+    },
+    {
+      "at": "1920px",
+      "selector": "p code, ul code, ol code",
+      "change": "font-size: 1.125rem"
+    },
+    {
+      "at": "1920px",
+      "selector": "p code, ul code, ol code",
+      "change": "font-variation-settings: \"wdth\" 98, \"wght\" 330, \"MONO\" 100"
+    },
+    {
+      "at": "1280px",
+      "selector": ".fig-97erl1",
+      "change": "padding-block-start: 7.5rem"
+    },
+    {
+      "at": "1280px",
+      "selector": ".fig-97erl1",
+      "change": "padding-block-end: 7.5rem"
+    },
+    {
+      "at": "560px",
+      "selector": ".fig-87sfr2",
+      "change": "grid-template-columns: repeat(2, calc(var(--f-col-width) * 4))"
+    },
+    {
+      "at": "560px",
+      "selector": ".fig-87sfr2",
+      "change": "column-gap: calc(var(--f-col-width) * 2)"
+    },
+    {
+      "at": "768px",
+      "selector": ".fig-87sfr2",
+      "change": "grid-template-columns: repeat(2, calc(var(--f-col-width) * 8))"
+    },
+    {
+      "at": "960px",
+      "selector": ".fig-87sfr2",
+      "change": "grid-template-columns: repeat(3, calc(var(--f-col-width) * 10)) calc(var(--f-col-wi"
+    },
+    {
+      "at": "1280px",
+      "selector": ".fig-87sfr2",
+      "change": "grid-template-columns: calc(var(--f-col-width) * 13) repeat(4, calc(var(--f-col-wid"
+    },
+    {
+      "at": "560px",
+      "selector": ".fig-1pkcdmt",
+      "change": "grid-template-columns: repeat(2, calc(var(--f-col-width) * 4))"
+    },
+    {
+      "at": "560px",
+      "selector": ".fig-1pkcdmt",
+      "change": "column-gap: calc(var(--f-col-width) * 2)"
+    },
+    {
+      "at": "768px",
+      "selector": ".fig-1pkcdmt",
+      "change": "grid-template-columns: repeat(2, calc(var(--f-col-width) * 8))"
+    },
+    {
+      "at": "960px",
+      "selector": ".fig-1pkcdmt",
+      "change": "grid-template-columns: repeat(3, calc(var(--f-col-width) * 10)) calc(var(--f-col-wi"
+    },
+    {
+      "at": "1280px",
+      "selector": ".fig-1pkcdmt",
+      "change": "grid-template-columns: calc(var(--f-col-width) * 13) repeat(4, calc(var(--f-col-wid"
+    }
+  ]
+}

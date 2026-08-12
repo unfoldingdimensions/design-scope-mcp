@@ -1,0 +1,267 @@
+{
+  "url": "https://www.usemotion.com",
+  "captured": "2026-08-10T11:47:57+00:00",
+  "named_tokens": {
+    "light": {},
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "soft corners",
+      "elevated (soft shadows)"
+    ],
+    "flat": false,
+    "corner_style": "soft",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "modal": 1000,
+    "notification": 501,
+    "tooltip": 30
+  },
+  "z_index_rows": [
+    {
+      "role": "tooltip",
+      "selector": ".ez-consent dfn.enzuzo-gpc-tooltip-bar > .dfn-enzuzo-tooltip-bar",
+      "value": "30"
+    },
+    {
+      "role": "notification",
+      "selector": ".ez-consent .notification-main",
+      "value": "501"
+    },
+    {
+      "role": "notification",
+      "selector": ".ez-consent .notification-main .notification-button:focus-visible",
+      "value": "1"
+    },
+    {
+      "role": "tooltip",
+      "selector": ".ez-consent dfn.enzuzo-gpc-tooltip > .dfn-enzuzo-tooltip",
+      "value": "30"
+    },
+    {
+      "role": "modal",
+      "selector": ".ez-consent .enzuzo-modal-wrapper",
+      "value": "var(--ez-preferences-layer)"
+    },
+    {
+      "role": "modal",
+      "selector": ".ez-consent .enzuzo-cookie-modal",
+      "value": "1000"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "480px",
+      "selector": ".ez-consent .notification-main.notification-default",
+      "change": "flex-direction: column"
+    },
+    {
+      "at": "800px",
+      "selector": ".ez-consent .notification-main.notification-default .notification-buttons",
+      "change": "flex-direction: column"
+    },
+    {
+      "at": "1280px",
+      "selector": ".ez-consent .notification-main.notification-default .notification-buttons",
+      "change": "flex-wrap: nowrap"
+    },
+    {
+      "at": "480px",
+      "selector": ".ez-consent .notification-main.notification-default .closeTrigger",
+      "change": "padding-right: 0px"
+    },
+    {
+      "at": "800px",
+      "selector": ".ez-consent .notification-main.notification-default .button-edgeless",
+      "change": "border-top-width: medium"
+    },
+    {
+      "at": "800px",
+      "selector": ".ez-consent .notification-main.notification-default .button-edgeless",
+      "change": "border-right-width: medium"
+    },
+    {
+      "at": "800px",
+      "selector": ".ez-consent .notification-main.notification-default .button-edgeless",
+      "change": "border-bottom-width: medium"
+    },
+    {
+      "at": "800px",
+      "selector": ".ez-consent .notification-main.notification-default .button-edgeless",
+      "change": "border-left-width: medium"
+    },
+    {
+      "at": "800px",
+      "selector": ".ez-consent .notification-main.notification-default .button-edgeless",
+      "change": "border-top-style: none"
+    },
+    {
+      "at": "800px",
+      "selector": ".ez-consent .notification-main.notification-default .button-edgeless",
+      "change": "border-right-style: none"
+    },
+    {
+      "at": "480px",
+      "selector": ".ez-consent .notification-main.notification-default .button-edgeless",
+      "change": "width: 100%"
+    },
+    {
+      "at": "480px",
+      "selector": ".ez-consent .notification-main.notification-default .button-edgeless",
+      "change": "margin-top: 4px"
+    },
+    {
+      "at": "480px",
+      "selector": ".ez-consent .notification-main.notification-default .button-edgeless",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "480px",
+      "selector": ".ez-consent .notification-main.notification-default .button-edgeless",
+      "change": "margin-bottom: 4px"
+    },
+    {
+      "at": "480px",
+      "selector": ".ez-consent .notification-main.notification-default .button-edgeless",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "480px",
+      "selector": ".ez-consent .notification-main.notification-default .button-edgeless:last-of-typ",
+      "change": "margin-bottom: 0px"
+    },
+    {
+      "at": "480px",
+      "selector": ".ez-consent .notification-main.notification-default .close-banner-button",
+      "change": "margin-top: 0px"
+    },
+    {
+      "at": "480px",
+      "selector": ".ez-consent .notification-main.notification-default .close-banner-button",
+      "change": "margin-right: auto"
+    },
+    {
+      "at": "480px",
+      "selector": ".ez-consent .notification-main.notification-default .close-banner-button",
+      "change": "margin-bottom: 0px"
+    },
+    {
+      "at": "480px",
+      "selector": ".ez-consent .notification-main.notification-default .close-banner-button",
+      "change": "margin-left: auto"
+    },
+    {
+      "at": "480px",
+      "selector": ".ez-consent .notification-main.notification-default .close-banner-button",
+      "change": "position: relative"
+    },
+    {
+      "at": "480px",
+      "selector": ".ez-consent .notification-main.notification-default .close-banner-button",
+      "change": "right: 0px"
+    },
+    {
+      "at": "480px",
+      "selector": ".ez-consent .notification-main.notification-default-top",
+      "change": "flex-direction: column"
+    },
+    {
+      "at": "800px",
+      "selector": ".ez-consent .notification-main.notification-default-top .notification-buttons",
+      "change": "flex-direction: column"
+    },
+    {
+      "at": "1280px",
+      "selector": ".ez-consent .notification-main.notification-default-top .notification-buttons",
+      "change": "flex-wrap: nowrap"
+    },
+    {
+      "at": "480px",
+      "selector": ".ez-consent .notification-main.notification-default-top .closeTrigger",
+      "change": "padding-right: 0px"
+    },
+    {
+      "at": "800px",
+      "selector": ".ez-consent .notification-main.notification-default-top .button-edgeless",
+      "change": "border-top-width: medium"
+    },
+    {
+      "at": "800px",
+      "selector": ".ez-consent .notification-main.notification-default-top .button-edgeless",
+      "change": "border-right-width: medium"
+    },
+    {
+      "at": "800px",
+      "selector": ".ez-consent .notification-main.notification-default-top .button-edgeless",
+      "change": "border-bottom-width: medium"
+    },
+    {
+      "at": "800px",
+      "selector": ".ez-consent .notification-main.notification-default-top .button-edgeless",
+      "change": "border-left-width: medium"
+    },
+    {
+      "at": "800px",
+      "selector": ".ez-consent .notification-main.notification-default-top .button-edgeless",
+      "change": "border-top-style: none"
+    },
+    {
+      "at": "800px",
+      "selector": ".ez-consent .notification-main.notification-default-top .button-edgeless",
+      "change": "border-right-style: none"
+    },
+    {
+      "at": "480px",
+      "selector": ".ez-consent .notification-main.notification-default-top .button-edgeless",
+      "change": "width: 100%"
+    },
+    {
+      "at": "480px",
+      "selector": ".ez-consent .notification-main.notification-default-top .button-edgeless",
+      "change": "margin-top: 4px"
+    },
+    {
+      "at": "480px",
+      "selector": ".ez-consent .notification-main.notification-default-top .button-edgeless",
+      "change": "margin-right: 0px"
+    },
+    {
+      "at": "480px",
+      "selector": ".ez-consent .notification-main.notification-default-top .button-edgeless",
+      "change": "margin-bottom: 4px"
+    },
+    {
+      "at": "480px",
+      "selector": ".ez-consent .notification-main.notification-default-top .button-edgeless",
+      "change": "margin-left: 0px"
+    },
+    {
+      "at": "480px",
+      "selector": ".ez-consent .notification-main.notification-default-top .button-edgeless:last-of",
+      "change": "margin-bottom: 0px"
+    },
+    {
+      "at": "480px",
+      "selector": ".ez-consent .notification-main.notification-default-top .close-banner-button",
+      "change": "margin-top: 0px"
+    },
+    {
+      "at": "480px",
+      "selector": ".ez-consent .notification-main.notification-default-top .close-banner-button",
+      "change": "margin-right: auto"
+    }
+  ]
+}

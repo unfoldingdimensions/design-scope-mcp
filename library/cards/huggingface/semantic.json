@@ -1,0 +1,82 @@
+{
+  "url": "https://huggingface.co",
+  "captured": "2026-08-10T08:10:52+00:00",
+  "named_tokens": {
+    "light": {},
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "soft corners",
+      "elevated (soft shadows)"
+    ],
+    "flat": false,
+    "corner_style": "soft",
+    "type_mood": [
+      "mono accents"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {},
+  "z_index_rows": [],
+  "responsive": [
+    {
+      "at": "(forced-colors: active)",
+      "selector": ".codemirror-wrapper .cm-scroller, .codemirror-wrapper .cm-editor.cm-focused",
+      "change": "outline-offset: 2px"
+    },
+    {
+      "at": "(forced-colors: active)",
+      "selector": ".codemirror-wrapper .cm-scroller, .codemirror-wrapper .cm-editor.cm-focused",
+      "change": "outline-color: rgba(0, 0, 0, 0)"
+    },
+    {
+      "at": "(forced-colors: active)",
+      "selector": ".codemirror-wrapper .cm-scroller, .codemirror-wrapper .cm-editor.cm-focused",
+      "change": "outline-style: solid"
+    },
+    {
+      "at": "(forced-colors: active)",
+      "selector": ".codemirror-wrapper .cm-scroller, .codemirror-wrapper .cm-editor.cm-focused",
+      "change": "outline-width: 2px"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".icon-bucket-ping.svelte-ixbfa9",
+      "change": "animation-duration: auto"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".icon-bucket-ping.svelte-ixbfa9",
+      "change": "animation-timing-function: ease"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".icon-bucket-ping.svelte-ixbfa9",
+      "change": "animation-delay: 0s"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".icon-bucket-ping.svelte-ixbfa9",
+      "change": "animation-iteration-count: 1"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".icon-bucket-ping.svelte-ixbfa9",
+      "change": "animation-direction: normal"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".icon-bucket-ping.svelte-ixbfa9",
+      "change": "animation-fill-mode: none"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "url": "https://itch.io",
+  "captured": "2026-08-10T16:45:14+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "borderColor": {
+          "before": "rgba(0, 0, 0, 0) rgb(34, 34, 34)",
+          "after": "rgba(0, 0, 0, 0) rgb(34, 34, 34) rgb(255, 36, 73)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "borderColor": {
+          "before": "rgba(0, 0, 0, 0) rgb(34, 34, 34)",
+          "after": "rgba(0, 0, 0, 0) rgb(34, 34, 34) rgb(255, 36, 73)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 399,
+    "tabs": 1,
+    "accordions": 0,
+    "carousels": 1,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "div",
+      "classes": "index_header_tabs",
+      "text": "All GamesGame jamsDeveloper LogsCommunityBundles",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

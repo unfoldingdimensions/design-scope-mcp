@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<!-- design-scope translation test 2: Linear reference card → landing page
+     Tokens from library/cards/linear/fingerprint.json (captured 2026-08-09)
+     Motion vocabulary from captured session: card-motion.webm + motion tokens -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pulse — issue tracking, rethought</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  /* ── design tokens (from Linear fingerprint.json) ─────────────────────── */
+  :root {
+    --bg: #08090A;            /* background rgb(8,9,10) — near-black */
+    --surface: #0F1011;
+    --surface-raised: #16181A;
+    --border: #23262A;
+    --text: #F7F8F8;          /* text rgb(247,248,248) */
+    --text-muted: #8A8F98;    /* neutral #8a8f98 */
+    --text-dim: #62666D;      /* neutral #62666d */
+    --green: #27A644;         /* primary rgb(39,166,68) — status accent */
+    --yellow: #F0BF00;        /* accent — priority */
+    --lime: #E4F222;          /* secondary rgb(228,242,34) — brand pop */
+    --red: #EB5757;           /* accent rgb(235,87,87) */
+    --radius: 2px;            /* Linear's sharp corners (2px dominant) */
+    --radius-control: 4px;
+    /* Linear motion: ease (2198 uses) + cubic-bezier(0.25,0.46,0.45,0.94) (97) */
+    --ease-linear: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    --ease: ease;
+    --font: "Inter", -apple-system, "Segoe UI", Roboto, sans-serif;
+    --mono: "JetBrains Mono", "SF Mono", Consolas, monospace;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  html { scroll-behavior: smooth; }
+  body { font-family: var(--font); background: var(--bg); color: var(--text); font-size: 16px; line-height: 1.5; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+  a { color: inherit; }
+  ::selection { background: rgba(231, 242, 34, 0.25); }
+
+  /* grid-dot backdrop — Linear's signature dotted grid */
+  .dot-grid {
+    position: fixed; inset: 0; z-index: -1; pointer-events: none;
+    background-image: radial-gradient(circle, rgba(247,248,248,0.07) 1px, transparent 1px);
+    background-size: 24px 24px;
+    mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, black 30%, transparent 75%);
+    -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, black 30%, transparent 75%);
+  }
+
+  /* ── nav ─────────────────────────────────────────────────────────────── */
+  .nav { display: flex; align-items: center; justify-content: space-between; padding: 16px 32px; position: sticky; top: 0; background: rgba(8,9,10,0.8); backdrop-filter: blur(12px); z-index: 50; border-bottom: 1px solid transparent; }
+  .nav.scrolled { border-bottom-color: var(--border); }
+  .nav .logo { font-weight: 700; font-size: 17px; letter-spacing: -0.02em; display: flex; align-items: center; gap: 10px; }
+  .nav .logo .mark { width: 22px; height: 22px; border: 1.5px solid var(--text); transform: rotate(45deg); border-radius: 4px; }
+  .nav-links { display: flex; gap: 28px; align-items: center; }
+  .nav-links a { text-decoration: none; font-size: 14px; color: var(--text-muted); transition: color 0.2s var(--ease-linear); position: relative; padding: 4px 0; }
+  .nav-links a:hover { color: var(--text); }
+  .nav-links a:focus-visible, .btn:focus-visible, .primary-btn:focus-visible, .demo:focus-visible, footer a:focus-visible { outline: 2px solid var(--lime); outline-offset: 3px; border-radius: 2px; }
+  .btn { background: transparent; color: var(--text); border: 1px solid var(--border); border-radius: var(--radius-control); padding: 8px 16px; font-family: var(--font); font-size: 14px; font-weight: 500; cursor: pointer; transition: border-color 0.2s var(--ease-linear), color 0.2s var(--ease-linear), background 0.2s var(--ease-linear); }
+  .btn:hover { border-color: var(--text-dim); background: var(--surface-raised); }
+  .primary-btn { background: var(--text); color: var(--bg); border: none; border-radius: var(--radius-control); padding: 8px 18px; font-family: var(--font); font-size: 14px; font-weight: 600; cursor: pointer; transition: transform 0.2s var(--ease-linear), box-shadow 0.2s var(--ease-linear), opacity 0.2s var(--ease-linear); }
+  .primary-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 16px rgba(247,248,248,0.15); opacity: 0.92; }
+  .primary-btn:active { transform: translateY(0); }
+
+  /* ── hero ────────────────────────────────────────────────────────────── */
+  .hero { padding: 120px 32px 80px; text-align: center; position: relative; }
+  .hero .eyebrow { font-family: var(--mono); font-size: 13px; color: var(--lime); letter-spacing: 0.06em; text-transform: uppercase; }
+  .hero h1 { font-size: clamp(40px, 7vw, 72px); font-weight: 500; line-height: 1.0; letter-spacing: -0.03em; margin: 20px auto 24px; max-width: 900px; }
+  .hero h1 .accent { color: var(--text-muted); }
+  .hero .sub { font-size: clamp(18px, 2.4vw, 24px); font-weight: 400; color: var(--text-muted); max-width: 620px; margin: 0 auto; line-height: 1.33; }
+  .hero .cta-row { display: flex; gap: 12px; justify-content: center; margin-top: 36px; }
+  .hero .mono-note { font-family: var(--mono); font-size: 12px; color: var(--text-dim); margin-top: 24px; }
+
+  /* status dots — Linear's pulsing status language */
+  .status-row { display: flex; gap: 32px; justify-content: center; margin-top: 56px; flex-wrap: wrap; }
+  .status { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--text-muted); font-family: var(--mono); }
+  .dot { width: 8px; height: 8px; border-radius: 50%; }
+  .dot.green { background: var(--green); animation: pulse-green 2.4s var(--ease-linear) infinite; }
+  .dot.yellow { background: var(--yellow); animation: pulse-yellow 2.4s var(--ease-linear) infinite 0.3s; }
+  .dot.red { background: var(--red); animation: pulse-red 2.4s var(--ease-linear) infinite 0.6s; }
+  @keyframes pulse-green { 0%, 100% { box-shadow: 0 0 0 0 rgba(39,166,68,0.4); } 50% { box-shadow: 0 0 0 6px rgba(39,166,68,0); } }
+  @keyframes pulse-yellow { 0%, 100% { box-shadow: 0 0 0 0 rgba(240,191,0,0.4); } 50% { box-shadow: 0 0 0 6px rgba(240,191,0,0); } }
+  @keyframes pulse-red { 0%, 100% { box-shadow: 0 0 0 0 rgba(235,87,87,0.4); } 50% { box-shadow: 0 0 0 6px rgba(235,87,87,0); } }
+
+  /* ── features — Linear-style dense rows, not tile grid ──────────────── */
+  .section { max-width: 1100px; margin: 0 auto; padding: 64px 32px; }
+  .section h2 { font-size: clamp(28px, 4vw, 40px); font-weight: 500; letter-spacing: -0.02em; line-height: 1.05; margin-bottom: 48px; }
+  .feature-row { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px; }
+  .feature-row.flip .feature-visual { order: 2; }
+  .feature-visual { border-radius: var(--radius); border: 1px solid var(--border); background: var(--surface); padding: 28px; display: grid; place-items: center; min-height: 280px; position: relative; overflow: hidden; }
+  .feature-visual .screen { width: 100%; max-width: 380px; }
+  .feature-body { display: flex; flex-direction: column; justify-content: center; }
+  .feature-body h3 { font-size: 20px; font-weight: 600; margin-bottom: 10px; }
+  .feature-body p { color: var(--text-muted); font-size: 15px; line-height: 1.6; max-width: 42ch; }
+  .feature-body .tag { font-family: var(--mono); font-size: 11px; color: var(--lime); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 12px; }
+
+  /* mini product mock — the "screenshot" inside the visual */
+  .mock { width: 100%; background: var(--surface-raised); border: 1px solid var(--border); border-radius: 2px; overflow: hidden; }
+  .mock .bar { display: flex; gap: 6px; padding: 10px 12px; border-bottom: 1px solid var(--border); align-items: center; }
+  .mock .bar .chip { font-family: var(--mono); font-size: 10px; color: var(--text-dim); border: 1px solid var(--border); border-radius: 2px; padding: 2px 6px; }
+  .mock .bar .chip.green { color: var(--green); border-color: rgba(39,166,68,0.4); }
+  .mock .rows { padding: 12px; display: grid; gap: 8px; }
+  .mock .row { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 2px; border: 1px solid transparent; transition: border-color 0.2s var(--ease-linear), background 0.2s var(--ease-linear); }
+  .mock .row:hover { border-color: var(--border); background: var(--surface); }
+  .mock .row .status { width: 7px; height: 7px; border-radius: 50%; flex: none; }
+  .mock .row .txt { flex: 1; height: 8px; background: var(--text-dim); opacity: 0.4; border-radius: 1px; }
+  .mock .row .txt.wide { width: 70%; }
+  .mock .row .id { font-family: var(--mono); font-size: 10px; color: var(--text-dim); }
+
+  /* ── metrics band — data-forward, Linear register ────────────────────── */
+  .metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 40px 0; margin-top: 24px; }
+  .metric .num { font-size: 36px; font-weight: 500; letter-spacing: -0.02em; font-family: var(--mono); }
+  .metric .label { font-size: 13px; color: var(--text-dim); margin-top: 4px; font-family: var(--mono); }
+  .metric .num.green { color: var(--green); }
+  .metric .num.lime { color: var(--lime); }
+
+  /* ── CTA band ────────────────────────────────────────────────────────── */
+  .band { text-align: center; padding: 96px 32px; position: relative; }
+  .band h2 { font-size: clamp(30px, 5vw, 48px); font-weight: 500; letter-spacing: -0.02em; line-height: 1.05; }
+  .band p { color: var(--text-muted); margin-top: 16px; font-size: 16px; }
+
+  /* ── footer ──────────────────────────────────────────────────────────── */
+  footer { border-top: 1px solid var(--border); padding: 40px 32px; display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
+  footer .cols { display: flex; gap: 56px; }
+  footer h4 { font-size: 13px; font-weight: 600; margin-bottom: 12px; }
+  footer a { display: block; font-size: 13px; color: var(--text-dim); text-decoration: none; padding: 2px 0; transition: color 0.2s var(--ease-linear); }
+  footer a:hover { color: var(--text); }
+  footer .legal { font-family: var(--mono); font-size: 12px; color: var(--text-dim); }
+
+  /* entrance: stagger-in (Linear's captured animation vocabulary) */
+  .stagger > * { opacity: 0; transform: translateY(14px); animation: stagger-in 0.7s var(--ease-linear) forwards; }
+  .stagger > *:nth-child(1) { animation-delay: 0.05s; }
+  .stagger > *:nth-child(2) { animation-delay: 0.12s; }
+  .stagger > *:nth-child(3) { animation-delay: 0.19s; }
+  .stagger > *:nth-child(4) { animation-delay: 0.26s; }
+  .stagger > *:nth-child(5) { animation-delay: 0.33s; }
+  .stagger > *:nth-child(6) { animation-delay: 0.4s; }
+  @keyframes stagger-in { to { opacity: 1; transform: translateY(0); } }
+
+  .reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.7s var(--ease-linear), transform 0.7s var(--ease-linear); }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+
+  /* reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+    .stagger > *, .reveal { opacity: 1 !important; transform: none !important; }
+  }
+
+  /* responsive */
+  @media (max-width: 760px) {
+    .nav { padding: 14px 20px; }
+    .nav-links a { display: none; }
+    .hero { padding: 80px 20px 56px; }
+    .feature-row { grid-template-columns: 1fr; }
+    .feature-row.flip .feature-visual { order: 0; }
+    .feature-visual { min-height: 200px; }
+    .metrics { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+    .section { padding: 48px 20px; }
+    .band { padding: 64px 20px; }
+  }
+</style>
+</head>
+<body>
+<div class="dot-grid"></div>
+
+<nav class="nav" id="nav">
+  <div class="logo"><span class="mark"></span>pulse</div>
+  <div class="nav-links">
+    <a href="#features">Product</a><a href="#metrics">Metrics</a><a href="#">Changelog</a><a href="#">Docs</a>
+    <button class="btn">Log in</button>
+    <button class="primary-btn">Get started</button>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="stagger">
+    <div class="eyebrow">Pulse · issue tracking</div>
+    <h1>The issue tracker<br><span class="accent">for high-velocity teams</span></h1>
+    <p class="sub">Plan, track, and ship with an interface engineered for speed — keyboard-first, beautifully fast, and opinionated.</p>
+    <div class="cta-row">
+      <button class="primary-btn">Get started</button>
+      <button class="btn">View demo</button>
+    </div>
+    <div class="mono-note">No credit card required · Free for 5 users</div>
+  </div>
+  <div class="status-row">
+    <span class="status"><span class="dot green"></span>All systems operational</span>
+    <span class="status"><span class="dot yellow"></span>2 urgent issues</span>
+    <span class="status"><span class="dot red"></span>1 blocked</span>
+  </div>
+</section>
+
+<section class="section" id="features">
+  <h2>Everything you need<br>to ship faster</h2>
+  <div class="feature-row">
+    <div class="feature-visual">
+      <div class="mock">
+        <div class="bar"><span class="chip">PUL-1</span><span class="chip green">in progress</span><span class="chip">~4h</span></div>
+        <div class="rows">
+          <div class="row"><span class="status" style="background:var(--green)"></span><span class="txt wide"></span><span class="id">PUL-42</span></div>
+          <div class="row"><span class="status" style="background:var(--yellow)"></span><span class="txt"></span><span class="id">PUL-43</span></div>
+          <div class="row"><span class="status" style="background:var(--red)"></span><span class="txt"></span><span class="id">PUL-44</span></div>
+          <div class="row"><span class="status" style="background:var(--text-dim)"></span><span class="txt wide"></span><span class="id">PUL-45</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="feature-body">
+      <div class="tag">Keyboard-first</div>
+      <h3>Speed you can feel</h3>
+      <p>Every action has a shortcut. Navigate, triage, and update issues without leaving the keyboard — because flow state is where work happens.</p>
+    </div>
+  </div>
+  <div class="feature-row flip">
+    <div class="feature-visual">
+      <div class="mock">
+        <div class="bar"><span class="chip">Sprint 24</span><span class="chip green">8/12 done</span></div>
+        <div class="rows">
+          <div class="row"><span class="status" style="background:var(--green)"></span><span class="txt wide"></span><span class="id">~2d</span></div>
+          <div class="row"><span class="status" style="background:var(--green)"></span><span class="txt"></span><span class="id">~1d</span></div>
+          <div class="row"><span class="status" style="background:var(--yellow)"></span><span class="txt"></span><span class="id">~3d</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="feature-body">
+      <div class="tag">Cycle planning</div>
+      <h3>Plan in cycles, not chaos</h3>
+      <p>Break work into focused cycles with automatic scope warnings. Keep the team aligned on what matters this week — and what can wait.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="metrics">
+  <div class="metrics stagger">
+    <div class="metric"><div class="num green">40%</div><div class="label">faster shipping</div></div>
+    <div class="metric"><div class="num">3.2×</div><div class="label">throughput gain</div></div>
+    <div class="metric"><div class="num lime">99.9%</div><div class="label">uptime</div></div>
+    <div class="metric"><div class="num">12k</div><div class="label">teams onboard</div></div>
+  </div>
+</section>
+
+<div class="band reveal" id="cta">
+  <h2>Start shipping<br>at light speed</h2>
+  <p>Join teams who made the switch. Free forever for small teams.</p>
+  <div class="cta-row" style="margin-top:28px; display:flex; gap:12px; justify-content:center;">
+    <button class="primary-btn">Get started</button>
+    <button class="btn">Talk to sales</button>
+  </div>
+</div>
+
+<footer>
+  <div class="cols">
+    <div><h4>Product</h4><a href="#">Features</a><a href="#">Pricing</a><a href="#">Changelog</a></div>
+    <div><h4>Company</h4><a href="#">About</a><a href="#">Careers</a><a href="#">Blog</a></div>
+    <div><h4>Resources</h4><a href="#">Docs</a><a href="#">API</a><a href="#">Community</a></div>
+  </div>
+  <div class="legal">© 2026 Pulse · design translated from a captured Linear reference</div>
+</footer>
+
+<script>
+  // nav border on scroll
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 10), { passive: true });
+
+  // scroll-reveal (Linear-style reveal on scroll)
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
+  }, { threshold: 0.15 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>

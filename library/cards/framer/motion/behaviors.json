@@ -1,0 +1,105 @@
+{
+  "url": "https://www.framer.com",
+  "captured": "2026-08-09T15:54:48+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "opacity": {
+          "before": "0.6",
+          "after": "1"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "opacity": {
+          "before": "0.6",
+          "after": "1"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 3,
+      "diffs": {
+        "color": {
+          "before": "rgba(255, 255, 255, 0.6)",
+          "after": "rgb(255, 255, 255)"
+        },
+        "borderColor": {
+          "before": "rgba(255, 255, 255, 0.6)",
+          "after": "rgb(255, 255, 255)"
+        },
+        "outline": {
+          "before": "rgba(255, 255, 255, 0.6) none 3px",
+          "after": "rgb(255, 255, 255) none 3px"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "header.framer-1jlb7t0",
+      "diffs": {
+        "top": "64 → -3536"
+      }
+    },
+    {
+      "selector": "header.framer-b98irc",
+      "diffs": {
+        "top": "1401 → -2199"
+      }
+    },
+    {
+      "selector": "header.framer-ihc3yh",
+      "diffs": {
+        "top": "4518 → 918"
+      }
+    },
+    {
+      "selector": "header.framer-2or15l",
+      "diffs": {
+        "top": "6335 → 2735"
+      }
+    },
+    {
+      "selector": "header.framer-2slawz",
+      "diffs": {
+        "top": "7573 → 3973"
+      }
+    },
+    {
+      "selector": "header.framer-8y299w",
+      "diffs": {
+        "top": "8392 → 4792"
+      }
+    },
+    {
+      "selector": "header.framer-fd1hfd",
+      "diffs": {
+        "top": "9628 → 6028"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 150,
+    "tabs": 0,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 21
+  },
+  "states": []
+}

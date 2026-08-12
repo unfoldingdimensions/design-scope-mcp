@@ -1,0 +1,513 @@
+{
+  "url": "https://modal.com",
+  "captured": "2026-08-10T09:12:30+00:00",
+  "named_tokens": {
+    "light": {
+      "--normal-bg": "#fff",
+      "--normal-border": "var(--gray4)",
+      "--normal-text": "var(--gray12)",
+      "--success-bg": "#ecfdf3",
+      "--success-border": "#d3fde5",
+      "--success-text": "#008a2e",
+      "--info-bg": "#f0f8ff",
+      "--info-border": "#d3e0fd",
+      "--info-text": "#0973dc",
+      "--warning-bg": "#fffcf0",
+      "--warning-border": "#fdf5d3",
+      "--warning-text": "#dc7609",
+      "--error-bg": "#fff0f0",
+      "--error-border": "#ffe0e1",
+      "--error-text": "#e60000",
+      "--semantic-background-ground": "var(--color-raw-gray-95)",
+      "--semantic-background-ground-hover": "var(--color-raw-gray-90)",
+      "--semantic-background-ground-active": "var(--color-raw-gray-85)",
+      "--semantic-background-ground-disabled": "var(--color-raw-gray-90)",
+      "--semantic-background-recessed": "var(--color-raw-gray-92)",
+      "--semantic-background-elevated": "var(--color-raw-gray-100)",
+      "--semantic-background-dialog": "var(--color-raw-gray-100)",
+      "--semantic-background-overlay": "var(--color-raw-gray-100)",
+      "--semantic-background-floating": "var(--color-raw-gray-100)",
+      "--semantic-background-primary-hover": "var(--color-raw-gray-00-opacity-6)",
+      "--semantic-background-primary-active": "var(--color-raw-gray-00-opacity-10)",
+      "--semantic-background-secondary": "var(--color-raw-gray-85)",
+      "--semantic-background-secondary-hover": "var(--color-raw-gray-80)",
+      "--semantic-background-secondary-active": "var(--color-raw-gray-70)",
+      "--semantic-background-secondary-disabled": "var(--color-raw-gray-90)",
+      "--semantic-background-inverse": "var(--color-raw-gray-00)",
+      "--semantic-background-accent": "var(--color-raw-green-95)",
+      "--semantic-background-accent-hover": "var(--color-raw-green-90)",
+      "--semantic-background-accent-active": "var(--color-raw-green-85)",
+      "--semantic-background-accent-selected": "var(--color-raw-green-60)",
+      "--semantic-background-accent-bold": "var(--color-raw-green-70)",
+      "--semantic-background-danger": "var(--color-raw-red-95)",
+      "--semantic-background-danger-hover": "var(--color-raw-red-90)",
+      "--semantic-background-danger-active": "var(--color-raw-red-85)",
+      "--semantic-background-success": "var(--color-raw-green-90)",
+      "--semantic-background-warning": "var(--color-raw-orange-95)",
+      "--semantic-background-warning-hover": "var(--color-raw-orange-90)",
+      "--semantic-background-warning-active": "var(--color-raw-orange-80)",
+      "--semantic-background-running": "var(--color-raw-pink-100)",
+      "--semantic-background-pending": "var(--color-raw-gray-90)",
+      "--semantic-background-caution": "var(--color-raw-yellow-95)",
+      "--semantic-background-caution-hover": "var(--color-raw-yellow-90)",
+      "--semantic-background-caution-active": "var(--color-raw-yellow-85)",
+      "--semantic-background-informational": "var(--color-raw-blue-95)",
+      "--semantic-text-primary": "var(--color-raw-gray-10)",
+      "--semantic-text-primary-hover": "var(--color-raw-gray-40)",
+      "--semantic-text-primary-active": "var(--color-raw-gray-00)",
+      "--semantic-text-primary-disabled": "var(--color-raw-gray-45)",
+      "--semantic-text-secondary": "var(--color-raw-gray-20)",
+      "--semantic-text-secondary-hover": "var(--color-raw-gray-10)",
+      "--semantic-text-tertiary": "var(--color-raw-gray-45)",
+      "--semantic-text-accent": "var(--color-raw-green-35)",
+      "--semantic-text-accent-hover": "var(--color-raw-green-30)",
+      "--semantic-text-accent-active": "var(--color-raw-green-30)",
+      "--semantic-text-danger": "var(--color-raw-red-50)",
+      "--semantic-text-success": "var(--color-raw-green-05)",
+      "--semantic-text-warning": "var(--color-raw-orange-30)",
+      "--semantic-text-running": "var(--color-raw-pink-45)",
+      "--semantic-text-pending": "var(--color-raw-gray-40)",
+      "--semantic-text-caution": "var(--color-raw-yellow-45)",
+      "--semantic-text-informational": "var(--color-raw-blue-50)",
+      "--semantic-text-inverse": "var(--color-raw-gray-100)",
+      "--semantic-icon-primary": "var(--color-raw-gray-50)",
+      "--semantic-icon-primary-hover": "var(--color-raw-gray-40)",
+      "--semantic-icon-primary-active": "var(--color-raw-gray-00)",
+      "--semantic-icon-secondary": "var(--color-raw-gray-40)",
+      "--semantic-icon-secondary-hover": "var(--color-raw-gray-35)",
+      "--semantic-icon-accent": "var(--color-raw-green-60)",
+      "--semantic-icon-accent-hover": "var(--color-raw-green-35)",
+      "--semantic-icon-accent-active": "var(--color-raw-green-35)",
+      "--semantic-icon-danger": "var(--color-raw-red-50)",
+      "--semantic-icon-success": "var(--color-raw-green-15)",
+      "--semantic-icon-warning": "var(--color-raw-orange-45)",
+      "--semantic-icon-running": "var(--color-raw-pink-55)",
+      "--semantic-icon-pending": "var(--color-raw-gray-60)",
+      "--semantic-icon-caution": "var(--color-raw-yellow-55)",
+      "--semantic-icon-informational": "var(--color-raw-blue-80)",
+      "--semantic-icon-inverse": "var(--color-raw-gray-100)",
+      "--semantic-icon-tertiary": "var(--color-raw-gray-60)",
+      "--semantic-border-primary": "var(--color-raw-gray-60)",
+      "--semantic-border-primary-hover": "var(--color-raw-gray-50)",
+      "--semantic-border-primary-focus": "var(--color-raw-gray-20)",
+      "--semantic-border-secondary": "var(--color-raw-gray-80)",
+      "--semantic-border-recessed": "var(--color-raw-gray-80)",
+      "--semantic-border-elevated": "var(--color-raw-gray-85)",
+      "--semantic-border-divider": "var(--color-raw-gray-85)",
+      "--semantic-border-accent": "var(--color-raw-green-70)",
+      "--semantic-border-accent-hover": "var(--color-raw-green-60)",
+      "--semantic-border-accent-active": "var(--color-raw-green-60)",
+      "--semantic-border-accent-selected": "var(--color-raw-green-60)",
+      "--semantic-border-danger": "var(--color-raw-red-60)",
+      "--semantic-border-danger-hover": "var(--color-raw-red-60)",
+      "--semantic-border-danger-focus": "var(--color-raw-red-50)",
+      "--semantic-border-success": "var(--color-raw-green-55)",
+      "--semantic-border-warning": "var(--color-raw-orange-55)",
+      "--semantic-border-running": "var(--color-raw-pink-65)",
+      "--semantic-border-caution": "var(--color-raw-yellow-70)",
+      "--semantic-border-informational": "var(--color-raw-blue-80)"
+    },
+    "dark": {
+      "--normal-bg": "#fff",
+      "--normal-border": "var(--gray3)",
+      "--normal-text": "var(--gray12)",
+      "--success-bg": "#001f0f",
+      "--success-border": "#003d1c",
+      "--success-text": "#59f3a6",
+      "--info-bg": "#000d1f",
+      "--info-border": "#00113d",
+      "--info-text": "#5896f3",
+      "--warning-bg": "#1d1f00",
+      "--warning-border": "#3d3d00",
+      "--warning-text": "#f3cf58",
+      "--error-bg": "#2d0607",
+      "--error-border": "#4d0408",
+      "--error-text": "#ff9ea1",
+      "--semantic-background-ground": "var(--color-raw-gray-00)",
+      "--semantic-background-ground-hover": "var(--color-raw-gray-15)",
+      "--semantic-background-ground-active": "var(--color-raw-gray-20)",
+      "--semantic-background-ground-disabled": "var(--color-raw-gray-10)",
+      "--semantic-background-recessed": "var(--color-raw-gray-00)",
+      "--semantic-background-elevated": "var(--color-raw-gray-08)",
+      "--semantic-background-dialog": "var(--color-raw-gray-08)",
+      "--semantic-background-overlay": "var(--color-raw-gray-05)",
+      "--semantic-background-floating": "var(--color-raw-gray-15)",
+      "--semantic-background-primary-hover": "var(--color-raw-gray-100-opacity-6)",
+      "--semantic-background-primary-active": "var(--color-raw-gray-100-opacity-10)",
+      "--semantic-background-secondary": "var(--color-raw-gray-20)",
+      "--semantic-background-secondary-hover": "var(--color-raw-gray-30)",
+      "--semantic-background-secondary-active": "var(--color-raw-gray-35)",
+      "--semantic-background-secondary-disabled": "var(--color-raw-gray-15)",
+      "--semantic-background-inverse": "var(--color-raw-gray-100)",
+      "--semantic-background-accent": "var(--color-raw-green-00)",
+      "--semantic-background-accent-hover": "var(--color-raw-green-10)",
+      "--semantic-background-accent-active": "var(--color-raw-green-20)",
+      "--semantic-background-accent-selected": "var(--color-raw-green-80)",
+      "--semantic-background-accent-bold": "var(--color-raw-green-80)",
+      "--semantic-background-danger": "var(--color-raw-red-10)",
+      "--semantic-background-danger-hover": "var(--color-raw-red-15)",
+      "--semantic-background-danger-active": "var(--color-raw-red-20)",
+      "--semantic-background-success": "var(--color-raw-green-05)",
+      "--semantic-background-warning": "var(--color-raw-orange-10)",
+      "--semantic-background-warning-hover": "var(--color-raw-orange-15)",
+      "--semantic-background-warning-active": "var(--color-raw-orange-20)",
+      "--semantic-background-running": "var(--color-raw-pink-10)",
+      "--semantic-background-pending": "var(--color-raw-gray-20)",
+      "--semantic-background-caution": "var(--color-raw-yellow-10)",
+      "--semantic-background-caution-hover": "var(--color-raw-yellow-15)",
+      "--semantic-background-caution-active": "var(--color-raw-yellow-20)",
+      "--semantic-background-informational": "var(--color-raw-blue-10)",
+      "--semantic-text-primary": "var(--color-raw-gray-70)",
+      "--semantic-text-primary-hover": "var(--color-raw-gray-60)",
+      "--semantic-text-primary-active": "var(--color-raw-gray-100)",
+      "--semantic-text-primary-disabled": "var(--color-raw-gray-40)",
+      "--semantic-text-secondary": "var(--color-raw-gray-50)",
+      "--semantic-text-secondary-hover": "var(--color-raw-gray-70)",
+      "--semantic-text-tertiary": "var(--color-raw-gray-40)",
+      "--semantic-text-accent": "var(--color-raw-green-50)",
+      "--semantic-text-accent-hover": "var(--color-raw-green-80)",
+      "--semantic-text-accent-active": "var(--color-raw-green-80)",
+      "--semantic-text-danger": "var(--color-raw-red-75)",
+      "--semantic-text-success": "var(--color-raw-green-50)",
+      "--semantic-text-warning": "var(--color-raw-orange-50)",
+      "--semantic-text-running": "var(--color-raw-pink-60)",
+      "--semantic-text-pending": "var(--color-raw-gray-90)",
+      "--semantic-text-caution": "var(--color-raw-yellow-60)",
+      "--semantic-text-informational": "var(--color-raw-blue-60)",
+      "--semantic-text-inverse": "var(--color-raw-gray-00)",
+      "--semantic-icon-primary": "var(--color-raw-gray-40)",
+      "--semantic-icon-primary-hover": "var(--color-raw-gray-60)",
+      "--semantic-icon-primary-active": "var(--color-raw-gray-100)",
+      "--semantic-icon-secondary": "var(--color-raw-gray-50)",
+      "--semantic-icon-secondary-hover": "var(--color-raw-gray-70)",
+      "--semantic-icon-accent": "var(--color-raw-green-50)",
+      "--semantic-icon-accent-hover": "var(--color-raw-green-80)",
+      "--semantic-icon-accent-active": "var(--color-raw-green-80)",
+      "--semantic-icon-danger": "var(--color-raw-red-65)",
+      "--semantic-icon-success": "var(--color-raw-green-65)",
+      "--semantic-icon-warning": "var(--color-raw-orange-40)",
+      "--semantic-icon-running": "var(--color-raw-pink-40)",
+      "--semantic-icon-pending": "var(--color-raw-gray-50)",
+      "--semantic-icon-caution": "var(--color-raw-yellow-60)",
+      "--semantic-icon-informational": "var(--color-raw-blue-60)",
+      "--semantic-icon-inverse": "var(--color-raw-gray-00)",
+      "--semantic-icon-tertiary": "var(--color-raw-gray-30)",
+      "--semantic-border-primary": "var(--color-raw-gray-30)",
+      "--semantic-border-primary-hover": "var(--color-raw-gray-45)",
+      "--semantic-border-primary-focus": "var(--color-raw-gray-100)",
+      "--semantic-border-secondary": "var(--color-raw-gray-20)",
+      "--semantic-border-recessed": "var(--color-raw-gray-20)",
+      "--semantic-border-elevated": "var(--color-raw-gray-08)",
+      "--semantic-border-divider": "var(--color-raw-gray-15)",
+      "--semantic-border-accent": "var(--color-raw-green-15)",
+      "--semantic-border-accent-hover": "var(--color-raw-green-80)",
+      "--semantic-border-accent-active": "var(--color-raw-green-80)",
+      "--semantic-border-accent-selected": "var(--color-raw-green-80)",
+      "--semantic-border-danger": "var(--color-raw-red-30)",
+      "--semantic-border-danger-hover": "var(--color-raw-red-30)",
+      "--semantic-border-danger-focus": "var(--color-raw-red-65)",
+      "--semantic-border-success": "var(--color-raw-green-15)",
+      "--semantic-border-warning": "var(--color-raw-orange-20)",
+      "--semantic-border-running": "var(--color-raw-pink-30)",
+      "--semantic-border-caution": "var(--color-raw-yellow-60)",
+      "--semantic-border-informational": "var(--color-raw-blue-60)"
+    }
+  },
+  "semantic_colors": {
+    "light": {
+      "--error-bg": "#fff0f0",
+      "--error-border": "#ffe0e1",
+      "--error-text": "#e60000",
+      "--info-bg": "#f0f8ff",
+      "--info-border": "#d3e0fd",
+      "--info-text": "#0973dc",
+      "--normal-bg": "#fff",
+      "--success-bg": "#ecfdf3",
+      "--success-border": "#d3fde5",
+      "--success-text": "#008a2e",
+      "--warning-bg": "#fffcf0",
+      "--warning-border": "#fdf5d3",
+      "--warning-text": "#dc7609"
+    },
+    "dark": {
+      "--error-bg": "#2d0607",
+      "--error-border": "#4d0408",
+      "--error-text": "#ff9ea1",
+      "--info-bg": "#000d1f",
+      "--info-border": "#00113d",
+      "--info-text": "#5896f3",
+      "--normal-bg": "#fff",
+      "--success-bg": "#001f0f",
+      "--success-border": "#003d1c",
+      "--success-text": "#59f3a6",
+      "--warning-bg": "#1d1f00",
+      "--warning-border": "#3d3d00",
+      "--warning-text": "#f3cf58"
+    },
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "generous corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "generous",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "toast": 999999999,
+    "overlay": 30,
+    "tooltip": 30
+  },
+  "z_index_rows": [
+    {
+      "role": "overlay",
+      "selector": ".shimmer-overlay.svelte-crun1t",
+      "value": "10"
+    },
+    {
+      "role": "toast",
+      "selector": ":where([data-sonner-toaster])",
+      "value": "999999999"
+    },
+    {
+      "role": "toast",
+      "selector": ":where([data-sonner-toast])",
+      "value": "var(--z-index)"
+    },
+    {
+      "role": "toast",
+      "selector": ":where([data-sonner-toast]) :where([data-close-button])",
+      "value": "1"
+    },
+    {
+      "role": "toast",
+      "selector": ":where([data-sonner-toast][data-swiping=\"true\"])::before",
+      "value": "-1"
+    },
+    {
+      "role": "tooltip",
+      "selector": ".popper-tooltip",
+      "value": "30"
+    },
+    {
+      "role": "overlay",
+      "selector": ".medium-zoom-overlay, .medium-zoom-image--opened",
+      "value": "30"
+    },
+    {
+      "role": "overlay",
+      "selector": ".gradient-overlay-top.svelte-rd2v6r",
+      "value": "2"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".shimmer-overlay.svelte-crun1t::after",
+      "change": "animation-duration: auto"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".shimmer-overlay.svelte-crun1t::after",
+      "change": "animation-timing-function: ease"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".shimmer-overlay.svelte-crun1t::after",
+      "change": "animation-delay: 0s"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".shimmer-overlay.svelte-crun1t::after",
+      "change": "animation-iteration-count: 1"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".shimmer-overlay.svelte-crun1t::after",
+      "change": "animation-direction: normal"
+    },
+    {
+      "at": "(prefers-reduced-motion: reduce)",
+      "selector": ".shimmer-overlay.svelte-crun1t::after",
+      "change": "animation-fill-mode: none"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster]",
+      "change": "right: var(--mobile-offset)"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster]",
+      "change": "left: var(--mobile-offset)"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster]",
+      "change": "width: 100%"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster]",
+      "change": "position: fixed"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster] [data-sonner-toast]",
+      "change": "width: calc(100% - var(--mobile-offset) * 2)"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster] [data-sonner-toast]",
+      "change": "left: 0px"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster] [data-sonner-toast]",
+      "change": "right: 0px"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster][data-x-position=\"left\"]",
+      "change": "left: var(--mobile-offset)"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster][data-y-position=\"bottom\"]",
+      "change": "bottom: 20px"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster][data-y-position=\"top\"]",
+      "change": "top: 20px"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster][data-x-position=\"center\"]",
+      "change": "left: var(--mobile-offset)"
+    },
+    {
+      "at": "600px",
+      "selector": "[data-sonner-toaster][data-x-position=\"center\"]",
+      "change": "right: var(--mobile-offset)"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": "[data-sonner-toast], [data-sonner-toast] > *, .sonner-loading-bar",
+      "change": "transition-behavior: normal"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": "[data-sonner-toast], [data-sonner-toast] > *, .sonner-loading-bar",
+      "change": "transition-duration: 0s"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": "[data-sonner-toast], [data-sonner-toast] > *, .sonner-loading-bar",
+      "change": "transition-timing-function: ease"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": "[data-sonner-toast], [data-sonner-toast] > *, .sonner-loading-bar",
+      "change": "transition-delay: 0s"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": "[data-sonner-toast], [data-sonner-toast] > *, .sonner-loading-bar",
+      "change": "transition-property: none"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": "[data-sonner-toast], [data-sonner-toast] > *, .sonner-loading-bar",
+      "change": "animation-duration: auto"
+    },
+    {
+      "at": "(forced-colors: active)",
+      "selector": ".btn-marketing.svelte-weyqix:focus",
+      "change": "outline-offset: 2px"
+    },
+    {
+      "at": "(forced-colors: active)",
+      "selector": ".btn-marketing.svelte-weyqix:focus",
+      "change": "outline-color: rgba(0, 0, 0, 0)"
+    },
+    {
+      "at": "(forced-colors: active)",
+      "selector": ".btn-marketing.svelte-weyqix:focus",
+      "change": "outline-style: solid"
+    },
+    {
+      "at": "(forced-colors: active)",
+      "selector": ".btn-marketing.svelte-weyqix:focus",
+      "change": "outline-width: 2px"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".social-btn.svelte-kscrqp:hover",
+      "change": "background-color: rgba(221, 255, 220, 0.1)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".footer-link.svelte-kscrqp:hover",
+      "change": "color: var(--color-light-green,#ddffdc)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".dropdown-container.svelte-1dt9mv8:hover",
+      "change": "color: var(--color-c-green-100,#7fee64)"
+    },
+    {
+      "at": "768px",
+      "selector": ".stat-headline.svelte-1ud9a6n",
+      "change": "font-size: 42px"
+    },
+    {
+      "at": "768px",
+      "selector": ".stat-large.svelte-1ud9a6n",
+      "change": "font-size: 48px"
+    },
+    {
+      "at": "768px",
+      "selector": ".card-stat.stat-quote.svelte-1ud9a6n",
+      "change": "font-size: 36px"
+    },
+    {
+      "at": "768px",
+      "selector": ".card-stat.stat-quote.svelte-1ud9a6n",
+      "change": "line-height: 1.1"
+    },
+    {
+      "at": "768px",
+      "selector": ".card-stat.stat-long-quote.svelte-1ud9a6n",
+      "change": "font-size: 32px"
+    },
+    {
+      "at": "768px",
+      "selector": ".card-stat.stat-long-quote.svelte-1ud9a6n",
+      "change": "line-height: 1.1"
+    },
+    {
+      "at": "768px",
+      "selector": ".story-card-small.svelte-1ud9a6n::before",
+      "change": "content: \"\""
+    },
+    {
+      "at": "768px",
+      "selector": ".story-card-small.svelte-1ud9a6n::before",
+      "change": "pointer-events: none"
+    },
+    {
+      "at": "768px",
+      "selector": ".story-card-small.svelte-1ud9a6n::before",
+      "change": "opacity: 0"
+    }
+  ]
+}

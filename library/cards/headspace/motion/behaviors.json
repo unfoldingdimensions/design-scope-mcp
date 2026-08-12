@@ -1,0 +1,99 @@
+{
+  "url": "https://www.headspace.com",
+  "captured": "2026-08-10T04:34:05+00:00",
+  "hover_diffs": [
+    {
+      "selector": "button",
+      "index": 1,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(249, 244, 242)",
+          "after": "rgb(226, 222, 217)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(249, 244, 242)",
+          "after": "rgb(226, 222, 217)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 3,
+      "diffs": {
+        "borderColor": {
+          "before": "rgb(226, 222, 217)",
+          "after": "rgb(198, 193, 185)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 4,
+      "diffs": {
+        "borderColor": {
+          "before": "rgb(226, 222, 217)",
+          "after": "rgb(198, 193, 185)"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 5,
+      "diffs": {
+        "borderColor": {
+          "before": "rgb(226, 222, 217)",
+          "after": "rgb(198, 193, 185)"
+        }
+      },
+      "before_png": "hover-before-05.png",
+      "after_png": "hover-after-05.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 6,
+      "diffs": {
+        "borderColor": {
+          "before": "rgb(226, 222, 217)",
+          "after": "rgb(198, 193, 185)"
+        }
+      },
+      "before_png": "hover-before-06.png",
+      "after_png": "hover-after-06.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "header.css-75xqdg",
+      "diffs": {
+        "sel": "header.css-75xqdg → header.css-jy9br7",
+        "position": "static → fixed",
+        "boxShadow": "none → rgba(0, 0, 0, 0.07) 0px 5px 10px 0px"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 313,
+    "tabs": 0,
+    "accordions": 28,
+    "carousels": 0,
+    "observers": 2,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": []
+}

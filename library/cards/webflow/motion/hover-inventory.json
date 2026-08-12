@@ -1,0 +1,55 @@
+{
+  "url": "https://webflow.com",
+  "hovers": [
+    {
+      "selector": "a[href]",
+      "file": "hover-01.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 46
+      }
+    },
+    {
+      "selector": "a[href]",
+      "file": "hover-02.png",
+      "box": {
+        "x": 72,
+        "y": 66,
+        "width": 124,
+        "height": 25
+      }
+    },
+    {
+      "selector": "button",
+      "file": "hover-03.png",
+      "box": {
+        "x": 225,
+        "y": 46,
+        "width": 64,
+        "height": 67
+      }
+    },
+    {
+      "selector": "[role=button]",
+      "file": "hover-04.png",
+      "box": {
+        "x": 225,
+        "y": 46,
+        "width": 64,
+        "height": 67
+      }
+    },
+    {
+      "selector": "[role=button]",
+      "file": "hover-05.png",
+      "box": {
+        "x": 314,
+        "y": 46,
+        "width": 70,
+        "height": 67
+      }
+    }
+  ]
+}

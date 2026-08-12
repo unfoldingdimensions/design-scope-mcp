@@ -1,0 +1,45 @@
+{
+  "url": "https://sentry.io",
+  "hovers": [
+    {
+      "selector": "a[href]",
+      "file": "hover-01.png",
+      "box": {
+        "x": 176,
+        "y": 20,
+        "width": 145,
+        "height": 32
+      }
+    },
+    {
+      "selector": "[role=button]",
+      "file": "hover-02.png",
+      "box": {
+        "x": 1320,
+        "y": 100,
+        "width": 108,
+        "height": 70
+      }
+    },
+    {
+      "selector": "[role=button]",
+      "file": "hover-03.png",
+      "box": {
+        "x": 1348,
+        "y": 136,
+        "width": 52,
+        "height": 26
+      }
+    },
+    {
+      "selector": "nav a",
+      "file": "hover-04.png",
+      "box": {
+        "x": 176,
+        "y": 20,
+        "width": 145,
+        "height": 32
+      }
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "url": "https://www.hey.com",
+  "captured": "2026-08-10T11:55:11+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(85, 34, 250)",
+          "after": "rgb(35, 28, 51)"
+        },
+        "borderColor": {
+          "before": "rgb(85, 34, 250)",
+          "after": "rgb(35, 28, 51)"
+        },
+        "outline": {
+          "before": "rgb(85, 34, 250) none 0px",
+          "after": "rgb(35, 28, 51) none 0px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgb(35, 28, 51)",
+          "after": "rgb(85, 34, 250)"
+        },
+        "borderColor": {
+          "before": "rgb(35, 28, 51)",
+          "after": "rgb(85, 34, 250)"
+        },
+        "outline": {
+          "before": "rgb(35, 28, 51) none 0px",
+          "after": "rgb(85, 34, 250) none 0px"
+        },
+        "textDecoration": {
+          "before": "underline 0px rgba(95, 221, 197, 0)",
+          "after": "underline 2.08px rgb(95, 221, 197)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 3,
+      "diffs": {
+        "color": {
+          "before": "rgb(35, 28, 51)",
+          "after": "rgb(85, 34, 250)"
+        },
+        "borderColor": {
+          "before": "rgb(35, 28, 51)",
+          "after": "rgb(85, 34, 250)"
+        },
+        "outline": {
+          "before": "rgb(35, 28, 51) none 0px",
+          "after": "rgb(85, 34, 250) none 0px"
+        },
+        "textDecoration": {
+          "before": "underline 0px rgba(95, 221, 197, 0)",
+          "after": "underline 2.08px rgb(95, 221, 197)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 4,
+      "diffs": {
+        "color": {
+          "before": "rgb(35, 28, 51)",
+          "after": "rgb(85, 34, 250)"
+        },
+        "borderColor": {
+          "before": "rgb(35, 28, 51)",
+          "after": "rgb(85, 34, 250)"
+        },
+        "outline": {
+          "before": "rgb(35, 28, 51) none 0px",
+          "after": "rgb(85, 34, 250) none 0px"
+        },
+        "textDecoration": {
+          "before": "underline 0px rgba(95, 221, 197, 0)",
+          "after": "underline 2.08px rgb(95, 221, 197)"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 71,
+    "tabs": 0,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": []
+}

@@ -1,0 +1,318 @@
+{
+  "url": "https://tauri.app",
+  "captured": "2026-08-10T07:49:03+00:00",
+  "named_tokens": {
+    "light": {
+      "--sl-color-white": "#17181c",
+      "--sl-color-gray-1": "#23262f",
+      "--sl-color-gray-2": "#353841",
+      "--sl-color-gray-3": "#555962",
+      "--sl-color-gray-4": "#888c96",
+      "--sl-color-gray-5": "#c1c3c8",
+      "--sl-color-gray-6": "#edeef3",
+      "--sl-color-gray-7": "#f6f7f9",
+      "--sl-color-black": "#fff",
+      "--sl-color-orange-high": "hsl(var(--sl-hue-orange), 80%, 25%)",
+      "--sl-color-orange": "hsl(var(--sl-hue-orange), 90%, 60%)",
+      "--sl-color-orange-low": "hsl(var(--sl-hue-orange), 90%, 88%)",
+      "--sl-color-green-high": "hsl(var(--sl-hue-green), 80%, 22%)",
+      "--sl-color-green": "hsl(var(--sl-hue-green), 90%, 46%)",
+      "--sl-color-green-low": "hsl(var(--sl-hue-green), 85%, 90%)",
+      "--sl-color-blue-high": "hsl(var(--sl-hue-blue), 80%, 30%)",
+      "--sl-color-blue": "hsl(var(--sl-hue-blue), 90%, 60%)",
+      "--sl-color-blue-low": "hsl(var(--sl-hue-blue), 88%, 90%)",
+      "--sl-color-purple-high": "hsl(var(--sl-hue-purple), 90%, 30%)",
+      "--sl-color-purple": "hsl(var(--sl-hue-purple), 90%, 60%)",
+      "--sl-color-purple-low": "hsl(var(--sl-hue-purple), 80%, 90%)",
+      "--sl-color-red-high": "hsl(var(--sl-hue-red), 80%, 30%)",
+      "--sl-color-red": "hsl(var(--sl-hue-red), 90%, 60%)",
+      "--sl-color-red-low": "hsl(var(--sl-hue-red), 80%, 90%)",
+      "--sl-color-accent-high": "#0f1c8a",
+      "--sl-color-accent": "#3d50f5",
+      "--sl-color-accent-low": "#cfd4fc",
+      "--sl-color-text-accent": "#3d50f5",
+      "--sl-color-text-invert": "#fff",
+      "--sl-color-bg-nav": "#f6f7f9",
+      "--sl-color-bg-sidebar": "var(--sl-color-bg)",
+      "--sl-color-bg-inline-code": "#edeef3",
+      "--sl-color-bg-accent": "#3d50f5",
+      "--sl-color-hairline-light": "#edeef3",
+      "--sl-color-hairline-shade": "#edeef3",
+      "--sl-color-backdrop-overlay": "#545864a8",
+      "--sl-shadow-sm": "none",
+      "--sl-shadow-md": "none",
+      "--sl-shadow-lg": "none",
+      "--tauri-transition-speed": ".2s",
+      "--sl-hue-blue": "209",
+      "--partner-gap": "12px",
+      "--silver-overlap": "16px",
+      "--overlap": "16px"
+    },
+    "dark": {
+      "--sl-hue-orange": "35",
+      "--sl-color-orange-low": "hsl(var(--sl-hue-orange), 100%, 15%)",
+      "--sl-color-orange": "#ffc131",
+      "--sl-color-orange-high": "hsl(var(--sl-hue-orange), 100%, 90%)",
+      "--sl-hue-blue": "187",
+      "--sl-color-blue-low": "hsl(var(--sl-hue-blue), 71%, 15%)",
+      "--sl-color-blue": "#24c8db",
+      "--sl-color-blue-high": "hsl(var(--sl-hue-blue), 85%, 80%)",
+      "--sl-hue-accent": "187",
+      "--sl-color-accent-low": "hsl(var(--sl-hue-blue), 71%, 15%)",
+      "--sl-color-accent": "#24c8db",
+      "--sl-color-accent-high": "hsl(var(--sl-hue-blue), 85%, 80%)",
+      "--sl-color-white": "#fff",
+      "--sl-color-gray-1": "#ededed",
+      "--sl-color-gray-2": "#d4d4d4",
+      "--sl-color-gray-3": "#bfbfbf",
+      "--sl-color-gray-4": "#595959",
+      "--sl-color-gray-5": "#383838",
+      "--sl-color-gray-6": "#262626",
+      "--sl-color-black": "#1a1a1a"
+    }
+  },
+  "semantic_colors": {
+    "light": {
+      "--sl-color-accent": "#3d50f5",
+      "--sl-color-accent-high": "#0f1c8a",
+      "--sl-color-accent-low": "#cfd4fc",
+      "--sl-color-backdrop-overlay": "#545864a8",
+      "--sl-color-bg-accent": "#3d50f5",
+      "--sl-color-bg-inline-code": "#edeef3",
+      "--sl-color-bg-nav": "#f6f7f9",
+      "--sl-color-black": "#fff",
+      "--sl-color-hairline-light": "#edeef3",
+      "--sl-color-hairline-shade": "#edeef3",
+      "--sl-color-text-accent": "#3d50f5",
+      "--sl-color-text-invert": "#fff",
+      "--sl-color-white": "#17181c"
+    },
+    "dark": {
+      "--sl-color-accent": "#24c8db",
+      "--sl-color-black": "#1a1a1a",
+      "--sl-color-blue": "#24c8db",
+      "--sl-color-orange": "#ffc131",
+      "--sl-color-white": "#fff"
+    },
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "generous corners",
+      "elevated (soft shadows)"
+    ],
+    "flat": false,
+    "corner_style": "generous",
+    "type_mood": [
+      "mono accents"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {},
+  "z_index_rows": [],
+  "responsive": [
+    {
+      "at": "print",
+      "selector": ".print\\:hidden",
+      "change": "display: none"
+    },
+    {
+      "at": "print",
+      "selector": "main",
+      "change": "padding-bottom: 0px"
+    },
+    {
+      "at": "print",
+      "selector": "main > .content-panel",
+      "change": "padding-block-start: 0px"
+    },
+    {
+      "at": "print",
+      "selector": ".content-panel + .content-panel",
+      "change": "border-top-width: 0px"
+    },
+    {
+      "at": "print",
+      "selector": ".content-panel + .content-panel",
+      "change": "border-right-width: 0px"
+    },
+    {
+      "at": "print",
+      "selector": ".content-panel + .content-panel",
+      "change": "border-bottom-width: 0px"
+    },
+    {
+      "at": "print",
+      "selector": ".content-panel + .content-panel",
+      "change": "border-left-width: 0px"
+    },
+    {
+      "at": "print",
+      "selector": ".content-panel + .content-panel",
+      "change": "border-top-style: none"
+    },
+    {
+      "at": "print",
+      "selector": ".content-panel + .content-panel",
+      "change": "border-right-style: none"
+    },
+    {
+      "at": "print",
+      "selector": ".page > header",
+      "change": "position: relative"
+    },
+    {
+      "at": "print",
+      "selector": ".page > .main-frame",
+      "change": "padding-top: 0px"
+    },
+    {
+      "at": "print",
+      "selector": ".page > .main-frame",
+      "change": "padding-inline-start: 0px"
+    },
+    {
+      "at": "(width >= 50rem)",
+      "selector": "#starlight__sidebar > .sidebar-content > .starlight-sidebar-topics",
+      "change": "display: none"
+    },
+    {
+      "at": "(width >= 50rem)",
+      "selector": "[data-search-modal-open]",
+      "change": "overflow-x: auto"
+    },
+    {
+      "at": "(width >= 50rem)",
+      "selector": "[data-search-modal-open]",
+      "change": "overflow-y: auto"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": "*",
+      "change": "transition-behavior: normal"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": "*",
+      "change": "transition-duration: 0s"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": "*",
+      "change": "transition-timing-function: ease"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": "*",
+      "change": "transition-delay: 0s"
+    },
+    {
+      "at": "(prefers-reduced-motion)",
+      "selector": "*",
+      "change": "transition-property: none"
+    },
+    {
+      "at": "(width >= 50rem)",
+      "selector": ".lp-header",
+      "change": "grid-template-columns: 7fr 3fr"
+    },
+    {
+      "at": "(width >= 50rem)",
+      "selector": ".lp-header",
+      "change": "align-items: center"
+    },
+    {
+      "at": "(width >= 50rem)",
+      "selector": ".lp-header",
+      "change": "row-gap: 3%"
+    },
+    {
+      "at": "(width >= 50rem)",
+      "selector": ".lp-header",
+      "change": "column-gap: 3%"
+    },
+    {
+      "at": "(width >= 50rem)",
+      "selector": ".lp-header",
+      "change": "padding-bottom: 2em"
+    },
+    {
+      "at": "(width >= 50rem)",
+      "selector": ".lp-header",
+      "change": "display: grid"
+    },
+    {
+      "at": "(width >= 50rem)",
+      "selector": ".lp-tauri-logo",
+      "change": "width: auto"
+    },
+    {
+      "at": "(width >= 50rem)",
+      "selector": ".lp-tauri-logo",
+      "change": "max-width: 360px"
+    },
+    {
+      "at": "(width >= 50rem)",
+      "selector": ".lp-tauri-logo",
+      "change": "margin-inline-start: 0px"
+    },
+    {
+      "at": "(width >= 50rem)",
+      "selector": ".lp-header > svg",
+      "change": "order: 1"
+    },
+    {
+      "at": "(width >= 50rem)",
+      "selector": ".lp-header-content",
+      "change": "text-align: left"
+    },
+    {
+      "at": "(width >= 50rem)",
+      "selector": ".lp-hero > svg",
+      "change": "opacity: 0.5"
+    },
+    {
+      "at": "(width >= 50rem)",
+      "selector": ".lp-hero > svg",
+      "change": "width: 400px"
+    },
+    {
+      "at": "(width >= 50rem)",
+      "selector": ".lp-hero > svg",
+      "change": "height: 400px"
+    },
+    {
+      "at": "(width >= 50em)",
+      "selector": ".partners",
+      "change": "grid-template-columns: 1fr"
+    },
+    {
+      "at": "(width >= 50em)",
+      "selector": ".partners",
+      "change": "display: grid"
+    },
+    {
+      "at": "(width >= 50em)",
+      "selector": ".partners",
+      "change": "grid-template-columns: 1fr 1fr"
+    },
+    {
+      "at": "(width >= 50em)",
+      "selector": ".partners",
+      "change": "display: grid"
+    },
+    {
+      "at": "(width >= 50em)",
+      "selector": ".partner",
+      "change": "padding-top: 2rem"
+    },
+    {
+      "at": "(width >= 50em)",
+      "selector": ".partner",
+      "change": "padding-right: 2rem"
+    }
+  ]
+}

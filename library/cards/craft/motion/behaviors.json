@@ -1,0 +1,66 @@
+{
+  "url": "https://www.craft.do",
+  "captured": "2026-08-10T11:50:39+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgba(3, 3, 2, 0.35)",
+          "after": "rgb(3, 3, 2)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgba(3, 3, 2, 0.35)",
+          "after": "rgb(3, 3, 2)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "color": {
+          "before": "rgba(3, 3, 2, 0.35)",
+          "after": "rgb(3, 3, 2)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "color": {
+          "before": "rgba(3, 3, 2, 0.35)",
+          "after": "rgb(3, 3, 2)"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 127,
+    "tabs": 0,
+    "accordions": 12,
+    "carousels": 0,
+    "observers": 12,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": []
+}

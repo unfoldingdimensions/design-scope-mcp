@@ -1,0 +1,37 @@
+{
+  "url": "https://www.fastmail.com",
+  "captured": "2026-08-10T11:59:53+00:00",
+  "hover_diffs": [
+    {
+      "selector": "button",
+      "index": 1,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(71, 81, 90)",
+          "after": "rgb(64, 70, 76)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "div.absolute",
+      "diffs": {
+        "background": "color(srgb 1 1 1 / 0.9) → rgb(255, 255, 255)"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 81,
+    "tabs": 0,
+    "accordions": 2,
+    "carousels": 0,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": []
+}

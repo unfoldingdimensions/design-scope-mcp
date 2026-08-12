@@ -1,0 +1,363 @@
+{
+  "url": "https://ulysses.app",
+  "captured": "2026-08-10T11:52:36+00:00",
+  "named_tokens": {
+    "light": {
+      "--blue": "#007bff",
+      "--indigo": "#6610f2",
+      "--purple": "#6f42c1",
+      "--pink": "#e83e8c",
+      "--red": "#f56a6a",
+      "--orange": "#e9714c",
+      "--yellow": "#fc0",
+      "--green": "#00c675",
+      "--teal": "#20c997",
+      "--cyan": "#4eb7b7",
+      "--white": "#fff",
+      "--gray": "#545352",
+      "--primary": "#fc0",
+      "--secondary": "#403f3e",
+      "--success": "#00c675",
+      "--info": "#4eb7b7",
+      "--warning": "#fc0",
+      "--danger": "#f56a6a",
+      "--light": "#f7f7f5",
+      "--dark": "#27272b",
+      "--gray-dark": "#363534",
+      "--theme-color-primary": "#fc0",
+      "--theme-color-secondary": "#403f3e",
+      "--theme-color-success": "#00c675",
+      "--theme-color-info": "#4eb7b7",
+      "--theme-color-warning": "#fc0",
+      "--theme-color-danger": "#f56a6a",
+      "--theme-color-light": "#f7f7f5",
+      "--theme-color-dark": "#27272b",
+      "--theme-color-gray-dark": "#363534",
+      "--breakpoint-xs": "0",
+      "--breakpoint-sm": "576px",
+      "--breakpoint-md": "768px",
+      "--breakpoint-lg": "1040px",
+      "--breakpoint-xl": "1200px",
+      "--font-family-sans-serif": "\"interstate\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "--font-family-monospace": "SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace"
+    },
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {
+      "--blue": "#007bff",
+      "--cyan": "#4eb7b7",
+      "--danger": "#f56a6a",
+      "--dark": "#27272b",
+      "--gray": "#545352",
+      "--gray-dark": "#363534",
+      "--green": "#00c675",
+      "--indigo": "#6610f2",
+      "--info": "#4eb7b7",
+      "--light": "#f7f7f5",
+      "--orange": "#e9714c",
+      "--pink": "#e83e8c",
+      "--primary": "#fc0",
+      "--purple": "#6f42c1",
+      "--red": "#f56a6a",
+      "--secondary": "#403f3e",
+      "--success": "#00c675",
+      "--teal": "#20c997",
+      "--theme-color-danger": "#f56a6a",
+      "--theme-color-dark": "#27272b",
+      "--theme-color-gray-dark": "#363534",
+      "--theme-color-info": "#4eb7b7",
+      "--theme-color-light": "#f7f7f5",
+      "--theme-color-primary": "#fc0",
+      "--theme-color-secondary": "#403f3e",
+      "--theme-color-success": "#00c675",
+      "--theme-color-warning": "#fc0",
+      "--warning": "#fc0",
+      "--white": "#fff",
+      "--yellow": "#fc0"
+    },
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "generous corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "generous",
+    "type_mood": [
+      "neutral sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "tooltip": 1070,
+    "popover": 1060,
+    "modal": 1050,
+    "dropdown": 1000,
+    "nav": 3
+  },
+  "z_index_rows": [
+    {
+      "role": "tooltip",
+      "selector": ".valid-tooltip",
+      "value": "5"
+    },
+    {
+      "role": "tooltip",
+      "selector": ".invalid-tooltip",
+      "value": "5"
+    },
+    {
+      "role": "dropdown",
+      "selector": ".dropdown-menu",
+      "value": "1000"
+    },
+    {
+      "role": "nav",
+      "selector": ".navbar",
+      "value": "3"
+    },
+    {
+      "role": "nav",
+      "selector": ".navbar .show > .nav-link::after, .navbar .active > .nav-link::after, .navbar .n",
+      "value": "1"
+    },
+    {
+      "role": "modal",
+      "selector": ".modal",
+      "value": "1050"
+    },
+    {
+      "role": "modal",
+      "selector": ".modal-backdrop",
+      "value": "1040"
+    },
+    {
+      "role": "tooltip",
+      "selector": ".tooltip",
+      "value": "1070"
+    },
+    {
+      "role": "popover",
+      "selector": ".popover",
+      "value": "1060"
+    },
+    {
+      "role": "nav",
+      "selector": ".nav-tabs.nav-tabs-quotes",
+      "value": "2"
+    },
+    {
+      "role": "nav",
+      "selector": ".nav-tabs.nav-tabs-quotes .nav-item .nav-link::after",
+      "value": "3"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "576px",
+      "selector": ".container",
+      "change": "max-width: 540px"
+    },
+    {
+      "at": "768px",
+      "selector": ".container",
+      "change": "max-width: 720px"
+    },
+    {
+      "at": "1040px",
+      "selector": ".container",
+      "change": "max-width: 960px"
+    },
+    {
+      "at": "1200px",
+      "selector": ".container",
+      "change": "max-width: 1190px"
+    },
+    {
+      "at": "1040px",
+      "selector": ".container-fluid",
+      "change": "padding-right: 40px"
+    },
+    {
+      "at": "1040px",
+      "selector": ".container-fluid",
+      "change": "padding-left: 40px"
+    },
+    {
+      "at": "576px",
+      "selector": ".col-sm",
+      "change": "flex-basis: 0px"
+    },
+    {
+      "at": "576px",
+      "selector": ".col-sm",
+      "change": "flex-grow: 1"
+    },
+    {
+      "at": "576px",
+      "selector": ".col-sm",
+      "change": "max-width: 100%"
+    },
+    {
+      "at": "576px",
+      "selector": ".col-sm-auto",
+      "change": "flex-grow: 0"
+    },
+    {
+      "at": "576px",
+      "selector": ".col-sm-auto",
+      "change": "flex-shrink: 0"
+    },
+    {
+      "at": "576px",
+      "selector": ".col-sm-auto",
+      "change": "flex-basis: auto"
+    },
+    {
+      "at": "576px",
+      "selector": ".col-sm-auto",
+      "change": "width: auto"
+    },
+    {
+      "at": "576px",
+      "selector": ".col-sm-auto",
+      "change": "max-width: 100%"
+    },
+    {
+      "at": "576px",
+      "selector": ".col-sm-1",
+      "change": "flex-grow: 0"
+    },
+    {
+      "at": "576px",
+      "selector": ".col-sm-1",
+      "change": "flex-shrink: 0"
+    },
+    {
+      "at": "576px",
+      "selector": ".col-sm-1",
+      "change": "flex-basis: 8.33333%"
+    },
+    {
+      "at": "576px",
+      "selector": ".col-sm-1",
+      "change": "max-width: 8.33333%"
+    },
+    {
+      "at": "768px",
+      "selector": ".col-md",
+      "change": "flex-basis: 0px"
+    },
+    {
+      "at": "768px",
+      "selector": ".col-md",
+      "change": "flex-grow: 1"
+    },
+    {
+      "at": "768px",
+      "selector": ".col-md",
+      "change": "max-width: 100%"
+    },
+    {
+      "at": "768px",
+      "selector": ".col-md-auto",
+      "change": "flex-grow: 0"
+    },
+    {
+      "at": "768px",
+      "selector": ".col-md-auto",
+      "change": "flex-shrink: 0"
+    },
+    {
+      "at": "768px",
+      "selector": ".col-md-auto",
+      "change": "flex-basis: auto"
+    },
+    {
+      "at": "768px",
+      "selector": ".col-md-auto",
+      "change": "width: auto"
+    },
+    {
+      "at": "768px",
+      "selector": ".col-md-auto",
+      "change": "max-width: 100%"
+    },
+    {
+      "at": "768px",
+      "selector": ".col-md-1",
+      "change": "flex-grow: 0"
+    },
+    {
+      "at": "768px",
+      "selector": ".col-md-1",
+      "change": "flex-shrink: 0"
+    },
+    {
+      "at": "768px",
+      "selector": ".col-md-1",
+      "change": "flex-basis: 8.33333%"
+    },
+    {
+      "at": "768px",
+      "selector": ".col-md-1",
+      "change": "max-width: 8.33333%"
+    },
+    {
+      "at": "1040px",
+      "selector": ".col-lg",
+      "change": "flex-basis: 0px"
+    },
+    {
+      "at": "1040px",
+      "selector": ".col-lg",
+      "change": "flex-grow: 1"
+    },
+    {
+      "at": "1040px",
+      "selector": ".col-lg",
+      "change": "max-width: 100%"
+    },
+    {
+      "at": "1040px",
+      "selector": ".col-lg-auto",
+      "change": "flex-grow: 0"
+    },
+    {
+      "at": "1040px",
+      "selector": ".col-lg-auto",
+      "change": "flex-shrink: 0"
+    },
+    {
+      "at": "1040px",
+      "selector": ".col-lg-auto",
+      "change": "flex-basis: auto"
+    },
+    {
+      "at": "1040px",
+      "selector": ".col-lg-auto",
+      "change": "width: auto"
+    },
+    {
+      "at": "1040px",
+      "selector": ".col-lg-auto",
+      "change": "max-width: 100%"
+    },
+    {
+      "at": "1040px",
+      "selector": ".col-lg-1",
+      "change": "flex-grow: 0"
+    },
+    {
+      "at": "1040px",
+      "selector": ".col-lg-1",
+      "change": "flex-shrink: 0"
+    }
+  ]
+}

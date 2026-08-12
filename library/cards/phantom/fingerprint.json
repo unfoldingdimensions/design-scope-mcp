@@ -1,0 +1,1540 @@
+{
+  "url": "https://phantom.com/",
+  "extractedAt": "2026-08-09T12:39:52.948Z",
+  "meta": {
+    "snapshotId": "0e205ab2-0b05-44df-8c7f-11d0b534a0aa",
+    "httpStatus": 200,
+    "dembrandtVersion": "0.27.1",
+    "schemaVersion": "1.5.0",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "fontsReady": true,
+    "flags": {
+      "mobile": true
+    }
+  },
+  "siteName": "Phantom",
+  "logo": {
+    "source": "svg",
+    "context": "header",
+    "inline": true,
+    "url": "https://phantom.com/",
+    "color": "#3c315b",
+    "ariaLabel": null,
+    "markup": "<svg class=\"_1wpz8pu3\" fill=\"none\" viewBox=\"0 0 152 30\" xmlns=\"http://www.w3.org/2000/svg\" style=\"color: rgb(60, 49, 91);\"><title>Logo Phantom</title><path d=\"M0 25.219C0 29.105 2.065 30 4.213 30c4.544 0 7.96-3.998 9.997-7.157-.248.698-.386 1.397-.386 2.069 0 1.845 1.047 3.159 3.112 3.159 2.837 0 5.866-2.517 7.436-5.229-.11.392-.165.755-.165 1.09 0 1.287.716 2.098 2.175 2.098 4.6 0 9.226-8.248 9.226-15.462 0-5.62-2.81-10.568-9.86-10.568C13.357 0 0 15.322 0 25.219ZM21.48 9.953c0-1.398.771-2.376 1.9-2.376 1.102 0 1.873.978 1.873 2.376s-.77 2.405-1.872 2.405c-1.13 0-1.9-1.007-1.9-2.405Zm5.894 0c0-1.398.77-2.376 1.9-2.376 1.101 0 1.872.978 1.872 2.376s-.77 2.405-1.872 2.405c-1.13 0-1.9-1.007-1.9-2.405ZM41.115 26.953h4.13v-3.775c0-1.985-.137-2.908-.936-4.725l.44-.224c1.323 3.048 3.278 4.25 5.316 4.25 3.277 0 5.893-2.908 5.893-7.41 0-4.305-2.396-7.464-5.838-7.464-2.038 0-4.048 1.174-5.37 4.222l-.44-.224c.55-1.202.935-2.404.935-3.55h-4.13v18.9Zm4.13-11.911c0-1.845 1.378-3.886 3.415-3.886 1.653 0 3.002 1.37 3.002 3.858 0 2.46-1.294 3.914-3.03 3.914-1.927 0-3.386-1.985-3.386-3.886ZM57.25 22.032h4.132V17.11c0-3.467 1.211-5.927 3.47-5.927 1.431 0 1.872.978 1.872 3.41v7.438h4.131v-8.108c0-4.418-1.57-6.32-4.572-6.32-3.056 0-4.048 2.098-5.232 4.502l-.44-.251c.605-1.51.77-2.46.77-3.803V3.327h-4.13v18.705ZM76.757 22.479c2.617 0 4.186-1.79 5.288-3.914l.468.251c-.44 1.007-.854 2.21-.854 3.216h4.049v-7.605c0-4.53-1.873-6.822-6.252-6.822-4.296 0-6.416 2.18-6.83 4.473l3.966.7c.138-1.203 1.102-2.014 2.644-2.014s2.423.783 2.423 1.734c0 .95-.908 1.398-3.332 1.426-3.58.056-6.224 1.37-6.224 4.166 0 2.292 1.79 4.389 4.654 4.389Zm-.55-4.641c0-2.265 3.442-.671 5.37-2.405v.532c0 1.985-1.763 3.41-3.415 3.41-.936 0-1.955-.39-1.955-1.537ZM87.56 22.032h4.13V17.11c0-3.467 1.212-5.927 3.47-5.927 1.432 0 1.873.978 1.873 3.41v7.438h4.131v-8.108c0-4.418-1.57-6.32-4.572-6.32-3.056 0-4.048 2.098-5.232 4.502l-.44-.251c.605-1.51.77-2.46.77-3.803h-4.13v13.98ZM112.328 22.088V18.62c-.882.307-3.333.838-3.333-1.202v-5.956h3.663v-3.41h-3.663V4.305l-4.158 1.258v2.488h-2.478v3.411h2.478l.028 6.291c0 4.67 4.103 5.34 7.463 4.334ZM120.988 22.479c4.185 0 7.38-3.243 7.38-7.465 0-4.194-3.195-7.41-7.38-7.41-4.186 0-7.408 3.216-7.408 7.41 0 4.222 3.222 7.465 7.408 7.465Zm-3.14-7.437c0-2.32 1.294-3.942 3.14-3.942 1.845 0 3.111 1.621 3.111 3.942 0 2.32-1.266 3.942-3.111 3.942-1.846 0-3.14-1.622-3.14-3.942ZM129.729 22.032h4.13V17.11c0-3.607 1.019-5.927 2.837-5.927 1.184 0 1.68.95 1.68 3.41v7.438h4.131V17.11c0-3.383 1.101-5.927 2.836-5.927 1.157 0 1.68 1.09 1.68 3.41v7.438h4.131v-8.108c0-4.446-1.432-6.32-4.241-6.32-2.919 0-4.076 2.014-4.847 4.446l-.468-.251c.413-1.454.165-2.237-.331-2.852-.716-.895-1.735-1.342-3.029-1.342-2.589 0-3.718 1.845-4.709 4.417l-.441-.28c.468-1.257.771-2.264.771-3.69h-4.13v13.98Z\" fill=\"currentColor\"></path></svg>",
+    "dataUri": "data:image/svg+xml;utf8,%3Csvg%20class%3D%22_1wpz8pu3%22%20fill%3D%22none%22%20viewBox%3D%220%200%20152%2030%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%20rgb(60%2C%2049%2C%2091)%3B%22%3E%3Ctitle%3ELogo%20Phantom%3C%2Ftitle%3E%3Cpath%20d%3D%22M0%2025.219C0%2029.105%202.065%2030%204.213%2030c4.544%200%207.96-3.998%209.997-7.157-.248.698-.386%201.397-.386%202.069%200%201.845%201.047%203.159%203.112%203.159%202.837%200%205.866-2.517%207.436-5.229-.11.392-.165.755-.165%201.09%200%201.287.716%202.098%202.175%202.098%204.6%200%209.226-8.248%209.226-15.462%200-5.62-2.81-10.568-9.86-10.568C13.357%200%200%2015.322%200%2025.219ZM21.48%209.953c0-1.398.771-2.376%201.9-2.376%201.102%200%201.873.978%201.873%202.376s-.77%202.405-1.872%202.405c-1.13%200-1.9-1.007-1.9-2.405Zm5.894%200c0-1.398.77-2.376%201.9-2.376%201.101%200%201.872.978%201.872%202.376s-.77%202.405-1.872%202.405c-1.13%200-1.9-1.007-1.9-2.405ZM41.115%2026.953h4.13v-3.775c0-1.985-.137-2.908-.936-4.725l.44-.224c1.323%203.048%203.278%204.25%205.316%204.25%203.277%200%205.893-2.908%205.893-7.41%200-4.305-2.396-7.464-5.838-7.464-2.038%200-4.048%201.174-5.37%204.222l-.44-.224c.55-1.202.935-2.404.935-3.55h-4.13v18.9Zm4.13-11.911c0-1.845%201.378-3.886%203.415-3.886%201.653%200%203.002%201.37%203.002%203.858%200%202.46-1.294%203.914-3.03%203.914-1.927%200-3.386-1.985-3.386-3.886ZM57.25%2022.032h4.132V17.11c0-3.467%201.211-5.927%203.47-5.927%201.431%200%201.872.978%201.872%203.41v7.438h4.131v-8.108c0-4.418-1.57-6.32-4.572-6.32-3.056%200-4.048%202.098-5.232%204.502l-.44-.251c.605-1.51.77-2.46.77-3.803V3.327h-4.13v18.705ZM76.757%2022.479c2.617%200%204.186-1.79%205.288-3.914l.468.251c-.44%201.007-.854%202.21-.854%203.216h4.049v-7.605c0-4.53-1.873-6.822-6.252-6.822-4.296%200-6.416%202.18-6.83%204.473l3.966.7c.138-1.203%201.102-2.014%202.644-2.014s2.423.783%202.423%201.734c0%20.95-.908%201.398-3.332%201.426-3.58.056-6.224%201.37-6.224%204.166%200%202.292%201.79%204.389%204.654%204.389Zm-.55-4.641c0-2.265%203.442-.671%205.37-2.405v.532c0%201.985-1.763%203.41-3.415%203.41-.936%200-1.955-.39-1.955-1.537ZM87.56%2022.032h4.13V17.11c0-3.467%201.212-5.927%203.47-5.927%201.432%200%201.873.978%201.873%203.41v7.438h4.131v-8.108c0-4.418-1.57-6.32-4.572-6.32-3.056%200-4.048%202.098-5.232%204.502l-.44-.251c.605-1.51.77-2.46.77-3.803h-4.13v13.98ZM112.328%2022.088V18.62c-.882.307-3.333.838-3.333-1.202v-5.956h3.663v-3.41h-3.663V4.305l-4.158%201.258v2.488h-2.478v3.411h2.478l.028%206.291c0%204.67%204.103%205.34%207.463%204.334ZM120.988%2022.479c4.185%200%207.38-3.243%207.38-7.465%200-4.194-3.195-7.41-7.38-7.41-4.186%200-7.408%203.216-7.408%207.41%200%204.222%203.222%207.465%207.408%207.465Zm-3.14-7.437c0-2.32%201.294-3.942%203.14-3.942%201.845%200%203.111%201.621%203.111%203.942%200%202.32-1.266%203.942-3.111%203.942-1.846%200-3.14-1.622-3.14-3.942ZM129.729%2022.032h4.13V17.11c0-3.607%201.019-5.927%202.837-5.927%201.184%200%201.68.95%201.68%203.41v7.438h4.131V17.11c0-3.383%201.101-5.927%202.836-5.927%201.157%200%201.68%201.09%201.68%203.41v7.438h4.131v-8.108c0-4.446-1.432-6.32-4.241-6.32-2.919%200-4.076%202.014-4.847%204.446l-.468-.251c.413-1.454.165-2.237-.331-2.852-.716-.895-1.735-1.342-3.029-1.342-2.589%200-3.718%201.845-4.709%204.417l-.441-.28c.468-1.257.771-2.264.771-3.69h-4.13v13.98Z%22%20fill%3D%22currentColor%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E",
+    "svgColors": [],
+    "width": 152,
+    "height": 30,
+    "rect": {
+      "x": 228,
+      "y": 39,
+      "width": 152,
+      "height": 30
+    },
+    "natural": {
+      "width": 152,
+      "height": 30
+    },
+    "type": "wordmark",
+    "reversed": false,
+    "background": null,
+    "safeZone": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "position": {
+      "top": 39,
+      "left": 228
+    }
+  },
+  "logoInstances": [
+    {
+      "source": "svg",
+      "context": "header",
+      "inline": true,
+      "url": "https://phantom.com/",
+      "color": "#3c315b",
+      "ariaLabel": null,
+      "markup": "<svg class=\"_1wpz8pu3\" fill=\"none\" viewBox=\"0 0 152 30\" xmlns=\"http://www.w3.org/2000/svg\" style=\"color: rgb(60, 49, 91);\"><title>Logo Phantom</title><path d=\"M0 25.219C0 29.105 2.065 30 4.213 30c4.544 0 7.96-3.998 9.997-7.157-.248.698-.386 1.397-.386 2.069 0 1.845 1.047 3.159 3.112 3.159 2.837 0 5.866-2.517 7.436-5.229-.11.392-.165.755-.165 1.09 0 1.287.716 2.098 2.175 2.098 4.6 0 9.226-8.248 9.226-15.462 0-5.62-2.81-10.568-9.86-10.568C13.357 0 0 15.322 0 25.219ZM21.48 9.953c0-1.398.771-2.376 1.9-2.376 1.102 0 1.873.978 1.873 2.376s-.77 2.405-1.872 2.405c-1.13 0-1.9-1.007-1.9-2.405Zm5.894 0c0-1.398.77-2.376 1.9-2.376 1.101 0 1.872.978 1.872 2.376s-.77 2.405-1.872 2.405c-1.13 0-1.9-1.007-1.9-2.405ZM41.115 26.953h4.13v-3.775c0-1.985-.137-2.908-.936-4.725l.44-.224c1.323 3.048 3.278 4.25 5.316 4.25 3.277 0 5.893-2.908 5.893-7.41 0-4.305-2.396-7.464-5.838-7.464-2.038 0-4.048 1.174-5.37 4.222l-.44-.224c.55-1.202.935-2.404.935-3.55h-4.13v18.9Zm4.13-11.911c0-1.845 1.378-3.886 3.415-3.886 1.653 0 3.002 1.37 3.002 3.858 0 2.46-1.294 3.914-3.03 3.914-1.927 0-3.386-1.985-3.386-3.886ZM57.25 22.032h4.132V17.11c0-3.467 1.211-5.927 3.47-5.927 1.431 0 1.872.978 1.872 3.41v7.438h4.131v-8.108c0-4.418-1.57-6.32-4.572-6.32-3.056 0-4.048 2.098-5.232 4.502l-.44-.251c.605-1.51.77-2.46.77-3.803V3.327h-4.13v18.705ZM76.757 22.479c2.617 0 4.186-1.79 5.288-3.914l.468.251c-.44 1.007-.854 2.21-.854 3.216h4.049v-7.605c0-4.53-1.873-6.822-6.252-6.822-4.296 0-6.416 2.18-6.83 4.473l3.966.7c.138-1.203 1.102-2.014 2.644-2.014s2.423.783 2.423 1.734c0 .95-.908 1.398-3.332 1.426-3.58.056-6.224 1.37-6.224 4.166 0 2.292 1.79 4.389 4.654 4.389Zm-.55-4.641c0-2.265 3.442-.671 5.37-2.405v.532c0 1.985-1.763 3.41-3.415 3.41-.936 0-1.955-.39-1.955-1.537ZM87.56 22.032h4.13V17.11c0-3.467 1.212-5.927 3.47-5.927 1.432 0 1.873.978 1.873 3.41v7.438h4.131v-8.108c0-4.418-1.57-6.32-4.572-6.32-3.056 0-4.048 2.098-5.232 4.502l-.44-.251c.605-1.51.77-2.46.77-3.803h-4.13v13.98ZM112.328 22.088V18.62c-.882.307-3.333.838-3.333-1.202v-5.956h3.663v-3.41h-3.663V4.305l-4.158 1.258v2.488h-2.478v3.411h2.478l.028 6.291c0 4.67 4.103 5.34 7.463 4.334ZM120.988 22.479c4.185 0 7.38-3.243 7.38-7.465 0-4.194-3.195-7.41-7.38-7.41-4.186 0-7.408 3.216-7.408 7.41 0 4.222 3.222 7.465 7.408 7.465Zm-3.14-7.437c0-2.32 1.294-3.942 3.14-3.942 1.845 0 3.111 1.621 3.111 3.942 0 2.32-1.266 3.942-3.111 3.942-1.846 0-3.14-1.622-3.14-3.942ZM129.729 22.032h4.13V17.11c0-3.607 1.019-5.927 2.837-5.927 1.184 0 1.68.95 1.68 3.41v7.438h4.131V17.11c0-3.383 1.101-5.927 2.836-5.927 1.157 0 1.68 1.09 1.68 3.41v7.438h4.131v-8.108c0-4.446-1.432-6.32-4.241-6.32-2.919 0-4.076 2.014-4.847 4.446l-.468-.251c.413-1.454.165-2.237-.331-2.852-.716-.895-1.735-1.342-3.029-1.342-2.589 0-3.718 1.845-4.709 4.417l-.441-.28c.468-1.257.771-2.264.771-3.69h-4.13v13.98Z\" fill=\"currentColor\"></path></svg>",
+      "dataUri": "data:image/svg+xml;utf8,%3Csvg%20class%3D%22_1wpz8pu3%22%20fill%3D%22none%22%20viewBox%3D%220%200%20152%2030%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%20rgb(60%2C%2049%2C%2091)%3B%22%3E%3Ctitle%3ELogo%20Phantom%3C%2Ftitle%3E%3Cpath%20d%3D%22M0%2025.219C0%2029.105%202.065%2030%204.213%2030c4.544%200%207.96-3.998%209.997-7.157-.248.698-.386%201.397-.386%202.069%200%201.845%201.047%203.159%203.112%203.159%202.837%200%205.866-2.517%207.436-5.229-.11.392-.165.755-.165%201.09%200%201.287.716%202.098%202.175%202.098%204.6%200%209.226-8.248%209.226-15.462%200-5.62-2.81-10.568-9.86-10.568C13.357%200%200%2015.322%200%2025.219ZM21.48%209.953c0-1.398.771-2.376%201.9-2.376%201.102%200%201.873.978%201.873%202.376s-.77%202.405-1.872%202.405c-1.13%200-1.9-1.007-1.9-2.405Zm5.894%200c0-1.398.77-2.376%201.9-2.376%201.101%200%201.872.978%201.872%202.376s-.77%202.405-1.872%202.405c-1.13%200-1.9-1.007-1.9-2.405ZM41.115%2026.953h4.13v-3.775c0-1.985-.137-2.908-.936-4.725l.44-.224c1.323%203.048%203.278%204.25%205.316%204.25%203.277%200%205.893-2.908%205.893-7.41%200-4.305-2.396-7.464-5.838-7.464-2.038%200-4.048%201.174-5.37%204.222l-.44-.224c.55-1.202.935-2.404.935-3.55h-4.13v18.9Zm4.13-11.911c0-1.845%201.378-3.886%203.415-3.886%201.653%200%203.002%201.37%203.002%203.858%200%202.46-1.294%203.914-3.03%203.914-1.927%200-3.386-1.985-3.386-3.886ZM57.25%2022.032h4.132V17.11c0-3.467%201.211-5.927%203.47-5.927%201.431%200%201.872.978%201.872%203.41v7.438h4.131v-8.108c0-4.418-1.57-6.32-4.572-6.32-3.056%200-4.048%202.098-5.232%204.502l-.44-.251c.605-1.51.77-2.46.77-3.803V3.327h-4.13v18.705ZM76.757%2022.479c2.617%200%204.186-1.79%205.288-3.914l.468.251c-.44%201.007-.854%202.21-.854%203.216h4.049v-7.605c0-4.53-1.873-6.822-6.252-6.822-4.296%200-6.416%202.18-6.83%204.473l3.966.7c.138-1.203%201.102-2.014%202.644-2.014s2.423.783%202.423%201.734c0%20.95-.908%201.398-3.332%201.426-3.58.056-6.224%201.37-6.224%204.166%200%202.292%201.79%204.389%204.654%204.389Zm-.55-4.641c0-2.265%203.442-.671%205.37-2.405v.532c0%201.985-1.763%203.41-3.415%203.41-.936%200-1.955-.39-1.955-1.537ZM87.56%2022.032h4.13V17.11c0-3.467%201.212-5.927%203.47-5.927%201.432%200%201.873.978%201.873%203.41v7.438h4.131v-8.108c0-4.418-1.57-6.32-4.572-6.32-3.056%200-4.048%202.098-5.232%204.502l-.44-.251c.605-1.51.77-2.46.77-3.803h-4.13v13.98ZM112.328%2022.088V18.62c-.882.307-3.333.838-3.333-1.202v-5.956h3.663v-3.41h-3.663V4.305l-4.158%201.258v2.488h-2.478v3.411h2.478l.028%206.291c0%204.67%204.103%205.34%207.463%204.334ZM120.988%2022.479c4.185%200%207.38-3.243%207.38-7.465%200-4.194-3.195-7.41-7.38-7.41-4.186%200-7.408%203.216-7.408%207.41%200%204.222%203.222%207.465%207.408%207.465Zm-3.14-7.437c0-2.32%201.294-3.942%203.14-3.942%201.845%200%203.111%201.621%203.111%203.942%200%202.32-1.266%203.942-3.111%203.942-1.846%200-3.14-1.622-3.14-3.942ZM129.729%2022.032h4.13V17.11c0-3.607%201.019-5.927%202.837-5.927%201.184%200%201.68.95%201.68%203.41v7.438h4.131V17.11c0-3.383%201.101-5.927%202.836-5.927%201.157%200%201.68%201.09%201.68%203.41v7.438h4.131v-8.108c0-4.446-1.432-6.32-4.241-6.32-2.919%200-4.076%202.014-4.847%204.446l-.468-.251c.413-1.454.165-2.237-.331-2.852-.716-.895-1.735-1.342-3.029-1.342-2.589%200-3.718%201.845-4.709%204.417l-.441-.28c.468-1.257.771-2.264.771-3.69h-4.13v13.98Z%22%20fill%3D%22currentColor%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E",
+      "svgColors": [],
+      "width": 152,
+      "height": 30,
+      "rect": {
+        "x": 228,
+        "y": 39,
+        "width": 152,
+        "height": 30
+      },
+      "natural": {
+        "width": 152,
+        "height": 30
+      },
+      "type": "wordmark",
+      "reversed": false,
+      "background": null,
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 39,
+        "left": 228
+      }
+    },
+    {
+      "source": "svg",
+      "context": "footer",
+      "inline": true,
+      "url": "https://phantom.com/",
+      "color": "#3c315b",
+      "ariaLabel": null,
+      "markup": "<svg fill=\"none\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"_1vtegxp6\" xmlns=\"http://www.w3.org/2000/svg\" style=\"color: rgb(60, 49, 91);\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M9.78 16.95c-1.26 1.928-3.37 4.37-6.177 4.37C2.276 21.32 1 20.774 1 18.4 1 12.356 9.252 3 16.909 3 21.265 3 23 6.022 23 9.454c0 4.405-2.858 9.442-5.7 9.442-.902 0-1.344-.496-1.344-1.281 0-.205.034-.427.102-.666-.97 1.656-2.841 3.193-4.594 3.193-1.276 0-1.923-.802-1.923-1.93 0-.41.085-.836.239-1.263m6.595-7.615c0 1-.59 1.5-1.25 1.5-.67 0-1.25-.5-1.25-1.5s.58-1.5 1.25-1.5c.66 0 1.25.5 1.25 1.5m3.75 0c0 1-.59 1.5-1.25 1.5-.67 0-1.25-.5-1.25-1.5s.58-1.5 1.25-1.5c.66 0 1.25.5 1.25 1.5\" clip-rule=\"evenodd\"></path></svg>",
+      "dataUri": "data:image/svg+xml;utf8,%3Csvg%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%20width%3D%2224%22%20height%3D%2224%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20class%3D%22_1vtegxp6%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%20rgb(60%2C%2049%2C%2091)%3B%22%3E%3Cpath%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%20d%3D%22M9.78%2016.95c-1.26%201.928-3.37%204.37-6.177%204.37C2.276%2021.32%201%2020.774%201%2018.4%201%2012.356%209.252%203%2016.909%203%2021.265%203%2023%206.022%2023%209.454c0%204.405-2.858%209.442-5.7%209.442-.902%200-1.344-.496-1.344-1.281%200-.205.034-.427.102-.666-.97%201.656-2.841%203.193-4.594%203.193-1.276%200-1.923-.802-1.923-1.93%200-.41.085-.836.239-1.263m6.595-7.615c0%201-.59%201.5-1.25%201.5-.67%200-1.25-.5-1.25-1.5s.58-1.5%201.25-1.5c.66%200%201.25.5%201.25%201.5m3.75%200c0%201-.59%201.5-1.25%201.5-.67%200-1.25-.5-1.25-1.5s.58-1.5%201.25-1.5c.66%200%201.25.5%201.25%201.5%22%20clip-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E",
+      "svgColors": [],
+      "width": 24,
+      "height": 24,
+      "rect": {
+        "x": 276,
+        "y": 8374,
+        "width": 60,
+        "height": 60
+      },
+      "natural": {
+        "width": 24,
+        "height": 24
+      },
+      "type": "logomark",
+      "reversed": false,
+      "background": "#fdfcfe",
+      "safeZone": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "position": {
+        "top": 8373.96875,
+        "left": 276
+      }
+    }
+  ],
+  "favicons": [
+    {
+      "type": "icon",
+      "url": "https://phantom.app/_web_platform_assets/favicon-96x96.png",
+      "sizes": "96x96"
+    },
+    {
+      "type": "icon",
+      "url": "https://phantom.app/_web_platform_assets/favicon.svg",
+      "sizes": null
+    },
+    {
+      "type": "shortcut icon",
+      "url": "https://phantom.app/_web_platform_assets/favicon.ico",
+      "sizes": null
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://phantom.app/_web_platform_assets/apple-touch-icon.png",
+      "sizes": "180x180"
+    },
+    {
+      "type": "og:image",
+      "url": "https://phantom.com/_web_platform_assets/images/og-image.jpg",
+      "sizes": null
+    },
+    {
+      "type": "twitter:image",
+      "url": "https://phantom.com/_web_platform_assets/images/og-image.jpg",
+      "sizes": null
+    }
+  ],
+  "colors": {
+    "semantic": {
+      "background": "rgb(245, 242, 255)",
+      "text": "rgb(60, 49, 91)",
+      "primary": "rgb(226, 223, 254)"
+    },
+    "palette": [
+      {
+        "color": "rgb(60, 49, 91)",
+        "normalized": "#3c315b",
+        "count": 624,
+        "confidence": "high",
+        "sources": [
+          "_15v9b930",
+          "_1wpz8pu2",
+          "kqb6dr1"
+        ],
+        "lch": "lch(23.14% 27.21 299.25)",
+        "oklch": "oklch(34.58% 0.072 294.36)",
+        "role": "accent",
+        "onColor": "#ffffff",
+        "hover": "#483b6d",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(255, 253, 248)",
+        "normalized": "#fffdf8",
+        "count": 81,
+        "confidence": "high",
+        "sources": [
+          "_1vlvc8w1",
+          "cic9ch1"
+        ],
+        "lch": "lch(99.36% 2.67 88.71)",
+        "oklch": "oklch(99.42% 0.007 88.64)",
+        "role": "surface",
+        "onColor": "#000000",
+        "hover": "#d9d7d3"
+      },
+      {
+        "color": "rgb(28, 28, 28)",
+        "normalized": "#1c1c1c",
+        "count": 63,
+        "confidence": "high",
+        "sources": [
+          "cic9ch1"
+        ],
+        "lch": "lch(10.27% 0.01 53.35)",
+        "oklch": "oklch(22.64% 0 89.88)",
+        "role": "neutral",
+        "onColor": "#ffffff",
+        "hover": "#222222"
+      },
+      {
+        "color": "rgb(134, 132, 141)",
+        "normalized": "#86848d",
+        "count": 16,
+        "confidence": "medium",
+        "sources": [],
+        "lch": "lch(55.54% 5.04 295.09)",
+        "oklch": "oklch(61.8% 0.014 296.18)",
+        "role": "neutral",
+        "onColor": "#000000",
+        "hover": "#727078"
+      },
+      {
+        "color": "rgb(171, 159, 242)",
+        "normalized": "#ab9ff2",
+        "count": 10,
+        "confidence": "medium",
+        "sources": [
+          "_1vlvc8w1",
+          "cic9ch1"
+        ],
+        "lch": "lch(68.97% 44.29 294.22)",
+        "oklch": "oklch(74.46% 0.118 289.83)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#9187ce",
+        "variantOf": "primary"
+      },
+      {
+        "color": "rgb(226, 223, 254)",
+        "normalized": "#e2dffe",
+        "count": 7,
+        "confidence": "high",
+        "sources": [
+          "_1vlvc8w1"
+        ],
+        "lch": "lch(89.78% 15.69 290.3)",
+        "oklch": "oklch(91.55% 0.042 289.98)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#c0bed8",
+        "variantOf": "primary"
+      }
+    ],
+    "cssVariables": {},
+    "detected": [
+      {
+        "color": "rgb(60, 49, 91)",
+        "normalized": "#3c315b",
+        "count": 624,
+        "usageFrac": 0.7619047619047619,
+        "confidence": "high",
+        "sources": [
+          "_15v9b930",
+          "_1wpz8pu2",
+          "kqb6dr1",
+          "_1vlvc8w1",
+          "_521mn91"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 253, 248)",
+        "normalized": "#fffdf8",
+        "count": 81,
+        "usageFrac": 0.0989010989010989,
+        "confidence": "high",
+        "sources": [
+          "_1vlvc8w1",
+          "cic9ch1"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(28, 28, 28)",
+        "normalized": "#1c1c1c",
+        "count": 63,
+        "usageFrac": 0.07692307692307693,
+        "confidence": "high",
+        "sources": [
+          "cic9ch1"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(134, 132, 141)",
+        "normalized": "#86848d",
+        "count": 16,
+        "usageFrac": 0.019536019536019536,
+        "confidence": "medium",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(171, 159, 242)",
+        "normalized": "#ab9ff2",
+        "count": 10,
+        "usageFrac": 0.01221001221001221,
+        "confidence": "medium",
+        "sources": [
+          "_1vlvc8w1",
+          "cic9ch1"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(253, 252, 254)",
+        "normalized": "#fdfcfe",
+        "count": 9,
+        "usageFrac": 0.01098901098901099,
+        "confidence": "high",
+        "sources": [
+          "_1vlvc8w1"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(226, 223, 254)",
+        "normalized": "#e2dffe",
+        "count": 7,
+        "usageFrac": 0.008547008547008548,
+        "confidence": "high",
+        "sources": [
+          "_1vlvc8w1"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(233, 232, 234)",
+        "normalized": "#e9e8ea",
+        "count": 2,
+        "usageFrac": 0.002442002442002442,
+        "confidence": "low",
+        "sources": [
+          "cic9ch1"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(244, 242, 244)",
+        "normalized": "#f4f2f4",
+        "count": 2,
+        "usageFrac": 0.002442002442002442,
+        "confidence": "low",
+        "sources": [
+          "_1ubm3hb0"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(245, 242, 255)",
+        "normalized": "#f5f2ff",
+        "count": 1,
+        "usageFrac": 0.001221001221001221,
+        "confidence": "low",
+        "sources": [],
+        "isToken": false
+      },
+      {
+        "color": "rgb(74, 135, 242)",
+        "normalized": "#4a87f2",
+        "count": 1,
+        "usageFrac": 0.001221001221001221,
+        "confidence": "low",
+        "sources": [
+          "cic9ch1"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 255, 196)",
+        "normalized": "#ffffc4",
+        "count": 1,
+        "usageFrac": 0.001221001221001221,
+        "confidence": "low",
+        "sources": [
+          "cic9ch1"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(255, 218, 220)",
+        "normalized": "#ffdadc",
+        "count": 1,
+        "usageFrac": 0.001221001221001221,
+        "confidence": "low",
+        "sources": [
+          "cic9ch1"
+        ],
+        "isToken": false
+      },
+      {
+        "color": "rgb(46, 192, 139)",
+        "normalized": "#2ec08b",
+        "count": 1,
+        "usageFrac": 0.001221001221001221,
+        "confidence": "low",
+        "sources": [
+          "sp-status-badge"
+        ],
+        "isToken": false
+      }
+    ],
+    "_raw": [
+      {
+        "color": "rgb(60, 49, 91)",
+        "normalized": "#3c315b",
+        "count": 624
+      },
+      {
+        "color": "rgb(253, 252, 254)",
+        "normalized": "#fdfcfe",
+        "count": 9
+      },
+      {
+        "color": "rgb(171, 159, 242)",
+        "normalized": "#ab9ff2",
+        "count": 10
+      },
+      {
+        "color": "rgb(255, 253, 248)",
+        "normalized": "#fffdf8",
+        "count": 81
+      },
+      {
+        "color": "rgb(226, 223, 254)",
+        "normalized": "#e2dffe",
+        "count": 7
+      },
+      {
+        "color": "rgb(134, 132, 141)",
+        "normalized": "#86848d",
+        "count": 16
+      },
+      {
+        "color": "rgb(28, 28, 28)",
+        "normalized": "#1c1c1c",
+        "count": 63
+      }
+    ]
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "display",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "96px (6.00rem)",
+        "weight": 400,
+        "lineHeight": "1.10",
+        "spacing": "-2.4px",
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "96px (6.00rem)",
+        "weight": 400,
+        "lineHeight": "1.10",
+        "spacing": "-2.4px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "36px (2.25rem)",
+        "weight": 400,
+        "lineHeight": "1.20",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "24px (1.50rem)",
+        "weight": 400,
+        "lineHeight": "1.35",
+        "spacing": "-0.6px",
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "24px (1.50rem)",
+        "weight": 400,
+        "lineHeight": "1.35",
+        "spacing": "-0.6px",
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "20px (1.25rem)",
+        "weight": 400,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "20px (1.25rem)",
+        "weight": 350,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.20",
+        "spacing": "0.16px",
+        "transform": null
+      },
+      {
+        "context": "heading-2",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 700,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-3",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 700,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "15px (0.94rem)",
+        "weight": 400,
+        "lineHeight": "1.21",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "15px (0.94rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "15px (0.94rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "14.4px (0.90rem)",
+        "weight": 400,
+        "lineHeight": "2.64",
+        "spacing": "0.144px",
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "14.4px (0.90rem)",
+        "weight": 700,
+        "lineHeight": "1.00",
+        "spacing": "0.144px",
+        "transform": null
+      },
+      {
+        "context": "heading-4",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 700,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-4",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "13.6px (0.85rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "13.6px (0.85rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "ui",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "13.3333px (0.83rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "13.3333px (0.83rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "13.008px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "12.992px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "body",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "12.992px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Phantom",
+        "fallbacks": null,
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      }
+    ],
+    "sources": {
+      "googleFonts": [],
+      "adobeFonts": false,
+      "variableFonts": false,
+      "selfHostedFonts": [
+        "Phantom-Book.woff2",
+        "Phantom-BookItalic.woff2",
+        "Phantom-Regular.woff2",
+        "PhantomCash-Regular.woff2"
+      ],
+      "customFonts": [
+        "Phantom-Book.woff2",
+        "Phantom-BookItalic.woff2",
+        "Phantom-Regular.woff2",
+        "PhantomCash-Regular.woff2"
+      ]
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "1px",
+        "display": "1px",
+        "rem": "0.06rem",
+        "count": 5,
+        "numericValue": 1
+      },
+      {
+        "px": "2px",
+        "display": "2px",
+        "rem": "0.13rem",
+        "count": 1,
+        "numericValue": 2
+      },
+      {
+        "px": "3px",
+        "display": "3px",
+        "rem": "0.19rem",
+        "count": 2,
+        "numericValue": 3
+      },
+      {
+        "px": "4px",
+        "display": "4px",
+        "rem": "0.25rem",
+        "count": 4,
+        "numericValue": 4
+      },
+      {
+        "px": "5px",
+        "display": "5px",
+        "rem": "0.31rem",
+        "count": 7,
+        "numericValue": 5
+      },
+      {
+        "px": "6px",
+        "display": "6px",
+        "rem": "0.38rem",
+        "count": 2,
+        "numericValue": 6
+      },
+      {
+        "px": "8px",
+        "display": "8px",
+        "rem": "0.50rem",
+        "count": 11,
+        "numericValue": 8
+      },
+      {
+        "px": "10px",
+        "display": "10px",
+        "rem": "0.63rem",
+        "count": 20,
+        "numericValue": 10
+      },
+      {
+        "px": "12px",
+        "display": "12px",
+        "rem": "0.75rem",
+        "count": 22,
+        "numericValue": 12
+      },
+      {
+        "px": "16px",
+        "display": "16px",
+        "rem": "1.00rem",
+        "count": 36,
+        "numericValue": 16
+      },
+      {
+        "px": "20px",
+        "display": "20px",
+        "rem": "1.25rem",
+        "count": 2,
+        "numericValue": 20
+      },
+      {
+        "px": "24px",
+        "display": "24px",
+        "rem": "1.50rem",
+        "count": 15,
+        "numericValue": 24
+      },
+      {
+        "px": "30px",
+        "display": "30px",
+        "rem": "1.88rem",
+        "count": 3,
+        "numericValue": 30
+      },
+      {
+        "px": "32px",
+        "display": "32px",
+        "rem": "2.00rem",
+        "count": 19,
+        "numericValue": 32
+      },
+      {
+        "px": "48px",
+        "display": "48px",
+        "rem": "3.00rem",
+        "count": 24,
+        "numericValue": 48
+      },
+      {
+        "px": "64px",
+        "display": "64px",
+        "rem": "4.00rem",
+        "count": 2,
+        "numericValue": 64
+      },
+      {
+        "px": "76px",
+        "display": "76px",
+        "rem": "4.75rem",
+        "count": 1,
+        "numericValue": 76
+      },
+      {
+        "px": "96px",
+        "display": "96px",
+        "rem": "6.00rem",
+        "count": 6,
+        "numericValue": 96
+      },
+      {
+        "px": "120px",
+        "display": "120px",
+        "rem": "7.50rem",
+        "count": 1,
+        "numericValue": 120
+      },
+      {
+        "px": "128px",
+        "display": "128px",
+        "rem": "8.00rem",
+        "count": 4,
+        "numericValue": 128
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "2px",
+        "count": 11,
+        "elements": [
+          "span",
+          "Close",
+          "Close preference center",
+          "Back",
+          "button"
+        ],
+        "confidence": "high",
+        "numericValue": 2
+      },
+      {
+        "value": "3px",
+        "count": 2,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 3
+      },
+      {
+        "value": "4px",
+        "count": 1,
+        "elements": [
+          "span"
+        ],
+        "confidence": "low",
+        "numericValue": 4
+      },
+      {
+        "value": "12px",
+        "count": 3,
+        "elements": [
+          "span"
+        ],
+        "confidence": "low",
+        "numericValue": 12
+      },
+      {
+        "value": "16px",
+        "count": 1,
+        "elements": [
+          "form"
+        ],
+        "confidence": "low",
+        "numericValue": 16
+      },
+      {
+        "value": "17px",
+        "count": 1,
+        "elements": [
+          "Filter Cookie List"
+        ],
+        "confidence": "low",
+        "numericValue": 17
+      },
+      {
+        "value": "24px",
+        "count": 14,
+        "elements": [
+          "div",
+          "a"
+        ],
+        "confidence": "high",
+        "numericValue": 24
+      },
+      {
+        "value": "28px",
+        "count": 2,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 28
+      },
+      {
+        "value": "32px",
+        "count": 18,
+        "elements": [
+          "a",
+          "Search",
+          "Previous slide",
+          "Next slide",
+          "To homepage"
+        ],
+        "confidence": "high",
+        "numericValue": 32
+      },
+      {
+        "value": "50px",
+        "count": 1,
+        "elements": [
+          "Cookie list search"
+        ],
+        "confidence": "low",
+        "numericValue": 50
+      },
+      {
+        "value": "96px",
+        "count": 2,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low",
+        "numericValue": 96
+      },
+      {
+        "value": "100px",
+        "count": 7,
+        "elements": [
+          "nav",
+          "div",
+          "a"
+        ],
+        "confidence": "medium",
+        "numericValue": 100
+      },
+      {
+        "value": "50%",
+        "count": 8,
+        "elements": [
+          "div",
+          "a",
+          "button",
+          "badge"
+        ],
+        "confidence": "medium",
+        "numericValue": 50
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(255, 255, 255)",
+        "count": 3,
+        "elements": [
+          "span"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(171, 159, 242)",
+        "count": 2,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "none none solid",
+        "color": "rgb(60, 49, 91)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(50, 174, 136)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(112, 112, 112)",
+        "count": 1,
+        "elements": [
+          "input"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(187, 187, 187)",
+        "count": 1,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(233, 232, 234)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "2px",
+        "style": "inset",
+        "color": "rgb(60, 49, 91)",
+        "count": 1,
+        "elements": [
+          "iframe"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [
+    {
+      "shadow": "rgb(226, 223, 254) 0px 0px 4px 0px",
+      "count": 12,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgb(153, 153, 153) 0px 2px 10px -3px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgb(199, 197, 199) -3px -3px 5px -2px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgb(199, 197, 199) 0px 0px 12px 2px",
+      "count": 1,
+      "confidence": "low"
+    }
+  ],
+  "gradients": [],
+  "motion": {
+    "durations": [
+      {
+        "value": "0.001s",
+        "ms": 1,
+        "count": 427
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease",
+        "type": "ease",
+        "count": 401
+      },
+      {
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "type": "custom",
+        "count": 13
+      },
+      {
+        "value": "ease-in-out",
+        "type": "ease-in-out",
+        "count": 13
+      }
+    ],
+    "animations": [],
+    "contexts": {
+      "link": {
+        "count": 41,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": [
+          "background-color",
+          "transform",
+          "color",
+          "box-shadow"
+        ]
+      },
+      "nav": {
+        "count": 2,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "button": {
+        "count": 9,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "easingType": "custom",
+        "props": [
+          "transform",
+          "background-color",
+          "color",
+          "box-shadow"
+        ]
+      },
+      "input": {
+        "count": 1,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      },
+      "overlay": {
+        "count": 1,
+        "durations": [
+          "0.001s"
+        ],
+        "easing": "ease",
+        "easingType": "ease",
+        "props": []
+      }
+    },
+    "interactiveDeltas": [
+      {
+        "tag": "button",
+        "text": "",
+        "pattern": "transform",
+        "delta": {
+          "transform": "matrix(0.985, 0, 0, 0.985, 0, 0)",
+          "background": {
+            "from": "rgb(253, 252, 254)",
+            "to": "rgb(226, 223, 254)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Download",
+        "pattern": "transform",
+        "delta": {
+          "transform": "matrix(0.985, 0, 0, 0.985, 0, 0)",
+          "background": {
+            "from": "rgb(171, 159, 242)",
+            "to": "rgb(226, 223, 254)"
+          }
+        }
+      },
+      {
+        "tag": "div",
+        "text": "Download Phantom",
+        "pattern": "transform",
+        "delta": {
+          "transform": "matrix(0.985, 0, 0, 0.985, 0, 0)",
+          "background": {
+            "from": "rgb(226, 223, 254)",
+            "to": "rgb(171, 159, 242)"
+          }
+        }
+      },
+      {
+        "tag": "a",
+        "text": "See more",
+        "pattern": "transform",
+        "delta": {
+          "transform": "matrix(0.985, 0, 0, 0.985, 0, 0)"
+        }
+      },
+      {
+        "tag": "button",
+        "text": "",
+        "pattern": "transform",
+        "delta": {
+          "transform": "matrix(0.985, 0, 0, 0.985, 0, 0)",
+          "background": {
+            "from": "rgb(226, 223, 254)",
+            "to": "rgb(171, 159, 242)"
+          }
+        }
+      }
+    ]
+  },
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(226, 223, 254)",
+            "color": "rgb(60, 49, 91)",
+            "padding": "32px",
+            "borderRadius": "96px",
+            "border": "0px none rgb(60, 49, 91)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "text": "Download Phantom",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(171, 159, 242)",
+            "color": "rgb(60, 49, 91)",
+            "padding": "16px 32px",
+            "borderRadius": "32px",
+            "border": "0px none rgb(60, 49, 91)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "text": "Download",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(253, 252, 254)",
+            "color": "rgb(60, 49, 91)",
+            "padding": "32px",
+            "borderRadius": "96px",
+            "border": "0px none rgb(60, 49, 91)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "text": "Download Phantom",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(226, 223, 254)",
+            "color": "rgb(60, 49, 91)",
+            "padding": "12px 20px",
+            "borderRadius": "32px",
+            "border": "0px none rgb(60, 49, 91)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "text": "See more",
+        "confidence": "medium"
+      }
+    ],
+    "inputs": {
+      "text": [
+        {
+          "specificType": "email",
+          "states": {
+            "default": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(60, 49, 91)",
+              "border": "0px none rgb(60, 49, 91)",
+              "borderRadius": "0px",
+              "padding": "0px",
+              "boxShadow": "none",
+              "outline": "rgb(60, 49, 91) none 3px"
+            },
+            "focus": {
+              "backgroundColor": "rgb(30, 174, 219)",
+              "outline": "rgb(255, 114, 67) solid 4px",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "currentcolor",
+              "border": "1px solid rgb(0, 0, 0)",
+              "boxShadow": "none"
+            }
+          }
+        }
+      ],
+      "checkbox": [],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgb(60, 49, 91)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(60, 49, 91)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "rgb(56, 96, 190)",
+            "textDecoration": "underline"
+          }
+        }
+      },
+      {
+        "color": "rgb(28, 28, 28)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(28, 28, 28)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "rgb(56, 96, 190)",
+            "textDecoration": "underline"
+          }
+        }
+      },
+      {
+        "color": "rgb(255, 253, 248)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(255, 253, 248)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "rgb(56, 96, 190)",
+            "textDecoration": "underline"
+          }
+        }
+      }
+    ],
+    "badges": {
+      "all": [
+        {
+          "backgroundColor": "rgb(46, 192, 139)",
+          "color": "rgb(60, 49, 91)",
+          "padding": "0px",
+          "borderRadius": "50%",
+          "border": "0px none rgb(60, 49, 91)",
+          "fontSize": "15px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "textTransform": "none",
+          "letterSpacing": "normal",
+          "variant": "neutral",
+          "styleType": "filled",
+          "isRounded": true,
+          "classes": "sp-status-badge sp-status-ok sp-status-ok",
+          "confidence": "high"
+        }
+      ],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": [
+          {
+            "backgroundColor": "rgb(46, 192, 139)",
+            "color": "rgb(60, 49, 91)",
+            "padding": "0px",
+            "borderRadius": "50%",
+            "border": "0px none rgb(60, 49, 91)",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "variant": "neutral",
+            "styleType": "filled",
+            "isRounded": true,
+            "classes": "sp-status-badge sp-status-ok sp-status-ok",
+            "confidence": "high"
+          }
+        ]
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "400px"
+    },
+    {
+      "px": "425px"
+    },
+    {
+      "px": "426px"
+    },
+    {
+      "px": "500px"
+    },
+    {
+      "px": "530px"
+    },
+    {
+      "px": "550px"
+    },
+    {
+      "px": "600px"
+    },
+    {
+      "px": "639px"
+    },
+    {
+      "px": "640px"
+    },
+    {
+      "px": "767px"
+    },
+    {
+      "px": "768px"
+    },
+    {
+      "px": "800px"
+    },
+    {
+      "px": "896px"
+    },
+    {
+      "px": "1023px"
+    },
+    {
+      "px": "1024px"
+    },
+    {
+      "px": "1279px"
+    },
+    {
+      "px": "1280px"
+    },
+    {
+      "px": "1535px"
+    },
+    {
+      "px": "1536px"
+    }
+  ],
+  "iconSystem": [],
+  "frameworks": []
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://www.intercom.com",
+  "hovers": [
+    {
+      "selector": "a[href]",
+      "file": "hover-01.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 1400,
+        "height": 34
+      }
+    },
+    {
+      "selector": "button",
+      "file": "hover-02.png",
+      "box": {
+        "x": 1408,
+        "y": 1,
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "selector": "button",
+      "file": "hover-03.png",
+      "box": {
+        "x": 54,
+        "y": 55,
+        "width": 96,
+        "height": 40
+      }
+    }
+  ]
+}

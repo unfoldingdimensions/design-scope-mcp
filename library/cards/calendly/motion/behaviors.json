@@ -1,0 +1,85 @@
+{
+  "url": "https://calendly.com",
+  "captured": "2026-08-10T11:49:26+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgb(25, 72, 112)",
+          "after": "rgb(10, 37, 64)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgb(240, 243, 248)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 3,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgb(240, 243, 248)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "color": {
+          "before": "rgb(255, 255, 255)",
+          "after": "rgb(0, 107, 255)"
+        },
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgb(230, 240, 255)"
+        },
+        "borderColor": {
+          "before": "rgb(255, 255, 255)",
+          "after": "rgb(0, 107, 255)"
+        },
+        "outline": {
+          "before": "rgb(255, 255, 255) none 3px",
+          "after": "rgb(0, 107, 255) none 3px"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "nav.Header-atoms__HeaderSection-sc-c42f2d71-10",
+      "diffs": {
+        "boxShadow": "none → rgba(0, 0, 0, 0.04) 0px 4px 4px 0px"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 244,
+    "tabs": 0,
+    "accordions": 4,
+    "carousels": 3,
+    "observers": 2,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 3
+  },
+  "states": []
+}

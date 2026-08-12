@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- design-scope final variant component: Form -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Form — component</title>
+<link rel="stylesheet" href="../assets/tokens.css">
+<style>
+  body { font-family: var(--font, system-ui); background: var(--bg); color: var(--text);
+         padding: 32px; margin: 0; }
+  .demo-grid { display: grid; gap: 24px; max-width: 720px; }
+  .demo-section h2 { font-size: 15px; font-weight: 600; color: var(--text-muted); margin: 0 0 12px; }
+  .demo-row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  .demo-block { background: var(--surface); border: 1px solid var(--border);
+                 border-radius: var(--radius, 8px); padding: 20px; }
+  .note { font-size: 12px; color: var(--text-muted); font-family: var(--mono, monospace); }
+  
+  .field { display: flex; flex-direction: column; gap: 6px; }
+  .label { font-size: 13px; font-weight: 600; color: var(--text); }
+  .field input { font-family: var(--font); font-size: 14px; color: var(--text);
+    background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-control, 6px);
+    padding: 10px 12px; transition: border-color .15s var(--ease, ease), box-shadow .15s var(--ease, ease); }
+  .field input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent); }
+  .field input.has-error { border-color: var(--danger, #dc2626); }
+  .error-msg { font-size: 12px; color: var(--danger, #dc2626); }
+  .field input:disabled { opacity: .5; cursor: not-allowed; }
+
+  .demo-form { background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius, 12px); padding: 20px; max-width: 420px; }
+
+</style>
+</head>
+<body>
+<div class="demo-grid">
+  <div class="note">Component: Form · tokens: assets/tokens.css · self-contained</div>
+  <div class="demo-section"><h2>Form — labeled + validation</h2>
+  <form class="demo-form" onsubmit="return validateForm(event)">
+    <label class="field"><span class="label">Full name</span><input name="name" required placeholder="Ada Lovelace"></label>
+    <label class="field" style="margin-top:14px"><span class="label">Email</span><input name="email" type="email" required placeholder="you@example.com"></label>
+    <div class="demo-row" style="margin-top:18px">
+      <button class="btn" type="submit">Save</button>
+      <button class="btn btn-ghost" type="button" onclick="this.form.reset()">Reset</button>
+    </div>
+    <div class="note" id="form-note"></div>
+  </form>
+  <div class="note">Undo is preferred over confirm: Reset restores without a dialog. 44px+ touch targets.</div>
+</div>
+<script>
+  function validateForm(e) {
+    const email = e.target.email;
+    const ok = /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email.value);
+    const note = document.getElementById('form-note');
+    email.classList.toggle('has-error', !ok);
+    note.textContent = ok ? 'Saved ✓' : 'Enter a valid email address.';
+    return false;
+  }
+</script>
+
+</div>
+<script src="../assets/theme.js"></script>
+</body>
+</html>

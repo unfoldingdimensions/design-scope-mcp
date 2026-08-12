@@ -1,0 +1,119 @@
+{
+  "url": "https://zapier.com",
+  "captured": "2026-08-10T09:41:56+00:00",
+  "hover_diffs": [
+    {
+      "selector": "button",
+      "index": 1,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgb(248, 244, 240)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgb(248, 244, 240)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgb(248, 244, 240)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 465,
+    "tabs": 15,
+    "accordions": 6,
+    "carousels": 13,
+    "observers": 106,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "a",
+      "classes": "zapier-marketing-ui-button-18BedXz4 zapier-marketing-ui-navLink-Ece2kIH4 zapier-",
+      "text": "Sign up",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "div",
+      "classes": "Quickstart_tabs__RaPpo",
+      "text": "MCPSDKCLI",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "button",
+      "classes": "Quickstart_tab__9YG36 zapier-marketing-ui-bodySM-xItt0jSf",
+      "text": "MCP",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "button",
+      "classes": "Quickstart_tab__9YG36 zapier-marketing-ui-bodySM-xItt0jSf",
+      "text": "SDK",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "button",
+      "classes": "Quickstart_tab__9YG36 zapier-marketing-ui-bodySM-xItt0jSf",
+      "text": "CLI",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "div",
+      "classes": "ProductGallery_tabs__Cuf2c",
+      "text": "AI WorkflowsAI AgentsAI ChatbotsTablesFormsCanvasEnterpriseF",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "button",
+      "classes": "zapier-marketing-ui-bodySM-xItt0jSf zapier-marketing-ui-textNeutral700-jWmLI5IQ ",
+      "text": "AI Workflows",
+      "ariaSelected": "true",
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "button",
+      "classes": "zapier-marketing-ui-bodySM-xItt0jSf zapier-marketing-ui-textNeutral700-jWmLI5IQ ",
+      "text": "AI Agents",
+      "ariaSelected": "false",
+      "ariaExpanded": null
+    }
+  ]
+}

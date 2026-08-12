@@ -1,0 +1,104 @@
+{
+  "url": "https://www.ledger.com",
+  "captured": "2026-08-10T13:19:26+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "filter": {
+          "before": "invert(1)",
+          "after": "invert(0)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "header.",
+      "diffs": {
+        "sel": "header. → header.transparent-white-font",
+        "background": "rgba(0, 0, 0, 0) → rgb(255, 255, 255)",
+        "backdropFilter": "blur(40px) brightness(0.9) contrast(1.1) opacity(0.8) → none"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 350,
+    "tabs": 24,
+    "accordions": 0,
+    "carousels": 0,
+    "observers": 2,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "div",
+      "classes": "navigation__tabs",
+      "text": "Products\n                    \n                            \n ",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "button",
+      "classes": "navigation__tabs__trigger navigation-button active",
+      "text": "Products",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "button",
+      "classes": "navigation__tabs__trigger navigation-button",
+      "text": "Ledger Wallet",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "button",
+      "classes": "navigation__tabs__trigger navigation-button",
+      "text": "Learn",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "button",
+      "classes": "navigation__tabs__trigger navigation-button",
+      "text": "For Business",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "a",
+      "classes": "navigation__tabs__link navigation-button",
+      "text": "For Developers",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "a",
+      "classes": "navigation__tabs__link navigation-button",
+      "text": "Support",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "div",
+      "classes": "navigation__tabs__content active",
+      "text": "Discover our devices\n\n            \n        \n        \n       ",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

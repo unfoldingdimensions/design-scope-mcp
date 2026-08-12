@@ -1,0 +1,65 @@
+{
+  "url": "https://react.dev",
+  "captured": "2026-08-10T07:33:39+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(94, 104, 126)",
+          "after": "rgb(8, 126, 164)"
+        },
+        "outline": {
+          "before": "rgb(94, 104, 126) none 3px",
+          "after": "rgb(8, 126, 164) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(35, 39, 47, 0.05)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "backgroundColor": {
+          "before": "rgba(0, 0, 0, 0)",
+          "after": "rgba(35, 39, 47, 0.05)"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "nav.duration-300",
+      "diffs": {
+        "boxShadow": "none → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 16px 32px -16px, rgba(0, 0, 0, 0.1) 0px 0px 0px 1px"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 135,
+    "tabs": 0,
+    "accordions": 0,
+    "carousels": 2,
+    "observers": 18,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 2
+  },
+  "states": []
+}

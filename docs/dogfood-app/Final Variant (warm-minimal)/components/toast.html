@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- design-scope final variant component: Toast -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Toast — component</title>
+<link rel="stylesheet" href="../assets/tokens.css">
+<style>
+  body { font-family: var(--font, system-ui); background: var(--bg); color: var(--text);
+         padding: 32px; margin: 0; }
+  .demo-grid { display: grid; gap: 24px; max-width: 720px; }
+  .demo-section h2 { font-size: 15px; font-weight: 600; color: var(--text-muted); margin: 0 0 12px; }
+  .demo-row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  .demo-block { background: var(--surface); border: 1px solid var(--border);
+                 border-radius: var(--radius, 8px); padding: 20px; }
+  .note { font-size: 12px; color: var(--text-muted); font-family: var(--mono, monospace); }
+  
+  #toast-slot { position: fixed; bottom: 24px; right: 24px; display: flex; flex-direction: column; gap: 8px; }
+  .toast { background: var(--surface-raised, var(--surface)); border: 1px solid var(--border);
+    border-radius: var(--radius-control, 6px); padding: 12px 16px; font-size: 13px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.12); display: flex; align-items: center; gap: 10px;
+    animation: toast-in .25s var(--ease, ease); }
+  @keyframes toast-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  .toast-error { border-color: color-mix(in srgb, var(--danger, #dc2626) 50%, transparent); }
+  .toast-btn { background: var(--accent); color: var(--accent-ink, #fff); border: none;
+    border-radius: 4px; padding: 4px 10px; font-size: 12px; cursor: pointer; }
+
+</style>
+</head>
+<body>
+<div class="demo-grid">
+  <div class="note">Component: Toast · tokens: assets/tokens.css · self-contained</div>
+  <div class="demo-section"><h2>Toast — feedback</h2>
+  <div class="demo-row">
+    <button class="btn" onclick="showToast('success')">Success toast</button>
+    <button class="btn btn-danger" onclick="showToast('error')">Error toast</button>
+  </div>
+  <div id="toast-slot"></div>
+  <div class="note">Errors are recovery paths: the error toast carries a Retry action, not blame.</div>
+</div>
+<script>
+  function showToast(kind) {
+    const slot = document.getElementById('toast-slot');
+    const t = document.createElement('div');
+    t.className = 'toast toast-' + kind;
+    t.textContent = kind === 'success' ? 'Changes saved.' : 'Could not save — retry?';
+    if (kind === 'error') { const r = document.createElement('button'); r.textContent = 'Retry'; r.className = 'toast-btn'; t.appendChild(r); }
+    slot.appendChild(t);
+    setTimeout(() => t.remove(), 4000);
+  }
+</script>
+
+</div>
+<script src="../assets/theme.js"></script>
+</body>
+</html>

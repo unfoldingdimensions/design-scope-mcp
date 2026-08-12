@@ -1,0 +1,16 @@
+# design-scope library — git ignore rules
+# Screenshots + motion video/hover captures are regenerable via capture.py — keep the repo light.
+library/cards/*/screenshot-*.png
+library/cards/*/motion/card-motion.webm
+library/cards/*/motion/hover-*.png
+library/cards/*/motion/video/
+library/cards/*/tmp/
+# gallery is generated from index.json — rebuild with `python library/gallery.py`
+library/gallery.html
+__pycache__/
+*.pyc
+# local development artifacts — not part of the public repo
+/.hermes/
+/IDEA.md
+/research/
+/deploy-readiness-report.md

@@ -1,0 +1,155 @@
+{
+  "url": "https://www.datawrapper.de",
+  "captured": "2026-08-10T10:57:24+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "color": {
+          "before": "rgb(0, 125, 160)",
+          "after": "rgb(1, 95, 122)"
+        },
+        "borderColor": {
+          "before": "rgb(0, 125, 160)",
+          "after": "rgb(1, 95, 122)"
+        },
+        "outline": {
+          "before": "rgb(0, 125, 160) none 3px",
+          "after": "rgb(1, 95, 122) none 3px"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 2,
+      "diffs": {
+        "color": {
+          "before": "rgb(0, 0, 0)",
+          "after": "rgb(0, 110, 142)"
+        },
+        "borderColor": {
+          "before": "rgb(0, 0, 0)",
+          "after": "rgb(0, 110, 142)"
+        },
+        "outline": {
+          "before": "rgb(0, 0, 0) none 3px",
+          "after": "rgb(0, 110, 142) none 3px"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "a[href]",
+      "index": 3,
+      "diffs": {
+        "color": {
+          "before": "rgb(0, 0, 0)",
+          "after": "rgb(0, 110, 142)"
+        },
+        "borderColor": {
+          "before": "rgb(0, 0, 0)",
+          "after": "rgb(0, 110, 142)"
+        },
+        "outline": {
+          "before": "rgb(0, 0, 0) none 3px",
+          "after": "rgb(0, 110, 142) none 3px"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "[role=button]",
+      "index": 4,
+      "diffs": {
+        "opacity": {
+          "before": "0.66",
+          "after": "1"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    }
+  ],
+  "scroll_probe": [],
+  "interaction_model": {
+    "clickables": 155,
+    "tabs": 23,
+    "accordions": 0,
+    "carousels": 26,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "div",
+      "classes": "hero__app-animation-wrapper hero__app-animation-wrapper--tablet svelte-1vngvty",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "div",
+      "classes": "brand-blueprint__tab svelte-1928ny7",
+      "text": "Custom Theme",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "div",
+      "classes": "editor-carousel__tabs svelte-1sgr5j8",
+      "text": "Step-based workflow Our editor guides you through the full p",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "div",
+      "classes": "editor-carousel__tab svelte-1sgr5j8 editor-carousel__tab--active",
+      "text": "Step-based workflow Our editor guides you through the full p",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "div",
+      "classes": "editor-carousel__tab-progress-bar svelte-1sgr5j8",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "div",
+      "classes": "editor-carousel__tab-mobile-visual svelte-1sgr5j8",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "div",
+      "classes": "editor-carousel__tab-mobile-window svelte-1sgr5j8",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "div",
+      "classes": "editor-carousel__tab-headline svelte-1sgr5j8",
+      "text": "Step-based workflow",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

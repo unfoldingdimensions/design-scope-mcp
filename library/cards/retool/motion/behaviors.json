@@ -1,0 +1,80 @@
+{
+  "url": "https://retool.com",
+  "captured": "2026-08-09T16:57:20+00:00",
+  "hover_diffs": [
+    {
+      "selector": "a[href]",
+      "index": 1,
+      "diffs": {
+        "opacity": {
+          "before": "1",
+          "after": "0.8"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "opacity": {
+          "before": "0.4",
+          "after": "1"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    },
+    {
+      "selector": "button",
+      "index": 3,
+      "diffs": {
+        "opacity": {
+          "before": "0.4",
+          "after": "1"
+        }
+      },
+      "before_png": "hover-before-03.png",
+      "after_png": "hover-after-03.png"
+    },
+    {
+      "selector": "button",
+      "index": 4,
+      "diffs": {
+        "opacity": {
+          "before": "0.4",
+          "after": "1"
+        }
+      },
+      "before_png": "hover-before-04.png",
+      "after_png": "hover-after-04.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "header.GlobalNavigationContentDefault-module__VJd2Lq__globalNavigationContent",
+      "diffs": {
+        "sel": "header.GlobalNavigationContentDefault-module__VJd2Lq__globalNavigationContent → header.bgBlur-module__sbI52W__bgBlur",
+        "backdropFilter": "none → blur(3px)"
+      }
+    },
+    {
+      "selector": "figure.absolute",
+      "diffs": {
+        "background": "rgba(21, 21, 21, 0) → rgba(0, 0, 0, 0.8)"
+      }
+    }
+  ],
+  "interaction_model": {
+    "clickables": 173,
+    "tabs": 0,
+    "accordions": 3,
+    "carousels": 0,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": null,
+    "marquees": 0
+  },
+  "states": []
+}
