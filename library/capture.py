@@ -216,24 +216,34 @@ def write_card(site: dict, slug: str, card_dir: Path, captured_at: str,
     )
 
 
-def motion_pass(card_dir: Path, url: str, browser, timeout_s: int = 120) -> dict:
-    """Capture the design EXPERIENCE: entrance animations, scroll-reveals,
-    hover states, micro-interactions — as video + hover-state screenshots.
+def finalize_video(motion_dir: Path) -> str | None:
+    """Move the recorded webm out of the timestamped subdir. MUST run after
+    context.close() (the recording is finalized on close)."""
+    video_dir = motion_dir / "video"
+    vids = sorted(video_dir.rglob("*.webm")) if video_dir.exists() else []
+    if vids:
+        dest = motion_dir / "card-motion.webm"
+        shutil.move(str(vids[-1]), str(dest))
+        shutil.rmtree(video_dir, ignore_errors=True)
+        return "card-motion.webm"
+    shutil.rmtree(video_dir, ignore_errors=True)
+    return None
 
-    Additive: returns a summary dict; never raises (caller catches).
-    Outputs into <card_dir>/motion/:
-      card-motion.webm        — recorded session (load → scroll → hover → click)
-      hover-<n>.png           — hover-state screenshot per interactive element
-      hover-inventory.json    — element selector + captured state per hover
+
+def motion_pass(card_dir: Path, url: str, browser, timeout_s: int = 120) -> dict:
+    """Thin wrapper around interaction_probe WITH video recording — kept for
+    backfill's selective per-pass runs. Never raises.
+
+    Returns the motion-shaped summary: {video, hovers, clicks, error}.
     """
     motion_dir = card_dir / "motion"
     video_dir = motion_dir / "video"
     video_dir.mkdir(parents=True, exist_ok=True)
     out = {"video": None, "hovers": 0, "clicks": 0, "error": None}
+    ctx = None
     try:
         ctx = browser.new_context(
-            viewport=DESKTOP_VIEWPORT,
-            user_agent=CHROME_UA,
+            viewport=DESKTOP_VIEWPORT, user_agent=CHROME_UA,
             record_video_dir=str(video_dir),
             record_video_size={"width": 1280, "height": 800},
         )
@@ -243,77 +253,20 @@ def motion_pass(card_dir: Path, url: str, browser, timeout_s: int = 120) -> dict
         status = resp.status if resp else "?"
         if status and status >= 400:
             raise RuntimeError(f"HTTP {status}")
-        page.wait_for_timeout(1800)  # entrance animations play
-
-        # scroll-reveals: page through the whole document
-        for _ in range(8):
-            page.mouse.wheel(0, 700)
-            page.wait_for_timeout(350)
-        page.mouse.wheel(0, -99999)  # back to top
-        page.wait_for_timeout(600)
-
-        # hover states on interactive elements
-        inventory = []
-        selectors = ["a[href]", "button", "input[type=submit]", "[role=button]", ".card", "nav a"]
-        seen = set()
-        for sel in selectors:
-            try:
-                els = page.query_selector_all(sel)
-            except Exception:  # noqa: BLE001
-                continue
-            for el in els[:4]:
-                try:
-                    box = el.bounding_box()
-                    if not box or box["width"] < 20 or box["height"] < 16:
-                        continue
-                    key = (sel, round(box["x"]), round(box["y"]))
-                    if key in seen:
-                        continue
-                    seen.add(key)
-                    el.hover()
-                    page.wait_for_timeout(400)  # let the hover transition settle
-                    png = motion_dir / f"hover-{len(inventory)+1:02d}.png"
-                    el.screenshot(path=str(png))
-                    inventory.append({"selector": sel, "file": png.name,
-                                      "box": {k: round(v) for k, v in box.items()}})
-                    out["hovers"] += 1
-                    if out["hovers"] >= 6:
-                        break
-                except Exception:  # noqa: BLE001
-                    continue
-            if out["hovers"] >= 6:
-                break
-
-        # micro-interaction: click the first safe-looking button/link
-        try:
-            clickable = page.query_selector("a[href]") or page.query_selector("button")
-            if clickable:
-                clickable.click()
-                page.wait_for_timeout(700)
-                out["clicks"] = 1
-                page.go_back(wait_until="load")
-                page.wait_for_timeout(500)
-        except Exception:  # noqa: BLE001
-            pass
-
-        ctx.close()  # finalizes the recording
-
-        # move the webm out of the timestamped subdir
-        vids = sorted(video_dir.rglob("*.webm"))
-        if vids:
-            dest = motion_dir / "card-motion.webm"
-            import shutil as _sh
-            _sh.move(str(vids[-1]), str(dest))
-            out["video"] = "card-motion.webm"
-        shutil.rmtree(video_dir, ignore_errors=True)
-
-        if inventory:
-            (motion_dir / "hover-inventory.json").write_text(
-                json.dumps({"url": url, "hovers": inventory}, indent=2, ensure_ascii=False),
-                encoding="utf-8")
+        page.wait_for_timeout(2000)  # entrance animations play
+        from behavior_pass import interaction_probe
+        res = interaction_probe(page, card_dir, url)
+        out.update({"hovers": res.get("hovers", 0), "clicks": res.get("clicks", 0),
+                    "error": res.get("error")})
     except Exception as e:  # noqa: BLE001
         out["error"] = str(e)[:200]
-        shutil.rmtree(video_dir, ignore_errors=True)
+    finally:
+        if ctx:
+            try:
+                ctx.close()  # finalizes the recording
+            except Exception:  # noqa: BLE001
+                pass
+    out["video"] = finalize_video(motion_dir)
     return out
 
 
@@ -333,7 +286,15 @@ def capture_one(site: dict, slug: str, card_dir: Path, browser, opts) -> dict:
               "error": None, "screenshots": {}, "fingerprint": None, "captured_at": captured_at}
 
     try:
-        ctx = browser.new_context(viewport=DESKTOP_VIEWPORT, user_agent=CHROME_UA)
+        fast = _opt(opts, "fast", False)
+        # ONE desktop context for semantic + screenshot + merged interaction
+        # probe (6 loads → 3). Video recording is context-creation-only, so it
+        # is decided up front; the video spans the whole session (deliberate).
+        video_dir = card_dir / "motion" / "video"
+        ctx = browser.new_context(
+            viewport=DESKTOP_VIEWPORT, user_agent=CHROME_UA,
+            **({} if fast else {"record_video_dir": str(video_dir),
+                                "record_video_size": {"width": 1280, "height": 800}}))
         page = ctx.new_page()
         page.set_default_timeout(NAV_TIMEOUT_MS)
         resp = page.goto(url, wait_until="load", timeout=NAV_TIMEOUT_MS)
@@ -342,13 +303,60 @@ def capture_one(site: dict, slug: str, card_dir: Path, browser, opts) -> dict:
             raise RuntimeError(f"HTTP {status}")
         page.wait_for_timeout(2000)  # let client JS settle
 
+        # 1. semantic — read-only; a failure must not skip the rest (per-core
+        #    failure isolation: each step below is individually guarded)
+        try:
+            from semantic_pass import semantic_probe
+            semantic = semantic_probe(page, card_dir, url)
+            result["semantic"] = semantic
+            if semantic.get("ok"):
+                print(f"      semantic: tokens={semantic.get('named_tokens')} "
+                      f"z={semantic.get('z_index')} responsive={semantic.get('responsive_rules')}")
+            elif semantic.get("error"):
+                print(f"      semantic: skipped ({semantic['error'][:80]})")
+        except Exception as e:  # noqa: BLE001
+            result["semantic"] = {"ok": False, "error": str(e)[:200]}
+            print(f"      semantic: skipped (import/run error: {str(e)[:80]})")
+
+        # 2. reference screenshot BEFORE any hover (a hover state must never
+        #    bleed into the screenshot every card in the library shows)
         desktop_png = card_dir / "screenshot-desktop.png"
         if full_page_screenshot(page, desktop_png):
             result["screenshots"]["desktop"] = "screenshot-desktop.png"
-        page.close()
-        ctx.close()
 
-        # mobile pass
+        # 3. merged motion+behavior probe — scroll sweep, hover diffs, video
+        #    content; ends with click + go_back, the last state change
+        if not fast:
+            try:
+                page.evaluate("window.scrollTo(0, 0)")  # full-page shot scrolls internally
+                from behavior_pass import interaction_probe
+                motion = interaction_probe(page, card_dir, url)
+                result["motion"] = motion
+                result["behavior"] = {k: motion.get(k) for k in
+                                      ("ok", "hover_diffs", "scroll_triggers",
+                                       "interaction_model", "error", "behaviors_file")}
+                if motion.get("ok"):
+                    print(f"      behavior: model={motion.get('interaction_model')} "
+                          f"hovers={motion.get('hover_diffs')} scroll={motion.get('scroll_triggers')}")
+                elif motion.get("error"):
+                    print(f"      behavior: skipped ({motion['error'][:80]})")
+            except Exception as e:  # noqa: BLE001
+                result["motion"] = {"ok": False, "error": str(e)[:200]}
+                result["behavior"] = {"ok": False, "error": str(e)[:200]}
+                print(f"      behavior: skipped (import/run error: {str(e)[:80]})")
+        else:
+            result["motion"] = {"video": None, "skipped": "fast mode (opts.fast)"}
+            print("      motion: skipped (fast mode)")
+
+        ctx.close()  # finalizes the recording
+        if not fast:
+            vid = finalize_video(card_dir / "motion")
+            if vid:
+                result["motion"]["video"] = vid
+                print(f"      motion: video={vid} hovers={result['motion'].get('hovers')} "
+                      f"clicks={result['motion'].get('clicks')}")
+
+        # mobile pass — separate context: iPhone UA is context-creation-only
         mctx = browser.new_context(viewport=MOBILE_VIEWPORT, user_agent=IPHONE_UA)
         mpage = mctx.new_page()
         mpage.set_default_timeout(NAV_TIMEOUT_MS)
@@ -374,47 +382,6 @@ def capture_one(site: dict, slug: str, card_dir: Path, browser, opts) -> dict:
             fp_path.write_text(json.dumps(tokens, indent=2, ensure_ascii=False), encoding="utf-8")
         fp = fingerprint_from_tokens(tokens, slug)
         result["fingerprint"] = fp
-
-        # motion pass — additive: captures the design experience (video + hovers)
-        if _opt(opts, "fast", False):
-            result["motion"] = {"video": None, "skipped": "fast mode (opts.fast)"}
-            print("      motion: skipped (fast mode)")
-        else:
-            motion = motion_pass(card_dir, url, browser)
-            result["motion"] = motion
-            if motion.get("video"):
-                print(f"      motion: video={motion['video']} hovers={motion['hovers']} clicks={motion['clicks']}")
-            elif motion.get("error"):
-                print(f"      motion: skipped ({motion['error'][:80]})")
-
-        # behavior pass — additive: documents interaction model, scroll triggers,
-        # hover diffs with exact before/after computed values (behaviors.md)
-        if not _opt(opts, "fast", False):
-            try:
-                from behavior_pass import behavior_pass as _bp
-                behavior = _bp(card_dir, url, browser)
-                result["behavior"] = behavior
-                if behavior.get("ok"):
-                    print(f"      behavior: model={behavior.get('interaction_model')} "
-                          f"hovers={behavior.get('hover_diffs')} scroll={behavior.get('scroll_triggers')}")
-                elif behavior.get("error"):
-                    print(f"      behavior: skipped ({behavior['error'][:80]})")
-            except Exception as e:  # noqa: BLE001
-                print(f"      behavior: skipped (import/run error: {str(e)[:80]})")
-
-        # semantic pass — additive: the intent layer (named tokens, design
-        # intent, z-index, responsive rules) → semantic.json
-        try:
-            from semantic_pass import semantic_pass as _sp
-            semantic = _sp(card_dir, url, browser)
-            result["semantic"] = semantic
-            if semantic.get("ok"):
-                print(f"      semantic: tokens={semantic.get('named_tokens')} "
-                      f"z={semantic.get('z_index')} responsive={semantic.get('responsive_rules')}")
-            elif semantic.get("error"):
-                print(f"      semantic: skipped ({semantic['error'][:80]})")
-        except Exception as e:  # noqa: BLE001
-            print(f"      semantic: skipped (import/run error: {str(e)[:80]})")
 
         if not result["screenshots"] and fp.get("extracted") is False:
             raise RuntimeError("no screenshots and no tokens extracted")

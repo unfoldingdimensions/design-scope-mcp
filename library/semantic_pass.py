@@ -21,7 +21,7 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
-from capture import CHROME_UA, NAV_TIMEOUT_MS
+from capture import CHROME_UA, DESKTOP_VIEWPORT, NAV_TIMEOUT_MS
 
 # JS: walk all stylesheets, extract CSS custom property declarations from
 # theme-ish blocks, z-index rules, and @media rules — all in one pass.
@@ -230,24 +230,11 @@ def _classify_intent(raw: dict, named: dict) -> dict:
     return intent
 
 
-def semantic_pass(card_dir: Path, url: str, browser) -> dict:
-    """Extract the intent layer: named tokens, design intent, z-index, responsive."""
+def semantic_probe(page, card_dir: Path, url: str) -> dict:
+    """Extract the intent layer on an already-loaded page. Never raises."""
     out = {"ok": False, "named_tokens": 0, "z_index": 0, "responsive_rules": 0,
            "design_intent": None, "error": None, "file": "semantic.json"}
-    ctx = None
     try:
-        ctx = browser.new_context(
-            viewport={"width": 1440, "height": 900},
-            user_agent=CHROME_UA,
-        )
-        page = ctx.new_page()
-        page.set_default_timeout(NAV_TIMEOUT_MS)
-        resp = page.goto(url, wait_until="load", timeout=NAV_TIMEOUT_MS)
-        status = resp.status if resp else "?"
-        if status and status >= 400:
-            raise RuntimeError(f"HTTP {status}")
-        page.wait_for_timeout(1800)
-
         raw = _js(page, SEMANTIC_JS) or "{}"
         data = json.loads(raw)
         intent_raw = json.loads(_js(page, INTENT_JS) or "{}")
@@ -384,10 +371,29 @@ def semantic_pass(card_dir: Path, url: str, browser) -> dict:
         })
     except Exception as e:  # noqa: BLE001
         out["error"] = str(e)[:200]
+    return out
+
+
+def semantic_pass(card_dir: Path, url: str, browser) -> dict:
+    """Thin wrapper — own context (kept for backfill's selective per-pass
+    runs). Never raises."""
+    ctx = None
+    try:
+        ctx = browser.new_context(
+            viewport=DESKTOP_VIEWPORT, user_agent=CHROME_UA)
+        page = ctx.new_page()
+        page.set_default_timeout(NAV_TIMEOUT_MS)
+        resp = page.goto(url, wait_until="load", timeout=NAV_TIMEOUT_MS)
+        status = resp.status if resp else "?"
+        if status and status >= 400:
+            raise RuntimeError(f"HTTP {status}")
+        page.wait_for_timeout(1800)
+        return semantic_probe(page, card_dir, url)
+    except Exception as e:  # noqa: BLE001
+        return {"ok": False, "error": str(e)[:200], "file": "semantic.json"}
     finally:
         if ctx:
             try:
                 ctx.close()
             except Exception:  # noqa: BLE001
                 pass
-    return out

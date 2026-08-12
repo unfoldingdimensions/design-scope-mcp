@@ -1,19 +1,30 @@
 """
-design-scope behavior pass — captures HOW a design moves and reacts,
-not just how it looks. Upgrade over the plain motion pass: instead of a
-video + hover screenshots, this documents the *mechanisms* with exact
-before/after computed values, per the interaction-sweep methodology from
-ai-website-cloner-template (MIT, see library/extraction/).
+design-scope interaction probe — documents HOW a design moves and reacts,
+not just how it looks. Merges the former motion pass (video + hover-state
+captures) and behavior pass (computed-style diffs, scroll triggers,
+interaction model) into ONE scripted session on a shared page.
 
-Outputs into <card_dir>/motion/ (alongside the existing motion pass):
-  behaviors.md               — human-readable behavior bible (scroll triggers,
-                               hover diffs, interaction models, state captures)
-  behaviors.json             — machine-readable same data
-  hover-before-NN.png        — element in default state
-  hover-after-NN.png         — same element hovered (computed diff recorded)
+Session order (load-bearing — see capture-pipeline-collapse plan):
+  interaction-model probe → scroll-reveal sweep → back to top → scroll
+  probe (top vs scrolled) → state inventory → hover diffs (before/after
+  computed styles + screenshots) → click + go_back LAST (resets page state).
 
-Usage (called from capture.py):
-    behavior_pass(card_dir, url, browser) -> dict summary
+Outputs into <card_dir>/motion/:
+  card-motion.webm            — recorded session (finalized by the CALLER
+                                after context.close(); video spans the whole
+                                shared session, not just this probe)
+  behaviors.md                — human-readable behavior bible
+  behaviors.json              — machine-readable same data
+  hover-before-NN.png / hover-after-NN.png — element default vs hovered
+  hover-inventory.json        — element selector + captured state per diff
+
+`interaction_model` in behaviors.json is the classified STRING
+("scroll-driven" / "click-driven" / "static"); the raw counter dict lives
+in `interaction_signals`.
+
+Usage (called from capture.py / backfill.py):
+    interaction_probe(page, card_dir, url) -> dict summary
+    behavior_pass(card_dir, url, browser)  -> thin wrapper (own context)
 
 Never raises — additive to the card. If a page is static, the report
 honestly says "no behaviors detected" instead of fabricating any.
@@ -22,18 +33,13 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-from capture import CHROME_UA, NAV_TIMEOUT_MS
+from capture import CHROME_UA, DESKTOP_VIEWPORT, NAV_TIMEOUT_MS
 
 # JS: hover-diff probe — snap computed styles of the Nth element matching a
 # selector (index pinned so before/after hit the SAME element that was hovered).
-#
-# No scrollIntoView here: it used to run after the snap but BEFORE the "after"
-# screenshot, sliding the element out from under the mouse so the capture could
-# show the un-hovered state. The probe only reads; the caller does the scrolling.
-#
-# 'outline' is deliberately not probed — the computed value embeds currentColor,
-# so it changes whenever 'color' does. It was the single most-reported "hover
-# behavior" in the library (252 occurrences) while carrying no signal of its own.
+# NO scrollIntoView: it moved the element out from under the mouse before the
+# 'after' screenshot. NO outline: its computed value embeds currentColor, so it
+# mirrors any color change — 252 of the library's hover reports were that noise.
 HOVER_PROBE_JS = """(arg) => {
   const { selector, index } = JSON.parse(arg);
   const els = document.querySelectorAll(selector);
@@ -41,11 +47,30 @@ HOVER_PROBE_JS = """(arg) => {
   if (!el) return null;
   const props = ['color','backgroundColor','borderColor','boxShadow','transform',
     'opacity','filter','textDecoration','backgroundImage','scale'];
-  const cs = getComputedStyle(el);
-  const out = {};
-  props.forEach(p => { const v = cs[p]; if (v && v !== 'none' && v !== 'normal' && v !== 'auto') out[p] = v; });
-  return JSON.stringify(out);
+  const snap = () => {
+    const cs = getComputedStyle(el);
+    const out = {};
+    props.forEach(p => { const v = cs[p]; if (v && v !== 'none' && v !== 'normal' && v !== 'auto') out[p] = v; });
+    return out;
+  };
+  return JSON.stringify(snap());
 }"""
+
+
+def diff_states(before: dict, after: dict) -> dict:
+    """Diff two computed-style snapshots over the UNION of keys.
+
+    The probe omits 'none'/'normal'/'auto' values, so hover effects that ADD a
+    property (box-shadow, transform — the two most common on the web) appear
+    only in the `after` snapshot; diffing over `before` alone made them
+    invisible. Added properties record before=None, removed record after=None.
+    """
+    out = {}
+    for k in set(before) | set(after):
+        b, a = before.get(k), after.get(k)
+        if b != a:
+            out[k] = {"before": b, "after": a}
+    return out
 
 # JS: scroll-trigger probe — does any element change computed style at scroll?
 SCROLL_PROBE_JS = """() => {
@@ -91,18 +116,6 @@ STATES_PROBE_JS = """() => {
 }"""
 
 
-def diff_states(before: dict, after: dict) -> dict:
-    """Computed-style diff for one element, default state vs hovered.
-
-    Iterates the UNION of both snapshots. The probe omits 'none' values, so a
-    hover that ADDS a box-shadow or transform yields a key present only in
-    `after`; iterating `before` alone silently dropped it.
-    """
-    return {k: {"before": before.get(k), "after": after.get(k)}
-            for k in sorted(set(before) | set(after))
-            if before.get(k) != after.get(k)}
-
-
 def _js(page, script: str, arg=None) -> str | None:
     try:
         if arg is None:
@@ -112,44 +125,62 @@ def _js(page, script: str, arg=None) -> str | None:
         return None
 
 
-def behavior_pass(card_dir: Path, url: str, browser) -> dict:
-    """Document design behavior: scroll triggers, hover diffs, interaction models."""
+def classify_interaction_model(model: dict) -> str:
+    """Deterministic interaction-model classification from the raw counter
+    dict produced by INTERACTION_PROBE_JS. Pure — also used to backfill
+    legacy behaviors.json files."""
+    if (model.get("scrollSnap") or model.get("smoothScroll") or model.get("observers")):
+        return "scroll-driven"
+    if (model.get("tabs") or model.get("accordions") or model.get("carousels")
+            or model.get("clickables", 0) > 30):
+        return "click-driven"
+    return "static"
+
+
+# union of the former motion + behavior selector lists (behavior ⊆ motion)
+HOVER_SELECTORS = ["a[href]", "button", "input[type=submit]", "[role=button]",
+                   ".card", "nav a"]
+
+
+def interaction_probe(page, card_dir: Path, url: str) -> dict:
+    """The merged motion+behavior session on an ALREADY-LOADED page.
+
+    Video is recorded by the caller's context; this probe only does
+    interactions and writes the artifact files. The caller finalizes the
+    video (context.close() must happen first). Never raises.
+
+    Session order is load-bearing: the click + go_back at the end resets
+    page state — nothing may run after it.
+    """
     motion_dir = card_dir / "motion"
     motion_dir.mkdir(parents=True, exist_ok=True)
-    out = {"ok": False, "hover_diffs": 0, "scroll_triggers": 0, "interaction_model": None,
+    out = {"ok": False, "hover_diffs": 0, "hovers": 0, "clicks": 0,
+           "scroll_triggers": 0, "interaction_model": None, "video": None,
            "error": None, "behaviors_file": "motion/behaviors.md"}
     report = {"url": url, "captured": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-              "hover_diffs": [], "scroll_probe": [], "interaction_model": {}, "states": []}
-
-    ctx = None
+              "hover_diffs": [], "scroll_probe": [], "interaction_model": {},
+              "interaction_signals": {}, "states": []}
     try:
-        ctx = browser.new_context(
-            viewport={"width": 1440, "height": 900},
-            user_agent=CHROME_UA,
-        )
-        page = ctx.new_page()
-        page.set_default_timeout(NAV_TIMEOUT_MS)
-        resp = page.goto(url, wait_until="load", timeout=NAV_TIMEOUT_MS)
-        status = resp.status if resp else "?"
-        if status and status >= 400:
-            raise RuntimeError(f"HTTP {status}")
-        page.wait_for_timeout(2000)
-
         # 1. interaction model probe
         model_raw = _js(page, INTERACTION_PROBE_JS)
         if model_raw:
-            report["interaction_model"] = json.loads(model_raw)
-            model = report["interaction_model"]
-            out["interaction_model"] = (
-                "scroll-driven" if (model.get("scrollSnap") or model.get("smoothScroll") or model.get("observers"))
-                else "click-driven" if (model.get("tabs") or model.get("accordions") or model.get("carousels")
-                                        or model.get("clickables", 0) > 30)
-                else "static")
+            signals = json.loads(model_raw)
+            report["interaction_signals"] = signals
+            report["interaction_model"] = classify_interaction_model(signals)
+            out["interaction_model"] = report["interaction_model"]
             print(f"      behavior: interaction model = {out['interaction_model']} "
-                  f"(clickables={model.get('clickables')}, tabs={model.get('tabs')}, "
-                  f"observers={model.get('observers')}, snap={model.get('scrollSnap')})")
+                  f"(clickables={signals.get('clickables')}, tabs={signals.get('tabs')}, "
+                  f"observers={signals.get('observers')}, snap={signals.get('scrollSnap')})")
 
-        # 2. scroll-trigger probe: capture header/nav state at top, scroll, re-capture
+        # 2. scroll-reveal sweep, then back to top (motion)
+        for _ in range(8):
+            page.mouse.wheel(0, 700)
+            page.wait_for_timeout(350)
+        page.mouse.wheel(0, -99999)
+        page.wait_for_timeout(600)
+
+        # 3. scroll-trigger probe: header/nav state at top, scroll, re-capture
+        page.evaluate("window.scrollTo(0, 0)")
         scroll_before = _js(page, SCROLL_PROBE_JS)
         for _ in range(6):
             page.mouse.wheel(0, 600)
@@ -171,7 +202,8 @@ def behavior_pass(card_dir: Path, url: str, browser) -> dict:
             except Exception:  # noqa: BLE001
                 pass
 
-        # 3. state inventory (tabs/pills/accordions)
+        # 4. state inventory (tabs/pills/accordions) — after scroll reset
+        page.evaluate("window.scrollTo(0, 0)")
         states_raw = _js(page, STATES_PROBE_JS)
         if states_raw:
             try:
@@ -179,16 +211,18 @@ def behavior_pass(card_dir: Path, url: str, browser) -> dict:
             except Exception:  # noqa: BLE001
                 pass
 
-        # 4. hover diffs: pick interactive elements, hover, diff computed styles,
-        #    save before/after screenshots
-        selectors = ["a[href]", "button", ".card", "[role=button]"]
+        # 5. hover diffs: hover interactive elements, diff computed styles,
+        #    save before/after screenshots; inventory for elements that changed
         seen = set()
-        for sel in selectors:
+        hovered = 0
+        for sel in HOVER_SELECTORS:
             try:
                 els = page.query_selector_all(sel)
             except Exception:  # noqa: BLE001
                 continue
             for el_index, el in enumerate(els[:4]):
+                if len(report["hover_diffs"]) >= 5:
+                    break
                 try:
                     box = el.bounding_box()
                     if not box or box["width"] < 20 or box["height"] < 16:
@@ -212,6 +246,7 @@ def behavior_pass(card_dir: Path, url: str, browser) -> dict:
                     except Exception:  # noqa: BLE001
                         b_png.unlink(missing_ok=True)  # keep pairs consistent
                         raise
+                    hovered += 1
                     diffs = diff_states(before, after)
                     if diffs:
                         report["hover_diffs"].append({"selector": sel, "index": n, "diffs": diffs,
@@ -223,16 +258,32 @@ def behavior_pass(card_dir: Path, url: str, browser) -> dict:
                         a_png.unlink(missing_ok=True)
                 except Exception:  # noqa: BLE001
                     continue
-            if len(report["hover_diffs"]) >= 5:
-                break
+        out["hovers"] = hovered
         if out["hover_diffs"]:
             print(f"      behavior: {out['hover_diffs']} hover diffs recorded (before/after computed styles)")
+            (motion_dir / "hover-inventory.json").write_text(
+                json.dumps({"url": url, "hovers": [
+                    {"selector": h["selector"], "file": h["before_png"], "box": {}} for h in report["hover_diffs"]
+                ]}, indent=2, ensure_ascii=False), encoding="utf-8")
+
+        # 6. micro-interaction: click the first safe-looking link/button —
+        #    LAST: it navigates away and back, resetting all page state
+        try:
+            clickable = page.query_selector("a[href]") or page.query_selector("button")
+            if clickable:
+                clickable.click()
+                page.wait_for_timeout(700)
+                out["clicks"] = 1
+                page.go_back(wait_until="load")
+                page.wait_for_timeout(500)
+        except Exception:  # noqa: BLE001
+            pass
 
         # write behaviors.md + behaviors.json
         md = ["# Behavior report", "",
               f"- **URL:** {url}", f"- **Captured:** {report['captured']}",
               f"- **Interaction model:** {out['interaction_model']}", "",
-              "## Interaction model", f"- {json.dumps(report['interaction_model'], indent=2)}", ""]
+              "## Interaction model", f"- {json.dumps(report['interaction_signals'], indent=2)}", ""]
         md.append("## Scroll-triggered changes")
         if report["scroll_probe"]:
             for sp in report["scroll_probe"]:
@@ -259,14 +310,36 @@ def behavior_pass(card_dir: Path, url: str, browser) -> dict:
         else:
             md.append("- no tabs/pills/accordions detected")
         (motion_dir / "behaviors.md").write_text("\n".join(md), encoding="utf-8")
-        (motion_dir / "behaviors.json").write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
+        (motion_dir / "behaviors.json").write_text(
+            json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
         out["ok"] = True
     except Exception as e:  # noqa: BLE001
         out["error"] = str(e)[:200]
+    return out
+
+
+def behavior_pass(card_dir: Path, url: str, browser) -> dict:
+    """Thin wrapper — own context (kept for backfill's selective per-pass
+    runs). Returns the behavior-shaped summary. Never raises."""
+    ctx = None
+    try:
+        ctx = browser.new_context(
+            viewport=DESKTOP_VIEWPORT, user_agent=CHROME_UA)
+        page = ctx.new_page()
+        page.set_default_timeout(NAV_TIMEOUT_MS)
+        resp = page.goto(url, wait_until="load", timeout=NAV_TIMEOUT_MS)
+        status = resp.status if resp else "?"
+        if status and status >= 400:
+            raise RuntimeError(f"HTTP {status}")
+        page.wait_for_timeout(2000)
+        res = interaction_probe(page, card_dir, url)
+        return {k: res.get(k) for k in ("ok", "hover_diffs", "scroll_triggers",
+                                        "interaction_model", "error", "behaviors_file")}
+    except Exception as e:  # noqa: BLE001
+        return {"ok": False, "error": str(e)[:200], "behaviors_file": "motion/behaviors.md"}
     finally:
         if ctx:
             try:
                 ctx.close()
             except Exception:  # noqa: BLE001
                 pass
-    return out
