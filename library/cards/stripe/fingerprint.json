@@ -1,8 +1,8 @@
 {
   "url": "https://stripe.com/in",
-  "extractedAt": "2026-08-09T15:40:20.102Z",
+  "extractedAt": "2026-08-12T18:02:51.897Z",
   "meta": {
-    "snapshotId": "c25c488b-4e36-4583-a2f0-823a526fd16f",
+    "snapshotId": "3da127fd-612b-4ec1-b238-cf706152e7f0",
     "httpStatus": 200,
     "dembrandtVersion": "0.27.1",
     "schemaVersion": "1.5.0",
@@ -658,6 +658,22 @@
         "role": "accent",
         "onColor": "#000000",
         "hover": "#d9bf8b",
+        "source": "menu"
+      },
+      {
+        "color": "rgb(100, 128, 178)",
+        "normalized": "#6480b2",
+        "count": 2,
+        "confidence": "medium",
+        "sources": [
+          "hds-link"
+        ],
+        "lch": "lch(52.96% 30.01 269.84)",
+        "oklch": "oklch(59.87% 0.083 261.64)",
+        "role": "accent",
+        "onColor": "#000000",
+        "hover": "#556d97",
+        "variantOf": "primary",
         "source": "menu"
       }
     ],
@@ -3264,6 +3280,17 @@
           "color": {
             "from": "rgb(83, 58, 253)",
             "to": "rgb(46, 43, 140)"
+          }
+        }
+      },
+      {
+        "tag": "button",
+        "text": "Solutions",
+        "pattern": "color-shift",
+        "delta": {
+          "color": {
+            "from": "rgb(100, 116, 141)",
+            "to": "rgb(6, 27, 49)"
           }
         }
       },

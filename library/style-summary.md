@@ -1,6 +1,6 @@
 # design-scope style summary
 
-Generated 2026-08-12T16:16:43+00:00 · 201 cards · search via `python library/style_search.py "<query>"`
+Generated 2026-08-12T18:02:52+00:00 · 202 cards · search via `python library/style_search.py "<query>"`
 
 | slug | archetypes | hue | brightness | sat | corners | flat | type |
 |---|---|---|---|---|---|---|---|
@@ -142,6 +142,7 @@ Generated 2026-08-12T16:16:43+00:00 · 201 cards · search via `python library/s
 | posthog | funky, glassmorphic | orange | light | vibrant | generous | flat | mono-accent |
 | postmark | — | multicolor | light | soft | soft | elevated | mono-accent |
 | producthunt | — | blue | light | soft | generous | flat | neutral-sans |
+| produx-design | brutalist | neutral | unknown | muted | sharp | flat | serif-led |
 | proton | funky, glassmorphic, retro | pink | light | vibrant | generous | elevated | serif-led |
 | radix | funky | orange | light | vibrant | soft | elevated | mono-accent |
 | railway | premium | blue | dark | muted | soft | flat | serif-led |
