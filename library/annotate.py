@@ -37,8 +37,6 @@ from PIL import Image
 LIB = Path(__file__).resolve().parent
 LIBRARY = Path(os.environ.get("DESIGN_SCOPE_LIBRARY", str(LIB))).resolve()
 CARDS = LIBRARY / "cards"
-# optional .env fallback for the API key — point HERMES_ENV at any .env file
-HERMES_ENV = Path(os.environ["HERMES_ENV"]) if os.environ.get("HERMES_ENV") else None
 
 MODEL = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
 ENDPOINT = "https://integrate.api.nvidia.com/v1/chat/completions"
@@ -54,9 +52,12 @@ INTENT_FIELDS = ["vibe", "mood", "personality", "keywords"]
 
 def load_key() -> str:
     key = os.environ.get("NVIDIA_API_KEY", "")
-    if not key and HERMES_ENV and HERMES_ENV.exists():
-        m = re.search(r"NVIDIA_API_KEY=(\S+)", HERMES_ENV.read_text(encoding="utf-8"))
-        key = m.group(1) if m else ""
+    if not key:
+        # optional .env fallback — HERMES_ENV may point at any .env file
+        env_path = Path(os.environ["HERMES_ENV"]) if os.environ.get("HERMES_ENV") else None
+        if env_path and env_path.exists():
+            m = re.search(r"NVIDIA_API_KEY=(\S+)", env_path.read_text(encoding="utf-8"))
+            key = m.group(1) if m else ""
     if not key:
         raise SystemExit("NVIDIA_API_KEY not found — set it in the environment "
                          "(or HERMES_ENV pointing at a .env file)")
