@@ -30,9 +30,7 @@ concrete palettes and patterns — all on your own machine.
 | Layer | Ships in repo | Regenerates locally |
 |---|---|---|
 | `library/cards/` — 201 cards: card.md, fingerprint, semantic, annotation, behaviors | ✅ ~9 MB intelligence layer | — |
-| Screenshots (desktop + mobile), motion videos, hover captures | ❌ gitignored | `python library/regenerate_media.py` (~4–6 min/card full, ~60 s/card `--fast`) |
 | `library/index.json` + `style-index.json` | ✅ | `python library/style_index.py` |
-| `library/gallery.html` | ❌ gitignored | `python library/gallery.py` |
 | `docs/design-tests/` + `docs/dogfood-app/` — demo artifacts | ✅ | — |
 
 The library works with media missing: search, filter, compare, and theme
