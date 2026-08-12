@@ -67,10 +67,12 @@ the classified `interaction_model` (`"scroll-driven"` / `"click-driven"` /
 works with media missing — search, style-filter, and annotation (text
 fallback) all function from the intelligence layer alone.
 
-**One caveat:** the MCP server's `card_compare` and `theme_borrow` tools
-import `compare.py`/`theme.py`, which ship with the design-scope skill, not
-with this repo. Point the server at them with `DESIGN_SCOPE_SKILL_SCRIPTS`
-(or install the skill); without it the tools return a clear error instead of
+**Scripts:** the MCP server's `card_compare` and `theme_borrow` tools import
+`compare.py`/`theme.py`. Both ship with this repo in `scripts/` — they are
+mirrored from the design-scope skill (`<skill>/scripts/`), which remains the
+canonical home: edit there and copy into `scripts/` when they change. Resolution
+order at runtime: `DESIGN_SCOPE_SKILL_SCRIPTS` env → installed skill → repo
+`scripts/`. Without any of the three the tools return a clear error instead of
 a traceback.
 
 ## Annotation

@@ -26,9 +26,10 @@ if str(LIB) not in sys.path:  # once, at import — NOT per tool call
 GLOBAL_LIBRARY = Path(os.environ.get("DESIGN_SCOPE_LIBRARY", str(LIB))).resolve()
 INDEX = GLOBAL_LIBRARY / "index.json"
 STYLE_INDEX = GLOBAL_LIBRARY / "style-index.json"
-# skill scripts (compare.py, theme.py) live with the design-scope skill.
-# Resolution order: DESIGN_SCOPE_SKILL_SCRIPTS env var, then standard Hermes
-# install locations (~/.hermes, $HERMES_HOME, %LOCALAPPDATA%/hermes).
+# skill scripts (compare.py, theme.py) — resolution order:
+# 1. DESIGN_SCOPE_SKILL_SCRIPTS env var (explicit override)
+# 2. standard Hermes install locations (~/.hermes, $HERMES_HOME, %LOCALAPPDATA%/hermes)
+# 3. vendored copies shipped with this repo (scripts/ — mirrors of the skill's)
 # card_compare/theme_borrow return a structured error when none is found.
 def _resolve_skill_scripts() -> Path:
     env = os.environ.get("DESIGN_SCOPE_SKILL_SCRIPTS")
@@ -40,6 +41,7 @@ def _resolve_skill_scripts() -> Path:
         if os.environ.get("HERMES_HOME") else None,
         Path(os.environ["LOCALAPPDATA"]) / "hermes" / "skills" / "creative" / "design-scope" / "scripts"
         if os.environ.get("LOCALAPPDATA") else None,
+        Path(__file__).resolve().parent.parent / "scripts",
     ]
     for c in candidates:
         if c is not None and c.is_dir():
@@ -154,8 +156,8 @@ def card_compare(slug: str, project_dir: str) -> str:
     if not Path(project_dir).is_dir():
         return _err(f"project dir not found: {project_dir}")
     if not SKILL_SCRIPTS.is_dir():
-        return _err("design-scope skill scripts not found",
-                    "set DESIGN_SCOPE_SKILL_SCRIPTS or install the design-scope skill")
+        return _err("skill scripts not found",
+                    "set DESIGN_SCOPE_SKILL_SCRIPTS; repo scripts/ (compare.py, theme.py) is missing")
     if str(SKILL_SCRIPTS) not in sys.path:
         sys.path.insert(0, str(SKILL_SCRIPTS))
     import compare as cmp
@@ -171,8 +173,8 @@ def theme_borrow(slug: str, target_dir: str = ".") -> str:
     if not Path(target_dir).is_dir():
         return _err(f"target dir not found: {target_dir}")
     if not SKILL_SCRIPTS.is_dir():
-        return _err("design-scope skill scripts not found",
-                    "set DESIGN_SCOPE_SKILL_SCRIPTS or install the design-scope skill")
+        return _err("skill scripts not found",
+                    "set DESIGN_SCOPE_SKILL_SCRIPTS; repo scripts/ (compare.py, theme.py) is missing")
     if str(SKILL_SCRIPTS) not in sys.path:
         sys.path.insert(0, str(SKILL_SCRIPTS))
     import theme as th

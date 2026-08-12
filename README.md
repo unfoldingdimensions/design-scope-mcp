@@ -112,11 +112,10 @@ Register with Claude Code: `claude mcp add design-scope -- python "<path-to-repo
 | `capture_status` | `job_id` | queued / running / done / failed |
 | `recommend_history` | `project_dir` | the design-scope iteration chain (manifest.json) |
 
-⚠️ **`card_compare` and `theme_borrow` need scripts this repo does not ship.**
-They import `compare.py` / `theme.py`, which come with the design-scope *skill*,
-not with the library. Install the skill or point `DESIGN_SCOPE_SKILL_SCRIPTS` at
-them; without it both tools return a structured error and the other seven work
-normally. See [docs/OSS.md](docs/OSS.md).
+`card_compare` and `theme_borrow` work out of the box: they import `compare.py` /
+`theme.py`, which ship with this repo in `scripts/` (mirrored from the
+design-scope skill). Point `DESIGN_SCOPE_SKILL_SCRIPTS` at your own copies to
+override. See [docs/OSS.md](docs/OSS.md).
 
 Errors are returned as structured JSON (`{"error": ..., "hint": ...}`) — MCP
 has no error types.
@@ -126,7 +125,7 @@ has no error types.
 | var | meaning |
 |---|---|
 | `DESIGN_SCOPE_LIBRARY` | override the library root (default: the repo's `library/`). Honored by every module. |
-| `DESIGN_SCOPE_SKILL_SCRIPTS` | where `compare.py`/`theme.py` live — required for `card_compare`/`theme_borrow` when the design-scope skill isn't installed. Resolved by default from standard Hermes install locations. |
+| `DESIGN_SCOPE_SKILL_SCRIPTS` | override for where `compare.py`/`theme.py` live. Default resolution: env → installed design-scope skill → the repo's own `scripts/` (ships both files). |
 | `NVIDIA_API_KEY` | key for the LLM annotation pass (`annotate.py`). |
 | `HERMES_ENV` | optional path to a `.env` file to read `NVIDIA_API_KEY` from. |
 
