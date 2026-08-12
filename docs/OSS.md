@@ -17,7 +17,7 @@ library/
 │   ├── fingerprint.json    # Dembrandt tokens (colors/type/spacing/radii/motion)
 │   ├── semantic.json       # named tokens, design intent, z-index, responsive rules
 │   ├── annotation.json     # LLM design intelligence (vibe, what_works, search_terms)
-│   └── motion/             # behaviors.json + hover-inventory.json (mechanisms)
+│   └── motion/             # behaviors.json (classified model + signals) + hover-inventory.json
 ├── capture.py              # the capture pipeline
 ├── annotate.py             # LLM annotation pass (needs NVIDIA_API_KEY)
 ├── style_index.py          # rebuild style-index.json from cards
@@ -48,6 +48,17 @@ python library/gallery.py
 Estimated full rebuild of 201 cards: **~14-20h background** (full passes) or
 **~3-4h** (`--fast`, screenshots + tokens + semantic only — motion/behavior
 omitted).
+
+## Capture pipeline
+
+One card = **3 page loads**: a single desktop context shared by the semantic
+probe, the reference screenshot, and the merged interaction probe (scroll
+sweep, scroll triggers, hover before/after diffs, click); one mobile context
+(separate iPhone UA — kept separate by design); and the dembrandt CLI. The
+motion video is recorded across the whole desktop session, so the video and
+`behaviors.json` describe the same browsing session. `behaviors.json` carries
+the classified `interaction_model` (`"scroll-driven"` / `"click-driven"` /
+`"static"`) plus the raw probe counters in `interaction_signals`.
 
 ## Regenerated files that stay out of git
 
