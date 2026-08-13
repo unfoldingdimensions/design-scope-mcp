@@ -29,6 +29,7 @@ MCP_TOOLS = [
     ("card_get", "one card: fingerprint + semantic + behaviors + absolute tokens"),
     ("card_compare", "borrow candidates: card fingerprint vs a project"),
     ("theme_borrow", "a card's palette: token remap + contrast-guarded CSS"),
+    ("get_page_structure", "the band contract for a one-shot page: declared bands + mechanism budget"),
     ("capture", "capture a website as a library card"),
     ("capture_status", "poll a capture job"),
     ("recommend_history", "the iteration chain for a project"),

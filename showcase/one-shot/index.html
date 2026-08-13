@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <!--
-  iter:001 recs:- refs:superrr (sheet language), stripe (status dot), linear (toggle)
-  SHEET 01 — design-scope showcase. Built and graded with design-scope.
-  Bands: 10 declared (meta) · Mechanisms: 4 declared (meta) — measured by
-  scripts/verdict.py against this rendered document.
-  One intended gap: no scroll-linked band (fabric floor 2 of 3) — a rubric
-  that only ever prints PASS is a logo.
+  iter:001 recs:- refs:borrowed-card (one-shot pipeline)
+  SHEET 02 — one-shotted with design-scope.
+  Decisions by the server (style_search → card_get → theme_borrow →
+  get_page_structure → derive_tokens), rendering by the agent, grading by
+  the server (verdict.py). The register on this sheet is machine-written.
+  Bands: 10 declared (meta, from the structure contract) · Mechanisms: 4.
+  One intended gap: no scroll-linked band (fabric floor 2 of 3) — kept.
 -->
 <html lang="en" data-theme="light">
 <head>
@@ -13,47 +14,47 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="bands" content="10">
 <meta name="mechanisms" content="4">
-<title>design-scope — taste, as data · SHEET 01</title>
+<title>design-scope — one-shotted · SHEET 02</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='1.5' y='1.5' width='13' height='13' fill='none' stroke='%231E5EFF' stroke-width='2'/%3E%3Cpath d='M4 8h8M8 4v8' stroke='%231E5EFF' stroke-width='1.5'/%3E%3C/svg%3E">
 <style>
-/* ============================== TOKENS ============================== */
+/* ============================== TOKENS (borrowed + derived) ============================== */
 :root {
-  --paper: rgb(244, 243, 238);
-  --paper-2: rgb(236, 235, 228);
-  --card: rgb(252, 251, 247);
-  --ink: rgb(22, 24, 29);
-  --muted: rgb(91, 96, 107);
-  --line: rgba(22, 24, 29, 0.14);
-  --track: rgba(22, 24, 29, 0.07);
-  --grid: rgba(22, 24, 29, 0.05);
-  --accent: rgb(30, 94, 255);
-  --accent-text: rgb(23, 74, 210);
-  --accent-soft: rgba(30, 94, 255, 0.09);
-  --accent-line: rgba(30, 94, 255, 0.35);
-  --on-accent: rgb(255, 255, 255);
+  --paper: #fdfdfd;
+  --card: rgba(0, 0, 0, 0.03);
+  --paper-2: rgba(0, 0, 0, 0.05);
+  --ink: #000000;
+  --muted: #000000;
+  --line: rgba(0, 0, 0, 0.14);
+  --track: rgba(0, 0, 0, 0.07);
+  --grid: rgba(0, 0, 0, 0.05);
+  --accent: #000000;
+  --accent-text: #000000;
+  --accent-soft: rgba(0, 0, 0, 0.09);
+  --accent-line: rgba(0, 0, 0, 0.35);
+  --on-accent: #ffffff;
+  --sel: rgba(0, 0, 0, 0.07);
+  --shadow: rgba(0, 0, 0, 0.08);
   --pass: rgb(14, 122, 61);
   --under: rgb(179, 64, 31);
-  --sel: rgba(30, 94, 255, 0.07);
-  --shadow: rgba(22, 24, 29, 0.08);
 }
 html[data-theme="dark"] {
-  --paper: rgb(15, 19, 24);
-  --paper-2: rgb(20, 26, 33);
-  --card: rgb(22, 28, 35);
-  --ink: rgb(231, 233, 237);
-  --muted: rgb(154, 163, 175);
-  --line: rgba(231, 233, 237, 0.16);
-  --track: rgba(231, 233, 237, 0.08);
-  --grid: rgba(231, 233, 237, 0.045);
-  --accent: rgb(110, 155, 255);
-  --accent-text: rgb(140, 174, 255);
-  --accent-soft: rgba(110, 155, 255, 0.12);
-  --accent-line: rgba(110, 155, 255, 0.4);
-  --on-accent: rgb(9, 13, 18);
+  --paper: #000000;
+  --ink: #b4b4b4;
+  --card: rgba(180, 180, 180, 0.06);
+  --paper-2: rgba(180, 180, 180, 0.08);
+  --muted: #b4b4b4;
+  --line: rgba(180, 180, 180, 0.16);
+  --track: rgba(180, 180, 180, 0.08);
+  --grid: rgba(180, 180, 180, 0.045);
+  --accent: #7e7e7e;
+  --accent-text: #7e7e7e;
+  --accent-soft: rgba(126, 126, 126, 0.12);
+  --accent-line: rgba(126, 126, 126, 0.4);
+  --on-accent: #000000;
+  --sel: rgba(126, 126, 126, 0.1);
+  --shadow: rgba(180, 180, 180, 0.25);
   --pass: rgb(63, 206, 129);
   --under: rgb(255, 138, 92);
-  --sel: rgba(110, 155, 255, 0.1);
-  --shadow: rgba(0, 0, 0, 0.35);
 }
 
 /* ============================== BASE ============================== */
@@ -74,7 +75,7 @@ body::before {
     repeating-linear-gradient(90deg, var(--grid) 0 1px, transparent 1px 32px);
 }
 ::selection { background: var(--sel); }
-a { color: var(--accent); text-decoration: none; }
+a { color: var(--accent-text); text-decoration: none; }
 
 .mono, .lbl, code, pre, .fig-label, .tick-label, .band-tag, .status-tag {
   font-family: ui-monospace, "Cascadia Mono", Consolas, "SF Mono", monospace;
@@ -149,8 +150,14 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
 .h1 .rule { display: block; margin-top: 14px; width: 148px; }
 .h1 .rule path { stroke: var(--accent); stroke-width: 1.5; fill: none; }
 .h1 .rule .ticks { stroke: var(--accent-line); }
-.sub { font-size: 17.5px; line-height: 1.75; color: var(--muted); max-width: 46ch; margin-bottom: 34px; }
-.cta-row { display: flex; gap: 12px; margin-bottom: 44px; }
+.sub { font-size: 17.5px; line-height: 1.75; color: var(--muted); max-width: 46ch; margin-bottom: 30px; }
+.claim {
+  font-size: 11.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);
+  border-left: 3px solid var(--accent); padding: 10px 14px; margin-bottom: 30px;
+  background: var(--sel); line-height: 1.7;
+}
+.claim b { color: var(--accent-text); }
+.cta-row { display: flex; gap: 12px; margin-bottom: 40px; }
 .ticker {
   display: grid; grid-template-columns: repeat(4, auto); gap: 8px 26px; justify-content: start;
   border: 1px solid var(--line); border-radius: 4px; padding: 14px 18px; background: var(--card);
@@ -171,7 +178,7 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
 .fig-art .bar-hot { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 1; }
 .fig-art .dim { stroke: var(--muted); stroke-width: 1; stroke-dasharray: 3 3; }
 .fig-art .dim-accent { stroke: var(--accent); stroke-width: 1.2; stroke-dasharray: none; }
-.fig-art .tick-label { font-size: 10px; letter-spacing: 0.08em; fill: var(--muted); }
+.fig-art .tick-label { font-size: 10px; letter-spacing: 0.06em; fill: var(--muted); }
 .fig-art .tick-label-accent { fill: var(--accent-text); font-weight: 700; }
 .fig-art .drawn { stroke-dasharray: 900; stroke-dashoffset: 900; animation: draw 1.3s cubic-bezier(0.19, 1, 0.22, 1) 0.25s forwards; }
 
@@ -182,7 +189,6 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
 .band-title { font-size: 34px; font-weight: 800; letter-spacing: -0.02em; margin-top: 10px; }
 .band-intro { font-size: 15px; line-height: 1.6; color: var(--muted); max-width: 62ch; margin-top: 10px; }
 
-/* dimension divider under band heads */
 .divider { display: block; width: 100%; margin-top: 26px; }
 .divider line { stroke: var(--line); stroke-width: 1; }
 .divider .tick { stroke: var(--line); stroke-width: 1; }
@@ -200,6 +206,11 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
 .stat-num .unit { font-size: 16px; color: var(--muted); font-weight: 600; margin-left: 4px; letter-spacing: 0; }
 .stat-label { margin-top: 10px; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
 .stat-note { margin-top: 6px; font-size: 13px; line-height: 1.5; color: var(--muted); }
+.ref-line {
+  margin-top: 22px; padding: 14px 16px; border: 1px solid var(--line); border-left: 3px solid var(--accent);
+  background: var(--card); font-size: 13px; line-height: 1.65; color: var(--muted);
+}
+.ref-line code { color: var(--accent-text); }
 
 /* ============================== TOOLS TABLE ============================== */
 .tool-table { width: 100%; border-collapse: collapse; margin-top: 8px; }
@@ -215,6 +226,7 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
 .tool-table tbody tr:hover { background: var(--sel); }
 .tool-table code { font-size: 12.5px; color: var(--accent-text); }
 .tool-table td.desc { color: var(--muted); line-height: 1.5; }
+.tool-table .new { color: var(--pass); font-size: 10px; letter-spacing: 0.12em; margin-left: 6px; }
 
 /* ============================== VERDICT RUBRIC ============================== */
 .verdict-score {
@@ -258,8 +270,8 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
   background: var(--card); font-size: 14px; line-height: 1.65; color: var(--muted);
 }
 
-/* ============================== BUILD STEPS ============================== */
-.steps { display: grid; grid-template-columns: 220px 1fr; gap: 0; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: var(--card); }
+/* ============================== THE REGISTER (BUILD) ============================== */
+.steps { display: grid; grid-template-columns: 250px 1fr; gap: 0; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: var(--card); }
 .step-list { border-right: 1px solid var(--line); }
 .step {
   display: block; width: 100%; text-align: left; padding: 14px 18px; cursor: pointer;
@@ -275,9 +287,14 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
 .step.active { color: var(--on-accent); background: var(--accent); font-weight: 700; }
 .step.active .n { color: var(--on-accent); }
 .step.active::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 2px; background: var(--on-accent); }
-.step-detail { padding: 26px 28px; display: flex; flex-direction: column; justify-content: center; min-height: 240px; }
+.step-detail { padding: 26px 28px; display: flex; flex-direction: column; justify-content: center; min-height: 260px; }
 .step-detail .d-label { font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent-text); margin-bottom: 10px; }
-.step-detail p { font-size: 15px; line-height: 1.7; color: var(--muted); }
+.step-detail p { font-size: 14.5px; line-height: 1.7; color: var(--muted); word-break: break-word; }
+.step-detail code { font-size: 12.5px; color: var(--ink); }
+.register-note {
+  margin-top: 18px; font-size: 10px; letter-spacing: 0.12em; color: var(--muted);
+  text-transform: uppercase; line-height: 1.8;
+}
 
 /* ============================== LEDGER ============================== */
 .ledger-note { font-size: 13px; color: var(--muted); line-height: 1.6; margin-bottom: 22px; max-width: 70ch; }
@@ -341,6 +358,7 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
 .band:nth-of-type(9) { animation-delay: 0.64s; }
 .hero .h1 { animation: band-in 0.55s cubic-bezier(0.19, 1, 0.22, 1) 0.05s both; }
 .hero .sub { animation: band-in 0.55s cubic-bezier(0.19, 1, 0.22, 1) 0.15s both; }
+.hero .claim { animation: band-in 0.55s cubic-bezier(0.19, 1, 0.22, 1) 0.2s both; }
 .hero .cta-row { animation: band-in 0.55s cubic-bezier(0.19, 1, 0.22, 1) 0.25s both; }
 .hero .ticker { animation: fade-in 0.6s ease 0.5s both; }
 .fig { animation: band-in 0.6s cubic-bezier(0.19, 1, 0.22, 1) 0.35s both; }
@@ -373,7 +391,7 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
       <a href="#s03">03 CONNECTION</a>
       <a href="#s04">04 VERDICT</a>
       <a href="#s05">05 SCAN</a>
-      <a href="#s06">06 BUILD</a>
+      <a href="#s06">06 REGISTER</a>
       <a href="#s07">07 LEDGER</a>
       <a href="#s08">08 START</a>
     </div>
@@ -394,64 +412,52 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
   <section class="band hero-band" id="s01" data-band="hero" data-band-type="hero" data-mechanism data-interactive>
     <div class="hero">
       <div>
-        <div class="kicker"><span class="lbl">[ SHEET 01 / DESIGN-SCOPE ]</span></div>
-        <h1 class="h1">Taste, as data.
+        <div class="kicker"><span class="lbl">[ SHEET 02 / ONE-SHOT ]</span></div>
+        <h1 class="h1">One-shotted.
           <svg class="rule" viewBox="0 0 148 12" aria-hidden="true">
             <path d="M0 6h118" class="drawn"/>
             <path d="M118 1v10M122 3v6M126 1v10M130 3v6M134 1v10M138 3v6M142 1v10M146 3v6M148 6h0" class="ticks drawn"/>
           </svg>
         </h1>
-        <p class="sub">Your agent writes the code. design-scope picks the direction, borrows the tokens from 204 measured sites, and grades what got built — read off the live DOM, not off the plan.</p>
+        <p class="sub">Every decision on this sheet traces to a tool call — the palette was borrowed, the structure was contracted, the grade was measured. The receipt is printed below.</p>
+        <div class="claim"><b>ONE-SHOTTED WITH DESIGN-SCOPE</b> — decisions by the server · rendering by the agent · grading by the server</div>
         <div class="cta-row">
           <a class="cta cta-primary" href="#s04">READ THE VERDICT</a>
-          <a class="cta cta-ghost" href="#s03">CONNECT THE SERVER</a>
+          <a class="cta cta-ghost" href="#s06">READ THE REGISTER</a>
         </div>
         <div class="ticker">
           <span class="lbl">[ SHEET SPEC ]</span>
           <span><b id="st-captured">—</b> captured</span>
           <span><b id="st-annotated">—</b> vision-reviewed</span>
-          <span><b id="st-indexed">—</b> style-indexed</span>
           <span><b>0</b> credits · local-first</span>
+          <span><b>10</b> tools</span>
         </div>
       </div>
       <figure class="fig">
         <div class="fig-head">
-          <span class="fig-label">FIG. 01 / REVIEW PASS</span>
+          <span class="fig-label">FIG. 01 / THE REGISTER</span>
           <span class="fig-live" aria-hidden="true"><i></i><i></i><i></i></span>
         </div>
-        <svg class="fig-art" viewBox="0 0 420 264" role="img" aria-label="The rubric applied to this page: 10 bands, 0 off-palette, 4 of 4 mechanisms, 2 of 3 fabric">
-          <!-- window frame -->
-          <rect class="frame drawn" x="30" y="18" width="246" height="176" rx="4"/>
-          <path class="frame" d="M30 40h246"/>
-          <circle class="frame-accent" cx="42" cy="29" r="2.4"/>
-          <circle class="frame" cx="54" cy="29" r="2.4"/>
-          <circle class="frame" cx="66" cy="29" r="2.4"/>
-          <!-- page bars -->
-          <rect class="bar" x="44" y="54" width="120" height="10" rx="2"/>
-          <rect class="bar" x="44" y="72" width="200" height="10" rx="2"/>
-          <rect class="bar" x="44" y="90" width="168" height="10" rx="2"/>
-          <rect class="bar-hot" x="44" y="112" width="120" height="10" rx="2"/>
-          <rect class="bar" x="44" y="130" width="186" height="10" rx="2"/>
-          <rect class="bar" x="44" y="148" width="94" height="10" rx="2"/>
-          <!-- dimension: width -->
-          <path class="dim" d="M30 206h246"/>
-          <path class="dim-accent" d="M30 202v8M276 202v8"/>
-          <text class="tick-label" x="138" y="220">104px</text>
-          <!-- dimension: mechanism count -->
-          <path class="dim" d="M292 18v176"/>
-          <path class="dim-accent" d="M288 18h8M288 194h8"/>
-          <text class="tick-label" x="299" y="112" transform="rotate(90 299 112)">0 OFF-PALETTE</text>
-          <!-- right-side verdict ticks -->
-          <text class="tick-label" x="318" y="58">4 OF 4</text>
-          <text class="tick-label" x="318" y="76">MECHANISMS</text>
-          <path class="dim" d="M312 50h-8v18h8"/>
-          <text class="tick-label-accent" x="318" y="110">2 OF 3</text>
-          <text class="tick-label" x="318" y="128">FABRIC</text>
-          <path class="dim-accent" d="M312 102h-8v18h8"/>
-          <text class="tick-label" x="318" y="162">1 OF 2</text>
-          <text class="tick-label" x="318" y="180">LIVING</text>
-          <path class="dim" d="M312 154h-8v18h8"/>
-          <text class="tick-label" x="30" y="248">10 BANDS · 0 OFF-PALETTE · 4 OF 4 MECHANISMS · 2 OF 3 FABRIC · 1 OF 2 LIVING</text>
+        <svg class="fig-art" viewBox="0 0 420 264" role="img" aria-label="The build receipt: style_search, card_get, theme_borrow, get_page_structure, derive_tokens, verdict — 0 credits">
+          <!-- register frame -->
+          <rect class="frame drawn" x="30" y="18" width="360" height="120" rx="4"/>
+          <path class="frame" d="M30 40h360"/>
+          <!-- receipt rows -->
+          <rect class="bar" x="44" y="52" width="150" height="10" rx="2"/>
+          <path class="dim" d="M204 57h146"/>
+          <rect class="bar-hot" x="44" y="70" width="180" height="10" rx="2"/>
+          <path class="dim" d="M234 75h116"/>
+          <rect class="bar" x="44" y="88" width="120" height="10" rx="2"/>
+          <path class="dim" d="M174 93h176"/>
+          <rect class="bar" x="44" y="106" width="200" height="10" rx="2"/>
+          <path class="dim" d="M254 111h96"/>
+          <!-- five tools + verdict -->
+          <text class="tick-label" x="44" y="164">style_search → card_get → theme_borrow → get_page_structure</text>
+          <text class="tick-label-accent" x="44" y="184">derive_tokens · verdict.py</text>
+          <path class="dim" d="M30 196h360"/>
+          <path class="dim-accent" d="M30 192v8M390 192v8"/>
+          <text class="tick-label" x="44" y="222">5 DECISIONS · 1 GRADE · 0 CREDITS · LOCAL-FIRST</text>
+          <text class="tick-label" x="44" y="244">EVERY ROW ON THIS SHEET IS MACHINE-WRITTEN</text>
         </svg>
       </figure>
     </div>
@@ -463,8 +469,8 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
       <span class="band-num">02</span>
       <span class="band-tag">BASIS</span>
       <div>
-        <h2 class="band-title">The corpus</h2>
-        <p class="band-intro">204 pages measured. Every one fingerprinted, motion-passed, and annotated with why it works. 201 independently reviewed by a vision pass. 202 indexed for natural-language search. None of it leaves your disk.</p>
+        <h2 class="band-title">The corpus behind the sheet</h2>
+        <p class="band-intro">204 pages measured. Every one fingerprinted, motion-passed, and annotated with why it works. The palette on this sheet was borrowed from one of them — the reference is cited below.</p>
       </div>
     </div>
     <svg class="divider" viewBox="0 0 1100 8" aria-hidden="true"><line x1="0" y1="4" x2="1100" y2="4"/><path class="tick" d="M20 1v6M40 1v6M60 1v6M80 1v6"/><path class="center" d="M1040 1v6M1060 1v6M1080 1v6"/></svg>
@@ -487,7 +493,7 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
       <div class="stat-card">
         <div class="stat-num"><span id="st2-dark">—</span><span class="unit">dark</span></div>
         <div class="stat-label">Dark-themed</div>
-        <div class="stat-note">Cards whose <code>semantic.json</code> ships a full dark palette, ready to borrow.</div>
+        <div class="stat-note">Cards whose <code>semantic.json</code> ships a full dark palette — the one-shot picks among these.</div>
       </div>
       <div class="stat-card">
         <div class="stat-num"><span id="st2-motion">—</span><span class="unit">motion</span></div>
@@ -495,11 +501,12 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
         <div class="stat-note">Recorded <code>card-motion.webm</code> + <code>behaviors.md</code>: what moves, when, and the easing.</div>
       </div>
       <div class="stat-card">
-        <div class="stat-num"><span id="st2-mcp">10</span><span class="unit">tools</span></div>
+        <div class="stat-num">10<span class="unit">tools</span></div>
         <div class="stat-label">Local-first</div>
         <div class="stat-note">No cloud, no credits, no accounts. The library is a folder on your disk.</div>
       </div>
     </div>
+    <div class="ref-line" id="ref-line">REFERENCE — <code>loading…</code></div>
   </section>
 
   <!-- ==================== 03 CONNECTION ==================== -->
@@ -508,13 +515,13 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
       <span class="band-num">03</span>
       <span class="band-tag">CONNECTION</span>
       <div>
-        <h2 class="band-title">Point your agent at one library</h2>
-        <p class="band-intro">An MCP server with 10 tools — stdio or streamable HTTP, both supported by the same server. Register it once and the corpus is one tool call away.</p>
+        <h2 class="band-title">Ten tools, one library</h2>
+        <p class="band-intro">An MCP server with 10 tools — stdio or streamable HTTP, both supported by the same server. The register on this sheet was produced by four of them.</p>
       </div>
     </div>
     <svg class="divider" viewBox="0 0 1100 8" aria-hidden="true"><line x1="0" y1="4" x2="1100" y2="4"/><path class="tick" d="M20 1v6M40 1v6M60 1v6M80 1v6"/><path class="center" d="M1040 1v6M1060 1v6M1080 1v6"/></svg>
     <table class="tool-table">
-      <thead><tr><th style="width:170px">tool</th><th>what it returns</th></tr></thead>
+      <thead><tr><th style="width:180px">tool</th><th>what it returns</th></tr></thead>
       <tbody>
         <tr><td><code>ping</code></td><td class="desc">health: ok + card count, or startup problems</td></tr>
         <tr><td><code>style_search</code></td><td class="desc">ranked cards — natural language: “funky”, “editorial but not brutalist”, “warm minimal”</td></tr>
@@ -522,7 +529,7 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
         <tr><td><code>card_get</code></td><td class="desc">full card: fingerprint + semantic + annotation + behaviors + asset paths</td></tr>
         <tr><td><code>card_compare</code></td><td class="desc">borrow candidates — a card's fingerprint vs your project's</td></tr>
         <tr><td><code>theme_borrow</code></td><td class="desc">a card's palette: token remap + contrast-guarded CSS (WCAG AA)</td></tr>
-        <tr><td><code>get_page_structure</code></td><td class="desc">the band contract for a one-shot page — declared bands + mechanism budget</td></tr>
+        <tr><td><code>get_page_structure</code><span class="new">NEW</span></td><td class="desc">the band contract for a one-shot page — declared bands + mechanism budget</td></tr>
         <tr><td><code>capture</code></td><td class="desc">a website becomes a card — async job, never blocks</td></tr>
         <tr><td><code>capture_status</code></td><td class="desc">queued / running / done / failed</td></tr>
         <tr><td><code>recommend_history</code></td><td class="desc">the iteration chain for a project (manifest.json)</td></tr>
@@ -570,32 +577,25 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
     </div>
   </section>
 
-  <!-- ==================== 06 BUILD ==================== -->
+  <!-- ==================== 06 THE REGISTER ==================== -->
   <section class="band" id="s06" data-band="build" data-band-type="how-it-works" data-mechanism>
     <div class="band-head">
       <span class="band-num">06</span>
-      <span class="band-tag">BUILD</span>
+      <span class="band-tag">REGISTER</span>
       <div>
-        <h2 class="band-title">Seven calls, zero credits, one graded page</h2>
-        <p class="band-intro">The same run an agent makes: capture a reference, fingerprint it, borrow what fits, iterate, and grade the result. Select a step.</p>
+        <h2 class="band-title">Five decisions, one grade, zero credits</h2>
+        <p class="band-intro">The actual calls that built this sheet, in order. Select a row to read what went in and what came out. The register is machine-written — no row here was typed by hand.</p>
       </div>
     </div>
     <svg class="divider" viewBox="0 0 1100 8" aria-hidden="true"><line x1="0" y1="4" x2="1100" y2="4"/><path class="tick" d="M20 1v6M40 1v6M60 1v6M80 1v6"/><path class="center" d="M1040 1v6M1060 1v6M1080 1v6"/></svg>
     <div class="steps">
-      <div class="step-list" id="step-list">
-        <button class="step" data-step="capture"><span class="n">01</span>capture</button>
-        <button class="step" data-step="fingerprint"><span class="n">02</span>fingerprint</button>
-        <button class="step" data-step="motion"><span class="n">03</span>motion pass</button>
-        <button class="step" data-step="index"><span class="n">04</span>style index</button>
-        <button class="step" data-step="borrow"><span class="n">05</span>theme borrow</button>
-        <button class="step" data-step="iterate"><span class="n">06</span>iterate</button>
-        <button class="step" data-step="qa"><span class="n">07</span>qa + finalize</button>
-      </div>
+      <div class="step-list" id="step-list"></div>
       <div class="step-detail">
-        <div class="d-label" id="step-label">CAPTURE</div>
-        <p id="step-text">A site becomes a card: desktop + mobile screenshots, a Dembrandt token fingerprint, and a recorded motion pass. ~2–3 minutes, one command.</p>
+        <div class="d-label" id="step-label">—</div>
+        <p id="step-text">Loading the register…</p>
       </div>
     </div>
+    <div class="register-note" id="register-note">SPENT 0 OF 0 CREDITS · LOCAL-FIRST · EVERY ROW MACHINE-WRITTEN</div>
   </section>
 
   <!-- ==================== 07 LEDGER ==================== -->
@@ -618,23 +618,23 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
       <span class="band-num">08</span>
       <span class="band-tag">START</span>
       <div>
-        <h2 class="band-title">Run it on your machine</h2>
-        <p class="band-intro">One server, two transports, ten tools. The library is a folder; point the server at yours with <code>DESIGN_SCOPE_LIBRARY</code>.</p>
+        <h2 class="band-title">One-shot your own sheet</h2>
+        <p class="band-intro">Two commands: prepare runs the tools and writes the receipt; grade measures the result and keeps the ledger row. Compose the page in between — that part is yours.</p>
       </div>
     </div>
     <svg class="divider" viewBox="0 0 1100 8" aria-hidden="true"><line x1="0" y1="4" x2="1100" y2="4"/><path class="tick" d="M20 1v6M40 1v6M60 1v6M80 1v6"/><path class="center" d="M1040 1v6M1060 1v6M1080 1v6"/></svg>
     <div class="cmd-list">
       <div class="cmd">
         <span class="arrow">→</span>
-        <code>python library/mcp_server.py</code>
-        <span class="note">stdio · recommended</span>
-        <button class="copy-btn" data-copy="python library/mcp_server.py">copy</button>
+        <code>python scripts/one_shot.py prepare --brief "your page" --direction "your direction"</code>
+        <span class="note">decisions</span>
+        <button class="copy-btn" data-copy='python scripts/one_shot.py prepare --brief "your page" --direction "your direction"'>copy</button>
       </div>
       <div class="cmd">
         <span class="arrow">→</span>
-        <code>cd library &amp;&amp; uvicorn mcp_server:app --host 127.0.0.1 --port 8232</code>
-        <span class="note">streamable http</span>
-        <button class="copy-btn" data-copy="cd library && uvicorn mcp_server:app --host 127.0.0.1 --port 8232">copy</button>
+        <code>python scripts/one_shot.py grade --label "R1 one-shot"</code>
+        <span class="note">grading</span>
+        <button class="copy-btn" data-copy='python scripts/one_shot.py grade --label "R1 one-shot"'>copy</button>
       </div>
       <div class="cmd">
         <span class="arrow">→</span>
@@ -648,17 +648,18 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
 
   <!-- ==================== FOOTER ==================== -->
   <footer class="footer" data-band="footer" data-band-type="footer">
-    <span class="end-tag">[ END OF SHEET · DESIGN-SCOPE · 10 TOOLS · 2 TRANSPORTS · LOCAL-FIRST ]</span>
+    <span class="end-tag">[ END OF SHEET · ONE-SHOTTED WITH DESIGN-SCOPE · 10 TOOLS · 2 TRANSPORTS · LOCAL-FIRST ]</span>
     <span class="status-tag"><i class="status-dot" aria-hidden="true"></i>OPERATIONAL</span>
   </footer>
 
 </div>
 
 <script>
-/*__DATA__*/
+window.SHOWCASE = {"stats": {"generated": "2026-08-13T17:43:17+00:00", "corpus": {"captured": 204, "indexed": 204, "annotated": 201, "annotated_why": 204, "motion": 204, "behaviors": 204, "semantic": 204, "dark_themed": 55, "style_indexed": 202, "index_stats": {"last_run": "2026-08-12T18:02:52+00:00", "total": 201}}, "styles": {"top_archetypes": [["funky", 53], ["glassmorphic", 50], ["premium", 15], ["editorial", 13], ["playful", 12], ["warm-minimal", 11], ["minimalist", 10], ["brutalist", 8], ["dark-minimal", 4], ["retro", 3]], "top_hues": [["blue", 69], ["multicolor", 62], ["neutral", 24], ["cyan", 12], ["red", 11], ["orange", 8], ["green", 6], ["yellow", 4], ["purple", 3], ["pink", 3]], "archetype_total_tags": 179}, "mcp": {"name": "design-scope", "tools": [["ping", "health check — library stats or startup problems"], ["style_search", "natural-language style search over the library"], ["style_filter", "structured filter over the style index"], ["card_get", "one card: fingerprint + semantic + behaviors + absolute tokens"], ["card_compare", "borrow candidates: card fingerprint vs a project"], ["theme_borrow", "a card's palette: token remap + contrast-guarded CSS"], ["capture", "capture a website as a library card"], ["capture_status", "poll a capture job"], ["recommend_history", "the iteration chain for a project"]], "transports": ["stdio", "streamable-http"]}}, "verdict": {"file": "showcase\\one-shot\\index.html", "label": "R1 one-shot", "date": "2026-08-13T17:43:17+00:00", "checks": [{"group": "STRUCTURE", "name": "Band allocation", "status": "PASS", "detail": "10 of 10 bands rendered", "evidence": {"rendered": 10, "declared": 10, "types": ["nav", "hero", "features-grid", "how-it-works", "feature-spotlight", "product-showcase", "how-it-works", "ledger", "cta-banner", "footer"]}}, {"group": "STRUCTURE", "name": "Mechanism budget", "status": "PASS", "detail": "4 of 4 declared mechanisms armed", "evidence": {"armed": 4, "declared": 4, "unarmed": []}}, {"group": "PALETTE", "name": "Palette conformance", "status": "PASS", "detail": "22 inks · 0 off-palette · 5 distinct token colors", "evidence": {"inks": 22, "off_palette": [], "tokens": 5, "mode": "strict"}}, {"group": "FABRIC", "name": "Fabric floor", "status": "UNDER", "detail": "2 of 3 — ambient True, pointer field True, scroll-linked False", "evidence": {"ambient": true, "pointer_field": true, "scroll_linked": false}}, {"group": "MOTION", "name": "Reduced motion", "status": "PASS", "detail": "17 animated elements · 1 MQ guard rules · 0 unguarded", "evidence": {"animated": 17, "mq_rules": ["*, ::before, ::after"], "unguarded": []}}, {"group": "MOTION", "name": "Living artefacts", "status": "PASS", "detail": "2 of 2 cap still animating after settle", "evidence": {"living": ["i.status-dot", "i.status-dot"]}}], "summary": {"pass": 5, "under": 1, "total": 6, "score": "5 PASS · 1 UNDER"}}, "ledger": [{"label": "R1 one-shot", "date": "2026-08-13T17:41:56+00:00", "file": "E:\\New-Personal-Projects\\Ui Design MCP\\showcase\\one-shot\\index.html", "score": "5 PASS · 1 UNDER", "pass": 5, "under": 1, "rows": [{"group": "STRUCTURE", "name": "Band allocation", "status": "PASS"}, {"group": "STRUCTURE", "name": "Mechanism budget", "status": "PASS"}, {"group": "PALETTE", "name": "Palette conformance", "status": "PASS"}, {"group": "FABRIC", "name": "Fabric floor", "status": "UNDER"}, {"group": "MOTION", "name": "Reduced motion", "status": "PASS"}, {"group": "MOTION", "name": "Living artefacts", "status": "PASS"}]}], "oneShot": {"register": [{"stage": "direction", "tool": "style_search", "input": "measured technical blueprint", "output": {"candidates": ["react", "resend", "alchemy", "anytype", "ledger", "playstation", "postmark", "together"], "ordering": "dark-palette cards first, then rank"}, "ts": "2026-08-13T17:41:23+00:00"}, {"stage": "palette", "tool": "theme_borrow", "input": "resend", "output": {"roles": {"primary": "#000000", "accent": "#000000", "bg": "#fdfdfd", "text": "#000000", "muted": "#000000"}, "dark_roles": {"bg": "#000000"}, "contrast_guard": ["local status roles (--pass/--under) kept from design-scope semantics — status colors carry meaning, not palette"]}, "gate": {"usable": true, "reason": "text 20.65:1 · accent 20.65:1 on bg", "rejects": [{"slug": "react", "reason": "text 1.00:1 on bg — below 3.0 floor"}]}, "ts": "2026-08-13T17:41:23+00:00"}, {"stage": "evidence", "tool": "card_get", "input": "resend", "output": {"why": "- **URL:** https://resend.com", "captured": "2026-08-10T07:04:45+00:00"}, "artifacts": ["E:\\New-Personal-Projects\\Ui Design MCP\\library\\cards\\resend\\screenshot-desktop.png"], "ts": "2026-08-13T17:41:23+00:00"}, {"stage": "structure", "tool": "get_page_structure", "input": {"brief": "blueprint sheet for design-scope", "direction": "measured technical blueprint"}, "output": {"bands": 10, "mechanism_budget": 4, "types": ["nav", "hero", "features-grid", "how-it-works", "feature-spotlight", "product-showcase", "how-it-works", "ledger", "cta-banner", "footer"]}, "ts": "2026-08-13T17:41:23+00:00"}, {"stage": "tokens", "tool": "derive_tokens (deterministic)", "input": "borrowed roles", "output": {"light": 17, "dark": 17}, "ts": "2026-08-13T17:41:23+00:00"}], "card": {"slug": "resend", "why": "- **URL:** https://resend.com", "screenshot": "E:\\New-Personal-Projects\\Ui Design MCP\\library\\cards\\resend\\screenshot-desktop.png"}, "derivations": ["derivation: #000000 → #000000 to reach 20.65:1 on #fdfdfd (darken walk)", "derivation: #000000 → #b4b4b4 to reach 10.13:1 on #000000 (lighten walk)", "derivation: #b4b4b4 → #b4b4b4 to reach 10.13:1 on #000000 (darken walk)", "derivation: #000000 → #7e7e7e to reach 5.17:1 on #000000 (lighten walk)", "derivation: #7e7e7e → #7e7e7e to reach 5.17:1 on #000000 (lighten walk)"], "brief": "blueprint sheet for design-scope", "direction": "measured technical blueprint", "credits": "0 — local-first"}};
 (function () {
   "use strict";
-  var S = window.SHOWCASE || { stats: null, verdict: null, ledger: [] };
+  var S = window.SHOWCASE || { stats: null, verdict: null, ledger: [], oneShot: null };
+  var OS = S.oneShot;
 
   /* ---------- stats render ---------- */
   function renderStats() {
@@ -667,7 +668,6 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
     var set = function (id, v) { var el = document.getElementById(id); if (el) el.textContent = v; };
     set("st-captured", c.captured);
     set("st-annotated", c.annotated);
-    set("st-indexed", c.style_indexed);
     set("st2-captured", c.captured);
     set("st2-annotated", c.annotated);
     set("st2-indexed", c.style_indexed);
@@ -694,10 +694,8 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
     var st = S.stats.styles;
     var arch = st.top_archetypes.slice(0, 6);
     var hues = st.top_hues.slice(0, 6);
-    var archMax = arch.length ? arch[0][1] : 1;
-    var hueMax = hues.length ? hues[0][1] : 1;
-    bars("arch-bars", arch, archMax);
-    bars("hue-bars", hues, hueMax);
+    bars("arch-bars", arch, arch.length ? arch[0][1] : 1);
+    bars("hue-bars", hues, hues.length ? hues[0][1] : 1);
     var total = S.stats.corpus.style_indexed || 1;
     var insight = document.getElementById("scan-insight");
     if (insight && arch.length) {
@@ -705,10 +703,20 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
       insight.textContent = top[0] + " leads the index at " + top[1] + " of " + total +
         " — one in " + share + " cards. " + S.stats.corpus.dark_themed +
         " cards ship a dark palette (" + Math.round(100 * S.stats.corpus.dark_themed / total) +
-        "%), ready to borrow.";
+        "%), and the one-shot picked among them.";
       document.getElementById("scan-title").textContent =
         "One in " + share + " cards is " + top[0];
     }
+  }
+
+  /* ---------- reference line ---------- */
+  function renderReference() {
+    var el = document.getElementById("ref-line");
+    if (!el || !OS || !OS.card) return;
+    var why = (OS.card.why || "").slice(0, 260);
+    el.innerHTML = 'REFERENCE — <code>' + OS.card.slug + '</code> · borrowed for this sheet\'s palette ' +
+      (OS.direction ? 'via <code>style_search("' + OS.direction + '")</code> · ' : '') +
+      (why ? 'why: <em>' + why + '</em>…' : '');
   }
 
   /* ---------- verdict rubric ---------- */
@@ -719,8 +727,7 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
     var root = document.getElementById("verdict-root");
     if (!root) return;
     if (!S.verdict) {
-      root.innerHTML = '<div class="verdict-pending">PENDING — run <code>scripts/verdict.py</code> on this page. ' +
-        'A rubric that only ever prints PASS is a logo; this one prints what it measured.</div>';
+      root.innerHTML = '<div class="verdict-pending">PENDING — run <code>scripts/verdict.py</code> on this page.</div>';
       return;
     }
     var v = S.verdict, rows = "";
@@ -753,7 +760,7 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
       return;
     }
     var rows = "";
-    var all = S.ledger.slice().reverse(); // newest first — the record reads upward
+    var all = S.ledger.slice().reverse();
     all.forEach(function (r, i) {
       var dots = "";
       (r.rows || []).forEach(function (c) {
@@ -773,9 +780,55 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
       '<div class="verdict-caption">' + S.ledger.length + ' ROWS · OLDEST AT THE FOOT · NO ROW IS EVER EDITED AFTER IT LANDS</div>';
   }
 
-  /* ---------- mechanisms (armed at init, measured by the rubric) ---------- */
+  /* ---------- register (the receipt, rendered as steps) ---------- */
+  function renderRegister() {
+    var list = document.getElementById("step-list");
+    var label = document.getElementById("step-label");
+    var text = document.getElementById("step-text");
+    var note = document.getElementById("register-note");
+    if (!list) return;
+    if (!OS || !OS.register || !OS.register.length) {
+      list.innerHTML = '<button class="step"><span class="n">—</span>no register</button>';
+      text.textContent = "No register found — run scripts/one_shot.py prepare first.";
+      return;
+    }
+    var entries = OS.register;
+    var build = document.querySelector('[data-band="build"]');
+    var steps = [];
+    entries.forEach(function (e, i) {
+      var btn = document.createElement("button");
+      btn.className = "step" + (i === 0 ? " active" : "");
+      btn.setAttribute("data-step", String(i));
+      btn.innerHTML = '<span class="n">' + String(i + 1).padStart(2, "0") + "</span>" + e.tool;
+      list.appendChild(btn);
+      steps.push(btn);
+      btn.addEventListener("click", function () {
+        steps.forEach(function (x) { x.classList.remove("active"); });
+        btn.classList.add("active");
+        showEntry(e);
+      });
+    });
+    function showEntry(e) {
+      label.textContent = (e.stage || "").toUpperCase() + " · " + e.tool;
+      var inp = typeof e.input === "string" ? e.input : JSON.stringify(e.input);
+      var out = typeof e.output === "string" ? e.output : JSON.stringify(e.output);
+      text.innerHTML = "<strong>IN</strong> <code>" + esc(inp) + "</code><br><br>" +
+                       "<strong>OUT</strong> <code>" + esc(out) + "</code>" +
+                       (e.ts ? "<br><br><span style='font-size:11px'>" + e.ts + "</span>" : "");
+    }
+    function esc(s) { return s.replace(/[&<>"]/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+    showEntry(entries[0]);
+    if (build) build.setAttribute("data-armed", "");
+    if (note) {
+      note.textContent = "SPENT " + (OS.credits || "0") + " CREDITS · " +
+        entries.length + " CALLS · EVERY ROW MACHINE-WRITTEN · " +
+        ((OS.derivations || []).length) + " TOKEN DERIVATIONS LOGGED";
+    }
+  }
+
+  /* ---------- mechanisms ---------- */
   function wireMechanisms() {
-    // nav: theme toggle
     var btn = document.getElementById("themeBtn");
     var nav = document.querySelector('[data-band="nav"]');
     if (btn) {
@@ -790,36 +843,7 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
         if (saved) document.documentElement.setAttribute("data-theme", saved);
       } catch (e) {}
     }
-    // build: pipeline step select
-    var list = document.getElementById("step-list");
-    var label = document.getElementById("step-label");
-    var text = document.getElementById("step-text");
-    var DETAILS = {
-      capture: ["CAPTURE", "A site becomes a card: desktop + mobile screenshots, a Dembrandt token fingerprint, and a recorded motion pass. ~2–3 minutes, one command."],
-      fingerprint: ["FINGERPRINT", "Named tokens and semantic colors extracted into semantic.json — the borrowable language of the site, not a screenshot of it."],
-      motion: ["MOTION PASS", "card-motion.webm + behaviors.md: what moves, when it moves, and the easing that moves it. Hover diffs with exact before/after computed values."],
-      index: ["STYLE INDEX", "Every card is vectorised into style-index.json: hue, brightness, corners, flatness, type mood. Searchable in natural language."],
-      borrow: ["THEME BORROW", "A card's palette remapped onto your tokens — contrast-guarded before it lands. Any role failing AA is darkened or lightened with before→after ratios logged."],
-      iterate: ["ITERATE", "Numbered HTML iterations in .hermes/design/, manifest-tracked. Adopted recs only; unadopted recs stay pending, never silently dropped."],
-      qa: ["QA + FINALIZE", "Measured, not eyeballed: both themes, geometry, interactions, WCAG contrast — fail-loud. Then a Final Variant package another agent can consume."]
-    };
-    var build = document.querySelector('[data-band="build"]');
-    if (list && DETAILS) {
-      var steps = list.querySelectorAll(".step");
-      steps.forEach(function (s) {
-        s.addEventListener("click", function () {
-          steps.forEach(function (x) { x.classList.remove("active"); });
-          s.classList.add("active");
-          var d = DETAILS[s.getAttribute("data-step")];
-          if (d) { label.textContent = d[0]; text.textContent = d[1]; }
-        });
-      });
-      steps[0].classList.add("active");
-      if (build) build.setAttribute("data-armed", "");
-    }
-    // start: copy command
     var start = document.querySelector('[data-band="start"]');
-    var copied = 0;
     document.querySelectorAll(".copy-btn").forEach(function (b) {
       b.addEventListener("click", function () {
         var txt = b.getAttribute("data-copy") || "";
@@ -844,8 +868,10 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
 
   renderStats();
   renderScan();
+  renderReference();
   renderVerdict();
   renderLedger();
+  renderRegister();
   wireMechanisms();
 })();
 </script>

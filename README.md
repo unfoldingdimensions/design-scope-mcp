@@ -108,6 +108,7 @@ Register with Claude Code: `claude mcp add design-scope -- python "<path-to-repo
 | `card_get` | `slug` | full card: fingerprint + semantic + annotation + behaviors + absolute asset paths |
 | `card_compare` ⚠️ | `slug`, `project_dir` | borrow candidates vs the project's fingerprint |
 | `theme_borrow` ⚠️ | `slug`, `target_dir` | token remap + contrast-guarded CSS (WCAG AA) |
+| `get_page_structure` | `brief`, `direction` | the band contract for a one-shot page: declared bands + mechanism budget |
 | `capture` | `url`, `name`, `category`, `slug`, `fast`, `why` | **job_id** (async, never blocks) |
 | `capture_status` | `job_id` | queued / running / done / failed |
 | `recommend_history` | `project_dir` | the design-scope iteration chain (manifest.json) |
@@ -147,6 +148,20 @@ mechanism budget, palette conformance, fabric floor, reduced motion, living
 artefacts) and appends PASS/UNDER rows to a ledger that is never edited after
 it lands — the ledger keeps its failures. Exit code = number of UNDER rows.
 
+## One-shot
+
+`showcase/one-shot/index.html` is the sheet whose decisions were made by the
+server: the palette was borrowed (style_search → theme_borrow, with a
+usability gate that rejects white-on-white borrows and records the rejects),
+the structure was contracted (get_page_structure), and the page prints its
+own machine-written build receipt.
+
+```bash
+python scripts/one_shot.py prepare --brief "blueprint sheet" --direction "measured technical"
+# compose the page — rendering is the agent's job; the sheet says so
+python scripts/one_shot.py grade --label "R1 one-shot"   # verdict + ledger + rebuild
+```
+
 ## Repository layout
 
 ```
@@ -167,13 +182,16 @@ library/
 scripts/
 ├── verdict.py           # scored 6-check rubric reviewer (PASS/UNDER + ledger)
 ├── stats.py             # corpus numbers counted fresh from the library
-├── build_showcase.py    # inject stats + verdict + ledger into showcase/index.html
+├── build_showcase.py    # inject stats + verdict + ledger into a sheet (--variant one-shot)
+├── one_shot.py          # the pipeline: prepare (tools → register) + grade (verdict → ledger)
+├── page_structure.py    # the band contract (10 bands, mechanism budget 4)
 ├── compare.py           # borrow candidates (card fingerprint vs project)
 └── theme.py             # token remap + contrast-guarded CSS
 showcase/
-├── index.template.html  # the sheet one-pager (both themes, self-contained)
+├── index.template.html  # the hand-built sheet (both themes, self-contained)
 ├── index.html           # built artifact — open this
-└── verdicts.json        # the ledger: every verdict, never edited after it lands
+├── verdicts.json        # the ledger: every verdict, never edited after it lands
+└── one-shot/            # the one-shotted sheet + its register + ledger
 docs/
 ├── mcp.md               # MCP server reference
 └── OSS.md               # packaging + regeneration documentation

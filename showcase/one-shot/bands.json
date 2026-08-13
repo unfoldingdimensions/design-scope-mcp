@@ -1,0 +1,73 @@
+{
+  "brief": "blueprint sheet for design-scope",
+  "direction": "measured technical blueprint",
+  "declared_bands": 10,
+  "mechanism_budget": 4,
+  "bands": [
+    {
+      "index": 1,
+      "type": "nav",
+      "mechanism": true,
+      "note": "theme toggle + anchor state"
+    },
+    {
+      "index": 2,
+      "type": "hero",
+      "mechanism": true,
+      "note": "hover-lift CTAs, entrance choreography"
+    },
+    {
+      "index": 3,
+      "type": "features-grid",
+      "mechanism": false,
+      "note": "corpus numbers, equal-height cards"
+    },
+    {
+      "index": 4,
+      "type": "how-it-works",
+      "mechanism": false,
+      "note": "connection / pipeline explanation"
+    },
+    {
+      "index": 5,
+      "type": "feature-spotlight",
+      "mechanism": false,
+      "note": "self-grade rubric table"
+    },
+    {
+      "index": 6,
+      "type": "product-showcase",
+      "mechanism": false,
+      "note": "corpus scan bars"
+    },
+    {
+      "index": 7,
+      "type": "how-it-works",
+      "mechanism": true,
+      "note": "connection / pipeline explanation"
+    },
+    {
+      "index": 8,
+      "type": "ledger",
+      "mechanism": false,
+      "note": "verdict history, reads upward"
+    },
+    {
+      "index": 9,
+      "type": "cta-banner",
+      "mechanism": true,
+      "note": "copy-command button"
+    },
+    {
+      "index": 10,
+      "type": "footer",
+      "mechanism": false,
+      "note": "status bar"
+    }
+  ],
+  "rationale": "v1 curated contract — 10 bands across 9 types; mechanism budget 4 (nav theme toggle, hero hover, step select, copy command). Every declared count is measured by the verdict rubric against the rendered document.",
+  "direction_vote": {
+    "votes": [],
+    "note": "archetype tags matching direction words, counted from style-index.json"
+  }
+}

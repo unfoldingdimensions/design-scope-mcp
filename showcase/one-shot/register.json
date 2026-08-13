@@ -1,0 +1,118 @@
+{
+  "brief": "blueprint sheet for design-scope",
+  "direction": "measured technical blueprint",
+  "created": "2026-08-13T17:41:23+00:00",
+  "credits": "0 — local-first",
+  "entries": [
+    {
+      "stage": "direction",
+      "tool": "style_search",
+      "input": "measured technical blueprint",
+      "output": {
+        "candidates": [
+          "react",
+          "resend",
+          "alchemy",
+          "anytype",
+          "ledger",
+          "playstation",
+          "postmark",
+          "together"
+        ],
+        "ordering": "dark-palette cards first, then rank"
+      },
+      "ts": "2026-08-13T17:41:23+00:00"
+    },
+    {
+      "stage": "palette",
+      "tool": "theme_borrow",
+      "input": "resend",
+      "output": {
+        "roles": {
+          "primary": "#000000",
+          "accent": "#000000",
+          "bg": "#fdfdfd",
+          "text": "#000000",
+          "muted": "#000000"
+        },
+        "dark_roles": {
+          "bg": "#000000"
+        },
+        "contrast_guard": [
+          "local status roles (--pass/--under) kept from design-scope semantics — status colors carry meaning, not palette"
+        ]
+      },
+      "gate": {
+        "usable": true,
+        "reason": "text 20.65:1 · accent 20.65:1 on bg",
+        "rejects": [
+          {
+            "slug": "react",
+            "reason": "text 1.00:1 on bg — below 3.0 floor"
+          }
+        ]
+      },
+      "ts": "2026-08-13T17:41:23+00:00"
+    },
+    {
+      "stage": "evidence",
+      "tool": "card_get",
+      "input": "resend",
+      "output": {
+        "why": "- **URL:** https://resend.com",
+        "captured": "2026-08-10T07:04:45+00:00"
+      },
+      "artifacts": [
+        "E:\\New-Personal-Projects\\Ui Design MCP\\library\\cards\\resend\\screenshot-desktop.png"
+      ],
+      "ts": "2026-08-13T17:41:23+00:00"
+    },
+    {
+      "stage": "structure",
+      "tool": "get_page_structure",
+      "input": {
+        "brief": "blueprint sheet for design-scope",
+        "direction": "measured technical blueprint"
+      },
+      "output": {
+        "bands": 10,
+        "mechanism_budget": 4,
+        "types": [
+          "nav",
+          "hero",
+          "features-grid",
+          "how-it-works",
+          "feature-spotlight",
+          "product-showcase",
+          "how-it-works",
+          "ledger",
+          "cta-banner",
+          "footer"
+        ]
+      },
+      "ts": "2026-08-13T17:41:23+00:00"
+    },
+    {
+      "stage": "tokens",
+      "tool": "derive_tokens (deterministic)",
+      "input": "borrowed roles",
+      "output": {
+        "light": 17,
+        "dark": 17
+      },
+      "ts": "2026-08-13T17:41:23+00:00"
+    }
+  ],
+  "derivations": [
+    "derivation: #000000 → #000000 to reach 20.65:1 on #fdfdfd (darken walk)",
+    "derivation: #000000 → #b4b4b4 to reach 10.13:1 on #000000 (lighten walk)",
+    "derivation: #b4b4b4 → #b4b4b4 to reach 10.13:1 on #000000 (darken walk)",
+    "derivation: #000000 → #7e7e7e to reach 5.17:1 on #000000 (lighten walk)",
+    "derivation: #7e7e7e → #7e7e7e to reach 5.17:1 on #000000 (lighten walk)"
+  ],
+  "card": {
+    "slug": "resend",
+    "why": "- **URL:** https://resend.com",
+    "screenshot": "E:\\New-Personal-Projects\\Ui Design MCP\\library\\cards\\resend\\screenshot-desktop.png"
+  }
+}

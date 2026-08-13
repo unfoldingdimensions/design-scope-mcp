@@ -1,7 +1,7 @@
 {
-  "file": "showcase\\index.html",
-  "label": "R5 tool sync",
-  "date": "2026-08-13T17:47:49+00:00",
+  "file": "showcase\\one-shot\\index.html",
+  "label": "R1 one-shot",
+  "date": "2026-08-13T17:43:17+00:00",
   "checks": [
     {
       "group": "STRUCTURE",
@@ -40,11 +40,11 @@
       "group": "PALETTE",
       "name": "Palette conformance",
       "status": "PASS",
-      "detail": "28 inks \u00b7 0 off-palette \u00b7 10 distinct token colors",
+      "detail": "22 inks \u00b7 0 off-palette \u00b7 5 distinct token colors",
       "evidence": {
-        "inks": 28,
+        "inks": 22,
         "off_palette": [],
-        "tokens": 10,
+        "tokens": 5,
         "mode": "strict"
       }
     },
@@ -63,9 +63,9 @@
       "group": "MOTION",
       "name": "Reduced motion",
       "status": "PASS",
-      "detail": "16 animated elements \u00b7 1 MQ guard rules \u00b7 0 unguarded",
+      "detail": "17 animated elements \u00b7 1 MQ guard rules \u00b7 0 unguarded",
       "evidence": {
-        "animated": 16,
+        "animated": 17,
         "mq_rules": [
           "*, ::before, ::after"
         ],

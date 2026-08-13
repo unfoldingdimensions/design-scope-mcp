@@ -151,6 +151,28 @@ def card_get(slug: str) -> str:
 
 
 @mcp.tool()
+def get_page_structure(brief: str, direction: str = "") -> str:
+    """The band contract for a one-shot page: declared bands + mechanism budget.
+
+    v1 curated: 10 bands across 9 section types, mechanism budget 4. The
+    page's <meta name="bands">/<meta name="mechanisms"> must match this, and
+    the verdict rubric measures the rendered document against it.
+    """
+    if not brief or not brief.strip():
+        return _err("brief must not be empty")
+    if not SKILL_SCRIPTS.is_dir():
+        return _err("skill scripts not found",
+                    "set DESIGN_SCOPE_SKILL_SCRIPTS; repo scripts/ (page_structure.py) is missing")
+    if str(SKILL_SCRIPTS) not in sys.path:
+        sys.path.insert(0, str(SKILL_SCRIPTS))
+    import page_structure as ps
+    try:
+        return json.dumps(ps.plan(brief, direction), ensure_ascii=False)
+    except Exception as e:  # noqa: BLE001
+        return _err(f"page structure failed: {e}")
+
+
+@mcp.tool()
 def card_compare(slug: str, project_dir: str) -> str:
     """Concrete borrow candidates: card fingerprint vs project fingerprint."""
     if not Path(project_dir).is_dir():

@@ -304,7 +304,7 @@ def run_verdict(html_path: Path, palette_mode: str = "strict") -> dict:
     checks.append({
         "group": "PALETTE", "name": "Palette conformance",
         "status": "PASS" if not off else "UNDER",
-        "detail": f"{len(data.get('inks', []))} inks · {len(off)} off-palette · {len(token_vals)} declared tokens",
+        "detail": f"{len(data.get('inks', []))} inks · {len(off)} off-palette · {len(token_vals)} distinct token colors",
         "evidence": {"inks": len(data.get("inks", [])), "off_palette": off[:8],
                      "tokens": len(token_vals), "mode": palette_mode},
     })
