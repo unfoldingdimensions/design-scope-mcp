@@ -1,0 +1,94 @@
+{
+  "file": "showcase\\index.html",
+  "label": "R4 polish pass",
+  "date": "2026-08-13T17:07:12+00:00",
+  "checks": [
+    {
+      "group": "STRUCTURE",
+      "name": "Band allocation",
+      "status": "PASS",
+      "detail": "10 of 10 bands rendered",
+      "evidence": {
+        "rendered": 10,
+        "declared": 10,
+        "types": [
+          "nav",
+          "hero",
+          "features-grid",
+          "how-it-works",
+          "feature-spotlight",
+          "product-showcase",
+          "how-it-works",
+          "ledger",
+          "cta-banner",
+          "footer"
+        ]
+      }
+    },
+    {
+      "group": "STRUCTURE",
+      "name": "Mechanism budget",
+      "status": "PASS",
+      "detail": "4 of 4 declared mechanisms armed",
+      "evidence": {
+        "armed": 4,
+        "declared": 4,
+        "unarmed": []
+      }
+    },
+    {
+      "group": "PALETTE",
+      "name": "Palette conformance",
+      "status": "PASS",
+      "detail": "28 inks \u00b7 0 off-palette \u00b7 10 declared tokens",
+      "evidence": {
+        "inks": 28,
+        "off_palette": [],
+        "tokens": 10,
+        "mode": "strict"
+      }
+    },
+    {
+      "group": "FABRIC",
+      "name": "Fabric floor",
+      "status": "UNDER",
+      "detail": "2 of 3 \u2014 ambient True, pointer field True, scroll-linked False",
+      "evidence": {
+        "ambient": true,
+        "pointer_field": true,
+        "scroll_linked": false
+      }
+    },
+    {
+      "group": "MOTION",
+      "name": "Reduced motion",
+      "status": "PASS",
+      "detail": "16 animated elements \u00b7 1 MQ guard rules \u00b7 0 unguarded",
+      "evidence": {
+        "animated": 16,
+        "mq_rules": [
+          "*, ::before, ::after"
+        ],
+        "unguarded": []
+      }
+    },
+    {
+      "group": "MOTION",
+      "name": "Living artefacts",
+      "status": "PASS",
+      "detail": "2 of 2 cap still animating after settle",
+      "evidence": {
+        "living": [
+          "i.status-dot",
+          "i.status-dot"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "pass": 5,
+    "under": 1,
+    "total": 6,
+    "score": "5 PASS \u00b7 1 UNDER"
+  }
+}

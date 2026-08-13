@@ -129,6 +129,24 @@ has no error types.
 | `NVIDIA_API_KEY` | key for the LLM annotation pass (`annotate.py`). |
 | `HERMES_ENV` | optional path to a `.env` file to read `NVIDIA_API_KEY` from. |
 
+## Showcase + verdict
+
+`showcase/index.html` is the project's sheet one-pager — built and graded with
+itself. Every figure on it is counted from the library at build time, and the
+page is graded by the same scored rubric your agent gets:
+
+```bash
+python scripts/build_showcase.py      # inject fresh stats + latest verdict + ledger
+python scripts/verdict.py showcase/index.html --label "R1" \
+    --ledger showcase/verdicts.json --json showcase/verdict.json
+python scripts/build_showcase.py      # rebuild: rubric + ledger rows real
+```
+
+`verdict.py` measures the rendered DOM against six checks (band allocation,
+mechanism budget, palette conformance, fabric floor, reduced motion, living
+artefacts) and appends PASS/UNDER rows to a ledger that is never edited after
+it lands — the ledger keeps its failures. Exit code = number of UNDER rows.
+
 ## Repository layout
 
 ```
@@ -143,9 +161,19 @@ library/
 ├── regenerate_media.py  # rebuild gitignored media locally
 ├── gallery.py           # HTML gallery generator
 ├── backfill.py          # motion/behavior/semantic backfill for old cards
-├── index.json           # 201-card registry
+├── index.json           # card registry (204 cards)
 ├── style-index.json     # searchable style vectors + archetypes + tags
 └── cards/<slug>/        # per-card intelligence layer
+scripts/
+├── verdict.py           # scored 6-check rubric reviewer (PASS/UNDER + ledger)
+├── stats.py             # corpus numbers counted fresh from the library
+├── build_showcase.py    # inject stats + verdict + ledger into showcase/index.html
+├── compare.py           # borrow candidates (card fingerprint vs project)
+└── theme.py             # token remap + contrast-guarded CSS
+showcase/
+├── index.template.html  # the sheet one-pager (both themes, self-contained)
+├── index.html           # built artifact — open this
+└── verdicts.json        # the ledger: every verdict, never edited after it lands
 docs/
 ├── mcp.md               # MCP server reference
 └── OSS.md               # packaging + regeneration documentation

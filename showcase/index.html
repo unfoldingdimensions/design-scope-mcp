@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<!--
+  iter:001 recs:- refs:superrr (sheet language), stripe (status dot), linear (toggle)
+  SHEET 01 — design-scope showcase. Built and graded with design-scope.
+  Bands: 10 declared (meta) · Mechanisms: 4 declared (meta) — measured by
+  scripts/verdict.py against this rendered document.
+  One intended gap: no scroll-linked band (fabric floor 2 of 3) — a rubric
+  that only ever prints PASS is a logo.
+-->
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="bands" content="10">
+<meta name="mechanisms" content="4">
+<title>design-scope — taste, as data · SHEET 01</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='1.5' y='1.5' width='13' height='13' fill='none' stroke='%231E5EFF' stroke-width='2'/%3E%3Cpath d='M4 8h8M8 4v8' stroke='%231E5EFF' stroke-width='1.5'/%3E%3C/svg%3E">
+<style>
+/* ============================== TOKENS ============================== */
+:root {
+  --paper: rgb(244, 243, 238);
+  --paper-2: rgb(236, 235, 228);
+  --card: rgb(252, 251, 247);
+  --ink: rgb(22, 24, 29);
+  --muted: rgb(91, 96, 107);
+  --line: rgba(22, 24, 29, 0.14);
+  --track: rgba(22, 24, 29, 0.07);
+  --grid: rgba(22, 24, 29, 0.05);
+  --accent: rgb(30, 94, 255);
+  --accent-text: rgb(23, 74, 210);
+  --accent-soft: rgba(30, 94, 255, 0.09);
+  --accent-line: rgba(30, 94, 255, 0.35);
+  --on-accent: rgb(255, 255, 255);
+  --pass: rgb(14, 122, 61);
+  --under: rgb(179, 64, 31);
+  --sel: rgba(30, 94, 255, 0.07);
+  --shadow: rgba(22, 24, 29, 0.08);
+}
+html[data-theme="dark"] {
+  --paper: rgb(15, 19, 24);
+  --paper-2: rgb(20, 26, 33);
+  --card: rgb(22, 28, 35);
+  --ink: rgb(231, 233, 237);
+  --muted: rgb(154, 163, 175);
+  --line: rgba(231, 233, 237, 0.16);
+  --track: rgba(231, 233, 237, 0.08);
+  --grid: rgba(231, 233, 237, 0.045);
+  --accent: rgb(110, 155, 255);
+  --accent-text: rgb(140, 174, 255);
+  --accent-soft: rgba(110, 155, 255, 0.12);
+  --accent-line: rgba(110, 155, 255, 0.4);
+  --on-accent: rgb(9, 13, 18);
+  --pass: rgb(63, 206, 129);
+  --under: rgb(255, 138, 92);
+  --sel: rgba(110, 155, 255, 0.1);
+  --shadow: rgba(0, 0, 0, 0.35);
+}
+
+/* ============================== BASE ============================== */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, "Segoe UI", Inter, system-ui, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  transition: background-color 0.25s ease, color 0.25s ease;
+  -webkit-font-smoothing: antialiased;
+}
+/* blueprint grid — a fixed surveyor's sheet behind everything */
+body::before {
+  content: ""; position: fixed; inset: 0; z-index: 0; pointer-events: none;
+  background-image:
+    repeating-linear-gradient(0deg, var(--grid) 0 1px, transparent 1px 32px),
+    repeating-linear-gradient(90deg, var(--grid) 0 1px, transparent 1px 32px);
+}
+::selection { background: var(--sel); }
+a { color: var(--accent); text-decoration: none; }
+
+.mono, .lbl, code, pre, .fig-label, .tick-label, .band-tag, .status-tag {
+  font-family: ui-monospace, "Cascadia Mono", Consolas, "SF Mono", monospace;
+}
+.lbl {
+  font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--muted);
+}
+
+.sheet { position: relative; z-index: 1; max-width: 1180px; margin: 0 auto; padding: 0 40px; }
+.band { position: relative; padding: 72px 0 64px; border-top: 1px solid var(--line); }
+
+/* ============================== NAV / STATUS BAR ============================== */
+.nav {
+  position: sticky; top: 0; z-index: 50;
+  background: var(--paper); border-bottom: 1px solid var(--line);
+  transition: background-color 0.25s ease;
+}
+.nav-inner {
+  max-width: 1180px; margin: 0 auto; padding: 14px 40px;
+  display: flex; align-items: center; gap: 26px;
+}
+.brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 15px; letter-spacing: -0.01em; }
+.brand-mark { width: 18px; height: 18px; }
+.brand-mark rect, .brand-mark path { fill: none; stroke: var(--accent); stroke-width: 1.8; }
+.nav-links { display: flex; gap: 18px; margin-left: 8px; }
+.nav-links a {
+  font-size: 12px; letter-spacing: 0.08em; color: var(--muted);
+  position: relative; padding: 3px 0; transition: color 0.18s ease;
+}
+.nav-links a::after {
+  content: ""; position: absolute; left: 0; bottom: -1px; height: 1px; width: 0;
+  background: var(--accent); transition: width 0.22s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.nav-links a:hover { color: var(--ink); }
+.nav-links a:hover::after { width: 100%; }
+.nav-right { margin-left: auto; display: flex; align-items: center; gap: 16px; }
+.status-dot {
+  width: 7px; height: 7px; border-radius: 50%; background: var(--pass);
+  animation: dot-pulse 2.6s ease-in-out infinite;
+}
+.status-tag { display: flex; align-items: center; gap: 7px; font-size: 10px; letter-spacing: 0.14em; color: var(--muted); }
+.theme-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 30px; height: 30px; border: 1px solid var(--line); border-radius: 4px;
+  background: transparent; color: var(--ink); cursor: pointer;
+  transition: border-color 0.18s ease, background-color 0.18s ease, transform 0.18s ease;
+}
+.theme-btn:hover { border-color: var(--accent); transform: translateY(-1px); }
+.theme-btn svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 1.6; }
+.theme-btn .sun { display: none; }
+html[data-theme="dark"] .theme-btn .sun { display: block; }
+html[data-theme="dark"] .theme-btn .moon { display: none; }
+.cta {
+  display: inline-block; padding: 9px 18px; border-radius: 4px;
+  font-size: 13px; font-weight: 600; letter-spacing: 0.02em;
+  transition: transform 0.18s cubic-bezier(0.19, 1, 0.22, 1), box-shadow 0.18s ease, background-color 0.18s ease;
+}
+.cta-primary { background: var(--accent); color: var(--on-accent); box-shadow: 0 1px 0 var(--shadow); }
+.cta-primary:hover { transform: translateY(-1px); box-shadow: 0 2px 8px var(--shadow); }
+.cta-ghost { border: 1px solid var(--line); color: var(--ink); background: transparent; }
+.cta-ghost:hover { border-color: var(--accent); color: var(--accent-text); transform: translateY(-1px); }
+
+/* ============================== HERO ============================== */
+.hero { padding: 96px 0 88px; display: grid; grid-template-columns: 1.02fr 0.98fr; gap: 48px; align-items: center; }
+.kicker { display: flex; align-items: center; gap: 12px; margin-bottom: 22px; }
+.kicker::before { content: ""; width: 26px; height: 1px; background: var(--accent); }
+.h1 {
+  font-size: 62px; line-height: 1.02; letter-spacing: -0.03em; font-weight: 800;
+  margin-bottom: 22px;
+}
+.h1 .rule { display: block; margin-top: 14px; width: 148px; }
+.h1 .rule path { stroke: var(--accent); stroke-width: 1.5; fill: none; }
+.h1 .rule .ticks { stroke: var(--accent-line); }
+.sub { font-size: 17.5px; line-height: 1.75; color: var(--muted); max-width: 46ch; margin-bottom: 34px; }
+.cta-row { display: flex; gap: 12px; margin-bottom: 44px; }
+.ticker {
+  display: grid; grid-template-columns: repeat(4, auto); gap: 8px 26px; justify-content: start;
+  border: 1px solid var(--line); border-radius: 4px; padding: 14px 18px; background: var(--card);
+}
+.ticker span { font-size: 10.5px; letter-spacing: 0.12em; color: var(--muted); text-transform: uppercase; white-space: nowrap; }
+.ticker b { color: var(--ink); font-weight: 700; }
+
+.fig { border: 1px solid var(--line); background: var(--card); border-radius: 6px; padding: 18px 18px 14px; box-shadow: 0 1px 0 var(--shadow); }
+.fig-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
+.fig-label { font-size: 10px; letter-spacing: 0.14em; color: var(--muted); text-transform: uppercase; }
+.fig-live { display: flex; gap: 5px; }
+.fig-live i { width: 6px; height: 6px; border-radius: 50%; background: var(--line); }
+.fig-live i:nth-child(1) { background: var(--under); }
+.fig-art { width: 100%; height: auto; display: block; }
+.fig-art .frame { fill: none; stroke: var(--ink); stroke-width: 1.3; }
+.fig-art .frame-accent { stroke: var(--accent); }
+.fig-art .bar { fill: var(--paper-2); stroke: var(--line); stroke-width: 1; }
+.fig-art .bar-hot { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 1; }
+.fig-art .dim { stroke: var(--muted); stroke-width: 1; stroke-dasharray: 3 3; }
+.fig-art .dim-accent { stroke: var(--accent); stroke-width: 1.2; stroke-dasharray: none; }
+.fig-art .tick-label { font-size: 10px; letter-spacing: 0.08em; fill: var(--muted); }
+.fig-art .tick-label-accent { fill: var(--accent-text); font-weight: 700; }
+.fig-art .drawn { stroke-dasharray: 900; stroke-dashoffset: 900; animation: draw 1.3s cubic-bezier(0.19, 1, 0.22, 1) 0.25s forwards; }
+
+/* ============================== BAND HEADERS ============================== */
+.band-head { display: flex; align-items: baseline; gap: 18px; margin-bottom: 40px; }
+.band-num { font-size: 13px; color: var(--accent-text); font-weight: 700; letter-spacing: 0.1em; }
+.band-tag { font-size: 11px; letter-spacing: 0.14em; color: var(--muted); text-transform: uppercase; }
+.band-title { font-size: 34px; font-weight: 800; letter-spacing: -0.02em; margin-top: 10px; }
+.band-intro { font-size: 15px; line-height: 1.6; color: var(--muted); max-width: 62ch; margin-top: 10px; }
+
+/* dimension divider under band heads */
+.divider { display: block; width: 100%; margin-top: 26px; }
+.divider line { stroke: var(--line); stroke-width: 1; }
+.divider .tick { stroke: var(--line); stroke-width: 1; }
+.divider .center { stroke: var(--accent); stroke-width: 1.2; }
+
+/* ============================== BASIS GRID ============================== */
+.stat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.stat-card {
+  background: var(--card); border: 1px solid var(--line); border-radius: 6px;
+  padding: 22px 20px 18px; box-shadow: 0 1px 0 var(--shadow);
+  transition: border-color 0.18s ease, transform 0.18s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.stat-card:hover { border-color: var(--accent-line); transform: translateY(-1px); }
+.stat-num { font-size: 40px; font-weight: 800; letter-spacing: -0.03em; line-height: 1; }
+.stat-num .unit { font-size: 16px; color: var(--muted); font-weight: 600; margin-left: 4px; letter-spacing: 0; }
+.stat-label { margin-top: 10px; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.stat-note { margin-top: 6px; font-size: 13px; line-height: 1.5; color: var(--muted); }
+
+/* ============================== TOOLS TABLE ============================== */
+.tool-table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+.tool-table th {
+  text-align: left; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--muted); font-weight: 600; padding: 8px 12px; border-bottom: 1px solid var(--line);
+}
+.tool-table td {
+  padding: 11px 12px; border-bottom: 1px solid var(--line);
+  font-size: 13.5px; vertical-align: top;
+}
+.tool-table tbody tr { transition: background-color 0.15s ease; }
+.tool-table tbody tr:hover { background: var(--sel); }
+.tool-table code { font-size: 12.5px; color: var(--accent-text); }
+.tool-table td.desc { color: var(--muted); line-height: 1.5; }
+
+/* ============================== VERDICT RUBRIC ============================== */
+.verdict-score {
+  display: flex; align-items: center; gap: 26px; margin-bottom: 26px; flex-wrap: wrap;
+}
+.score-big { font-size: 44px; font-weight: 800; letter-spacing: -0.03em; }
+.score-meta { font-size: 12px; color: var(--muted); letter-spacing: 0.06em; line-height: 1.7; }
+.rubric { width: 100%; border-collapse: collapse; }
+.rubric th {
+  text-align: left; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--muted); font-weight: 600; padding: 8px 12px; border-bottom: 1px solid var(--line);
+}
+.rubric td { padding: 13px 12px; border-bottom: 1px solid var(--line); font-size: 13.5px; vertical-align: top; }
+.rubric td.group { font-size: 10px; letter-spacing: 0.14em; color: var(--muted); white-space: nowrap; padding-top: 16px; }
+.rubric td.detail { color: var(--muted); line-height: 1.5; }
+.rubric tbody tr { transition: background-color 0.15s ease; }
+.rubric tbody tr:hover { background: var(--sel); }
+.badge {
+  display: inline-block; padding: 3px 10px; border-radius: 3px;
+  font-size: 11px; font-weight: 700; letter-spacing: 0.1em;
+  border: 1px solid currentColor;
+}
+.badge.PASS { color: var(--pass); }
+.badge.UNDER { color: var(--under); }
+.verdict-caption {
+  margin-top: 16px; font-size: 10px; letter-spacing: 0.12em; color: var(--muted);
+  text-transform: uppercase; line-height: 1.8;
+}
+.verdict-pending { border: 1px dashed var(--line); padding: 34px; text-align: center; color: var(--muted); font-size: 14px; }
+
+/* ============================== SCAN BARS ============================== */
+.scan-cols { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 40px; align-items: start; }
+.scan-block h3 { font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); margin-bottom: 18px; font-weight: 600; }
+.bar-row { display: grid; grid-template-columns: 110px 1fr 34px; align-items: center; gap: 12px; margin-bottom: 10px; }
+.bar-label { font-size: 12px; color: var(--muted); text-align: right; letter-spacing: 0.04em; }
+.bar-track { height: 16px; background: var(--track); border: 1px solid var(--line); border-radius: 3px; position: relative; }
+.bar-fill { height: 100%; background: var(--accent-soft); border-right: 1.5px solid var(--accent); transition: width 0.5s cubic-bezier(0.19, 1, 0.22, 1); }
+.bar-count { font-size: 12px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.scan-insight {
+  margin-top: 28px; padding: 18px 20px; border: 1px solid var(--line); border-left: 3px solid var(--accent);
+  background: var(--card); font-size: 14px; line-height: 1.65; color: var(--muted);
+}
+
+/* ============================== BUILD STEPS ============================== */
+.steps { display: grid; grid-template-columns: 220px 1fr; gap: 0; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: var(--card); }
+.step-list { border-right: 1px solid var(--line); }
+.step {
+  display: block; width: 100%; text-align: left; padding: 14px 18px; cursor: pointer;
+  background: transparent; border: 0; border-bottom: 1px solid var(--line);
+  font-size: 13px; letter-spacing: 0.03em; color: var(--muted); position: relative;
+  transition: color 0.15s ease, background-color 0.15s ease;
+  font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
+}
+.step:last-child { border-bottom: 0; }
+.step .n { color: var(--accent-text); font-weight: 700; margin-right: 8px; }
+.step:hover { color: var(--ink); background: var(--sel); }
+.step:hover .n { color: var(--accent-text); }
+.step.active { color: var(--on-accent); background: var(--accent); font-weight: 700; }
+.step.active .n { color: var(--on-accent); }
+.step.active::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 2px; background: var(--on-accent); }
+.step-detail { padding: 26px 28px; display: flex; flex-direction: column; justify-content: center; min-height: 240px; }
+.step-detail .d-label { font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent-text); margin-bottom: 10px; }
+.step-detail p { font-size: 15px; line-height: 1.7; color: var(--muted); }
+
+/* ============================== LEDGER ============================== */
+.ledger-note { font-size: 13px; color: var(--muted); line-height: 1.6; margin-bottom: 22px; max-width: 70ch; }
+.ledger { width: 100%; border-collapse: collapse; }
+.ledger th {
+  text-align: left; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--muted); font-weight: 600; padding: 8px 12px; border-bottom: 1px solid var(--line);
+}
+.ledger td { padding: 12px; border-bottom: 1px solid var(--line); font-size: 13px; font-variant-numeric: tabular-nums; }
+.ledger td .dots { letter-spacing: 2px; font-size: 10px; }
+.ledger tbody tr { transition: background-color 0.15s ease; }
+.ledger tbody tr:hover { background: var(--sel); }
+.ledger-empty { border: 1px dashed var(--line); padding: 30px; text-align: center; color: var(--muted); font-size: 13.5px; }
+
+/* ============================== START / COMMANDS ============================== */
+.cmd-list { display: grid; gap: 12px; margin-top: 8px; }
+.cmd {
+  display: flex; align-items: center; gap: 14px;
+  background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 14px 16px;
+}
+.cmd .arrow { color: var(--accent-text); font-weight: 700; }
+.cmd code { font-size: 13px; color: var(--ink); }
+.cmd .note { margin-left: auto; font-size: 11px; letter-spacing: 0.08em; color: var(--muted); text-transform: uppercase; }
+.copy-btn {
+  flex-shrink: 0; padding: 6px 12px; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase;
+  border: 1px solid var(--line); border-radius: 4px; background: transparent; color: var(--muted); cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease;
+  font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
+}
+.copy-btn:hover { border-color: var(--accent); color: var(--accent-text); }
+.copy-btn.copied { border-color: var(--pass); color: var(--pass); }
+.start-note { margin-top: 20px; font-size: 12px; letter-spacing: 0.1em; color: var(--muted); text-transform: uppercase; }
+
+/* ============================== FOOTER ============================== */
+.footer {
+  border-top: 1px solid var(--line); margin-top: 40px;
+  padding: 26px 0 30px; display: flex; align-items: center; gap: 24px; flex-wrap: wrap;
+}
+.footer .end-tag { font-size: 10px; letter-spacing: 0.14em; color: var(--muted); text-transform: uppercase; }
+.footer .status-tag { margin-left: auto; }
+
+/* ============================== MOTION ============================== */
+@keyframes dot-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.35; transform: scale(0.82); }
+}
+@keyframes draw { to { stroke-dashoffset: 0; } }
+@keyframes band-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+.band { animation: band-in 0.6s cubic-bezier(0.19, 1, 0.22, 1) both; }
+.band:nth-of-type(2) { animation-delay: 0.08s; }
+.band:nth-of-type(3) { animation-delay: 0.16s; }
+.band:nth-of-type(4) { animation-delay: 0.24s; }
+.band:nth-of-type(5) { animation-delay: 0.32s; }
+.band:nth-of-type(6) { animation-delay: 0.4s; }
+.band:nth-of-type(7) { animation-delay: 0.48s; }
+.band:nth-of-type(8) { animation-delay: 0.56s; }
+.band:nth-of-type(9) { animation-delay: 0.64s; }
+.hero .h1 { animation: band-in 0.55s cubic-bezier(0.19, 1, 0.22, 1) 0.05s both; }
+.hero .sub { animation: band-in 0.55s cubic-bezier(0.19, 1, 0.22, 1) 0.15s both; }
+.hero .cta-row { animation: band-in 0.55s cubic-bezier(0.19, 1, 0.22, 1) 0.25s both; }
+.hero .ticker { animation: fade-in 0.6s ease 0.5s both; }
+.fig { animation: band-in 0.6s cubic-bezier(0.19, 1, 0.22, 1) 0.35s both; }
+
+/* every moving element behind its own guard */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001s !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001s !important;
+  }
+  html { scroll-behavior: auto; }
+}
+</style>
+</head>
+<body>
+
+<!-- ==================== NAV ==================== -->
+<nav class="nav band-nav" data-band="nav" data-band-type="nav" data-mechanism aria-label="Site">
+  <div class="nav-inner">
+    <div class="brand">
+      <svg class="brand-mark" viewBox="0 0 18 18" aria-hidden="true">
+        <rect x="1.5" y="1.5" width="15" height="15"/>
+        <path d="M4.5 9h9M9 4.5v9"/>
+      </svg>
+      design-scope
+    </div>
+    <div class="nav-links">
+      <a href="#s02">02 BASIS</a>
+      <a href="#s03">03 CONNECTION</a>
+      <a href="#s04">04 VERDICT</a>
+      <a href="#s05">05 SCAN</a>
+      <a href="#s06">06 BUILD</a>
+      <a href="#s07">07 LEDGER</a>
+      <a href="#s08">08 START</a>
+    </div>
+    <div class="nav-right">
+      <span class="status-tag"><i class="status-dot" aria-hidden="true"></i>OPERATIONAL</span>
+      <button id="themeBtn" class="theme-btn" aria-label="Toggle theme" title="Toggle theme">
+        <svg class="sun" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="3.2"/><path d="M8 1v2M8 13v2M1 8h2M13 8h2M2.8 2.8l1.4 1.4M11.8 11.8l1.4 1.4M13.2 2.8l-1.4 1.4M4.2 11.8l-1.4 1.4"/></svg>
+        <svg class="moon" viewBox="0 0 16 16" aria-hidden="true"><path d="M13.2 9.6A5.6 5.6 0 0 1 6.4 2.8a5.6 5.6 0 1 0 6.8 6.8z"/></svg>
+      </button>
+      <a class="cta cta-primary" href="#s08">GET STARTED</a>
+    </div>
+  </div>
+</nav>
+
+<div class="sheet">
+
+  <!-- ==================== 01 HERO ==================== -->
+  <section class="band hero-band" id="s01" data-band="hero" data-band-type="hero" data-mechanism data-interactive>
+    <div class="hero">
+      <div>
+        <div class="kicker"><span class="lbl">[ SHEET 01 / DESIGN-SCOPE ]</span></div>
+        <h1 class="h1">Taste, as data.
+          <svg class="rule" viewBox="0 0 148 12" aria-hidden="true">
+            <path d="M0 6h118" class="drawn"/>
+            <path d="M118 1v10M122 3v6M126 1v10M130 3v6M134 1v10M138 3v6M142 1v10M146 3v6M148 6h0" class="ticks drawn"/>
+          </svg>
+        </h1>
+        <p class="sub">Your agent writes the code. design-scope picks the direction, borrows the tokens from 204 measured sites, and grades what got built — read off the live DOM, not off the plan.</p>
+        <div class="cta-row">
+          <a class="cta cta-primary" href="#s04">READ THE VERDICT</a>
+          <a class="cta cta-ghost" href="#s03">CONNECT THE SERVER</a>
+        </div>
+        <div class="ticker">
+          <span class="lbl">[ SHEET SPEC ]</span>
+          <span><b id="st-captured">—</b> captured</span>
+          <span><b id="st-annotated">—</b> vision-reviewed</span>
+          <span><b id="st-indexed">—</b> style-indexed</span>
+          <span><b>0</b> credits · local-first</span>
+        </div>
+      </div>
+      <figure class="fig">
+        <div class="fig-head">
+          <span class="fig-label">FIG. 01 / REVIEW PASS</span>
+          <span class="fig-live" aria-hidden="true"><i></i><i></i><i></i></span>
+        </div>
+        <svg class="fig-art" viewBox="0 0 420 264" role="img" aria-label="The rubric applied to this page: 10 bands, 0 off-palette, 4 of 4 mechanisms, 2 of 3 fabric">
+          <!-- window frame -->
+          <rect class="frame drawn" x="30" y="18" width="246" height="176" rx="4"/>
+          <path class="frame" d="M30 40h246"/>
+          <circle class="frame-accent" cx="42" cy="29" r="2.4"/>
+          <circle class="frame" cx="54" cy="29" r="2.4"/>
+          <circle class="frame" cx="66" cy="29" r="2.4"/>
+          <!-- page bars -->
+          <rect class="bar" x="44" y="54" width="120" height="10" rx="2"/>
+          <rect class="bar" x="44" y="72" width="200" height="10" rx="2"/>
+          <rect class="bar" x="44" y="90" width="168" height="10" rx="2"/>
+          <rect class="bar-hot" x="44" y="112" width="120" height="10" rx="2"/>
+          <rect class="bar" x="44" y="130" width="186" height="10" rx="2"/>
+          <rect class="bar" x="44" y="148" width="94" height="10" rx="2"/>
+          <!-- dimension: width -->
+          <path class="dim" d="M30 206h246"/>
+          <path class="dim-accent" d="M30 202v8M276 202v8"/>
+          <text class="tick-label" x="138" y="220">104px</text>
+          <!-- dimension: mechanism count -->
+          <path class="dim" d="M292 18v176"/>
+          <path class="dim-accent" d="M288 18h8M288 194h8"/>
+          <text class="tick-label" x="299" y="112" transform="rotate(90 299 112)">0 OFF-PALETTE</text>
+          <!-- right-side verdict ticks -->
+          <text class="tick-label" x="318" y="58">4 OF 4</text>
+          <text class="tick-label" x="318" y="76">MECHANISMS</text>
+          <path class="dim" d="M312 50h-8v18h8"/>
+          <text class="tick-label-accent" x="318" y="110">2 OF 3</text>
+          <text class="tick-label" x="318" y="128">FABRIC</text>
+          <path class="dim-accent" d="M312 102h-8v18h8"/>
+          <text class="tick-label" x="318" y="162">1 OF 2</text>
+          <text class="tick-label" x="318" y="180">LIVING</text>
+          <path class="dim" d="M312 154h-8v18h8"/>
+          <text class="tick-label" x="30" y="248">10 BANDS · 0 OFF-PALETTE · 4 OF 4 MECHANISMS · 2 OF 3 FABRIC · 1 OF 2 LIVING</text>
+        </svg>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ==================== 02 BASIS ==================== -->
+  <section class="band" id="s02" data-band="basis" data-band-type="features-grid">
+    <div class="band-head">
+      <span class="band-num">02</span>
+      <span class="band-tag">BASIS</span>
+      <div>
+        <h2 class="band-title">The corpus</h2>
+        <p class="band-intro">204 pages measured. Every one fingerprinted, motion-passed, and annotated with why it works. 201 independently reviewed by a vision pass. 202 indexed for natural-language search. None of it leaves your disk.</p>
+      </div>
+    </div>
+    <svg class="divider" viewBox="0 0 1100 8" aria-hidden="true"><line x1="0" y1="4" x2="1100" y2="4"/><path class="tick" d="M20 1v6M40 1v6M60 1v6M80 1v6"/><path class="center" d="M1040 1v6M1060 1v6M1080 1v6"/></svg>
+    <div class="stat-grid">
+      <div class="stat-card">
+        <div class="stat-num"><span id="st2-captured">—</span><span class="unit">pages</span></div>
+        <div class="stat-label">Captured</div>
+        <div class="stat-note">Fingerprinted, screenshot, motion-passed — each a full card in <code>library/cards/</code>.</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num"><span id="st2-annotated">—</span><span class="unit">reviewed</span></div>
+        <div class="stat-label">Vision-reviewed</div>
+        <div class="stat-note">A vision pass wrote the <em>why it works</em> annotation on each card's <code>card.md</code>.</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num"><span id="st2-indexed">—</span><span class="unit">indexed</span></div>
+        <div class="stat-label">Style-indexed</div>
+        <div class="stat-note">Vectorised into <code>style-index.json</code> — searchable in natural language.</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num"><span id="st2-dark">—</span><span class="unit">dark</span></div>
+        <div class="stat-label">Dark-themed</div>
+        <div class="stat-note">Cards whose <code>semantic.json</code> ships a full dark palette, ready to borrow.</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num"><span id="st2-motion">—</span><span class="unit">motion</span></div>
+        <div class="stat-label">Motion-evidenced</div>
+        <div class="stat-note">Recorded <code>card-motion.webm</code> + <code>behaviors.md</code>: what moves, when, and the easing.</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num"><span id="st2-mcp">9</span><span class="unit">tools</span></div>
+        <div class="stat-label">Local-first</div>
+        <div class="stat-note">No cloud, no credits, no accounts. The library is a folder on your disk.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 03 CONNECTION ==================== -->
+  <section class="band" id="s03" data-band="connection" data-band-type="how-it-works">
+    <div class="band-head">
+      <span class="band-num">03</span>
+      <span class="band-tag">CONNECTION</span>
+      <div>
+        <h2 class="band-title">Point your agent at one library</h2>
+        <p class="band-intro">An MCP server with 9 tools — stdio or streamable HTTP, both supported by the same server. Register it once and the corpus is one tool call away.</p>
+      </div>
+    </div>
+    <svg class="divider" viewBox="0 0 1100 8" aria-hidden="true"><line x1="0" y1="4" x2="1100" y2="4"/><path class="tick" d="M20 1v6M40 1v6M60 1v6M80 1v6"/><path class="center" d="M1040 1v6M1060 1v6M1080 1v6"/></svg>
+    <table class="tool-table">
+      <thead><tr><th style="width:170px">tool</th><th>what it returns</th></tr></thead>
+      <tbody>
+        <tr><td><code>ping</code></td><td class="desc">health: ok + card count, or startup problems</td></tr>
+        <tr><td><code>style_search</code></td><td class="desc">ranked cards — natural language: “funky”, “editorial but not brutalist”, “warm minimal”</td></tr>
+        <tr><td><code>style_filter</code></td><td class="desc">structured filter: hue / brightness / saturation / corners / flatness / type mood</td></tr>
+        <tr><td><code>card_get</code></td><td class="desc">full card: fingerprint + semantic + annotation + behaviors + asset paths</td></tr>
+        <tr><td><code>card_compare</code></td><td class="desc">borrow candidates — a card's fingerprint vs your project's</td></tr>
+        <tr><td><code>theme_borrow</code></td><td class="desc">a card's palette: token remap + contrast-guarded CSS (WCAG AA)</td></tr>
+        <tr><td><code>capture</code></td><td class="desc">a website becomes a card — async job, never blocks</td></tr>
+        <tr><td><code>capture_status</code></td><td class="desc">queued / running / done / failed</td></tr>
+        <tr><td><code>recommend_history</code></td><td class="desc">the iteration chain for a project (manifest.json)</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ==================== 04 VERDICT ==================== -->
+  <section class="band" id="s04" data-band="verdict" data-band-type="feature-spotlight">
+    <div class="band-head">
+      <span class="band-num">04</span>
+      <span class="band-tag">VERDICT</span>
+      <div>
+        <h2 class="band-title">This page was graded by the same pass your agent gets</h2>
+        <p class="band-intro">Six checks, measured off the rendered document — the figures below were read from this build, not from the record that planned it, which is why one row says UNDER and stays that way.</p>
+      </div>
+    </div>
+    <svg class="divider" viewBox="0 0 1100 8" aria-hidden="true"><line x1="0" y1="4" x2="1100" y2="4"/><path class="tick" d="M20 1v6M40 1v6M60 1v6M80 1v6"/><path class="center" d="M1040 1v6M1060 1v6M1080 1v6"/></svg>
+    <div id="verdict-root"></div>
+  </section>
+
+  <!-- ==================== 05 SCAN ==================== -->
+  <section class="band" id="s05" data-band="scan" data-band-type="product-showcase">
+    <div class="band-head">
+      <span class="band-num">05</span>
+      <span class="band-tag">SCAN</span>
+      <div>
+        <h2 class="band-title" id="scan-title">One in four cards is funky</h2>
+        <p class="band-intro">The style index, divided the honest way: every tag counted from <code>style-index.json</code>, not from an opinion about which style matters.</p>
+      </div>
+    </div>
+    <svg class="divider" viewBox="0 0 1100 8" aria-hidden="true"><line x1="0" y1="4" x2="1100" y2="4"/><path class="tick" d="M20 1v6M40 1v6M60 1v6M80 1v6"/><path class="center" d="M1040 1v6M1060 1v6M1080 1v6"/></svg>
+    <div class="scan-cols">
+      <div class="scan-block">
+        <h3>Archetypes — most tagged first</h3>
+        <div id="arch-bars"></div>
+      </div>
+      <div>
+        <div class="scan-block">
+          <h3>Hue families</h3>
+          <div id="hue-bars"></div>
+        </div>
+        <div class="scan-insight" id="scan-insight">Counting…</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 06 BUILD ==================== -->
+  <section class="band" id="s06" data-band="build" data-band-type="how-it-works" data-mechanism>
+    <div class="band-head">
+      <span class="band-num">06</span>
+      <span class="band-tag">BUILD</span>
+      <div>
+        <h2 class="band-title">Seven calls, zero credits, one graded page</h2>
+        <p class="band-intro">The same run an agent makes: capture a reference, fingerprint it, borrow what fits, iterate, and grade the result. Select a step.</p>
+      </div>
+    </div>
+    <svg class="divider" viewBox="0 0 1100 8" aria-hidden="true"><line x1="0" y1="4" x2="1100" y2="4"/><path class="tick" d="M20 1v6M40 1v6M60 1v6M80 1v6"/><path class="center" d="M1040 1v6M1060 1v6M1080 1v6"/></svg>
+    <div class="steps">
+      <div class="step-list" id="step-list">
+        <button class="step" data-step="capture"><span class="n">01</span>capture</button>
+        <button class="step" data-step="fingerprint"><span class="n">02</span>fingerprint</button>
+        <button class="step" data-step="motion"><span class="n">03</span>motion pass</button>
+        <button class="step" data-step="index"><span class="n">04</span>style index</button>
+        <button class="step" data-step="borrow"><span class="n">05</span>theme borrow</button>
+        <button class="step" data-step="iterate"><span class="n">06</span>iterate</button>
+        <button class="step" data-step="qa"><span class="n">07</span>qa + finalize</button>
+      </div>
+      <div class="step-detail">
+        <div class="d-label" id="step-label">CAPTURE</div>
+        <p id="step-text">A site becomes a card: desktop + mobile screenshots, a Dembrandt token fingerprint, and a recorded motion pass. ~2–3 minutes, one command.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 07 LEDGER ==================== -->
+  <section class="band" id="s07" data-band="ledger" data-band-type="ledger">
+    <div class="band-head">
+      <span class="band-num">07</span>
+      <span class="band-tag">LEDGER</span>
+      <div>
+        <h2 class="band-title">No users yet. Read the record upward instead.</h2>
+        <p class="band-intro">Every verdict the review pass has returned on this page, oldest at the foot. A ledger with no pending row is a ledger that stopped being kept.</p>
+      </div>
+    </div>
+    <svg class="divider" viewBox="0 0 1100 8" aria-hidden="true"><line x1="0" y1="4" x2="1100" y2="4"/><path class="tick" d="M20 1v6M40 1v6M60 1v6M80 1v6"/><path class="center" d="M1040 1v6M1060 1v6M1080 1v6"/></svg>
+    <div id="ledger-root"></div>
+  </section>
+
+  <!-- ==================== 08 START ==================== -->
+  <section class="band" id="s08" data-band="start" data-band-type="cta-banner" data-mechanism>
+    <div class="band-head">
+      <span class="band-num">08</span>
+      <span class="band-tag">START</span>
+      <div>
+        <h2 class="band-title">Run it on your machine</h2>
+        <p class="band-intro">One server, two transports, nine tools. The library is a folder; point the server at yours with <code>DESIGN_SCOPE_LIBRARY</code>.</p>
+      </div>
+    </div>
+    <svg class="divider" viewBox="0 0 1100 8" aria-hidden="true"><line x1="0" y1="4" x2="1100" y2="4"/><path class="tick" d="M20 1v6M40 1v6M60 1v6M80 1v6"/><path class="center" d="M1040 1v6M1060 1v6M1080 1v6"/></svg>
+    <div class="cmd-list">
+      <div class="cmd">
+        <span class="arrow">→</span>
+        <code>python library/mcp_server.py</code>
+        <span class="note">stdio · recommended</span>
+        <button class="copy-btn" data-copy="python library/mcp_server.py">copy</button>
+      </div>
+      <div class="cmd">
+        <span class="arrow">→</span>
+        <code>cd library &amp;&amp; uvicorn mcp_server:app --host 127.0.0.1 --port 8232</code>
+        <span class="note">streamable http</span>
+        <button class="copy-btn" data-copy="cd library && uvicorn mcp_server:app --host 127.0.0.1 --port 8232">copy</button>
+      </div>
+      <div class="cmd">
+        <span class="arrow">→</span>
+        <code>claude mcp add design-scope -- python "&lt;repo&gt;/library/mcp_server.py"</code>
+        <span class="note">register</span>
+        <button class="copy-btn" data-copy='claude mcp add design-scope -- python "<repo>/library/mcp_server.py"'>copy</button>
+      </div>
+    </div>
+    <div class="start-note">0 credits · no cloud · no accounts · the corpus stays on your disk</div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer" data-band="footer" data-band-type="footer">
+    <span class="end-tag">[ END OF SHEET · DESIGN-SCOPE · 9 TOOLS · 2 TRANSPORTS · LOCAL-FIRST ]</span>
+    <span class="status-tag"><i class="status-dot" aria-hidden="true"></i>OPERATIONAL</span>
+  </footer>
+
+</div>
+
+<script>
+window.SHOWCASE = {"stats": {"generated": "2026-08-13T17:07:12+00:00", "corpus": {"captured": 204, "indexed": 204, "annotated": 201, "annotated_why": 204, "motion": 204, "behaviors": 204, "semantic": 204, "dark_themed": 55, "style_indexed": 202, "index_stats": {"last_run": "2026-08-12T18:02:52+00:00", "total": 201}}, "styles": {"top_archetypes": [["funky", 53], ["glassmorphic", 50], ["premium", 15], ["editorial", 13], ["playful", 12], ["warm-minimal", 11], ["minimalist", 10], ["brutalist", 8], ["dark-minimal", 4], ["retro", 3]], "top_hues": [["blue", 69], ["multicolor", 62], ["neutral", 24], ["cyan", 12], ["red", 11], ["orange", 8], ["green", 6], ["yellow", 4], ["purple", 3], ["pink", 3]], "archetype_total_tags": 179}, "mcp": {"name": "design-scope", "tools": [["ping", "health check — library stats or startup problems"], ["style_search", "natural-language style search over the library"], ["style_filter", "structured filter over the style index"], ["card_get", "one card: fingerprint + semantic + behaviors + absolute tokens"], ["card_compare", "borrow candidates: card fingerprint vs a project"], ["theme_borrow", "a card's palette: token remap + contrast-guarded CSS"], ["capture", "capture a website as a library card"], ["capture_status", "poll a capture job"], ["recommend_history", "the iteration chain for a project"]], "transports": ["stdio", "streamable-http"]}}, "verdict": {"file": "showcase\\index.html", "label": "R4 polish pass", "date": "2026-08-13T17:07:12+00:00", "checks": [{"group": "STRUCTURE", "name": "Band allocation", "status": "PASS", "detail": "10 of 10 bands rendered", "evidence": {"rendered": 10, "declared": 10, "types": ["nav", "hero", "features-grid", "how-it-works", "feature-spotlight", "product-showcase", "how-it-works", "ledger", "cta-banner", "footer"]}}, {"group": "STRUCTURE", "name": "Mechanism budget", "status": "PASS", "detail": "4 of 4 declared mechanisms armed", "evidence": {"armed": 4, "declared": 4, "unarmed": []}}, {"group": "PALETTE", "name": "Palette conformance", "status": "PASS", "detail": "28 inks · 0 off-palette · 10 declared tokens", "evidence": {"inks": 28, "off_palette": [], "tokens": 10, "mode": "strict"}}, {"group": "FABRIC", "name": "Fabric floor", "status": "UNDER", "detail": "2 of 3 — ambient True, pointer field True, scroll-linked False", "evidence": {"ambient": true, "pointer_field": true, "scroll_linked": false}}, {"group": "MOTION", "name": "Reduced motion", "status": "PASS", "detail": "16 animated elements · 1 MQ guard rules · 0 unguarded", "evidence": {"animated": 16, "mq_rules": ["*, ::before, ::after"], "unguarded": []}}, {"group": "MOTION", "name": "Living artefacts", "status": "PASS", "detail": "2 of 2 cap still animating after settle", "evidence": {"living": ["i.status-dot", "i.status-dot"]}}], "summary": {"pass": 5, "under": 1, "total": 6, "score": "5 PASS · 1 UNDER"}}, "ledger": [{"label": "R1 baseline", "date": "2026-08-13T16:58:48+00:00", "file": "showcase\\index.html", "score": "5 PASS · 1 UNDER", "pass": 5, "under": 1, "rows": [{"group": "STRUCTURE", "name": "Band allocation", "status": "PASS"}, {"group": "STRUCTURE", "name": "Mechanism budget", "status": "PASS"}, {"group": "PALETTE", "name": "Palette conformance", "status": "PASS"}, {"group": "FABRIC", "name": "Fabric floor", "status": "PASS"}, {"group": "MOTION", "name": "Reduced motion", "status": "UNDER"}, {"group": "MOTION", "name": "Living artefacts", "status": "PASS"}]}, {"label": "R2 checker fix", "date": "2026-08-13T16:59:50+00:00", "file": "showcase\\index.html", "score": "4 PASS · 2 UNDER", "pass": 4, "under": 2, "rows": [{"group": "STRUCTURE", "name": "Band allocation", "status": "PASS"}, {"group": "STRUCTURE", "name": "Mechanism budget", "status": "PASS"}, {"group": "PALETTE", "name": "Palette conformance", "status": "PASS"}, {"group": "FABRIC", "name": "Fabric floor", "status": "UNDER"}, {"group": "MOTION", "name": "Reduced motion", "status": "UNDER"}, {"group": "MOTION", "name": "Living artefacts", "status": "PASS"}]}, {"label": "R2 checker fix", "date": "2026-08-13T17:00:36+00:00", "file": "showcase\\index.html", "score": "5 PASS · 1 UNDER", "pass": 5, "under": 1, "rows": [{"group": "STRUCTURE", "name": "Band allocation", "status": "PASS"}, {"group": "STRUCTURE", "name": "Mechanism budget", "status": "PASS"}, {"group": "PALETTE", "name": "Palette conformance", "status": "PASS"}, {"group": "FABRIC", "name": "Fabric floor", "status": "UNDER"}, {"group": "MOTION", "name": "Reduced motion", "status": "PASS"}, {"group": "MOTION", "name": "Living artefacts", "status": "PASS"}]}, {"label": "R3 contrast pass", "date": "2026-08-13T17:02:35+00:00", "file": "showcase\\index.html", "score": "5 PASS · 1 UNDER", "pass": 5, "under": 1, "rows": [{"group": "STRUCTURE", "name": "Band allocation", "status": "PASS"}, {"group": "STRUCTURE", "name": "Mechanism budget", "status": "PASS"}, {"group": "PALETTE", "name": "Palette conformance", "status": "PASS"}, {"group": "FABRIC", "name": "Fabric floor", "status": "UNDER"}, {"group": "MOTION", "name": "Reduced motion", "status": "PASS"}, {"group": "MOTION", "name": "Living artefacts", "status": "PASS"}]}, {"label": "R4 polish pass", "date": "2026-08-13T17:07:12+00:00", "file": "showcase\\index.html", "score": "5 PASS · 1 UNDER", "pass": 5, "under": 1, "rows": [{"group": "STRUCTURE", "name": "Band allocation", "status": "PASS"}, {"group": "STRUCTURE", "name": "Mechanism budget", "status": "PASS"}, {"group": "PALETTE", "name": "Palette conformance", "status": "PASS"}, {"group": "FABRIC", "name": "Fabric floor", "status": "UNDER"}, {"group": "MOTION", "name": "Reduced motion", "status": "PASS"}, {"group": "MOTION", "name": "Living artefacts", "status": "PASS"}]}]};
+(function () {
+  "use strict";
+  var S = window.SHOWCASE || { stats: null, verdict: null, ledger: [] };
+
+  /* ---------- stats render ---------- */
+  function renderStats() {
+    if (!S.stats) return;
+    var c = S.stats.corpus;
+    var set = function (id, v) { var el = document.getElementById(id); if (el) el.textContent = v; };
+    set("st-captured", c.captured);
+    set("st-annotated", c.annotated);
+    set("st-indexed", c.style_indexed);
+    set("st2-captured", c.captured);
+    set("st2-annotated", c.annotated);
+    set("st2-indexed", c.style_indexed);
+    set("st2-dark", c.dark_themed);
+    set("st2-motion", c.motion);
+  }
+
+  /* ---------- scan bars ---------- */
+  function bars(containerId, rows, max) {
+    var el = document.getElementById(containerId);
+    if (!el) return;
+    var html = "";
+    rows.forEach(function (r) {
+      var w = Math.round((r[1] / max) * 100);
+      html += '<div class="bar-row">' +
+        '<span class="bar-label">' + r[0] + '</span>' +
+        '<div class="bar-track"><div class="bar-fill" style="width:' + w + '%"></div></div>' +
+        '<span class="bar-count">' + r[1] + '</span></div>';
+    });
+    el.innerHTML = html;
+  }
+  function renderScan() {
+    if (!S.stats) return;
+    var st = S.stats.styles;
+    var arch = st.top_archetypes.slice(0, 6);
+    var hues = st.top_hues.slice(0, 6);
+    var archMax = arch.length ? arch[0][1] : 1;
+    var hueMax = hues.length ? hues[0][1] : 1;
+    bars("arch-bars", arch, archMax);
+    bars("hue-bars", hues, hueMax);
+    var total = S.stats.corpus.style_indexed || 1;
+    var insight = document.getElementById("scan-insight");
+    if (insight && arch.length) {
+      var top = arch[0], share = Math.max(1, Math.round(total / top[1]));
+      insight.textContent = top[0] + " leads the index at " + top[1] + " of " + total +
+        " — one in " + share + " cards. " + S.stats.corpus.dark_themed +
+        " cards ship a dark palette (" + Math.round(100 * S.stats.corpus.dark_themed / total) +
+        "%), ready to borrow.";
+      document.getElementById("scan-title").textContent =
+        "One in " + share + " cards is " + top[0];
+    }
+  }
+
+  /* ---------- verdict rubric ---------- */
+  function badge(status) {
+    return '<span class="badge ' + status + '">' + status + '</span>';
+  }
+  function renderVerdict() {
+    var root = document.getElementById("verdict-root");
+    if (!root) return;
+    if (!S.verdict) {
+      root.innerHTML = '<div class="verdict-pending">PENDING — run <code>scripts/verdict.py</code> on this page. ' +
+        'A rubric that only ever prints PASS is a logo; this one prints what it measured.</div>';
+      return;
+    }
+    var v = S.verdict, rows = "";
+    v.checks.forEach(function (c) {
+      rows += '<tr><td class="group">' + c.group + '</td>' +
+        '<td><strong>' + c.name + '</strong></td>' +
+        '<td class="detail">' + c.detail + '</td>' +
+        '<td>' + badge(c.status) + '</td></tr>';
+    });
+    var d = new Date(v.date);
+    var dstr = d.toISOString ? d.toISOString().slice(0, 10) : v.date;
+    root.innerHTML =
+      '<div class="verdict-score">' +
+        '<div class="score-big">' + v.summary.pass + ' PASS · ' + v.summary.under + ' UNDER</div>' +
+        '<div class="score-meta">LABEL <strong>' + (v.label || "—") + '</strong><br>' +
+        'READ OFF THE PRODUCTION BUILD AT 1440×900 ON ' + dstr.toUpperCase() + '</div>' +
+      '</div>' +
+      '<table class="rubric"><thead><tr><th style="width:110px">group</th><th style="width:220px">check</th><th>evidence</th><th style="width:90px">status</th></tr></thead>' +
+      '<tbody>' + rows + '</tbody></table>' +
+      '<div class="verdict-caption">STRUCTURAL FIGURES COUNTED FROM THE RENDERED DOCUMENT — NOT FROM THE RECORD THAT PLANNED IT · ' +
+      v.summary.total + ' OF ' + v.summary.total + ' CHECKS · ' + v.summary.score + '</div>';
+  }
+
+  /* ---------- ledger ---------- */
+  function renderLedger() {
+    var root = document.getElementById("ledger-root");
+    if (!root) return;
+    if (!S.ledger || !S.ledger.length) {
+      root.innerHTML = '<div class="ledger-empty">NO ROWS YET — THE FIRST VERDICT IS THE ONE ABOUT TO BE WRITTEN.</div>';
+      return;
+    }
+    var rows = "";
+    var all = S.ledger.slice().reverse(); // newest first — the record reads upward
+    all.forEach(function (r, i) {
+      var dots = "";
+      (r.rows || []).forEach(function (c) {
+        dots += c.status === "PASS" ? '<span style="color:var(--pass)">●</span>'
+                                    : '<span style="color:var(--under)">○</span>';
+      });
+      var num = String(all.length - i).padStart(2, "0");
+      rows += '<tr><td class="group" style="color:var(--muted)">R' + num + '</td>' +
+        '<td><strong>' + (r.label || "—") + '</strong></td>' +
+        '<td>' + (r.date || "").slice(0, 10) + '</td>' +
+        '<td>' + r.score + '</td>' +
+        '<td class="dots">' + dots + '</td></tr>';
+    });
+    root.innerHTML =
+      '<table class="ledger"><thead><tr><th style="width:60px">row</th><th>label</th><th style="width:110px">date</th>' +
+      '<th style="width:150px">score</th><th>checks</th></tr></thead><tbody>' + rows + '</tbody></table>' +
+      '<div class="verdict-caption">' + S.ledger.length + ' ROWS · OLDEST AT THE FOOT · NO ROW IS EVER EDITED AFTER IT LANDS</div>';
+  }
+
+  /* ---------- mechanisms (armed at init, measured by the rubric) ---------- */
+  function wireMechanisms() {
+    // nav: theme toggle
+    var btn = document.getElementById("themeBtn");
+    var nav = document.querySelector('[data-band="nav"]');
+    if (btn) {
+      btn.addEventListener("click", function () {
+        var next = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
+        document.documentElement.setAttribute("data-theme", next);
+        try { localStorage.setItem("ds-theme", next); } catch (e) {}
+      });
+      if (nav) nav.setAttribute("data-armed", "");
+      try {
+        var saved = localStorage.getItem("ds-theme");
+        if (saved) document.documentElement.setAttribute("data-theme", saved);
+      } catch (e) {}
+    }
+    // build: pipeline step select
+    var list = document.getElementById("step-list");
+    var label = document.getElementById("step-label");
+    var text = document.getElementById("step-text");
+    var DETAILS = {
+      capture: ["CAPTURE", "A site becomes a card: desktop + mobile screenshots, a Dembrandt token fingerprint, and a recorded motion pass. ~2–3 minutes, one command."],
+      fingerprint: ["FINGERPRINT", "Named tokens and semantic colors extracted into semantic.json — the borrowable language of the site, not a screenshot of it."],
+      motion: ["MOTION PASS", "card-motion.webm + behaviors.md: what moves, when it moves, and the easing that moves it. Hover diffs with exact before/after computed values."],
+      index: ["STYLE INDEX", "Every card is vectorised into style-index.json: hue, brightness, corners, flatness, type mood. Searchable in natural language."],
+      borrow: ["THEME BORROW", "A card's palette remapped onto your tokens — contrast-guarded before it lands. Any role failing AA is darkened or lightened with before→after ratios logged."],
+      iterate: ["ITERATE", "Numbered HTML iterations in .hermes/design/, manifest-tracked. Adopted recs only; unadopted recs stay pending, never silently dropped."],
+      qa: ["QA + FINALIZE", "Measured, not eyeballed: both themes, geometry, interactions, WCAG contrast — fail-loud. Then a Final Variant package another agent can consume."]
+    };
+    var build = document.querySelector('[data-band="build"]');
+    if (list && DETAILS) {
+      var steps = list.querySelectorAll(".step");
+      steps.forEach(function (s) {
+        s.addEventListener("click", function () {
+          steps.forEach(function (x) { x.classList.remove("active"); });
+          s.classList.add("active");
+          var d = DETAILS[s.getAttribute("data-step")];
+          if (d) { label.textContent = d[0]; text.textContent = d[1]; }
+        });
+      });
+      steps[0].classList.add("active");
+      if (build) build.setAttribute("data-armed", "");
+    }
+    // start: copy command
+    var start = document.querySelector('[data-band="start"]');
+    var copied = 0;
+    document.querySelectorAll(".copy-btn").forEach(function (b) {
+      b.addEventListener("click", function () {
+        var txt = b.getAttribute("data-copy") || "";
+        var done = function () {
+          b.textContent = "copied";
+          b.classList.add("copied");
+          setTimeout(function () { b.textContent = "copy"; b.classList.remove("copied"); }, 1600);
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(txt).then(done, done);
+        } else {
+          var ta = document.createElement("textarea");
+          ta.value = txt; document.body.appendChild(ta); ta.select();
+          try { document.execCommand("copy"); } catch (e) {}
+          document.body.removeChild(ta);
+          done();
+        }
+      });
+    });
+    if (start) start.setAttribute("data-armed", "");
+  }
+
+  renderStats();
+  renderScan();
+  renderVerdict();
+  renderLedger();
+  wireMechanisms();
+})();
+</script>
+</body>
+</html>
