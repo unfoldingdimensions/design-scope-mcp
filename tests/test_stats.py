@@ -90,8 +90,9 @@ def test_mcp_contract():
         check("server name", m["name"] == "design-scope", str(m))
         check("both transports listed", set(m["transports"]) == {"stdio", "streamable-http"}, str(m))
         names = [t[0] for t in m["tools"]]
-        check("10 tools", len(names) == 10 and "style_search" in names
-              and "theme_borrow" in names and "get_page_structure" in names,
+        check("11 tools", len(names) == 11 and "style_search" in names
+              and "theme_borrow" in names and "get_page_structure" in names
+              and "get_section_blueprint" in names,
               str(names))
 
 

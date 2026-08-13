@@ -1,7 +1,7 @@
 {
-  "brief": "blueprint sheet for design-scope",
+  "brief": "design-scope blueprint sheet: verdict rubric, ledger, pipeline register, style scan, feature grid, start",
   "direction": "measured technical blueprint",
-  "created": "2026-08-13T17:41:23+00:00",
+  "created": "2026-08-13T18:28:01+00:00",
   "credits": "0 — local-first",
   "entries": [
     {
@@ -21,7 +21,7 @@
         ],
         "ordering": "dark-palette cards first, then rank"
       },
-      "ts": "2026-08-13T17:41:23+00:00"
+      "ts": "2026-08-13T18:28:01+00:00"
     },
     {
       "stage": "palette",
@@ -52,7 +52,7 @@
           }
         ]
       },
-      "ts": "2026-08-13T17:41:23+00:00"
+      "ts": "2026-08-13T18:28:01+00:00"
     },
     {
       "stage": "evidence",
@@ -65,32 +65,95 @@
       "artifacts": [
         "E:\\New-Personal-Projects\\Ui Design MCP\\library\\cards\\resend\\screenshot-desktop.png"
       ],
-      "ts": "2026-08-13T17:41:23+00:00"
+      "ts": "2026-08-13T18:28:01+00:00"
     },
     {
       "stage": "structure",
       "tool": "get_page_structure",
       "input": {
-        "brief": "blueprint sheet for design-scope",
+        "brief": "design-scope blueprint sheet: verdict rubric, ledger, pipeline register, style scan, feature grid, start",
         "direction": "measured technical blueprint"
       },
       "output": {
         "bands": 10,
-        "mechanism_budget": 4,
+        "mechanism_budget": 6,
         "types": [
           "nav",
           "hero",
-          "features-grid",
           "how-it-works",
-          "feature-spotlight",
           "product-showcase",
-          "how-it-works",
+          "features-grid",
+          "feature-spotlight",
           "ledger",
           "cta-banner",
+          "pricing",
           "footer"
+        ],
+        "basis": "corpus-measured — 200 pages scanned, 2470 bands",
+        "corpus": [
+          {
+            "type": "nav",
+            "measured": 443,
+            "with_state": 285,
+            "share": 0.643
+          },
+          {
+            "type": "hero",
+            "measured": 287,
+            "with_state": 210,
+            "share": 0.732
+          },
+          {
+            "type": "how-it-works",
+            "measured": 10,
+            "with_state": 7,
+            "share": 0.7
+          },
+          {
+            "type": "product-showcase",
+            "measured": 486,
+            "with_state": 279,
+            "share": 0.574
+          },
+          {
+            "type": "features-grid",
+            "measured": 78,
+            "with_state": 14,
+            "share": 0.179
+          },
+          {
+            "type": "feature-spotlight",
+            "measured": 44,
+            "with_state": 5,
+            "share": 0.114
+          },
+          {
+            "type": "ledger",
+            "measured": 0,
+            "with_state": 0,
+            "share": 0
+          },
+          {
+            "type": "cta-banner",
+            "measured": 54,
+            "with_state": 27,
+            "share": 0.5
+          },
+          {
+            "type": "pricing",
+            "measured": 134,
+            "with_state": 83,
+            "share": 0.619
+          },
+          {
+            "type": "footer",
+            "measured": 268,
+            "with_state": 126,
+            "share": 0.47
+          }
         ]
       },
-      "ts": "2026-08-13T17:41:23+00:00"
+      "ts": "2026-08-13T18:28:01+00:00"
     },
     {
       "stage": "tokens",
@@ -100,9 +163,146 @@
         "light": 17,
         "dark": 17
       },
-      "ts": "2026-08-13T17:41:23+00:00"
+      "ts": "2026-08-13T18:28:01+00:00"
+    },
+    {
+      "stage": "render",
+      "tool": "render_blueprint (scripts/blueprint.py)",
+      "input": {
+        "bands": 10,
+        "mechanism_budget": 6
+      },
+      "output": {
+        "skeleton": "E:\\New-Personal-Projects\\Ui Design MCP\\showcase\\one-shot\\index.template.html",
+        "basis": "corpus-measured — 200 pages scanned, 2470 bands"
+      },
+      "ts": "2026-08-13T18:28:01+00:00"
     }
   ],
+  "structure": {
+    "brief": "design-scope blueprint sheet: verdict rubric, ledger, pipeline register, style scan, feature grid, start",
+    "direction": "measured technical blueprint",
+    "declared_bands": 10,
+    "mechanism_budget": 6,
+    "bands": [
+      {
+        "index": 1,
+        "type": "nav",
+        "mechanism": true,
+        "note": "theme toggle + anchor state",
+        "corpus": {
+          "measured": 443,
+          "with_state": 285,
+          "share": 0.643
+        }
+      },
+      {
+        "index": 2,
+        "type": "hero",
+        "mechanism": true,
+        "note": "hover-lift CTAs, entrance choreography",
+        "corpus": {
+          "measured": 287,
+          "with_state": 210,
+          "share": 0.732
+        }
+      },
+      {
+        "index": 3,
+        "type": "how-it-works",
+        "mechanism": true,
+        "note": "connection / pipeline explanation",
+        "corpus": {
+          "measured": 10,
+          "with_state": 7,
+          "share": 0.7
+        }
+      },
+      {
+        "index": 4,
+        "type": "product-showcase",
+        "mechanism": true,
+        "note": "corpus scan bars",
+        "corpus": {
+          "measured": 486,
+          "with_state": 279,
+          "share": 0.574
+        }
+      },
+      {
+        "index": 5,
+        "type": "features-grid",
+        "mechanism": false,
+        "note": "corpus numbers, equal-height cards",
+        "corpus": {
+          "measured": 78,
+          "with_state": 14,
+          "share": 0.179
+        }
+      },
+      {
+        "index": 6,
+        "type": "feature-spotlight",
+        "mechanism": false,
+        "note": "self-grade rubric table",
+        "corpus": {
+          "measured": 44,
+          "with_state": 5,
+          "share": 0.114
+        }
+      },
+      {
+        "index": 7,
+        "type": "ledger",
+        "mechanism": false,
+        "note": "verdict history, reads upward",
+        "corpus": {
+          "measured": 0,
+          "with_state": 0,
+          "share": 0
+        }
+      },
+      {
+        "index": 8,
+        "type": "cta-banner",
+        "mechanism": true,
+        "note": "copy-command button",
+        "corpus": {
+          "measured": 54,
+          "with_state": 27,
+          "share": 0.5
+        }
+      },
+      {
+        "index": 9,
+        "type": "pricing",
+        "mechanism": true,
+        "note": "plan tiers, per-page-build economics",
+        "corpus": {
+          "measured": 134,
+          "with_state": 83,
+          "share": 0.619
+        }
+      },
+      {
+        "index": 10,
+        "type": "footer",
+        "mechanism": false,
+        "note": "status bar",
+        "corpus": {
+          "measured": 268,
+          "with_state": 126,
+          "share": 0.47
+        }
+      }
+    ],
+    "basis": "corpus-measured — 200 pages scanned, 2470 bands",
+    "rationale": "v2 measured contract — band types chosen by corpus frequency + brief keywords; mechanism slots go to types where ≥30% of measured bands hold state (threshold from band-index.json).",
+    "direction_vote": {
+      "votes": [],
+      "note": "archetype tags matching direction words, counted from style-index.json"
+    }
+  },
   "derivations": [
     "derivation: #000000 → #000000 to reach 20.65:1 on #fdfdfd (darken walk)",
     "derivation: #000000 → #b4b4b4 to reach 10.13:1 on #000000 (lighten walk)",

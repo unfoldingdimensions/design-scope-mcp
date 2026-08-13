@@ -30,6 +30,7 @@ MCP_TOOLS = [
     ("card_compare", "borrow candidates: card fingerprint vs a project"),
     ("theme_borrow", "a card's palette: token remap + contrast-guarded CSS"),
     ("get_page_structure", "the band contract for a one-shot page: declared bands + mechanism budget"),
+    ("get_section_blueprint", "the contracted recipe for one band type: contents + mechanism + measured backing"),
     ("capture", "capture a website as a library card"),
     ("capture_status", "poll a capture job"),
     ("recommend_history", "the iteration chain for a project"),
@@ -89,6 +90,8 @@ def compute(library: Path) -> dict:
             "dark_themed": dark_themed,
             "style_indexed": style_indexed,
             "index_stats": index_stats,
+            "bands_scanned": _band_stat("scanned"),
+            "bands_measured": _band_stat("bands"),
         },
         "styles": {
             "top_archetypes": top_archetypes,
@@ -117,6 +120,17 @@ def _annotated_why(card_dir: Path) -> bool:
     if not md.exists():
         return False
     return "annotation pending" not in md.read_text(encoding="utf-8", errors="ignore")
+
+
+def _band_stat(key: str):
+    """Band-index stats (section_scan.py) — 0 until the corpus is scanned."""
+    idx = LIBRARY / "band-index.json"
+    if not idx.exists():
+        return 0
+    try:
+        return json.loads(idx.read_text(encoding="utf-8")).get("stats", {}).get(key, 0)
+    except Exception:
+        return 0
 
 
 def _now() -> str:

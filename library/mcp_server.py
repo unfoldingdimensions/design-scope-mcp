@@ -173,6 +173,28 @@ def get_page_structure(brief: str, direction: str = "") -> str:
 
 
 @mcp.tool()
+def get_section_blueprint(section_type: str) -> str:
+    """The contracted recipe for one band type + its measured corpus backing.
+
+    Contents a band of this type typically carries, the mechanism it usually
+    holds (measured: the share of scanned bands of this type that hold state),
+    and the scaffold the blueprint renderer emits for it.
+    """
+    if not SKILL_SCRIPTS.is_dir():
+        return _err("skill scripts not found",
+                    "set DESIGN_SCOPE_SKILL_SCRIPTS; repo scripts/ (section_blueprint.py) is missing")
+    if str(SKILL_SCRIPTS) not in sys.path:
+        sys.path.insert(0, str(SKILL_SCRIPTS))
+    import section_blueprint as sb
+    try:
+        return json.dumps(sb.blueprint(section_type), ensure_ascii=False)
+    except ValueError as e:
+        return _err(str(e))
+    except Exception as e:  # noqa: BLE001
+        return _err(f"section blueprint failed: {e}")
+
+
+@mcp.tool()
 def card_compare(slug: str, project_dir: str) -> str:
     """Concrete borrow candidates: card fingerprint vs project fingerprint."""
     if not Path(project_dir).is_dir():

@@ -1,71 +1,122 @@
 {
-  "brief": "blueprint sheet for design-scope",
+  "brief": "design-scope blueprint sheet: verdict rubric, ledger, pipeline register, style scan, feature grid, start",
   "direction": "measured technical blueprint",
   "declared_bands": 10,
-  "mechanism_budget": 4,
+  "mechanism_budget": 6,
   "bands": [
     {
       "index": 1,
       "type": "nav",
       "mechanism": true,
-      "note": "theme toggle + anchor state"
+      "note": "theme toggle + anchor state",
+      "corpus": {
+        "measured": 443,
+        "with_state": 285,
+        "share": 0.643
+      }
     },
     {
       "index": 2,
       "type": "hero",
       "mechanism": true,
-      "note": "hover-lift CTAs, entrance choreography"
+      "note": "hover-lift CTAs, entrance choreography",
+      "corpus": {
+        "measured": 287,
+        "with_state": 210,
+        "share": 0.732
+      }
     },
     {
       "index": 3,
-      "type": "features-grid",
-      "mechanism": false,
-      "note": "corpus numbers, equal-height cards"
+      "type": "how-it-works",
+      "mechanism": true,
+      "note": "connection / pipeline explanation",
+      "corpus": {
+        "measured": 10,
+        "with_state": 7,
+        "share": 0.7
+      }
     },
     {
       "index": 4,
-      "type": "how-it-works",
-      "mechanism": false,
-      "note": "connection / pipeline explanation"
+      "type": "product-showcase",
+      "mechanism": true,
+      "note": "corpus scan bars",
+      "corpus": {
+        "measured": 486,
+        "with_state": 279,
+        "share": 0.574
+      }
     },
     {
       "index": 5,
-      "type": "feature-spotlight",
+      "type": "features-grid",
       "mechanism": false,
-      "note": "self-grade rubric table"
+      "note": "corpus numbers, equal-height cards",
+      "corpus": {
+        "measured": 78,
+        "with_state": 14,
+        "share": 0.179
+      }
     },
     {
       "index": 6,
-      "type": "product-showcase",
+      "type": "feature-spotlight",
       "mechanism": false,
-      "note": "corpus scan bars"
+      "note": "self-grade rubric table",
+      "corpus": {
+        "measured": 44,
+        "with_state": 5,
+        "share": 0.114
+      }
     },
     {
       "index": 7,
-      "type": "how-it-works",
-      "mechanism": true,
-      "note": "connection / pipeline explanation"
+      "type": "ledger",
+      "mechanism": false,
+      "note": "verdict history, reads upward",
+      "corpus": {
+        "measured": 0,
+        "with_state": 0,
+        "share": 0
+      }
     },
     {
       "index": 8,
-      "type": "ledger",
-      "mechanism": false,
-      "note": "verdict history, reads upward"
+      "type": "cta-banner",
+      "mechanism": true,
+      "note": "copy-command button",
+      "corpus": {
+        "measured": 54,
+        "with_state": 27,
+        "share": 0.5
+      }
     },
     {
       "index": 9,
-      "type": "cta-banner",
+      "type": "pricing",
       "mechanism": true,
-      "note": "copy-command button"
+      "note": "plan tiers, per-page-build economics",
+      "corpus": {
+        "measured": 134,
+        "with_state": 83,
+        "share": 0.619
+      }
     },
     {
       "index": 10,
       "type": "footer",
       "mechanism": false,
-      "note": "status bar"
+      "note": "status bar",
+      "corpus": {
+        "measured": 268,
+        "with_state": 126,
+        "share": 0.47
+      }
     }
   ],
-  "rationale": "v1 curated contract — 10 bands across 9 types; mechanism budget 4 (nav theme toggle, hero hover, step select, copy command). Every declared count is measured by the verdict rubric against the rendered document.",
+  "basis": "corpus-measured — 200 pages scanned, 2470 bands",
+  "rationale": "v2 measured contract — band types chosen by corpus frequency + brief keywords; mechanism slots go to types where ≥30% of measured bands hold state (threshold from band-index.json).",
   "direction_vote": {
     "votes": [],
     "note": "archetype tags matching direction words, counted from style-index.json"

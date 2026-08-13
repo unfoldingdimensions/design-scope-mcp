@@ -289,7 +289,7 @@ def prepare(brief: str, direction: str, out: Path, fresh: bool = False) -> dict:
         "artifacts": [str(card_dir / "screenshot-desktop.png")], "ts": _now(),
     })
 
-    # 4. get_page_structure (band contract)
+    # 4. get_page_structure (band contract — corpus-measured when scanned)
     import page_structure as ps
     structure = ps.plan(brief, direction)
     register["entries"].append({
@@ -297,9 +297,13 @@ def prepare(brief: str, direction: str, out: Path, fresh: bool = False) -> dict:
         "input": {"brief": brief, "direction": direction},
         "output": {"bands": structure["declared_bands"],
                    "mechanism_budget": structure["mechanism_budget"],
-                   "types": [b["type"] for b in structure["bands"]]},
+                   "types": [b["type"] for b in structure["bands"]],
+                   "basis": structure["basis"],
+                   "corpus": [{"type": b["type"], **b.get("corpus", {})}
+                              for b in structure["bands"]]},
         "ts": _now(),
     })
+    register["structure"] = structure
 
     # 5. derive the token vocabulary (documented, deterministic)
     light, dark, derivations = derive_tokens(borrowed.get("roles") or {},
@@ -318,6 +322,32 @@ def prepare(brief: str, direction: str, out: Path, fresh: bool = False) -> dict:
         {"light": light, "dark": dark}, indent=2), encoding="utf-8")
     (out / "bands.json").write_text(json.dumps(structure, indent=2, ensure_ascii=False), encoding="utf-8")
     return register
+
+
+def scaffold(brief: str, direction: str, out: Path, fresh: bool = False) -> Path:
+    """prepare + render the band skeleton (the v2 compose start).
+
+    Runs the tools, then renders the skeleton page from the structure into
+    out/index.template.html — structure decided, content to be filled by the
+    agent. The register gains a render entry.
+    """
+    register = prepare(brief, direction, out, fresh)
+    import blueprint as bp
+    import sheet_content as sc
+    skeleton = bp.render(register["structure"], sc.CONTENT)
+    template = out / "index.template.html"
+    template.write_text(skeleton, encoding="utf-8")
+    register["entries"].append({
+        "stage": "render", "tool": "render_blueprint (scripts/blueprint.py)",
+        "input": {"bands": register["structure"]["declared_bands"],
+                  "mechanism_budget": register["structure"]["mechanism_budget"]},
+        "output": {"skeleton": str(template),
+                   "basis": register["structure"]["basis"]},
+        "ts": _now(),
+    })
+    (out / "register.json").write_text(
+        json.dumps(register, indent=2, ensure_ascii=False), encoding="utf-8")
+    return template
 
 
 def grade(label: str, out: Path) -> dict:
@@ -340,6 +370,13 @@ def grade(label: str, out: Path) -> dict:
     return verdict
 
 
+def register_summary(out: Path) -> str:
+    reg = json.loads((out / "register.json").read_text(encoding="utf-8"))
+    st = reg["entries"][3]["output"]
+    return (f"card {reg['card']['slug']} · {st['bands']} bands · "
+            f"mechanism budget {st['mechanism_budget']} · {st['basis']}")
+
+
 def main():
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -350,6 +387,13 @@ def main():
                    help="style direction words for style_search")
     p.add_argument("--out", default=str(ROOT / "showcase" / "one-shot"))
     p.add_argument("--fresh", action="store_true", help="capture a new card instead of reusing")
+
+    s = sub.add_parser("scaffold", help="prepare + render the band skeleton (v2)")
+    s.add_argument("--brief", required=True, help="what the page is for")
+    s.add_argument("--direction", default="measured technical blueprint",
+                   help="style direction words for style_search")
+    s.add_argument("--out", default=str(ROOT / "showcase" / "one-shot"))
+    s.add_argument("--fresh", action="store_true", help="capture a new card instead of reusing")
 
     g = sub.add_parser("grade", help="verdict + ledger + rebuild")
     g.add_argument("--label", default="R1 one-shot")
@@ -367,8 +411,15 @@ def main():
             print(f"  rejects: {rejects}")
         print(f"  palette: {register['entries'][1]['output']['roles']}")
         print(f"  bands:  {register['entries'][3]['output']['bands']} · "
-              f"mechanism budget {register['entries'][3]['output']['mechanism_budget']}")
+              f"mechanism budget {register['entries'][3]['output']['mechanism_budget']} · "
+              f"{register['entries'][3]['output']['basis']}")
         print("  register.json + tokens.json + bands.json written — compose the page, then grade")
+    elif args.cmd == "scaffold":
+        template = scaffold(args.brief, args.direction, out, args.fresh)
+        st = register_summary(out)
+        print(f"scaffold → {template}")
+        print(f"  {st}")
+        print("  skeleton rendered — fill the .fill placeholders (copy/SVG/motion), then grade")
     elif args.cmd == "grade":
         verdict = grade(args.label, out)
         print(f"one-shot graded: {verdict['summary']['score']} ({args.label})")

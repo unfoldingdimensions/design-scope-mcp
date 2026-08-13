@@ -109,6 +109,7 @@ Register with Claude Code: `claude mcp add design-scope -- python "<path-to-repo
 | `card_compare` ⚠️ | `slug`, `project_dir` | borrow candidates vs the project's fingerprint |
 | `theme_borrow` ⚠️ | `slug`, `target_dir` | token remap + contrast-guarded CSS (WCAG AA) |
 | `get_page_structure` | `brief`, `direction` | the band contract for a one-shot page: declared bands + mechanism budget |
+| `get_section_blueprint` | `section_type` | the contracted recipe for one band type: contents, mechanism, measured backing |
 | `capture` | `url`, `name`, `category`, `slug`, `fast`, `why` | **job_id** (async, never blocks) |
 | `capture_status` | `job_id` | queued / running / done / failed |
 | `recommend_history` | `project_dir` | the design-scope iteration chain (manifest.json) |
@@ -153,14 +154,22 @@ it lands — the ledger keeps its failures. Exit code = number of UNDER rows.
 `showcase/one-shot/index.html` is the sheet whose decisions were made by the
 server: the palette was borrowed (style_search → theme_borrow, with a
 usability gate that rejects white-on-white borrows and records the rejects),
-the structure was contracted (get_page_structure), and the page prints its
-own machine-written build receipt.
+the structure was measured (section_scan over the corpus → get_page_structure),
+and the page prints its own machine-written build receipt.
 
 ```bash
-python scripts/one_shot.py prepare --brief "blueprint sheet" --direction "measured technical"
-# compose the page — rendering is the agent's job; the sheet says so
+python scripts/section_scan.py --all              # corpus band inventory → library/band-index.json
+python scripts/one_shot.py scaffold --brief "blueprint sheet" --direction "measured technical"
+# fill scripts/sheet_content.py — rendering is the agent's job; the sheet says so
 python scripts/one_shot.py grade --label "R1 one-shot"   # verdict + ledger + rebuild
 ```
+
+The band skeleton is rendered by `scripts/blueprint.py` from the structure:
+`data-band`/`data-band-type`/`data-mechanism` per band, `<meta>` contract
+matching the structure, scroll-reveal scaffolding (fabric floor 3/3), and a
+content layer (`sheet_content.py`) that survives re-scaffolds. Structure is
+corpus-measured when `band-index.json` exists; the curated v1 plan is the
+fallback on a fresh checkout.
 
 ## Repository layout
 
@@ -183,8 +192,12 @@ scripts/
 ├── verdict.py           # scored 6-check rubric reviewer (PASS/UNDER + ledger)
 ├── stats.py             # corpus numbers counted fresh from the library
 ├── build_showcase.py    # inject stats + verdict + ledger into a sheet (--variant one-shot)
-├── one_shot.py          # the pipeline: prepare (tools → register) + grade (verdict → ledger)
-├── page_structure.py    # the band contract (10 bands, mechanism budget 4)
+├── one_shot.py          # the pipeline: prepare/scaffold (tools → register → skeleton) + grade
+├── page_structure.py    # the band contract — corpus-measured (band-index) with curated fallback
+├── section_scan.py      # corpus band inventory: visits card URLs, classifies sections, measures state
+├── section_blueprint.py # the contracted recipe for one band type (get_section_blueprint)
+├── blueprint.py         # renders the band skeleton from a structure (scroll-reveal included)
+├── sheet_content.py     # the agent's fill layer — stable across re-scaffolds
 ├── compare.py           # borrow candidates (card fingerprint vs project)
 └── theme.py             # token remap + contrast-guarded CSS
 showcase/

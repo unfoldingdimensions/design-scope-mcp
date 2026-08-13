@@ -33,7 +33,8 @@ async def smoke_transport():
             await s.initialize()
             tools = await s.list_tools()
             names = [t.name for t in tools.tools]
-            check("10 tools registered", len(names) == 10 and "get_page_structure" in names, str(names))
+            check("11 tools registered", len(names) == 11 and "get_page_structure" in names
+                  and "get_section_blueprint" in names, str(names))
 
             # read tools
             r1 = await call(s, "style_search", query="funky", top_n=3)
