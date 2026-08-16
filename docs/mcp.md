@@ -1,6 +1,6 @@
 # design-scope MCP server
 
-Local MCP server exposing the **201-card design library** as tools any MCP client
+Local MCP server exposing the **204-card design library** as tools any MCP client
 (Claude Code, Cursor, another agent) can call. Read-only for the library;
 `capture` adds cards; **never edits project source**.
 
@@ -43,16 +43,18 @@ server entry.
 | `style_search` | `query`, `top_n` | ranked cards — natural language: `"funky"`, `"editorial but not brutalist"`, `"warm minimal"` |
 | `style_filter` | vector fields, `archetype`, `max_results` | structured filter (hue/brightness/saturation/corners/flatness/type_mood) |
 | `card_get` | `slug` | full card: fingerprint + semantic + **annotation** + behaviors + absolute asset paths |
-| `card_compare` ⚠️ | `slug`, `project_dir` | borrow candidates vs the project's fingerprint |
-| `theme_borrow` ⚠️ | `slug`, `target_dir` | token remap + contrast-guarded CSS (WCAG AA) |
-
-⚠️ These two import `compare.py`/`theme.py`, which ship with the design-scope
-skill and **not** with this repo — set `DESIGN_SCOPE_SKILL_SCRIPTS` or install
-the skill. Without them both return a structured error; the other seven tools
-are unaffected.
+| `card_compare` | `slug`, `project_dir` | borrow candidates vs the project's fingerprint |
+| `theme_borrow` | `slug`, `target_dir` | token remap + contrast-guarded CSS (WCAG AA) |
+| `get_page_structure` | `brief`, `direction` | the band contract: declared bands + mechanism budget |
+| `get_section_blueprint` | `section_type` | the contracted recipe for one band type |
 | `capture` | `url`, `name`, `category`, `slug`, `fast`, `why` | **job_id** (async, never blocks) |
 | `capture_status` | `job_id` | queued / running / done / failed |
 | `recommend_history` | `project_dir` | the design-scope iteration chain (manifest.json) |
+
+`card_compare` and `theme_borrow` import `compare.py`/`theme.py`. Those scripts
+ship with this repo in `scripts/`, so both tools work out of the box.
+Resolution order at runtime: `DESIGN_SCOPE_SKILL_SCRIPTS` env, then an
+installed design-scope skill, then the repo's `scripts/`.
 
 ### capture notes
 

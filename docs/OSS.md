@@ -8,7 +8,7 @@ media locally with one command.
 
 ```
 library/
-├── index.json              # 201 cards: slug, url, name, category + fingerprint summaries
+├── index.json              # 204 cards: slug, url, name, category + fingerprint summaries
 ├── style-index.json        # style vectors + archetypes + LLM tags (searchable)
 ├── style-summary.md        # human-readable landscape
 ├── seed-batch-1..4.json    # the original 4×50 site lists (capture recipes)
@@ -45,7 +45,7 @@ python library/capture.py --url https://stripe.com --name Stripe --category fint
 python library/gallery.py
 ```
 
-Estimated full rebuild of 201 cards: **~14-20h background** (full passes) or
+Estimated full rebuild of 204 cards: **~14-20h background** (full passes) or
 **~3-4h** (`--fast`, screenshots + tokens + semantic only — motion/behavior
 omitted).
 
