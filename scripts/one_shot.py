@@ -16,7 +16,7 @@ Rendering (copy, SVG, motion) stays the agent's job — the page says so.
 
 Usage:
   python scripts/one_shot.py prepare --brief "blueprint sheet for design-scope" \
-      [--direction "measured technical blueprint"] [--out showcase/one-shot] [--fresh]
+      [--direction "measured technical blueprint"] [--out showcase/one-shot]
   python scripts/one_shot.py grade --label "R1 one-shot" [--out showcase/one-shot]
 
 RUN WITH THE LIBRARY ENV'S PYTHON (same venv as capture.py / verdict.py).
@@ -24,6 +24,7 @@ RUN WITH THE LIBRARY ENV'S PYTHON (same venv as capture.py / verdict.py).
 import argparse
 import json
 import os
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -71,7 +72,10 @@ def _palette_usable(borrowed: dict) -> tuple[bool, str]:
 
     text must read on bg (≥ 3.0:1) and the accent must separate (≥ 2.5:1).
     theme.py's guard walks 12 steps and may give up short — this gate refuses
-    palettes the guard could not save, and the refusal is recorded.
+    palettes the guard could not save, and the refusal is recorded. Contrast
+    alone once waved through a collapsed borrow where primary/accent/text/muted
+    all resolved to the same #000000 (20.65:1 on white, zero hierarchy) — so
+    distinct roles are required too.
     """
     roles = borrowed.get("roles") or {}
     bg = (roles.get("bg") or {}).get("value")
@@ -85,7 +89,12 @@ def _palette_usable(borrowed: dict) -> tuple[bool, str]:
     a = _contrast(accent, bg)
     if a < 2.5:
         return False, f"accent {a:.2f}:1 on bg — below 2.5 floor"
-    return True, f"text {t:.2f}:1 · accent {a:.2f}:1 on bg"
+    if accent.lower() in (text.lower(), bg.lower()):
+        return False, f"collapsed palette — accent {accent} equals text/bg"
+    muted = (roles.get("muted") or {}).get("value")
+    if muted and muted.lower() == text.lower():
+        return False, f"collapsed palette — muted {muted} equals text"
+    return True, f"text {t:.2f}:1 · accent {a:.2f}:1 on bg, roles distinct"
 
 
 def _luminance(hex_color: str) -> float:
@@ -225,10 +234,10 @@ def _rgb_triplet(hex_color: str) -> str:
     return f"{int(h[0:2], 16)}, {int(h[2:4], 16)}, {int(h[4:6], 16)}"
 
 
-def prepare(brief: str, direction: str, out: Path, fresh: bool = False) -> dict:
+def prepare(brief: str, direction: str, out: Path) -> dict:
     out.mkdir(parents=True, exist_ok=True)
     register = {"brief": brief, "direction": direction, "created": _now(),
-                "credits": "0 — local-first", "entries": []}
+                "credits": 0, "credits_note": "local-first — no cloud spend", "entries": []}
 
     # 1. style_search → ranked candidates (dark palettes first)
     from style_search import search  # library/
@@ -281,12 +290,16 @@ def prepare(brief: str, direction: str, out: Path, fresh: bool = False) -> dict:
     # 3. card_get (evidence on the final pick)
     card_dir = cards_dir / slug
     card_md = (card_dir / "card.md").read_text(encoding="utf-8", errors="replace")
-    why = next((ln.strip() for ln in card_md.splitlines() if ln.strip() and not ln.startswith("#")), "")[:400]
+    m_why = re.search(r"## Why it's in the library\s*\n+(.*?)(?:\n##|\Z)", card_md, re.S)
+    why = " ".join(m_why.group(1).split())[:400] if m_why else ""
     sem = json.loads((card_dir / "semantic.json").read_text(encoding="utf-8"))
+    # repo-relative, forward slashes — the register is inlined into the public
+    # page and must not leak the build machine's absolute paths
+    shot_rel = f"library/cards/{slug}/screenshot-desktop.png"
     register["entries"].append({
         "stage": "evidence", "tool": "card_get",
         "input": slug, "output": {"why": why, "captured": sem.get("captured")},
-        "artifacts": [str(card_dir / "screenshot-desktop.png")], "ts": _now(),
+        "artifacts": [shot_rel], "ts": _now(),
     })
 
     # 4. get_page_structure (band contract — corpus-measured when scanned)
@@ -314,8 +327,7 @@ def prepare(brief: str, direction: str, out: Path, fresh: bool = False) -> dict:
         "ts": _now(),
     })
     register["derivations"] = derivations
-    register["card"] = {"slug": slug, "why": why,
-                        "screenshot": str(card_dir / "screenshot-desktop.png")}
+    register["card"] = {"slug": slug, "why": why, "screenshot": shot_rel}
 
     (out / "register.json").write_text(json.dumps(register, indent=2, ensure_ascii=False), encoding="utf-8")
     (out / "tokens.json").write_text(json.dumps(
@@ -324,14 +336,14 @@ def prepare(brief: str, direction: str, out: Path, fresh: bool = False) -> dict:
     return register
 
 
-def scaffold(brief: str, direction: str, out: Path, fresh: bool = False) -> Path:
+def scaffold(brief: str, direction: str, out: Path) -> Path:
     """prepare + render the band skeleton (the v2 compose start).
 
     Runs the tools, then renders the skeleton page from the structure into
     out/index.template.html — structure decided, content to be filled by the
     agent. The register gains a render entry.
     """
-    register = prepare(brief, direction, out, fresh)
+    register = prepare(brief, direction, out)
     import blueprint as bp
     import sheet_content as sc
     skeleton = bp.render(register["structure"], sc.CONTENT)
@@ -354,27 +366,37 @@ def grade(label: str, out: Path) -> dict:
     html = out / "index.html"
     if not html.exists():
         raise FileNotFoundError(f"{html} not found — compose the page first, then grade")
+    # build BEFORE the verdict: grading the previous build while shipping a
+    # freshly rebuilt page once attached a verdict that described an older DOM
+    import build_showcase as bs
+    bs.build_variant("one-shot")
     import verdict as vd  # scripts/
     verdict = vd.run_verdict(html, "strict")
     verdict["label"] = label
     (out / "verdict.json").write_text(json.dumps(verdict, indent=2, ensure_ascii=False), encoding="utf-8")
+    try:
+        file_rel = html.resolve().relative_to(ROOT).as_posix()
+    except ValueError:
+        file_rel = html.as_posix()
     vd.ledger_append(out / "verdicts.json", {
-        "label": label, "date": verdict["date"], "file": str(html),
+        "label": label, "date": verdict["date"], "file": file_rel,
         "score": verdict["summary"]["score"], "pass": verdict["summary"]["pass"],
         "under": verdict["summary"]["under"],
         "rows": [{"group": c["group"], "name": c["name"], "status": c["status"]}
                  for c in verdict["checks"]],
     })
-    import build_showcase as bs
-    bs.build_variant("one-shot")
+    bs.build_variant("one-shot")  # rebuild: rubric + ledger rows real
     return verdict
 
 
 def register_summary(out: Path) -> str:
     reg = json.loads((out / "register.json").read_text(encoding="utf-8"))
-    st = reg["entries"][3]["output"]
-    return (f"card {reg['card']['slug']} · {st['bands']} bands · "
-            f"mechanism budget {st['mechanism_budget']} · {st['basis']}")
+    # find the structure stage by name — positional indexing broke whenever a
+    # stage was inserted before it
+    st = next((e["output"] for e in reg["entries"]
+               if e.get("stage") == "structure" and isinstance(e.get("output"), dict)), {})
+    return (f"card {reg['card']['slug']} · {st.get('bands', '?')} bands · "
+            f"mechanism budget {st.get('mechanism_budget', '?')} · {st.get('basis', '?')}")
 
 
 def main():
@@ -386,14 +408,12 @@ def main():
     p.add_argument("--direction", default="measured technical blueprint",
                    help="style direction words for style_search")
     p.add_argument("--out", default=str(ROOT / "showcase" / "one-shot"))
-    p.add_argument("--fresh", action="store_true", help="capture a new card instead of reusing")
 
     s = sub.add_parser("scaffold", help="prepare + render the band skeleton (v2)")
     s.add_argument("--brief", required=True, help="what the page is for")
     s.add_argument("--direction", default="measured technical blueprint",
                    help="style direction words for style_search")
     s.add_argument("--out", default=str(ROOT / "showcase" / "one-shot"))
-    s.add_argument("--fresh", action="store_true", help="capture a new card instead of reusing")
 
     g = sub.add_parser("grade", help="verdict + ledger + rebuild")
     g.add_argument("--label", default="R1 one-shot")
@@ -402,7 +422,7 @@ def main():
     args = ap.parse_args()
     out = Path(args.out)
     if args.cmd == "prepare":
-        register = prepare(args.brief, args.direction, out, args.fresh)
+        register = prepare(args.brief, args.direction, out)
         gate = register["entries"][1].get("gate", {})
         rejects = ", ".join(f"{r['slug']} ({r['reason']})" for r in gate.get("rejects", [])) or "none"
         print(f"one-shot prepared → {out}")
@@ -415,7 +435,7 @@ def main():
               f"{register['entries'][3]['output']['basis']}")
         print("  register.json + tokens.json + bands.json written — compose the page, then grade")
     elif args.cmd == "scaffold":
-        template = scaffold(args.brief, args.direction, out, args.fresh)
+        template = scaffold(args.brief, args.direction, out)
         st = register_summary(out)
         print(f"scaffold → {template}")
         print(f"  {st}")

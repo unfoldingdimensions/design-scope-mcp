@@ -57,9 +57,11 @@ def test_ranked_dark_preference():
 
 
 def test_palette_usable_gate():
-    def borrow(text, bg, accent):
-        return {"roles": {"text": {"value": text}, "bg": {"value": bg},
-                          "primary": {"value": accent}}}
+    def borrow(text, bg, accent, muted=None):
+        roles = {"text": {"value": text}, "bg": {"value": bg}, "primary": {"value": accent}}
+        if muted:
+            roles["muted"] = {"value": muted}
+        return {"roles": roles}
     ok, reason = _palette_usable(borrow("#16181d", "#f4f3ee", "#1e5eff"))
     check("good borrow passes", ok, reason)
     ok, _ = _palette_usable(borrow("#ffffff", "#ffffff", "#b1b1b1"))
@@ -70,6 +72,12 @@ def test_palette_usable_gate():
     check("invisible accent rejected", not ok, reason)
     ok, _ = _palette_usable({})
     check("missing roles rejected", not ok)
+    # regression: the all-#000000 borrow that once passed at 20.65:1 with
+    # zero hierarchy (accent == text == muted on a near-white bg)
+    ok, reason = _palette_usable(borrow("#000000", "#fdfdfd", "#000000", muted="#000000"))
+    check("collapsed monochrome palette rejected", not ok, reason)
+    ok, reason = _palette_usable(borrow("#16181d", "#f4f3ee", "#1e5eff", muted="#16181d"))
+    check("muted == text rejected", not ok, reason)
 
 
 def _norm(value: str):
@@ -113,14 +121,36 @@ def test_on_accent_and_walk():
 
 
 def test_prepare_writes_receipt():
-    import style_search  # must import cleanly for prepare
+    """Real prepare() against the real library (no network — it only reads
+    cards and runs the in-process tools). Must produce a register whose
+    palette stage passed a non-degenerate gate."""
     with tempfile.TemporaryDirectory() as td:
-        # point the library at a fake one? prepare reads the real library —
-        # instead verify the register writer shape via a minimal monkeypatch.
-        # We test the real prepare against the REAL library below in the
-        # integration run; here we just confirm module contract.
-        check("style_search importable", hasattr(style_search, "search"))
-        check("rgb triplet", _rgb_triplet("#1e5eff") == "30, 94, 255")
+        out = Path(td)
+        try:
+            register = prepare("unit-test sheet", "measured technical", out)
+        except ValueError as e:
+            # honest outcome on a tiny fixture library — but the REAL library
+            # always has borrowable cards, so this branch failing means the
+            # picker or gate regressed
+            check("prepare rejects honestly (has rejects list)", "rejects:" in str(e), str(e))
+            return
+        for name in ("register.json", "tokens.json", "bands.json"):
+            check(f"{name} written", (out / name).exists())
+        stages = [e["stage"] for e in register["entries"]]
+        for stage in ("direction", "palette", "evidence", "structure", "tokens"):
+            check(f"register stage {stage}", stage in stages, str(stages))
+        pal = next(e for e in register["entries"] if e["stage"] == "palette")
+        check("palette gate passed", pal["gate"]["usable"] is True)
+        check("gate reason mentions distinct roles", "distinct" in pal["gate"]["reason"],
+              pal["gate"]["reason"])
+        roles = pal["output"]["roles"]
+        check("roles are distinct values",
+              len({v.lower() for v in roles.values()}) >= 3, str(roles))
+        ev = next(e for e in register["entries"] if e["stage"] == "evidence")
+        check("artifacts are repo-relative (no drive letters)",
+              all(":" not in a for a in ev["artifacts"]), str(ev["artifacts"]))
+        check("credits is a number", isinstance(register.get("credits"), int),
+              str(register.get("credits")))
 
 
 if __name__ == "__main__":

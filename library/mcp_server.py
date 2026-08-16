@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""design-scope MCP server — exposes the 201-card design library as MCP tools.
+"""design-scope MCP server — exposes the 204-card design library as MCP tools.
 
 stdio:   python library/mcp_server.py
 HTTP:    uvicorn mcp_server:app --host 127.0.0.1 --port 8232  (from library/)
@@ -7,6 +7,7 @@ HTTP:    uvicorn mcp_server:app --host 127.0.0.1 --port 8232  (from library/)
 Never edits project source. Errors are returned as structured JSON
 {"error": msg, "hint": fix} — MCP has no error types.
 """
+import contextlib
 import json
 import os
 import queue
@@ -56,6 +57,11 @@ mcp = FastMCP("design-scope")
 # single-worker capture queue
 _job_queue: queue.Queue = queue.Queue()
 _jobs: dict[str, dict] = {}
+# every _jobs mutation/iteration goes through this lock — an unlocked insert
+# during _prune_jobs' iteration once killed the worker thread for good
+_jobs_lock = threading.Lock()
+
+_SLUG_RE = r"[a-z0-9]+(?:-[a-z0-9]+)*"
 
 
 def _validate() -> list[str]:
@@ -127,8 +133,8 @@ def style_filter(hue_family: str = "", brightness: str = "", saturation: str = "
 @mcp.tool()
 def card_get(slug: str) -> str:
     """Full card: fingerprint + semantic + behaviors + absolute asset paths."""
-    if not re.fullmatch(r"[a-z0-9-]+", slug):
-        return _err("slug must match ^[a-z0-9-]+$")
+    if not re.fullmatch(_SLUG_RE, slug):
+        return _err("slug must match ^[a-z0-9]+(-[a-z0-9]+)*$")
     card = GLOBAL_LIBRARY / "cards" / slug
     if not (card / "card.md").exists():
         return _err(f"card '{slug}' not found", "see style_search for valid slugs")
@@ -197,6 +203,8 @@ def get_section_blueprint(section_type: str) -> str:
 @mcp.tool()
 def card_compare(slug: str, project_dir: str) -> str:
     """Concrete borrow candidates: card fingerprint vs project fingerprint."""
+    if not re.fullmatch(_SLUG_RE, slug):
+        return _err("slug must match ^[a-z0-9]+(-[a-z0-9]+)*$")
     if not Path(project_dir).is_dir():
         return _err(f"project dir not found: {project_dir}")
     if not SKILL_SCRIPTS.is_dir():
@@ -214,6 +222,8 @@ def card_compare(slug: str, project_dir: str) -> str:
 @mcp.tool()
 def theme_borrow(slug: str, target_dir: str = ".") -> str:
     """Borrow a card's palette: token remap + contrast-guarded CSS."""
+    if not re.fullmatch(_SLUG_RE, slug):
+        return _err("slug must match ^[a-z0-9]+(-[a-z0-9]+)*$")
     if not Path(target_dir).is_dir():
         return _err(f"target dir not found: {target_dir}")
     if not SKILL_SCRIPTS.is_dir():
@@ -242,60 +252,67 @@ def _prune_jobs(max_keep: int = 100) -> None:
     raising KeyError, exiting `while True`, and killing the daemon thread — so
     capture would silently stop working for the life of the process.
     """
-    if len(_jobs) <= max_keep:
-        return
-    evictable = [jid for jid, j in _jobs.items() if j.get("status") in _TERMINAL]
-    for jid in evictable[: max(0, len(_jobs) - max_keep)]:
-        del _jobs[jid]
+    with _jobs_lock:
+        if len(_jobs) <= max_keep:
+            return
+        evictable = [jid for jid, j in list(_jobs.items()) if j.get("status") in _TERMINAL]
+        for jid in evictable[: max(0, len(_jobs) - max_keep)]:
+            del _jobs[jid]
 
 
 def _capture_worker():
     while True:
         job_id, kwargs = _job_queue.get()
-        job = _jobs.get(job_id)
+        with _jobs_lock:
+            job = _jobs.get(job_id)
         if job is None:  # evicted while queued — never index blindly here
             _job_queue.task_done()
             continue
         job["status"] = "running"
-        try:
-            from capture import (capture_one, card_exists, load_index,
-                                 save_index, slugify, build_index_entry)
-            slug = slugify(kwargs["name"]) if not kwargs.get("slug") else kwargs["slug"]
-            if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", slug):
-                raise ValueError("slug must match ^[a-z0-9]+(-[a-z0-9]+)*$")
-            index = load_index()
-            # same completion rule as the CLI (capture.card_exists): a bare
-            # card dir from a failed attempt must not block the retry
-            if slug in index["cards"] or card_exists(slug):
-                job.update({"status": "failed",
-                            "error": f"slug '{slug}' already exists in the library",
-                            "hint": "pass a different slug or run capture.py --redo"})
-                continue
-            card_dir = GLOBAL_LIBRARY / "cards" / slug
-            site = {"url": kwargs["url"], "name": kwargs["name"],
-                    "category": kwargs.get("category", "misc"),
-                    "why": kwargs.get("why", "")}
-            with sync_playwright() as p:
-                browser = p.chromium.launch(headless=True)
-                result = capture_one(site, slug, card_dir, browser,
-                                     opts={"fast": kwargs.get("fast", True)})
-                browser.close()
-            if not result.get("ok"):
-                raise RuntimeError(result.get("error") or "capture failed")
-            index = load_index()
-            index["cards"][slug] = build_index_entry(site, slug, result)
-            index.setdefault("stats", {})["last_run"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
-            index.setdefault("stats", {})["total"] = len(index["cards"])
-            save_index(index)
-            _rebuild_style_index(card_dir)
-            job.update({"status": "done", "slug": slug,
-                        "captured_at": result.get("captured_at"),
-                        "screenshots": list(result.get("screenshots", {}).keys())})
-        except Exception as e:  # noqa: BLE001
-            job.update({"status": "failed", "error": str(e)[:500]})
-        finally:
-            _job_queue.task_done()
-            _prune_jobs()
+        # capture_one and its passes print() progress — on the stdio transport
+        # stdout IS the JSON-RPC channel, so every print must land on stderr
+        with contextlib.redirect_stdout(sys.stderr):
+            try:
+                from capture import (capture_one, card_exists, load_index,
+                                     save_index, slugify, build_index_entry)
+                slug = slugify(kwargs["name"]) if not kwargs.get("slug") else kwargs["slug"]
+                if not re.fullmatch(_SLUG_RE, slug):
+                    raise ValueError("slug must match ^[a-z0-9]+(-[a-z0-9]+)*$")
+                index = load_index()
+                # same completion rule as the CLI (capture.card_exists): a bare
+                # card dir from a failed attempt must not block the retry
+                if slug in index["cards"] or card_exists(slug):
+                    job.update({"status": "failed",
+                                "error": f"slug '{slug}' already exists in the library",
+                                "hint": "pass a different slug or run capture.py --redo"})
+                    continue
+                card_dir = GLOBAL_LIBRARY / "cards" / slug
+                site = {"url": kwargs["url"], "name": kwargs["name"],
+                        "category": kwargs.get("category", "misc"),
+                        "why": kwargs.get("why", "")}
+                with sync_playwright() as p:
+                    browser = p.chromium.launch(headless=True)
+                    try:
+                        result = capture_one(site, slug, card_dir, browser,
+                                             opts={"fast": kwargs.get("fast", True)})
+                    finally:
+                        browser.close()
+                if not result.get("ok"):
+                    raise RuntimeError(result.get("error") or "capture failed")
+                index = load_index()
+                index["cards"][slug] = build_index_entry(site, slug, result)
+                index.setdefault("stats", {})["last_run"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+                index.setdefault("stats", {})["total"] = len(index["cards"])
+                save_index(index)
+                _rebuild_style_index(card_dir)
+                job.update({"status": "done", "slug": slug,
+                            "captured_at": result.get("captured_at"),
+                            "screenshots": list(result.get("screenshots", {}).keys())})
+            except Exception as e:  # noqa: BLE001
+                job.update({"status": "failed", "error": str(e)[:500]})
+            finally:
+                _job_queue.task_done()
+                _prune_jobs()
 
 
 def _rebuild_style_index(card_dir: Path) -> None:
@@ -310,8 +327,10 @@ def _rebuild_style_index(card_dir: Path) -> None:
         (GLOBAL_LIBRARY / "style-index.json").write_text(
             json.dumps(si, indent=2, ensure_ascii=False), encoding="utf-8")
         write_summary(si)
-    except Exception:  # noqa: BLE001
-        pass  # capture must not fail because the index rebuild failed
+    except Exception as e:  # noqa: BLE001
+        # capture must not fail because the index rebuild failed — but a silent
+        # pass here once left every new card unsearchable with no trace
+        print(f"style-index rebuild failed after capture: {e}", file=sys.stderr)
 
 
 threading.Thread(target=_capture_worker, daemon=True).start()
@@ -330,10 +349,11 @@ def capture(url: str, name: str, category: str = "misc", slug: str = "",
         return _err("name must be 1-80 chars")
     if len(why) > 300:
         return _err("why must be ≤ 300 chars")
-    if slug and not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", slug):
+    if slug and not re.fullmatch(_SLUG_RE, slug):
         return _err("slug must match ^[a-z0-9]+(-[a-z0-9]+)*$")
     job_id = uuid.uuid4().hex[:12]
-    _jobs[job_id] = {"status": "queued", "url": url, "name": name}
+    with _jobs_lock:
+        _jobs[job_id] = {"status": "queued", "url": url, "name": name}
     _job_queue.put((job_id, {"url": url, "name": name, "category": category,
                              "slug": slug, "fast": fast, "why": why}))
     return json.dumps({"job_id": job_id, "status": "queued"})
@@ -342,7 +362,8 @@ def capture(url: str, name: str, category: str = "misc", slug: str = "",
 @mcp.tool()
 def capture_status(job_id: str) -> str:
     """Poll a capture job (queued / running / done / failed)."""
-    job = _jobs.get(job_id)
+    with _jobs_lock:
+        job = _jobs.get(job_id)
     if not job:
         return _err(f"no job '{job_id}'", "start one with capture()")
     return json.dumps(job, ensure_ascii=False, default=str)

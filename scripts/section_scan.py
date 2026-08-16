@@ -35,8 +35,16 @@ NAV_TIMEOUT_MS = 25_000
 TAXONOMY = [
     "nav", "hero", "features-grid", "how-it-works", "feature-spotlight",
     "product-showcase", "pricing", "faq", "testimonials", "comparison",
-    "cta-banner", "footer",
+    "ledger", "cta-banner", "footer",
 ]
+
+
+def _record_failure(idx: dict, slug: str, error: str) -> None:
+    """Replace any prior failure for this slug — appending forever inflated
+    stats.failed on every re-run even after a card later succeeded."""
+    failures = [f for f in idx.get("failures", []) if f.get("slug") != slug]
+    failures.append({"slug": slug, "error": error[:200]})
+    idx["failures"] = failures
 
 EXTRACT_JS = r"""(() => {
   const out = [];
@@ -50,7 +58,7 @@ EXTRACT_JS = r"""(() => {
   };
   const cands = [
     ...q('header, nav, main, section, footer, aside'),
-    ...q('[data-section], [class*="section"], [class*="band"], [class*="hero"], [class*="pricing"], [class*="faq"], [class*="testimonial"], [class*="feature"], [class*="cta"], [class*="how-it-works"], [class*="steps"], [class*="comparison"], [class*="footer"], [class*="nav"]')
+    ...q('[data-section], [class*="section"], [class*="band"], [class*="hero"], [class*="pricing"], [class*="faq"], [class*="testimonial"], [class*="feature"], [class*="cta"], [class*="how-it-works"], [class*="steps"], [class*="comparison"], [class*="ledger"], [class*="history"], [class*="footer"], [class*="nav"]')
   ];
   for (const el of cands) {
     const c = cls(el);
@@ -112,6 +120,8 @@ def classify(sig: dict) -> tuple[str, str]:
         return "testimonials", "testimonial class or quotes"
     if "comparison" in c or (sig.get("tables", 0) > 0 and sig.get("textLen", 0) > 200):
         return "comparison", "comparison class or data table"
+    if "ledger" in c or "history" in c:
+        return "ledger", "ledger/history class (append-only record table)"
     if "how-it-works" in c or "steps" in c or (sig.get("hasOl") and sig.get("lis", 0) >= 3):
         return "how-it-works", "steps class or ordered list"
     if "cta" in c or (sig.get("buttons", 0) >= 2 and sig.get("inputs", 0) >= 1):
@@ -216,7 +226,7 @@ def main():
         ok = 0
         for slug, url in urls.items():
             if not url or not url.startswith(("http://", "https://")):
-                idx.setdefault("failures", []).append({"slug": slug, "error": "no url in index"})
+                _record_failure(idx, slug, "no url in index")
                 continue
             try:
                 rec = scan_one(page, url)
@@ -225,7 +235,7 @@ def main():
                 print(f"  ok {slug}: {len(rec['bands'])} bands "
                       f"({', '.join(b['type'] for b in rec['bands'][:6])}…)")
             except Exception as e:  # noqa: BLE001 — record, never fabricate
-                idx.setdefault("failures", []).append({"slug": slug, "error": str(e)[:200]})
+                _record_failure(idx, slug, str(e))
                 print(f"  FAIL {slug}: {str(e)[:120]}")
         browser.close()
 

@@ -140,11 +140,20 @@ def _js(page, script: str):
 
 
 def _hex(value: str) -> str | None:
-    """Resolve a CSS value to a plain hex color when possible."""
+    """Resolve a CSS value to a plain 6-digit hex color when possible.
+
+    Always emits 6-digit (3-digit expanded, 8-digit alpha stripped) — consumers
+    (style_index, theme) previously parsed only 6-digit and silently dropped
+    the other forms from search vectors and borrowed palettes."""
     v = value.strip().lower()
     m = re.fullmatch(r'#([0-9a-f]{3}|[0-9a-f]{6}|[0-9a-f]{8})', v)
     if m:
-        return v
+        h = m.group(1)
+        if len(h) == 3:
+            h = "".join(c * 2 for c in h)
+        elif len(h) == 8:
+            h = h[:6]
+        return f"#{h}"
     m2 = re.fullmatch(r'rgb\((\d+),\s*(\d+),\s*(\d+)\)', v)
     if m2:
         r, g, b = int(m2.group(1)), int(m2.group(2)), int(m2.group(3))
@@ -384,7 +393,7 @@ def semantic_pass(card_dir: Path, url: str, browser) -> dict:
         page = ctx.new_page()
         page.set_default_timeout(NAV_TIMEOUT_MS)
         resp = page.goto(url, wait_until="load", timeout=NAV_TIMEOUT_MS)
-        status = resp.status if resp else "?"
+        status = resp.status if resp else 0
         if status and status >= 400:
             raise RuntimeError(f"HTTP {status}")
         page.wait_for_timeout(1800)

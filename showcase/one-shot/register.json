@@ -1,13 +1,14 @@
 {
-  "brief": "design-scope blueprint sheet: verdict rubric, ledger, pipeline register, style scan, feature grid, start",
-  "direction": "measured technical blueprint",
-  "created": "2026-08-13T18:28:01+00:00",
-  "credits": "0 — local-first",
+  "brief": "blueprint sheet",
+  "direction": "measured technical",
+  "created": "2026-08-16T08:29:12+00:00",
+  "credits": 0,
+  "credits_note": "local-first — no cloud spend",
   "entries": [
     {
       "stage": "direction",
       "tool": "style_search",
-      "input": "measured technical blueprint",
+      "input": "measured technical",
       "output": {
         "candidates": [
           "react",
@@ -21,72 +22,71 @@
         ],
         "ordering": "dark-palette cards first, then rank"
       },
-      "ts": "2026-08-13T18:28:01+00:00"
+      "ts": "2026-08-16T08:29:12+00:00"
     },
     {
       "stage": "palette",
       "tool": "theme_borrow",
-      "input": "resend",
+      "input": "react",
       "output": {
         "roles": {
-          "primary": "#000000",
-          "accent": "#000000",
-          "bg": "#fdfdfd",
-          "text": "#000000",
-          "muted": "#000000"
+          "primary": "#5165f7",
+          "accent": "#5165f7",
+          "bg": "#ffffff",
+          "muted": "#6f7582",
+          "text": "#000000"
         },
         "dark_roles": {
           "bg": "#000000"
         },
         "contrast_guard": [
+          "text derived #000000 on bg #ffffff — card has no readable text token",
+          "contrast guard: #5468ff 4.37:1 → #5165f7 4.61:1 on #ffffff",
+          "contrast guard: #5468ff 4.37:1 → #5165f7 4.61:1 on #ffffff",
+          "contrast guard: #969faf 2.67:1 → #6f7582 4.62:1 on #ffffff",
           "local status roles (--pass/--under) kept from design-scope semantics — status colors carry meaning, not palette"
         ]
       },
       "gate": {
         "usable": true,
-        "reason": "text 20.65:1 · accent 20.65:1 on bg",
-        "rejects": [
-          {
-            "slug": "react",
-            "reason": "text 1.00:1 on bg — below 3.0 floor"
-          }
-        ]
+        "reason": "text 21.00:1 · accent 4.61:1 on bg, roles distinct",
+        "rejects": []
       },
-      "ts": "2026-08-13T18:28:01+00:00"
+      "ts": "2026-08-16T08:29:12+00:00"
     },
     {
       "stage": "evidence",
       "tool": "card_get",
-      "input": "resend",
+      "input": "react",
       "output": {
-        "why": "- **URL:** https://resend.com",
-        "captured": "2026-08-10T07:04:45+00:00"
+        "why": "Framework docs redesign: bold dark hero, clean typography, approachable educational structure",
+        "captured": "2026-08-10T07:33:49+00:00"
       },
       "artifacts": [
-        "E:\\New-Personal-Projects\\Ui Design MCP\\library\\cards\\resend\\screenshot-desktop.png"
+        "library/cards/react/screenshot-desktop.png"
       ],
-      "ts": "2026-08-13T18:28:01+00:00"
+      "ts": "2026-08-16T08:29:12+00:00"
     },
     {
       "stage": "structure",
       "tool": "get_page_structure",
       "input": {
-        "brief": "design-scope blueprint sheet: verdict rubric, ledger, pipeline register, style scan, feature grid, start",
-        "direction": "measured technical blueprint"
+        "brief": "blueprint sheet",
+        "direction": "measured technical"
       },
       "output": {
         "bands": 10,
-        "mechanism_budget": 6,
+        "mechanism_budget": 7,
         "types": [
           "nav",
           "hero",
-          "how-it-works",
           "product-showcase",
-          "features-grid",
-          "feature-spotlight",
-          "ledger",
-          "cta-banner",
           "pricing",
+          "features-grid",
+          "testimonials",
+          "cta-banner",
+          "feature-spotlight",
+          "faq",
           "footer"
         ],
         "basis": "corpus-measured — 200 pages scanned, 2470 bands",
@@ -104,16 +104,16 @@
             "share": 0.732
           },
           {
-            "type": "how-it-works",
-            "measured": 10,
-            "with_state": 7,
-            "share": 0.7
-          },
-          {
             "type": "product-showcase",
             "measured": 486,
             "with_state": 279,
             "share": 0.574
+          },
+          {
+            "type": "pricing",
+            "measured": 134,
+            "with_state": 83,
+            "share": 0.619
           },
           {
             "type": "features-grid",
@@ -122,16 +122,10 @@
             "share": 0.179
           },
           {
-            "type": "feature-spotlight",
-            "measured": 44,
-            "with_state": 5,
-            "share": 0.114
-          },
-          {
-            "type": "ledger",
-            "measured": 0,
-            "with_state": 0,
-            "share": 0
+            "type": "testimonials",
+            "measured": 64,
+            "with_state": 25,
+            "share": 0.391
           },
           {
             "type": "cta-banner",
@@ -140,10 +134,16 @@
             "share": 0.5
           },
           {
-            "type": "pricing",
-            "measured": 134,
-            "with_state": 83,
-            "share": 0.619
+            "type": "feature-spotlight",
+            "measured": 44,
+            "with_state": 5,
+            "share": 0.114
+          },
+          {
+            "type": "faq",
+            "measured": 17,
+            "with_state": 6,
+            "share": 0.353
           },
           {
             "type": "footer",
@@ -153,7 +153,7 @@
           }
         ]
       },
-      "ts": "2026-08-13T18:28:01+00:00"
+      "ts": "2026-08-16T08:29:12+00:00"
     },
     {
       "stage": "tokens",
@@ -163,27 +163,27 @@
         "light": 17,
         "dark": 17
       },
-      "ts": "2026-08-13T18:28:01+00:00"
+      "ts": "2026-08-16T08:29:12+00:00"
     },
     {
       "stage": "render",
       "tool": "render_blueprint (scripts/blueprint.py)",
       "input": {
         "bands": 10,
-        "mechanism_budget": 6
+        "mechanism_budget": 7
       },
       "output": {
         "skeleton": "E:\\New-Personal-Projects\\Ui Design MCP\\showcase\\one-shot\\index.template.html",
         "basis": "corpus-measured — 200 pages scanned, 2470 bands"
       },
-      "ts": "2026-08-13T18:28:01+00:00"
+      "ts": "2026-08-16T08:29:12+00:00"
     }
   ],
   "structure": {
-    "brief": "design-scope blueprint sheet: verdict rubric, ledger, pipeline register, style scan, feature grid, start",
-    "direction": "measured technical blueprint",
+    "brief": "blueprint sheet",
+    "direction": "measured technical",
     "declared_bands": 10,
-    "mechanism_budget": 6,
+    "mechanism_budget": 7,
     "bands": [
       {
         "index": 1,
@@ -209,17 +209,6 @@
       },
       {
         "index": 3,
-        "type": "how-it-works",
-        "mechanism": true,
-        "note": "connection / pipeline explanation",
-        "corpus": {
-          "measured": 10,
-          "with_state": 7,
-          "share": 0.7
-        }
-      },
-      {
-        "index": 4,
         "type": "product-showcase",
         "mechanism": true,
         "note": "corpus scan bars",
@@ -227,6 +216,17 @@
           "measured": 486,
           "with_state": 279,
           "share": 0.574
+        }
+      },
+      {
+        "index": 4,
+        "type": "pricing",
+        "mechanism": true,
+        "note": "plan tiers, per-page-build economics",
+        "corpus": {
+          "measured": 134,
+          "with_state": 83,
+          "share": 0.619
         }
       },
       {
@@ -242,28 +242,17 @@
       },
       {
         "index": 6,
-        "type": "feature-spotlight",
-        "mechanism": false,
-        "note": "self-grade rubric table",
+        "type": "testimonials",
+        "mechanism": true,
+        "note": "quotes, read upward",
         "corpus": {
-          "measured": 44,
-          "with_state": 5,
-          "share": 0.114
+          "measured": 64,
+          "with_state": 25,
+          "share": 0.391
         }
       },
       {
         "index": 7,
-        "type": "ledger",
-        "mechanism": false,
-        "note": "verdict history, reads upward",
-        "corpus": {
-          "measured": 0,
-          "with_state": 0,
-          "share": 0
-        }
-      },
-      {
-        "index": 8,
         "type": "cta-banner",
         "mechanism": true,
         "note": "copy-command button",
@@ -274,14 +263,25 @@
         }
       },
       {
-        "index": 9,
-        "type": "pricing",
-        "mechanism": true,
-        "note": "plan tiers, per-page-build economics",
+        "index": 8,
+        "type": "feature-spotlight",
+        "mechanism": false,
+        "note": "self-grade rubric table",
         "corpus": {
-          "measured": 134,
-          "with_state": 83,
-          "share": 0.619
+          "measured": 44,
+          "with_state": 5,
+          "share": 0.114
+        }
+      },
+      {
+        "index": 9,
+        "type": "faq",
+        "mechanism": true,
+        "note": "details/summary pairs",
+        "corpus": {
+          "measured": 17,
+          "with_state": 6,
+          "share": 0.353
         }
       },
       {
@@ -304,15 +304,15 @@
     }
   },
   "derivations": [
-    "derivation: #000000 → #000000 to reach 20.65:1 on #fdfdfd (darken walk)",
+    "derivation: #5165f7 → #5165f7 to reach 4.61:1 on #ffffff (darken walk)",
     "derivation: #000000 → #b4b4b4 to reach 10.13:1 on #000000 (lighten walk)",
     "derivation: #b4b4b4 → #b4b4b4 to reach 10.13:1 on #000000 (darken walk)",
-    "derivation: #000000 → #7e7e7e to reach 5.17:1 on #000000 (lighten walk)",
-    "derivation: #7e7e7e → #7e7e7e to reach 5.17:1 on #000000 (lighten walk)"
+    "derivation: #5165f7 → #5165f7 to reach 4.55:1 on #000000 (lighten walk)",
+    "derivation: #5165f7 → #5165f7 to reach 4.55:1 on #000000 (lighten walk)"
   ],
   "card": {
-    "slug": "resend",
-    "why": "- **URL:** https://resend.com",
-    "screenshot": "E:\\New-Personal-Projects\\Ui Design MCP\\library\\cards\\resend\\screenshot-desktop.png"
+    "slug": "react",
+    "why": "Framework docs redesign: bold dark hero, clean typography, approachable educational structure",
+    "screenshot": "library/cards/react/screenshot-desktop.png"
   }
 }

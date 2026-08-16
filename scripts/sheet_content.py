@@ -78,7 +78,8 @@ CONTENT = {
     },
     "features-grid": {
         "title": "The corpus behind the sheet",
-        "intro": ("204 pages measured. Every one fingerprinted, motion-passed, and annotated "
+        "intro": ("<span data-stat=\"corpus.captured\">—</span> pages measured. Every one fingerprinted, "
+                  "motion-passed, and annotated "
                   "with why it works. The palette on this sheet was borrowed from one of them."),
         "body": """<div class="stat-grid">
       <div class="stat-card">

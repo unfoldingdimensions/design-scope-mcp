@@ -36,19 +36,30 @@ def build():
     for c in items:
         cat = c.get("category") or "other"
         color = CATEGORY_COLORS.get(cat, "#94a3b8")
-        desk = c.get("files", {}).get("desktop")
-        thumb = f"cards/{c['slug']}/screenshot-desktop.png" if desk else ""
+        name = c.get("name") or c.get("slug") or "—"
+        url = c.get("url") or ""
+        slug = c.get("slug") or ""
+        desk = (c.get("files") or {}).get("desktop")
+        # media is gitignored — an index entry without disk media renders a
+        # placeholder, not a broken <img src="">
+        if desk and slug:
+            thumb = f"cards/{slug}/screenshot-desktop.png"
+            media = f'<a href="{esc(thumb)}" target="_blank"><img loading="lazy" src="{esc(thumb)}" alt="{esc(name)} screenshot"></a>'
+        else:
+            thumb = ""
+            media = ('<div class="thumb-missing">'
+                     '<span>screenshot not present on disk<br>(gitignored — run regenerate_media.py)</span></div>')
         fonts = ", ".join(c.get("fingerprint_summary", {}).get("fonts", [])[:2]) or "—"
         ncol = c.get("fingerprint_summary", {}).get("colors", 0)
         ncomp = c.get("fingerprint_summary", {}).get("components", 0)
         rows.append(f"""
 <div class="card" style="--c:{color}">
-  <a href="{esc(thumb)}" target="_blank"><img loading="lazy" src="{esc(thumb)}" alt="{esc(c['name'])} screenshot"></a>
+  {media}
   <div class="body">
-    <div class="head"><span class="name">{esc(c['name'])}</span><span class="cat">{esc(cat)}</span></div>
+    <div class="head"><span class="name">{esc(name)}</span><span class="cat">{esc(cat)}</span></div>
     <div class="why">{esc(c.get('why') or '')}</div>
     <div class="meta">{ncol} colors · {ncomp} comps · fonts: {esc(fonts)}</div>
-    <a class="url" href="{esc(c['url'])}" target="_blank">{esc(c['url'])}</a>
+    <a class="url" href="{esc(url)}" target="_blank">{esc(url)}</a>
   </div>
 </div>""")
 
@@ -65,6 +76,8 @@ def build():
   .grid {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:20px; }}
   .card {{ background:#161b22; border:1px solid #30363d; border-radius:10px; overflow:hidden; display:flex; flex-direction:column; }}
   .card img {{ width:100%; height:200px; object-fit:cover; object-position:top; border-bottom:1px solid #30363d; display:block; }}
+  .thumb-missing {{ height:200px; border-bottom:1px solid #30363d; display:flex; align-items:center; justify-content:center;
+                   text-align:center; color:#6e7681; font-size:12px; line-height:1.6; padding:0 16px; }}
   .card .body {{ padding:14px; display:flex; flex-direction:column; gap:8px; flex:1; }}
   .card .head {{ display:flex; justify-content:space-between; align-items:center; gap:8px; }}
   .card .name {{ font-weight:600; font-size:15px; }}

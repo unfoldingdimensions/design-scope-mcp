@@ -44,16 +44,24 @@ NEUTRAL_MAX_SAT = 0.12
 
 
 def _hex_to_hsl(value: str):
-    m = re.fullmatch(r"#([0-9a-fA-F]{6})", value.strip())
-    if not m:
-        m = re.fullmatch(r"rgb\((\d+),\s*(\d+),\s*(\d+)\)", value.strip())
-        if m:
-            r, g, b = int(m.group(1)) / 255, int(m.group(2)) / 255, int(m.group(3)) / 255
-        else:
-            return None
-    else:
+    """Parse hex (3/6/8-digit — alpha stripped) or rgb() into (hue, sat, light).
+
+    Must accept every form semantic_pass._hex can emit, or colors silently
+    drop out of the style vectors (search skews)."""
+    v = value.strip()
+    m = re.fullmatch(r"#([0-9a-fA-F]{3}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})", v)
+    if m:
         h = m.group(1)
+        if len(h) == 3:
+            h = "".join(ch * 2 for ch in h)
+        elif len(h) == 8:
+            h = h[:6]  # strip alpha — HSL has no alpha channel
         r, g, b = int(h[0:2], 16) / 255, int(h[2:4], 16) / 255, int(h[4:6], 16) / 255
+    else:
+        m = re.fullmatch(r"rgb\((\d+),\s*(\d+),\s*(\d+)\)", v)
+        if not m:
+            return None
+        r, g, b = int(m.group(1)) / 255, int(m.group(2)) / 255, int(m.group(3)) / 255
     hh, ll, ss = colorsys.rgb_to_hls(r, g, b)
     return (hh * 360, ss, ll)
 
@@ -73,14 +81,14 @@ def _hue_family(hue: float) -> str:
         return "blue"
     if hue < 290:
         return "purple"
-    if hue < 345:
-        return "pink"
-    return "red"
+    return "pink"
 
 
 def build_vectors() -> dict:
     index = {"generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
              "version": 2, "cards": {}}
+    if not CARDS.is_dir():
+        raise FileNotFoundError(f"cards directory not found: {CARDS}")
     for card_dir in sorted(CARDS.iterdir()):
         if not card_dir.is_dir():
             continue
@@ -90,8 +98,16 @@ def build_vectors() -> dict:
         entry = {"slug": slug, "url": "", "palette": [], "why": "", "tags": [],
                  "archetypes": [], "vector": {}, "paths": {}}
 
-        sem = json.loads(sem_path.read_text(encoding="utf-8")) if sem_path.exists() else {}
-        fp = json.loads(fp_path.read_text(encoding="utf-8")) if fp_path.exists() else {}
+        # one corrupt card file must not abort the whole rebuild — skip it
+        sem, fp = {}, {}
+        try:
+            if sem_path.exists():
+                sem = json.loads(sem_path.read_text(encoding="utf-8"))
+            if fp_path.exists():
+                fp = json.loads(fp_path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError) as e:
+            print(f"  {slug}: skipped ({sem_path if sem_path.exists() else fp_path} corrupt: {e})")
+            continue
 
         entry["url"] = sem.get("url") or fp.get("url") or ""
         entry["paths"] = {"semantic": f"cards/{slug}/semantic.json",
@@ -253,6 +269,13 @@ def build_vectors() -> dict:
     return index
 
 
+def _atomic_write(path: Path, text: str) -> None:
+    """Temp file + rename — a reader must never see a truncated index."""
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(text, encoding="utf-8")
+    os.replace(tmp, path)
+
+
 def write_summary(index: dict) -> None:
     lines = ["# design-scope style summary", "",
              f"Generated {index['generated']} · {len(index['cards'])} cards · "
@@ -264,7 +287,7 @@ def write_summary(index: dict) -> None:
         lines.append(f"| {slug} | {', '.join(c['archetypes']) or '—'} | {v['hue_family']} | "
                      f"{v['brightness']} | {v['saturation']} | {v['corners']} | "
                      f"{v['flatness']} | {v['type_mood']} |")
-    OUT_MD.write_text("\n".join(lines), encoding="utf-8")
+    _atomic_write(OUT_MD, "\n".join(lines))
 
 
 def main():
@@ -273,7 +296,7 @@ def main():
     ap.add_argument("--summary", action="store_true", help="print the summary table")
     args = ap.parse_args()
     index = build_vectors()
-    OUT_JSON.write_text(json.dumps(index, indent=2, ensure_ascii=False), encoding="utf-8")
+    _atomic_write(OUT_JSON, json.dumps(index, indent=2, ensure_ascii=False))
     write_summary(index)
     print(f"style-index.json: {len(index['cards'])} cards → {OUT_JSON}")
     if args.summary:

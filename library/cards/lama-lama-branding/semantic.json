@@ -1,0 +1,288 @@
+{
+  "url": "https://lamalama.com/services/branding/",
+  "captured": "2026-08-12T18:09:09+00:00",
+  "named_tokens": {
+    "light": {
+      "--ll-margin-desktop": "2.5rem",
+      "--ll-gutter-desktop": "1.5rem",
+      "--ll-cols-desktop": "12",
+      "--ll-margin-mobile": "1rem",
+      "--ll-gutter-mobile": ".625rem",
+      "--ll-cols-mobile": "6",
+      "--ll-grid-gap": ".625rem",
+      "--ll-col-count": "6",
+      "--ll-grid-margin": "1rem",
+      "--spacing-xs": "max(calc(8 / 16 * 1rem), calc(12 / 1440 * 100vw))",
+      "--spacing-sm": "max(calc(12 / 16 * 1rem), calc(16 / 1440 * 100vw))",
+      "--spacing-md": "max(calc(16 / 16 * 1rem), calc(24 / 1440 * 100vw))",
+      "--spacing-lg": "max(calc(24 / 16 * 1rem), calc(32 / 1440 * 100vw))",
+      "--spacing-xl": "max(calc(32 / 16 * 1rem), calc(48 / 1440 * 100vw))",
+      "--spacing-2xl": "max(calc(48 / 16 * 1rem), calc(64 / 1440 * 100vw))",
+      "--spacing-hero": "max(calc(110 / 16 * 1rem), calc(90 / 1440 * 100vw))",
+      "--section-3xs": "max(calc(10 / 16 * 1rem), calc(20 / 1440 * 100vw))",
+      "--section-2xs": "max(calc(20 / 16 * 1rem), calc(40 / 1440 * 100vw))",
+      "--section-xs": "max(calc(30 / 16 * 1rem), calc(60 / 1440 * 100vw))",
+      "--section-sm": "max(calc(40 / 16 * 1rem), calc(80 / 1440 * 100vw))",
+      "--section-md": "max(calc(60 / 16 * 1rem), calc(120 / 1440 * 100vw))",
+      "--section-lg": "max(calc(80 / 16 * 1rem), calc(160 / 1440 * 100vw))",
+      "--section-xl": "max(calc(100 / 16 * 1rem), calc(200 / 1440 * 100vw))",
+      "--section-2xl": "max(calc(110 / 16 * 1rem), calc(220 / 1440 * 100vw))",
+      "--section-3xl": "max(calc(120 / 16 * 1rem), calc(240 / 1440 * 100vw))",
+      "--section-4xl": "max(calc(160 / 16 * 1rem), calc(320 / 1440 * 100vw))",
+      "--content-inline": "calc(((100vw - (2 * var(--ll-grid-margin) + (var(--ll-col-count) - 1) * var(--ll-grid-gap))) / var(--ll-col-count)) * 6 + 5 * var(--ll-grid-gap))",
+      "--content-boxed": "calc(((100vw - (2 * var(--ll-grid-margin) + (var(--ll-col-count) - 1) * var(--ll-grid-gap))) / var(--ll-col-count)) * 8 + 7 * var(--ll-grid-gap))",
+      "--black": "0 0 0",
+      "--white": "255 255 255",
+      "--offBlack": "1 1 1",
+      "--dark": "26 28 28",
+      "--red": "231 93 96",
+      "--green": "208 255 126",
+      "--pink": "255 198 218",
+      "--blue": "220 242 244",
+      "--offWhite": "249 244 235",
+      "--bgPrimary": "26 28 28",
+      "--textPrimary": "249 244 235",
+      "--textSecondary": "249 244 235",
+      "--signal": "249 244 235",
+      "--bgSecondary": "255 255 255",
+      "--content-spacing": "max(calc(40 / 16 * 1rem), calc(80 / 1440 * 100vw))"
+    },
+    "dark": {
+      "--bgPrimary": "var(--dark)",
+      "--textPrimary": "var(--offWhite)",
+      "--bgSecondary": "var(--black)"
+    }
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "soft corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "soft",
+    "type_mood": [
+      "neutral-sans"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {
+    "dialog": 11
+  },
+  "z_index_rows": [
+    {
+      "role": "dialog",
+      "selector": "body #CybotCookiebotDialog[data-template=\"popup\"] #CybotCookiebotDialogTabConten",
+      "value": "11"
+    }
+  ],
+  "responsive": [
+    {
+      "at": "1440px",
+      "selector": ".ll-display-rg",
+      "change": "font-size: clamp(5rem, 2.3075rem + 2.99vw, 7.6925rem)"
+    },
+    {
+      "at": "1440px",
+      "selector": ".ll-display-sm",
+      "change": "font-size: clamp(4.5rem, 2.25rem + 2.5vw, 6.75rem)"
+    },
+    {
+      "at": "1440px",
+      "selector": ".ll-heading-1",
+      "change": "font-size: clamp(3.75rem, 1.875rem + 2.08vw, 5.625rem)"
+    },
+    {
+      "at": "1440px",
+      "selector": ".ll-heading-2",
+      "change": "font-size: clamp(3rem, 1.5rem + 1.67vw, 4.5rem)"
+    },
+    {
+      "at": "1440px",
+      "selector": ".ll-heading-3",
+      "change": "font-size: clamp(2.5rem, 1.42875rem + 1.19vw, 3.57125rem)"
+    },
+    {
+      "at": "1440px",
+      "selector": ".ll-heading-4",
+      "change": "font-size: clamp(2rem, 1.33313rem + 0.74vw, 2.66688rem)"
+    },
+    {
+      "at": "1440px",
+      "selector": ".ll-heading-6",
+      "change": "font-size: clamp(1.25rem, 1.11125rem + 0.15vw, 1.38875rem)"
+    },
+    {
+      "at": "1440px",
+      "selector": ".ll-body-lg",
+      "change": "font-size: clamp(1.5rem, 1.2rem + 0.33vw, 1.8rem)"
+    },
+    {
+      "at": "1440px",
+      "selector": ".ll-body-md",
+      "change": "font-size: clamp(1.25rem, 0.9375rem + 0.35vw, 1.5625rem)"
+    },
+    {
+      "at": "1440px",
+      "selector": ".ll-body-rg",
+      "change": "font-size: clamp(1rem, 0.856875rem + 0.16vw, 1.14313rem)"
+    },
+    {
+      "at": "1440px",
+      "selector": ".ll-body-sm",
+      "change": "font-size: clamp(0.875rem, 0.729375rem + 0.16vw, 1.02063rem)"
+    },
+    {
+      "at": "1440px",
+      "selector": ".ll-add-tag",
+      "change": "font-size: 0.625rem"
+    },
+    {
+      "at": "1440px",
+      "selector": ".ll-add-button",
+      "change": "font-size: 0.625rem"
+    },
+    {
+      "at": "1440px",
+      "selector": ".ll-add-number",
+      "change": "font-size: clamp(4.375rem, 1.09375rem + 3.65vw, 7.65625rem)"
+    },
+    {
+      "at": "1440px",
+      "selector": ".ll-add-stackingCard",
+      "change": "font-size: clamp(1.375rem, 1.2375rem + 0.15vw, 1.5125rem)"
+    },
+    {
+      "at": "1440px",
+      "selector": ".ll-add-navItem",
+      "change": "font-size: 1rem"
+    },
+    {
+      "at": "1440px",
+      "selector": ".ll-add-navItemChild",
+      "change": "font-size: 0.875rem"
+    },
+    {
+      "at": "1440px",
+      "selector": ".ll-add-stackingCardDescription",
+      "change": "font-size: clamp(1.125rem, 0.80375rem + 0.36vw, 1.44625rem)"
+    },
+    {
+      "at": "1440px",
+      "selector": ".ll-pitchdeck-display--xl",
+      "change": "font-size: clamp(7.5rem, -7.5rem + 16.67vw, 22.5rem)"
+    },
+    {
+      "at": "1440px",
+      "selector": ".ll-pitchdeck-display--md",
+      "change": "font-size: clamp(3.75rem, 1.875rem + 2.08vw, 5.625rem)"
+    },
+    {
+      "at": "1440px",
+      "selector": ".ll-pitchdeck-body--xl",
+      "change": "font-size: clamp(3rem, -3rem + 6.67vw, 9rem)"
+    },
+    {
+      "at": "1440px",
+      "selector": ".ll-pitchdeck-body--lg",
+      "change": "font-size: clamp(2.25rem, -0.5625rem + 3.13vw, 5.0625rem)"
+    },
+    {
+      "at": "1440px",
+      "selector": ".ll-pitchdeck-body--md",
+      "change": "font-size: clamp(1.75rem, 0.4375rem + 1.46vw, 3.0625rem)"
+    },
+    {
+      "at": "1440px",
+      "selector": ".ll-pitchdeck-body--sm",
+      "change": "font-size: clamp(1rem, 0.856875rem + 0.16vw, 1.14313rem)"
+    },
+    {
+      "at": "1440px",
+      "selector": ".ll-pitchdeck-label",
+      "change": "font-size: clamp(0.75rem, 0.6rem + 0.17vw, 0.9rem)"
+    },
+    {
+      "at": "1440px",
+      "selector": ".ll-pitchdeck-label--xs",
+      "change": "font-size: 0.625rem"
+    },
+    {
+      "at": "1000px",
+      "selector": ".ll-grid",
+      "change": "grid-template-columns: repeat(12, minmax(0px, 1fr))"
+    },
+    {
+      "at": "1000px",
+      "selector": ".ll-grid",
+      "change": "column-gap: 1.5rem"
+    },
+    {
+      "at": "1000px",
+      "selector": ".ll-pitchdeck-display--xl",
+      "change": "font-size: 6.25cqw"
+    },
+    {
+      "at": "1000px",
+      "selector": ".ll-pitchdeck-display--md",
+      "change": "font-size: 3.125cqw"
+    },
+    {
+      "at": "1000px",
+      "selector": ".ll-pitchdeck-body--xl",
+      "change": "font-size: 2.5cqw"
+    },
+    {
+      "at": "1000px",
+      "selector": ".ll-pitchdeck-body--xl",
+      "change": "line-height: 1"
+    },
+    {
+      "at": "1000px",
+      "selector": ".ll-pitchdeck-body--lg",
+      "change": "font-size: 1.875cqw"
+    },
+    {
+      "at": "1000px",
+      "selector": ".ll-pitchdeck-body--lg",
+      "change": "line-height: 1"
+    },
+    {
+      "at": "1000px",
+      "selector": ".ll-pitchdeck-body--md",
+      "change": "font-size: 1.45833cqw"
+    },
+    {
+      "at": "1000px",
+      "selector": ".ll-pitchdeck-body--md",
+      "change": "line-height: 1.2em"
+    },
+    {
+      "at": "800px",
+      "selector": ".ll-slide",
+      "change": "padding-top: 5.625rem"
+    },
+    {
+      "at": "800px",
+      "selector": ".ll-slide",
+      "change": "padding-right: 5.625rem"
+    },
+    {
+      "at": "800px",
+      "selector": ".ll-slide",
+      "change": "padding-bottom: 5.625rem"
+    },
+    {
+      "at": "800px",
+      "selector": ".ll-slide",
+      "change": "padding-left: 5.625rem"
+    }
+  ]
+}

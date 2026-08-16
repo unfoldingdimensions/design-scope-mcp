@@ -1,0 +1,203 @@
+{
+  "url": "https://www.produx.design",
+  "captured": "2026-08-12T18:01:12+00:00",
+  "named_tokens": {
+    "light": {},
+    "dark": {}
+  },
+  "semantic_colors": {
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color"
+  },
+  "design_intent": {
+    "vibe": [
+      "clean"
+    ],
+    "rhythm": [
+      "sharp corners",
+      "flat (no shadows)"
+    ],
+    "flat": true,
+    "corner_style": "sharp",
+    "type_mood": [
+      "serif-led",
+      "mono-accent"
+    ],
+    "note": "heuristic synthesis of measured data"
+  },
+  "z_index": {},
+  "z_index_rows": [],
+  "responsive": [
+    {
+      "at": "(hover: hover)",
+      "selector": ".lil-controller.lil-color .lil-display:hover::before",
+      "change": "content: \" \""
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".lil-controller.lil-color .lil-display:hover::before",
+      "change": "position: absolute"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".lil-gui input[type=\"checkbox\"]:focus",
+      "change": "box-shadow: inset 0 0 0 1px var(--focus-color)"
+    },
+    {
+      "at": "(hover: hover)",
+      "selector": ".lil-gui .lil-controller button:focus",
+      "change": "box-shadow: inset 0 0 0 1px var(--focus-color)"
+    },
+    {
+      "at": "1024px",
+      "selector": "::view-transition-old(root)",
+      "change": "animation-duration: 1.2s"
+    },
+    {
+      "at": "1024px",
+      "selector": "::view-transition-old(root)",
+      "change": "animation-timing-function: ease-in-out"
+    },
+    {
+      "at": "1024px",
+      "selector": "::view-transition-old(root)",
+      "change": "animation-delay: 0s"
+    },
+    {
+      "at": "1024px",
+      "selector": "::view-transition-old(root)",
+      "change": "animation-iteration-count: 1"
+    },
+    {
+      "at": "1024px",
+      "selector": "::view-transition-old(root)",
+      "change": "animation-direction: normal"
+    },
+    {
+      "at": "1024px",
+      "selector": "::view-transition-old(root)",
+      "change": "animation-fill-mode: forwards"
+    },
+    {
+      "at": "1024px",
+      "selector": "::view-transition-new(root)",
+      "change": "opacity: 0"
+    },
+    {
+      "at": "1024px",
+      "selector": "::view-transition-new(root)",
+      "change": "animation-duration: 0.9s"
+    },
+    {
+      "at": "1024px",
+      "selector": "::view-transition-new(root)",
+      "change": "animation-timing-function: ease-out"
+    },
+    {
+      "at": "1024px",
+      "selector": "::view-transition-new(root)",
+      "change": "animation-delay: 0.4s"
+    },
+    {
+      "at": "1024px",
+      "selector": "::view-transition-new(root)",
+      "change": "animation-iteration-count: 1"
+    },
+    {
+      "at": "1024px",
+      "selector": "::view-transition-new(root)",
+      "change": "animation-direction: normal"
+    },
+    {
+      "at": "1025px",
+      "selector": "::view-transition-group(transition-portal)",
+      "change": "animation-duration: auto"
+    },
+    {
+      "at": "1025px",
+      "selector": "::view-transition-group(transition-portal)",
+      "change": "animation-timing-function: ease"
+    },
+    {
+      "at": "1025px",
+      "selector": "::view-transition-group(transition-portal)",
+      "change": "animation-delay: 0s"
+    },
+    {
+      "at": "1025px",
+      "selector": "::view-transition-group(transition-portal)",
+      "change": "animation-iteration-count: 1"
+    },
+    {
+      "at": "1025px",
+      "selector": "::view-transition-group(transition-portal)",
+      "change": "animation-direction: normal"
+    },
+    {
+      "at": "1025px",
+      "selector": "::view-transition-group(transition-portal)",
+      "change": "animation-fill-mode: none"
+    },
+    {
+      "at": "1025px",
+      "selector": "::view-transition-old(transition-portal)",
+      "change": "animation-duration: auto"
+    },
+    {
+      "at": "1025px",
+      "selector": "::view-transition-old(transition-portal)",
+      "change": "animation-timing-function: ease"
+    },
+    {
+      "at": "1025px",
+      "selector": "::view-transition-old(transition-portal)",
+      "change": "animation-delay: 0s"
+    },
+    {
+      "at": "1025px",
+      "selector": "::view-transition-old(transition-portal)",
+      "change": "animation-iteration-count: 1"
+    },
+    {
+      "at": "1025px",
+      "selector": "::view-transition-old(transition-portal)",
+      "change": "animation-direction: normal"
+    },
+    {
+      "at": "1025px",
+      "selector": "::view-transition-old(transition-portal)",
+      "change": "animation-fill-mode: none"
+    },
+    {
+      "at": "640px",
+      "selector": ".service-word",
+      "change": "background-image: none"
+    },
+    {
+      "at": "640px",
+      "selector": ".service-word",
+      "change": "background-position-x: initial"
+    },
+    {
+      "at": "640px",
+      "selector": ".service-word",
+      "change": "background-position-y: initial"
+    },
+    {
+      "at": "640px",
+      "selector": ".service-word",
+      "change": "background-size: initial"
+    },
+    {
+      "at": "640px",
+      "selector": ".service-word",
+      "change": "background-repeat: initial"
+    },
+    {
+      "at": "640px",
+      "selector": ".service-word",
+      "change": "background-attachment: initial"
+    }
+  ]
+}

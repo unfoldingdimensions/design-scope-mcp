@@ -1,0 +1,123 @@
+{
+  "url": "https://unitedcarriers.com",
+  "captured": "2026-08-12T18:04:37+00:00",
+  "hover_diffs": [
+    {
+      "selector": "button",
+      "index": 1,
+      "diffs": {
+        "borderColor": {
+          "before": "rgb(17, 17, 17)",
+          "after": "rgb(255, 255, 255)"
+        },
+        "color": {
+          "before": "rgb(17, 17, 17)",
+          "after": "rgb(255, 255, 255)"
+        }
+      },
+      "before_png": "hover-before-01.png",
+      "after_png": "hover-after-01.png"
+    },
+    {
+      "selector": "button",
+      "index": 2,
+      "diffs": {
+        "borderColor": {
+          "before": "rgba(17, 17, 17, 0.72)",
+          "after": "rgb(17, 17, 17)"
+        },
+        "color": {
+          "before": "rgba(17, 17, 17, 0.72)",
+          "after": "rgb(17, 17, 17)"
+        }
+      },
+      "before_png": "hover-before-02.png",
+      "after_png": "hover-after-02.png"
+    }
+  ],
+  "scroll_probe": [
+    {
+      "selector": "header.header-inner",
+      "diffs": {
+        "background": "rgba(0, 0, 0, 0) → rgb(255, 255, 255)"
+      }
+    }
+  ],
+  "interaction_model": "scroll-driven",
+  "interaction_signals": {
+    "clickables": 122,
+    "tabs": 81,
+    "accordions": 0,
+    "carousels": 6,
+    "observers": 0,
+    "scrollSnap": 0,
+    "smoothScroll": "smooth-scroll-lib",
+    "marquees": 6
+  },
+  "states": [
+    {
+      "idx": 0,
+      "tag": "div",
+      "classes": "article-tab",
+      "text": "CategoriesCATEGORIESarticlesFeatured1Company News1Industry N",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 1,
+      "tag": "div",
+      "classes": "article-tab-title",
+      "text": "CategoriesCATEGORIES",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 2,
+      "tag": "div",
+      "classes": "article-tab-title-mb hidden-dsk",
+      "text": "CATEGORIES",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 3,
+      "tag": "div",
+      "classes": "article-tab-title-ic",
+      "text": "",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 4,
+      "tag": "div",
+      "classes": "article-tab-main-wrap",
+      "text": "articlesFeatured1Company News1Industry News1Case Studies1Com",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 5,
+      "tag": "div",
+      "classes": "article-tab-main",
+      "text": "articlesFeatured1Company News1Industry News1Case Studies1Com",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 6,
+      "tag": "div",
+      "classes": "article-tab-label",
+      "text": "articles",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    },
+    {
+      "idx": 7,
+      "tag": "div",
+      "classes": "article-tab-cms w-dyn-list",
+      "text": "Featured1Company News1Industry News1Case Studies1Company Upd",
+      "ariaSelected": null,
+      "ariaExpanded": null
+    }
+  ]
+}

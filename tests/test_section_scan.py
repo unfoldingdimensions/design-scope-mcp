@@ -35,6 +35,7 @@ def test_classifier_priority():
         (sig(cls="faq", details=3), "faq"),
         (sig(cls="testimonials", blockquotes=3), "testimonials"),
         (sig(cls="comparison", tables=1), "comparison"),
+        (sig(cls="verdict-ledger", tables=1), "ledger"),
         (sig(cls="how-it-works", hasOl=True, lis=4), "how-it-works"),
         (sig(cls="cta-banner", buttons=2, inputs=1), "cta-banner"),
         (sig(cls="feature-spotlight", imgs=1), "feature-spotlight"),
@@ -62,7 +63,7 @@ def test_other_bucket_honest():
 def test_taxonomy_covered():
     covered = {"nav", "hero", "features-grid", "how-it-works", "feature-spotlight",
                "product-showcase", "pricing", "faq", "testimonials", "comparison",
-               "cta-banner", "footer"}
+               "ledger", "cta-banner", "footer"}
     check("all taxonomy types reachable", covered == set(TAXONOMY))
 
 

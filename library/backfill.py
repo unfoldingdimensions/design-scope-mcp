@@ -2,9 +2,9 @@
 """design-scope backfill — runs the motion + behavior passes on existing cards
 that were captured before those passes existed (2026-08-09+).
 
-Only runs motion_pass + behavior_pass per card — does NOT re-capture
-screenshots or tokens (they're already good). Skips cards that already have
-both. Resumable: safe to stop and re-run.
+Only runs motion_pass + behavior_pass + semantic_pass per card — does NOT
+re-capture screenshots or tokens (they're already good). Skips cards that
+already have both. Resumable: safe to stop and re-run.
 
 Usage:
   python backfill.py [--limit N] [--only slug1,slug2] [--skip slug1]

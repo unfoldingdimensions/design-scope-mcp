@@ -258,8 +258,11 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
   to { opacity: 1; transform: translateY(0); }
 }
 @keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
-.band { animation: band-in 0.6s cubic-bezier(0.19, 1, 0.22, 1) both; }
-.band.revealed { animation: band-in 0.6s cubic-bezier(0.19, 1, 0.22, 1) both; }
+/* scroll-gated reveal: bands start hidden only when JS is present (the .js
+   class is added before first paint), then animate when .revealed lands —
+   previously .band animated at load and .revealed was a no-op */
+.js .band { opacity: 0; }
+.js .band.revealed { animation: band-in 0.6s cubic-bezier(0.19, 1, 0.22, 1) both; }
 .band:nth-of-type(2) { animation-delay: 0.08s; }
 .band:nth-of-type(3) { animation-delay: 0.16s; }
 .band:nth-of-type(4) { animation-delay: 0.24s; }
@@ -272,6 +275,8 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
 .hero .sub { animation: band-in 0.55s cubic-bezier(0.19, 1, 0.22, 1) 0.15s both; }
 .hero .cta-row { animation: band-in 0.55s cubic-bezier(0.19, 1, 0.22, 1) 0.25s both; }
 .fig { animation: band-in 0.6s cubic-bezier(0.19, 1, 0.22, 1) 0.35s both; }
+  .ledger td .dots { letter-spacing: 2px; font-size: 10px; }
+  .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.001s !important;
@@ -281,6 +286,14 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
   html { scroll-behavior: auto; }
 }
 </style>
+<script>
+/* restore theme BEFORE first paint — no light flash for dark users */
+(function () { try {
+  var t = localStorage.getItem("ds-theme");
+  if (!t && window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) t = "dark";
+  if (t) document.documentElement.setAttribute("data-theme", t);
+} catch (e) {} })();
+</script>
 </head>
 <body>
 """
@@ -288,6 +301,7 @@ html[data-theme="dark"] .theme-btn .moon { display: none; }
 SHELL_FOOT = """
 <script>
 /*__DATA__*/
+document.documentElement.classList.add("js");  // gates scroll-reveal CSS
 (function () {
   "use strict";
   var S = window.SHOWCASE || { stats: null, verdict: null, ledger: [], oneShot: null };
@@ -370,14 +384,21 @@ SHELL_FOOT = """
     }
     var rows = "", all = S.ledger.slice().reverse();
     all.forEach(function (r, i) {
-      var dots = "";
+      var dots = "", npass = 0;
       (r.rows || []).forEach(function (c) {
+        if (c.status === "PASS") npass++;
         dots += c.status === "PASS" ? '<span style="color:var(--pass)">●</span>'
                                     : '<span style="color:var(--under)">○</span>';
       });
-      rows += '<tr><td class="group" style="color:var(--muted)">R' + String(all.length - i).padStart(2, "0") + '</td>' +
+      var under = (r.rows || []).length - npass;
+      // row number from the record's own label when it carries one — position-
+      // based numbering once disagreed with the labels under "no row is edited"
+      var m = /R(\\d+)/i.exec(r.label || "");
+      var rn = m ? m[1] : String(all.length - i);
+      rows += '<tr><td class="group" style="color:var(--muted)">R' + rn.padStart(2, "0") + '</td>' +
         '<td><strong>' + (r.label || "—") + '</strong></td><td>' + (r.date || "").slice(0, 10) + '</td>' +
-        '<td>' + r.score + '</td><td class="dots">' + dots + '</td></tr>';
+        '<td>' + r.score + '</td><td class="dots" aria-label="' + npass + ' pass, ' + under + ' under">' +
+        dots + '<span class="vh">' + npass + ' pass, ' + under + ' under</span></td></tr>';
     });
     root.innerHTML =
       '<table class="ledger"><thead><tr><th style="width:60px">row</th><th>label</th><th style="width:110px">date</th>' +
@@ -415,18 +436,33 @@ SHELL_FOOT = """
       });
     });
     showEntry(entries[0]);
-    if (note) note.textContent = "SPENT " + (OS.credits || "0") + " CREDITS · " + entries.length +
+    if (note) note.textContent = "SPENT " + (typeof OS.credits === "number" ? OS.credits : 0) +
+      " CREDITS" + (OS.credits_note ? " · " + OS.credits_note : "") + " · " + entries.length +
       " CALLS · EVERY ROW MACHINE-WRITTEN";
   }
   function wireMechanisms() {
     var btn = document.getElementById("themeBtn");
     if (btn) {
+      var setPressed = function () {
+        btn.setAttribute("aria-pressed",
+          document.documentElement.getAttribute("data-theme") === "dark" ? "true" : "false");
+      };
       btn.addEventListener("click", function () {
         var next = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
         document.documentElement.setAttribute("data-theme", next);
         try { localStorage.setItem("ds-theme", next); } catch (e) {}
+        setPressed();
       });
-      try { var saved = localStorage.getItem("ds-theme"); if (saved) document.documentElement.setAttribute("data-theme", saved); } catch (e) {}
+      // saved choice wins; otherwise honor the OS preference (dark users used
+      // to get a light page plus a flash on every load)
+      try {
+        var saved = localStorage.getItem("ds-theme");
+        if (!saved && window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+          saved = "dark";
+        }
+        if (saved) document.documentElement.setAttribute("data-theme", saved);
+      } catch (e) {}
+      setPressed();
     }
     document.querySelectorAll(".copy-btn").forEach(function (b) {
       b.addEventListener("click", function () {
@@ -464,7 +500,7 @@ SHELL_FOOT = """
     var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     var bands = document.querySelectorAll("[data-band-scroll]");
     if (reduce || !bands.length) {
-      bands.forEach(function (b) { b.setAttribute("data-scroll-armed", ""); });
+      bands.forEach(function (b) { b.setAttribute("data-scroll-armed", ""); b.classList.add("revealed"); });
       return;
     }
     // arm bands in view NOW (synchronous — IO's first callback is async and
@@ -523,7 +559,7 @@ def _head(num: str, tag: str, title: str, intro: str, corpus: dict | None = None
 
 def band_nav(i: int, corpus: dict | None = None, c: dict | None = None) -> str:
     links = (c or {}).get("links") or '<span class="fill-tag">NAV LINKS — AGENT FILLS</span>'
-    return f'''<nav class="nav" data-band="nav" data-band-type="nav" data-mechanism data-band-scroll aria-label="Site">
+    return f'''<nav class="nav" id="s{i:02d}" data-band="nav" data-band-type="nav" data-mechanism data-band-scroll aria-label="Site">
   <div class="nav-inner">
     <div class="brand">
       <svg class="brand-mark" viewBox="0 0 18 18" aria-hidden="true"><rect x="1.5" y="1.5" width="15" height="15"/><path d="M4.5 9h9M9 4.5v9"/></svg>
@@ -532,7 +568,7 @@ def band_nav(i: int, corpus: dict | None = None, c: dict | None = None) -> str:
     <div class="nav-links">{links}</div>
     <div class="nav-right">
       <span class="status-tag"><i class="status-dot" aria-hidden="true"></i>OPERATIONAL</span>
-      <button id="themeBtn" class="theme-btn" aria-label="Toggle theme">
+      <button id="themeBtn" class="theme-btn" aria-label="Toggle theme" aria-pressed="false">
         <svg class="sun" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="3.2"/><path d="M8 1v2M8 13v2M1 8h2M13 8h2M2.8 2.8l1.4 1.4M11.8 11.8l1.4 1.4M13.2 2.8l-1.4 1.4M4.2 11.8l-1.4 1.4"/></svg>
         <svg class="moon" viewBox="0 0 16 16" aria-hidden="true"><path d="M13.2 9.6A5.6 5.6 0 0 1 6.4 2.8a5.6 5.6 0 1 0 6.8 6.8z"/></svg>
       </button>
@@ -550,7 +586,7 @@ def band_hero(i: int, corpus: dict | None = None, c: dict | None = None) -> str:
     cta_s = c.get("cta_secondary") or '<a class="cta cta-ghost" href="#s03">SECONDARY CTA — AGENT FILLS</a>'
     fig = c.get("fig") or ('<div class="fill" style="min-height:220px;padding:12px">'
                            '<span class="fill-tag">FIG ART — AGENT FILLS (SVG)</span></div>')
-    return f'''<section class="band" id="s{i}" data-band="hero" data-band-type="hero" data-mechanism data-interactive data-band-scroll>
+    return f'''<section class="band" id="s{i:02d}" data-band="hero" data-band-type="hero" data-mechanism data-interactive data-band-scroll>
   <div class="hero">
     <div>
       <div class="kicker"><span class="lbl">[ SHEET 02 / ONE-SHOT ]</span></div>
@@ -591,7 +627,7 @@ def band_generic(i: int, t: str, corpus: dict | None = None, mechanism: bool = F
                 f'interaction go here. The band, its contract, and its mechanism are already decided.</p></div>')
     head_title = title or f"{t.replace('-', ' ').title()} — AGENT FILLS"
     head_intro = intro or "Intro — agent fills what this band says and why it earns its place."
-    return f'''<section class="band" id="s{i}" data-band="{t}" data-band-type="{t}"{mech}{inter} data-band-scroll>
+    return f'''<section class="band" id="s{i:02d}" data-band="{t}" data-band-type="{t}"{mech}{inter} data-band-scroll>
   {_head(str(i).zfill(2), t.upper(), head_title, head_intro, corpus)}
   {body}
 </section>'''
@@ -620,19 +656,27 @@ def render(structure: dict, content: dict | None = None) -> str:
     content = content or {}
     bands = structure["bands"]
     body = []
+    nav_html = ""
     for b in bands:
         t = b["type"]
         c = content.get(t)
         slot = c if isinstance(c, dict) else None
         fn = BAND_RENDERERS.get(t)
         if fn:
-            body.append(fn(b["index"], b.get("corpus"), slot))
+            rendered = fn(b["index"], b.get("corpus"), slot)
+            if t == "nav":
+                # the sticky nav lives OUTSIDE .sheet — inside the 1180px
+                # container it stuck with unpainted gutters on wide viewports
+                nav_html = rendered
+                continue
+            body.append(rendered)
         else:
             raw = c if isinstance(c, str) else (slot or {}).get("body")
             body.append(band_generic(b["index"], t, b.get("corpus"), b.get("mechanism"),
                                      raw, (slot or {}).get("title"), (slot or {}).get("intro")))
     html = SHELL_HEAD.replace("{bands}", str(structure["declared_bands"])) \
                      .replace("{mechanisms}", str(structure["mechanism_budget"]))
+    html += nav_html + "\n"
     html += '\n<div class="sheet">\n' + "\n".join(body) + "\n</div>\n"
     html += SHELL_FOOT
     return html

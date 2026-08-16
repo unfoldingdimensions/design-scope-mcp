@@ -1,7 +1,6 @@
+#!/usr/bin/env python3
 # MIRRORED from the design-scope skill (scripts/compare.py / theme.py).
 # Canonical home: <skill>/scripts/ — update both copies together.
-
-#!/usr/bin/env python3
 """design-scope theme — borrow a reference card's palette as a theme.
 
 Formalizes the improvised "swap this card's palette in" flow. Reads a card's
@@ -27,11 +26,19 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-# Global library: DESIGN_SCOPE_LIBRARY env var, else the well-known default
-# (this script lives in the skill dir — the library is a fixed location, not
-# a relative sibling).
-GLOBAL_LIBRARY = Path(os.environ.get(
-    "DESIGN_SCOPE_LIBRARY", r"E:\New-Personal-Projects\Ui Design MCP\library"))
+# Global library: DESIGN_SCOPE_LIBRARY env var, else the repo library relative
+# to this file (the copy that ships in the repo lives in scripts/), else the
+# canonical dev-machine location (the skill-dir copy has no library sibling).
+def _default_library() -> Path:
+    candidates = [Path(__file__).resolve().parent.parent / "library",
+                  Path(r"E:\New-Personal-Projects\Ui Design MCP\library")]
+    for c in candidates:
+        if (c / "index.json").exists():
+            return c
+    return candidates[0]
+
+
+GLOBAL_LIBRARY = Path(os.environ.get("DESIGN_SCOPE_LIBRARY", str(_default_library()))).resolve()
 
 AA_NORMAL = 4.5
 
@@ -74,14 +81,30 @@ def _lighten(hex_color: str, step: float = 0.03) -> str:
 
 
 def _hex_of(value: str) -> str | None:
-    m = re.fullmatch(r"#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})", value.strip())
+    """Normalize a CSS color to 6-digit hex. Accepts 3/6/8-digit hex (alpha
+    stripped) and rgb() — 8-digit is common in real token dumps (#000000e6)."""
+    v = value.strip()
+    m = re.fullmatch(r"#([0-9a-fA-F]{3}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})", v)
     if m:
-        v = m.group(1)
-        return f"#{v[0]*2}{v[1]*2}{v[2]*2}" if len(v) == 3 else f"#{v.lower()}"
-    m2 = re.fullmatch(r"rgb\((\d+),\s*(\d+),\s*(\d+)\)", value.strip())
+        h = m.group(1)
+        if len(h) == 3:
+            h = "".join(c * 2 for c in h)
+        elif len(h) == 8:
+            h = h[:6]  # strip alpha
+        return f"#{h.lower()}"
+    m2 = re.fullmatch(r"rgb\((\d+),\s*(\d+),\s*(\d+)\)", v)
     if m2:
         return f"#{int(m2.group(1)):02x}{int(m2.group(2)):02x}{int(m2.group(3)):02x}"
     return None
+
+
+def _hls_sat(hex_color: str) -> float:
+    """HLS saturation of a hex color (0 = gray, 1 = full)."""
+    import colorsys
+    h = hex_color.lstrip("#")
+    r, g, b = (int(h[i:i + 2], 16) / 255 for i in (0, 2, 4))
+    _hh, ll, ss = colorsys.rgb_to_hls(r, g, b)
+    return ss * (1 - abs(2 * ll - 1))  # toward HSV-style saturation
 
 
 def _guard(color: str, bg: str, dark_bg: str | None = None) -> tuple[str, list[str]]:
@@ -126,21 +149,6 @@ def borrow_theme(slug: str, target: str = ".") -> dict:
     sc = sem.get("semantic_colors", {}).get("light", {})
     sc_dark = sem.get("semantic_colors", {}).get("dark", {})
 
-    # pick role tokens (prefer semantic names, fall back to any token)
-    def pick(prefer: list[str]) -> tuple[str, str] | None:
-        for name in prefer:
-            v = sc.get(name) or sc_dark.get(name)
-            if v:
-                hx = _hex_of(v)
-                if hx:
-                    return name, hx
-        # fallback: first color-valued token
-        for name, v in sc.items():
-            hx = _hex_of(v)
-            if hx:
-                return name, hx
-        return None
-
     # fingerprint semantic colors as a bg/text tiebreaker — the card's token
     # vocabulary may be swatch-named (--swatch--accent) with no real bg token.
     # NOTE: Dembrandt's semantic keys are background/text/primary, not bg/text.
@@ -174,12 +182,23 @@ def borrow_theme(slug: str, target: str = ".") -> dict:
                     return graded[-1]  # lightest
                 if len(graded) >= 3:
                     return graded[len(graded) // 2]  # mid
-        # 4. last resort: any color-valued token
+        # 4. role-aware last resort — "first color-valued token" for EVERY role
+        #    once collapsed whole palettes to one value (all-black borrows)
+        parsed = []
         for name, v in sc.items():
-            hx = _hex_of(v)
+            hx = _hex_of(v) if v else None
             if hx:
-                return name, hx
-        return None
+                parsed.append((name, hx))
+        if not parsed:
+            return None
+        if role == "text":
+            return None  # no real text token — derived from bg after picking
+        if role in ("accent", "primary"):
+            return max(parsed, key=lambda kv: _hls_sat(kv[1]))
+        if role == "muted":
+            calm = [kv for kv in parsed if _hls_sat(kv[1]) <= 0.25] or parsed
+            return sorted(calm, key=lambda kv: abs(_lum(kv[1]) - 0.5))[0]
+        return parsed[0]
 
     roles = {}
     for role, prefers in {
@@ -195,9 +214,41 @@ def borrow_theme(slug: str, target: str = ".") -> dict:
 
     if not roles:
         raise ValueError(f"card '{slug}' has no color tokens usable for a theme")
+    if "bg" not in roles:
+        raise ValueError(f"card '{slug}' has no usable background token for a theme "
+                         f"(looked for --bg/--background/--surface-0/--black/--white)")
 
     bg_hex = roles["bg"]["value"]
     notes: list[str] = []
+
+    # integrity pass: text must read on bg and muted must differ from text —
+    # cards without explicit text/muted tokens otherwise collapse the palette
+    light_bg = _lum(bg_hex) >= 0.4
+    tv = (roles.get("text") or {}).get("value")
+    if not tv or tv.lower() == bg_hex.lower() or _contrast(tv, bg_hex) < 3.0:
+        derived = "#ffffff" if not light_bg else "#000000"
+        roles["text"] = {"token": "(derived from bg)", "value": derived}
+        notes.append(f"text derived {derived} on bg {bg_hex} — card has no readable text token")
+    mv = (roles.get("muted") or {}).get("value")
+    text_hex = roles["text"]["value"]
+    if not mv or mv.lower() in (text_hex.lower(), bg_hex.lower()):
+        base = text_hex
+        muted = _darken(base, 0.35) if light_bg else _lighten(base, 0.35)
+        roles["muted"] = {"token": "(derived from text)", "value": muted}
+        notes.append(f"muted derived {muted} from text {base} — card has no distinct muted token")
+    av = ((roles.get("accent") or roles.get("primary")) or {}).get("value")
+    if av and av.lower() in (text_hex.lower(), bg_hex.lower()):
+        # one honest retry: the most saturated token distinct from bg/text
+        cands = [(n, _hex_of(v)) for n, v in {**sc, **sc_dark}.items()
+                 if v and _hex_of(v)
+                 and _hex_of(v).lower() not in (text_hex.lower(), bg_hex.lower())]
+        if cands:
+            best = max(cands, key=lambda kv: _hls_sat(kv[1]))
+            if "accent" in roles:
+                roles["accent"] = {"token": best[0], "value": best[1]}
+            if "primary" in roles:
+                roles["primary"] = {"token": best[0], "value": best[1]}
+            notes.append(f"accent re-picked {best[0]} {best[1]} — first pick matched text/bg")
 
     # contrast-guard: primary/accent/muted must read on bg
     for role in ("primary", "accent", "muted"):
@@ -206,7 +257,10 @@ def borrow_theme(slug: str, target: str = ".") -> dict:
             roles[role]["value"] = guarded
             notes.extend(n)
 
-    # dark theme: if the card has dark tokens, emit them too (guarded on dark bg)
+    # dark theme: if the card has dark tokens, emit them too (guarded on dark bg).
+    # Roles are picked from the DARK vocabulary — requiring a light-vocabulary
+    # hit to also exist in the dark one silently dropped roles (the one-shot
+    # sheet once shipped with dark_roles = {bg} only).
     dark_roles = {}
     if sc_dark:
         dark_bg = None
@@ -216,22 +270,22 @@ def borrow_theme(slug: str, target: str = ".") -> dict:
                 dark_bg = _hex_of(v)
                 break
         dark_roles["bg"] = dark_bg or "#000000"
-        for role in ("primary", "accent", "text", "muted"):
-            for name, prefers in {
-                "primary": ["--blurple", "--brand", "--primary", "--accent"],
-                "accent": ["--spring-green", "--accent", "--green"],
-                "text": ["--text", "--foreground", "--white"],
-                "muted": ["--text-muted", "--muted", "--greyple"],
-            }.items():
-                if role == name:
-                    hit = pick(prefers)
-                    if hit and hit[0] in sc_dark:
-                        v = sc_dark.get(hit[0])
-                        hx = _hex_of(v) if v else None
-                        if hx:
-                            guarded, n = _guard(hx, dark_roles["bg"])
-                            dark_roles[role] = {"token": hit[0], "value": guarded}
-                            notes.extend(n)
+        dark_prefers = {
+            "primary": ["--blurple", "--brand", "--primary", "--accent"],
+            "accent": ["--spring-green", "--accent", "--green"],
+            "text": ["--text", "--foreground", "--white"],
+            "muted": ["--text-muted", "--muted", "--greyple"],
+        }
+        for role, prefers in dark_prefers.items():
+            for name in prefers:
+                v = sc_dark.get(name)
+                if not v:
+                    continue
+                hx = _hex_of(v)
+                if hx:
+                    guarded, n = _guard(hx, dark_roles["bg"])
+                    dark_roles[role] = {"token": name, "value": guarded}
+                    notes.extend(n)
                     break
 
     # remap table vs current fingerprint

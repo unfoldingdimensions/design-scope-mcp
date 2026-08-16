@@ -190,7 +190,16 @@ def interaction_probe(page, card_dir: Path, url: str) -> dict:
             try:
                 before = json.loads(scroll_before)
                 after = json.loads(scroll_after)
-                for b, a in zip(before, after):
+                # match by selector — element sets can change between scroll
+                # positions (sticky headers appear/hide), and index-paired
+                # zip would diff element i against a different element i
+                after_by_sel = {}
+                for a in after:
+                    after_by_sel.setdefault(a["sel"], a)
+                for b in before:
+                    a = after_by_sel.get(b["sel"])
+                    if not a:
+                        continue
                     # position props always change on scroll — not triggers; skip them
                     diffs = {k: f"{b.get(k)} → {a.get(k)}" for k in b
                              if b.get(k) != a.get(k) and k not in ("top", "left", "right", "bottom")}
@@ -328,7 +337,7 @@ def behavior_pass(card_dir: Path, url: str, browser) -> dict:
         page = ctx.new_page()
         page.set_default_timeout(NAV_TIMEOUT_MS)
         resp = page.goto(url, wait_until="load", timeout=NAV_TIMEOUT_MS)
-        status = resp.status if resp else "?"
+        status = resp.status if resp else 0
         if status and status >= 400:
             raise RuntimeError(f"HTTP {status}")
         page.wait_for_timeout(2000)

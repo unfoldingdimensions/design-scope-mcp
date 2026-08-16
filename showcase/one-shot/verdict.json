@@ -1,7 +1,7 @@
 {
   "file": "E:\\New-Personal-Projects\\Ui Design MCP\\showcase\\one-shot\\index.html",
-  "label": "R8 scan insight",
-  "date": "2026-08-13T18:28:08+00:00",
+  "label": "R11 production audit — anchors, palette gate, nav",
+  "date": "2026-08-16T08:34:12+00:00",
   "checks": [
     {
       "group": "STRUCTURE",
@@ -14,13 +14,13 @@
         "types": [
           "nav",
           "hero",
-          "how-it-works",
           "product-showcase",
-          "features-grid",
-          "feature-spotlight",
-          "ledger",
-          "cta-banner",
           "pricing",
+          "features-grid",
+          "testimonials",
+          "cta-banner",
+          "feature-spotlight",
+          "faq",
           "footer"
         ]
       }
@@ -29,10 +29,10 @@
       "group": "STRUCTURE",
       "name": "Mechanism budget",
       "status": "PASS",
-      "detail": "6 of 6 declared mechanisms armed",
+      "detail": "7 of 7 declared mechanisms armed",
       "evidence": {
-        "armed": 6,
-        "declared": 6,
+        "armed": 7,
+        "declared": 7,
         "unarmed": []
       }
     },
@@ -40,11 +40,11 @@
       "group": "PALETTE",
       "name": "Palette conformance",
       "status": "PASS",
-      "detail": "22 inks · 0 off-palette · 5 distinct token colors",
+      "detail": "28 inks · 0 off-palette · 6 distinct token colors",
       "evidence": {
-        "inks": 22,
+        "inks": 28,
         "off_palette": [],
-        "tokens": 5,
+        "tokens": 6,
         "mode": "strict"
       }
     },
@@ -63,9 +63,9 @@
       "group": "MOTION",
       "name": "Reduced motion",
       "status": "PASS",
-      "detail": "14 animated elements · 1 MQ guard rules · 0 unguarded",
+      "detail": "8 animated elements · 1 MQ guard rules · 0 unguarded",
       "evidence": {
-        "animated": 14,
+        "animated": 8,
         "mq_rules": [
           "*, ::before, ::after"
         ],

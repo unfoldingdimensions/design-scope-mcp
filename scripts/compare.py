@@ -1,7 +1,6 @@
+#!/usr/bin/env python3
 # MIRRORED from the design-scope skill (scripts/compare.py / theme.py).
 # Canonical home: <skill>/scripts/ — update both copies together.
-
-#!/usr/bin/env python3
 """design-scope compare — reference card fingerprint vs project fingerprint.
 
 Answers "what would this reference actually give us?" — concrete borrow
@@ -19,8 +18,19 @@ import os
 import sys
 from pathlib import Path
 
-GLOBAL_LIBRARY = Path(os.environ.get("DESIGN_SCOPE_LIBRARY",
-                                     r"E:\New-Personal-Projects\Ui Design MCP\library"))
+# Global library: DESIGN_SCOPE_LIBRARY env var, else the repo library relative
+# to this file (the copy that ships in the repo lives in scripts/), else the
+# canonical dev-machine location (the skill-dir copy has no library sibling).
+def _default_library() -> Path:
+    candidates = [Path(__file__).resolve().parent.parent / "library",
+                  Path(r"E:\New-Personal-Projects\Ui Design MCP\library")]
+    for c in candidates:
+        if (c / "index.json").exists():
+            return c
+    return candidates[0]
+
+
+GLOBAL_LIBRARY = Path(os.environ.get("DESIGN_SCOPE_LIBRARY", str(_default_library()))).resolve()
 
 
 def load_fp(path: Path) -> dict:

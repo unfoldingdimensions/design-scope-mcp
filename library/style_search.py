@@ -75,8 +75,10 @@ def parse_query(q: str) -> tuple[list[str], list[str]]:
     """Returns (include-terms, exclude-terms)."""
     q = q.lower()
     include, exclude = [], []
-    # split on exclusion markers
-    parts = re.split(r"\b(?:but\s+not|avoid|excluding|no|without)\b", q)
+    # split on exclusion markers — "no" only when it stands alone as a word:
+    # \bno\b also matched the "no" inside "no-code", turning the rest of the
+    # phrase into exclusions and leaving no include terms at all
+    parts = re.split(r"\b(?:but\s+not|avoid|excluding|no(?=\s|$)|without)\b", q)
     include_raw = parts[0]
     for extra in parts[1:]:
         exclude.extend(extra.split())
@@ -194,7 +196,7 @@ def search(index: dict, query: str, top_n: int = 8) -> list[tuple[int, str, dict
             continue
         scored.append((s, slug, card))
     scored.sort(key=lambda x: (-x[0], x[1]))  # slug tie-break keeps it stable
-    return scored[:top_n] if top_n else scored
+    return scored[:top_n] if top_n > 0 else scored
 
 
 def main():

@@ -59,11 +59,19 @@ def load_key() -> str:
         env_path = Path(os.environ["HERMES_ENV"]) if os.environ.get("HERMES_ENV") else None
         if env_path and env_path.exists():
             m = re.search(r"NVIDIA_API_KEY=(\S+)", env_path.read_text(encoding="utf-8"))
-            key = m.group(1) if m else ""
+            key = m.group(1).strip().strip('"').strip("'") if m else ""
     if not key:
         raise SystemExit("NVIDIA_API_KEY not found — set it in the environment "
                          "(or HERMES_ENV pointing at a .env file)")
     return key
+
+
+def _read_json(path: Path) -> dict:
+    """Read JSON tolerantly — a corrupt card file must not kill annotation."""
+    try:
+        return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    except (json.JSONDecodeError, OSError):
+        return {}
 
 
 def crop_screenshot(card_dir: Path) -> Image.Image | None:
@@ -83,8 +91,7 @@ def crop_screenshot(card_dir: Path) -> Image.Image | None:
 def fingerprint_summary(card_dir: Path) -> str:
     """Compact text evidence from fingerprint + semantic + behaviors."""
     parts = []
-    fp = json.loads((card_dir / "fingerprint.json").read_text(encoding="utf-8")) \
-        if (card_dir / "fingerprint.json").exists() else {}
+    fp = _read_json(card_dir / "fingerprint.json")
     c = (fp.get("colors") or {}).get("semantic", {}) or {}
     if c:
         parts.append("colors: " + ", ".join(f"{k} {v}" for k, v in list(c.items())[:6]))
@@ -100,8 +107,7 @@ def fingerprint_summary(card_dir: Path) -> str:
         dom = max(radii, key=lambda r: r.get("count", 0))
         parts.append(f"dominant radius: {dom.get('value')}")
 
-    sem = json.loads((card_dir / "semantic.json").read_text(encoding="utf-8")) \
-        if (card_dir / "semantic.json").exists() else {}
+    sem = _read_json(card_dir / "semantic.json")
     di = sem.get("design_intent", {})
     if di.get("vibe"):
         parts.append("measured vibe: " + ", ".join(di["vibe"]))
@@ -110,8 +116,7 @@ def fingerprint_summary(card_dir: Path) -> str:
     if di.get("flat") is not None:
         parts.append("flat: " + ("yes" if di["flat"] else "no"))
 
-    beh = json.loads((card_dir / "motion" / "behaviors.json").read_text(encoding="utf-8")) \
-        if (card_dir / "motion" / "behaviors.json").exists() else {}
+    beh = _read_json(card_dir / "motion" / "behaviors.json")
     if beh.get("interaction_model"):
         parts.append(f"interaction model: {beh['interaction_model']}")
 
@@ -180,16 +185,14 @@ def validate(data: dict) -> bool:
 
 def fallback_annotation(card_dir: Path) -> dict:
     """Honest text-only annotation from measured data (vision unavailable)."""
-    sem = json.loads((card_dir / "semantic.json").read_text(encoding="utf-8")) \
-        if (card_dir / "semantic.json").exists() else {}
+    sem = _read_json(card_dir / "semantic.json")
     di = sem.get("design_intent", {})
     keywords = [str(k).lower() for k in (di.get("vibe") or [])]
     keywords += [str(k).lower() for k in (di.get("type_mood") or [])]
     keywords += [str(k).lower() for k in (di.get("corner_style") or [])] \
         if isinstance(di.get("corner_style"), list) else []
     keywords = list(dict.fromkeys([k for k in keywords if k])) or ["unannotated"]
-    fp = json.loads((card_dir / "fingerprint.json").read_text(encoding="utf-8")) \
-        if (card_dir / "fingerprint.json").exists() else {}
+    fp = _read_json(card_dir / "fingerprint.json")
     fonts = [f for f in sorted({s.get("family") for s in ((fp.get("typography") or {}).get("styles") or [])
                                 if s.get("family")})][:2]
     return {
@@ -204,13 +207,19 @@ def fallback_annotation(card_dir: Path) -> dict:
     }
 
 
-def annotate_card(key: str, card_dir: Path, sleep_s: float) -> dict:
+def annotate_card(key: str, card_dir: Path) -> dict:
     """Annotate one card. Returns the annotation dict (vision or fallback)."""
     img = crop_screenshot(card_dir)
+    if img is None:
+        # no screenshot → a text-only vision call can only fabricate; annotate
+        # honestly from measured data instead
+        ann = fallback_annotation(card_dir)
+        ann["vision"]["note"] = "no screenshot on disk — annotated from measured data only"
+        return ann
     summary = fingerprint_summary(card_dir)
     prompt = build_prompt(summary)
     last_err = None
-    for attempt, backoff in enumerate((2, 4, 8)):
+    for attempt in range(3):
         try:
             data = call_nvidia(key, prompt, img)
             if not validate(data):
@@ -219,8 +228,10 @@ def annotate_card(key: str, card_dir: Path, sleep_s: float) -> dict:
             return data
         except Exception as e:  # noqa: BLE001
             last_err = str(e)[:200]
+            if str(e).startswith("HTTP 4"):  # 401/400/etc — retrying won't help
+                break
             if attempt < 2:
-                time.sleep(backoff)
+                time.sleep((2, 4)[attempt])
     # vision failed — honest fallback (never fabricate)
     ann = fallback_annotation(card_dir)
     ann["vision"]["note"] = f"{ann['vision']['note']}; {last_err}"
@@ -256,7 +267,7 @@ def main():
         print(f"[{i}/{len(slugs)}] {slug} …", flush=True)
         t0 = time.time()
         try:
-            ann = annotate_card(key, card_dir, args.sleep)
+            ann = annotate_card(key, card_dir)
             ann["slug"] = slug
             ann["annotated_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
             ann["model"] = MODEL

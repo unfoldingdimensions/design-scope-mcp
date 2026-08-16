@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-12T18:02:52+00:00",
+  "generated": "2026-08-16T08:10:24+00:00",
   "version": 2,
   "cards": {
     "adyen": {
@@ -54,12 +54,10 @@
         "responsive",
         "typographic"
       ],
-      "archetypes": [
-        "minimalist"
-      ],
+      "archetypes": [],
       "vector": {
-        "hue_family": "neutral",
-        "saturation": "muted",
+        "hue_family": "blue",
+        "saturation": "vibrant",
         "brightness": "light",
         "corners": "soft",
         "flatness": "flat",
@@ -2341,7 +2339,7 @@
       "archetypes": [],
       "vector": {
         "hue_family": "red",
-        "saturation": "soft",
+        "saturation": "muted",
         "brightness": "dark",
         "corners": "soft",
         "flatness": "elevated",
@@ -2944,8 +2942,8 @@
         "glassmorphic"
       ],
       "vector": {
-        "hue_family": "neutral",
-        "saturation": "muted",
+        "hue_family": "blue",
+        "saturation": "soft",
         "brightness": "light",
         "corners": "generous",
         "flatness": "flat",
@@ -3314,12 +3312,10 @@
         "typographic",
         "typography"
       ],
-      "archetypes": [
-        "funky"
-      ],
+      "archetypes": [],
       "vector": {
         "hue_family": "multicolor",
-        "saturation": "vibrant",
+        "saturation": "soft",
         "brightness": "light",
         "corners": "soft",
         "flatness": "elevated",
@@ -4123,7 +4119,7 @@
       "archetypes": [],
       "vector": {
         "hue_family": "blue",
-        "saturation": "vibrant",
+        "saturation": "soft",
         "brightness": "light",
         "corners": "soft",
         "flatness": "elevated",
@@ -4722,7 +4718,7 @@
       ],
       "vector": {
         "hue_family": "red",
-        "saturation": "soft",
+        "saturation": "muted",
         "brightness": "light",
         "corners": "generous",
         "flatness": "elevated",
@@ -5956,7 +5952,7 @@
       "archetypes": [],
       "vector": {
         "hue_family": "cyan",
-        "saturation": "vibrant",
+        "saturation": "soft",
         "brightness": "light",
         "corners": "soft",
         "flatness": "elevated",
@@ -6113,11 +6109,11 @@
         "white-space"
       ],
       "archetypes": [
-        "funky"
+        "warm-minimal"
       ],
       "vector": {
         "hue_family": "yellow",
-        "saturation": "vibrant",
+        "saturation": "soft",
         "brightness": "light",
         "corners": "soft",
         "flatness": "flat",
@@ -6803,7 +6799,7 @@
       "archetypes": [],
       "vector": {
         "hue_family": "blue",
-        "saturation": "vibrant",
+        "saturation": "soft",
         "brightness": "light",
         "corners": "generous",
         "flatness": "flat",
@@ -7289,11 +7285,11 @@
         "white space"
       ],
       "archetypes": [
-        "funky"
+        "warm-minimal"
       ],
       "vector": {
         "hue_family": "yellow",
-        "saturation": "vibrant",
+        "saturation": "soft",
         "brightness": "light",
         "corners": "soft",
         "flatness": "flat",
@@ -7778,6 +7774,52 @@
         "personality": "clean minimalistic"
       }
     },
+    "lama-lama-branding": {
+      "slug": "lama-lama-branding",
+      "url": "https://lamalama.com/services/branding/",
+      "palette": [
+        {
+          "name": "c0",
+          "hex": "#010101"
+        },
+        {
+          "name": "c1",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "c2",
+          "hex": "#000000"
+        },
+        {
+          "name": "c3",
+          "hex": "#101010"
+        }
+      ],
+      "why": "Warm-minimal branding studio page that pairs a cream canvas (#f9f4eb) with near-black #010101 type and pure-white invert surfaces. Typography is compressed and huge — SuisseBPIntl 700 uppercase at 106px with line-height 0.80 and negative tracking, bracketed mono eyebrows (\"[ NOT JUST SEEN. FELT. ]\"), Sometype mono micro-labels everywhere. Everything is tweened by JS: Lenis smooth scroll inside a c",
+      "tags": [
+        "clean",
+        "minimal",
+        "mono",
+        "warm"
+      ],
+      "archetypes": [
+        "minimalist"
+      ],
+      "vector": {
+        "hue_family": "neutral",
+        "saturation": "muted",
+        "brightness": "light",
+        "corners": "soft",
+        "flatness": "flat",
+        "type_mood": "neutral-sans"
+      },
+      "paths": {
+        "semantic": "cards/lama-lama-branding/semantic.json",
+        "fingerprint": "cards/lama-lama-branding/fingerprint.json",
+        "screenshot": "cards/lama-lama-branding/screenshot-desktop.png"
+      },
+      "annotated": false
+    },
     "lattice": {
       "slug": "lattice",
       "url": "https://www.lattice.com",
@@ -8000,7 +8042,7 @@
       "archetypes": [],
       "vector": {
         "hue_family": "blue",
-        "saturation": "vibrant",
+        "saturation": "soft",
         "brightness": "dark",
         "corners": "soft",
         "flatness": "flat",
@@ -8180,7 +8222,7 @@
       "archetypes": [],
       "vector": {
         "hue_family": "blue",
-        "saturation": "vibrant",
+        "saturation": "muted",
         "brightness": "light",
         "corners": "soft",
         "flatness": "flat",
@@ -8272,7 +8314,7 @@
       ],
       "vector": {
         "hue_family": "blue",
-        "saturation": "soft",
+        "saturation": "vibrant",
         "brightness": "light",
         "corners": "generous",
         "flatness": "flat",
@@ -9233,12 +9275,11 @@
         "white space"
       ],
       "archetypes": [
-        "funky",
         "glassmorphic"
       ],
       "vector": {
         "hue_family": "multicolor",
-        "saturation": "vibrant",
+        "saturation": "soft",
         "brightness": "light",
         "corners": "generous",
         "flatness": "elevated",
@@ -9663,13 +9704,10 @@
         "sans-serif",
         "structured"
       ],
-      "archetypes": [
-        "dark-minimal",
-        "minimalist"
-      ],
+      "archetypes": [],
       "vector": {
-        "hue_family": "neutral",
-        "saturation": "muted",
+        "hue_family": "blue",
+        "saturation": "soft",
         "brightness": "dark",
         "corners": "rounded",
         "flatness": "flat",
@@ -11526,7 +11564,7 @@
       ],
       "vector": {
         "hue_family": "blue",
-        "saturation": "vibrant",
+        "saturation": "soft",
         "brightness": "light",
         "corners": "generous",
         "flatness": "elevated",
@@ -11981,18 +12019,50 @@
     "produx-design": {
       "slug": "produx-design",
       "url": "https://www.produx.design",
-      "palette": [],
-      "why": "",
+      "palette": [
+        {
+          "name": "c0",
+          "hex": "#f2f2f2"
+        },
+        {
+          "name": "c1",
+          "hex": "#000000"
+        },
+        {
+          "name": "c2",
+          "hex": "#a9a9a9"
+        },
+        {
+          "name": "c3",
+          "hex": "#303539"
+        },
+        {
+          "name": "c4",
+          "hex": "#545e54"
+        },
+        {
+          "name": "c5",
+          "hex": "#101010"
+        }
+      ],
+      "why": "Dark \"brutalist-lite\" agency site where typography IS the imagery. No photos in the hero — just a 151px At Aero wordmark, a split-word masked headline (\"You feel the brand before it speaks®\"), and a `[SCROLL DOWN]` mono hint. The page alternates near-black (#0e0e0e) full-bleed sections with solid sage blocks (#545e54 \"Hoki\") — color blocks as section transitions, not gradients or images.",
       "tags": [
-        "clean"
+        "brutalist",
+        "clean",
+        "dark",
+        "gradient",
+        "hero",
+        "mono"
       ],
       "archetypes": [
-        "brutalist"
+        "brutalist",
+        "dark-minimal",
+        "premium"
       ],
       "vector": {
         "hue_family": "neutral",
         "saturation": "muted",
-        "brightness": "unknown",
+        "brightness": "dark",
         "corners": "sharp",
         "flatness": "flat",
         "type_mood": "serif-led"
@@ -12124,7 +12194,7 @@
         "funky"
       ],
       "vector": {
-        "hue_family": "orange",
+        "hue_family": "multicolor",
         "saturation": "vibrant",
         "brightness": "light",
         "corners": "soft",
@@ -12491,7 +12561,7 @@
       ],
       "vector": {
         "hue_family": "blue",
-        "saturation": "vibrant",
+        "saturation": "soft",
         "brightness": "light",
         "corners": "rounded",
         "flatness": "elevated",
@@ -13795,7 +13865,7 @@
       ],
       "vector": {
         "hue_family": "blue",
-        "saturation": "soft",
+        "saturation": "muted",
         "brightness": "dark",
         "corners": "soft",
         "flatness": "flat",
@@ -14393,12 +14463,10 @@
         "typography",
         "whitespace"
       ],
-      "archetypes": [
-        "funky"
-      ],
+      "archetypes": [],
       "vector": {
         "hue_family": "green",
-        "saturation": "vibrant",
+        "saturation": "soft",
         "brightness": "light",
         "corners": "soft",
         "flatness": "flat",
@@ -15393,11 +15461,12 @@
         "whitespace"
       ],
       "archetypes": [
-        "editorial"
+        "funky",
+        "retro"
       ],
       "vector": {
-        "hue_family": "blue",
-        "saturation": "soft",
+        "hue_family": "red",
+        "saturation": "vibrant",
         "brightness": "light",
         "corners": "generous",
         "flatness": "flat",
@@ -15574,11 +15643,10 @@
       ],
       "archetypes": [
         "funky",
-        "glassmorphic",
-        "retro"
+        "glassmorphic"
       ],
       "vector": {
-        "hue_family": "orange",
+        "hue_family": "multicolor",
         "saturation": "vibrant",
         "brightness": "light",
         "corners": "generous",
@@ -16272,7 +16340,7 @@
       "archetypes": [],
       "vector": {
         "hue_family": "blue",
-        "saturation": "vibrant",
+        "saturation": "soft",
         "brightness": "light",
         "corners": "rounded",
         "flatness": "elevated",
@@ -16451,10 +16519,11 @@
         "white"
       ],
       "archetypes": [
-        "brutalist"
+        "brutalist",
+        "warm-minimal"
       ],
       "vector": {
-        "hue_family": "neutral",
+        "hue_family": "red",
         "saturation": "muted",
         "brightness": "light",
         "corners": "sharp",
@@ -16486,6 +16555,60 @@
         "mood": "neutral, calm",
         "personality": "modern understated"
       }
+    },
+    "united-carriers": {
+      "slug": "united-carriers",
+      "url": "https://unitedcarriers.com",
+      "palette": [
+        {
+          "name": "c0",
+          "hex": "#111111"
+        },
+        {
+          "name": "c1",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "c2",
+          "hex": "#373737"
+        },
+        {
+          "name": "c3",
+          "hex": "#0016cb"
+        },
+        {
+          "name": "c4",
+          "hex": "#101010"
+        },
+        {
+          "name": "c5",
+          "hex": "#808080"
+        }
+      ],
+      "why": "Industrial B2B logistics site that proves \"corporate\" doesn't mean boring. Dark dot-matrix world map hero (animated dots via `world-wide-dot` keyframes, blue glow) over a white body — a data-viz global-reach statement instead of a stock photo. Type is the brand: BT Steinhart 700 uppercase at up to 177px, with 12px BT Steinhart Mono micro-labels for nav (\"TALK WITH US\", \"OUR SERVICES\"). Primary acc",
+      "tags": [
+        "clean",
+        "dark",
+        "hero",
+        "mono"
+      ],
+      "archetypes": [
+        "glassmorphic"
+      ],
+      "vector": {
+        "hue_family": "blue",
+        "saturation": "muted",
+        "brightness": "light",
+        "corners": "generous",
+        "flatness": "flat",
+        "type_mood": "mono-accent"
+      },
+      "paths": {
+        "semantic": "cards/united-carriers/semantic.json",
+        "fingerprint": "cards/united-carriers/fingerprint.json",
+        "screenshot": "cards/united-carriers/screenshot-desktop.png"
+      },
+      "annotated": false
     },
     "usemotion": {
       "slug": "usemotion",
@@ -16702,10 +16825,12 @@
         "syntax highlighting",
         "syntax-highlighting"
       ],
-      "archetypes": [],
+      "archetypes": [
+        "premium"
+      ],
       "vector": {
         "hue_family": "blue",
-        "saturation": "vibrant",
+        "saturation": "soft",
         "brightness": "dark",
         "corners": "soft",
         "flatness": "flat",

@@ -90,8 +90,8 @@ def compute(library: Path) -> dict:
             "dark_themed": dark_themed,
             "style_indexed": style_indexed,
             "index_stats": index_stats,
-            "bands_scanned": _band_stat("scanned"),
-            "bands_measured": _band_stat("bands"),
+            "bands_scanned": _band_stat("scanned", library),
+            "bands_measured": _band_stat("bands", library),
         },
         "styles": {
             "top_archetypes": top_archetypes,
@@ -122,9 +122,11 @@ def _annotated_why(card_dir: Path) -> bool:
     return "annotation pending" not in md.read_text(encoding="utf-8", errors="ignore")
 
 
-def _band_stat(key: str):
-    """Band-index stats (section_scan.py) — 0 until the corpus is scanned."""
-    idx = LIBRARY / "band-index.json"
+def _band_stat(key: str, library: Path):
+    """Band-index stats (section_scan.py) — 0 until the corpus is scanned.
+    Uses the passed library, not the module global — fixture-based calls must
+    not report the real repo's band counts."""
+    idx = library / "band-index.json"
     if not idx.exists():
         return 0
     try:

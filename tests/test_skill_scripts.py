@@ -97,4 +97,63 @@ def test_imports_are_stdlib_only():
             elif isinstance(node, ast.ImportFrom) and node.module:
                 imports.add(node.module.split(".")[0])
         assert imports <= {"argparse", "json", "os", "sys", "pathlib", "re",
-                           "datetime"}, f"{name} imports non-stdlib: {imports}"
+                           "datetime", "colorsys"}, f"{name} imports non-stdlib: {imports}"
+
+
+def test_theme_hex_of_parses_all_token_forms():
+    """Regression: 8-digit hex (#000000e6) from real token dumps used to fall
+    through to the 'any token' fallback and collapse whole palettes."""
+    sys.path.insert(0, str(REPO_SCRIPTS))
+    import theme
+
+    assert theme._hex_of("#fff") == "#ffffff"
+    assert theme._hex_of("#FDFDFD") == "#fdfdfd"
+    assert theme._hex_of("#000000e6") == "#000000"  # alpha stripped
+    assert theme._hex_of("rgb(1, 2, 3)") == "#010203"
+    assert theme._hex_of("var(--x)") is None
+    assert theme._hex_of("") is None
+
+
+def test_theme_library_default_is_portable():
+    """The default must resolve to a real library on any checkout (regression:
+    both scripts hardcoded E:\\...\\library and broke every other machine)."""
+    sys.path.insert(0, str(REPO_SCRIPTS))
+    import compare
+    import theme
+
+    for mod in (compare, theme):
+        assert (mod.GLOBAL_LIBRARY / "index.json").exists(), \
+            f"{mod.__name__}: library default resolves to nothing: {mod.GLOBAL_LIBRARY}"
+    assert theme._default_library() == (REPO_SCRIPTS.parent / "library").resolve() or \
+           "DESIGN_SCOPE_LIBRARY" in os.environ
+
+
+def test_theme_dark_roles_not_dropped():
+    """Regression: dark roles were skipped unless the light vocabulary's token
+    also existed in the dark one — cards shipped with dark_roles = {bg}."""
+    sys.path.insert(0, str(REPO_SCRIPTS))
+    import theme
+
+    # a card whose dark vocabulary uses different token names than light
+    sem = {
+        "semantic_colors": {
+            "light": {"--bg": "#fdfdfd", "--text": "#16181d", "--primary": "#1e5eff"},
+            "dark": {"--bg": "#0f1015", "--foreground": "#e7e9ed", "--brand": "#6e9bff"},
+        }
+    }
+    import json as _json
+    import tempfile
+    with tempfile.TemporaryDirectory() as td:
+        card = Path(td) / "cards" / "fixture"
+        card.mkdir(parents=True)
+        (card / "semantic.json").write_text(_json.dumps(sem), encoding="utf-8")
+        old = theme.GLOBAL_LIBRARY
+        theme.GLOBAL_LIBRARY = Path(td)
+        try:
+            out = theme.borrow_theme("fixture", td)
+            dr = out["dark_roles"]
+            assert "bg" in dr and "text" in dr and "primary" in dr, f"dark roles dropped: {dr}"
+            assert dr["text"]["value"] == "#e7e9ed"
+            assert dr["primary"]["value"] == "#6e9bff"
+        finally:
+            theme.GLOBAL_LIBRARY = old

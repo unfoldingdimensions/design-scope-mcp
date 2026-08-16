@@ -7,6 +7,9 @@ library/cards/*/motion/video/
 library/cards/*/tmp/
 # gallery is generated from index.json — rebuild with `python library/gallery.py`
 library/gallery.html
+# backfill/regenerate run reports — recreated on every run, not tracked
+library/backfill-report.json
+library/regenerate-report.json
 __pycache__/
 *.pyc
 # local development artifacts — not part of the public repo
@@ -14,3 +17,5 @@ __pycache__/
 /IDEA.md
 /research/
 /deploy-readiness-report.md
+# zcode agent session artifacts
+/.zcode/

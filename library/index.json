@@ -4759,10 +4759,82 @@
         ],
         "components": 4
       }
+    },
+    "produx-design": {
+      "id": "produx-design",
+      "name": "Produx Design",
+      "url": "https://www.produx.design",
+      "category": "agency",
+      "why": "Dark \"brutalist-lite\" agency site where typography IS the imagery. No photos in the hero — just a 151px At Aero wordmark, a split-word masked headline (\"You feel the brand before it speaks®\"), and a `[SCROLL DOWN]` mono hint. The page alternates near-black (#0e0e0e) full-bleed sections with solid...",
+      "slug": "produx-design",
+      "captured_at": "2026-08-12T18:01:09+00:00",
+      "files": {
+        "card": "cards/produx-design/card.md",
+        "desktop": "cards/produx-design/screenshot-desktop.png",
+        "mobile": "cards/produx-design/screenshot-mobile.png",
+        "fingerprint": "cards/produx-design/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 6,
+        "fonts": [
+          "-apple-system",
+          "At Aero",
+          "At Aero Medium",
+          "At Aero Regular"
+        ],
+        "components": 4
+      }
+    },
+    "united-carriers": {
+      "id": "united-carriers",
+      "name": "United Carriers",
+      "url": "https://unitedcarriers.com",
+      "category": "logistics",
+      "why": "Industrial B2B logistics site that proves \"corporate\" doesn't mean boring. Dark dot-matrix world map hero (animated dots via `world-wide-dot` keyframes, blue glow) over a white body — a data-viz global-reach statement instead of a stock photo. Type is the brand: BT Steinhart 700 uppercase at up t...",
+      "slug": "united-carriers",
+      "captured_at": "2026-08-12T18:04:29+00:00",
+      "files": {
+        "card": "cards/united-carriers/card.md",
+        "desktop": "cards/united-carriers/screenshot-desktop.png",
+        "mobile": "cards/united-carriers/screenshot-mobile.png",
+        "fingerprint": "cards/united-carriers/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 6,
+        "fonts": [
+          "BT Steinhart",
+          "BT Steinhart Mono",
+          "Helvetica Neue"
+        ],
+        "components": 4
+      }
+    },
+    "lama-lama-branding": {
+      "id": "lama-lama-branding",
+      "name": "Lama Lama Branding",
+      "url": "https://lamalama.com/services/branding/",
+      "category": "agency",
+      "why": "Warm-minimal branding studio page that pairs a cream canvas (#f9f4eb) with near-black #010101 type and pure-white invert surfaces. Typography is compressed and huge — SuisseBPIntl 700 uppercase at 106px with line-height 0.80 and negative tracking, bracketed mono eyebrows (\"[ NOT JUST SEEN. FELT. ...",
+      "slug": "lama-lama-branding",
+      "captured_at": "2026-08-12T18:09:04+00:00",
+      "files": {
+        "card": "cards/lama-lama-branding/card.md",
+        "desktop": "cards/lama-lama-branding/screenshot-desktop.png",
+        "mobile": null,
+        "fingerprint": "cards/lama-lama-branding/fingerprint.json"
+      },
+      "fingerprint_summary": {
+        "colors": 4,
+        "fonts": [
+          "Sometype",
+          "SuisseBPIntl"
+        ],
+        "components": 4
+      }
     }
   },
   "stats": {
     "last_run": "2026-08-12T18:02:52+00:00",
-    "total": 201
+    "total": 204
   }
 }

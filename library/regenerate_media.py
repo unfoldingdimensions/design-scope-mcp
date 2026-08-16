@@ -14,7 +14,7 @@ Usage:
   python regenerate_media.py --fast         # skip motion+behavior (~60s/card)
 
 Timing: full pass ≈ 4-6 min/card (motion+behavior+semantic); --fast ≈
-60s/card. 201 cards full ≈ 14-20h background; --fast ≈ 3-4h.
+60s/card. 204 cards full ≈ 14-20h background; --fast ≈ 3-4h.
 """
 import argparse
 import json
@@ -94,6 +94,7 @@ def main():
                         # keep the index entry in sync with what was captured
                         index["cards"][slug] = build_index_entry(site, slug, res)
                         index.setdefault("stats", {})["last_run"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+                        index.setdefault("stats", {})["total"] = len(index["cards"])
                         save_index(index)
                         print(f"      ✓ ok in {res['seconds']}s — {list(res.get('screenshots', {}).keys())}")
                     else:

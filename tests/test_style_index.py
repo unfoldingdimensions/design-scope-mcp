@@ -23,7 +23,11 @@ def test_hex_to_hsl():
     check("hex form", style_index._hex_to_hsl("#ff0000") == (0.0, 1.0, 0.5))
     check("rgb form", style_index._hex_to_hsl("rgb(255, 0, 0)") == (0.0, 1.0, 0.5))
     check("garbage → None", style_index._hex_to_hsl("var(--x)") is None)
-    check("short hex → None", style_index._hex_to_hsl("#fff") is None)
+    # producer contract: semantic_pass._hex emits 3- and 8-digit forms — the
+    # consumer must parse them or those colors drop out of the vectors
+    check("short hex parses", style_index._hex_to_hsl("#fff") == (0.0, 0.0, 1.0))
+    check("8-digit hex parses (alpha stripped)",
+          style_index._hex_to_hsl("#ff0000e6") == (0.0, 1.0, 0.5))
 
 
 def test_hue_family_boundaries():

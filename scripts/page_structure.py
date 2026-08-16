@@ -158,7 +158,7 @@ def plan(brief: str, direction: str = "") -> dict:
 
 def _direction_vote(direction: str) -> dict:
     """Corpus vote for a direction: top archetype tags matching the words."""
-    si = ROOT / "library" / "style-index.json"
+    si = LIBRARY / "style-index.json"  # env-aware, not a hardcoded sibling
     if not si.exists():
         return {"note": "style-index.json not found — vote skipped"}
     data = json.loads(si.read_text(encoding="utf-8"))

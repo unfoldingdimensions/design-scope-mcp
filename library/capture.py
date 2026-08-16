@@ -78,11 +78,23 @@ def load_index() -> dict:
 
 
 def save_index(index: dict):
-    INDEX.write_text(json.dumps(index, indent=2, ensure_ascii=False), encoding="utf-8")
+    # temp + rename — a reader (any MCP tool) must never see a truncated index
+    tmp = INDEX.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps(index, indent=2, ensure_ascii=False), encoding="utf-8")
+    os.replace(tmp, INDEX)
+
+
+# cmd.exe metacharacters: on Windows the npx.cmd invocation goes through
+# cmd.exe, where list-form subprocess escaping does NOT hold for these —
+# a URL containing them can execute arbitrary local commands (BatBadBut).
+_URL_FORBIDDEN = set('"&|^%<>') | {"\n", "\r", "\t"}
 
 
 def safe_url(url: str) -> str:
-    return url if url.startswith("http") else f"https://{url}"
+    bad = sorted(set(url) & _URL_FORBIDDEN)
+    if bad:
+        raise ValueError(f"url contains forbidden characters: {' '.join(bad)}")
+    return url if url.startswith(("http://", "https://")) else f"https://{url}"
 
 
 def full_page_screenshot(page, out_path: Path, wait_s: float = SCREENSHOT_WAIT_S):
@@ -250,7 +262,7 @@ def motion_pass(card_dir: Path, url: str, browser, timeout_s: int = 120) -> dict
         page = ctx.new_page()
         page.set_default_timeout(NAV_TIMEOUT_MS)
         resp = page.goto(url, wait_until="load", timeout=NAV_TIMEOUT_MS)
-        status = resp.status if resp else "?"
+        status = resp.status if resp else 0
         if status and status >= 400:
             raise RuntimeError(f"HTTP {status}")
         page.wait_for_timeout(2000)  # entrance animations play
@@ -296,59 +308,60 @@ def capture_one(site: dict, slug: str, card_dir: Path, browser, opts) -> dict:
             **({} if fast else {"record_video_dir": str(video_dir),
                                 "record_video_size": {"width": 1280, "height": 800}}))
         page = ctx.new_page()
-        page.set_default_timeout(NAV_TIMEOUT_MS)
-        resp = page.goto(url, wait_until="load", timeout=NAV_TIMEOUT_MS)
-        status = resp.status if resp else "?"
-        if status and status >= 400:
-            raise RuntimeError(f"HTTP {status}")
-        page.wait_for_timeout(2000)  # let client JS settle
-
-        # 1. semantic — read-only; a failure must not skip the rest (per-core
-        #    failure isolation: each step below is individually guarded)
         try:
-            from semantic_pass import semantic_probe
-            semantic = semantic_probe(page, card_dir, url)
-            result["semantic"] = semantic
-            if semantic.get("ok"):
-                print(f"      semantic: tokens={semantic.get('named_tokens')} "
-                      f"z={semantic.get('z_index')} responsive={semantic.get('responsive_rules')}")
-            elif semantic.get("error"):
-                print(f"      semantic: skipped ({semantic['error'][:80]})")
-        except Exception as e:  # noqa: BLE001
-            result["semantic"] = {"ok": False, "error": str(e)[:200]}
-            print(f"      semantic: skipped (import/run error: {str(e)[:80]})")
+            page.set_default_timeout(NAV_TIMEOUT_MS)
+            resp = page.goto(url, wait_until="load", timeout=NAV_TIMEOUT_MS)
+            status = resp.status if resp else 0
+            if status and status >= 400:
+                raise RuntimeError(f"HTTP {status}")
+            page.wait_for_timeout(2000)  # let client JS settle
 
-        # 2. reference screenshot BEFORE any hover (a hover state must never
-        #    bleed into the screenshot every card in the library shows)
-        desktop_png = card_dir / "screenshot-desktop.png"
-        if full_page_screenshot(page, desktop_png):
-            result["screenshots"]["desktop"] = "screenshot-desktop.png"
-
-        # 3. merged motion+behavior probe — scroll sweep, hover diffs, video
-        #    content; ends with click + go_back, the last state change
-        if not fast:
+            # 1. semantic — read-only; a failure must not skip the rest (per-core
+            #    failure isolation: each step below is individually guarded)
             try:
-                page.evaluate("window.scrollTo(0, 0)")  # full-page shot scrolls internally
-                from behavior_pass import interaction_probe
-                motion = interaction_probe(page, card_dir, url)
-                result["motion"] = motion
-                result["behavior"] = {k: motion.get(k) for k in
-                                      ("ok", "hover_diffs", "scroll_triggers",
-                                       "interaction_model", "error", "behaviors_file")}
-                if motion.get("ok"):
-                    print(f"      behavior: model={motion.get('interaction_model')} "
-                          f"hovers={motion.get('hover_diffs')} scroll={motion.get('scroll_triggers')}")
-                elif motion.get("error"):
-                    print(f"      behavior: skipped ({motion['error'][:80]})")
+                from semantic_pass import semantic_probe
+                semantic = semantic_probe(page, card_dir, url)
+                result["semantic"] = semantic
+                if semantic.get("ok"):
+                    print(f"      semantic: tokens={semantic.get('named_tokens')} "
+                          f"z={semantic.get('z_index')} responsive={semantic.get('responsive_rules')}")
+                elif semantic.get("error"):
+                    print(f"      semantic: skipped ({semantic['error'][:80]})")
             except Exception as e:  # noqa: BLE001
-                result["motion"] = {"ok": False, "error": str(e)[:200]}
-                result["behavior"] = {"ok": False, "error": str(e)[:200]}
-                print(f"      behavior: skipped (import/run error: {str(e)[:80]})")
-        else:
-            result["motion"] = {"video": None, "skipped": "fast mode (opts.fast)"}
-            print("      motion: skipped (fast mode)")
+                result["semantic"] = {"ok": False, "error": str(e)[:200]}
+                print(f"      semantic: skipped (import/run error: {str(e)[:80]})")
 
-        ctx.close()  # finalizes the recording
+            # 2. reference screenshot BEFORE any hover (a hover state must never
+            #    bleed into the screenshot every card in the library shows)
+            desktop_png = card_dir / "screenshot-desktop.png"
+            if full_page_screenshot(page, desktop_png):
+                result["screenshots"]["desktop"] = "screenshot-desktop.png"
+
+            # 3. merged motion+behavior probe — scroll sweep, hover diffs, video
+            #    content; ends with click + go_back, the last state change
+            if not fast:
+                try:
+                    page.evaluate("window.scrollTo(0, 0)")  # full-page shot scrolls internally
+                    from behavior_pass import interaction_probe
+                    motion = interaction_probe(page, card_dir, url)
+                    result["motion"] = motion
+                    result["behavior"] = {k: motion.get(k) for k in
+                                          ("ok", "hover_diffs", "scroll_triggers",
+                                           "interaction_model", "error", "behaviors_file")}
+                    if motion.get("ok"):
+                        print(f"      behavior: model={motion.get('interaction_model')} "
+                              f"hovers={motion.get('hover_diffs')} scroll={motion.get('scroll_triggers')}")
+                    elif motion.get("error"):
+                        print(f"      behavior: skipped ({motion['error'][:80]})")
+                except Exception as e:  # noqa: BLE001
+                    result["motion"] = {"ok": False, "error": str(e)[:200]}
+                    result["behavior"] = {"ok": False, "error": str(e)[:200]}
+                    print(f"      behavior: skipped (import/run error: {str(e)[:80]})")
+            else:
+                result["motion"] = {"video": None, "skipped": "fast mode (opts.fast)"}
+                print("      motion: skipped (fast mode)")
+        finally:
+            ctx.close()  # finalizes the recording — also on failure
         if not fast:
             vid = finalize_video(card_dir / "motion")
             if vid:
@@ -359,8 +372,8 @@ def capture_one(site: dict, slug: str, card_dir: Path, browser, opts) -> dict:
         # mobile pass — separate context: iPhone UA is context-creation-only
         mctx = browser.new_context(viewport=MOBILE_VIEWPORT, user_agent=IPHONE_UA)
         mpage = mctx.new_page()
-        mpage.set_default_timeout(NAV_TIMEOUT_MS)
         try:
+            mpage.set_default_timeout(NAV_TIMEOUT_MS)
             mpage.goto(url, wait_until="load", timeout=NAV_TIMEOUT_MS)
             mpage.wait_for_timeout(2000)
             mobile_png = card_dir / "screenshot-mobile.png"
@@ -368,8 +381,9 @@ def capture_one(site: dict, slug: str, card_dir: Path, browser, opts) -> dict:
                 result["screenshots"]["mobile"] = "screenshot-mobile.png"
         except Exception as e:  # noqa: BLE001
             print(f"      mobile screenshot failed: {e}")
-        mpage.close()
-        mctx.close()
+        finally:
+            mpage.close()
+            mctx.close()
 
         tokens_path = dembrandt_tokens(url, slug, workdir)
         tokens = None
@@ -378,8 +392,10 @@ def capture_one(site: dict, slug: str, card_dir: Path, browser, opts) -> dict:
                 tokens = json.loads(tokens_path.read_text(encoding="utf-8"))
             except Exception:  # noqa: BLE001
                 tokens = None
-            fp_path = card_dir / "fingerprint.json"
-            fp_path.write_text(json.dumps(tokens, indent=2, ensure_ascii=False), encoding="utf-8")
+                print("      dembrandt: output was not valid JSON — keeping previous fingerprint.json")
+            if tokens is not None:  # never write literal null over a card's fingerprint
+                fp_path = card_dir / "fingerprint.json"
+                fp_path.write_text(json.dumps(tokens, indent=2, ensure_ascii=False), encoding="utf-8")
         fp = fingerprint_from_tokens(tokens, slug)
         result["fingerprint"] = fp
 
@@ -427,7 +443,7 @@ def main():
     ap.add_argument("seed", nargs="?", default=None, help="seed JSON path (omit with --url)")
     ap.add_argument("--url", default=None, help="single-URL capture mode")
     ap.add_argument("--name", default=None, help="site name (single-URL mode)")
-    ap.add_argument("--category", default="other", help="category (single-URL mode)")
+    ap.add_argument("--category", default="misc", help="category (single-URL mode)")
     ap.add_argument("--slug", default=None, help="explicit slug (single-URL mode; default from hostname)")
     ap.add_argument("--why", default="", help="rationale (single-URL mode)")
     ap.add_argument("--limit", type=int, default=None)
@@ -443,13 +459,14 @@ def main():
     if args.url:
         # single-URL mode: synthesize one seed entry, no seed file needed
         from urllib.parse import urlparse
-        host = urlparse(safe_url(args.url)).netloc.replace("www.", "").split(":")[0]
+        host = urlparse(safe_url(args.url)).netloc.split(":")[0]
+        host = host[4:] if host.startswith("www.") else host  # strip ONLY the prefix
         slug = args.slug or slugify(args.name or host)
         sites = [{
             "id": slug,
             "name": args.name or host,
             "url": safe_url(args.url),
-            "category": args.category or "other",
+            "category": args.category or "misc",
             "why": args.why,
         }]
     else:
@@ -499,6 +516,19 @@ def main():
                 index.setdefault("stats", {})["last_run"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
                 index.setdefault("stats", {})["total"] = len(index["cards"])
                 save_index(index)
+
+    if any(r.get("ok") for r in results):
+        # parity with the MCP worker: a CLI-captured card must be searchable
+        # immediately, not only after a manual `python style_index.py` run
+        try:
+            from style_index import build_vectors, write_summary
+            si = build_vectors()
+            (LIBRARY / "style-index.json").write_text(
+                json.dumps(si, indent=2, ensure_ascii=False), encoding="utf-8")
+            write_summary(si)
+            print(f"style-index rebuilt: {len(si['cards'])} cards")
+        except Exception as e:  # noqa: BLE001
+            print(f"style-index rebuild failed: {e}", file=sys.stderr)
 
     print(f"\n=== done: {len(results) - len(failures)}/{len(results)} ok, {len(failures)} failed ===")
     if failures:

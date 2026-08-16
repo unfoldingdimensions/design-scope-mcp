@@ -1,8 +1,8 @@
 {
-  "brief": "design-scope blueprint sheet: verdict rubric, ledger, pipeline register, style scan, feature grid, start",
-  "direction": "measured technical blueprint",
+  "brief": "blueprint sheet",
+  "direction": "measured technical",
   "declared_bands": 10,
-  "mechanism_budget": 6,
+  "mechanism_budget": 7,
   "bands": [
     {
       "index": 1,
@@ -28,17 +28,6 @@
     },
     {
       "index": 3,
-      "type": "how-it-works",
-      "mechanism": true,
-      "note": "connection / pipeline explanation",
-      "corpus": {
-        "measured": 10,
-        "with_state": 7,
-        "share": 0.7
-      }
-    },
-    {
-      "index": 4,
       "type": "product-showcase",
       "mechanism": true,
       "note": "corpus scan bars",
@@ -46,6 +35,17 @@
         "measured": 486,
         "with_state": 279,
         "share": 0.574
+      }
+    },
+    {
+      "index": 4,
+      "type": "pricing",
+      "mechanism": true,
+      "note": "plan tiers, per-page-build economics",
+      "corpus": {
+        "measured": 134,
+        "with_state": 83,
+        "share": 0.619
       }
     },
     {
@@ -61,28 +61,17 @@
     },
     {
       "index": 6,
-      "type": "feature-spotlight",
-      "mechanism": false,
-      "note": "self-grade rubric table",
+      "type": "testimonials",
+      "mechanism": true,
+      "note": "quotes, read upward",
       "corpus": {
-        "measured": 44,
-        "with_state": 5,
-        "share": 0.114
+        "measured": 64,
+        "with_state": 25,
+        "share": 0.391
       }
     },
     {
       "index": 7,
-      "type": "ledger",
-      "mechanism": false,
-      "note": "verdict history, reads upward",
-      "corpus": {
-        "measured": 0,
-        "with_state": 0,
-        "share": 0
-      }
-    },
-    {
-      "index": 8,
       "type": "cta-banner",
       "mechanism": true,
       "note": "copy-command button",
@@ -93,14 +82,25 @@
       }
     },
     {
-      "index": 9,
-      "type": "pricing",
-      "mechanism": true,
-      "note": "plan tiers, per-page-build economics",
+      "index": 8,
+      "type": "feature-spotlight",
+      "mechanism": false,
+      "note": "self-grade rubric table",
       "corpus": {
-        "measured": 134,
-        "with_state": 83,
-        "share": 0.619
+        "measured": 44,
+        "with_state": 5,
+        "share": 0.114
+      }
+    },
+    {
+      "index": 9,
+      "type": "faq",
+      "mechanism": true,
+      "note": "details/summary pairs",
+      "corpus": {
+        "measured": 17,
+        "with_state": 6,
+        "share": 0.353
       }
     },
     {

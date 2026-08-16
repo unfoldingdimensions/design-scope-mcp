@@ -25,8 +25,15 @@ def test_blueprint_shape():
     check("label present", b["label"] == "Pricing")
     check("contents list", isinstance(b["contents"], list) and len(b["contents"]) >= 3)
     check("mechanism present", bool(b["mechanism"]))
-    check("corpus defaults to zero", b["corpus"]["measured"] == 0
-          or b["corpus"]["measured"] > 0, str(b["corpus"]))
+    check("corpus block shaped",
+          isinstance(b.get("corpus"), dict)
+          and {"measured", "with_state", "share"} <= set(b["corpus"]),
+          str(b.get("corpus")))
+    # corpus numbers are internally consistent: with_state ≤ measured, share in [0,1]
+    c = b["corpus"]
+    if c.get("measured"):
+        check("with_state within measured", c["with_state"] <= c["measured"], str(c))
+        check("share in [0,1]", 0 <= c["share"] <= 1, str(c))
 
 
 def test_unknown_type_rejected():
