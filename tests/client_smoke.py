@@ -50,10 +50,10 @@ async def smoke_transport():
             check("card_get annotation layer", r4.get("annotation")
                   and r4["annotation"].get("design_intent"))
 
-            # analysis tools — compare.py/theme.py ship with the design-scope
-            # skill, NOT with this repo, so on a clean clone these two tools
-            # correctly return a structured error. Assert that contract instead
-            # of failing the whole smoke run for a dependency we don't ship.
+            # analysis tools — compare.py/theme.py ship in THIS repo's scripts/,
+            # so a checkout resolves them with no skill installed. The branch
+            # below still tolerates "skill scripts not found" so the smoke run
+            # also works from a tree with scripts/ stripped out.
             r5 = await call(s, "card_compare", slug="stripe", project_dir=DOGFOOD)
             if "error" in r5 and "skill scripts not found" in r5["error"]:
                 print("SKIP  card_compare — skill scripts absent (set DESIGN_SCOPE_SKILL_SCRIPTS)")
