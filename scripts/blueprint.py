@@ -683,6 +683,12 @@ def render(structure: dict, content: dict | None = None) -> str:
 
 
 def main():
+    # Windows consoles default to cp1252 and this CLI prints non-ASCII output
+    # (arrows, bullets, check marks); without this the run aborts mid-way,
+    # after the work is already done.
+    for _s in (sys.stdout, sys.stderr):
+        if hasattr(_s, "reconfigure"):
+            _s.reconfigure(encoding="utf-8", errors="replace")
     ap = argparse.ArgumentParser()
     ap.add_argument("--structure", required=True, help="structure JSON (get_page_structure output)")
     ap.add_argument("--out", default=None, help="output path")

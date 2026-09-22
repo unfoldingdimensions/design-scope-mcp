@@ -373,6 +373,12 @@ Generated {datetime.now(timezone.utc).isoformat(timespec='seconds')} from
 
 
 def main():
+    # Windows consoles default to cp1252 and this CLI prints non-ASCII output
+    # (arrows, bullets, check marks); without this the run aborts mid-way,
+    # after the work is already done.
+    for _s in (sys.stdout, sys.stderr):
+        if hasattr(_s, "reconfigure"):
+            _s.reconfigure(encoding="utf-8", errors="replace")
     ap = argparse.ArgumentParser()
     ap.add_argument("card", help="library card slug (e.g. deno, stripe, linear)")
     ap.add_argument("--target", default=None, help="project dir whose fingerprint.json defines 'current'")

@@ -201,6 +201,12 @@ def slugs_for(args, cards_dir: Path) -> list[str]:
 
 
 def main():
+    # Windows consoles default to cp1252 and this CLI prints non-ASCII output
+    # (arrows, bullets, check marks); without this the run aborts mid-way,
+    # after the work is already done.
+    for _s in (sys.stdout, sys.stderr):
+        if hasattr(_s, "reconfigure"):
+            _s.reconfigure(encoding="utf-8", errors="replace")
     ap = argparse.ArgumentParser()
     ap.add_argument("--cards", default=None, help="comma-separated slugs")
     ap.add_argument("--sample", type=int, default=0, help="first N cards (deterministic)")
