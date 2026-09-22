@@ -170,6 +170,28 @@ def borrow_theme(slug: str, target: str = ".") -> dict:
     sc = sem.get("semantic_colors", {}).get("light", {})
     sc_dark = sem.get("semantic_colors", {}).get("dark", {})
 
+    # The CARD's own fingerprint carries Dembrandt's measured semantic colors
+    # (background/text/primary/accent). It is the difference between borrowing
+    # and failing for every card whose token vocabulary is digit-named
+    # (--brand-500, --hds-space-core-200, --bs-blue): the curated no-digit rule
+    # in semantic_pass yields an empty palette for those, so those cards raise
+    # "no color tokens usable for a theme".
+    #
+    # Used as a LAST RESORT (see pick_any step 5), deliberately: preferring it
+    # over the named tokens would change the borrow output of 116 of 204 cards,
+    # 107 of them from a plausible-but-often-wrong pick (a hyperlink colour or a
+    # contrast token standing in for the page background) to the measured one.
+    # That is a real improvement, but it is a separate decision with its own
+    # review cost, not something to smuggle into a backfill. This file keeps
+    # every currently-working borrow identical.
+    # ACCENT is included here because FP_KEY predates it, so accent was
+    # unreachable through the target fingerprint too.
+    CARD_FP_KEY = {"bg": "background", "text": "text", "primary": "primary",
+                   "accent": "accent", "muted": "muted"}
+    card_fp_path = card_dir / "fingerprint.json"
+    card_fp = json.loads(card_fp_path.read_text(encoding="utf-8")) if card_fp_path.exists() else {}
+    card_fp_sem = (card_fp.get("colors") or {}).get("semantic", {}) or {}
+
     # fingerprint semantic colors as a bg/text tiebreaker — the card's token
     # vocabulary may be swatch-named (--swatch--accent) with no real bg token.
     # NOTE: Dembrandt's semantic keys are background/text/primary, not bg/text.
@@ -185,6 +207,7 @@ def borrow_theme(slug: str, target: str = ".") -> dict:
                 if hx:
                     return name, hx
         # 2. fingerprint semantic (real measured bg/text) — beats swatch tokens
+        # 2b. the target project's fingerprint (its own measured bg/text)
         fp_key = FP_KEY.get(role)
         if fp_key and fp_sem.get(fp_key):
             hx = _hex_of(str(fp_sem[fp_key]))
@@ -212,6 +235,17 @@ def borrow_theme(slug: str, target: str = ".") -> dict:
             if hx and not _is_vendor_token(name):
                 parsed.append((name, hx))
         if not parsed:
+            # 5. last resort: the card's own measured fingerprint colors
+            #    (background/text/primary/accent). Only reached when the card has
+            #    no usable named token at all — the digit-named vocabularies
+            #    (--brand-500, --hds-space-core-200) where the curated palette is
+            #    empty. Dembrandt measured these already and the file ships with
+            #    the card, so those cards borrow without any recapture.
+            card_key = CARD_FP_KEY.get(role)
+            if card_key and card_fp_sem.get(card_key):
+                hx = _hex_of(str(card_fp_sem[card_key]))
+                if hx:
+                    return f"(card fingerprint {role})", hx
             return None
         if role == "text":
             return None  # no real text token — derived from bg after picking

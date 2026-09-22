@@ -202,6 +202,74 @@ def test_vendor_tokens_are_not_borrowed():
             th.GLOBAL_LIBRARY = old
 
 
+def test_card_fingerprint_rescues_a_digit_named_palette():
+    """Regression: 81 of 204 cards could not borrow at all.
+
+    A page whose custom properties are all digit-named (--brand-500,
+    --hds-space-core-200) yields an empty curated palette from semantic_pass,
+    so theme_borrow raised "no color tokens usable for a theme". The card's own
+    fingerprint.json already carries Dembrandt's measured semantic colors, so
+    those cards now borrow with no recapture.
+    """
+    th = theme_module()
+    # the real shape of the 74 cards: every custom property is digit-named, so
+    # the curated no-digit palette is empty and the tokens sit in named_tokens
+    sem = {"semantic_colors": {"light": {}, "dark": {}},
+           "named_tokens": {"light": {"--brand-500": "#1e5eff"}, "dark": {}}}
+    fp = {"colors": {"semantic": {"background": "rgb(255, 255, 255)",
+                                  "text": "rgb(17, 17, 17)",
+                                  "primary": "rgb(30, 94, 255)",
+                                  "accent": "rgb(220, 5, 59)"}}}
+    with tempfile.TemporaryDirectory() as td:
+        root = Path(td)
+        card = root / "cards" / "digit-named"
+        card.mkdir(parents=True)
+        (card / "semantic.json").write_text(json.dumps(sem), encoding="utf-8")
+        (card / "fingerprint.json").write_text(json.dumps(fp), encoding="utf-8")
+        old = th.GLOBAL_LIBRARY
+        th.GLOBAL_LIBRARY = root
+        try:
+            picked = {k: v["token"] for k, v in th.borrow_theme("digit-named", td)["roles"].items()}
+            check("digit-named palette borrows from the card's own fingerprint",
+                  picked.get("bg") == "(card fingerprint bg)", str(picked))
+            check("measured text/primary/accent are used",
+                  picked.get("text") == "(card fingerprint text)"
+                  and picked.get("primary") == "(card fingerprint primary)"
+                  and picked.get("accent") == "(card fingerprint accent)", str(picked))
+        finally:
+            th.GLOBAL_LIBRARY = old
+
+
+def test_named_tokens_still_win_over_the_card_fingerprint():
+    """The fingerprint source is a last resort, not a preference.
+
+    Preferring measured colors over named tokens changed the borrow output of
+    116 of 204 cards (107 of them from a plausible-but-wrong pick such as a
+    hyperlink colour standing in for the page background). Keeping it last
+    fixed the 81 failures with zero change to the 123 that already worked.
+    """
+    th = theme_module()
+    sem = {"semantic_colors": {"light": {"--bg": "#0f1015", "--text": "#f5f5f5",
+                                        "--accent": "#00d0a0"}}}
+    fp = {"colors": {"semantic": {"background": "rgb(255, 255, 255)",
+                                  "text": "rgb(0, 0, 0)", "accent": "rgb(1, 2, 3)"}}}
+    with tempfile.TemporaryDirectory() as td:
+        root = Path(td)
+        card = root / "cards" / "named"
+        card.mkdir(parents=True)
+        (card / "semantic.json").write_text(json.dumps(sem), encoding="utf-8")
+        (card / "fingerprint.json").write_text(json.dumps(fp), encoding="utf-8")
+        old = th.GLOBAL_LIBRARY
+        th.GLOBAL_LIBRARY = root
+        try:
+            picked = {k: v["token"] for k, v in th.borrow_theme("named", td)["roles"].items()}
+            check("named tokens still win over the card fingerprint",
+                  picked.get("bg") == "--bg" and picked.get("text") == "--text"
+                  and picked.get("accent") == "--accent", str(picked))
+        finally:
+            th.GLOBAL_LIBRARY = old
+
+
 if __name__ == "__main__":
     test_env_override_wins()
     test_falls_back_to_repo_scripts()
@@ -212,4 +280,6 @@ if __name__ == "__main__":
     test_hex_of_parses_all_token_forms()
     test_dark_roles_not_dropped()
     test_vendor_tokens_are_not_borrowed()
+    test_card_fingerprint_rescues_a_digit_named_palette()
+    test_named_tokens_still_win_over_the_card_fingerprint()
     finish()
