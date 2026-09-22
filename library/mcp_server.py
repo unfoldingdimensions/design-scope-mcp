@@ -260,6 +260,23 @@ def _prune_jobs(max_keep: int = 100) -> None:
             del _jobs[jid]
 
 
+@contextlib.contextmanager
+def _launch_browser():
+    """One headless Chromium per capture job.
+
+    A module-level seam on purpose: the queue mock's contract is "no network,
+    no browser" (CI installs the SDK but never `playwright install`), so the
+    mock replaces this with a no-op instead of paying a browser download. The
+    real path is unchanged — the worker still launches and closes Chromium.
+    """
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        try:
+            yield browser
+        finally:
+            browser.close()
+
+
 def _capture_worker():
     while True:
         job_id, kwargs = _job_queue.get()
@@ -290,13 +307,9 @@ def _capture_worker():
                 site = {"url": kwargs["url"], "name": kwargs["name"],
                         "category": kwargs.get("category", "misc"),
                         "why": kwargs.get("why", "")}
-                with sync_playwright() as p:
-                    browser = p.chromium.launch(headless=True)
-                    try:
-                        result = capture_one(site, slug, card_dir, browser,
-                                             opts={"fast": kwargs.get("fast", True)})
-                    finally:
-                        browser.close()
+                with _launch_browser() as browser:
+                    result = capture_one(site, slug, card_dir, browser,
+                                         opts={"fast": kwargs.get("fast", True)})
                 if not result.get("ok"):
                     raise RuntimeError(result.get("error") or "capture failed")
                 index = load_index()

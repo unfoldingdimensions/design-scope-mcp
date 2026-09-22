@@ -7,6 +7,7 @@ Usage:
 Exits 0 on success, 1 on any failed check.
 """
 import asyncio
+import contextlib
 import json
 import sys
 import time
@@ -99,6 +100,15 @@ def queue_mock():
     import capture as cap
 
     captured_sites = []
+
+    @contextlib.contextmanager
+    def fake_browser():
+        # The worker's real seam launches Chromium, which CI never installs
+        # (the suite's contract is "no network, no browser"). capture_one is
+        # faked below and ignores the browser, so yield a placeholder.
+        yield None
+
+    ms._launch_browser = fake_browser
 
     def fake_capture_one(site, slug, card_dir, browser, opts):
         # deliberately NO filesystem writes — mocks must not touch the library
