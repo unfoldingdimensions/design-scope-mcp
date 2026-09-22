@@ -42,6 +42,27 @@ GLOBAL_LIBRARY = Path(os.environ.get("DESIGN_SCOPE_LIBRARY", str(_default_librar
 
 AA_NORMAL = 4.5
 
+# Third-party token namespaces — must match library/semantic_pass.py. Cards
+# captured before that producer-side filter existed still carry another
+# product's tokens (cards/linear/semantic.json holds X's --tweet-* embed
+# tokens, cards/metabase the Bootstrap --bs-* set), and borrowing one of them
+# returned the embed's palette as the site's. Skipping them here fixes the
+# borrow for cards already in the library, with no recapture.
+VENDOR_TOKEN_PREFIXES = (
+    "--tweet-",     # X / Twitter embed
+    "--wp--",       # WordPress core presets
+    "--bs-",        # Bootstrap 5
+    "--chakra-",    # Chakra UI
+    "--ant-",       # Ant Design v5
+    "--vant-",      # Vant
+    "--mdc-",       # Material Components
+)
+
+
+def _is_vendor_token(name: str) -> bool:
+    """True for a custom property owned by an embedded third-party framework."""
+    return name.startswith(VENDOR_TOKEN_PREFIXES)
+
 
 def _lum(hex_color: str) -> float:
     h = hex_color.lstrip("#")
@@ -159,7 +180,7 @@ def borrow_theme(slug: str, target: str = ".") -> dict:
         # 1. semantic-named tokens first
         for name in prefers:
             v = sc.get(name) or sc_dark.get(name)
-            if v:
+            if v and not _is_vendor_token(name):
                 hx = _hex_of(v)
                 if hx:
                     return name, hx
@@ -173,7 +194,8 @@ def borrow_theme(slug: str, target: str = ".") -> dict:
         #    swatch ≈ bg, darkest ≈ text, mid ≈ muted, accent = first saturated
         if role in ("bg", "text", "muted"):
             swatches = [(name, v) for name, v in sc.items()
-                        if v and _hex_of(v) and "swatch" in name]
+                        if v and _hex_of(v) and "swatch" in name
+                        and not _is_vendor_token(name)]
             if swatches:
                 graded = sorted(swatches, key=lambda kv: _lum(_hex_of(kv[1]) or "#000"))
                 if role == "text":
@@ -187,7 +209,7 @@ def borrow_theme(slug: str, target: str = ".") -> dict:
         parsed = []
         for name, v in sc.items():
             hx = _hex_of(v) if v else None
-            if hx:
+            if hx and not _is_vendor_token(name):
                 parsed.append((name, hx))
         if not parsed:
             return None
@@ -241,6 +263,7 @@ def borrow_theme(slug: str, target: str = ".") -> dict:
         # one honest retry: the most saturated token distinct from bg/text
         cands = [(n, _hex_of(v)) for n, v in {**sc, **sc_dark}.items()
                  if v and _hex_of(v)
+                 and not _is_vendor_token(n)
                  and _hex_of(v).lower() not in (text_hex.lower(), bg_hex.lower())]
         if cands:
             best = max(cands, key=lambda kv: _hls_sat(kv[1]))
