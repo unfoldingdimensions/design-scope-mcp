@@ -1,4 +1,6 @@
-mcp>=1.0
+# mcp 2.x renamed mcp.server.fastmcp to mcp.server.mcpserver, which breaks the
+# server at import; pin below 2 until the server is migrated to the v2 API.
+mcp>=1.0,<2
 playwright>=1.40
 pillow>=10.0
 requests>=2.31
