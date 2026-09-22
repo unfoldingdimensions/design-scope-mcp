@@ -48,31 +48,32 @@
     "dark": {}
   },
   "semantic_colors": {
-    "light": {
-      "--bs-blue": "#0d6efd",
-      "--bs-cyan": "#0dcaf0",
-      "--bs-danger": "#dc3545",
-      "--bs-dark": "#212529",
-      "--bs-gray": "#6c757d",
-      "--bs-gray-dark": "#343a40",
-      "--bs-green": "#198754",
-      "--bs-indigo": "#6610f2",
-      "--bs-info": "#0dcaf0",
-      "--bs-light": "#f8f9fa",
-      "--bs-orange": "#fd7e14",
-      "--bs-pink": "#d63384",
-      "--bs-primary": "#509ee3",
-      "--bs-purple": "#6f42c1",
-      "--bs-red": "#dc3545",
-      "--bs-secondary": "#a989c5",
-      "--bs-success": "#198754",
-      "--bs-teal": "#20c997",
-      "--bs-warning": "#ffc107",
-      "--bs-white": "#fff",
-      "--bs-yellow": "#ffc107"
-    },
+    "light": {},
     "dark": {},
-    "note": "curated: names with no digits whose value is a color"
+    "note": "curated: names with no digits whose value is a color",
+    "vendor_filtered": [
+      "--bs-blue",
+      "--bs-cyan",
+      "--bs-danger",
+      "--bs-dark",
+      "--bs-gray",
+      "--bs-gray-dark",
+      "--bs-green",
+      "--bs-indigo",
+      "--bs-info",
+      "--bs-light",
+      "--bs-orange",
+      "--bs-pink",
+      "--bs-primary",
+      "--bs-purple",
+      "--bs-red",
+      "--bs-secondary",
+      "--bs-success",
+      "--bs-teal",
+      "--bs-warning",
+      "--bs-white",
+      "--bs-yellow"
+    ]
   },
   "design_intent": {
     "vibe": [

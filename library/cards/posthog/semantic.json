@@ -19,16 +19,14 @@
     }
   },
   "semantic_colors": {
-    "light": {
-      "--swiper-pagination-bullet-inactive-color": "#000",
-      "--swiper-pagination-color": "#f54e00",
-      "--swiper-theme-color": "#007aff"
-    },
-    "dark": {
-      "--swiper-pagination-bullet-inactive-color": "#fff",
-      "--swiper-pagination-color": "#f7a501"
-    },
-    "note": "curated: names with no digits whose value is a color"
+    "light": {},
+    "dark": {},
+    "note": "curated: names with no digits whose value is a color",
+    "vendor_filtered": [
+      "--swiper-pagination-bullet-inactive-color",
+      "--swiper-pagination-color",
+      "--swiper-theme-color"
+    ]
   },
   "design_intent": {
     "vibe": [

@@ -56,6 +56,13 @@ VENDOR_TOKEN_PREFIXES = (
     "--ant-",       # Ant Design v5
     "--vant-",      # Vant
     "--mdc-",       # Material Components
+    # must stay in step with library/semantic_pass.py — added from a sweep of the
+    # shipped library: Swiper, react-toastify, Ant Design's --antd- palette,
+    # InKeep. See semantic_pass for what was deliberately left alone.
+    "--swiper-",    # Swiper carousel
+    "--toastify-",  # react-toastify
+    "--antd-",      # Ant Design's own colour palette
+    "--inkeep-",    # InKeep embedded widget
 )
 
 

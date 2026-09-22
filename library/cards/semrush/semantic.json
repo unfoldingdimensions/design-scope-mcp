@@ -51,11 +51,13 @@
       "--mp-mint": "#dceeeb",
       "--mp-off-black": "#181e15",
       "--mp-off-white": "#f3f6f6",
-      "--mp-white": "#fff",
-      "--swiper-theme-color": "#007aff"
+      "--mp-white": "#fff"
     },
     "dark": {},
-    "note": "curated: names with no digits whose value is a color"
+    "note": "curated: names with no digits whose value is a color",
+    "vendor_filtered": [
+      "--swiper-theme-color"
+    ]
   },
   "design_intent": {
     "vibe": [

@@ -1,6 +1,6 @@
 # design-scope style summary
 
-Generated 2026-08-16T08:10:24+00:00 · 204 cards · search via `python library/style_search.py "<query>"`
+Generated 2026-09-22T09:35:40+00:00 · 204 cards · search via `python library/style_search.py "<query>"`
 
 | slug | archetypes | hue | brightness | sat | corners | flat | type |
 |---|---|---|---|---|---|---|---|
@@ -10,11 +10,11 @@ Generated 2026-08-16T08:10:24+00:00 · 204 cards · search via `python library/s
 | airtable | glassmorphic | blue | light | soft | generous | flat | neutral-sans |
 | akiflow | editorial | neutral | light | muted | soft | elevated | serif-led |
 | alchemy | — | blue | light | soft | soft | elevated | mono-accent |
-| aljazeera | glassmorphic | blue | light | vibrant | rounded | flat | neutral-sans |
-| allbirds | — | blue | light | vibrant | soft | flat | mono-accent |
+| aljazeera | funky, glassmorphic, playful | multicolor | light | vibrant | rounded | flat | neutral-sans |
+| allbirds | warm-minimal | orange | light | muted | soft | flat | mono-accent |
 | amplitude | — | blue | light | soft | soft | flat | neutral-sans |
 | anthropic | editorial | multicolor | light | soft | soft | flat | serif-led |
-| anytype | — | blue | light | vibrant | rounded | flat | serif-led |
+| anytype | editorial | cyan | light | muted | rounded | flat | serif-led |
 | apple | glassmorphic | blue | light | soft | generous | flat | neutral-sans |
 | arc | funky | orange | light | vibrant | soft | flat | mono-accent |
 | asana | funky | multicolor | light | vibrant | soft | flat | neutral-sans |
@@ -30,7 +30,7 @@ Generated 2026-08-16T08:10:24+00:00 · 204 cards · search via `python library/s
 | bluesky | — | blue | light | soft | generous | flat | neutral-sans |
 | brex | — | blue | light | soft | rounded | flat | neutral-sans |
 | brilliant | funky, glassmorphic | red | light | vibrant | generous | elevated | neutral-sans |
-| bun | premium | multicolor | dark | soft | soft | flat | mono-accent |
+| bun | funky | multicolor | dark | vibrant | soft | flat | mono-accent |
 | bybit | — | red | dark | muted | soft | elevated | neutral-sans |
 | cal | editorial | blue | light | muted | soft | elevated | serif-led |
 | calendly | — | blue | light | vibrant | soft | flat | neutral-sans |
@@ -50,14 +50,14 @@ Generated 2026-08-16T08:10:24+00:00 · 204 cards · search via `python library/s
 | datawrapper | — | neutral | light | muted | soft | elevated | mono-accent |
 | deel | funky, playful | multicolor | light | vibrant | rounded | flat | serif-led |
 | deepgram | premium | green | dark | soft | soft | elevated | mono-accent |
-| deepnote | funky | multicolor | light | vibrant | soft | elevated | mono-accent |
+| deepnote | — | blue | light | vibrant | soft | elevated | mono-accent |
 | deno | — | blue | light | soft | soft | elevated | neutral-sans |
 | descript | — | multicolor | light | soft | soft | flat | neutral-sans |
 | digitalocean | — | cyan | dark | vibrant | soft | flat | mono-accent |
 | discord | — | blue | dark | vibrant | rounded | flat | neutral-sans |
 | dropbox | glassmorphic | multicolor | light | soft | rounded | flat | neutral-sans |
 | duolingo | funky, playful | green | light | vibrant | rounded | flat | neutral-sans |
-| eightsleep | glassmorphic | blue | light | vibrant | generous | elevated | neutral-sans |
+| eightsleep | glassmorphic | blue | light | muted | generous | elevated | neutral-sans |
 | elevenlabs | glassmorphic, warm-minimal | red | light | muted | generous | elevated | mono-accent |
 | ethereum | — | purple | light | soft | soft | elevated | mono-accent |
 | expo | glassmorphic | neutral | light | muted | generous | elevated | mono-accent |
@@ -83,10 +83,10 @@ Generated 2026-08-16T08:10:24+00:00 · 204 cards · search via `python library/s
 | hex | premium | multicolor | dark | soft | generous | flat | mono-accent |
 | hey | funky, glassmorphic | multicolor | light | vibrant | generous | elevated | neutral-sans |
 | hopper | — | blue | light | soft | generous | flat | neutral-sans |
-| hotjar | — | blue | light | vibrant | soft | flat | neutral-sans |
+| hotjar | — | multicolor | light | soft | soft | flat | neutral-sans |
 | hubspot | funky, retro | orange | light | vibrant | soft | flat | serif-led |
 | huggingface | — | multicolor | light | soft | soft | elevated | mono-accent |
-| hyperliquid | — | blue | dark | muted | generous | flat | neutral-sans |
+| hyperliquid | — | cyan | dark | soft | generous | flat | neutral-sans |
 | iawriter | — | cyan | light | vibrant | rounded | elevated | mono-accent |
 | ikea | warm-minimal | yellow | light | soft | soft | flat | neutral-sans |
 | intercom | editorial, minimalist | neutral | light | muted | soft | flat | serif-led |
@@ -96,16 +96,16 @@ Generated 2026-08-16T08:10:24+00:00 · 204 cards · search via `python library/s
 | krea | funky | multicolor | dark | vibrant | soft | flat | neutral-sans |
 | lama-lama-branding | minimalist | neutral | light | muted | soft | flat | neutral-sans |
 | lattice | funky, glassmorphic, playful | green | light | vibrant | rounded | flat | neutral-sans |
-| ledger | funky | multicolor | light | vibrant | sharp | flat | mono-accent |
-| leonardo | — | blue | dark | soft | soft | flat | neutral-sans |
-| linear | — | blue | dark | vibrant | sharp | flat | mono-accent |
+| ledger | brutalist | purple | light | soft | sharp | flat | mono-accent |
+| leonardo | dark-minimal, minimalist | neutral | dark | muted | soft | flat | neutral-sans |
+| linear | brutalist, premium | multicolor | dark | soft | sharp | flat | mono-accent |
 | lonelyplanet | — | blue | light | muted | soft | flat | mono-accent |
 | loom | glassmorphic | blue | light | vibrant | generous | flat | neutral-sans |
 | luma | glassmorphic | neutral | light | muted | generous | flat | neutral-sans |
 | mailchimp | warm-minimal | orange | light | soft | soft | elevated | neutral-sans |
 | masterclass | — | blue | dark | vibrant | soft | flat | neutral-sans |
 | mercury | — | blue | light | soft | soft | flat | neutral-sans |
-| metabase | funky, glassmorphic | multicolor | light | vibrant | generous | elevated | mono-accent |
+| metabase | glassmorphic | blue | light | soft | generous | elevated | mono-accent |
 | midjourney | funky | multicolor | light | vibrant | soft | elevated | mono-accent |
 | miro | editorial, warm-minimal | red | light | muted | soft | flat | serif-led |
 | mistral | — | blue | light | soft | soft | flat | mono-accent |
@@ -129,18 +129,18 @@ Generated 2026-08-16T08:10:24+00:00 · 204 cards · search via `python library/s
 | onemedical | funky, glassmorphic, playful | multicolor | light | vibrant | generous | flat | neutral-sans |
 | openai | funky | multicolor | light | vibrant | soft | flat | neutral-sans |
 | optimism | glassmorphic, warm-minimal | red | light | muted | rounded | flat | neutral-sans |
-| oura | funky, glassmorphic | multicolor | light | vibrant | rounded | elevated | neutral-sans |
+| oura | glassmorphic | multicolor | light | soft | rounded | elevated | neutral-sans |
 | paddle | — | multicolor | light | soft | rounded | flat | mono-accent |
 | peloton | — | blue | light | soft | soft | flat | neutral-sans |
-| penpot | funky | multicolor | light | vibrant | soft | flat | neutral-sans |
+| penpot | minimalist | neutral | light | muted | soft | flat | neutral-sans |
 | perplexity | glassmorphic | cyan | light | vibrant | generous | flat | neutral-sans |
-| phantom | funky | multicolor | light | vibrant | generous | elevated | neutral-sans |
+| phantom | — | blue | light | vibrant | generous | elevated | neutral-sans |
 | pika | funky | multicolor | light | vibrant | soft | elevated | neutral-sans |
 | pitchfork | editorial, glassmorphic | blue | light | soft | generous | flat | serif-led |
 | plaid | glassmorphic | blue | light | soft | generous | elevated | neutral-sans |
 | plausible | — | blue | light | soft | soft | elevated | neutral-sans |
 | playstation | glassmorphic | blue | light | soft | rounded | elevated | neutral-sans |
-| posthog | funky, glassmorphic | orange | light | vibrant | generous | flat | mono-accent |
+| posthog | glassmorphic, warm-minimal | orange | light | soft | generous | flat | mono-accent |
 | postmark | — | multicolor | light | soft | soft | elevated | mono-accent |
 | producthunt | — | blue | light | soft | generous | flat | neutral-sans |
 | produx-design | brutalist, dark-minimal, premium | neutral | dark | muted | sharp | flat | serif-led |
@@ -167,8 +167,8 @@ Generated 2026-08-16T08:10:24+00:00 · 204 cards · search via `python library/s
 | sentry | premium | blue | dark | muted | soft | flat | mono-accent |
 | shadcn | — | neutral | light | muted | soft | elevated | neutral-sans |
 | shopify | premium | cyan | dark | soft | rounded | flat | mono-accent |
-| sketch | glassmorphic | blue | light | vibrant | rounded | elevated | neutral-sans |
-| slack | funky, glassmorphic | pink | light | vibrant | rounded | elevated | neutral-sans |
+| sketch | glassmorphic | blue | light | soft | rounded | elevated | neutral-sans |
+| slack | glassmorphic, warm-minimal | pink | light | soft | rounded | elevated | neutral-sans |
 | solana | funky, playful | multicolor | dark | vibrant | generous | flat | serif-led |
 | soundcloud | brutalist | multicolor | dark | soft | sharp | flat | neutral-sans |
 | spark | — | green | light | soft | soft | flat | neutral-sans |
@@ -204,7 +204,7 @@ Generated 2026-08-16T08:10:24+00:00 · 204 cards · search via `python library/s
 | webflow | — | blue | light | soft | soft | flat | mono-accent |
 | whoop | brutalist | blue | light | muted | sharp | flat | neutral-sans |
 | wise | — | cyan | light | vibrant | generous | flat | neutral-sans |
-| world | funky, glassmorphic, playful | multicolor | light | vibrant | rounded | flat | neutral-sans |
+| world | glassmorphic, minimalist | neutral | light | muted | rounded | flat | neutral-sans |
 | ynab | funky | multicolor | light | vibrant | soft | flat | neutral-sans |
 | zapier | — | multicolor | light | soft | soft | flat | neutral-sans |
 | zoom | — | blue | light | vibrant | soft | flat | serif-led |

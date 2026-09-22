@@ -185,6 +185,19 @@ VENDOR_TOKEN_PREFIXES = (
     "--ant-",       # Ant Design v5 token namespace
     "--vant-",      # Vant
     "--mdc-",       # Material Components
+    # added after a sweep of the shipped library found them still present in
+    # semantic_colors: react-toastify (peloton 24, world 21), Swiper
+    # (affirm, aljazeera, allbirds, anytype, brilliant, eightsleep, hotjar,
+    # sketch), Ant Design's --antd- palette (penpot 13) and the InKeep widget,
+    # which carries Chakra tokens inside it (bun 9).
+    # Deliberately NOT added: --carousel-* (theguardian's own carousel
+    # component), --color-twitter / --mc-color-twitter (a site's brand colour
+    # for a share button, not an embedded widget's stylesheet), and generic
+    # "carousel" matches elsewhere (klaviyo, go, revolut, uniqlo).
+    "--swiper-",    # Swiper carousel
+    "--toastify-",  # react-toastify
+    "--antd-",      # Ant Design's own colour palette
+    "--inkeep-",    # InKeep embedded widget
 )
 
 

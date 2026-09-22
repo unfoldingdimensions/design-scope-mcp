@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-16T08:10:24+00:00",
+  "generated": "2026-09-22T09:35:40+00:00",
   "version": 2,
   "cards": {
     "adyen": {
@@ -549,8 +549,8 @@
           "hex": "#fec300"
         },
         {
-          "name": "--swiper-theme-color",
-          "hex": "#007aff"
+          "name": "--ticker-color",
+          "hex": "#d71c45"
         }
       ],
       "why": "Bold red headline creates strong visual hierarchy Ample white space and 10px radius corners give a clean, uncluttered look Clear typographic hierarchy with large sans-serif headings and readable body text Accent orange highlights key elements without overwhelming the layout Sticky navigation bar with clear icons supports easy browsing",
@@ -572,10 +572,12 @@
         "white-space"
       ],
       "archetypes": [
-        "glassmorphic"
+        "funky",
+        "glassmorphic",
+        "playful"
       ],
       "vector": {
-        "hue_family": "blue",
+        "hue_family": "multicolor",
         "saturation": "vibrant",
         "brightness": "light",
         "corners": "rounded",
@@ -613,8 +615,32 @@
       "url": "https://www.allbirds.com",
       "palette": [
         {
-          "name": "--swiper-theme-color",
-          "hex": "#007aff"
+          "name": "c0",
+          "hex": "#000000"
+        },
+        {
+          "name": "c1",
+          "hex": "#e0dacf"
+        },
+        {
+          "name": "c2",
+          "hex": "#575757"
+        },
+        {
+          "name": "c3",
+          "hex": "#ece9e2"
+        },
+        {
+          "name": "c4",
+          "hex": "#212121"
+        },
+        {
+          "name": "c5",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "c6",
+          "hex": "#101010"
         }
       ],
       "why": "The centered modal with a clear dropdown and confirm button guides the user efficiently without visual clutter. The hero image with a subtle overlay adds depth while keeping attention on the product category tiles below. Each category tile uses a distinct background color and clear label, creating strong visual hierarchy and easy navigation. Consistent spacing (4‑10 px) and rounded corners produce",
@@ -635,10 +661,12 @@
         "spacious",
         "typography"
       ],
-      "archetypes": [],
+      "archetypes": [
+        "warm-minimal"
+      ],
       "vector": {
-        "hue_family": "blue",
-        "saturation": "vibrant",
+        "hue_family": "orange",
+        "saturation": "muted",
         "brightness": "light",
         "corners": "soft",
         "flatness": "flat",
@@ -860,8 +888,24 @@
       "url": "https://anytype.io",
       "palette": [
         {
-          "name": "--swiper-theme-color",
-          "hex": "#007aff"
+          "name": "c0",
+          "hex": "#000000"
+        },
+        {
+          "name": "c1",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "c2",
+          "hex": "#101010"
+        },
+        {
+          "name": "c3",
+          "hex": "#5b5b5b"
+        },
+        {
+          "name": "c4",
+          "hex": "#3cd9b3"
         }
       ],
       "why": "Uniform black background with no visible UI elements Absence of any typographic hierarchy or text No interactive components or buttons present Consistent color scheme indicated by measured values Implied ample white space despite lack of visible content",
@@ -883,10 +927,12 @@
         "white background",
         "white space"
       ],
-      "archetypes": [],
+      "archetypes": [
+        "editorial"
+      ],
       "vector": {
-        "hue_family": "blue",
-        "saturation": "vibrant",
+        "hue_family": "cyan",
+        "saturation": "muted",
         "brightness": "light",
         "corners": "rounded",
         "flatness": "flat",
@@ -2199,28 +2245,20 @@
           "hex": "#00a6e1"
         },
         {
-          "name": "--chakra-ring-offset-color",
-          "hex": "#fff"
-        },
-        {
           "name": "--dark-gray",
           "hex": "#282a35"
         },
         {
-          "name": "--inkeep-colors-black",
-          "hex": "#000000"
+          "name": "--link-hover-color",
+          "hex": "#a03939"
         },
         {
-          "name": "--inkeep-colors-chakra-body-bg",
-          "hex": "#FFFFFF"
+          "name": "--orange",
+          "hex": "#f89b4b"
         },
         {
-          "name": "--inkeep-colors-chakra-body-text",
-          "hex": "#36424A"
-        },
-        {
-          "name": "--inkeep-colors-chakra-border-color",
-          "hex": "#eceef0"
+          "name": "--orange-light",
+          "hex": "#d4d3d2"
         }
       ],
       "why": "Dark background with white text provides strong contrast and readability Consistent 8px spacing and 8px radius create a cohesive, flat UI Pink/purple accent colors highlight interactive elements and navigation tabs Clear typographic hierarchy with large headline and readable body copy",
@@ -2243,11 +2281,11 @@
         "typography"
       ],
       "archetypes": [
-        "premium"
+        "funky"
       ],
       "vector": {
         "hue_family": "multicolor",
-        "saturation": "soft",
+        "saturation": "vibrant",
         "brightness": "dark",
         "corners": "soft",
         "flatness": "flat",
@@ -3967,36 +4005,36 @@
       "url": "https://deepnote.com",
       "palette": [
         {
-          "name": "--chakra-colors-bg-attention-primary",
-          "hex": "#fcd34d"
+          "name": "c0",
+          "hex": "#dde4ee"
         },
         {
-          "name": "--chakra-colors-bg-attention-secondary",
-          "hex": "#fde68a"
+          "name": "c1",
+          "hex": "#606f85"
         },
         {
-          "name": "--chakra-colors-bg-attention-tertiary",
-          "hex": "#fffbeb"
+          "name": "c2",
+          "hex": "#146efe"
         },
         {
-          "name": "--chakra-colors-bg-critical-primary",
-          "hex": "#f43f5e"
+          "name": "c3",
+          "hex": "#3a4664"
         },
         {
-          "name": "--chakra-colors-bg-critical-secondary",
-          "hex": "#fda4af"
+          "name": "c4",
+          "hex": "#7b61ff"
         },
         {
-          "name": "--chakra-colors-bg-critical-tertiary",
-          "hex": "#ffe4e6"
+          "name": "c5",
+          "hex": "#9aa6bc"
         },
         {
-          "name": "--chakra-colors-bg-neutral-disabled",
-          "hex": "#EDF2F7"
+          "name": "c6",
+          "hex": "#7be2a6"
         },
         {
-          "name": "--chakra-colors-bg-neutral-inverse-primary",
-          "hex": "#141C2F"
+          "name": "c7",
+          "hex": "#b6a8ff"
         }
       ],
       "why": "Bold headline with large typography creates strong visual hierarchy Blue accent button and subtle color highlights draw attention to key actions Card-based sections with rounded corners and consistent spacing improve scannability Clear separation of data visualizations and UI components enhances readability Use of white space and dark text ensures high contrast and legibility",
@@ -4023,11 +4061,9 @@
         "typography",
         "white space"
       ],
-      "archetypes": [
-        "funky"
-      ],
+      "archetypes": [],
       "vector": {
-        "hue_family": "multicolor",
+        "hue_family": "blue",
         "saturation": "vibrant",
         "brightness": "light",
         "corners": "soft",
@@ -4620,8 +4656,36 @@
       "url": "https://eightsleep.com",
       "palette": [
         {
-          "name": "--swiper-theme-color",
-          "hex": "#007aff"
+          "name": "c0",
+          "hex": "#000000"
+        },
+        {
+          "name": "c1",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "c2",
+          "hex": "#8e8d92"
+        },
+        {
+          "name": "c3",
+          "hex": "#696765"
+        },
+        {
+          "name": "c4",
+          "hex": "#363636"
+        },
+        {
+          "name": "c5",
+          "hex": "#4158ee"
+        },
+        {
+          "name": "c6",
+          "hex": "#fefefe"
+        },
+        {
+          "name": "c7",
+          "hex": "#101010"
         }
       ],
       "why": "High-contrast white text on dark overlay for readability Generous whitespace creating a spacious, uncluttered layout Soft, warm lighting in hero image establishing a serene atmosphere Minimalist navigation with clear section labels and prominent CTA button Strategic use of subtle shadows and depth in imagery for visual interest",
@@ -4648,7 +4712,7 @@
       ],
       "vector": {
         "hue_family": "blue",
-        "saturation": "vibrant",
+        "saturation": "muted",
         "brightness": "light",
         "corners": "generous",
         "flatness": "elevated",
@@ -6834,8 +6898,36 @@
       "url": "https://www.hotjar.com",
       "palette": [
         {
-          "name": "--swiper-theme-color",
-          "hex": "#007aff"
+          "name": "c0",
+          "hex": "#000000"
+        },
+        {
+          "name": "c1",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "c2",
+          "hex": "#c3f0f7"
+        },
+        {
+          "name": "c3",
+          "hex": "#324fbe"
+        },
+        {
+          "name": "c4",
+          "hex": "#beb0ab"
+        },
+        {
+          "name": "c5",
+          "hex": "#d23201"
+        },
+        {
+          "name": "c6",
+          "hex": "#020203"
+        },
+        {
+          "name": "c7",
+          "hex": "#e73c1f"
         }
       ],
       "why": "High‑contrast maroon accent block draws attention without overwhelming the layout Generous whitespace and clear typographic hierarchy create an easy‑to‑read structure Flat icons and uniform 4 px radius give a cohesive, modern visual language Modular accordion sections provide flexible, discoverable interaction patterns Primary blue and secondary white buttons offer distinct visual affordances for ",
@@ -6856,8 +6948,8 @@
       ],
       "archetypes": [],
       "vector": {
-        "hue_family": "blue",
-        "saturation": "vibrant",
+        "hue_family": "multicolor",
+        "saturation": "soft",
         "brightness": "light",
         "corners": "soft",
         "flatness": "flat",
@@ -7066,36 +7158,24 @@
       "url": "https://hyperliquid.xyz",
       "palette": [
         {
-          "name": "--chakra-colors-black",
-          "hex": "#000000"
+          "name": "c0",
+          "hex": "#ffffff"
         },
         {
-          "name": "--chakra-colors-chakra-body-bg",
-          "hex": "#FFFFFF"
+          "name": "c1",
+          "hex": "#072723"
         },
         {
-          "name": "--chakra-colors-chakra-body-text",
-          "hex": "#1A202C"
+          "name": "c2",
+          "hex": "#97fce4"
         },
         {
-          "name": "--chakra-colors-chakra-border-color",
-          "hex": "#E2E8F0"
+          "name": "c3",
+          "hex": "#23524c"
         },
         {
-          "name": "--chakra-colors-chakra-inverse-text",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "--chakra-colors-chakra-placeholder-color",
-          "hex": "#718096"
-        },
-        {
-          "name": "--chakra-colors-chakra-subtle-bg",
-          "hex": "#EDF2F7"
-        },
-        {
-          "name": "--chakra-colors-chakra-subtle-text",
-          "hex": "#4A5568"
+          "name": "c4",
+          "hex": "#101010"
         }
       ],
       "why": "Dark background with high‑contrast white text ensures strong readability Dominant 60 px rounded corners give a soft, approachable feel Limited palette (dark, white, teal) creates clear visual hierarchy Consistent spacing (8‑20 px) and typographic scale maintain a clean layout",
@@ -7121,8 +7201,8 @@
       ],
       "archetypes": [],
       "vector": {
-        "hue_family": "blue",
-        "saturation": "muted",
+        "hue_family": "cyan",
+        "saturation": "soft",
         "brightness": "dark",
         "corners": "generous",
         "flatness": "flat",
@@ -7920,36 +8000,32 @@
       "url": "https://www.ledger.com",
       "palette": [
         {
-          "name": "--wp--preset--color--black",
+          "name": "c0",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "c1",
           "hex": "#000000"
         },
         {
-          "name": "--wp--preset--color--cyan-bluish-gray",
-          "hex": "#abb8c3"
+          "name": "c2",
+          "hex": "#949494"
         },
         {
-          "name": "--wp--preset--color--light-green-cyan",
-          "hex": "#7bdcb5"
+          "name": "c3",
+          "hex": "#525252"
         },
         {
-          "name": "--wp--preset--color--luminous-vivid-amber",
-          "hex": "#fcb900"
+          "name": "c4",
+          "hex": "#262626"
         },
         {
-          "name": "--wp--preset--color--luminous-vivid-orange",
-          "hex": "#ff6900"
+          "name": "c5",
+          "hex": "#d4a0ff"
         },
         {
-          "name": "--wp--preset--color--pale-cyan-blue",
-          "hex": "#8ed1fc"
-        },
-        {
-          "name": "--wp--preset--color--pale-pink",
-          "hex": "#f78da7"
-        },
-        {
-          "name": "--wp--preset--color--vivid-cyan-blue",
-          "hex": "#0693e3"
+          "name": "c6",
+          "hex": "#ff5300"
         }
       ],
       "why": "High‑contrast orange CTA button stands out against the dark background, creating strong visual hierarchy Consistent 2 px corner radius on all interactive elements unifies the interface Large headline paired with concise supporting text establishes clear information hierarchy Use of a monospaced font for technical details adds precision and readability Generous white space and grid‑based layout imp",
@@ -7970,11 +8046,11 @@
         "tech"
       ],
       "archetypes": [
-        "funky"
+        "brutalist"
       ],
       "vector": {
-        "hue_family": "multicolor",
-        "saturation": "vibrant",
+        "hue_family": "purple",
+        "saturation": "soft",
         "brightness": "light",
         "corners": "sharp",
         "flatness": "flat",
@@ -8017,10 +8093,6 @@
         {
           "name": "--pagination-bullet-color",
           "hex": "#fff"
-        },
-        {
-          "name": "--swiper-theme-color",
-          "hex": "#007aff"
         }
       ],
       "why": "Bold purple kinetic typography against a black background creates strong visual impact Large, overlapping letterforms generate depth and a tunnel-like perspective Clear hierarchy with prominent headline and distinct call-to-action buttons Consistent use of ample white space and uniform spacing enhances readability",
@@ -8039,10 +8111,13 @@
         "spatial",
         "typography"
       ],
-      "archetypes": [],
+      "archetypes": [
+        "dark-minimal",
+        "minimalist"
+      ],
       "vector": {
-        "hue_family": "blue",
-        "saturation": "soft",
+        "hue_family": "neutral",
+        "saturation": "muted",
         "brightness": "dark",
         "corners": "soft",
         "flatness": "flat",
@@ -8079,36 +8154,36 @@
       "url": "https://linear.app",
       "palette": [
         {
-          "name": "--tweet-bg-color",
-          "hex": "#fff"
+          "name": "c0",
+          "hex": "#f7f8f8"
         },
         {
-          "name": "--tweet-bg-color-hover",
-          "hex": "#f7f9f9"
+          "name": "c1",
+          "hex": "#62666d"
         },
         {
-          "name": "--tweet-color-blue-primary",
-          "hex": "#1d9bf0"
+          "name": "c2",
+          "hex": "#8a8f98"
         },
         {
-          "name": "--tweet-color-blue-primary-hover",
-          "hex": "#1a8cd8"
+          "name": "c3",
+          "hex": "#08090a"
         },
         {
-          "name": "--tweet-color-blue-secondary",
-          "hex": "#006fd6"
+          "name": "c4",
+          "hex": "#27a644"
         },
         {
-          "name": "--tweet-color-blue-secondary-hover",
-          "hex": "#006fd61a"
+          "name": "c5",
+          "hex": "#eb5757"
         },
         {
-          "name": "--tweet-color-green-primary",
-          "hex": "#00ba7c"
+          "name": "c6",
+          "hex": "#5e6ad2"
         },
         {
-          "name": "--tweet-color-green-primary-hover",
-          "hex": "#00ba7c1a"
+          "name": "c7",
+          "hex": "#000000"
         }
       ],
       "why": "Dark background with bright accent colors provides high contrast readability Monospace font for code sections paired with variable sans-serif for body creates typographic hierarchy Consistent 2px radius on UI elements yields a cohesive, flat aesthetic Abundant interactive components such as tabs, carousels, and clickables support rich navigation",
@@ -8133,10 +8208,13 @@
         "structured",
         "structured layout"
       ],
-      "archetypes": [],
+      "archetypes": [
+        "brutalist",
+        "premium"
+      ],
       "vector": {
-        "hue_family": "blue",
-        "saturation": "vibrant",
+        "hue_family": "multicolor",
+        "saturation": "soft",
         "brightness": "dark",
         "corners": "sharp",
         "flatness": "flat",
@@ -8685,36 +8763,36 @@
       "url": "https://www.metabase.com",
       "palette": [
         {
-          "name": "--bs-blue",
-          "hex": "#0d6efd"
+          "name": "c0",
+          "hex": "#5a6072"
         },
         {
-          "name": "--bs-cyan",
-          "hex": "#0dcaf0"
+          "name": "c1",
+          "hex": "#509ee3"
         },
         {
-          "name": "--bs-danger",
-          "hex": "#dc3545"
+          "name": "c2",
+          "hex": "#f1f2f4"
         },
         {
-          "name": "--bs-dark",
-          "hex": "#212529"
+          "name": "c3",
+          "hex": "#22242b"
         },
         {
-          "name": "--bs-gray",
-          "hex": "#6c757d"
+          "name": "c4",
+          "hex": "#8d93a5"
         },
         {
-          "name": "--bs-gray-dark",
-          "hex": "#343a40"
+          "name": "c5",
+          "hex": "#28609f"
         },
         {
-          "name": "--bs-green",
-          "hex": "#198754"
+          "name": "c6",
+          "hex": "#c6c9d2"
         },
         {
-          "name": "--bs-indigo",
-          "hex": "#6610f2"
+          "name": "c7",
+          "hex": "#000000"
         }
       ],
       "why": "Clear typographic hierarchy with large headings and legible body text Consistent use of white space and subtle blue accent color for interactive elements Card-based layout with rounded corners creates visual grouping of content sections Well-defined grid system ensures alignment of charts, text, and UI components Data visualizations use distinct colors and legends for easy interpretation",
@@ -8733,12 +8811,11 @@
         "typography"
       ],
       "archetypes": [
-        "funky",
         "glassmorphic"
       ],
       "vector": {
-        "hue_family": "multicolor",
-        "saturation": "vibrant",
+        "hue_family": "blue",
+        "saturation": "soft",
         "brightness": "light",
         "corners": "generous",
         "flatness": "elevated",
@@ -10792,36 +10869,36 @@
       "url": "https://oura.com",
       "palette": [
         {
-          "name": "--wp--preset--color--black",
+          "name": "c0",
+          "hex": "#e5e7eb"
+        },
+        {
+          "name": "c1",
+          "hex": "#333333"
+        },
+        {
+          "name": "c2",
+          "hex": "#0071c2"
+        },
+        {
+          "name": "c3",
           "hex": "#000000"
         },
         {
-          "name": "--wp--preset--color--cyan-bluish-gray",
-          "hex": "#abb8c3"
+          "name": "c4",
+          "hex": "#6b3460"
         },
         {
-          "name": "--wp--preset--color--light-green-cyan",
-          "hex": "#7bdcb5"
+          "name": "c5",
+          "hex": "#888888"
         },
         {
-          "name": "--wp--preset--color--luminous-vivid-amber",
-          "hex": "#fcb900"
+          "name": "c6",
+          "hex": "#1b870b"
         },
         {
-          "name": "--wp--preset--color--luminous-vivid-orange",
-          "hex": "#ff6900"
-        },
-        {
-          "name": "--wp--preset--color--pale-cyan-blue",
-          "hex": "#8ed1fc"
-        },
-        {
-          "name": "--wp--preset--color--pale-pink",
-          "hex": "#f78da7"
-        },
-        {
-          "name": "--wp--preset--color--vivid-cyan-blue",
-          "hex": "#0693e3"
+          "name": "c7",
+          "hex": "#9c1a1a"
         }
       ],
       "why": "Clear visual hierarchy with a prominent search form centered on the page Use of contrasting primary blue button against a white background for strong call-to-action visibility Rounded corners on cards and inputs create a soft, approachable aesthetic Consistent spacing and alignment give the layout a tidy, organized feel Integrated video thumbnail provides an engaging, informative element without c",
@@ -10845,12 +10922,11 @@
         "white"
       ],
       "archetypes": [
-        "funky",
         "glassmorphic"
       ],
       "vector": {
         "hue_family": "multicolor",
-        "saturation": "vibrant",
+        "saturation": "soft",
         "brightness": "light",
         "corners": "rounded",
         "flatness": "elevated",
@@ -11066,36 +11142,8 @@
       "url": "https://penpot.app",
       "palette": [
         {
-          "name": "--antd-blue",
-          "hex": "#1677ff"
-        },
-        {
-          "name": "--antd-cyan",
-          "hex": "#13C2C2"
-        },
-        {
-          "name": "--antd-geekblue",
-          "hex": "#2F54EB"
-        },
-        {
-          "name": "--antd-gold",
-          "hex": "#FAAD14"
-        },
-        {
-          "name": "--antd-green",
-          "hex": "#52C41A"
-        },
-        {
-          "name": "--antd-lime",
-          "hex": "#A0D911"
-        },
-        {
-          "name": "--antd-magenta",
-          "hex": "#EB2F96"
-        },
-        {
-          "name": "--antd-orange",
-          "hex": "#FA8C16"
+          "name": "--gray-canvas",
+          "hex": "rgb(246,246,246)"
         }
       ],
       "why": "Bold headline with large typography establishes clear visual hierarchy Accent color highlights the primary CTA button, drawing user attention Dark-themed UI mockup with layered panels demonstrates depth and tool integration Consistent spacing and 3px rounded corners create visual harmony across elements",
@@ -11116,11 +11164,11 @@
         "wireframe"
       ],
       "archetypes": [
-        "funky"
+        "minimalist"
       ],
       "vector": {
-        "hue_family": "multicolor",
-        "saturation": "vibrant",
+        "hue_family": "neutral",
+        "saturation": "muted",
         "brightness": "light",
         "corners": "soft",
         "flatness": "flat",
@@ -11242,36 +11290,28 @@
       "url": "https://phantom.app",
       "palette": [
         {
-          "name": "--tweet-bg-color",
-          "hex": "#fff"
+          "name": "c0",
+          "hex": "#3c315b"
         },
         {
-          "name": "--tweet-bg-color-hover",
-          "hex": "rgb(247, 249, 249)"
+          "name": "c1",
+          "hex": "#fffdf8"
         },
         {
-          "name": "--tweet-color-blue-primary",
-          "hex": "rgb(29, 155, 240)"
+          "name": "c2",
+          "hex": "#1c1c1c"
         },
         {
-          "name": "--tweet-color-blue-primary-hover",
-          "hex": "rgb(26, 140, 216)"
+          "name": "c3",
+          "hex": "#86848d"
         },
         {
-          "name": "--tweet-color-blue-secondary",
-          "hex": "rgb(0, 111, 214)"
+          "name": "c4",
+          "hex": "#ab9ff2"
         },
         {
-          "name": "--tweet-color-green-primary",
-          "hex": "rgb(0, 186, 124)"
-        },
-        {
-          "name": "--tweet-color-red-primary",
-          "hex": "rgb(249, 24, 128)"
-        },
-        {
-          "name": "--tweet-font-color",
-          "hex": "rgb(15, 20, 25)"
+          "name": "c5",
+          "hex": "#e2dffe"
         }
       ],
       "why": "Bold headline over dark gradient background draws immediate attention Rounded 32px buttons create visual cohesion and modern feel High contrast dark text on light background ensures readability Subtle abstract shapes add depth without distracting from content Cookie consent banner is small and non‑intrusive",
@@ -11288,11 +11328,9 @@
         "rounded",
         "sans-serif"
       ],
-      "archetypes": [
-        "funky"
-      ],
+      "archetypes": [],
       "vector": {
-        "hue_family": "multicolor",
+        "hue_family": "blue",
         "saturation": "vibrant",
         "brightness": "light",
         "corners": "generous",
@@ -11775,16 +11813,36 @@
       "url": "https://posthog.com",
       "palette": [
         {
-          "name": "--swiper-pagination-bullet-inactive-color",
-          "hex": "#000"
+          "name": "c0",
+          "hex": "#111111"
         },
         {
-          "name": "--swiper-pagination-color",
+          "name": "c1",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "c2",
+          "hex": "#65675e"
+        },
+        {
+          "name": "c3",
+          "hex": "#bfc1b7"
+        },
+        {
+          "name": "c4",
           "hex": "#f54e00"
         },
         {
-          "name": "--swiper-theme-color",
-          "hex": "#007aff"
+          "name": "c5",
+          "hex": "#eb9d2a"
+        },
+        {
+          "name": "c6",
+          "hex": "#b17816"
+        },
+        {
+          "name": "c7",
+          "hex": "#e5e7e0"
         }
       ],
       "why": "Light green textured background creates a calm, focused canvas while maintaining visual interest. Vibrant orange-red accent color highlights primary actions and provides strong contrast for navigation. Consistent 40% rounded corners soften UI elements, aligning with flat design aesthetics. Clear typographic hierarchy using distinct fonts for headings and monospace for code snippets improves readab",
@@ -11803,12 +11861,12 @@
         "vibrant"
       ],
       "archetypes": [
-        "funky",
-        "glassmorphic"
+        "glassmorphic",
+        "warm-minimal"
       ],
       "vector": {
         "hue_family": "orange",
-        "saturation": "vibrant",
+        "saturation": "soft",
         "brightness": "light",
         "corners": "generous",
         "flatness": "flat",
@@ -14083,8 +14141,36 @@
       "url": "https://www.sketch.com",
       "palette": [
         {
-          "name": "--swiper-theme-color",
-          "hex": "#007aff"
+          "name": "c0",
+          "hex": "#000000"
+        },
+        {
+          "name": "c1",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "c2",
+          "hex": "#0000ee"
+        },
+        {
+          "name": "c3",
+          "hex": "#5c5c5c"
+        },
+        {
+          "name": "c4",
+          "hex": "#32adf7"
+        },
+        {
+          "name": "c5",
+          "hex": "#744bd0"
+        },
+        {
+          "name": "c6",
+          "hex": "#e97f42"
+        },
+        {
+          "name": "c7",
+          "hex": "#101010"
         }
       ],
       "why": "Large headline with generous whitespace creates strong visual hierarchy Dark UI mockup with vibrant gradient accents adds depth and focus Consistent 12px corner radius and spacing maintains visual cohesion Clear call-to-action buttons using accent blue improve usability Layered layout with distinct sections enhances readability",
@@ -14111,7 +14197,7 @@
       ],
       "vector": {
         "hue_family": "blue",
-        "saturation": "vibrant",
+        "saturation": "soft",
         "brightness": "light",
         "corners": "rounded",
         "flatness": "elevated",
@@ -14166,10 +14252,6 @@
         {
           "name": "--sidebar-highlight-color",
           "hex": "#1264a3"
-        },
-        {
-          "name": "--swiper-theme-color",
-          "hex": "#007aff"
         }
       ],
       "why": "High‑contrast purple accent paired with ample white space creates visual hierarchy Large, bold headline typography establishes clear information hierarchy Rounded‑corner cards with 16 px radius give a cohesive, modern UI feel Consistent use of accent colors for buttons and interactive elements enhances usability Clean layout with balanced spacing and clear CTA placement improves readability",
@@ -14191,12 +14273,12 @@
         "white-space"
       ],
       "archetypes": [
-        "funky",
-        "glassmorphic"
+        "glassmorphic",
+        "warm-minimal"
       ],
       "vector": {
         "hue_family": "pink",
-        "saturation": "vibrant",
+        "saturation": "soft",
         "brightness": "light",
         "corners": "rounded",
         "flatness": "elevated",
@@ -17209,34 +17291,6 @@
         {
           "name": "--color-black",
           "hex": "#000"
-        },
-        {
-          "name": "--swiper-theme-color",
-          "hex": "#007aff"
-        },
-        {
-          "name": "--toastify-color-dark",
-          "hex": "#121212"
-        },
-        {
-          "name": "--toastify-color-info",
-          "hex": "#3498db"
-        },
-        {
-          "name": "--toastify-color-light",
-          "hex": "#fff"
-        },
-        {
-          "name": "--toastify-color-progress-dark",
-          "hex": "#bb86fc"
-        },
-        {
-          "name": "--toastify-color-progress-info",
-          "hex": "#3498db"
-        },
-        {
-          "name": "--toastify-color-progress-success",
-          "hex": "#07bc0c"
         }
       ],
       "why": "Large hero image with bold white overlay text creates strong visual hierarchy. Generous whitespace and consistent vertical rhythm using 8px and 9px spacing. Rounded 16px radius buttons and UI elements provide subtle visual softness. Simple top navigation with limited controls maintains focus on content.",
@@ -17255,13 +17309,12 @@
         "typography"
       ],
       "archetypes": [
-        "funky",
         "glassmorphic",
-        "playful"
+        "minimalist"
       ],
       "vector": {
-        "hue_family": "multicolor",
-        "saturation": "vibrant",
+        "hue_family": "neutral",
+        "saturation": "muted",
         "brightness": "light",
         "corners": "rounded",
         "flatness": "flat",

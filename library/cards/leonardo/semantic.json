@@ -54,11 +54,13 @@
   "semantic_colors": {
     "light": {
       "--background": "#000",
-      "--pagination-bullet-color": "#fff",
-      "--swiper-theme-color": "#007aff"
+      "--pagination-bullet-color": "#fff"
     },
     "dark": {},
-    "note": "curated: names with no digits whose value is a color"
+    "note": "curated: names with no digits whose value is a color",
+    "vendor_filtered": [
+      "--swiper-theme-color"
+    ]
   },
   "design_intent": {
     "vibe": [

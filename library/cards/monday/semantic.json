@@ -160,7 +160,6 @@
       "--secondary": "#676879",
       "--status-purple": "#9d50dd",
       "--surface-light": "#f3f4f5",
-      "--swiper-theme-color": "#007aff",
       "--text-color--black": "#000",
       "--text-color--white": "#fff",
       "--turquoise": "#00d2d2",
@@ -169,7 +168,10 @@
       "--yellow": "#fc0"
     },
     "dark": {},
-    "note": "curated: names with no digits whose value is a color"
+    "note": "curated: names with no digits whose value is a color",
+    "vendor_filtered": [
+      "--swiper-theme-color"
+    ]
   },
   "design_intent": {
     "vibe": [
