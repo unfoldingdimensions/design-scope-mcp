@@ -117,8 +117,13 @@ def dembrandt_tokens(url: str, slug: str, workdir: Path, timeout_s: int = 240) -
     npx_cmd = "npx.cmd" if os.name == "nt" else "npx"
     cmd = [npx_cmd, "-y", "dembrandt", safe_url(url), "--save-output", "--mobile"]
     try:
+        # text=True alone decodes the child's output with the locale codec; on a
+        # Windows console (cp1252) dembrandt's UTF-8 box-drawing output then
+        # raised UnicodeDecodeError in subprocess' reader thread, which crashed
+        # the process with exit 1 AFTER the card had been written successfully.
         res = subprocess.run(
-            cmd, capture_output=True, text=True, timeout=timeout_s, cwd=str(workdir)
+            cmd, capture_output=True, text=True, encoding="utf-8", errors="replace",
+            timeout=timeout_s, cwd=str(workdir)
         )
         # dembrandt --save-output writes to <cwd>/output/<domain>/<timestamp>.json
         outdir = workdir / "output"

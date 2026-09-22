@@ -306,18 +306,29 @@ tests/                 smoke and unit suites (no framework needed)
 ## Tests
 
 ```bash
-python tests/client_smoke.py                  # real stdio MCP transport and error paths
-python tests/client_smoke.py --queue          # in-process capture queue mock (no network)
+# unit suites — none of them launches a browser, so `playwright install` is
+# not needed to run them
 python tests/test_style_search.py             # search layer unit tests
-python tests/test_semantic_pass.py            # classifier and vocabulary guard
+python tests/test_semantic_pass.py            # classifier, vocabulary guard, vendor-token filter
 python tests/test_style_index.py              # vectors and hue boundaries (temp fixture)
 python tests/test_behavior_pass.py            # hover-diff regression guard
 python tests/test_vocabulary_consistency.py   # producers are a subset of search vocabulary
+python tests/test_skill_scripts.py            # compare.py/theme.py resolver + vendored copies
+python tests/test_stats.py                    # corpus counts and the exposed tool surface
+python tests/test_page_structure.py           # band contract (corpus-measured + curated fallback)
+python tests/test_section_blueprint.py        # per-band recipe
+python tests/test_section_scan.py             # corpus band inventory
+python tests/test_blueprint.py                # band skeleton renderer
+python tests/test_one_shot.py                 # one-shot scaffold and grade plumbing
+python tests/test_verdict.py                  # six-check rubric scoring
+
+# end-to-end
+python tests/client_smoke.py --queue          # in-process capture queue mock (no network, no browser)
+python tests/client_smoke.py                  # real stdio MCP transport, all 11 tools + error paths
 ```
 
-The unit suites and the queue mock run in CI on every push, on both
-ubuntu-latest and windows-latest. Shared test plumbing lives in
-`tests/_harness.py`.
+Every suite above runs in CI on every push, on both ubuntu-latest and
+windows-latest. Shared test plumbing lives in `tests/_harness.py`.
 
 ## Data provenance
 

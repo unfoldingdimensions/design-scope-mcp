@@ -23,11 +23,13 @@
       "--article-theme-secondary": "#fff",
       "--attachment-color": "#000",
       "--sidebar-color": "#400d40",
-      "--sidebar-highlight-color": "#1264a3",
-      "--swiper-theme-color": "#007aff"
+      "--sidebar-highlight-color": "#1264a3"
     },
     "dark": {},
-    "note": "curated: names with no digits whose value is a color"
+    "note": "curated: names with no digits whose value is a color",
+    "vendor_filtered": [
+      "--swiper-theme-color"
+    ]
   },
   "design_intent": {
     "vibe": [

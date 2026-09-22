@@ -118,6 +118,18 @@ def main():
         src = (lib / f"{name}.py").read_text(encoding="utf-8")
         check(f"{name} CLI configures utf-8 console", "utf8_stdout()" in src)
 
+    # Same contract for the scripts/ CLIs. They are repo-local and several are
+    # mirrored into the skill, so they configure the streams inline with stdlib
+    # only instead of importing library/_console — either form is fine, but a
+    # CLI that prints non-ASCII and configures nothing dies mid-run on Windows.
+    scripts = lib.parent / "scripts"
+    for name in ("one_shot", "stats", "verdict", "blueprint", "build_showcase",
+                 "page_structure", "section_blueprint", "section_scan", "theme",
+                 "compare"):
+        src = (scripts / f"{name}.py").read_text(encoding="utf-8")
+        check(f"scripts/{name}.py configures utf-8 console",
+              "utf8_stdout()" in src or 'reconfigure(encoding="utf-8"' in src)
+
     finish()
 
 

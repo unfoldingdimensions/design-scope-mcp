@@ -6,6 +6,8 @@ evidence) + behaviors.md (interaction mechanisms).
 Outputs into <card_dir>/semantic.json:
   1. named_tokens    — CSS custom properties from :root / [data-theme=dark],
                        with one level of var() resolution (--blurple → #5865f2)
+                       and third-party vendor namespaces filtered out of the
+                       curated colors (see VENDOR_TOKEN_PREFIXES)
   2. design_intent   — deterministic classifier: vibe, rhythm, flatness,
                        corner style, type mood (from measured data, honest)
   3. z_index         — max z-index per component role (nav/dropdown/modal/...)
@@ -161,6 +163,68 @@ def _hex(value: str) -> str | None:
     return None
 
 
+# Third-party token namespaces. A globally-scoped custom-property sweep cannot
+# tell an embedded widget or a CSS framework from the site's own design system,
+# so another product's tokens ended up advertised as the site's palette in the
+# shipped library: --tweet-* (X embeds) as "Linear's palette", --wp--preset--*
+# (WordPress) as ledger's and oura's, --bs-* (Bootstrap) as metabase's,
+# --chakra-* as bun's / deepnote's / hyperliquid's.
+#
+# Kept deliberately conservative — only namespaces that identify one vendor.
+# Each entry includes its trailing dash, and only the double-dash --wp-- form is
+# safe by construction (a site's --wp-brand is not caught); the rest are
+# vendor-specific by convention, so a site that deliberately names its own
+# tokens --bs-* would be filtered too. The tradeoff is documented rather than
+# hidden: over-filtering silently drops real tokens, which is the same class of
+# defect as under-filtering.
+VENDOR_TOKEN_PREFIXES = (
+    "--tweet-",     # X / Twitter embed
+    "--wp--",       # WordPress core presets (--wp--preset--color--*)
+    "--bs-",        # Bootstrap 5 (--bs-blue, --bs-body-bg)
+    "--chakra-",    # Chakra UI
+    "--ant-",       # Ant Design v5 token namespace
+    "--vant-",      # Vant
+    "--mdc-",       # Material Components
+    # added after a sweep of the shipped library found them still present in
+    # semantic_colors: react-toastify (peloton 24, world 21), Swiper
+    # (affirm, aljazeera, allbirds, anytype, brilliant, eightsleep, hotjar,
+    # sketch), Ant Design's --antd- palette (penpot 13) and the InKeep widget,
+    # which carries Chakra tokens inside it (bun 9).
+    # Deliberately NOT added: --carousel-* (theguardian's own carousel
+    # component), --color-twitter / --mc-color-twitter (a site's brand colour
+    # for a share button, not an embedded widget's stylesheet), and generic
+    # "carousel" matches elsewhere (klaviyo, go, revolut, uniqlo).
+    "--swiper-",    # Swiper carousel
+    "--toastify-",  # react-toastify
+    "--antd-",      # Ant Design's own colour palette
+    "--inkeep-",    # InKeep embedded widget
+)
+
+
+def is_vendor_token(name: str) -> bool:
+    """True for a custom property owned by an embedded third-party framework."""
+    return name.startswith(VENDOR_TOKEN_PREFIXES)
+
+
+def curated_semantic_colors(d: dict) -> tuple[dict, list[str]]:
+    """Named color tokens from a token dict, plus the vendor names dropped.
+
+    Names with digits are not curated (--blurple yes, --brand-560 no) — the
+    uidrop-style "Named color tokens" list. Vendor tokens are returned
+    separately rather than discarded so semantic.json can record what was
+    filtered (auditable, and reversible if the list is ever wrong).
+    """
+    out, dropped = {}, []
+    for k, v in d.items():
+        if not re.fullmatch(r"--[a-z][a-z-]*", k) or not _hex(v):
+            continue
+        if is_vendor_token(k):
+            dropped.append(k)
+            continue
+        out[k] = v
+    return dict(sorted(out.items())), sorted(dropped)
+
+
 def _resolve_vars(custom: list[dict]) -> dict[str, str]:
     """Resolve one level of var() references; returns name -> concrete value."""
     by_selector: dict[str, dict[str, str]] = {}
@@ -305,16 +369,10 @@ def semantic_probe(page, card_dir: Path, url: str) -> dict:
 
         # curated semantic colors: names with NO digits (--blurple yes,
         # --brand-560 no) whose value resolves to a color — the uidrop-style
-        # "Named color tokens" list
-        def _semantic_colors(d: dict) -> dict:
-            out = {}
-            for k, v in d.items():
-                if re.fullmatch(r"--[a-z][a-z-]*", k) and _hex(v):
-                    out[k] = v
-            return dict(sorted(out.items()))
-
-        semantic_colors_light = _semantic_colors(named_light)
-        semantic_colors_dark = _semantic_colors(named_dark)
+        # "Named color tokens" list. Vendor tokens are excluded here, so a
+        # capture cannot present another product's palette as the site's.
+        semantic_colors_light, vendor_light = curated_semantic_colors(named_light)
+        semantic_colors_dark, vendor_dark = curated_semantic_colors(named_dark)
 
         # 2. z-index by role (tolerant of var() references / non-numeric)
         z_by_role: dict[str, int] = {}
@@ -362,6 +420,7 @@ def semantic_probe(page, card_dir: Path, url: str) -> dict:
                 "light": semantic_colors_light,
                 "dark": semantic_colors_dark,
                 "note": "curated: names with no digits whose value is a color",
+                "vendor_filtered": vendor_light + vendor_dark,
             },
             "design_intent": intent,
             "z_index": z_by_role,

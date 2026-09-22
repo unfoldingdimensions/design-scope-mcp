@@ -38,11 +38,13 @@
       "--primary-dark-color": "#118add",
       "--primary-light-color": "#9fc9e6",
       "--secondary-color": "#fec300",
-      "--swiper-theme-color": "#007aff",
       "--ticker-color": "#d71c45"
     },
     "dark": {},
-    "note": "curated: names with no digits whose value is a color"
+    "note": "curated: names with no digits whose value is a color",
+    "vendor_filtered": [
+      "--swiper-theme-color"
+    ]
   },
   "design_intent": {
     "vibe": [

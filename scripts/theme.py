@@ -42,6 +42,34 @@ GLOBAL_LIBRARY = Path(os.environ.get("DESIGN_SCOPE_LIBRARY", str(_default_librar
 
 AA_NORMAL = 4.5
 
+# Third-party token namespaces — must match library/semantic_pass.py. Cards
+# captured before that producer-side filter existed still carry another
+# product's tokens (cards/linear/semantic.json holds X's --tweet-* embed
+# tokens, cards/metabase the Bootstrap --bs-* set), and borrowing one of them
+# returned the embed's palette as the site's. Skipping them here fixes the
+# borrow for cards already in the library, with no recapture.
+VENDOR_TOKEN_PREFIXES = (
+    "--tweet-",     # X / Twitter embed
+    "--wp--",       # WordPress core presets
+    "--bs-",        # Bootstrap 5
+    "--chakra-",    # Chakra UI
+    "--ant-",       # Ant Design v5
+    "--vant-",      # Vant
+    "--mdc-",       # Material Components
+    # must stay in step with library/semantic_pass.py — added from a sweep of the
+    # shipped library: Swiper, react-toastify, Ant Design's --antd- palette,
+    # InKeep. See semantic_pass for what was deliberately left alone.
+    "--swiper-",    # Swiper carousel
+    "--toastify-",  # react-toastify
+    "--antd-",      # Ant Design's own colour palette
+    "--inkeep-",    # InKeep embedded widget
+)
+
+
+def _is_vendor_token(name: str) -> bool:
+    """True for a custom property owned by an embedded third-party framework."""
+    return name.startswith(VENDOR_TOKEN_PREFIXES)
+
 
 def _lum(hex_color: str) -> float:
     h = hex_color.lstrip("#")
@@ -149,6 +177,28 @@ def borrow_theme(slug: str, target: str = ".") -> dict:
     sc = sem.get("semantic_colors", {}).get("light", {})
     sc_dark = sem.get("semantic_colors", {}).get("dark", {})
 
+    # The CARD's own fingerprint carries Dembrandt's measured semantic colors
+    # (background/text/primary/accent). It is the difference between borrowing
+    # and failing for every card whose token vocabulary is digit-named
+    # (--brand-500, --hds-space-core-200, --bs-blue): the curated no-digit rule
+    # in semantic_pass yields an empty palette for those, so those cards raise
+    # "no color tokens usable for a theme".
+    #
+    # Used as a LAST RESORT (see pick_any step 5), deliberately: preferring it
+    # over the named tokens would change the borrow output of 116 of 204 cards,
+    # 107 of them from a plausible-but-often-wrong pick (a hyperlink colour or a
+    # contrast token standing in for the page background) to the measured one.
+    # That is a real improvement, but it is a separate decision with its own
+    # review cost, not something to smuggle into a backfill. This file keeps
+    # every currently-working borrow identical.
+    # ACCENT is included here because FP_KEY predates it, so accent was
+    # unreachable through the target fingerprint too.
+    CARD_FP_KEY = {"bg": "background", "text": "text", "primary": "primary",
+                   "accent": "accent", "muted": "muted"}
+    card_fp_path = card_dir / "fingerprint.json"
+    card_fp = json.loads(card_fp_path.read_text(encoding="utf-8")) if card_fp_path.exists() else {}
+    card_fp_sem = (card_fp.get("colors") or {}).get("semantic", {}) or {}
+
     # fingerprint semantic colors as a bg/text tiebreaker — the card's token
     # vocabulary may be swatch-named (--swatch--accent) with no real bg token.
     # NOTE: Dembrandt's semantic keys are background/text/primary, not bg/text.
@@ -159,11 +209,12 @@ def borrow_theme(slug: str, target: str = ".") -> dict:
         # 1. semantic-named tokens first
         for name in prefers:
             v = sc.get(name) or sc_dark.get(name)
-            if v:
+            if v and not _is_vendor_token(name):
                 hx = _hex_of(v)
                 if hx:
                     return name, hx
         # 2. fingerprint semantic (real measured bg/text) — beats swatch tokens
+        # 2b. the target project's fingerprint (its own measured bg/text)
         fp_key = FP_KEY.get(role)
         if fp_key and fp_sem.get(fp_key):
             hx = _hex_of(str(fp_sem[fp_key]))
@@ -173,7 +224,8 @@ def borrow_theme(slug: str, target: str = ".") -> dict:
         #    swatch ≈ bg, darkest ≈ text, mid ≈ muted, accent = first saturated
         if role in ("bg", "text", "muted"):
             swatches = [(name, v) for name, v in sc.items()
-                        if v and _hex_of(v) and "swatch" in name]
+                        if v and _hex_of(v) and "swatch" in name
+                        and not _is_vendor_token(name)]
             if swatches:
                 graded = sorted(swatches, key=lambda kv: _lum(_hex_of(kv[1]) or "#000"))
                 if role == "text":
@@ -187,9 +239,20 @@ def borrow_theme(slug: str, target: str = ".") -> dict:
         parsed = []
         for name, v in sc.items():
             hx = _hex_of(v) if v else None
-            if hx:
+            if hx and not _is_vendor_token(name):
                 parsed.append((name, hx))
         if not parsed:
+            # 5. last resort: the card's own measured fingerprint colors
+            #    (background/text/primary/accent). Only reached when the card has
+            #    no usable named token at all — the digit-named vocabularies
+            #    (--brand-500, --hds-space-core-200) where the curated palette is
+            #    empty. Dembrandt measured these already and the file ships with
+            #    the card, so those cards borrow without any recapture.
+            card_key = CARD_FP_KEY.get(role)
+            if card_key and card_fp_sem.get(card_key):
+                hx = _hex_of(str(card_fp_sem[card_key]))
+                if hx:
+                    return f"(card fingerprint {role})", hx
             return None
         if role == "text":
             return None  # no real text token — derived from bg after picking
@@ -241,6 +304,7 @@ def borrow_theme(slug: str, target: str = ".") -> dict:
         # one honest retry: the most saturated token distinct from bg/text
         cands = [(n, _hex_of(v)) for n, v in {**sc, **sc_dark}.items()
                  if v and _hex_of(v)
+                 and not _is_vendor_token(n)
                  and _hex_of(v).lower() not in (text_hex.lower(), bg_hex.lower())]
         if cands:
             best = max(cands, key=lambda kv: _hls_sat(kv[1]))
@@ -350,6 +414,12 @@ Generated {datetime.now(timezone.utc).isoformat(timespec='seconds')} from
 
 
 def main():
+    # Windows consoles default to cp1252 and this CLI prints non-ASCII output
+    # (arrows, bullets, check marks); without this the run aborts mid-way,
+    # after the work is already done.
+    for _s in (sys.stdout, sys.stderr):
+        if hasattr(_s, "reconfigure"):
+            _s.reconfigure(encoding="utf-8", errors="replace")
     ap = argparse.ArgumentParser()
     ap.add_argument("card", help="library card slug (e.g. deno, stripe, linear)")
     ap.add_argument("--target", default=None, help="project dir whose fingerprint.json defines 'current'")

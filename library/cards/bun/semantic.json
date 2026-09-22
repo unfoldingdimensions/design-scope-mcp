@@ -521,23 +521,25 @@
     "light": {
       "--black": "#0b0a08",
       "--blue": "#00a6e1",
-      "--chakra-ring-offset-color": "#fff",
       "--dark-gray": "#282a35",
-      "--inkeep-colors-black": "#000000",
-      "--inkeep-colors-chakra-body-bg": "#FFFFFF",
-      "--inkeep-colors-chakra-body-text": "#36424A",
-      "--inkeep-colors-chakra-border-color": "#eceef0",
-      "--inkeep-colors-chakra-inverse-text": "#FFFFFF",
-      "--inkeep-colors-chakra-placeholder-color": "#BDC2C7",
-      "--inkeep-colors-chakra-subtle-bg": "#f1f3f5",
-      "--inkeep-colors-chakra-subtle-text": "#889096",
-      "--inkeep-colors-white": "#FFFFFF",
       "--link-hover-color": "#a03939",
       "--orange": "#f89b4b",
       "--orange-light": "#d4d3d2"
     },
     "dark": {},
-    "note": "curated: names with no digits whose value is a color"
+    "note": "curated: names with no digits whose value is a color",
+    "vendor_filtered": [
+      "--chakra-ring-offset-color",
+      "--inkeep-colors-black",
+      "--inkeep-colors-chakra-body-bg",
+      "--inkeep-colors-chakra-body-text",
+      "--inkeep-colors-chakra-border-color",
+      "--inkeep-colors-chakra-inverse-text",
+      "--inkeep-colors-chakra-placeholder-color",
+      "--inkeep-colors-chakra-subtle-bg",
+      "--inkeep-colors-chakra-subtle-text",
+      "--inkeep-colors-white"
+    ]
   },
   "design_intent": {
     "vibe": [

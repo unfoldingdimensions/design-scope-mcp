@@ -7,6 +7,7 @@ Usage:
 Exits 0 on success, 1 on any failed check.
 """
 import asyncio
+import contextlib
 import json
 import sys
 import time
@@ -49,10 +50,10 @@ async def smoke_transport():
             check("card_get annotation layer", r4.get("annotation")
                   and r4["annotation"].get("design_intent"))
 
-            # analysis tools — compare.py/theme.py ship with the design-scope
-            # skill, NOT with this repo, so on a clean clone these two tools
-            # correctly return a structured error. Assert that contract instead
-            # of failing the whole smoke run for a dependency we don't ship.
+            # analysis tools — compare.py/theme.py ship in THIS repo's scripts/,
+            # so a checkout resolves them with no skill installed. The branch
+            # below still tolerates "skill scripts not found" so the smoke run
+            # also works from a tree with scripts/ stripped out.
             r5 = await call(s, "card_compare", slug="stripe", project_dir=DOGFOOD)
             if "error" in r5 and "skill scripts not found" in r5["error"]:
                 print("SKIP  card_compare — skill scripts absent (set DESIGN_SCOPE_SKILL_SCRIPTS)")
@@ -99,6 +100,15 @@ def queue_mock():
     import capture as cap
 
     captured_sites = []
+
+    @contextlib.contextmanager
+    def fake_browser():
+        # The worker's real seam launches Chromium, which CI never installs
+        # (the suite's contract is "no network, no browser"). capture_one is
+        # faked below and ignores the browser, so yield a placeholder.
+        yield None
+
+    ms._launch_browser = fake_browser
 
     def fake_capture_one(site, slug, card_dir, browser, opts):
         # deliberately NO filesystem writes — mocks must not touch the library

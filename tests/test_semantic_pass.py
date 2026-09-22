@@ -85,10 +85,48 @@ def test_vocabulary_guard():
                   s["corner_style"] in allowed_corners, str(s["corner_style"]))
 
 
+def test_vendor_tokens_filtered():
+    """A capture must not advertise an embedded framework's tokens as the site's.
+
+    Regression: cards/linear/semantic.json shipped X's --tweet-* embed tokens as
+    Linear's palette (metabase the Bootstrap --bs-* set, ledger/oura the
+    WordPress --wp--preset--* set), so theme_borrow returned the embed's colors.
+    """
+    from semantic_pass import curated_semantic_colors, is_vendor_token
+
+    raw = {
+        "--tweet-bg-color": "#fff",                # X embed
+        "--tweet-color-blue-primary": "#1d9bf0",   # X embed
+        "--bs-blue": "#0d6efd",                    # Bootstrap
+        "--wp--preset--color--black": "#000000",   # WordPress
+        "--chakra-colors-black": "#000000",        # Chakra UI
+        "--brand": "#1e5eff",                      # the site's own
+        "--blurple": "#5865f2",                    # the site's own
+        "--brand-560": "#112233",                  # digits: not curated
+        "not-a-token": "#fff",                     # not a custom property
+    }
+    kept, dropped = curated_semantic_colors(raw)
+    check("site tokens survive the vendor filter",
+          set(kept) == {"--brand", "--blurple"}, str(sorted(kept)))
+    check("vendor tokens are dropped from curated colors",
+          not ({"--tweet-bg-color", "--bs-blue", "--wp--preset--color--black",
+                "--chakra-colors-black"} & set(kept)), str(sorted(kept)))
+    check("dropped vendor names are recorded, not silently discarded",
+          set(dropped) == {"--tweet-bg-color", "--tweet-color-blue-primary",
+                           "--bs-blue", "--wp--preset--color--black",
+                           "--chakra-colors-black"}, str(dropped))
+    check("digit names still excluded", "--brand-560" not in kept, str(sorted(kept)))
+    check("double-dash namespace does not catch a site's own --wp-* token",
+          not is_vendor_token("--wp-brand") and is_vendor_token("--wp--preset--color--black"))
+    check("ordinary tokens are not vendor",
+          not is_vendor_token("--swatch--accent") and not is_vendor_token("--bg"))
+
+
 if __name__ == "__main__":
     test_corner_style_boundaries()
     test_flatness()
     test_type_mood()
     test_vibe_no_brand_tokens()
     test_vocabulary_guard()
+    test_vendor_tokens_filtered()
     finish()

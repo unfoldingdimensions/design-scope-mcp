@@ -233,13 +233,15 @@
       "--icon-default-static-dark": "#0c0c14",
       "--icon-link": "#000061",
       "--section-border-color": "#fff",
-      "--section-text-color": "#fff",
-      "--swiper-pagination-bullet-inactive-color": "#101820",
-      "--swiper-pagination-color": "#101820",
-      "--swiper-theme-color": "#101820"
+      "--section-text-color": "#fff"
     },
     "dark": {},
-    "note": "curated: names with no digits whose value is a color"
+    "note": "curated: names with no digits whose value is a color",
+    "vendor_filtered": [
+      "--swiper-pagination-bullet-inactive-color",
+      "--swiper-pagination-color",
+      "--swiper-theme-color"
+    ]
   },
   "design_intent": {
     "vibe": [

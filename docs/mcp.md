@@ -79,9 +79,12 @@ MCP has no error types — every failure returns structured JSON:
 - `DESIGN_SCOPE_LIBRARY` — override the library path (default: this repo's
   `library/`). Honored by every module: the server, capture, backfill,
   gallery, style_index, style_search, annotate, regenerate_media.
-- `DESIGN_SCOPE_SKILL_SCRIPTS` — where `compare.py`/`theme.py` live (default:
-  the Hermes-profile design-scope skill scripts). `card_compare`/`theme_borrow`
-  return a structured error when the directory is absent.
+- `DESIGN_SCOPE_SKILL_SCRIPTS` — where `compare.py`/`theme.py` live.
+  Resolution order: this env var, then an installed design-scope skill (standard
+  Hermes locations), then this repo's own `scripts/`. The vendored copies ship
+  with the repo, so both tools work on a fresh clone; when none of the three
+  resolves, `card_compare`/`theme_borrow` return a structured error instead of a
+  traceback.
 - Port: `uvicorn ... --port 8232` (change freely).
 
 ## Smoke test

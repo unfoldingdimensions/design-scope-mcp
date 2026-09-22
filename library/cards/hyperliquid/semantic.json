@@ -453,20 +453,21 @@
     }
   },
   "semantic_colors": {
-    "light": {
-      "--chakra-colors-black": "#000000",
-      "--chakra-colors-chakra-body-bg": "#FFFFFF",
-      "--chakra-colors-chakra-body-text": "#1A202C",
-      "--chakra-colors-chakra-border-color": "#E2E8F0",
-      "--chakra-colors-chakra-inverse-text": "#FFFFFF",
-      "--chakra-colors-chakra-placeholder-color": "#718096",
-      "--chakra-colors-chakra-subtle-bg": "#EDF2F7",
-      "--chakra-colors-chakra-subtle-text": "#4A5568",
-      "--chakra-colors-white": "#FFFFFF",
-      "--chakra-ring-offset-color": "#fff"
-    },
+    "light": {},
     "dark": {},
-    "note": "curated: names with no digits whose value is a color"
+    "note": "curated: names with no digits whose value is a color",
+    "vendor_filtered": [
+      "--chakra-colors-black",
+      "--chakra-colors-chakra-body-bg",
+      "--chakra-colors-chakra-body-text",
+      "--chakra-colors-chakra-border-color",
+      "--chakra-colors-chakra-inverse-text",
+      "--chakra-colors-chakra-placeholder-color",
+      "--chakra-colors-chakra-subtle-bg",
+      "--chakra-colors-chakra-subtle-text",
+      "--chakra-colors-white",
+      "--chakra-ring-offset-color"
+    ]
   },
   "design_intent": {
     "vibe": [

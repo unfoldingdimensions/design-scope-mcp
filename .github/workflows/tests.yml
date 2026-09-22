@@ -28,5 +28,23 @@ jobs:
         run: python tests/test_behavior_pass.py
       - name: Cross-module vocabulary consistency
         run: python tests/test_vocabulary_consistency.py
+      - name: Skill-script resolver and vendored copies
+        run: python tests/test_skill_scripts.py
+      - name: Corpus stats tests
+        run: python tests/test_stats.py
+      - name: Page structure tests
+        run: python tests/test_page_structure.py
+      - name: Section blueprint tests
+        run: python tests/test_section_blueprint.py
+      - name: Section scan tests
+        run: python tests/test_section_scan.py
+      - name: Blueprint renderer tests
+        run: python tests/test_blueprint.py
+      - name: One-shot pipeline tests
+        run: python tests/test_one_shot.py
+      - name: Verdict rubric tests
+        run: python tests/test_verdict.py
       - name: Capture queue mock (no network, no browser)
         run: python tests/client_smoke.py --queue
+      - name: Stdio transport smoke (all 11 tools + error paths)
+        run: python tests/client_smoke.py

@@ -551,23 +551,25 @@
   },
   "semantic_colors": {
     "light": {
-      "--antd-blue": "#1677ff",
-      "--antd-cyan": "#13C2C2",
-      "--antd-geekblue": "#2F54EB",
-      "--antd-gold": "#FAAD14",
-      "--antd-green": "#52C41A",
-      "--antd-lime": "#A0D911",
-      "--antd-magenta": "#EB2F96",
-      "--antd-orange": "#FA8C16",
-      "--antd-pink": "#eb2f96",
-      "--antd-purple": "#722ED1",
-      "--antd-red": "#F5222D",
-      "--antd-volcano": "#FA541C",
-      "--antd-yellow": "#FADB14",
       "--gray-canvas": "rgb(246,246,246)"
     },
     "dark": {},
-    "note": "curated: names with no digits whose value is a color"
+    "note": "curated: names with no digits whose value is a color",
+    "vendor_filtered": [
+      "--antd-blue",
+      "--antd-cyan",
+      "--antd-geekblue",
+      "--antd-gold",
+      "--antd-green",
+      "--antd-lime",
+      "--antd-magenta",
+      "--antd-orange",
+      "--antd-pink",
+      "--antd-purple",
+      "--antd-red",
+      "--antd-volcano",
+      "--antd-yellow"
+    ]
   },
   "design_intent": {
     "vibe": [

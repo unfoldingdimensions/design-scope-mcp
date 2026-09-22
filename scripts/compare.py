@@ -155,6 +155,12 @@ def compare_card(slug: str, project_dir: str) -> dict:
 
 
 def main():
+    # Windows consoles default to cp1252 and this CLI prints non-ASCII output
+    # (arrows, bullets, check marks); without this the run aborts mid-way,
+    # after the work is already done.
+    for _s in (sys.stdout, sys.stderr):
+        if hasattr(_s, "reconfigure"):
+            _s.reconfigure(encoding="utf-8", errors="replace")
     ap = argparse.ArgumentParser()
     ap.add_argument("reference", help="card slug (--card) or fingerprint JSON path")
     ap.add_argument("project", help="project fingerprint JSON or project dir")
